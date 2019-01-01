@@ -1,0 +1,14 @@
+url::www.jpct.net).
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::http://www.jpct.net).
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::.RunActivity

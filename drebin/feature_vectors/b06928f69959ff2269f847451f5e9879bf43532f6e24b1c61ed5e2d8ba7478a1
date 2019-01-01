@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://gmodules.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://gmodules.com/ig/api?weather%3D
+url::gmodules.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.WeatherWidgetActivity

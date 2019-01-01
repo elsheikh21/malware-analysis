@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+activity::.Help
+intent::android.intent.category.HOME
+real_permission::android.permission.WRITE_SETTINGS
+service_receiver::%E7%AD%E9%E5%AF (%E5%B8%E5%B1 1)
+real_permission::android.permission.ACCESS_WIFI_STATE
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::%E6%AD%A3%E5%B8%B8%E9%E5%AF (%E5%B8%E5%B1 1)
+permission::android.permission.WRITE_SETTINGS
+activity::.About
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/Context;->startActivity
+activity::.Settings
+call::setWifiEnabled
+call::getSystemService
+service_receiver::%E7%AD%E9%E5%AF (%E5%B8%E5%B1 2)
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+activity::.reboot
+service_receiver::%E6%AD%A3%E5%B8%B8%E9%E5%AF (%E5%B8%E5%B1 2)
+real_permission::android.permission.CHANGE_WIFI_STATE
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.CHANGE_WIFI_STATE
+activity::Hot Reboot
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+service_receiver::BootIntentReceiver
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+activity::Cold Reboot
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+api_call::android/net/wifi/WifiManager;->isWifiEnabled

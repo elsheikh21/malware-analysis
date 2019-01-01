@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://feeds.feedburner.com/PistaOculta
+call::Read/Write External Storage
+url::www.pistaoculta.com
+real_permission::android.permission.INTERNET
+url::img.youtube.com
+activity::.PistaOcultaMain
+url::http://www.pistaoculta.com
+url::http://www.pistaoculta.com/?feed%3Dgigpress
+url::http://www.pistaoculta.com/contacto/
+call::getSystemService
+activity::.PreferenciasActivity
+permission::android.permission.INTERNET
+url::http://img.youtube.com/vi/
+api_call::java/net/URL;->getContent
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER
+url::http://www.pistaoculta.com/category/general/actualidad/feed/

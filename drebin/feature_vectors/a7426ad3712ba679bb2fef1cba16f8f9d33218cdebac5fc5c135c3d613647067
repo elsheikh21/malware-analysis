@@ -1,0 +1,17 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+url::http://earthquake.usgs.gov
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Earthquake
+activity::Earthquake
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::earthquake.usgs.gov

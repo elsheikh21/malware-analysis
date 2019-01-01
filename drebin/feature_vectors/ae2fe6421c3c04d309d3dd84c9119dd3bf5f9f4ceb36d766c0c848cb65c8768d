@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::com.tools4movies.moviegallery.Folders
+intent::android.intent.category.DEFAULT
+activity::com.tools4movies.moviegallery.Prefs
+intent::android.intent.category.LAUNCHER
+activity::.gallerystart
+real_permission::android.permission.WAKE_LOCK

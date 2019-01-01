@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.OpenActivity
+activity::.CalculatorActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.RECEIVE_SMS
+call::readSMS
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+activity::.Preferences
+activity::.HelpActivity
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER

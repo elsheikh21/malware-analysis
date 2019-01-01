@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+intent::android.intent.category.DEFAULT
+activity::.ChooseFileActivity
+api_call::android/content/ContentResolver;->openFileDescriptor
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_CONTACTS
+activity::.AboutPDFViewActivity
+intent::android.intent.action.VIEW
+activity::.OpenFileActivity

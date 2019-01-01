@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://www.alwaysastrology.com/
+real_permission::android.permission.INTERNET
+url::www.zodiac-signs-meanings.com
+activity::.YourSelf
+call::getSystemService
+url::http://psychicvisions.org/
+url::http://www.c-c-c.org/culture-resources/zodiac/
+url::www.decoz.com
+activity::YourSelf
+url::shine.yahoo.com
+url::psychicvisions.org
+url::http://shine.yahoo.com/astrology/
+intent::android.intent.action.MAIN
+url::www.c-c-c.org
+url::www.alwaysastrology.com
+feature::android.hardware.screen.portrait
+url::http://www.zodiac-signs-meanings.com/
+intent::android.intent.category.LAUNCHER
+url::http://www.decoz.com/

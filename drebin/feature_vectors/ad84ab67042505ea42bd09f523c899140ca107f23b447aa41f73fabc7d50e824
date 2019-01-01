@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+api_call::android/location/LocationManager;->requestLocationUpdates
+activity::AddActivity
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::DetailsActivity
+permission::android.permission.READ_CONTACTS
+activity::PrayerListActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

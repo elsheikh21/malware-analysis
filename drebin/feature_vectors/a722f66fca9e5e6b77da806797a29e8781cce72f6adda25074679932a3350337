@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+activity::.FlashquizMain
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.facebook.com/login.php?api_key%3D
+url::http://www.facebook.com/connect/login_success.html
+permission::android.permission.INTERNET
+url::http://www.xeomax.net/fbrocket
+url::www.xeomax.net
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::api.facebook.com
+url::http://www.facebook.com/connect/login_failure.html
+url::http://api.facebook.com/restserver.php
+activity::com.android.flashquiz.FlashquizMain

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::Cipher(RC4)
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+url::http://411yp.net/fpub/image
+url::192.168.1.200
+url::http://411yp.net/fpub/zip
+url::411yp.net
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+url::http://192.168.1.200/books
+activity::.LoginActivity
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://411yp.net/tongservice/alter/index.php/indexcontroller/login
+url::http://411yp.net/tongservice/alter/index.php/indexcontroller/login_get/
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.BookmarkList
+url::http://411yp.net/tongservice/alter/index.php/indexcontroller/register
+feature::android.hardware.screen.portrait
+activity::.LocalShelfActivity
+intent::android.intent.category.LAUNCHER
+url::http://411yp.net/tongservice/alter/index.php/xml/xmlcontroller/having_login

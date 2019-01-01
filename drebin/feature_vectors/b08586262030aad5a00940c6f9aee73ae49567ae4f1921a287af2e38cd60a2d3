@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+service_receiver::com.server.service.DownloadService
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MusicTabActivity
+api_call::java/net/HttpURLConnection
+service_receiver::com.server.service.MusicPlayerService
+intent::android.intent.category.LAUNCHER
+activity::.MusicRemoteListActivity
+activity::.MusicPlayerActivity
+real_permission::android.permission.WAKE_LOCK
+activity::.MusicLocalListActivity

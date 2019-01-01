@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::Config
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.net.conn.CONNECTIVITY_CHANGE
+real_permission::android.permission.INTERNET
+url::http://mypublicaddy.appspot.com/
+api_call::java/net/NetworkInterface
+real_permission::android.permission.ACCESS_WIFI_STATE
+provider::android.appwidget.provider
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+call::getSystemService
+url::mypublicaddy.appspot.com

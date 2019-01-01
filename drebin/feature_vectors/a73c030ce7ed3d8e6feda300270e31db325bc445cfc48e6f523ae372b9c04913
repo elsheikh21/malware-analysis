@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.notonto.de
+url::http://www.notonto.de/rest/20
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::192.168.1.100
+permission::android.permission.INTERNET
+activity::.NotontoActivity
+intent::android.intent.category.LAUNCHER
+url::http://192.168.1.100:8090/rest/20
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket

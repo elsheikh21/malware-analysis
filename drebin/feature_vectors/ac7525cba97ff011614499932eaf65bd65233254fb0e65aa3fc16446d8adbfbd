@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::wordnet.princeton.edu\
+intent::android.intent.action.MAIN
+url::twilightfantasy.org<br><br>
+url::http://wordnetweb.princeton.edu/perl/webwn?s%3D
+url::wordnetweb.princeton.edu
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::http://wordnet.princeton.edu\
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://twilightfantasy.org<br><br>
+call::getPackageInfo
+api_call::java/net/URL;->openConnection

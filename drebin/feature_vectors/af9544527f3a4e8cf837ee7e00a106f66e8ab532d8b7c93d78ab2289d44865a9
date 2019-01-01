@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://www.stepdroid.com
+url::www.stepdroid.com
+url::twitter.com
+url::http://www.facebook.com/pages/Step-On-The-Web/110119879064484
+activity::com.step.widget.flowers.Settings
+api_call::android/content/Context;->startService
+url::http://twitter.com/
+activity::com.step.widget.flowers.BatterySettings
+service_receiver::Widget Step Flowers
+activity::ClassMenu
+provider::android.appwidget.provider

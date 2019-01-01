@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.FrostedGlass
+intent::android.intent.category.DEFAULT

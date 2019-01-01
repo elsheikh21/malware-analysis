@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::http://m.movoto.com/
+intent::android.intent.category.LAUNCHER
+url::m.movoto.com
+real_permission::android.permission.INTERNET
+call::getSystemService

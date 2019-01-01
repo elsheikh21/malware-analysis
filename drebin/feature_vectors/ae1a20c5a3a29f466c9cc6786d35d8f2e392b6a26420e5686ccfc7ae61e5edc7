@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.Hanwool2Settings
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://market.android.com/search?q%3Dpub:airplanez
+api_call::android/os/Vibrator;->vibrate
+call::Read/Write External Storage
+service_receiver::.Hanwool2
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+call::getSystemService

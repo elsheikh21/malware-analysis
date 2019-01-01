@@ -1,0 +1,8 @@
+activity::.YukHyo
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::YukHyo
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService

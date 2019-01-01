@@ -1,0 +1,38 @@
+feature::android.hardware.touchscreen
+service_receiver::.appwidget.def.DefaultAppWidgetService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+service_receiver::.service.NexusLabService
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::.appwidget.widget2.WidgetService
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+call::HttpPost
+url::http://www.nexus-lab.com/search/
+url::http://schemas.android.com/apk/res/android
+service_receiver::.receiver.BootListener
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+url::www.nexus-lab.com
+activity::.activity.MainActivity
+activity::.service.NexusLabService
+service_receiver::NexusLab News (4x2)
+activity::.activity.InfoActivity
+call::getSystemService
+activity::.activity.WebViewActivity
+permission::android.permission.VIBRATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.VIBRATE
+url::http://www.nexus-lab.com
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+service_receiver::NexusLab News (4x1)
+intent::android.intent.category.LAUNCHER
+activity::.activity.PreferencesActivity
+provider::android.appwidget.provider
+url::schemas.android.com

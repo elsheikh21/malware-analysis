@@ -1,0 +1,7 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SammyJoWallpapers
+api_call::android/app/WallpaperManager;->setBitmap
+real_permission::android.permission.SET_WALLPAPER
+intent::android.intent.category.LAUNCHER

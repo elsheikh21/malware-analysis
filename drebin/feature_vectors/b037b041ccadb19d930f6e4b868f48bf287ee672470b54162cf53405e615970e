@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SoundPlayer
+api_call::android/media/MediaPlayer;->start
+activity::fr.prokaryo.widget.atonoid.simple.Launch
+service_receiver::fr.prokaryo.widget.atonoid.simple.TuneWidget
+intent::android.intent.category.LAUNCHER
+activity::.Launch
+provider::android.appwidget.provider
+real_permission::android.permission.WAKE_LOCK

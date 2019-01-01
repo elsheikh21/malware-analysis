@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://i.kensakusan.com/smart/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::i.kensakusan.com
+real_permission::android.permission.INTERNET
+activity::.nichmatomerssreader
+intent::android.intent.category.LAUNCHER

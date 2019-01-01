@@ -1,0 +1,44 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::Help
+activity::Add Trip
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.MileageTracker
+activity::.Preferences
+activity::.SetNewPIN
+feature::android.hardware.screen.portrait
+intent::marklar.demo.intent.EDIT_ARCHIVE
+api_call::android/location/LocationManager;->requestLocationUpdates
+activity::Add Expense
+activity::Select Account
+activity::Export
+service_receiver::.TimeTrackingService
+activity::Archive Preferences
+activity::Select Columns
+intent::marklar.demo.intent.DEFAULT_FILE
+activity::About
+call::getSystemService
+intent::marklar.demo.intent.ABOUT
+activity::.TimeTracker
+activity::.ViewExpenses
+service_receiver::.MileageTrackingService
+activity::Create Template
+activity::Select Column To Sort By
+real_permission::android.permission.VIBRATE
+intent::marklar.demo.intent.HELP
+activity::.ViewTime
+activity::Account Summary
+activity::.ViewMileage
+activity::.LogHome
+intent::android.intent.category.DEFAULT
+activity::Add Account
+activity::Add Time
+intent::android.intent.action.MAIN
+activity::Default File Type
+activity::.ViewAccounts
+activity::.EntryPoint
+intent::android.intent.category.LAUNCHER
+activity::Edit Favorite
+activity::Select Archive To Delete
+api_call::android/app/NotificationManager;->notify
+api_call::android/content/Context;->startActivity

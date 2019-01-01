@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.dealfish.co.ke
+url::http://www.dealfish.co.ke
+permission::android.permission.INTERNET
+activity::.dealfishActivity
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,102 @@
+activity::Navaid Quick Info
+activity::.ui.routes.ListRoutesActivity
+activity::.ui.usermanagement.ResetPasswordActivity
+url::http://www.naviatorapp.com/help/NaviatorUserManual.htm
+url::http://www.naviatorapp.com/register.aspx
+activity::.ui.dtpp.DTPPAirportDetailsCustomTitleActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.PlanMenuActivity
+activity::Quick Flight Plan
+call::getPackageInfo
+call::HttpPost
+url::http://schemas.android.com/apk/res/android
+activity::.ui.downloads.InstalledFilesActivity
+activity::.MainActivity
+url::www.opengis.net
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+url::http://services.naviatorapp.com/api1_0_1
+url::http://aeronav.faa.gov/d-tpp/
+activity::.FlyMenuActivity
+url::http://schemas.android.com/apk/res/com.onetwentythree.skynav
+call::getSystemService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://www.naviatorapp.com/RenewSubscription.aspx?uid%3D
+activity::.ui.usermanagement.RegisterActivity
+activity::.ui.routes.ActiveRouteActivity
+activity::.ui.map.NearestUserWPActivity
+activity::Intersection Quick Info
+activity::.ui.usermanagement.ChangePasswordActivity
+service_receiver::.billing.BillingReceiver
+url::www.naviatorapp.com
+activity::.ui.waypoints.AirportInfoActivity
+permission::android.permission.INTERNET
+activity::Airport Quick Info
+activity::Route Details
+url::services.naviatorapp.com
+activity::.ui.usermanagement.LoginActivity
+activity::.ui.waypoints.WxTab
+activity::.ui.downloads.MyDownloadsActivity2
+activity::.ui.waypoints.IntersectionInfoActivity
+url::www.airnav.com
+url::aeronav.faa.gov
+activity::.ui.gpstracks.ListGpsTracksActivity
+activity::.ui.dtpp.DTPPAirportsActivity
+url::http://forum.naviatorapp.com/
+intent::android.intent.category.LAUNCHER
+activity::.ui.map.MapActivity
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::java/net/HttpURLConnection
+activity::TFR Details
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+activity::.ui.waypoints.QuickPlanHelpActivity
+activity::.ui.waypoints.ListUserWaypointsActivity
+api_call::android/location/LocationManager;->requestLocationUpdates
+url::sites.google.com
+activity::.ui.map.LayerPreferencesActivity
+activity::User Waypoint Quick Info
+activity::.ui.dtpp.DTPPAirportDetailsActivity
+activity::.ui.waypoints.EditUserWaypointActivity
+activity::.ui.wx.WxMetarActivity
+activity::.PreferencesActivity
+permission::com.android.vending.BILLING
+url::http://sites.google.com/site/gson/gson-user-guide
+activity::.MainMenuActivity
+activity::.ui.map.NearestNDBActivity
+service_receiver::.billing.BillingService
+url::http://www.w3.org/2001/XMLSchema-instance\
+activity::.ui.dtpp.DTPPStatesActivity
+url::forum.naviatorapp.com
+feature::android.hardware.wifi
+activity::.ui.map.MapPreferencesActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.ui.map.NearestAirportsActivity
+activity::.ui.map.NearestVORActivity
+activity::.ui.map.NearestINTActivity
+url::http://www.airnav.com/airport/
+url::schemas.android.com
+feature::android.hardware.touchscreen
+activity::.HelpMenuActivity
+activity::.ui.wx.WxTafActivity
+permission::android.permission.READ_PHONE_STATE
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.SEARCH
+real_permission::android.permission.ACCESS_WIFI_STATE
+activity::.ui.routes.ListRoutesTabActivity
+api_call::android/content/ContentResolver;->query
+permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.location
+activity::.ui.waypoints.NDBInfoActivity
+url::http://www.opengis.net/gml
+activity::.ui.search.SearchResultsActivity
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.location.gps
+activity::Renew Your Subscription
+intent::android.intent.action.MAIN
+activity::.ui.map.NearestActivity
+url::www.w3.org
+real_permission::android.permission.INTERNET
+activity::.ui.waypoints.VORInfoActivity
+call::Cipher(DESede/CBC/PKCS5Padding)

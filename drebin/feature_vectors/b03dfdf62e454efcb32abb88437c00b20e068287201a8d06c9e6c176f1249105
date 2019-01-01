@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::www.dotqprojects.com
+permission::android.permission.INTERNET
+activity::.PharmacyQuizApp
+activity::QuizResult
+intent::android.intent.category.LAUNCHER
+activity::.Questions
+real_permission::android.permission.INTERNET
+activity::.QuizList
+url::http://www.dotqprojects.com/QuestionAns/default.aspx
+activity::.QuestionAns

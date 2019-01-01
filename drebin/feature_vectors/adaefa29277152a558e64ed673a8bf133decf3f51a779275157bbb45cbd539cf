@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.displayCapitals
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+real_permission::android.permission.INTERNET
+activity::.breader
+intent::android.intent.action.VIEW

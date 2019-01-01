@@ -1,0 +1,19 @@
+url::app.webservereasy.com
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/Activity;->startActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::http://app.webservereasy.com/forum
+api_call::android/media/MediaPlayer;->start
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

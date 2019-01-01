@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.neko.ne.jp
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_CONTACTS
+activity::ReadContacts
+real_permission::android.permission.READ_CONTACTS
+activity::.ReadContacts
+url::http://www.neko.ne.jp/
+intent::android.intent.category.LAUNCHER

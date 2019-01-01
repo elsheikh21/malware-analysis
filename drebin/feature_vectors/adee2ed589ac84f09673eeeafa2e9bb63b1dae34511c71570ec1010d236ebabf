@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.AppEntry
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::Ball Game
+permission::android.permission.DISABLE_KEYGUARD

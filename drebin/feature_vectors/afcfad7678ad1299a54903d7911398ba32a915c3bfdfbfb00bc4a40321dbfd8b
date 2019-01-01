@@ -1,0 +1,35 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+activity::.IMEasypass
+url::api.admob.com
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->startService
+service_receiver::Easypass Service
+activity::.IMCopy
+url::http://mm.admob.com/static/android/i18n/20100820
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+url::http://a.admob.com/f0?
+real_permission::android.permission.VIBRATE
+url::http://imapp.blogspot.com
+call::getSystemService
+service_receiver::BootReceiver
+url::mm.admob.com
+call::Cipher(AES)
+url::http://mm.admob.com/static/android/canvas.html
+url::imapp.blogspot.com
+url::r.admob.com
+url::a.admob.com
+api_call::android/webkit/WebView
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::schemas.android.com

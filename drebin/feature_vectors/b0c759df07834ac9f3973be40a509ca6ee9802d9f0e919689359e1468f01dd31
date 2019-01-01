@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::POIGroupList
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::POIActivity
+activity::.POIActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::POIChooseActivity
+api_call::java/net/URLConnection;->getInputStream
+intent::android.intent.category.LAUNCHER
+activity::PreferencesActivity
+real_permission::android.permission.INTERNET

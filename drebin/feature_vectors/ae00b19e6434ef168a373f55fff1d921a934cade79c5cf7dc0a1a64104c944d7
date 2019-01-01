@@ -1,0 +1,16 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+url::www.teamdejourday.com
+intent::android.intent.action.MAIN
+activity::.Lajollahomes
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://www.teamdejourday.com/buyers.html
+activity::Lajollahomes
+intent::android.intent.category.LAUNCHER
+api_call::android/app/WallpaperManager;->setBitmap
+url::http://www.teamdejourday.com
+url::http://www.teamdejourday.com%3BZoom
+real_permission::android.permission.SET_WALLPAPER
+url::www.teamdejourday.com%3BZoom

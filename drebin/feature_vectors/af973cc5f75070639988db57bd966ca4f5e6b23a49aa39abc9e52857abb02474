@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.help
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.select
+permission::android.permission.INTERNET
+activity::.game
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+activity::.NationGame

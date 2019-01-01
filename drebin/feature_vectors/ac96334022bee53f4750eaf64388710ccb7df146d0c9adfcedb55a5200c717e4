@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+service_receiver::.BackgroundTransfer
+intent::android.intent.action.PACKAGE_REMOVED
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::www.rubengm.com
+call::getPackageInfo
+url::http://sites.google.com/site/gson/gson-user-guide
+api_call::java/net/Socket
+url::http://www.rubengm.com/apkUpload/busybox
+service_receiver::com.rubengm.apkupload.AppInstalled
+intent::android.intent.action.PACKAGE_REPLACED
+call::printStackTrace
+activity::.Settings
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+url::http://www.rubengm.com/apkUpload/getLatestVersion.php?actual%3D43
+activity::.ApkUpload
+call::Obfuscation(Base64)
+call::Execution of external commands
+url::sites.google.com
+call::Read/Write External Storage
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.Restore
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

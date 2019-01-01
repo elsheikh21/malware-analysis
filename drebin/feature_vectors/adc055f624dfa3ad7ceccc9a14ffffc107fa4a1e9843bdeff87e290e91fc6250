@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.VIBRATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Obfuscation(Base64)
+call::printStackTrace
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.software.live_wallpaper
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+api_call::java/net/DatagramSocket
+call::Read/Write External Storage
+call::HttpPost
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

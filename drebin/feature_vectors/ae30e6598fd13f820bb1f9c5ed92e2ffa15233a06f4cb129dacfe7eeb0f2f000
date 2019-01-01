@@ -1,0 +1,12 @@
+activity::com.dna.lyricpad.DirPickerActivity
+activity::com.dna.lyricpad.SongListViewAC
+activity::com.dna.lyricpad.Preferences
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::com.dna.lyricpad.SetListActivity
+activity::com.dna.lyricpad.LyricPad
+activity::com.dna.lyricpad.SongListView
+intent::android.intent.category.LAUNCHER
+activity::com.dna.lyricpad.FilePickerActivity
+activity::.LyricPad
+call::getSystemService

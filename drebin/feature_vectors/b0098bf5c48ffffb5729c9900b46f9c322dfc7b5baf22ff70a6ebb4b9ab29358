@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+api_call::android/app/Activity;->startActivity
+service_receiver::OneByOne
+activity::.BiggerIconsConfig
+activity::.ConfigListActivity
+intent::android.intent.category.LAUNCHER
+activity::BiggerIconsMainApp
+activity::.BiggerIconsMainApp
+call::getSystemService

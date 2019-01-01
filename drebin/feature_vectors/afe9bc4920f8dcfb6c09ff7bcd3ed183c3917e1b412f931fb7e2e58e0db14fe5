@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::cyberstore.tpg.com.au
+intent::android.intent.action.MAIN
+url::https://cyberstore.tpg.com.au/your_account/index.php?function%3Dview_all_mobile
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::thomsapongrac.com<br><br>
+intent::android.intent.category.LAUNCHER
+url::http://thomsapongrac.com<br><br>
+call::getPackageInfo
+api_call::java/net/URL;->openConnection

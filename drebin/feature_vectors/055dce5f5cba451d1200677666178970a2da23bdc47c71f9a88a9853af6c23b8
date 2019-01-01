@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://www.npconference.org/agenda/
+intent::android.intent.action.MAIN
+url::www.npconference.org
+activity::.Main
+intent::android.intent.category.LAUNCHER

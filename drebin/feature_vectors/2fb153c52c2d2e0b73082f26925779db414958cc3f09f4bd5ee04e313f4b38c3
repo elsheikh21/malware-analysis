@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+url::www.voilaweb.com
+service_receiver::com.voilaweb.mobile.liveview.livewatches.LiveWatchesPluginService
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.VIBRATE
+url::http://www.voilaweb.com/lv_faq
+intent::android.intent.category.LAUNCHER
+activity::com.voilaweb.mobile.liveview.livewatches.PluginPreferences
+service_receiver::com.voilaweb.mobile.liveview.livewatches.PluginReceiver
+call::getSystemService

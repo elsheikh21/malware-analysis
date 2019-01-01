@@ -1,0 +1,9 @@
+activity::applebees
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.wwplusfastfood
+activity::aandw
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

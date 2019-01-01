@@ -1,0 +1,32 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://d.wiyun.com/adv/s?
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+url::d.wiyun.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/Context;->startActivity
+url::http://maps.google.com/maps?q%3D
+service_receiver::.service.DelAppService
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+url::http://d.wiyun.com/adv/d
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+call::getDeviceId
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+activity::.MainApp
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+url::schemas.android.com

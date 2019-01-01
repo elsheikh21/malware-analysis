@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+activity::.ui.Preferences
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+activity::.ui.About
+permission::android.permission.RECEIVE_SMS
+feature::android.hardware.telephony
+activity::.Preferences
+real_permission::android.permission.VIBRATE
+call::getSystemService
+intent::android.intent.category.LAUNCHER

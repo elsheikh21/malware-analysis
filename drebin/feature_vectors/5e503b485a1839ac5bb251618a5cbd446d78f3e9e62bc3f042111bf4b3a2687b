@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+url::http://docs.google.com/gview?embedded%3Dtrue&url%3D
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+permission::android.permission.ACCESS_FINE_LOCATION
+url::docs.google.com
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

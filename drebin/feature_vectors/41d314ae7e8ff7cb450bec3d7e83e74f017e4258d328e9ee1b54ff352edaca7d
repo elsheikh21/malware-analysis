@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://android4u.net/places.php
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://android4u.net/areas.php
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+api_call::java/net/Socket
+real_permission::android.permission.INTERNET
+url::http://android4u.net/cities.php
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+url::android4u.net
+intent::android.intent.category.LAUNCHER
+activity::.InitialActivity
+call::HttpPost
+call::getSystemService

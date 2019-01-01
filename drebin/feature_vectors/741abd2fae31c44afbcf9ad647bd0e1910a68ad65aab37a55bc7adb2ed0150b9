@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+real_permission::android.permission.CHANGE_WIFI_MULTICAST_STATE
+call::Read/Write External Storage
+call::getPackageInfo
+api_call::java/net/Socket
+service_receiver::com.laminarresearch.lrandroidlib.in_app_purchase.BillingService
+activity::.XPlaneActivity
+service_receiver::com.laminarresearch.lrandroidlib.in_app_purchase.BillingReceiver
+url::http://wiki.x-plane.com/X-Plane_for_Android_Market_Issues
+permission::com.android.vending.BILLING
+api_call::android/net/wifi/WifiManager$MulticastLock;->acquire
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.landscape
+api_call::android/content/Context;->startService
+url::wiki.x-plane.com
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.sensor.accelerometer
+feature::android.hardware.touchscreen.multitouch
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CHANGE_WIFI_MULTICAST_STATE
+call::getSystemService

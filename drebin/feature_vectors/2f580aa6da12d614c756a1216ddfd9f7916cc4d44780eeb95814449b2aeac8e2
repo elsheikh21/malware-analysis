@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::com.cloudsquirt.android.intent.UNREGISTER
+api_call::android/app/NotificationManager;->notify
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getSystemService
+intent::com.cloudsquirt.android.intent.REGISTER
+permission::com.cloudsquirt.android.permission.SEND
+url::push.cloudsquirt.com
+activity::.activity.ActiveApplications
+permission::android.permission.INTERNET
+service_receiver::.PushNotificationService
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+activity::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::https://push.cloudsquirt.com:7874/pns/?id%3D

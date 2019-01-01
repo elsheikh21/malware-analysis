@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.anteatersgo.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+url::http://mobile.anteatersgo.com/roster
+url::http://mobile.anteatersgo.com/schedule
+url::http://mobile.anteatersgo.com/stats
+permission::android.permission.INTERNET
+url::http://mobile.anteatersgo.com/about
+activity::Anteaters Go
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://mobile.anteatersgo.com

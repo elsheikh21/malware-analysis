@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.KeyboardActivity
+activity::.JoystickActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Mobicopter
+real_permission::android.permission.INTERNET
+activity::.activity
+api_call::java/net/Socket
+call::getSystemService

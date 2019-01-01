@@ -1,0 +1,15 @@
+activity::.ProgramActivity
+activity::.GlobalInfoActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.Trendsfactory
+intent::android.intent.category.LAUNCHER
+url::cad
+activity::.SpeakerDetailActivity
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://cad:2QXTb0Ro1%40apps.colours.nl/cadservices/trendsfactory2011.xml
+call::getSystemService

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.wapsite
+url::m.tweetahgift.com
+intent::android.intent.category.LAUNCHER
+url::http://m.tweetahgift.com?source%3Dandroid

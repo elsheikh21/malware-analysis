@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::jira.codehaus.org
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+activity::.RubotoActivity
+intent::android.intent.category.LAUNCHER
+url::http://jira.codehaus.org/browse/JRUBY-4583
+activity::RubotoActivity
+call::printStackTrace
+api_call::java/net/URL;->openConnection

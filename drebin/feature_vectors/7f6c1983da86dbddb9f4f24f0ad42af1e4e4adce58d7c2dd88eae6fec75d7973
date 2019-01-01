@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SpeechGame
+url::elguides.cc
+activity::.ResultsActivity
+activity::.Main
+url::http://elguides.cc
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://elguide.cc
+activity::.Splash
+activity::.PrefsActivity
+url::elguide.cc

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::wap.8me8.com
+url::http://www.netmite.com/android/srv/2.0/upload/gs4.jar
+intent::android.intent.category.LAUNCHER
+activity::.R
+call::getPackageInfo
+url::http://wap.8me8.com
+url::www.netmite.com

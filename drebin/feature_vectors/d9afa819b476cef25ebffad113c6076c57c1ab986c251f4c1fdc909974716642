@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://www.hyper.gen.tr/
+api_call::android/media/MediaPlayer;->start
+url::https://market.android.com/details?id%3Dtr.gen.hyper.istiklalmarsi
+activity::Istiklal
+url::www.hyper.gen.tr
+intent::android.intent.category.LAUNCHER
+url::https://market.android.com/developer?pub%3DHyper+Mobile
+activity::.Istiklal
+real_permission::android.permission.WAKE_LOCK

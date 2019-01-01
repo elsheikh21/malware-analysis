@@ -1,0 +1,9 @@
+activity::.Mt_Pleasant_News
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::mt-pleasant-ia.villagesoup.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mt-pleasant-ia.villagesoup.com/mobile/android/index.seam

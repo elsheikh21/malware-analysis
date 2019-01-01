@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::PortActivity
+activity::LevelSelectActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.LevelSelectActivity

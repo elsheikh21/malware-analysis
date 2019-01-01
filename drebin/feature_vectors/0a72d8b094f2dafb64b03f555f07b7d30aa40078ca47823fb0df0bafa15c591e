@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.INTERNET
+permission::android.permission.
+real_permission::android.permission.INTERNET
+url::http://makeovr.com
+intent::android.intent.category.LAUNCHER
+activity::.Makeovr
+permission::android.permission.CAMERA
+permission::android.permission.READ_CONTACTS
+url::makeovr.com

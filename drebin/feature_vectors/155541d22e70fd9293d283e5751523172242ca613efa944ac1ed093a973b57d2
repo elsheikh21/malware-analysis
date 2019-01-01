@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.Android.crystalblack.clock.Info
+service_receiver::Crystal Black Clock
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

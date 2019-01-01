@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://cubo2.net/android/afistro/ads/ads.html
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::http://cubo2.net/site/index.php
+feature::android.hardware.screen.portrait
+activity::.SoundBoardActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::cubo2.net
+real_permission::android.permission.INTERNET
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

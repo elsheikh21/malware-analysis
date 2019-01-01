@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Prefs
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.SEND
+permission::android.permission.INTERNET
+activity::.BlastLinks
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::java/net/Socket

@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+activity::CrossmineNewGameActivity
+activity::.CrossmineTestThreeActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+url::www.crossbomb.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+url::http://www.crossbomb.com/download.html
+real_permission::android.permission.INTERNET
+call::getSystemService

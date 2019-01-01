@@ -1,0 +1,14 @@
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::.ToItToWho
+api_call::android/location/LocationManager;->requestLocationUpdates
+call::getSystemService

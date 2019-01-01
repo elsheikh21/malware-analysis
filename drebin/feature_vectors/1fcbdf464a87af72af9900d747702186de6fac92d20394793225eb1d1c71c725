@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Obfuscation(Base64)
+call::printStackTrace
+real_permission::android.permission.INTERNET
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.VIBRATE
+api_call::java/net/ServerSocket
+call::Read/Write External Storage
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

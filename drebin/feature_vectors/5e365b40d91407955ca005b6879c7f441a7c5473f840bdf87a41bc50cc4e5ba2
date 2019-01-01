@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+url::xmlpull.org
+url::http://www.w3.org/2005/Atom
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::HttpPost
+url::http://www.implere.com
+url::http://physicsworld.implere.com/external/authenticate/physicsworld
+url::physicsworld.implere.com
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html
+activity::.StartActivity
+feature::android.hardware.telephony
+api_call::android/app/Activity;->startActivity
+api_call::android/webkit/WebView
+url::www.implere.com
+activity::StartActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.w3.org
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

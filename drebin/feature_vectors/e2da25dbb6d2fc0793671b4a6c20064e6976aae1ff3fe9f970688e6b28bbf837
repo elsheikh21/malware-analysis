@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.NumNumActivity
+feature::android.hardware.screen.portrait
+activity::.getSplashy
+activity::.MainMenu
+permission::android.permission.INTERNET
+activity::.NumNumPrefs
+activity::.InfoActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER

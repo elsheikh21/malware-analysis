@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Prefs
+activity::Light Screen
+url::http://www.cosmodroid.com
+url::www.cosmodroid.com
+activity::.flashlight
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+permission::android.permission.WRITE_SETTINGS

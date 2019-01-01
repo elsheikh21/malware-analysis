@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.BATTERY_STATS
+activity::com.enscryptor.orbitals.Play
+activity::.Play
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService

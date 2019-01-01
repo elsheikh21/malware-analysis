@@ -1,0 +1,94 @@
+url::http://www.appcessary.com/appboard/ad.html
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::Puland / APP%EC%A0%EC%A9 %EC%B5%EB%AA%EA%B2%EC%ED
+url::m.kpu.ac.kr
+activity::%EA%B1%B4%EB%AC%BC%EC%A0%EB%B3%B4 / %EB%AF%B8%EB%EB%A7%B5
+call::getSystemService
+url::http://m.kpu.ac.kr/front/boardlist.do?bbsConfigFK%3D357
+activity::%ED%B8%EB%ED%EB%BC%EC
+api_call::android/webkit/WebView
+permission::android.permission.CAMERA
+url::mobile.kpu.ac.kr
+activity::Puland Login
+activity::%EB%A7%EB%A0%EC%B4 %EB%B0 Help
+intent::android.intent.action.VIEW
+url::mixare.org
+permission::android.permission.WAKE_LOCK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->getLastKnownLocation
+url::http://m.kpu.ac.kr/front/boardlist.do?bbsConfigFK%3D1
+activity::org.mixare.MixView
+url::ws.geonames.org
+permission::android.permission.INTERNET
+url::http://mixare.org/geotest.php
+feature::android.hardware.screen.portrait
+activity::%EC%B4%EC%EC%EA%B0
+feature::android.hardware.location.gps
+url::http://mobile.kpu.ac.kr/login.do
+activity::%EC%A0%EC%EC%AD %ED%A0%EC%EC%BC %EC%BC%EC%A0%EC%EB%EB%A4.
+url::http://www.appcessary.com/appboard/write.php
+api_call::android/content/Context;->startActivity
+activity::%EC%A0%EC%EC%AD %EA%B3%B5%ED%B4%EC%BC %EC%BC%EC%A0%EC%EB%EB%A4.
+activity::%EA%B1%B4%EB%AC%BC%EC%A0%EB%B3%B4 / %EB%AA%A9%EB%A1%EB%B4%EC%A9%EC %EC%EB%B4%EB
+url::www.openstreetmap.org
+activity::.Splash_Intro_1
+activity::.Splash_Intro_2
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::WEB %EB%B2%EC%A0%BC
+url::twtkr.olleh.com
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera
+url::http://www.appcessary.com/appboard/load.php?board_id%3D
+url::osmxapi.hypercube.telascience.org
+intent::android.intent.category.LAUNCHER
+url::https://www.googleapis.com/buzz/v1/activities/search?alt%3Djson&max-results%3D20
+permission::android.permission.ACCESS_FINE_LOCATION
+url::twitter.com
+url::http://www.puland.net/sns
+url::search.twitter.com
+call::Read/Write External Storage
+activity::%EB%EC
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.READ_CONTACTS
+activity::%EA%B1%B4%EB%AC%BC%EC%A0%EB%B3%B4 / %EB%AA%A9%EB%A1%EB%B4%EC%A9
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+call::printStackTrace
+url::http://www.puland.net/?mid%3Dpage_main&act%3DdispMemberLoginForm
+activity::%EC%A0%EC%EC%AD %ED%EC%BC %EC%BC%EC%A0%EC%EB%EB%A4.
+url::http://search.twitter.com/search.json
+activity::APP%EC%A0%EC%A9 %EC%B5%EB%AA%EA%B2%EC%ED
+url::m.mk.co.kr
+intent::android.intent.category.BROWSABLE
+url::http://twtkr.olleh.com/list/vchorok/job
+url::http://www.openstreetmap.org/?node%3D
+url::www.puland.net
+activity::%EC%ED%EB%B2%EC%A4(%ED%EC%BC,%EC%A3%BC%EB%A7) %EC%BC%EC%A0%EC%EB%EB%A4.
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://m.kpu.ac.kr/html/0107.html
+intent::android.intent.action.SEARCH
+activity::%EC%EB%B9%EC%A0%EB%B3%B4
+feature::android.hardware.touchscreen
+activity::%EC%B2%EC %EC%A4%EC%A0%EB%B6.
+url::http://ws.geonames.org/findNearbyWikipediaJSON
+url::http://osmxapi.hypercube.telascience.org/api/0.6/node[railway%3Dstation]
+intent::android.intent.category.DEFAULT
+activity::%EA%B3%B5%EC%A7%EC%AC%ED%AD
+activity::%EA%B1%B4%EB%AC%BC%EC%A0%EB%B3%B4 / %EB%AA%A9%EB%A1%EB%B3%B4%EA%B8%B0
+url::www.googleapis.com
+activity::%EA%B5%EB%B4%EC%A0%ED%EB%B2%ED%B8 Main
+activity::%EB%BC%EC%B4%EC%A7
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+url::http://m.mk.co.kr/
+feature::android.hardware.location
+activity::DB%EC%EB%B0%EC%B4%ED%B8
+url::http://twitter.com/
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::%EA%B5%ED%B5%EC%A0%EB%B3%B4 %ED%AD %EA%B4%EB%A6%AC
+feature::android.hardware.screen.landscape
+url::http://m.kpu.ac.kr/html/0401.html
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+url::www.appcessary.com
+activity::SNS_LOVE_Admin

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.mnblueblogs
+url::http://feeds.feedburner.com/MnBlueBlogs
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER

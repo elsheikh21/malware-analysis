@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::Cream_Puff
+intent::android.intent.category.DEFAULT

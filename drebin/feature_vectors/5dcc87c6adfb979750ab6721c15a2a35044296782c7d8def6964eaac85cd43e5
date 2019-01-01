@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEARCH_LONG_PRESS
+intent::android.intent.action.MAIN
+activity::.Main
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+permission::android.permission.EXPAND_STATUS_BAR
+call::getSystemService

@@ -1,0 +1,21 @@
+permission::android.permission.VIBRATE
+activity::MediaWallpapers
+api_call::android/content/Context;->setWallpaper
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::spreadsheets.google.com
+activity::.JadeSimone
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+feature::android.hardware.screen.portrait
+activity::MediaVideos
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+url::http://spreadsheets.google.com/formResponse?formkey%3D
+real_permission::android.permission.SET_WALLPAPER
+activity::MediaJokes

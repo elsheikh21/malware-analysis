@@ -1,0 +1,8 @@
+provider::org.prolly.android.widget.networkprovider
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.SERVICE_STATE
+real_permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+call::getSystemService

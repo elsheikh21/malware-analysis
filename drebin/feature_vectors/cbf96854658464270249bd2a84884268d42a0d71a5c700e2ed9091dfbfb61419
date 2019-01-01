@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::Browse
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://view.samurajdata.se/ps.php?url%3D
+url::view.samurajdata.se
+intent::android.intent.category.LAUNCHER
+activity::.activity.MainActivity
+activity::.Splash
+activity::.activity.Splash
+activity::.activity.WebViewActivity

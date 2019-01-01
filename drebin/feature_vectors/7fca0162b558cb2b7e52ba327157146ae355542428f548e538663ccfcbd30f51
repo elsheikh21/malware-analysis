@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+service_receiver::.TipVDM$UpdateService
+url::api.betacie.com
+activity::Mise %C3%A0 jour
+permission::android.permission.INTERNET
+url::http://api.betacie.com/view/random
+real_permission::android.permission.INTERNET
+url::http://api.betacie.com/view/random?key%3D48dee4a28044e&language%3Dfr
+url::mobile.viedemerde.fr
+activity::Choisir une action
+provider::android.appwidget.provider
+url::http://mobile.viedemerde.fr/
+api_call::android/content/Context;->startService

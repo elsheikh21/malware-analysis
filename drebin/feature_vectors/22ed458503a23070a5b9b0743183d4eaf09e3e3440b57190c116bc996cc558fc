@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.anubavam.com
+intent::android.intent.action.MAIN
+url::http://www.anubavam.com/android-application-development\%27>www.anubavam.com</a>
+activity::.UnitConverter
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::www.androidpeople.com
+activity::.Welcome
+url::http://www.androidpeople.com/wp-content/uploads/2010/09/Anubavam-abtus.html
+call::getSystemService

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+real_permission::android.permission.INTERNET
+activity::.Preferences
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.DataService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.AutoStarter
+call::getSystemService
+intent::android.intent.category.LAUNCHER

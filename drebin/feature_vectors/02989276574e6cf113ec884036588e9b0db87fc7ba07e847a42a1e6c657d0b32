@@ -1,0 +1,74 @@
+activity::MP3 ID3 tag editor
+feature::android.hardware.touchscreen
+url::http://ws.audioscrobbler.com/2.0/
+url::http://www.id3.org/dummy/ufid.html
+permission::android.permission.BROADCAST_STICKY
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+url::musicbrainz.org
+activity::PlayerActivity
+api_call::java/net/HttpURLConnection
+intent::android.intent.action.SEARCH
+real_permission::android.permission.WAKE_LOCK
+activity::VideoPlayer
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+url::http://musicbrainz.org
+activity::.GenreSelected
+activity::.ArtistSelected
+url::http://post.audioscrobbler.com/
+activity::.VideoList
+url::www.google.com
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+real_permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.WRITE_SETTINGS
+service_receiver::Better Music 4x4
+service_receiver::Playback Service
+activity::.CoverView_Activity
+service_receiver::Scrobbler
+real_permission::android.permission.VIBRATE
+url::www.id3.org
+service_receiver::Better Music 4x2
+permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->removeStickyBroadcast
+call::Obfuscation(Base64)
+call::getSystemService
+real_permission::android.permission.BROADCAST_STICKY
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->listen
+activity::Settings
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::www.last.fm
+permission::com.android.vending.CHECK_LICENSE
+url::http://www.google.com
+service_receiver::Better Music 4x1
+url::post.audioscrobbler.com
+permission::android.permission.INTERNET
+service_receiver::Better Music 2x1
+service_receiver::Better Music 2x2
+permission::android.permission.DISABLE_KEYGUARD
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+activity::.SearchableActivity
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+activity::.PlaylistSelected
+api_call::android/content/Context;->sendBroadcast
+activity::Album ID3 tag editor
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.portrait
+api_call::android/content/ContentResolver;->openFileDescriptor
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.DISABLE_KEYGUARD
+url::ws.audioscrobbler.com
+activity::.RatedTracksViewer
+activity::.AlbumSelected
+provider::android.appwidget.provider
+url::https://www.last.fm/join

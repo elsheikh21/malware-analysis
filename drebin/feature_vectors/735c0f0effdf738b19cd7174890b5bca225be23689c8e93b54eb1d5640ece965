@@ -1,0 +1,6 @@
+service_receiver::Sushi Clock
+feature::android.hardware.touchscreen
+activity::.SushiClock
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

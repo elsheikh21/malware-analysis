@@ -1,0 +1,5 @@
+activity::.RotateOmikuji
+feature::android.hardware.touchscreen
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

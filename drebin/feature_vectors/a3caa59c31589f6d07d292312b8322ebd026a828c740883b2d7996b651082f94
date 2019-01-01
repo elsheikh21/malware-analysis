@@ -1,0 +1,29 @@
+service_receiver::Pinched Notes Maxi
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+intent::android.intent.ACTION_TIME
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+activity::.notes
+api_call::android/media/MediaPlayer;->start
+service_receiver::.SmsReceiver
+activity::.NuevaNota
+url::diegoyarza.com
+call::getSystemService
+service_receiver::.AlertService
+provider::android.provider.Telephony.SMS_RECEIVED
+real_permission::android.permission.VIBRATE
+service_receiver::.BroadcastReceiver
+url::http://diegoyarza.com/android/pinchedNotes/API.php
+feature::android.hardware.telephony
+api_call::java/net/HttpURLConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.ACTION_TIMEZONE_CHANGED
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+service_receiver::Pinched Notes Mini

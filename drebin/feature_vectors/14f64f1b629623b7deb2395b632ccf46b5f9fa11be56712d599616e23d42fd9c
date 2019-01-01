@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::KhaliPrefs
+activity::.KhaliActivity
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER
+activity::KhaliActivity

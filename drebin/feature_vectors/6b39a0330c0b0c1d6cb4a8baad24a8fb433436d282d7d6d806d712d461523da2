@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+activity::.IfConfigActivity
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

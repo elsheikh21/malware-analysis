@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+activity::.About
+call::printStackTrace
+call::getSystemService
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.HowFarAmIMain
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+activity::.AddLocation
+activity::.MapVisualization
+activity::.QuickFactsActivity

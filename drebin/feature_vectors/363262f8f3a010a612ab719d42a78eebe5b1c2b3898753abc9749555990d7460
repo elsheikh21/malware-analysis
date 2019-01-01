@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Zips Update
+url::http://mobile.zipsupdate.com/about
+activity::.Main
+url::http://mobile.zipsupdate.com
+permission::android.permission.INTERNET
+url::http://mobile.zipsupdate.com/schedule
+url::http://mobile.zipsupdate.com/roster
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::mobile.zipsupdate.com
+url::http://mobile.zipsupdate.com/stats

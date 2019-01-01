@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainActivity
+activity::ThirdActivity
+intent::android.intent.category.LAUNCHER
+url::http://www.microworks.co.jp//\
+call::getSystemService
+url::www.microworks.co.jp

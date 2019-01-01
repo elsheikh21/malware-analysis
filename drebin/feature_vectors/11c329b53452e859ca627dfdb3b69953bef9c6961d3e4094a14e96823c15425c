@@ -1,0 +1,16 @@
+url::www.amazon.com
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://www.amazon.com/gp/mas/dl/android/com.threebanana.notes
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+api_call::java/net/Socket
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::.ResetAlarms
+activity::.WidgetActivity
+provider::android.appwidget.provider
+call::getSystemService

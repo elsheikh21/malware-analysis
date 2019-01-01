@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/Activity;->startActivity
+url::http://www.osaris.net
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::www.turbofly3d.com
+activity::.JumpyBall
+url::http://www.turbofly3d.com/scores.php5?code%3D
+url::www.osaris.net
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

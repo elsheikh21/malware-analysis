@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::n.blbl.me
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://n.blbl.me/mjzs_list.php
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://n.blbl.me/usermj.php?ac%3Duser
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://n.blbl.me/index.php?from%3Dall_android&width%3D360
+url::http://n.blbl.me/index.php?from%3Dall_android_new&width%3D360
+url::http://n.blbl.me/usermj.php?ac%3Dtj

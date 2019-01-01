@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::.UpdateService1x1
+intent::android.intent.action.MAIN
+service_receiver::.UpdateService1x2
+activity::.BatteryStatusTextPreference
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Ratchetandclank
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.netmite.com
+url::http://www.netmite.com/android/srv/2.0/upload/RatchetAndClank-JAM.jad
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

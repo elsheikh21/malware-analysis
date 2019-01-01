@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::Rss_detail
+url::http://www.pc3corporate.com
+intent::android.intent.action.MAIN
+url::www.pc3mag.com
+permission::android.permission.INTERNET
+url::www.pc3corporate.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.rss
+url::http://www.pc3mag.com/
+activity::Rssreader

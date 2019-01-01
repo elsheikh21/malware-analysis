@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.activities.GameActivity
+activity::.activities.HelpActivity
+api_call::android/media/MediaRecorder;->setAudioSource
+activity::.activities.SetupActivity
+feature::android.hardware.screen.portrait
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+real_permission::android.permission.READ_CONTACTS
+activity::.activities.HomeActivity
+real_permission::android.permission.WAKE_LOCK
+activity::.SplashActivity
+permission::android.permission.RECORD_AUDIO
+call::getSystemService
+activity::.activities.EditActivity

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://hktv.ignition.hk/index.json
+call::getPackageInfo
+call::HttpPost
+url::trace.nullwire.com
+api_call::android/content/Context;->startActivity
+url::http://trace.nullwire.com/collect/
+real_permission::android.permission.VIBRATE
+service_receiver::.TvBroadcastReceiver
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::java/net/URL;->openStream
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::java/lang/Runtime;->exec
+activity::.TVActivity
+call::Execution of external commands
+url::http://hktv.ignition.hk/%s/%s/%s.json
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::hktv.ignition.hk

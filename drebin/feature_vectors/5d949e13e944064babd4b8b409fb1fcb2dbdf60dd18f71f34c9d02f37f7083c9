@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://phonebook.bstokni.fo/?s%3D
+real_permission::android.permission.INTERNET
+url::phonebook.bstokni.fo
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.nummar

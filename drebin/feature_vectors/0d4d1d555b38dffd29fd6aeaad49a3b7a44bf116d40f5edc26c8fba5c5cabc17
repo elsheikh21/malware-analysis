@@ -1,0 +1,13 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+url::http://www.awallet.org/ns
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/app/ActivityManager;->getRunningTasks
+url::www.awallet.org
+real_permission::android.permission.GET_TASKS
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::.HomeActivity
+api_call::android/app/Activity;->startActivity
+call::getSystemService

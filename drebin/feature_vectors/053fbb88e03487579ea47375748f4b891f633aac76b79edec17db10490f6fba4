@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+activity::com.contorra.ghintracker.lib.GolferHandicapActivity
+activity::com.contorra.ghintracker.lib.FindGolferActivity
+activity::com.contorra.ghintracker.lib.CourseHandicapActivity
+provider::com.contorra.ghintracker.free.datacontentprovider
+activity::.GhinTrackerActivity
+url::http://golf.about.com/cs/golfterms/g/bldef_handindex.htm\
+activity::com.contorra.ghintracker.lib.EditGolferActivity
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::golf.about.com
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

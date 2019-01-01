@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+call::Obfuscation(Base64)
+activity::MyFirstPuzzles
+feature::android.hardware.screen.portrait
+activity::.MyFirstPuzzles
+intent::android.intent.category.LAUNCHER
+service_receiver::com.arent.myfirstpuzzlesalphabet.billing.BillingReceiver
+call::getSystemService
+service_receiver::com.arent.myfirstpuzzlesalphabet.billing.BillingService
+api_call::android/content/Context;->startActivity
+permission::com.android.vending.BILLING
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,12 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::getSystemService
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.SET_WALLPAPER
+intent::android.intent.category.LAUNCHER
+api_call::android/app/WallpaperManager;->setBitmap
+activity::.FileBrowserActivity
+call::Read/Write External Storage
+activity::ca.bilange.setwallpaper.ImageCropActivity
+intent::android.intent.action.VIEW

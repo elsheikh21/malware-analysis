@@ -1,0 +1,13 @@
+url::www.jma.go.jp
+feature::android.hardware.touchscreen
+url::www.nhk.or.jp
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://www.jma.go.jp/jp/yoho/352.html
+real_permission::android.permission.INTERNET
+url::http://www.nhk.or.jp/kagoshima3/sakurajima/index.html
+call::getSystemService

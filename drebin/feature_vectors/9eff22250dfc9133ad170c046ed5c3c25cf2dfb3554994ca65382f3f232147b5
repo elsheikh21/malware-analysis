@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+service_receiver::.Entry.MenuMusicService
+call::Read/Write External Storage
+call::getPackageInfo
+activity::.Entry.OptionsActivity
+real_permission::android.permission.WAKE_LOCK
+activity::.Entry.TowerEntry
+api_call::android/media/MediaPlayer;->start
+activity::.Game.TowerGame
+activity::.Entry.LevelSelect
+call::getSystemService
+url::http://towerraiders.forumbuild.com/viewtopic.php?f%3D18&t%3D99
+activity::.Entry.LevelConfirm
+feature::android.hardware.screen.landscape
+url::http://www.facebook.com/pages/Tower-Raiders/224644504177
+permission::android.permission.WAKE_LOCK
+url::www.facebook.com
+url::http://towerraiders.forumbuild.com
+intent::android.intent.action.MAIN
+activity::.TowerEntry
+activity::.Entry.Credits
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::towerraiders.forumbuild.com
+activity::.Entry.BonusSelect
+intent::android.intent.category.LAUNCHER

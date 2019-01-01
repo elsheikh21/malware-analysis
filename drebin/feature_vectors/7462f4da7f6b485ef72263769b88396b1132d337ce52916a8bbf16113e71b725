@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Main
+feature::android.hardware.screen.portrait
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+url::http://www.appoid.com
+url::www.appoid.com
+activity::Main
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://en.wiktionary.org/wiki/
+service_receiver::.UpdateService
+url::en.wiktionary.org
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

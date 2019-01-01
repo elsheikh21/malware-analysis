@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::Opirata
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Opirata
+intent::android.intent.category.LAUNCHER
+url::http://www.opirata.com/m/
+url::www.opirata.com

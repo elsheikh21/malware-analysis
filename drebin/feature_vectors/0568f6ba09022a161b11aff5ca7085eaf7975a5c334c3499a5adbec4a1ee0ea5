@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::api.appseleration.net
+url::myportal.vodafone.de
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://myportal.vodafone.de/dr/cc/vf/app/impressum.xml\
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::https://api.appseleration.net/api
+real_permission::android.permission.INTERNET
+url::http://myportal.vodafone.de/dr/cc/vf/app/impressum.xml
+call::getSystemService

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.RECEIVE_SMS
+call::readSMS
+call::Read/Write External Storage
+service_receiver::.SMSniffer
+feature::android.hardware.telephony
+activity::.SMSnifferActivity
+call::printStackTrace
+intent::android.intent.category.LAUNCHER

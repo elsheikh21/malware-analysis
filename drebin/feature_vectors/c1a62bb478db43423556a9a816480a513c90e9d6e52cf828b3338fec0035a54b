@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SteleCazatoare
+permission::android.permission.INTERNET
+service_receiver::.ShootStarWidget
+intent::android.intent.category.DEFAULT
+activity::Stele Cazatoare
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService

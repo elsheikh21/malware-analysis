@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::EasyDialer
+permission::android.permission.WRITE_CONTACTS
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.CALL_PHONE
+call::printStackTrace
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService
+activity::.EasyDialer

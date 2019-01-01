@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.blagues.brunes
+permission::android.permission.INTERNET
+url::http://brunes.joke-blonde.fr
+permission::android.permission.TEEN
+activity::.brunes
+intent::android.intent.category.LAUNCHER
+url::brunes.joke-blonde.fr
+real_permission::android.permission.INTERNET

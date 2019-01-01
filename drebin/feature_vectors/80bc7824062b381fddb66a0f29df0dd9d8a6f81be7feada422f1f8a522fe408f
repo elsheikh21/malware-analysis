@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://ktozvonit.com.ua/addcomment/submit
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::ktozvonit.com.ua
+call::getSystemService
+call::HttpPost
+url::http://ktozvonit.com.ua/mobileapi/numbercomments/

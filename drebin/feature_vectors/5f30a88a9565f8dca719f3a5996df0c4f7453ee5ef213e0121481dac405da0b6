@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+service_receiver::.DBallWidget$UpdateService
+url::www.zhcw.com
+permission::android.permission.INTERNET
+intent::android.intent.action.ACTION_SCREEN_ON
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+api_call::android/content/Context;->startService
+url::http://www.zhcw.com/ssq/
+url::androidhk.com
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+url::http://androidhk.com/dball.php

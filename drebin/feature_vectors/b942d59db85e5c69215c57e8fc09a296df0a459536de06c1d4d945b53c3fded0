@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+activity::Wordice
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/HttpURLConnection
+url::www.binarybuddhastudio.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+url::http://www.binarybuddhastudio.com/wordice_definition.php
+call::getSystemService
+activity::.Wordice

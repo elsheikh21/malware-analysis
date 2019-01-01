@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.ContactAdder
+activity::ch.ih8iph.free.group.mgmt.ContactEditor
+permission::android.permission.GET_ACCOUNTS
+activity::.GroupManager
+activity::.GroupAdder
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER

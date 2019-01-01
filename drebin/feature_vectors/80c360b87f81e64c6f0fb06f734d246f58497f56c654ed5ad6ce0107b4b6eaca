@@ -1,0 +1,13 @@
+activity::.GlImageView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.PREFERENCE
+feature::android.hardware.screen.portrait
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

@@ -1,0 +1,13 @@
+activity::.QList1
+feature::android.hardware.touchscreen
+activity::.QList3
+activity::.QList2
+activity::.QList5
+activity::H&S
+intent::android.intent.action.MAIN
+activity::.QList6
+activity::.Result
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.HandS
+activity::.QList4

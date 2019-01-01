@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.PACKAGE_REMOVED
+url::forum.xda-developers.com
+call::Read/Write External Storage
+call::getPackageInfo
+permission::android.permission.GET_TASKS
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.CREATE_SHORTCUT
+intent::android.intent.action.PACKAGE_REPLACED
+activity::.MainActivity
+call::getSystemService
+api_call::android/app/ActivityManager;->getRecentTasks
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+service_receiver::.InstallReceiver
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.LauncherShortcuts
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+url::http://forum.xda-developers.com/showthread.php?t%3D1087427
+api_call::android/content/Context;->startActivity

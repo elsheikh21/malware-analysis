@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+activity::.ChatWithSpeed
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::web2mob.com
+url::http://web2mob.com/chatWithSpeed/v1/
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

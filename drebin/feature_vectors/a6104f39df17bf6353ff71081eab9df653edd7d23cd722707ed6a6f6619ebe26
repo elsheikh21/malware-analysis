@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::www.alphasoftware.org
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.ALTERNATIVE
+call::getPackageInfo
+url::http://www.alphasoftware.org/bb/SuperWahWahBall.jad
+activity::.WahWahMain
+intent::android.intent.category.LAUNCHER

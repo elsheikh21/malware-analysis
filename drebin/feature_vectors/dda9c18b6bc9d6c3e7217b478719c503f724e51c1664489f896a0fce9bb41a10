@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.YesWePlay_MainActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::app.yesweplay.com
+url::http://app.yesweplay.com/mobile

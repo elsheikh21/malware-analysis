@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::RabiSoft.intent.action.PICK_SEND_INTENT
+activity::.Main
+intent::intent/broadcast
+intent::android.intent.category.DEFAULT
+service_receiver::ActionReceiver
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService

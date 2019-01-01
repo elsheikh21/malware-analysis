@@ -1,0 +1,5 @@
+activity::FlyingToastSettings
+activity::FlyingToastSelectImage
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.touchscreen

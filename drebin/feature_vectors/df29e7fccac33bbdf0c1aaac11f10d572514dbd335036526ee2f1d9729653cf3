@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+service_receiver::.Widget
+intent::android.intent.action.MAIN
+service_receiver::Exoplanet Catalog Update Service
+activity::DetailDisplayActivity
+activity::SortByStarActivity
+activity::.ExoplanetCatalog
+activity::SortByFieldActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+activity::GraphActivity
+api_call::android/content/Context;->startService

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+service_receiver::CubaTV
+activity::.CubaTV
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+url::http://www.cubatv.icrt.cu/mambots/content/plugin_jw_allvideos/gz_eolas_fix.js\
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::www.cubatv.icrt.cu
+real_permission::android.permission.INTERNET
+url::www.met.inf.cu
+intent::android.intent.category.LAUNCHER
+url::http://www.cubatv.cu/index.php?option%3Dcom_content&task%3Dview&id%3D
+url::http://www.met.inf.cu/asp/genesis.asp?TB0%3DPTM
+provider::android.appwidget.provider
+url::http://www.met.inf.cu/imagenes/iconos/
+url::www.cubatv.cu

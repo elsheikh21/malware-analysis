@@ -1,0 +1,6 @@
+activity::.MoreCowbell
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK

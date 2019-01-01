@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->sendBroadcast
+url::https://market.android.com/details?id%3Dcom.low.mvehicles&feature%3Dsearch_result
+real_permission::android.permission.WAKE_LOCK

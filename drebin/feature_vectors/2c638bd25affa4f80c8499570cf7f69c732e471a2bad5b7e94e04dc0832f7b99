@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+activity::.petrol.meter
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->requestLocationUpdates
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.petrol.meter_start1
+intent::android.intent.category.LAUNCHER
+activity::.meter
+activity::.petrol.settings
+call::getSystemService

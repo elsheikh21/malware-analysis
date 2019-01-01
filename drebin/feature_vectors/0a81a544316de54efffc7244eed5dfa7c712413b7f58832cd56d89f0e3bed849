@@ -1,0 +1,79 @@
+feature::android.hardware.touchscreen
+activity::org.baole.blacklist.activity.BlackListMain
+activity::org.baole.blacklist.activity.BlackListActivity
+call::printStackTrace
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+permission::android.permission.RECEIVE_SMS
+activity::Settings
+service_receiver::.PhoneReceiver
+url::http://anttek.com/?wpsc-product%3Dblacklist-for-android
+activity::org.baole.blacklist.activity.ContactOptionActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::Password Settings
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->query
+permission::android.permission.WRITE_CONTACTS
+api_call::android/app/Activity;->startActivity
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+url::http://a.admob.com/f0?
+url::a.admob.com
+permission::android.permission.ACCESS_COARSE_LOCATION
+call::readSMS
+activity::Pick a contact
+feature::android.hardware.location
+activity::org.baole.blacklist.activity.TextFilterActivity
+permission::android.permission.WRITE_SMS
+real_permission::android.permission.VIBRATE
+permission::android.permission.CALL_PHONE
+activity::org.baole.blacklist.activity.WhiteListActivity
+api_call::android/location/LocationManager;->getLastKnownLocation
+api_call::java/lang/Runtime;->exec
+activity::org.baole.blacklist.activity.ContactPicker5
+intent::android.intent.category.LAUNCHER
+activity::org.baole.blacklist.activity.ImagePickerActivity
+provider::android.provider.Telephony.SMS_RECEIVED
+activity::org.baole.blacklist.activity.TemplateActivity
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::Blocking option
+activity::org.baole.blacklist.activity.PasswordActivity
+permission::android.permission.SEND_SMS
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.SEND_SMS
+activity::Text Filter Settings
+api_call::android/telephony/SmsManager;->sendTextMessage
+permission::android.permission.INTERNET
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+activity::org.baole.blacklist.activity.WidgetSettingActivity
+call::sendSMS
+call::Read/Write External Storage
+url::anttek.com
+activity::Select Widget Background
+service_receiver::.SmsPageReceiver
+activity::org.baole.blacklist.activity.WhiteListContactPicker
+call::Execution of external commands
+real_permission::android.permission.READ_LOGS
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::Blacklist Settings
+permission::android.permission.MODIFY_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(AES/CBC/PKCS5Padding)
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+url::www.gstatic.com
+activity::org.baole.blacklist.activity.Preferences
+activity::Whitelist Settings
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService
+provider::android.appwidget.provider
+url::schemas.android.com

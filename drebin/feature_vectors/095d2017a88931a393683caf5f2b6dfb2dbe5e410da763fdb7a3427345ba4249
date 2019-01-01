@@ -1,0 +1,27 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+activity::.ActivationActivity
+url::https://api.facebook.com/restserver.php
+activity::.HistoryActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::graph.facebook.com
+activity::com.google.android.downloader.DownloaderActivity
+activity::.BookmarksActivity
+api_call::android/content/Context;->startActivity
+activity::.BookmarkGroupActivity
+activity::.AddBookmarkGroupActivity
+activity::.RenameBookmarkGroupActivity
+url::api.facebook.com
+api_call::java/net/URL;->openStream
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::.MagentaApplicationsActivity
+activity::.LemmaActivity
+activity::.SearchActivity
+activity::.SelectBookmarkGroupActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+url::https://graph.facebook.com/
+intent::android.intent.category.LAUNCHER
+url::https://m.facebook.com/dialog/

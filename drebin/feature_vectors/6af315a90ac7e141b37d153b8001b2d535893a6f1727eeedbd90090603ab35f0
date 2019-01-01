@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Studentfiket
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::jacobcarlsson.se
+url::http://jacobcarlsson.se/android/get_times.php

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+service_receiver::PlayBackService
+intent::android.intent.category.LAUNCHER
+activity::.SongList
+real_permission::android.permission.WAKE_LOCK

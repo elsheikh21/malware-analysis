@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mobile.bearsreview.com/about
+url::mobile.bearsreview.com
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.bearsreview.com
+url::http://mobile.bearsreview.com/roster
+url::http://mobile.bearsreview.com/stats
+activity::Bears Review
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://mobile.bearsreview.com/schedule

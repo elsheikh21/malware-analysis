@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::http://market.android.com/search?q%3Dpname:com.thehopemachine.bloom
+url::www.thehopemachine.com
+call::printStackTrace
+activity::.BloomActivity
+activity::SaveFile
+url::http://www.thehopemachine.com/index.html
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::getSystemService

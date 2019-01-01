@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.category.BROWSABLE
+url::meets-you.com
+intent::android.intent.action.MAIN
+permission::com.felicanetworks.mfc.permission.MFC_ACCESS
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://meets-you.com/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+service_receiver::com.felicanetworks.mfc.Felica
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+activity::.AppListActivity

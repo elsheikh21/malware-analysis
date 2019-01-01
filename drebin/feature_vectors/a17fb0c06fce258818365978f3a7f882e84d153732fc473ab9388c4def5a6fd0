@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::Badger Review
+activity::.Main
+url::http://mobile.badgerreview.com/about
+url::http://mobile.badgerreview.com/schedule
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mobile.badgerreview.com/stats
+url::http://mobile.badgerreview.com/roster
+real_permission::android.permission.INTERNET
+url::http://mobile.badgerreview.com
+url::mobile.badgerreview.com

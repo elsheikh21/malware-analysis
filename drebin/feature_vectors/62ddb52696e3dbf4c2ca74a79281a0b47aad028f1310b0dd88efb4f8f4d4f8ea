@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.androidcan.com/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.androidcan.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Shisen
+real_permission::android.permission.INTERNET

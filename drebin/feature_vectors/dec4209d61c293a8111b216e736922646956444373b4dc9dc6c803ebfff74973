@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://maps.google.com/?daddr%3D38.349635,-81.635390
+url::http://m.findlaw.com/law
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.Home
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+url::m.findlaw.com

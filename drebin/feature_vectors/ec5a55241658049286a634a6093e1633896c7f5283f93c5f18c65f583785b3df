@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.AppStarter
+activity::.GreenTipFullScreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.helpers.AlertAdapter
+url::pagead2.googlesyndication.com
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::getSystemService

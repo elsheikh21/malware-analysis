@@ -1,0 +1,16 @@
+activity::MixTx
+feature::android.hardware.touchscreen
+activity::Preferences
+intent::android.intent.action.MAIN
+activity::CNS_OTU
+activity::CCRmixer
+activity::.Main
+call::getPackageInfo
+activity::HeliAir
+activity::MixTopUp
+activity::ExD
+activity::.SettingsActivity
+activity::MixWhatIf
+activity::MixEANx
+activity::Main
+intent::android.intent.category.LAUNCHER

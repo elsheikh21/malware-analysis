@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::Your crews
+intent::android.intent.action.MAIN
+activity::Help
+activity::By athlete
+activity::.RowingRatingAndRatioWatchActivity
+feature::android.hardware.screen.portrait
+activity::Raw data
+activity::Timing
+activity::Daily averages
+activity::Your athletes
+intent::android.intent.category.LAUNCHER

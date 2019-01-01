@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.SAMPLE_CODE
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::enjoyGames
+activity::.PicPuzzle
+activity::show_Gallery
+call::getSystemService

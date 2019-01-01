@@ -1,0 +1,13 @@
+activity::com.droidamp.DroidAmp
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.READ_PHONE_STATE
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::com.droidamp.MediaButtonReceiver
+permission::android.permission.SET_PREFERRED_APPLICATIONS
+intent::android.intent.category.LAUNCHER
+activity::.DroidAmp
+intent::android.intent.action.MEDIA_BUTTON
+real_permission::android.permission.WAKE_LOCK

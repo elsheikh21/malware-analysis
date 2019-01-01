@@ -1,0 +1,44 @@
+feature::android.hardware.touchscreen
+service_receiver::Android Overclock 4x1
+api_call::java/net/HttpURLConnection
+url::forum.xda-developers.com
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+activity::.Preferences
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+url::www.google.com
+url::http://jrummy16.com/jrummy/misc/
+url::http://forum.xda-developers.com/showthread.php?t%3D833953
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::android.permission.VIBRATE
+service_receiver::.service.BootReceiver
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.widget.AppWidgetConfigure
+url::android-dls.com
+call::Cipher(AES/CBC/PKCS5Padding)
+service_receiver::Droid Overclock Service
+api_call::android/content/Context;->sendBroadcast
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+activity::.Overclock
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+service_receiver::Android Overclock 2x1
+url::jrummy16.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://android-dls.com/wiki/index.php?title%3DWhy_Root
+url::http://www.google.com/search?btnG%3D1&pws%3D0&q%3DWhat+is+root+access%3F
+call::system/bin/su
+provider::android.appwidget.provider

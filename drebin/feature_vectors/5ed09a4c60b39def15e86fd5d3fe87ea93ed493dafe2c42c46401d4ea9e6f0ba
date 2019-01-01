@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::market.pandaapp.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+url::http://market.pandaapp.com/theme/
+feature::android.hardware.screen.portrait
+url::mobile.91.com
+url::http://mobile.91.com/theme/Android.html
+intent::android.intent.category.LAUNCHER
+activity::com.nd.android.pandatheme.PandaThemeActivity
+call::getPackageInfo
+activity::.PandaThemeActivity
+api_call::android/provider/Settings$System;->putString

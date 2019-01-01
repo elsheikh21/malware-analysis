@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.TrampActivity
+real_permission::android.permission.READ_PHONE_STATE
+activity::.PlayGame
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.ALTERNATIVE
+activity::.Market
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.LoadGame
+activity::%E9%B6%E8%A1
+call::getDeviceId
+activity::%E4%BA%A4%E6
+call::getSystemService
+activity::.Mywh

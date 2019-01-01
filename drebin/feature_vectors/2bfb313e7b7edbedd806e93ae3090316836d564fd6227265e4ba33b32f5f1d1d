@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/details?id%3Dfishnoodle.storm
+feature::android.hardware.screen.portrait
+url::http://www.kittehface.com
+call::Read/Write External Storage
+url::www.kittehface.com

@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CALENDAR
+intent::android.intent.action.DATE_CHANGED
+service_receiver::aCalendar Date 1x1
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+url::http://eclipse.gsfc.nasa.gov/phase/phasecat.html
+url::eclipse.gsfc.nasa.gov
+url::gino.illstyles.de
+api_call::java/net/URL;->openStream
+activity::.ACalendar
+real_permission::android.permission.INTERNET
+url::http://gino.illstyles.de
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider

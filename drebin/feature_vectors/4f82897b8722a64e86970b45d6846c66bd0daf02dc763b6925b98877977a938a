@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+activity::.BudgetMain
+activity::com.holyhog.budget.BudgetMain
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::getSystemService

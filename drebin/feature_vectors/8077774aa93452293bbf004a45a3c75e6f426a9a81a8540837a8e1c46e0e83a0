@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+permission::android.permission.RECEIVE_WAP_PUSH
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+service_receiver::Smail plugin service
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+provider::android.provider.Telephony.WAP_PUSH_RECEIVED
+api_call::android/content/Context;->startActivity
+service_receiver::com.sonyericsson.extras.liveview.plugins.PluginReceiver
+provider::android.provider.Telephony.SMS_REJECTED
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.RECEIVE_MMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+activity::com.sonyericsson.extras.liveview.plugins.PluginPreferences
+service_receiver::jp.ddo.dekuyou.liveview.plugins.smail.SmailPluginService
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::.SMSReceiver
+call::readSMS
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.CONTENT_CHANGED
+intent::android.intent.action.PROVIDER_CHANGED

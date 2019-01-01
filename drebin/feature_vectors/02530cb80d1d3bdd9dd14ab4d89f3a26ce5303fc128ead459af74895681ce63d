@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::%E7%B2%BE%E7%B5%E7%A7%E5%BA
+intent::android.intent.action.MAIN
+activity::.MainApp
+service_receiver::%E7%B2%BE%E7%B5%E7%A7%E5%BA
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+provider::android.appwidget.provider

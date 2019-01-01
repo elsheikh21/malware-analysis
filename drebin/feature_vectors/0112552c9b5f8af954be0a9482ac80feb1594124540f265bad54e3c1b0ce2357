@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.ActIntro
+url::www.w3.org
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.w3.org/TR/html4/strict.dtd\
+api_call::android/app/Activity;->startActivity
+call::getSystemService

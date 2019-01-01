@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+call::Cipher(DES/CBC/PKCS5Padding)
+call::Cipher(AES)

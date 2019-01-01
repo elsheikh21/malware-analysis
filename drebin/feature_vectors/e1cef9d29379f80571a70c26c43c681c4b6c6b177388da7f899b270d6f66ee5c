@@ -1,0 +1,15 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/app/WallpaperManager;->setResource
+service_receiver::Bootstrap
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+call::getPackageInfo
+activity::.WallpaperGallery
+api_call::android/content/Context;->sendBroadcast
+call::getSystemService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+real_permission::android.permission.SET_WALLPAPER
+service_receiver::.MyAlarmReceiver

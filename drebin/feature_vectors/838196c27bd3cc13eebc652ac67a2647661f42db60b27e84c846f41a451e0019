@@ -1,0 +1,49 @@
+activity::SdSelectDirectory
+feature::android.hardware.touchscreen
+activity::SdFile
+call::printStackTrace
+real_permission::android.permission.USE_CREDENTIALS
+api_call::android/accounts/AccountManager;->getPassword
+permission::android.permission.INTERNET
+api_call::android/accounts/AccountManager;->removeAccount
+real_permission::android.permission.GET_ACCOUNTS
+activity::SdDirectory
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+activity::Login
+activity::Web Sharing
+permission::android.permission.USE_CREDENTIALS
+api_call::java/net/Socket
+api_call::android/media/MediaPlayer;->start
+activity::DirectorySearch
+activity::Stream
+api_call::android/accounts/AccountManager;->getAccounts
+activity::Livedrive
+activity::Local Area Network
+call::getSystemService
+permission::android.permission.AUTHENTICATE_ACCOUNTS
+activity::.android.media.MediaPlayerActivity
+activity::ImageUpload
+call::Obfuscation(Base64)
+call::Cipher(DES/ECB/NoPadding)
+real_permission::android.permission.AUTHENTICATE_ACCOUNTS
+permission::android.permission.GET_ACCOUNTS
+api_call::android/accounts/AccountManager;->blockingGetAuthToken
+call::Read/Write External Storage
+permission::android.permission.MANAGE_ACCOUNTS
+activity::.Livedrive
+service_receiver::.AuthenticationService
+permission::android.permission.WAKE_LOCK
+activity::Slideshow
+activity::Directory
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+activity::Samba Directory
+activity::Music
+call::Cipher(Blowfish)
+real_permission::android.permission.INTERNET
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+activity::File
+permission::android.permission.CHANGE_WIFI_MULTICAST_STATE
+real_permission::android.permission.MANAGE_ACCOUNTS

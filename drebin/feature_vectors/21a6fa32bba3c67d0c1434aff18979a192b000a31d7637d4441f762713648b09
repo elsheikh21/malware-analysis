@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::movietime.smcohen.com
+intent::android.intent.action.MAIN
+activity::.welcome
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+activity::.splash
+url::http://www.facebook.com/pages/Smcohencom/135487163181171
+url::http://movietime.smcohen.com
+call::getSystemService

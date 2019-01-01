@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+activity::.PeekContactNotes
+intent::android.intent.category.LAUNCHER
+service_receiver::.IncomingReceiver
+real_permission::android.permission.READ_CONTACTS
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->startActivity
+call::getSystemService

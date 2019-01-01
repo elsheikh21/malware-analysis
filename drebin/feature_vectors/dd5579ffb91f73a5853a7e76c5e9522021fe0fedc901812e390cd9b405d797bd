@@ -1,0 +1,157 @@
+call::Cipher(Cipher.BROKENPBEWITHSHA1ANDDES)
+call::Cipher(BC)
+call::Cipher(Cipher.CAST6)
+call::Cipher(Cipher.1.3.14.3.2.7)
+activity::com.appventive.mailprovider.activity.setup.AccountSetupCheckSettings
+provider::com.appventive.mailprovider.service.MailService
+provider::com.appventive.mailprovider.service.CoreReceiver
+call::Cipher(Cipher.RSA/ISO9796-1)
+call::Cipher(Cipher.RC2WRAP)
+provider::com.appventive.mailprovider.activity.setup.AccountSetupIncoming
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND2-KEYTRIPLEDES-CBC)
+url::cid
+call::Cipher(Cipher.XTEA)
+call::Cipher(cipher returned null)
+call::Cipher(Cipher.VMPC)
+call::Cipher(Cipher.ELGAMAL/PKCS1)
+url::www.bouncycastle.org)
+service_receiver::com.appventive.permission.MAIL_PROVIDER
+call::Cipher(Cipher.OLDPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::getSystemService
+api_call::java/net/URL;->openStream
+call::Cipher(pad block corrupted)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC2-CBC)
+activity::com.appventive.mailprovider.activity.setup.AccountSetupAccountType
+call::Cipher(Cipher.PBEWITHSHAAND128BITAES-CBC-BC)
+url::http://commons.apache.org/logging/tech.html.
+call::Cipher(Cipher.RSA/OAEP)
+call::Cipher(Cipher.RSA/PKCS1)
+activity::com.appventive.mailprovider.activity.setup.AccountSetupBasics
+call::Cipher(Cipher.PBEWITHMD5ANDDES)
+permission::android.permission.WAKE_LOCK
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND3-KEYTRIPLEDES-CBC)
+real_permission::android.permission.READ_LOGS
+call::Cipher(Cipher.PBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::http://www.bouncycastle.org)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+url::http://commons.apache.org/logging/troubleshooting.html.
+call::Cipher(org.bouncycastle.jce.provider.symmetric.AES$KeyGen128)
+call::Cipher(Cipher.TWOFISH)
+call::Cipher(Cipher.BLOWFISH)
+permission::android.permission.INTERNET
+call::Cipher(Cipher.SALSA20)
+call::Cipher(Cipher.HC128)
+provider::com.appventive.mailprovider.activity.setup.Prefs
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC4)
+call::Cipher(Cipher.PBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+provider::com.appventive.mailprovider.service.PollService
+call::Cipher(Cipher.RSA/2)
+intent::android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
+call::Cipher(Cipher.1.2.840.113549.3.7)
+call::Cipher(block truncated)
+api_call::android/content/Context;->startActivity
+service_receiver::com.appventive.mailprovider.service.UpdateService
+call::Cipher(Mac codes failed to equal.)
+provider::com.appventive.mailprovider.service.CoreReceiver.wakeLockRelease
+intent::android.intent.action.DEVICE_STORAGE_LOW
+call::Cipher(Cipher.RSA)
+api_call::java/lang/Runtime;->exec
+call::Cipher(Cipher.VMPC-KSA3)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC4)
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Cipher(Cipher.PBEWITHSHA1ANDDES)
+provider::com.appventive.mailprovider.service.BroadcastReceiver.scheduleIntent
+call::Cipher(Cipher.ECIES)
+call::Cipher(Cipher.RC5)
+call::Cipher(Cipher.HC256)
+service_receiver::com.appventive.mailprovider.service.PollService
+service_receiver::com.appventive.mailprovider.service.BootReceiver
+provider::com.appventive.mailprovider.activity.setup.AccountSetupOptions
+call::Cipher(Cipher.ARC4)
+activity::com.appventive.mailprovider.activity.setup.AccountSetupIncoming
+call::Cipher(input too short)
+call::Cipher(Cipher.DES)
+call::Cipher(Cipher.IES)
+call::printStackTrace
+url::http://cid/
+call::Cipher(Cipher.RC5-64)
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+call::Cipher(data too short)
+call::Cipher(Cipher.SERPENT)
+call::Cipher(GOST3410)
+service_receiver::com.appventive.mailprovider.service.SleepService
+call::Cipher(.)
+call::Cipher(Cipher.TEA)
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.READ_CONTACTS
+provider::com.appventive.mailprovider.activity.setup.AccountSettings
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC4)
+provider::com.appventive.mailprovider.service.BootReceiver
+url::commons.apache.org
+activity::com.appventive.mailprovider.activity.setup.Prefs
+call::Cipher(Cipher.PBEWITHMD5ANDRC2)
+activity::com.appventive.mailprovider.activity.setup.AccountSetupNames
+call::Cipher(BlockLength too large for simple addition.\n)
+call::Cipher(Cipher.RC6)
+provider::com.appventive.mailprovider.service.PushService
+provider::com.appventive.mailprovider.service.UpdateService
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC2-CBC)
+call::Cipher(AES)
+call::Execution of external commands
+provider::com.appventive.mailprovider.activity.setup.AccountSetupCheckSettings
+intent::android.intent.action.DEVICE_STORAGE_OK
+call::Cipher(Cipher.OLDPBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.SKIPJACK)
+provider::com.appventive.mailprovider.service.SleepService
+call::Cipher(Camellia)
+service_receiver::com.appventive.mailprovider.service.MailService
+service_receiver::com.appventive.mailprovider.service.CoreReceiver
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+provider::com.appventive.mailprovider.activity.setup.AccountSetupNames
+call::Cipher(Cipher.BROKENPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.BROKENPBEWITHMD5ANDDES)
+permission::android.permission.READ_OWNER_DATA
+call::Cipher(Cipher.RSA/1)
+feature::android.hardware.touchscreen
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC2-CBC)
+call::Cipher(Cipher.DESEDERFC3211WRAP)
+call::Cipher(invalid forcing byte in block)
+call::Cipher(Cipher.BrokenIES)
+provider::com.appventive.mailprovider.activity.setup.AccountSetupAccountType
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.BOOT_COMPLETED
+provider::com.appventive.mailprovider.activity.setup.AccountSetupBasics
+permission::android.permission.READ_CONTACTS
+activity::com.appventive.mailprovider.activity.setup.AccountSettings
+real_permission::android.permission.WAKE_LOCK
+call::Cipher(mac check in EAX failed)
+api_call::android/content/ContentResolver;->query
+call::Cipher(Cipher.DESEDEWRAP)
+call::Cipher(Cipher.PBEWITHSHAANDTWOFISH-CBC)
+permission::android.permission.VIBRATE
+call::Cipher(Cipher.DESEDE)
+call::Cipher(Cipher.PBEWITHSHA1ANDRC2)
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(Cipher.GOST28147)
+intent::android.net.conn.CONNECTIVITY_CHANGE
+service_receiver::com.appventive.mailprovider.service.PushService
+call::Cipher(mac check in CCM failed)
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC4)
+call::Cipher(Cipher.ELGAMAL)
+permission::com.appventive.permission.MAIL_PROVIDER
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+activity::com.appventive.mailprovider.service.BootReceiver
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC2-CBC)
+real_permission::android.permission.INTERNET
+provider::com.appventive.mailprovider
+call::Cipher(Cipher.RC2)
+call::Cipher(Cipher.RIJNDAEL)
+call::Cipher(Null pointer as ciphertext)
+call::Cipher(Cipher.1.2.840.113549.3.2)
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+call::Cipher(Cipher.BrokenECIES)
+activity::com.appventive.mailprovider.activity.setup.AccountSetupOptions

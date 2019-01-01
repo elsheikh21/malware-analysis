@@ -1,0 +1,12 @@
+url::http://www.vital-game.com/how-to-install-flash-101-on-android-21
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.IsestApp
+activity::isest.nestmi.IsestApp
+url::www.vital-game.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://www.vital-game.com

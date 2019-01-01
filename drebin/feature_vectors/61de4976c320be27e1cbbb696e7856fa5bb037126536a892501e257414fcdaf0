@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::.WidgetProvider$WidgetUpdator
+activity::.PageInfo
+intent::android.intent.action.MAIN
+permission::android.permission.BATTERY_STATS
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER
+activity::.AppGate
+provider::android.appwidget.provider

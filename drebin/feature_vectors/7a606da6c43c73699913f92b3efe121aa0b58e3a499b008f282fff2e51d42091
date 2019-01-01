@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT
+call::Cipher(AES/ECB/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

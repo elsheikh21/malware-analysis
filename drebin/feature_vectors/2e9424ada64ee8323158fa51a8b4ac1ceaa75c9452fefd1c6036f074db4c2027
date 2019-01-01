@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://maps.googleapis.com/maps/api/directions/json
+intent::android.intent.action.MAIN
+url::maps.googleapis.com
+url::www.antiques.com
+permission::android.permission.BIND_INPUT_METHOD
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.AuctionSearch
+url::http://maps.googleapis.com/maps/api/geocode/json
+intent::android.intent.category.LAUNCHER
+url::http://www.antiques.com/json.php
+api_call::java/net/URL;->getContent
+call::getSystemService
+permission::android.permission.DIAL_PHONE

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::.LoanCalculator
+intent::android.intent.action.MAIN
+url::http://www.curlygorillas.com%22>www.curlygorillas.com</a></p>
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::LoanCalculator
+intent::android.intent.category.LAUNCHER
+url::www.curlygorillas.com%22>www.curlygorillas.com<
+activity::AmortizationTable
+api_call::java/net/Socket
+activity::About
+call::getSystemService

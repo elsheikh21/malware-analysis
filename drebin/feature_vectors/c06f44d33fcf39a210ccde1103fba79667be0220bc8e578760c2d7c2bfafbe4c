@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.atvsub_applist
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::android/content/Context;->startActivity
+activity::.atv_aboutme
+url::http://cp.a8.com/image/128X128GIF/8
+call::getSystemService
+api_call::android/content/ContentResolver;->query
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT
+url::cp.a8.com
+activity::.atv_main
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+activity::.atv_group_edit
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+activity::.DemoActivity2

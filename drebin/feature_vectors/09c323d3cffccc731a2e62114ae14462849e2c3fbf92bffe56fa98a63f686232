@@ -1,0 +1,18 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::a.d.cn
+call::Obfuscation(Base64)
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+url::http://a.d.cn

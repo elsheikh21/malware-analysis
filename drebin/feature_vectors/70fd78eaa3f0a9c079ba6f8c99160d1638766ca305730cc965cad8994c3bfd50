@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.zyxsolutions.com
+intent::android.intent.action.MAIN
+url::http://www.zyxsolutions.com/test/index.html
+activity::.webBrowser
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::HttpPost

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Rules
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+activity::.CriticalMass

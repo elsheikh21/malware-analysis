@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+activity::%E3%AB%E3%BC%E3%E3Labo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getPackageInfo
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

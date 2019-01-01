@@ -1,0 +1,21 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::.Help
+intent::android.intent.action.MAIN
+url::market.android.com
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.SetPrefs
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+activity::.VipDroid
+api_call::java/net/HttpURLConnection
+url::http://m.vipmobile.rs/android/_apps/menu.xml
+intent::android.intent.category.LAUNCHER
+url::m.vipmobile.rs
+real_permission::android.permission.INTERNET
+url::vipmobile.rs
+url::http://vipmobile.rs/privatni/vip-moj-portal/vip-moj-portal.717.html
+call::getSystemService

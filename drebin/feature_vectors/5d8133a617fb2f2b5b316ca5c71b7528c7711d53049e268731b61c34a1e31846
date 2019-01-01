@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.MenuActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::printStackTrace
+feature::android.hardware.screen.portrait
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+service_receiver::.MusicPlayerService

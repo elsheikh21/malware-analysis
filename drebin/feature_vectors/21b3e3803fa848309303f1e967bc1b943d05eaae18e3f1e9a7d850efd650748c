@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.RecorderMonitorActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+activity::.RecorderListActivity
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.SettingsActivity
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+activity::.CamCloud
+activity::.RecorderInfoActivity
+activity::.SplashActivity
+call::getSystemService

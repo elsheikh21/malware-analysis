@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.DwellerAndroidApplication
+call::getPackageInfo
+url::http://roguebasin.roguelikedevelopment.org/index.php?title%3DDweller
+url::roguebasin.roguelikedevelopment.org
+intent::android.intent.category.LAUNCHER

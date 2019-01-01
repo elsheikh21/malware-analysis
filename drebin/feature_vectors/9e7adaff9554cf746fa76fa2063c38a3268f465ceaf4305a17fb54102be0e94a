@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::http://wrapware.de/android/nightlight.html
+permission::android.permission.BATTERY_STATS
+real_permission::android.permission.WRITE_SETTINGS
+permission::android.permission.INTERNET
+activity::Create settings
+activity::.GoneActivity
+real_permission::android.permission.WAKE_LOCK
+activity::.IlluminationActivity
+activity::.BrowserActivity
+real_permission::android.permission.VIBRATE
+permission::android.permission.WRITE_SETTINGS
+activity::About
+call::getSystemService
+activity::.NightLight
+activity::Settings
+api_call::android/os/PowerManager$WakeLock;->acquire
+permission::android.permission.WAKE_LOCK
+api_call::android/provider/Settings$System;->putInt
+api_call::android/webkit/WebView
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::wrapware.de

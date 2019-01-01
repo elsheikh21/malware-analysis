@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::.ServiceReceiver
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+call::printStackTrace
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->setContentView
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+call::Obfuscation(Base64)
+call::getSystemService
+activity::.MCMCActivity

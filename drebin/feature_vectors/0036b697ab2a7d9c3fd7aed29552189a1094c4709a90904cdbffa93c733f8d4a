@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+url::http://www.youtube.com/watch?v%3Dk1wholwhiaQ
+url::www.youtube.com
+activity::.LiveTunnelSetting
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+activity::.LiveTunnelPrompt
+call::getSystemService

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+call::getDeviceId
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.rthunder2
+call::getSystemService

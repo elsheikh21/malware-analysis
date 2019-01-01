@@ -1,0 +1,12 @@
+url::www.twinfeats.com
+feature::android.hardware.touchscreen
+url::http://www.twinfeats.com/tf/android/submitScores
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Options
+api_call::android/media/MediaPlayer;->start
+url::http://www.twinfeats.com/tf/android/getHighScores.jsp
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::Options
+real_permission::android.permission.WAKE_LOCK

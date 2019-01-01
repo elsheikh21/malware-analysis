@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::deaeru.tv
+activity::.HtmlView
+url::http://deaeru.tv/zyuku/index.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+url::http://deaeru.tv/zyuku/
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.MyWebView005
+real_permission::android.permission.INTERNET
+activity::.Contents

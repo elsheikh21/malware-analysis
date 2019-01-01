@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::marufu.jp
+activity::.detail.Detail
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+provider::.provider.PokemonDataContentProvider
+real_permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity
+activity::.PokETools
+api_call::android/content/ContentResolver;->query
+url::http://marufu.jp/lib/android/view/CobwebChartView

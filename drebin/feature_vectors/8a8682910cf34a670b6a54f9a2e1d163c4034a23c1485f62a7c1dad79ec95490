@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.dinglberry
+intent::android.intent.category.DEFAULT

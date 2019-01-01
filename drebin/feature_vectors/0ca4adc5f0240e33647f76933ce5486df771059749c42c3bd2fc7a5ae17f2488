@@ -1,0 +1,14 @@
+url::http://m.coches.net/anuncios.aspx?Offertype%3D2
+feature::android.hardware.touchscreen
+activity::.cocand
+url::http://m.coches.net/anuncios.aspx?Offertype%3D1
+url::http://m.coches.net/fichas_tecnicas.aspx
+intent::android.intent.action.MAIN
+url::m.coches.net
+url::http://m.coches.net/default.aspx
+url::http://m.coches.net/anuncios.aspx?Offertype%3D0
+url::http://www.coches.net/vender-mi-coche.aspx
+permission::android.permission.INTERNET
+url::www.coches.net
+url::http://m.coches.net
+intent::android.intent.category.LAUNCHER

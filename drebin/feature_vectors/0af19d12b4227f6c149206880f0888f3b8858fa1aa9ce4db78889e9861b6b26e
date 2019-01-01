@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.sudokuactivity
+activity::About Hex Sudoku
+intent::android.intent.action.MAIN
+activity::.Prefs
+activity::.Game
+intent::android.intent.category.LAUNCHER

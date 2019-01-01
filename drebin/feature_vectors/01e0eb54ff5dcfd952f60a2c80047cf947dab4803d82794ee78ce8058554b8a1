@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::%ED%B8%EB%EC%B4%EB %EB%EB%BC
+call::Read/Write External Storage
+activity::%ED%B8%EB%EC%B4%EB %EB%B2%A0%EC%B4%EC%A4
+feature::android.hardware.microphone
+activity::%ED%B8%EB%A0%EC%B4%EB %EB%B2%A0%EC%B4%EC%A4 %EB%A9%EB%B4 %EC%A0%ED
+permission::android.permission.RECORD_AUDIO
+activity::%EB%EB%BC %EB%EC%EB%A7
+activity::%EB%A9%EB%B4 %EC%A0%ED
+activity::%EA%B8%B0%ED %EC%A0%ED
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->stop
+api_call::android/media/MediaRecorder;->setAudioSource
+real_permission::android.permission.RECORD_AUDIO
+activity::%ED%B8%EB%EC%B4%EB 3%EB%A8%EA%B3 %EB%B2%A0%EC%B4%EC%A4
+activity::%EB%B2%A0%EC%B4%EC%A4 %EB%EC%EB%A7
+activity::%EB%EC%EB%A7
+activity::.Androband
+activity::%EB%EB%BC %EC%B0%EC%A3%BC
+activity::%EB%B2%A0%EC%B4%EC%A4 %EC%A0%ED
+activity::%EA%B8%B0%ED %EC%B0%EC%A3%BC
+activity::%EB%B2%A0%EC%B4%EC%A4 %EC%B0%EC%A3%BC
+activity::%ED%B8%EB%EC%B4%EB  3%EB%A8%EA%B3 %EA%B8%B0%ED
+activity::%ED%B8%EB%EC%B4%EB %EA%B8%B0%ED
+activity::%EB%EB%BC %EC%A0%ED
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::%EA%B8%B0%ED %EB%EC%EB%A7
+feature::android.hardware.screen.portrait
+activity::%EB%EC%EB%A72
+activity::%ED%B8%EB%A0%EC%B4%EB %EA%B8%B0%ED %EB%A9%EB%B4 %EC%A0%ED
+activity::%EB%EC%EB%A71
+feature::android.hardware.screen.landscape

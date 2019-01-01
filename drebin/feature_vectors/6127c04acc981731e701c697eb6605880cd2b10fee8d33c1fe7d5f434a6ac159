@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+activity::.Gematria
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::getSystemService

@@ -1,0 +1,36 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+service_receiver::Moods Generator
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+real_permission::android.permission.INTERNET
+url::http://schemas.android.com/apk/res/android
+api_call::android/app/Activity;->startActivity
+url::market.android.com
+url::http://a.admob.com/f0?
+activity::SplashActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+activity::FreeGeneratorActivity
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.BROWSABLE
+url::a.admob.com
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+api_call::android/webkit/WebView
+service_receiver::Mood of the day
+activity::com.openovo.boomerang.core.ui.ClearDataActivity
+intent::android.intent.action.MAIN
+activity::.SplashActivity
+feature::android.hardware.screen.portrait
+url::www.gstatic.com
+activity::SettingsActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(DESede/CBC/PKCS5Padding)
+provider::android.appwidget.provider
+url::schemas.android.com

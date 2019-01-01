@@ -1,0 +1,20 @@
+activity::%EB%AA%A9%ED %EA%B8%EC%A1
+feature::android.hardware.touchscreen
+activity::.Category
+provider::android.provider.Telephony.SMS_RECEIVED
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+permission::android.permission.RECEIVE_SMS
+activity::.Monthly
+service_receiver::Receiver
+activity::.Settings
+activity::.Period
+feature::android.hardware.telephony
+activity::Howto
+intent::android.intent.category.DEFAULT
+activity::.Logo
+feature::android.hardware.screen.portrait
+activity::About
+activity::.Add
+activity::.DanHouseKeeper

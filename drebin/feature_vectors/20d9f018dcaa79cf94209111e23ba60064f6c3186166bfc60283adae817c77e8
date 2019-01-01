@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::xmlpull.org
+feature::android.hardware.telephony
+call::Read/Write External Storage
+activity::.MyAPNController
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WRITE_APN_SETTINGS
+url::http://xmlpull.org/v1/doc/features.html

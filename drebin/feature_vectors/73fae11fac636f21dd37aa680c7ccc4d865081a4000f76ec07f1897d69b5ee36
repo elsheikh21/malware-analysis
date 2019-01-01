@@ -1,0 +1,12 @@
+url::word-search.heroku.com
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::www.google.com
+activity::.WordFinderActivity
+permission::android.permission.INTERNET
+url::http://word-search.heroku.com/search.json?q%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService
+url::http://www.google.com/search?q%3D

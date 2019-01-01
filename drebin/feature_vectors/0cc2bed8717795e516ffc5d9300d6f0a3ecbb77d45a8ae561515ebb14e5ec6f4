@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.TicTacToe
+intent::android.intent.action.MAIN
+activity::.Prefs
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+activity::Game
+real_permission::android.permission.WAKE_LOCK

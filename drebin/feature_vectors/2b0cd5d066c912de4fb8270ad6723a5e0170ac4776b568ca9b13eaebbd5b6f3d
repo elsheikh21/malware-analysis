@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.IdentifyActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::com.tweber.ColorReader.IdentifyActivity
+permission::android.permission.CAMERA

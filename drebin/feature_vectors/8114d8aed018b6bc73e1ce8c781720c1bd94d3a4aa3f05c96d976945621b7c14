@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Main
+intent::android.intent.category.DEFAULT
+activity::uton.TouchTheButtonLite.Game
+activity::uton.TouchTheButtonLite.Instruction
+intent::android.intent.category.LAUNCHER
+activity::uton.TouchTheButtonLite.Main

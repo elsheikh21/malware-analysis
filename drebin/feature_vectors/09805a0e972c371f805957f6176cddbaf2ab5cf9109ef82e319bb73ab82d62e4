@@ -1,0 +1,42 @@
+feature::android.hardware.touchscreen
+activity::org.jtb.moneytrackerfree.activity.MainTabActivity
+url::http://schemas.android.com/apk/res/
+activity::Scheduled Activities
+api_call::java/net/HttpURLConnection
+activity::org.jtb.moneytrackerfree.activity.ScheduleActivity
+activity::org.jtb.moneytrackerfree.activity.AccountTypesActivity
+url::api.admob.com
+activity::AccountTypes Activity
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::org.jtb.moneytrackerfree.activity.ScheduleListActivity
+call::getPackageInfo
+activity::Create Account Activity
+url::http://mm.admob.com/static/android/canvas.html
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+activity::org.jtb.moneytrackerfree.activity.AccountListActivity
+activity::.MainActivity
+activity::org.jtb.moneytrackerfree.activity.TransactionListActivity
+url::http://a.admob.com/f0?
+activity::org.jtb.moneytrackerfree.widget.MoneyTrackerAppWidgetProvider
+url::http://mm.admob.com/static/android/i18n/20100527
+call::getSystemService
+activity::org.jtb.moneytrackerfree.activity.MainActivity
+url::mm.admob.com
+activity::org.jtb.moneytrackerfree.activity.CreateAccountActivity
+permission::android.permission.INTERNET
+url::r.admob.com
+activity::Money Tracker Free
+api_call::android/content/Context;->sendBroadcast
+url::a.admob.com
+intent::android.intent.action.MAIN
+activity::Transactions Activity
+service_receiver::org.jtb.moneytrackerfree.widget.MoneyTrackerAppWidgetProvider
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::Schedule Activity
+activity::Accounts Activity
+intent::android.intent.category.LAUNCHER
+activity::org.jtb.moneytrackerfree.activity.TransactionActivity
+provider::android.appwidget.provider
+url::schemas.android.com

@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::.Syllabuzz
+permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.USER_PRESENT
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_CONTACTS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService

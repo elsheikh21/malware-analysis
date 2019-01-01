@@ -1,0 +1,24 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://r.admob.com/ad_source.php
+call::getPackageInfo
+url::market.android.com
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+service_receiver::.MultiMountSDCardWidget$UpdateService
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::Execution of external commands
+call::Cipher(AES/CBC/PKCS5Padding)
+url::r.admob.com
+api_call::java/net/HttpURLConnection
+activity::.MultiMountSDCardConfigure
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+service_receiver::.MultiMountSDCardWidget
+provider::android.appwidget.provider

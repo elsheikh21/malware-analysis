@@ -1,0 +1,7 @@
+activity::.DroidSansTweakToolsLite
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.SET_ANIMATION_SCALE
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WRITE_APN_SETTINGS

@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+api_call::android/media/MediaRecorder;->setAudioSource
+feature::android.hardware.screen.portrait
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+activity::.JNote
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

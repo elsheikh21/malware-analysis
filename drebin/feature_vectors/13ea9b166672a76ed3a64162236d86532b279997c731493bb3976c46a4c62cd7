@@ -1,0 +1,70 @@
+activity::PowerAMP Folders & Library
+feature::android.hardware.touchscreen
+activity::PowerAMP Changelog
+call::printStackTrace
+activity::com.maxmpz.audioplayer.SupportSendMessageActivity
+permission::android.permission.READ_PHONE_STATE
+activity::PowerAMP Edit Tags
+activity::com.maxmpz.audioplayer.EqPresetActivity
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::com.maxmpz.audioplayer.PlaylistNameEditActivity
+service_receiver::PowerAMP DirectoryScanService
+real_permission::android.permission.READ_CONTACTS
+activity::PowerAMP Eq
+activity::com.maxmpz.audioplayer.SupportDialogActivity
+service_receiver::Player Service
+api_call::android/webkit/WebView
+permission::android.permission.WRITE_SETTINGS
+service_receiver::PlayerMediaButtonReceiver
+url::http://powerampapp.com/
+service_receiver::StorageBroadcastReceiver
+url::images.google.com
+activity::PowerAMP Settings
+activity::PowerAMP Help
+url::google.com
+api_call::android/media/AudioManager;->isBluetoothA2dpOn
+activity::PowerAMP Expired
+intent::android.intent.action.VIEW
+real_permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->listen
+url::http://google.com/m/search?q%3D
+activity::.StartupActivity
+activity::PowerAMP Welcome
+permission::android.permission.WAKE_LOCK
+activity::PowerAMP Song Info
+call::Obfuscation(Base64)
+activity::com.maxmpz.audioplayer.EqPresetEditActivity
+intent::android.intent.action.MEDIA_MOUNTED
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/app/KeyguardManager;->exitKeyguardSecurely
+permission::android.permission.DISABLE_KEYGUARD
+activity::PowerAMP Full Version
+activity::com.maxmpz.audioplayer.PlaylistSelectActivity
+real_permission::android.permission.DISABLE_KEYGUARD
+url::powerampapp.com
+intent::android.intent.action.MEDIA_BUTTON
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+activity::com.maxmpz.audioplayer.SelectAlbumArtActivity
+url::http://images.google.com/images?imgsz%3Dlarge&safe%3Dactive&q%3D
+activity::PowerAMP
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::PowerAMP Lyrics
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+service_receiver::Headset Micro Service
+intent::android.bluetooth.a2dp.intent.action.SINK_STATE_CHANGED
+api_call::android/content/ContentResolver;->query
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/provider/Settings$System;->putInt
+api_call::android/app/Activity;->startActivity
+provider::android.appwidget.provider

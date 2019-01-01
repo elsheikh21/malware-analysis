@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.dogfishalehouse.com/media/albums/g.jpg
+activity::.AleBoards
+intent::android.intent.action.MAIN
+url::www.dogfishalehouse.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.dogfishalehouse.com/media/albums/f.jpg
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openConnection
+url::http://www.dogfishalehouse.com/media/albums/ff.jpg

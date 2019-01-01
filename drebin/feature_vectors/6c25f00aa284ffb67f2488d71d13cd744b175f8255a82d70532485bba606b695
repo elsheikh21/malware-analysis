@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.1473labs.com/topic1/greetings/res/
+url::http://www.1473labs.com/topic1/wall/fantasia/
+feature::android.hardware.screen.portrait
+url::http://www.1473labs.com/topic1/wall/fantasia
+url::http://www.1473labs.com/topic1/wall/fantasia/res.xml
+url::www.1473labs.com
+activity::.HelpAboutInfo
+real_permission::android.permission.INTERNET
+intent::android.intent.category.INFO
+call::getSystemService

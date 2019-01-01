@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://www.bv-rheinland.de/rss.xml
+intent::android.intent.action.MAIN
+activity::MessageList
+activity::OrdnungenActivity
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::GeschaeftsstelleActivity
+intent::android.intent.category.LAUNCHER
+url::www.bv-rheinland.de
+url::http://www.bv-rheinland.de
+api_call::java/net/URL;->openConnection

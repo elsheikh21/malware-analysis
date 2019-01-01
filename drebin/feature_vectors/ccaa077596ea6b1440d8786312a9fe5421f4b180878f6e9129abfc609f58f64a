@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+activity::VizMeAndroid
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+permission::android.permission.DISABLE_KEYGUARD

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.google.com
+url::http://www.google.com/m/search?&q%3D
+intent::android.intent.category.LAUNCHER
+url::http://www.m.youtube.com/results?search_query%3D
+activity::.CBSearchLiteMain
+api_call::android/content/Context;->startActivity
+call::getSystemService
+url::www.m.youtube.com

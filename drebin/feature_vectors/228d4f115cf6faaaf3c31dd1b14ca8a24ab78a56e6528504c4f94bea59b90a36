@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.ToneDialLimitedActivity
+permission::android.permission.PROCESS_OUTGOING_CALLS
+call::getSystemService
+service_receiver::net.xpdeveloper.dialer.common.service.ToneDialService

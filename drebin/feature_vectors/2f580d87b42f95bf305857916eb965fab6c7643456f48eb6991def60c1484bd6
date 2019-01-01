@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+url::market.android.com
+api_call::android/webkit/WebView
+url::http://market.android.com/details?id%3Dcom.cyberactivities.treasuredrive
+url::http://cyberactivities.com/ads/treasuredrive.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.TreasureDriveFreeActivity
+real_permission::android.permission.VIBRATE
+url::cyberactivities.com
+call::getSystemService
+intent::android.intent.category.LAUNCHER

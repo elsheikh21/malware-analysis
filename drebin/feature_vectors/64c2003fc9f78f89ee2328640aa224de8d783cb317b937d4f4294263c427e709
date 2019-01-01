@@ -1,0 +1,15 @@
+url::pagancalendar.co.uk
+feature::android.hardware.touchscreen
+url::http://pagancalendar.co.uk/list2.php?tz%3D
+intent::android.intent.action.MAIN
+activity::.EventView
+activity::.TimeZone
+activity::.Prefs
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://pagancalendar.co.uk
+activity::.Events
+intent::android.intent.category.LAUNCHER
+url::http://pagancalendar.co.uk/eventText.php?tz%3D
+activity::.PaganCalendar
+api_call::java/net/HttpURLConnection

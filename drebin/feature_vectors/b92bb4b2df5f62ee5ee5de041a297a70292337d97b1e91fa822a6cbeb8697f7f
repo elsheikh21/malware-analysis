@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://ebookhow.info/Survey/3.html
+url::http://ebookhow.info/Survey/4.html
+intent::android.intent.action.MAIN
+url::http://ebookhow.info/Survey/2.html
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://ebookhow.info/Survey/1.html
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+url::ebookhow.info
+call::getSystemService

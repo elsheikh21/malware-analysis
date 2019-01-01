@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.MainActivity
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS

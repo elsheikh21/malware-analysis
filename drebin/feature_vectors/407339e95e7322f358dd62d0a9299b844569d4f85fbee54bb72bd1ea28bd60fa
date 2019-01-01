@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+intent::android.intent.action.MAIN
+call::Read/Write External Storage
+activity::.Preferences
+call::getSystemService
+intent::android.intent.category.LAUNCHER

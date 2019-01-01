@@ -1,0 +1,15 @@
+url::http://www.domobile.com
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::ServerService
+permission::android.permission.INTERNET
+url::www.domobile.com
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+api_call::java/net/ServerSocket
+activity::.HomeActivity
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+call::getSystemService

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+url::https://www.google.com/accounts/ClientLogin
+call::getPackageInfo
+url::http://android.clients.google.com/market/api/ApiRequest
+real_permission::android.permission.READ_CONTACTS
+url::android.clients.google.com
+api_call::android/content/ContentResolver;->query
+url::www.google.com
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+call::getSystemService
+url::http://www.unicef.org\
+call::Obfuscation(Base64)
+call::Read/Write External Storage
+permission::com.google.android.providers.gsf.permission.READ_GSERVICES
+provider::com.google.android.providers.gsf.permission.READ_GSERVICES
+intent::android.intent.action.MAIN
+url::www.unicef.org\
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.DownloadActivity
+intent::android.intent.action.SEND
+url::https://android.clients.google.com/market/api/ApiRequest
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

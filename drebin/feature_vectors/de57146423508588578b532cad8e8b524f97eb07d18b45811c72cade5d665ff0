@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+api_call::android/os/Vibrator;->vibrate
+activity::.SplashScreenActivity
+real_permission::android.permission.INTERNET
+api_call::android/app/Activity;->setContentView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.CAMERA
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+call::getSystemService

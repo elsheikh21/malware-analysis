@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.AhoyMatey
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

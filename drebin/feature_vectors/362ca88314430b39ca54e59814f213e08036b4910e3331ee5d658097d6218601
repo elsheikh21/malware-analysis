@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.argyllferries.co.uk/m
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ArgyllFerriesActivity
+url::www.argyllferries.co.uk
+intent::android.intent.category.LAUNCHER

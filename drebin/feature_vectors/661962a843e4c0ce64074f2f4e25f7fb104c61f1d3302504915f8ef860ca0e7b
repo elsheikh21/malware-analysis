@@ -1,0 +1,108 @@
+url::http://schemas.android.com/apk/res/
+intent::android.intent.action.PACKAGE_REMOVED
+call::Cipher(pad block corrupted)
+url::http://www.w3.org/2001/XMLSchema-instance
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.GET_ACCOUNTS
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://xmlpull.org/v1/doc/
+service_receiver::de.javawi.mobileknox.upsell.PremiumFeaturesManager
+url::www.
+call::Cipher(cipher returned null)
+service_receiver::BillingReceiver
+url::www.bouncycastle.org)
+url::http://mm.admob.com/static/android/i18n/20101109
+call::getSystemService
+activity::com.admob.android.ads.AdMobActivity
+permission::android.permission.GET_ACCOUNTS
+activity::.Unlock
+url::http://www.wireless-village.org/CSP
+permission::android.permission.WAKE_LOCK
+url::http://webservice.safedesktop.javawi.de/
+url::http://xml.apache.org/xml-soap
+url::http://www.wireless-village.org/TRC
+url::http://www.openmobilealliance.org/DTD/WV-CSP
+url::http://www.bouncycastle.org)
+api_call::java/net/HttpURLConnection
+activity::.Synchronize
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::getPackageInfo
+url::www.openmobilealliance.org
+activity::.SearchResult
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+call::Cipher(block truncated)
+api_call::android/content/Context;->startActivity
+activity::.TabHostView
+api_call::android/accounts/AccountManager;->getAccounts
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::mm.admob.com
+activity::.SetMasterPassword
+call::Cipher(mac check in EAX failed)
+url::api.admob.com
+url::http://www.w3.org/2001/12/soap-encoding
+url::a.admob.com
+url::http://www.
+url::http://www.openmobilealliance.org/DTD/WV-TRC
+url::http://www.w3.org/XML/1998/namespace
+feature::android.hardware.location.network
+activity::.settings.Settings
+url::192.168.43.65
+call::Cipher(data too short)
+url::schemas.xmlsoap.org
+url::webservice.safedesktop.javawi.de
+activity::.ExportData
+call::Cipher(mac check in CCM failed)
+call::Read/Write External Storage
+activity::.GroupedView
+url::http://serversync.de:
+intent::android.intent.action.PACKAGE_ADDED
+url::http://www.wireless-village.org/PA
+url::http://mm.admob.com/static/android/canvas.html
+url::http://schemas.xmlsoap.org/soap/encoding/
+service_receiver::BillingService
+url::http://a.admob.com/f0?
+activity::.ChangeMasterPassword
+permission::com.android.vending.BILLING
+url::http://xmlpull.org/v1/doc/features.html
+url::http://xmlpull.org/v1/doc/properties.html
+url::serversync.de
+url::http://www.w3.org/1999/XMLSchema-instance
+url::http://schemas.xmlsoap.org/soap/envelope/
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(input too short)
+url::http://www.w3.org/2001/12/soap-envelope
+call::Cipher(Mac codes failed to equal.)
+url::schemas.android.com
+feature::android.hardware.touchscreen
+url::www.w3.org
+call::Cipher(invalid forcing byte in block)
+activity::.ShowEntry
+url::https://www.
+intent::android.intent.action.SEARCH
+url::http://www.w3.org/2000/xmlns/
+real_permission::android.permission.WAKE_LOCK
+url::http://www.openmobilealliance.org/DTD/WV-PA
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+url::http://www.w3.org/2001/XMLSchema
+intent::android.intent.category.LAUNCHER
+permission::android.permission.VIBRATE
+activity::.Welcome
+call::Obfuscation(Base64)
+url::www.wireless-village.org
+url::http://192.168.43.65:8080/services
+activity::.NearByView
+url::r.admob.com
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+intent::android.intent.action.MAIN
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+url::xml.apache.org
+url::xmlpull.org
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+call::Cipher(Null pointer as ciphertext)
+activity::.ImportData
+url::http://www.w3.org/1999/XMLSchema

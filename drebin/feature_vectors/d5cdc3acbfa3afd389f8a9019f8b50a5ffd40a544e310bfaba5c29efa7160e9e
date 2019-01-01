@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.about
+api_call::android/webkit/WebView
+activity::.countmain
+activity::.settings
+activity::.countmulti
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.countsimple
+feature::android.hardware.screen.portrait

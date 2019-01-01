@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.HitDroid

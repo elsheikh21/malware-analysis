@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Main
+call::Read/Write External Storage
+service_receiver::com.wujie.svnservices.MediaService
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+api_call::android/app/Activity;->startActivity
+call::printStackTrace
+call::getSystemService

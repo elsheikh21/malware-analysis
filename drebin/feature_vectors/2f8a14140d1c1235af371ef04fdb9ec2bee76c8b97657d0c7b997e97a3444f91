@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+intent::android.intent.category.HOME
+permission::android.permission.INTERNET
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.VIBRATE
+activity::.MVOAppTablet
+call::getSystemService
+api_call::java/net/URL;->openStream
+api_call::java/lang/Runtime;->exec
+intent::android.net.conn.CONNECTIVITY_CHANGE
+call::Execution of external commands
+service_receiver::.service.SystemMessageReceiver
+api_call::android/content/Context;->startService
+service_receiver::com.circadence.service.RedirectManager
+activity::.MVOApp
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::system/bin/su

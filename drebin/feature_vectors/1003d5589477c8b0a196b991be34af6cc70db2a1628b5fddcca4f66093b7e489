@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+url::linkstore.ru
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://linkstore.ru/servlet/time
+url::http://api.bitly.com/v3/shorten?longUrl%3D
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+feature::android.hardware.location.gps
+api_call::android/app/Activity;->startActivity
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+feature::android.hardware.location
+api_call::android/content/ContentResolver;->openOutputStream
+url::api.bitly.com
+activity::.Kik
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+activity::.GeoSMS
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.CHOOSER

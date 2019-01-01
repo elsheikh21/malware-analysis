@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+call::Read/Write External Storage
+url::http://www.youtube.com/watch?v%3DR9rwbty5Dvo
+url::http://www.youtube.com/watch?v%3D6_zGEWPpi-4
+call::getPackageInfo
+activity::.ChildSupportNY
+intent::com.familylawsoftware.intent.action.VIEW
+real_permission::android.permission.GET_ACCOUNTS
+url::http://www.youtube.com/watch?v%3DjiGaxh3SzQc
+url::http://www.youtube.com/watch?v%3DKNij1f5UXD8
+api_call::android/accounts/AccountManager;->getAccounts
+intent::android.intent.category.ALTERNATIVE_SELECTED
+permission::android.permission.GET_ACCOUNTS
+url::http://www.youtube.com/watch?v%3DjAxdueI8rWg
+intent::android.intent.category.DEFAULT
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.youtube.com
+activity::.MyMessage
+real_permission::android.permission.INTERNET
+url::http://www.youtube.com/watch?v%3DJv-Z0RhhKY4
+intent::android.intent.category.LAUNCHER
+call::getSystemService

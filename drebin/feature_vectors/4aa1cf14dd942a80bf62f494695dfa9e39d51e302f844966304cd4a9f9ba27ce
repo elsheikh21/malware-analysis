@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.appsgoo.com/
+intent::android.intent.category.LAUNCHER
+url::www.appsgoo.com
+activity::.appsgoo_bmi

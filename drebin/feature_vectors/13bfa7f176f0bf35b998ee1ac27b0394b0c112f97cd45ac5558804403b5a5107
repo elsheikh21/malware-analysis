@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.DEFAULT
+activity::.ColorTexture.ColorText
+activity::.Tracing.LetterTracing
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+activity::.PreschoolLearning
+activity::.preschool.PreschoolLearning
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

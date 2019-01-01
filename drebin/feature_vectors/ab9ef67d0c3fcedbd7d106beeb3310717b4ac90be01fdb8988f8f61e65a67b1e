@@ -1,0 +1,46 @@
+url::http://www.topografix.com/GPX/1/1
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getDeviceId
+url::www.topografix.com
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::HttpPost
+url::http://forum.psyberia.net\n\nIcon
+api_call::android/webkit/WebView
+feature::android.hardware.location
+feature::android.hardware.location.gps
+url::earth.google.com
+url::forum.psyberia.net\n\nIcon
+url::reg.psyberia.net
+service_receiver::com.psyberia.alpinequest.tracker.service
+real_permission::android.permission.VIBRATE
+activity::.AlpineQuestActivity
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::AlpineQuestActivity
+activity::psyberia.alpinequest.core.model.managers.settings.activity.AqPreferencesActivity
+api_call::android/location/LocationManager;->addGpsStatusListener
+service_receiver::AlpineQuest Tracker
+real_permission::android.permission.DISABLE_KEYGUARD
+permission::android.permission.DISABLE_KEYGUARD
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+url::http://alpinequest.psyberia.net
+real_permission::android.permission.READ_PHONE_STATE
+call::Cipher(RSA/ECB/PKCS1PADDING)
+url::http://earth.google.com/kml/2.2
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::AlpineQuest Tracker
+url::alpinequest.psyberia.net)
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+url::http://reg.psyberia.net
+intent::android.intent.category.LAUNCHER
+url::http://alpinequest.psyberia.net)
+url::alpinequest.psyberia.net
+api_call::android/content/Context;->startService

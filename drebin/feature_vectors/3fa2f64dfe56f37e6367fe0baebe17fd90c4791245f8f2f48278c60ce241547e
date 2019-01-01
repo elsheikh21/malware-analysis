@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+feature::android.hardware.screen.portrait
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/media/MediaPlayer;->start
+activity::.Application
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

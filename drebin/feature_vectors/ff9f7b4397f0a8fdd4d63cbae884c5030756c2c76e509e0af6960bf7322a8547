@@ -1,0 +1,14 @@
+activity::Handsome Nation
+feature::android.hardware.touchscreen
+url::http://mobile.handsomenation.com/stats
+url::http://mobile.handsomenation.com/about
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.handsomenation.com/schedule
+real_permission::android.permission.INTERNET
+url::mobile.handsomenation.com
+intent::android.intent.category.LAUNCHER
+url::http://mobile.handsomenation.com
+url::http://mobile.handsomenation.com/roster

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+call::getPackageInfo
+url::http://market.android.com/details?id%3Dcom.pansi.msg
+intent::android.intent.category.INFO

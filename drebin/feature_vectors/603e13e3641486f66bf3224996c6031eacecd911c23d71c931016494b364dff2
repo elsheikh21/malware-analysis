@@ -1,0 +1,10 @@
+activity::Login
+intent::android.intent.category.SAMPLE_CODE
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.Login
+intent::android.intent.category.LAUNCHER
+activity::Register
+activity::PokeRoid
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

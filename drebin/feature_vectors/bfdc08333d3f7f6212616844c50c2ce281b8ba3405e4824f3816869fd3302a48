@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::java/net/Socket
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+activity::.BC2ServerChoice
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+service_receiver::BC2 Server Admin
+provider::android.appwidget.provider
+call::getSystemService

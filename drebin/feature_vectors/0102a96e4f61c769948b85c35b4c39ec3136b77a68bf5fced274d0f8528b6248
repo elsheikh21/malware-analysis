@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.main
+permission::android.permission.INTERNET
+url::http://data.thejtog.com/mikeperneckyrss/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::data.thejtog.com
+url::http://pernecky.blogspot.com
+url::pernecky.blogspot.com

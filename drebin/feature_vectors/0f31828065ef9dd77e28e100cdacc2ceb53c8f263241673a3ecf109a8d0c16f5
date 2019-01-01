@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+intent::android.intent.category.DEFAULT
+call::getSystemService

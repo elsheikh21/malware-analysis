@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+activity::.ActCover
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::.Dlgwait_login
+activity::.DlgSessTimeout
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+activity::.DlgSessDisconn
+activity::.DlgLoginErr
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::java/net/Socket
+call::getSystemService

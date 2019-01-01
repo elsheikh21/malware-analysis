@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+feature::android.hardware.screen.portrait
+activity::GamesListActivity
+activity::.IntroductionActivity
+intent::android.intent.category.LAUNCHER
+activity::InfoTabActivity
+real_permission::android.permission.INTERNET
+provider::com.fryit.cfl.proxymovieprovider

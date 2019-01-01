@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::.MainActivity
+permission::android.permission.RECEIVE_SMS
+url::http://schemas.android.com/apk/res/android
+activity::.InceptorActivity
+intent::android.intent.action.NEW_OUTGOING_CALL
+real_permission::android.permission.VIBRATE
+permission::android.permission.PROCESS_OUTGOING_CALLS
+call::getSystemService
+permission::android.permission.VIBRATE
+provider::android.provider.Telephony.SMS_RECEIVED
+service_receiver::Inceptor
+call::Cipher(AES)
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+feature::android.hardware.telephony
+activity::.InceptorMessagesActivity
+api_call::android/content/Context;->sendBroadcast
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+service_receiver::Analog Clock
+call::readSMS
+intent::android.intent.category.LAUNCHER
+activity::.InceptorPreferenceActivity
+url::schemas.android.com

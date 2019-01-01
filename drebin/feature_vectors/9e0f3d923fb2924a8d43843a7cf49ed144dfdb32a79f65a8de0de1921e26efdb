@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.FontPack
+intent::android.intent.action.MAIN
+intent::android.intent.action.PICK
+intent::android.intent.category.DEFAULT
+activity::.InfoActivity
+call::getPackageInfo
+intent::android.intent.category.INFO
+call::getSystemService

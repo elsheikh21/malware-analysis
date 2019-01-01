@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.Locker
+api_call::android/content/Context;->sendBroadcast

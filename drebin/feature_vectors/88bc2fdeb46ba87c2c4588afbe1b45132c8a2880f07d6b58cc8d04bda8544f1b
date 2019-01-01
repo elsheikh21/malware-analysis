@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Main
+url::http://64.147.172.7/restaurant/seattle?search%3D
+permission::android.permission.INTERNET
+url::64.147.172.7
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

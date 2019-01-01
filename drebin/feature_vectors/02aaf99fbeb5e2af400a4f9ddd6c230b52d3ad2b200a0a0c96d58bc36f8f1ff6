@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+service_receiver::.mediaMute
+provider::android.appwidget.provider
+call::getSystemService

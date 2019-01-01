@@ -1,0 +1,11 @@
+activity::.SecurityPassword
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.CALL_PHONE
+url::http://www.mm.co.kr/iwix/redirect.asp?adUrl%3D
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+url::www.mm.co.kr
+intent::android.intent.category.LAUNCHER
+url::http://58.225.57.203/AppBanner/main.asp
+url::58.225.57.203

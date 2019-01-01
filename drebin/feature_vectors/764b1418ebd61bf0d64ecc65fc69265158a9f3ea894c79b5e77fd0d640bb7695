@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+activity::.Settings
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.action.MAIN
+activity::.Loading
+api_call::java/net/Socket
+permission::android.permission.UPDATE_DEVICE_STATS
+permission::android.permission.ACCESS_WIFI_STATE

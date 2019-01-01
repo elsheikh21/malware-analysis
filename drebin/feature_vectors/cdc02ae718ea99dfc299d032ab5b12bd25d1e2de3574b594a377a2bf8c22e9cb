@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+call::getDeviceId
+url::http://twistype.tony-kay.com
+intent::android.intent.action.MAIN
+url::twistype.tony-kay.com
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::tonykaylicensing.appspot.com
+activity::.MainActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://tonykaylicensing.appspot.com/?a%3D%s&i%3D%s
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_PHONE_STATE
+call::printStackTrace
+call::getSystemService

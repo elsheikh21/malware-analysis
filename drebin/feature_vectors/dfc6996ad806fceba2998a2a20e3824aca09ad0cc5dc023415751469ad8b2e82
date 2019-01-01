@@ -1,0 +1,14 @@
+url::http://feeds.ezinearticles.com/category/Arts-and-Entertainment:Tattoos.xml
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://img14.imageshack.us/img14/7311/splash1.png
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::img14.imageshack.us
+url::04289berqflp2653rewigbzxzn.hop.clickbank.net
+url::feeds.ezinearticles.com
+url::http://04289berqflp2653rewigbzxzn.hop.clickbank.net/
+api_call::android/webkit/WebView
+activity::.Activity1
+intent::android.intent.category.LAUNCHER

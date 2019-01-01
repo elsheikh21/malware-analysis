@@ -1,0 +1,25 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+activity::.CommentsList
+permission::android.permission.INTERNET
+activity::.NewComment
+activity::.PudelekSettings
+url::http://e.pudelek.pl/p971/ebc083890000f8b04d306d4d\
+call::HttpPost
+url::e.pudelek.pl
+url::sites.google.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://api.pudelek.pl/1/comment
+url::api.pudelek.pl
+call::getSystemService
+url::http://sites.google.com/site/gson/gson-user-guide
+url::http://api.pudelek.pl/1
+activity::.StandardAbout
+call::Read/Write External Storage
+activity::.NoteDetail
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.PudelekViewer
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://m.facebook.com/pages/Czytnik-pudelekpl-dla-Androida/188954604467949\

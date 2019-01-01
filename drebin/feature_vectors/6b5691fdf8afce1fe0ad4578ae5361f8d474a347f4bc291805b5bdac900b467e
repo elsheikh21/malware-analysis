@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://laftrafficscraper.heroku.com
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+url::http://gis.lafayettela.gov/VServerImages/
+url::gis.lafayettela.gov
+url::laftrafficscraper.heroku.com

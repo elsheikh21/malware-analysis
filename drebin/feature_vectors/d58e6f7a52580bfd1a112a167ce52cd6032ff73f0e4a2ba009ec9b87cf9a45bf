@@ -1,0 +1,5 @@
+activity::.MVTStopWatch
+feature::android.hardware.touchscreen
+activity::MVTStopWatch
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

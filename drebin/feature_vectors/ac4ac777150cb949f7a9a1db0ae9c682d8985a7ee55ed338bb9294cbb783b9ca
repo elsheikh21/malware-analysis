@@ -1,0 +1,11 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/app/ActivityManager;->getRecentTasks
+activity::RecentAppsActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.RecentAppsMain
+call::getSystemService

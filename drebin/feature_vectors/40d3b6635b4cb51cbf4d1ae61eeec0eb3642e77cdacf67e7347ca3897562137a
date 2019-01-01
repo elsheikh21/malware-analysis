@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::BouncingBallActivity
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+activity::.SplashScreenActivity
+activity::MessageActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

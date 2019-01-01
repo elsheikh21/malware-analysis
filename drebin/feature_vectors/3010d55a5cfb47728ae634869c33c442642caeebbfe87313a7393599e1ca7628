@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+service_receiver::DoActionReceiver
+activity::.melodyJihoo
+service_receiver::timeUpService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::melodyJihoo
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

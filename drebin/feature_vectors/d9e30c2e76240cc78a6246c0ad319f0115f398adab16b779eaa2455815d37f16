@@ -1,0 +1,21 @@
+url::http://market.android.com/search?q%3Dpub:Xebra
+feature::android.hardware.touchscreen
+activity::se.xebralabs.travalert.MainPreferences
+url::market.android.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::)
+real_permission::android.permission.INTERNET
+permission::android.permission.VIBRATE
+activity::se.xebralabs.travalert.accountmanager.AccountSelector
+url::http://)?[a-z0-9]+.travian.[a-z]+(.[a-z]+)?
+service_receiver::TravAlert Service
+activity::se.xebralabs.travalert.MainActivity
+activity::se.xebralabs.travalert.accountmanager.AccountEdit
+api_call::android/webkit/WebView
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+intent::android.intent.category.LAUNCHER

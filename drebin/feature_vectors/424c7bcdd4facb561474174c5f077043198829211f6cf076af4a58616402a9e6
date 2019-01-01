@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::%EBDisk
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://nomdisk.co.kr/index_android.asp
+url::nomdisk.co.kr
+activity::.MyActivity

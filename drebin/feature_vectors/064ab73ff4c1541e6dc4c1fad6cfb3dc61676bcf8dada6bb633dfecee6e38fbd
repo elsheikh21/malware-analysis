@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.OpenChannelActivity
+url::\%27
+url::http://\%27
+activity::.activity.OpenChannelActivity
+intent::android.intent.category.LAUNCHER

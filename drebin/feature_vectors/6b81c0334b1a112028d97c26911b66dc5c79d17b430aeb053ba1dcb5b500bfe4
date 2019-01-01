@@ -1,0 +1,12 @@
+url::http://searchwarp.com/rss/main.rss
+feature::android.hardware.touchscreen
+url::searchwarp.com
+intent::android.intent.action.MAIN
+url::SearchWarp.com
+permission::android.permission.INTERNET
+activity::.MessageList
+real_permission::android.permission.INTERNET
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+url::http://SearchWarp.com
+api_call::java/net/URL;->openConnection

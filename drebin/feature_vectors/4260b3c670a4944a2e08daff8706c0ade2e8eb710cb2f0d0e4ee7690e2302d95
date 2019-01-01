@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.Phish
+intent::android.intent.action.MAIN
+service_receiver::.receiver.Receiver
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+call::getSystemService

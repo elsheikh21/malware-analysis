@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://www.janwillemboer.nl/blog/ema-personal-wiki
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::HttpPost
+call::Obfuscation(Base64)
+url::http://url.com/a_tale_of_two_cities?var1%3Da_query_&amp%3Bvar2%3Dstring\
+call::Cipher(Blowfish)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.ViewPage
+api_call::android/webkit/WebView
+url::http://url.com/a_tale_of_two_cities?var1%3Da_query_&var2%3Dstring
+url::www.janwillemboer.nl
+activity::NewPageName
+url::url.com

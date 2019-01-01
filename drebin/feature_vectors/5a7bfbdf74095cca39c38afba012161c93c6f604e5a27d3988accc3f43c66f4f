@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.TheTownHubAndroid
+url::http://fyodor.homeip.net/TheTownHub/?url%3DTheTownHubMobile
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+url::fyodor.homeip.net

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+feature::android.hardware.screen.portrait
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+activity::.activity.GeaplilEditer
+activity::.Geaplil
+activity::.activity.Geaplil
+call::getSystemService
+intent::android.intent.category.LAUNCHER

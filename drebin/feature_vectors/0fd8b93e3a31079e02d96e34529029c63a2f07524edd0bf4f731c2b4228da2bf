@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://wiki.processing.org/w/Android
+url::http://dbztech.com/CubeDrop
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.CubeDrop
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+url::http://dbztech.com/CubeDrop/redirect.php?input%3D
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+url::wiki.processing.org
+url::dbztech.com
+real_permission::android.permission.INTERNET
+call::getSystemService

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+url::http://m.cnbeta.com/
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::m.cnbeta.com
+call::getPackageInfo
+call::getDeviceId
+api_call::android/content/Context;->startActivity
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://m.cnbeta.com/index.php?pageID%3D
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.News
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSubscriberId
+url::schemas.android.com

@@ -1,0 +1,5 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+permission::org.inodes.gus.scummvm.permission.SCUMMVM_PLUGIN
+intent::android.intent.category.INFO
+service_receiver::org.inodes.gus.scummvm.PluginProvider

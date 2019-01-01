@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+activity::.app.ReportListActivity
+call::Read/Write External Storage
+api_call::android/app/Activity;->setContentView
+call::HttpPost
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+activity::.app.MainActivity
+api_call::android/telephony/TelephonyManager;->getLine1Number
+url::newdownloader.ahit.com
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+permission::android.permission.CAMERA
+intent::android.intent.action.MEDIA_MOUNTED
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.VIEW
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://newdownloader.ahit.com/ahit_1_downloader/android.aspx

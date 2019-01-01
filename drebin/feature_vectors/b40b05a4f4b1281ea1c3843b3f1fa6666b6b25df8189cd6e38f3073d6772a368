@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+activity::PrefsActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.BearingActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+api_call::android/location/LocationManager;->addGpsStatusListener
+real_permission::android.permission.INTERNET
+call::getSystemService
+activity::IntroActivity

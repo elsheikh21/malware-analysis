@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+url::demo.icu-project.org
+real_permission::android.permission.WAKE_LOCK
+url::http://demo.icu-project.org/icu-bin/ubrowse
+real_permission::android.permission.INTERNET
+activity::.hQuran
+api_call::java/net/URL;->openConnection
+intent::android.intent.category.LAUNCHER

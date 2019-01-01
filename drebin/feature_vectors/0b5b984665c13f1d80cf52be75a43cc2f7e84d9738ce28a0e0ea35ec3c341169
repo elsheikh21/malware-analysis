@@ -1,0 +1,15 @@
+activity::Enter Player Name
+feature::android.hardware.touchscreen
+activity::.Help
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::Enter 4 digit number
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.HallOfFame
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

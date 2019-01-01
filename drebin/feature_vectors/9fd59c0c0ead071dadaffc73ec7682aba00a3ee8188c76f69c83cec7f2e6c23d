@@ -1,0 +1,16 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+permission::android.permission.SET_WALLPAPER_HINTS
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.action.SEND
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+api_call::android/app/WallpaperManager;->suggestDesiredDimensions
+api_call::android/app/WallpaperManager;->setBitmap
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.SET_WALLPAPER_HINTS
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.SET_WALLPAPER

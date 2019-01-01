@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+feature::android.hardware.screen.portrait
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+activity::.Chameleon
+intent::android.intent.category.DEFAULT
+intent::org.openintents.action.PICK_COLOR

@@ -1,0 +1,13 @@
+activity::.Shoopy
+activity::.Setcost
+url::http://api.shoopy.info/android/getcost/?loginName%3D
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::api.shoopy.info
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://api.shoopy.info/android/setcost/?loginName%3D
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.Setting
+url::http://api.shoopy.info/android/getcosttype/?loginName%3D

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://game.tuibo.com/ddp/
+intent::android.intent.action.MAIN
+activity::.GameActivity
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::game.tuibo.com
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

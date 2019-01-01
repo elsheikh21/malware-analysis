@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+url::xmlpull.org
+url::http://www.gagabunch.com/
+activity::.HelixHdLite
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::http://xmlpull.org/v1/doc/features.html
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+url::www.gagabunch.com

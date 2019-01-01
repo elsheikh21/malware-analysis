@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+activity::.HushDroidActivity
+permission::android.permission.RECORD_AUDIO
+service_receiver::.AudioService
+real_permission::android.permission.WAKE_LOCK

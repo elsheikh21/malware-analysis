@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.deals2buy.com/rssgen/tech.xml
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::.RSSReader
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::www.deals2buy.com
+url::www.tarikguney.com
+url::http://www.tarikguney.com
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

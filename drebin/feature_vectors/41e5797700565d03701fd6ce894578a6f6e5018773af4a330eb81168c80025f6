@@ -1,0 +1,9 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.main
+feature::android.hardware.screen.portrait
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::com.pack.duke.main

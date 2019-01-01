@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+activity::.bathRoomAct
+intent::android.intent.category.LAUNCHER
+activity::com.amazingdroid.content.showmebathRoom.bathRoomAct
+real_permission::android.permission.WAKE_LOCK

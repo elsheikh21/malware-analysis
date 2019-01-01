@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::https://market.android.com/details?id%3Dcom.mobilepearls.memory):\n\n
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.MemoryActivity
+api_call::android/content/Context;->startActivity
+activity::.AboutActivity
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.ListHighScoresActivity
+call::getSystemService

@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.TowerTarget
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+activity::com.nipo.towertargetdemo.TowerTarget
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

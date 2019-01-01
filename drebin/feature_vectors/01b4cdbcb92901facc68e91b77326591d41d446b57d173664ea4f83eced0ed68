@@ -1,0 +1,35 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::com.southwindsgames.am2s.AM2SActivity
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES)
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+activity::.AM2SActivity
+url::java.sun.com
+url::http://java.sun.com/dtd/properties.dtd
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::spreadsheets.google.com
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+url::https://spreadsheets.google.com/formResponse?formkey%3D

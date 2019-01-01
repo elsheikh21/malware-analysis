@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+call::sendSMS
+intent::android.intent.action.MAIN
+permission::android.permission.READ_LOGS
+permission::android.permission.SEND_SMS
+activity::.Main
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+call::Execution of external commands
+activity::org.projectvoodoo.simplecarrieriqdetector.Main
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::java/lang/Runtime;->exec

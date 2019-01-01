@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.straySheep5Lite
+activity::.help
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.WAKE_LOCK

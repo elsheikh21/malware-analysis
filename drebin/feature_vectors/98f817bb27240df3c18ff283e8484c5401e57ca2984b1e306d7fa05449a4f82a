@@ -1,0 +1,16 @@
+url::http://www.netmite.com/android/srv/2.0/upload/TankForce_1_0_ZKTX_N73.jar
+feature::android.hardware.touchscreen
+url::http://mzoo.cn\u4e0b\u8f7d\uff01
+url::mzoo.cn\u4e0b\u8f7d\uff01
+intent::android.intent.action.MAIN
+url::mzoo.cn
+api_call::android/content/Context;->startActivity
+activity::.GameMIDlet
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://mzoo.cn
+url::www.netmite.com
+call::getPackageInfo
+url::http://mz00.cn
+url::mz00.cn
+url::http://mzoo.cn/zj.aspx?user%3D
+intent::android.intent.category.LAUNCHER

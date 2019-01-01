@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/media/MediaRecorder;->setAudioSource
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/app/Activity;->startActivity
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+activity::.ScooterHero_Paid
+real_permission::android.permission.WAKE_LOCK

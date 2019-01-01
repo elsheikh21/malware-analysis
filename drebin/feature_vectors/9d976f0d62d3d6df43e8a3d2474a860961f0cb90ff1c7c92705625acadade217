@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+url::http://www.televideo.rai.it/televideo/pub/tt4web/
+real_permission::android.permission.INTERNET
+url::www.ceefax.tv
+url::www.televideo.rai.it
+url::http://www.televideo.rai.it/televideo/pub/articolo.jsp
+url::http://www.rte.ie/aertel/images/
+url::http://www.teletext.ch/pics/
+url::www.teletext.ch
+url::www.rte.ie
+url::http://www.televideo.rai.it/televideo/pub/ricercaArticoli.jsp?trova%3D
+call::Read/Write External Storage
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+url::http://www.ceefax.tv/cgi-bin/gfx.cgi?font%3Dbig
+intent::android.intent.category.LAUNCHER

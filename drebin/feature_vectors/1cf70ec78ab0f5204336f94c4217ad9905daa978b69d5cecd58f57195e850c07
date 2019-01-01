@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.sapocom.com/AndroidApps/contact.cfm?APP%3DKSSE&interface%3Dandroid
+intent::android.intent.action.MAIN
+url::http://www.sapocom.com/AndroidApps/info.php?APP%3DKSSE&interface%3Dandroid
+url::www.sapocom.com
+api_call::android/media/MediaPlayer;->start
+url::1671.live.streamtheworld.com
+activity::.mainactivity
+permission::android.permission.INTERNET
+url::http://1671.live.streamtheworld.com/KSSEFMCMP3
+real_permission::android.permission.INTERNET
+url::http://www.sapocom.com/AndroidApps/banner300x100.cfm?APP%3DKSSE&interface%3Dandroid
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.WAKE_LOCK

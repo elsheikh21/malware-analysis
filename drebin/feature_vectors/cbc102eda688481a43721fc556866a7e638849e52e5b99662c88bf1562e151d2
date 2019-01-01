@@ -1,0 +1,5 @@
+service_receiver::.PackageReceiver
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_REPLACED
+provider::jp.co.bii.android.app.dvrplugins.applstcache.cacheprovider
+intent::android.intent.action.PACKAGE_REMOVED

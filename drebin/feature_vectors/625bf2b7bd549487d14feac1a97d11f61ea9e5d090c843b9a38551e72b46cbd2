@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3Dcom.cdproductions.crazyhome.icons
+url::http://market.android.com/search?q%3Dpname:com.cdproductions.apps.crazyhomelite
+url::http://market.android.com/search?q%3Dcom.cdproductions.crazyhome.themes
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::MainActivity
+activity::.CrazyDudeActivity
+url::http://market.android.com/search?q%3Dpname:com.cdproductions.apps.crazyhome
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

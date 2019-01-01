@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.yksc.net
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+activity::.AreaCalc0
+permission::android.permission.INTERNET
+url::http://www.yksc.net/android/cmareacal/lnk001.xml
+real_permission::android.permission.INTERNET
+url::http://www.yksc.net/android/cmareacal/img001.png
+intent::android.intent.category.LAUNCHER
+url::http://www.yksc.net/android/cmareacal/msg001.xml

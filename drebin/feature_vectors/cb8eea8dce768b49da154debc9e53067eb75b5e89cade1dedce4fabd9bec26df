@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::.SensorService
+service_receiver::.TimerService
+intent::android.intent.action.MAIN
+feature::android.hardware.sensor.accelerometer
+api_call::android/os/Vibrator;->vibrate
+activity::.Preferences
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.UserActivity
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+url::http://www.skinhat.com/android
+activity::.MudClient3D
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::com.skinhat.MudClient3D
+real_permission::android.permission.WAKE_LOCK
+api_call::java/net/Socket
+url::www.skinhat.com

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.AndroidRssReader
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://cryancaire.wordpress.com/feed/rss/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::cryancaire.wordpress.com
+intent::android.intent.category.LAUNCHER

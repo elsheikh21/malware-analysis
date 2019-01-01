@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.BlogViewer
+intent::android.intent.category.LAUNCHER
+url::nurettinyakit.blogspot.com
+url::http://nurettinyakit.blogspot.com

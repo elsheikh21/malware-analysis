@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.SettingsController
+intent::crossword.intent.action.SHOW_SETTINGS_DETAIL
+activity::.Help
+activity::.About
+activity::.HelpSectionController
+activity::.SettingsDetailController
+intent::crossword.intent.action.SHOW_HELP
+intent::crossword.intent.action.SHOW_SETTINGS
+intent::crossword.intent.action.SHOW_ABOUT
+intent::crossword.intent.action.SHOW_EULA
+activity::.Eula
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+intent::crossword.intent.action.SHOW_HELP_SECTION
+api_call::android/app/Activity;->startActivity
+activity::.CrosswordMain

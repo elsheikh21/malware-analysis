@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AngelsOfDeath
+url::http://www.bbthemeworld.com/tp/angels-death
+intent::android.intent.category.LAUNCHER
+url::www.bbthemeworld.com

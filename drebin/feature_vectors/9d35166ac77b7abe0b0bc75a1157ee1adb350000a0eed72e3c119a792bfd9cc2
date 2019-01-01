@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MedPhireWebLaunch
+intent::android.intent.category.DEFAULT
+url::www.medphire.com
+intent::android.intent.category.LAUNCHER
+url::http://www.medphire.com

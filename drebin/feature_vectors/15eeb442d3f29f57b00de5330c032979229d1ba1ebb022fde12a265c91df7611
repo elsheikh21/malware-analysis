@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+url::http://maps.google.com/?ll%3D
+feature::android.hardware.screen.portrait
+url::http://www.agileday.it
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::Italian Agile Day Application
+permission::android.permission.INTERNET
+url::search.twitter.com
+activity::.ui.twitter.TwitterActivity
+activity::.ui.speakers.SpeakersActivity
+url::http://search.twitter.com/search.json
+intent::android.intent.category.LAUNCHER
+activity::.ConferenceApp
+real_permission::android.permission.INTERNET
+url::maps.google.com
+activity::.ui.sessions.SessionActivity
+activity::.ui.ConferenceApp
+url::www.agileday.it
+call::getSystemService
+activity::.ui.sessions.ScheduleActivity

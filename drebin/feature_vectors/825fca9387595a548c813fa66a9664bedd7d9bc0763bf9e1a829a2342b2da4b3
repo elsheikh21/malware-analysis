@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::dev.sikevux.se
+activity::Schema
+permission::android.permission.INTERNET
+activity::.Schema
+url::http://dev.sikevux.se/LICENSE.txt
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

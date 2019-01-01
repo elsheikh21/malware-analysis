@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.MainActivity
+permission::android.permission.WRITE_CALENDAR
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

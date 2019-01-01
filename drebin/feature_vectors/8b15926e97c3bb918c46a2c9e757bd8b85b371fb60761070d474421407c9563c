@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+activity::.HikakuMatrix
+url::http://images.ad-maker.info/apps/fi2lheeiqibj.html
+api_call::android/webkit/WebView
+activity::.ItemListActivity
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

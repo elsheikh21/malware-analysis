@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::http://kitco.com,,Kitco.com
+call::printStackTrace
+url::http://kds.kitco.com:49233/kcast/live/base/438_235/
+url::http://kds.kitco.com:49233/kcast/live/indexes/438_235/
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+api_call::android/content/Context;->startActivity
+url::kitco.com,,Kitco.com
+call::getSystemService
+activity::.FlashAct
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::.HomeAct
+url::https://kds.kitco.com:49234/iphoneFeed/
+url::http://kds.kitco.com:49233/kcast/live/
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://kds.kitco.com:49233/kcast/live/indexes/438_235/cl_24h.gif
+feature::android.hardware.screen.portrait
+url::kds.kitco.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

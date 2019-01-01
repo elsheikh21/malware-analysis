@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://baseball.worldclockr.com/android.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::baseball.worldclockr.com
+intent::android.intent.category.LAUNCHER

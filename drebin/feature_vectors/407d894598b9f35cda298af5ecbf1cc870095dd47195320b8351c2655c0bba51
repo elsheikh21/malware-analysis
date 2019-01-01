@@ -1,0 +1,20 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://dl01.mangashare.com/manga/
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/app/Activity;->startActivity
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::com.DGSD.MangaReader.FileDialog
+real_permission::android.permission.INTERNET
+url::http://read.mangashare.com/
+url::read.mangashare.com
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+activity::.HomeActivity
+call::Read/Write External Storage
+url::dl01.mangashare.com
+call::getSystemService
+activity::HomeActivity

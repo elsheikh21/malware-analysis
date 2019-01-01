@@ -1,0 +1,9 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+call::Read/Write External Storage
+url::http://market.android.com/details?id%3Dfishnoodle.snowfall
+url::http://www.kittehface.com
+url::www.kittehface.com
+intent::android.intent.category.INFO

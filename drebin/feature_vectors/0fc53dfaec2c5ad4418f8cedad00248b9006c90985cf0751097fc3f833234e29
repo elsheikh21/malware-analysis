@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.wildcatbeat.com/roster
+intent::android.intent.action.MAIN
+url::http://mobile.wildcatbeat.com
+api_call::android/webkit/WebView
+activity::.Main
+url::mobile.wildcatbeat.com
+permission::android.permission.INTERNET
+url::http://mobile.wildcatbeat.com/stats
+url::http://mobile.wildcatbeat.com/schedule
+intent::android.intent.category.LAUNCHER
+activity::Wildcat Beat
+real_permission::android.permission.INTERNET
+url::http://mobile.wildcatbeat.com/about

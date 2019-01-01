@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.dailyhighlander.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.dailyhighlander.com/schedule
+url::http://mobile.dailyhighlander.com/about
+url::http://mobile.dailyhighlander.com/roster
+intent::android.intent.category.LAUNCHER
+url::mobile.dailyhighlander.com
+activity::Daily Highlander
+url::http://mobile.dailyhighlander.com/stats

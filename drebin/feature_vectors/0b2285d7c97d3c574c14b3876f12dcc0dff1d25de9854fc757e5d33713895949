@@ -1,0 +1,16 @@
+url::http://images.ad-maker.info/apps/tokyopuzzle.html
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::.splashAct
+feature::android.hardware.screen.portrait
+url::images.ad-maker.info
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

@@ -1,0 +1,12 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.about
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.CALL_PHONE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.activity

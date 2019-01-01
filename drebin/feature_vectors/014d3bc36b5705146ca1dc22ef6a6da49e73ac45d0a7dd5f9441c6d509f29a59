@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+url::http://atacmobile.it/atacmobile.php?nav%3D1&service%3Dpaline
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://atacmobile.it/atacmobile.php?startaddress%3D
+feature::android.hardware.location
+call::getSystemService
+url::http://atacmobile.it
+url::http://atacmobile.it/atacmobile.php?service%3Dlingua&action%3Dset&locale%3D
+url::http://atacmobile.it/atacmobile.php?id_fermata%3D
+url::atacmobile.it
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER

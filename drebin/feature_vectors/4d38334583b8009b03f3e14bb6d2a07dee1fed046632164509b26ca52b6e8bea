@@ -1,0 +1,10 @@
+intent::android.intent.action.TIMEZONE_CHANGED
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::.UpdateService
+intent::android.intent.action.MAIN
+intent::android.intent.category.PREFERENCE
+activity::.EditPreferences
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+intent::android.intent.action.TIME_SET

@@ -1,0 +1,5 @@
+activity::.DictionaryApp
+feature::android.hardware.touchscreen
+intent::org.openintents.indiclash.sample.dictionaryapp
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

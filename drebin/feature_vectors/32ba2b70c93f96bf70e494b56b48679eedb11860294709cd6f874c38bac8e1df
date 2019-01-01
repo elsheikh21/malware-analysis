@@ -1,0 +1,73 @@
+url::http://github.com/droidfu/schema
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::Geocode Photo
+call::printStackTrace
+real_permission::android.permission.GET_TASKS
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::HttpPost
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::Cipher(DES/ECB/NoPadding)
+activity::Comments
+call::getPackageInfo
+activity::Choose username
+url::http://spreadsheets.google.com/formResponse?formkey%3D
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.GET_TASKS
+feature::android.hardware.location.gps
+real_permission::android.permission.CAMERA
+url::sites.google.com
+url::commons.apache.org
+activity::User Profile
+api_call::android/location/LocationManager;->requestLocationUpdates
+feature::android.hardware.camera.autofocus
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::Offline Photos
+feature::android.hardware.location
+api_call::android/accounts/AccountManager;->getAccounts
+url::http://trace.nullwire.com/collect/
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+url::http://commons.apache.org/logging/tech.html.
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService
+activity::Upload Preview
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::http://sites.google.com/site/gson/gson-user-guide
+activity::.DashboardActivity
+intent::com.vtcreator.android360.intent.action.SettingsActivity
+permission::android.permission.CAMERA
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.PREFERENCE
+url::trace.nullwire.com
+activity::Upload Finish
+api_call::android/app/ActivityManager;->getRunningTasks
+url::github.com
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+activity::Connections
+activity::.HomeActivity
+real_permission::android.permission.GET_ACCOUNTS
+api_call::java/net/URL;->openConnection
+permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::spreadsheets.google.com
+feature::android.hardware.camera
+intent::android.intent.action.SEND
+activity::Upload
+call::Read/Write External Storage
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+permission::android.permission.GET_ACCOUNTS
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+url::http://commons.apache.org/logging/troubleshooting.html.
+api_call::android/app/Activity;->startActivity
+activity::Choose email address

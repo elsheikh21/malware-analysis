@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.hcltech.com/engineering-services/
+activity::.Tax.SplashActivity
+url::www.hcltech.com
+activity::.SplashActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

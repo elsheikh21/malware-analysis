@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+activity::EditGround
+activity::Preferences
+activity::CharInfo
+activity::.mainapp
+activity::HelpTab
+call::getSystemService
+activity::EditInfantry
+activity::EditAir
+activity::SolutionTab
+activity::StatInfo
+activity::EditPMC
+activity::StatControl
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::DefenseTab
+activity::IncomeTab
+intent::android.intent.category.LAUNCHER
+activity::StatMain
+activity::EditWater

@@ -1,0 +1,132 @@
+call::Cipher(Cipher.BROKENPBEWITHSHA1ANDDES)
+call::Cipher(BC)
+call::Cipher(pad block corrupted)
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::Cipher(Cipher.RSA/ISO9796-1)
+call::getPackageInfo
+call::Cipher(Cipher.RC2WRAP)
+call::HttpPost
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND2-KEYTRIPLEDES-CBC)
+activity::.screens.Main
+call::Cipher(cipher returned null)
+call::Cipher(Cipher.ELGAMAL/PKCS1)
+url::www.bouncycastle.org)
+call::Cipher(Camellia)
+call::Cipher(Cipher.OLDPBEWITHSHAANDTWOFISH-CBC)
+url::http://192.168.4.40/do_process_csr_pem.php?csr%3D$
+call::Cipher(Cipher.OLDPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::getSystemService
+call::Cipher(HC128)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC2-CBC)
+call::Cipher(Cipher.PBEWITHSHAANDTWOFISH-CBC)
+url::192.168.4.47
+url::192.168.4.40
+call::Cipher(Cipher.RSA/OAEP)
+call::Cipher(Cipher.RSA/PKCS1)
+url::https://192.168.4.47:8444/ca_pem.asp?csr%3D$
+intent::android.intent.action.VIEW
+call::Cipher(Cipher.PBEWITHMD5ANDDES)
+permission::android.permission.WAKE_LOCK
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND3-KEYTRIPLEDES-CBC)
+call::Cipher(Noekeon)
+real_permission::android.permission.READ_LOGS
+call::Cipher(Cipher.PBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::http://www.bouncycastle.org)
+api_call::android/net/wifi/WifiManager;->addNetwork
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC4)
+service_receiver::.remoteservice.OnAlarmReceiver
+url::https://192.168.4.164:8443/certsrv/certfnsh-cpn.asp?CertRequest%3D$
+permission::android.permission.INTERNET
+call::Cipher(malformed signature)
+call::Cipher(failed wrap OID test)
+call::Cipher(Cipher.PBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.RSA/2)
+call::Cipher(block truncated)
+api_call::java/net/Socket
+call::Cipher(SEED)
+url::http://karsten:password%40abc.test.com:8080
+call::Cipher(Mac codes failed to equal.)
+call::Cipher(Cipher.BrokenIES)
+call::Cipher(Cipher.RSA)
+api_call::java/lang/Runtime;->exec
+call::Cipher(Cipher.BROKENPBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Cipher(Cipher.PBEWITHSHA1ANDDES)
+call::Cipher(CTS failed to throw exception)
+service_receiver::.localservice.EncapsulationService
+call::Cipher(Cipher.ECIES)
+call::Cipher(RC4)
+call::Cipher(SunJCE)
+permission::android.permission.CHANGE_WIFI_STATE
+call::Cipher(input too short)
+call::Cipher(Cipher.DES)
+call::Cipher(Cipher.IES)
+intent::android.intent.category.LAUNCHER
+call::Cipher(data too short)
+call::Cipher(mac check in EAX failed)
+permission::android.permission.READ_LOGS
+call::Cipher(unexpected exception.)
+call::Read/Write External Storage
+call::getWifiState
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+call::Cipher(failed OID test)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC4)
+call::printStackTrace
+call::Cipher(Salsa20)
+call::Cipher(HC256)
+call::setWifiEnabled
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+call::Cipher(Cipher.BROKENPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC2-CBC)
+url::192.168.8.176
+call::Execution of external commands
+url::http://192.168.4.40/do_process_csr_pkcs7.php?csr%3D$
+real_permission::android.permission.CHANGE_WIFI_STATE
+call::Cipher(Grain128)
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC4)
+url::karsten
+call::Cipher(Cipher.BROKENPBEWITHMD5ANDDES)
+permission::android.permission.ACCESS_BACKGROUND_SERVICE
+call::Cipher(Cipher.RSA/1)
+call::Cipher(algorithm)
+url::https://192.168.4.47/ca_pem.asp?csr%3D$
+call::Cipher(Failed - decrypted data doesn\'t match.)
+feature::android.hardware.touchscreen
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC2-CBC)
+call::Cipher(invalid forcing byte in block)
+call::Cipher(Cipher.PBEWITHMD5ANDRC2)
+url::https://192.168.4.47:8444/ca_pkcs7.asp?csr%3D$
+activity::.Main
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_WIFI_STATE
+url::https://192.168.4.25/pipe/storeAndroidData.php
+real_permission::android.permission.WAKE_LOCK
+api_call::android/app/Activity;->startActivity
+service_receiver::.remoteservice.SimpleReportService
+permission::android.permission.ACCESS_WIFI_STATE
+call::Cipher(Grainv1)
+url::192.168.4.25
+call::Cipher(context)
+call::Cipher()
+call::Cipher(Cipher.PBEWITHSHA1ANDRC2)
+call::Cipher(AES)
+call::Obfuscation(Base64)
+call::Cipher(Cipher.GOST28147)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC2-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND128BITAES-CBC-BC)
+call::Cipher(failed exception test - no ShortBufferException thrown)
+call::Cipher(mac check in CCM failed)
+url::192.168.4.164
+url::http://192.168.8.176:8080/network_config_android.xml
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC4)
+call::Cipher(Cipher.ELGAMAL)
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+call::Cipher(Cipher.RC2)
+call::Cipher(Null pointer as ciphertext)
+call::Cipher(Cipher.1.2.840.113549.3.2)
+call::Cipher(Cipher.BrokenECIES)

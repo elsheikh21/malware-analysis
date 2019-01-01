@@ -1,0 +1,14 @@
+url::http://mobile.dailytribe.com/stats
+feature::android.hardware.touchscreen
+activity::Daily Tribe
+url::http://mobile.dailytribe.com/schedule
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.dailytribe.com/roster
+intent::android.intent.category.LAUNCHER
+url::http://mobile.dailytribe.com
+url::http://mobile.dailytribe.com/about
+url::mobile.dailytribe.com

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+activity::Djemb%C3%A9 Lamba light
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+call::getPackageInfo

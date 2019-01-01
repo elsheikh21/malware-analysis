@@ -1,0 +1,16 @@
+url::market.android.com
+feature::android.hardware.touchscreen
+url::http://ocleos.free.fr/\n\n
+url::http://ocleos.free.fr/
+intent::android.intent.action.MAIN
+url::ocleos.free.fr
+activity::.AboutPref
+activity::.Main
+permission::android.permission.WRITE_CALENDAR
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+call::getPackageInfo
+url::https://market.android.com/search?q%3DOcleos&so%3D1&c%3Dapps
+call::getSystemService
+activity::.Preferences

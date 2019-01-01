@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://www.netmite.com/android/srv/2.0/upload/cark.jar
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.BeginMidlet
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.netmite.com
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

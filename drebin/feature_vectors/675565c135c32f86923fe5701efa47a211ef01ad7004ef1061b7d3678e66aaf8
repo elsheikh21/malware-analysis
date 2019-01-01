@@ -1,0 +1,34 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+permission::android.permission.CALL_PHONE
+activity::.Main
+permission::android.permission.INTERNET
+url::bostonpads.backbaypads.com
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+feature::android.hardware.location.gps
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://mobile.twitter.com/home?status%3DChecking
+feature::android.hardware.location
+url::resources.bostonpads.com
+url::mobile.twitter.com
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+feature::android.hardware.telephony
+url::http://resources.bostonpads.com/assets/icons/
+activity::.PrivacyPolicy
+call::Read/Write External Storage
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+api_call::android/location/LocationManager;->getBestProvider
+url::http://bostonpads.backbaypads.com/showpropertydetails.php?ID%3D
+feature::android.hardware.location.network
+url::http://m.facebook.com/sharer.php?u%3D
+intent::android.intent.category.LAUNCHER

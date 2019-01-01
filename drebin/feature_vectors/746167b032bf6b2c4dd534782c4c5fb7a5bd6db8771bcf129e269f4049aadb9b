@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+service_receiver::MediaButtonReceiver
+intent::android.intent.action.MAIN
+call::getSystemService
+permission::android.permission.READ_PHONE_STATE
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+service_receiver::.MediaButtonReceiver$ConnectionService
+intent::android.intent.action.MEDIA_BUTTON
+api_call::android/content/Context;->startService

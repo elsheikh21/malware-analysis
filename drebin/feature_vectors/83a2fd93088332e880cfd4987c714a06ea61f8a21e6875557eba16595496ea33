@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.google.com/gwt/x?u%3D
+activity::.Submissions
+url::www.google.com
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://news.ycombinator.com/
+url::http://news.ycombinator.com
+intent::android.intent.category.LAUNCHER
+url::news.ycombinator.com
+api_call::java/net/URL;->getContent
+call::printStackTrace
+call::getSystemService

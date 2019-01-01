@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::AnrActivity
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.AnrActivity
+activity::.CrashActivity

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::azine.kr
+activity::.azineMobile
+permission::android.permission.INTERNET
+url::http://azine.kr/m/gimcheon/
+url::http://azine.kr/m/gimcheon/cover.php
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

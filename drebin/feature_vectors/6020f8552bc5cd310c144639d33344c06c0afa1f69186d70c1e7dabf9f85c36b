@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.dosham.dict.WordActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+activity::.SearchableDictionary
+call::getSystemService

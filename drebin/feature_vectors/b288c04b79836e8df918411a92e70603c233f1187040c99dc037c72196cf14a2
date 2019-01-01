@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+activity::.RootExplorer
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+call::Execution of external commands
+activity::.PermissionsActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+call::system/bin/su
+activity::.SearchCriteria
+api_call::android/content/ContentResolver;->query

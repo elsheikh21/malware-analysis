@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::Cyberiahosting.ca\
+activity::.arabiyat
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://Cyberiahosting.ca\
+real_permission::android.permission.INTERNET

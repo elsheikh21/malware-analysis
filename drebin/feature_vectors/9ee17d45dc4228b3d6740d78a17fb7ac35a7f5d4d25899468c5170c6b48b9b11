@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://va2u.com/
+api_call::android/webkit/WebView
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.TopTourWebActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::va2u.com
+intent::android.intent.category.LAUNCHER
+call::getSystemService

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+activity::NotesList
+intent::android.intent.action.GET_CONTENT
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+activity::.NotesList
+intent::android.intent.category.SELECTED_ALTERNATIVE
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.INSERT
+provider::com.google.provider.NotePad
+intent::android.intent.action.VIEW
+intent::android.intent.category.ALTERNATIVE

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.SongViewer
+intent::android.intent.action.MAIN
+activity::.Main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.SongList
+call::getSystemService

@@ -1,0 +1,45 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+call::printStackTrace
+activity::.CigaretteCounter
+url::chart.apis.google.com
+url::r.admob.com
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+activity::HistoryActivity
+call::HttpPost
+url::http://mm.admob.com/static/android/canvas.html
+url::market.android.com
+api_call::android/content/Context;->startActivity
+url::http://chart.apis.google.com/chart?
+url::http://a.admob.com/f0?
+url::http://mm.admob.com/static/android/i18n/20101109
+call::getSystemService
+activity::com.admob.android.ads.AdMobActivity
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::mm.admob.com
+url::http://eryos-androidmarketinformation.appspot.com/androidmarketinformation
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+activity::ConfigActivity
+url::api.admob.com
+url::a.admob.com
+api_call::android/webkit/WebView
+real_permission::android.permission.READ_LOGS
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+intent::android.intent.action.MAIN
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::eryos-androidmarketinformation.appspot.com
+service_receiver::Cigarette Counter Widget
+provider::android.appwidget.provider
+url::schemas.android.com

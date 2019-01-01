@@ -1,0 +1,19 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.Benezia
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Option
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+activity::.IntroScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::VeneziaGame v1.0
+activity::.RangkingScreen
+real_permission::android.permission.WAKE_LOCK
+activity::.BeneziaGame
+call::getSystemService
+activity::Please Input your name

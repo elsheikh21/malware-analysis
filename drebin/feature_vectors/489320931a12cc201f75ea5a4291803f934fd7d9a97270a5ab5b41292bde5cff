@@ -1,0 +1,13 @@
+feature::android.hardware.location.network
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://apklabs.com/ads/anime.htm
+permission::android.permission.ACCESS_NETWORK_STATE
+url::apklabs.com
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.Trivia

@@ -1,0 +1,17 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+call::getSystemService
+permission::android.permission.CALL_PHONE
+activity::.prefs.EditPreferences
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.READ_CONTACTS
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_CONTACTS
+activity::.GroupLoop

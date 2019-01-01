@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://www.facebook.com/pages/Binaural-Beat-Therapy/121737064536801
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::bit.ly
+activity::.BBeat
+url::http://bit.ly/BBeatsHelp
+feature::android.hardware.screen.portrait
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://bit.ly/BBeats
+url::http://bit.ly/BBeatsBlog
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

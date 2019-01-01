@@ -1,0 +1,19 @@
+activity::blah
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+activity::Please Enter Location
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.Main
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openStream
+call::printStackTrace
+call::getSystemService

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+service_receiver::.SMSReceiver
+permission::android.permission.RECEIVE_SMS
+call::readSMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+activity::.SMSReplicatorSecret
+feature::android.hardware.telephony
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->startActivity
+call::getSystemService

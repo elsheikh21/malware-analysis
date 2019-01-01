@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+activity::.BatteryClockActivity
+activity::Choice Application !!
+intent::android.intent.action.MAIN
+activity::.LaunchDialog
+intent::android.intent.action.USER_PRESENT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::.BatteryClockService

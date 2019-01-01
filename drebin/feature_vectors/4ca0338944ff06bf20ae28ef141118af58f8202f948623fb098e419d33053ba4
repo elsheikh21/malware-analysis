@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://images.ad-maker.info/apps
+intent::android.intent.action.MAIN
+url::http://images.ad-maker.info/apps/2z7x1l29oyh1.html
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::getSystemService
+activity::.MyActivity

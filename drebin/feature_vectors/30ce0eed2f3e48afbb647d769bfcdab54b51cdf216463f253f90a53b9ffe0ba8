@@ -1,0 +1,68 @@
+feature::android.hardware.touchscreen
+activity::DownladList
+permission::android.permission.ACCESS_MOCK_LOCATION
+call::getPackageInfo
+call::printStackTrace
+url::market
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::MultiSiteNavigation activity
+permission::android.permission.ACCESS_FINE_LOCATION
+url::netad.access-company.com
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::https://netad.access-company.com/ad/browser_bookmarks
+feature::android.hardware.location.gps
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::Preference activity
+activity::com.access_company.android.nflifebrowser.app.nfbrowser.DownloadSupportActivity
+url::https://netad.access-company.com/ad/
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::com.access_company.android.nflifebrowser.app.nfbrowser.AboutViewerActivity
+activity::com.access_company.android.nflifebrowser.app.nfbrowser.NFLifeBrowserActivity
+feature::android.hardware.location
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.VIBRATE
+api_call::android/bluetooth/BluetoothAdapter;->cancelDiscovery
+url::https://netad.access-company.com/ad/browser_failures
+call::getSystemService
+provider::com.access_company.android.nflifebrowser.scrapprovider.v22
+call::Read/Write External Storage
+activity::Preference activity for Website Settings
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.BLUETOOTH
+permission::android.permission.BLUETOOTH
+call::Obfuscation(Base64)
+permission::android.permission.BLUETOOTH_ADMIN
+activity::.NFLifeBrowserActivity
+url::https://netad.access-company.com/ad/ad_account_session
+url::https://netad.access-company.com/ad/browser_diagnoses
+real_permission::android.permission.BLUETOOTH_ADMIN
+activity::com.access_company.android.nflifebrowser.app.nfbrowser.HelpActivity
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+activity::com.access_company.android.nflifebrowser.app.nfbrowser.BluetoothSupportActivity
+provider::com.access_company.android.nflifebrowser.downloadprovider.v22
+api_call::android/bluetooth/BluetoothAdapter;->getBondedDevices
+intent::android.intent.action.MAIN
+activity::Scrapbook
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::com.access_company.android.nflifebrowser.bookmarkprovider.v22
+intent::android.intent.action.SEND
+feature::android.hardware.bluetooth
+activity::Preference activity for GeoLocation Settings
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+activity::Preference activity for WebDatabase Settings
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::com.access_company.android.nflifebrowser.app.nfbrowser.BrowserActivity
+url::http://market
+activity::ScrapbookEdit

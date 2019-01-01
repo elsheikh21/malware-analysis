@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+activity::.iLightrActivity
+intent::android.intent.category.LAUNCHER
+url::www.ilightr.com
+real_permission::android.permission.INTERNET
+url::http://www.ilightr.com/cases/ilightr-pack-1.txt
+activity::com.ubermind.ilightr.prefs.SelectCaseActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

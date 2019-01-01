@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://combustiveis.info/mares/syncbr.php
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.Mapa
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Entrada
+intent::android.intent.category.LAUNCHER
+url::combustiveis.info
+call::getSystemService

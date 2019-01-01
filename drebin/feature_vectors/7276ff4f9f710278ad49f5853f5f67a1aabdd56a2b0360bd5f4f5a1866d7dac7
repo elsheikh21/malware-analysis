@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.landscape
+intent::android.intent.action.MAIN
+activity::.InfluenzaScreeningH1N1
+intent::android.intent.category.LAUNCHER

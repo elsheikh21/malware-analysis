@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->setWallpaper
+url::http://www.imdb.com/title/tt1666186/
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+url::cdn.vdopia.com
+api_call::android/content/Context;->startActivity
+activity::com.vdopia.client.android.VDOActivity
+url::http://localhost:8080/sdcard/demo/ttm/ttm.html
+activity::.Application
+call::getSystemService
+url::www.imdb.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.landscape
+url::localhost
+permission::android.permission.SET_WALLPAPER
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://cdn.vdopia.com/advertisements/pop/
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.SET_WALLPAPER

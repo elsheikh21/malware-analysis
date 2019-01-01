@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.LoanHelperLite
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

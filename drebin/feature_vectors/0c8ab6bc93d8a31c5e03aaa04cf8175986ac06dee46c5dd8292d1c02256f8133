@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num%3D1284455681\%27>Arduino
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+service_receiver::.DataService
+call::getSystemService
+url::www.arduino.cc
+activity::.DomoHome

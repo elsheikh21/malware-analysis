@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.Rupee
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

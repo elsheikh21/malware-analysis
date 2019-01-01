@@ -1,0 +1,14 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.tradershotels.com
+activity::.APCV
+api_call::android/media/MediaPlayer;->start
+url::http://www.tradershotels.com/
+real_permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://hotel.ywca.org.hk/
+url::hotel.ywca.org.hk
+real_permission::android.permission.WAKE_LOCK

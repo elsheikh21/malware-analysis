@@ -1,0 +1,17 @@
+feature::android.hardware.location.network
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+activity::com.fflabs.citycorelibrary.MainActivity
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::music
+activity::.music
+url::http://wap.pccwmobile.com/music
+intent::android.intent.category.LAUNCHER
+url::wap.pccwmobile.com

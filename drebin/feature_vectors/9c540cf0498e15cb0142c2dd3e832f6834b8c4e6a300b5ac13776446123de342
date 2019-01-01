@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+real_permission::android.permission.GET_ACCOUNTS
+api_call::android/accounts/AccountManager;->getAccounts
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+permission::android.permission.GET_ACCOUNTS
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::com.gespect.www.gwaree.ggwapp.commander
+activity::.commander
+call::HttpPost
+call::getSystemService

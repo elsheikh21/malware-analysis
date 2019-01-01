@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.Pokerdice
+call::getSystemService

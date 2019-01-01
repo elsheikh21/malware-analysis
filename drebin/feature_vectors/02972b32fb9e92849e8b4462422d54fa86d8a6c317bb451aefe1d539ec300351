@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mup.hr/rss.asp?zone%3Dtop
+activity::.DealnewsActivity
+permission::android.permission.INTERNET
+url::mup.hr
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getSystemService

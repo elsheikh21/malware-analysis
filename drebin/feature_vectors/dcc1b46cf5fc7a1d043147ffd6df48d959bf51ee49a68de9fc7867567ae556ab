@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket

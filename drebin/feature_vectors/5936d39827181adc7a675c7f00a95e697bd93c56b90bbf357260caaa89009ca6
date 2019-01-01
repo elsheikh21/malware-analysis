@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+activity::.FileBrowser
+call::getSystemService
+call::Obfuscation(Base64)
+activity::net.runserver.fileBrowser.FileBrowser
+intent::android.intent.category.DEFAULT
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+call::Read/Write External Storage
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

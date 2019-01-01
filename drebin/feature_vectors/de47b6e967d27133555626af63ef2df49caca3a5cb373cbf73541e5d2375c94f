@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+url::https://market.android.com/developer?pub%3DMobile+Champs
+url::market.android.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+real_permission::android.permission.CAMERA
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+call::Read/Write External Storage
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

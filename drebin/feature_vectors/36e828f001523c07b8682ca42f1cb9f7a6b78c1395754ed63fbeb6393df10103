@@ -1,0 +1,27 @@
+activity::.MyPreference
+api_call::android/content/Context;->setWallpaper
+api_call::org/apache/http/impl/client/DefaultHttpClient
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+call::HttpPost
+activity::.Search
+call::printStackTrace
+url::www.v3wall.com
+url::http://www.v3wall.com
+activity::.ImageDetail
+intent::android.intent.action.VIEW
+call::getSystemService
+call::Read/Write External Storage
+intent::android.intent.category.BROWSABLE
+url::androidexceptionmail.appspot.com
+url::http://androidexceptionmail.appspot.com/post
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.SEND
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.SET_WALLPAPER

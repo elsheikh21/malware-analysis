@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://www.biblegateway.com/votd/get/?format%3Datom
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.net.conn.CONNECTIVITY_CHANGE
+real_permission::android.permission.INTERNET
+activity::.VerseOfTheDayConfiguration
+api_call::java/net/URL;->openConnection
+url::www.biblegateway.com
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_OWNER_DATA
+call::printStackTrace
+permission::android.permission.BATTERY_STATS
+url::www.trumba.com
+activity::Between
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+permission::android.permission.INSTALL_PACKAGES
+service_receiver::.IntentReceiver
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+permission::android.permission.WRITE_SETTINGS
+api_call::android/content/ContentResolver;->query
+permission::android.permission.DELETE_CACHE_FILES
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.VIBRATE
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+api_call::android/content/Context;->startService
+permission::android.permission.SET_ORIENTATION
+call::Read/Write External Storage
+activity::Browser
+activity::.Motion
+intent::android.intent.action.MAIN
+service_receiver::.AutomaticService
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ADD_SYSTEM_SERVICE
+intent::android.intent.category.LAUNCHER
+url::http://www.trumba.com/calendars/seattlegov-city-wide.rss
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.RECEIVE_BOOT_COMPLETED

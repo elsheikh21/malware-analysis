@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.SDBrowser
+url::api.libiri.com
+call::getPackageInfo
+call::HttpPost
+activity::.Settings
+url::http://api.libiri.com/subscribe.php?platform%3Dandroid&email%3D
+call::getSystemService
+url::https://data.flurry.com/aar.do
+url::http://api.libiri.com/get_native_url.php?platform%3Dandroid&comic%3D
+url::data.flurry.com
+activity::.ComicViewer
+url::http://data.flurry.com/aar.do
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

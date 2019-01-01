@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.TimeStampActivity
+activity::.ETUEntry
+url::http://www.nullox.com/android/epoch-timestamping-utility/?ref_id%3D2
+intent::android.intent.category.LAUNCHER
+url::www.nullox.com
+call::getSystemService
+activity::.DateStampActivity

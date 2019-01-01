@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://media.cocoatech.com.s3.amazonaws.com/
+url::http://www.facebook.com/bayareaderbygirls
+activity::com.rogueandroid.library.PreferencesActivity
+url::m.twitter.com
+feature::android.hardware.location.gps
+url::market.android.com
+url::https://www.paypal.com/cgi-bin/webscr?cmd%3D_s-xclick&hosted_button_id%3D7754558
+feature::android.hardware.location
+url::media.cocoatech.com.s3.amazonaws.com
+activity::com.rogueandroid.library.MainTabsActivity
+call::getSystemService
+url::http://market.android.com/search?q%3Dpname:
+call::Read/Write External Storage
+activity::.MainTabsActivity
+api_call::java/net/URL;->openConnection
+url::www.facebook.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://m.twitter.com/bayareaderbygrl
+real_permission::android.permission.INTERNET
+url::www.paypal.com
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

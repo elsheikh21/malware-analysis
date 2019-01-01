@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+api_call::java/net/Socket
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.BROWSABLE
+intent::org.openintents.filemanager.FileManagerActivity
+api_call::android/content/Context;->startActivity
+service_receiver::.torrentService
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.dl
+activity::org.openintents.filemanager.FileManagerActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.EditPreferences
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

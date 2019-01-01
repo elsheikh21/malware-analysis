@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://forum.xda-developers.com/showthread.php?t%3D966646
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://forum.xda-developers.com/showthread.php?t%3D829731
+url::forum.xda-developers.com
+activity::.InitActivity
+call::getPackageInfo
+call::getSystemService
+intent::android.intent.category.LAUNCHER

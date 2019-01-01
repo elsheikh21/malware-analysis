@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://ocleos.free.fr/\n\n
+intent::android.intent.action.MAIN
+url::ocleos.free.fr
+activity::.Main
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+activity::.Valeur
+activity::.Couleur
+intent::android.intent.category.LAUNCHER

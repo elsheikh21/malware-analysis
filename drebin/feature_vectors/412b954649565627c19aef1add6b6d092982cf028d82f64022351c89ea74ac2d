@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+provider::com.grasscove.namethat.provider.namethatprovider
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Play
+feature::android.hardware.screen.portrait
+provider::com.grasscove.namethat.provider.NameThatProvider
+intent::android.intent.category.LAUNCHER
+activity::.HomeActivity
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

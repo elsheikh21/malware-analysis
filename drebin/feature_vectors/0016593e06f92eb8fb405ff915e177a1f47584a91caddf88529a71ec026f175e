@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://eventapp.onesixty.nl/feed.php?eventid%3D4&type%3D
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::eventapp.onesixty.nl
+url::http://api.twitter.com/1/statuses/user_timeline.json?user_id%3D236801705
+real_permission::android.permission.INTERNET
+url::http://eventapp.onesixty.nl/feed.php?eventid%3D4
+api_call::java/net/URL;->openConnection
+url::api.twitter.com

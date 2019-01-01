@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+activity::.TestActiviry
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

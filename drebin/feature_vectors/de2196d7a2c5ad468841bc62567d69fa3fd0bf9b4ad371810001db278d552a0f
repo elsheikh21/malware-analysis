@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.CALL_PHONE
+service_receiver::Redialer - 4x2 Call Log Widget
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startActivity
+permission::android.permission.READ_PHONE_STATE
+activity::BackgroundSelection
+call::getSystemService
+service_receiver::Redialer - 4x1 Call Log Widget
+api_call::android/telephony/TelephonyManager;->listen
+service_receiver::Redialer - Redial Widget
+feature::android.hardware.telephony
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::DoubleClickChecker
+intent::android.intent.action.MAIN
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+activity::IconSelection
+provider::android.appwidget.provider

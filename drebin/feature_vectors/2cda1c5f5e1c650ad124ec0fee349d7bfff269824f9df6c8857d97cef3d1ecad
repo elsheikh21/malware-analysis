@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://kuc-arc-f.com/elec/php/RAA006.php
+activity::.RAFM004Activity
+intent::android.intent.action.MAIN
+url::http://kuc-arc-f.com/elec/php/RAA005.php
+url::http://www.tepco.co.jp/forecast/html/images/juyo-j.csv
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://kuc-arc-f.com/elec/php/RAA004.php
+url::kuc-arc-f.com
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::HttpPost
+call::getSystemService
+url::www.tepco.co.jp

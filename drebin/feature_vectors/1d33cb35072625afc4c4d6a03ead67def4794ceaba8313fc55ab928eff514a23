@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.PERMISSION_NAME
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::Gaps Solitaire

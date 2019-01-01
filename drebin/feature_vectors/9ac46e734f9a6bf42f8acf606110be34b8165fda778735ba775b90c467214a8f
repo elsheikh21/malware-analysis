@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+activity::.Editor
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+feature::android.hardware.screen.portrait
+activity::.listViewTest
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS

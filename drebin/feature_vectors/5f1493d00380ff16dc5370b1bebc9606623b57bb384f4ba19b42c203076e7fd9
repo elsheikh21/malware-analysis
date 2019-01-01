@@ -1,0 +1,20 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+activity::.ThemePattern
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::.UnZipReceiver
+url::http://dl.dianxinos.com/s/apk/DXHome/2.1.13/DXHome_DXR_2.1.12.apk
+call::printStackTrace
+url::dl.dianxinos.com
+feature::android.hardware.screen.portrait
+permission::com.dianxinos.launcher2.permission.APPLY_THEME
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+call::getPackageInfo
+activity::.ThemeMain
+api_call::android/content/Context;->sendBroadcast
+call::Read/Write External Storage
+url::http://dl.dianxinos.com/DXHome/download?themelc%3D
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

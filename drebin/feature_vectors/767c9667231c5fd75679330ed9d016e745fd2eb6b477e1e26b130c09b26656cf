@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::JambTutor

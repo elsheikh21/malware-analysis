@@ -1,0 +1,83 @@
+feature::android.hardware.touchscreen
+service_receiver::JB Search Blue
+call::getDeviceId
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/location/LocationManager;->isProviderEnabled
+url::www.searchmobileonline.com
+intent::android.intent.category.HOME
+permission::android.permission.READ_PHONE_STATE
+url::http://www.tvchannelsfree.com/logtest.php
+permission::android.permission.INTERNET
+permission::com.htc.launcher.permission.READ_SETTINGS
+url::www.tvchannelsfree.com
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::com.fede.launcher.permission.READ_SETTINGS
+service_receiver::JB Search Green
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.READ_CONTACTS
+permission::com.lge.launcher.permission.INSTALL_SHORTCUT
+service_receiver::com.syndicateapps.search.BootReceiver
+url::beta.airpush.com
+real_permission::android.permission.ACCESS_WIFI_STATE
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+url::http://www.searchmobileonline.com/
+service_receiver::JB Search Pink
+url::http://api.airpush.com/v2/api.php
+permission::android.permission.ACCESS_WIFI_STATE
+activity::com.calsto.jbsearch.stock.Info
+service_receiver::JB Search Black
+service_receiver::JB Search Purple
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://api.airpush.com/testicon.php
+feature::android.hardware.location
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::JB Search Orange
+url::http://api.airpush.com/model/user/getappinfo.php?packageName%3D
+call::getSystemService
+permission::com.motorola.launcher.permission.INSTALL_SHORTCUT
+api_call::java/net/URL;->openStream
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Info
+service_receiver::com.apperhand.device.android.AndroidSDKProvider
+url::api.airpush.com
+service_receiver::JB Search ICS-Blue
+url::bugsense.appspot.com
+call::Obfuscation(Base64)
+service_receiver::JB Search Red
+url::http://beta.airpush.com/images/adsthumbnail/48.png
+service_receiver::JB Search Default
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT
+permission::org.adw.launcher.permission.READ_SETTINGS
+url::https://bugsense.appspot.com/api/errors
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+url::http://api.airpush.com/v2/api.php?apikey%3D
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::com.airpush.android.MessageReceiver
+api_call::android/content/ContentResolver;->query
+permission::com.android.launcher.permission.READ_SETTINGS
+url::http://api.airpush.com/api.php
+service_receiver::com.airpush.android.DeliveryReceiver
+permission::com.motorola.dlauncher.permission.READ_SETTINGS
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+permission::com.motorola.dlauncher.permission.INSTALL_SHORTCUT
+service_receiver::com.airpush.android.PushService
+service_receiver::com.airpush.android.UserDetailsReceiver
+permission::com.motorola.launcher.permission.READ_SETTINGS
+permission::com.lge.launcher.permission.READ_SETTINGS
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+url::http://api.airpush.com/testmsg2.php
+api_call::android/app/NotificationManager;->notify
+url::http://api.airpush.com/redirect.php?market%3D
+provider::android.appwidget.provider
+call::HttpPost
+api_call::android/content/Context;->startService

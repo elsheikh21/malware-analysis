@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.macaddress
+intent::android.intent.category.LAUNCHER
+api_call::java/net/NetworkInterface
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::getSystemService
+api_call::android/net/wifi/WifiManager;->getConnectionInfo

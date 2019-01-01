@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+service_receiver::AlarmReceiver
+activity::z4root
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+activity::Phase1
+activity::Phase2
+intent::android.intent.category.LAUNCHER
+activity::.z4root
+call::system/bin/su
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

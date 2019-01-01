@@ -1,0 +1,71 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->setWallpaper
+url::http://mirrors.apple2.org.za/ftp.apple.asimov.net/images/games/action/PACMAN.DSK
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://move.to/moose
+activity::Select Diskette
+call::Read/Write External Storage
+url::http://www.virtualapple.org/apple2/Dogfight,Dogfight%5D%5B,WarLord.zip
+activity::Ctrl Keys
+activity::Verify Load State
+url::http://www.virtualapple.org/apple2/OT(Disk2of2).zip
+call::getPackageInfo
+url::groups.google.com
+url::http://apple2.org.za/gswv/a2zine/System/ProDOS203.zip
+url::http://www.virtualapple.org/apple2/Ms.Pac-Man.zip
+url::www.zerohoh.com
+url::http://www.virtualapple.org/apple2/OdellLake.zip
+url::www.virtualapple.org
+activity::Configure DPad Actions
+activity::Special Keys
+activity::About State
+api_call::android/media/MediaPlayer;->start
+url::http://groups.google.com/group/candy-apple-user-group
+url::http://www.virtualapple.org/apple2/Conan(Disk2of2).zip
+activity::Choose Button Function
+activity::Verify Save State
+activity::Screen Capture
+activity::Gestures Help
+activity::About
+call::getSystemService
+url::http://www.virtualapple.org/apple2/Joust,Q-Bert,Q-Bert(Original),StarBlazer.zip
+url::http://apple2.org.za/gswv/a2zine/System/DOS33SystemMaster1983NuVrsn.zip
+url::http://www.virtualapple.org/apple2/Frogger.zip
+url::http://www.virtualapple.org/apple2/Defender.zip
+url::http://www.virtualapple.org/apple2/HeadOn.zip
+activity::Label Diskette
+url::mirrors.apple2.org.za
+permission::android.permission.INTERNET
+url::http://www.virtualapple.org/apple2/BallBlazer,HorizonV,LaserSilk,Zenith.zip
+activity::cAndy Apple!
+url::http://mirrors.apple2.org.za/ftp.apple.asimov.net/images/games/action/abm.dsk.gz
+url::http://www.virtualapple.org/apple2/Evolution.zip
+activity::Select Diskette to Download
+url::move.to
+url::http://www.virtualapple.org/apple2/Conan(Disk1of2).zip
+url::apple2.org.za
+url::http://www.zerohoh.com/candyapple/files/tempStackTrace
+permission::android.permission.SET_WALLPAPER
+url::http://www.apple2online.com/web_documents/best_of_bill_budge.zip
+url::http://apple2.org.za/gswv/a2zine/Games/Serpentine.zip
+url::http://www.virtualapple.org/apple2/DinoEggs.zip
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.virtualapple.org/apple2/ZorkI.zip
+url::http://www.virtualapple.org/apple2/Mr.Do%21.zip
+url::http://www.apple2online.com/web_documents/nuclear_power_plant.zip
+activity::Label Text Entry
+real_permission::android.permission.INTERNET
+url::www.apple2online.com
+url::http://www.virtualapple.org/apple2/HumanFly.zip
+url::http://www.virtualapple.org/apple2/OlympicDecathalon.zip
+activity::.CandyAppleMain
+intent::android.intent.category.LAUNCHER
+activity::Select State
+activity::cAndy Apple Options
+url::http://www.virtualapple.org/apple2/SpyHunter.zip
+activity::WhatsNew
+url::http://www.virtualapple.org/apple2/OT(Disk1of2).zip
+real_permission::android.permission.SET_WALLPAPER
+real_permission::android.permission.WAKE_LOCK

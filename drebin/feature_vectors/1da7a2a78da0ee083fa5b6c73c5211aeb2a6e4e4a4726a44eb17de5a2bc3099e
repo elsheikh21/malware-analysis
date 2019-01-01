@@ -1,0 +1,11 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.mydoorsapp.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.mydoorsapp.com/pic/model01/model%05d.jpg
+url::http://www.mydoorsapp.com/pic/model01/model09031.jpg
+intent::android.intent.category.LAUNCHER
+activity::.iHotgirl

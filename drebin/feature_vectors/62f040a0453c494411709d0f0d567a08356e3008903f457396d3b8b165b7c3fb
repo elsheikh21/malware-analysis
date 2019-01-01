@@ -1,0 +1,12 @@
+activity::com.iproad.dotpainter.DotPainterActivity
+activity::com.iproad.dotpainter.IntroActivity
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.DEFAULT
+activity::.IntroActivity

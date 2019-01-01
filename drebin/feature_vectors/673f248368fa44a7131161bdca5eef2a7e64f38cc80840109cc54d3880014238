@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+activity::.IPFixation
+api_call::java/net/ServerSocket
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+feature::android.hardware.microphone
+real_permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.INTERNET
+activity::.NAISENirazu
+permission::android.permission.ACCESS_WIFI_STATE
+activity::.UserSettingActivity
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.SettingActivity
+real_permission::android.permission.RECORD_AUDIO
+api_call::android/media/AudioRecord
+service_receiver::.NAISENService
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify

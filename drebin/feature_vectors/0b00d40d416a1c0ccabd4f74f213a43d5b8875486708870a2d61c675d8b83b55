@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/content/Context;->startActivity
+activity::.SQLiteEditor
+intent::android.intent.action.EDIT
+call::Execution of external commands
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::system/bin/su
+api_call::java/lang/Runtime;->exec

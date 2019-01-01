@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+service_receiver::MobileOrgStartupIntentReceiver
+intent::android.intent.category.HOME
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+service_receiver::.MobileOrgWidget$MobileOrgWidgetService
+activity::.Capture.Capture
+service_receiver::MobileOrg Tasks
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+call::HttpPost
+activity::.Settings.DropboxSettingsActivity
+call::printStackTrace
+activity::.Settings.SettingsActivity
+activity::OrgContextMenu
+activity::.MobileOrgActivity
+service_receiver::MobileOrgSyncService
+call::Read/Write External Storage
+activity::SimpleTextDisplay
+call::Obfuscation(Base64)
+activity::.Capture.EditDetailsActivity
+activity::.Settings.SDCardSettingsActivity
+activity::MobileOrgActivity
+activity::.Synchronizers.DropboxAuthActivity
+activity::.Settings.WebDAVSettingsActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.SEND
+call::Cipher(Blowfish)
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

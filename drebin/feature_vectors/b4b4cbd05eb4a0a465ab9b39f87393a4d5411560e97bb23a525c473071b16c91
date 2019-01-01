@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+url::http://binu.mobi/?bid%3D
+activity::.biNuMainActivity
+activity::net.binu.platform.android.biNuMainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::binu.mobi
+api_call::java/net/Socket

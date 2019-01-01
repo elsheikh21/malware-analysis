@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::org.guesswork.components.SelectableAdapter$ApplicationSelector
+intent::android.intent.action.MAIN
+intent::android.intent.category.DESK_DOCK
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.ACTION_POWER_CONNECTED
+activity::ThemePicker
+activity::.DigitalNightstand
+activity::ClockPicker
+intent::android.intent.category.LAUNCHER
+service_receiver::org.guesswork.nightstand.digital.USBLauncher
+intent::android.intent.category.DEFAULT
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService

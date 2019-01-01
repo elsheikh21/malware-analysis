@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.howmuchbeer.com/mobile?craziness%3D
+activity::.HowMuchBeerActivity
+url::www.howmuchbeer.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService

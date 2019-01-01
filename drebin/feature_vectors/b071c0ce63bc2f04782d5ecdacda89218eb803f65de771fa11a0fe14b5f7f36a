@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::EditShift
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+activity::AddShift
+activity::Preferences
+intent::android.intent.category.LAUNCHER
+activity::.WorkShifts
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+call::getSystemService

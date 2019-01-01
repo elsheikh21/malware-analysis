@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::preferences
+intent::android.intent.action.MAIN
+activity::nnt
+api_call::java/net/URL;->openStream
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::proportions
+call::getSystemService
+activity::twobytwo
+activity::.aStat
+activity::persontime

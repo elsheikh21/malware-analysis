@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.BuzzerActivity
+intent::android.intent.action.MAIN
+activity::.AboutActivity
+intent::android.intent.category.LAUNCHER
+call::getSystemService

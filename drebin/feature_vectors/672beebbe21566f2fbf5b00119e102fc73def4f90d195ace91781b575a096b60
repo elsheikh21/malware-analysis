@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.Dictionary
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/Socket

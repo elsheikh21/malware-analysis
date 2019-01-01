@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::ro.brite.android.nehe09.GlApp
+intent::android.intent.action.MAIN
+activity::ro.brite.android.nehe08.GlApp
+intent::android.intent.category.LAUNCHER
+activity::ro.brite.android.nehe06.GlApp
+activity::ro.brite.android.nehe23.GlApp
+activity::ro.brite.android.nehe02.GlApp
+activity::.DemosList
+activity::ro.brite.android.nehe05.GlApp
+activity::ro.brite.android.nehe16.GlApp
+activity::ro.brite.android.nehe03.GlApp
+activity::ro.brite.android.nehe04.GlApp
+activity::ro.brite.android.nehe01.GlApp
+activity::ro.brite.android.nehe18.GlApp
+activity::ro.brite.android.nehe07.GlApp

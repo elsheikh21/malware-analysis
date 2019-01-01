@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+real_permission::android.permission.INTERNET
+activity::com.dicotomica.sensortester.start
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+url::http://a.admob.com/f0?
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/app/Activity;->startActivity
+url::a.admob.com
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::com.dicotomica.sensortester.sensorActivity
+feature::android.hardware.screen.portrait
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+activity::.start
+url::schemas.android.com

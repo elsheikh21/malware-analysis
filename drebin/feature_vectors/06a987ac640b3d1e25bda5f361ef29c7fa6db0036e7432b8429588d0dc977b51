@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.moonconnection.com/current_moon_phase.phtml
+url::www.moonconnection.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

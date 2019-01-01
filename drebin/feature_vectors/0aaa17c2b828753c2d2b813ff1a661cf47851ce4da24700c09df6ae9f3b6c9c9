@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.Message
+activity::.activity.SelectGroupActivity
+intent::android.intent.action.MAIN
+service_receiver::.RemoveReceiver
+intent::android.intent.action.PACKAGE_REMOVED
+activity::.activity.HintActivity
+activity::.StartUpActivity
+intent::android.intent.action.DELETE
+intent::android.intent.category.DEFAULT
+provider::net.saitous.android.numberoid.provider.PuzzleManager
+intent::android.intent.action.RUN
+intent::android.intent.category.LAUNCHER
+activity::.activity.SettingsActivity
+provider::.provider.PuzzleProvider
+api_call::android/content/Context;->startActivity
+activity::.activity.EditSettingsActivity

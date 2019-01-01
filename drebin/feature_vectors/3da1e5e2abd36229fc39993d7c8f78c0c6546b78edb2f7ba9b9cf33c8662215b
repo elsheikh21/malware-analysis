@@ -1,0 +1,29 @@
+url::http://api.jamendo.com/get2/id+name+url+image+artist_name/album/json/?n%3D
+url::api.jamendo.com
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://api.jamendo.com/get2/duration+stream/track/json/?album_id%3D
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+real_permission::android.permission.WAKE_LOCK
+activity::.JamendoSelectPath
+activity::.JamendoAlbumsHistory
+activity::SelectPathErrorAccessing
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::.JamendoSearchAlbums
+activity::.JamendoActivitySettings
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+permission::android.permission.DELETE_CACHE_FILES
+call::Execution of external commands
+activity::.MyJamendo
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::JamendoBuyMeBeer
+intent::android.intent.category.LAUNCHER
+activity::.TrackListJamendoAlbum

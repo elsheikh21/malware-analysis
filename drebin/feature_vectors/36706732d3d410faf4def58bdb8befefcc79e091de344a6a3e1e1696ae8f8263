@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.REBOOT
+intent::android.intent.action.MAIN
+permission::android.permission.REBOOT
+api_call::android/net/ConnectivityManager;->getMobileDataEnabled
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::java/lang/Runtime;->exec
+activity::.main
+intent::android.intent.action.ANY_DATA_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+api_call::android/os/PowerManager;->reboot
+call::getPackageInfo
+provider::android.appwidget.provider
+call::getSystemService

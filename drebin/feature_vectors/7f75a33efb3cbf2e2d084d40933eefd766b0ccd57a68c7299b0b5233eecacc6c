@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+service_receiver::AlarmReceiver
+intent::android.intent.action.MAIN
+activity::.Prefs
+url::www.vertex.ukfsn.org
+service_receiver::.BootReceiver
+feature::android.hardware.screen.portrait
+activity::.RingMuter
+url::http://www.vertex.ukfsn.org
+activity::Instructions
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+intent::android.intent.action.TIMEZONE_CHANGED

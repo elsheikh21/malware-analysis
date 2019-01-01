@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.DoNotInstall
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+url::http://ivantis.net/Safari%2020100312%202324.mp3
+url::ivantis.net
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

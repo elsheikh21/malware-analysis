@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::www.dhs.gov
+provider::android.appwidget.provider
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.dhs.gov/

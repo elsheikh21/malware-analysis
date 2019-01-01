@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::.NoiseService
+call::getPackageInfo
+activity::.ChromaDoze
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

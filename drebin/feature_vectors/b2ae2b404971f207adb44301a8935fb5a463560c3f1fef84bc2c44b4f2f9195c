@@ -1,0 +1,11 @@
+activity::.imass
+feature::android.hardware.touchscreen
+url::http://homepage.mac.com/anchoright/sunmass/Archive/ld_0000.mp4
+intent::android.intent.action.MAIN
+url::homepage.mac.com
+permission::android.permission.INTERNET
+url::http://homepage.mac.com/anchoright/sunmass/Archive/sd_0000.mp4
+intent::android.intent.category.DEFAULT
+activity::.sunlow
+intent::android.intent.category.LAUNCHER
+activity::.sunday

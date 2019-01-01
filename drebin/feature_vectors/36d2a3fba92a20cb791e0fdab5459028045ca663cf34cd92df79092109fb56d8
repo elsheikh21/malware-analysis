@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::developer.db4o.com
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::printStackTrace
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.portrait
+activity::.view
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+real_permission::android.permission.INTERNET
+url::http://developer.db4o.com/forums
+api_call::java/net/Socket
+call::getSystemService

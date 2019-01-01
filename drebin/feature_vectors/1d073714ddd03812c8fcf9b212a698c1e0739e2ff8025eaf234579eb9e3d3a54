@@ -1,0 +1,15 @@
+activity::.gotHealer
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::got.Healer.v1.gotHealer
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.davidthehealer.com/pages/daHat.htm
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+url::www.DavidTheHealer.com\nfor
+url::http://www.DavidTheHealer.com\nfor
+url::www.davidthehealer.com

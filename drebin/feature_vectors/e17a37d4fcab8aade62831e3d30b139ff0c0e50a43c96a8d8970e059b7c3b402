@@ -1,0 +1,14 @@
+url::http://mobile.jagsball.com/roster
+feature::android.hardware.touchscreen
+activity::Jags Ball
+intent::android.intent.action.MAIN
+url::http://mobile.jagsball.com/stats
+activity::.Main
+url::http://mobile.jagsball.com/schedule
+url::mobile.jagsball.com
+permission::android.permission.INTERNET
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+url::http://mobile.jagsball.com
+real_permission::android.permission.INTERNET
+url::http://mobile.jagsball.com/about

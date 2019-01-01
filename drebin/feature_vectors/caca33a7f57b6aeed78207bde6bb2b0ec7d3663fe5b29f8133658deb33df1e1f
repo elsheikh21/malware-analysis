@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+activity::.Estimate1RM
+activity::.FiveThreeOne
+activity::.PrefsActivity

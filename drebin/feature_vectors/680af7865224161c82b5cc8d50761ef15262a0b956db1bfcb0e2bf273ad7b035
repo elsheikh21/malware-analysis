@@ -1,0 +1,16 @@
+activity::.DateStatus
+feature::android.hardware.touchscreen
+activity::.SmsStats
+activity::.PersonStatus
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+service_receiver::.ObserverService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->sendBroadcast
+permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+service_receiver::.WidgetProvider

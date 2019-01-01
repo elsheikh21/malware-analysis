@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.VersionUhr
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.BayUhr

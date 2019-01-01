@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.khbus.gov.tw
+intent::android.intent.action.MAIN
+url::http://www.khbus.gov.tw/KHWeb/IModeQueryTTE.jsp
+call::HttpPost
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://maps.google.com/maps/api/geocode/json?address%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::maps.google.com
+url::http://maps.google.com/maps/api/geocode/json?latlng%3D
+url::http://www.khbus.gov.tw/KHWeb/IModeQueryResult.jsp?
+api_call::java/net/URL;->getContent
+url::http://www.khbus.gov.tw/KHWeb/IModeQueryTTEStop.jsp

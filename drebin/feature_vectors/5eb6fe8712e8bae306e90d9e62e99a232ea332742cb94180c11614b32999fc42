@@ -1,0 +1,17 @@
+call::Obfuscation(Base64)
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::Cipher(DES/ECB/PKCS5Padding)
+url::www.evernote.com
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::https://www.evernote.com/edam/note/
+intent::android.intent.category.DEFAULT
+api_call::android/content/ContentResolver;->openFileDescriptor
+intent::android.intent.category.LAUNCHER
+api_call::java/net/ServerSocket
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::https://www.evernote.com/edam/user
+call::getSystemService

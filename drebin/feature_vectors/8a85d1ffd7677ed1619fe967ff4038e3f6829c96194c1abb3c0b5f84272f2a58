@@ -1,0 +1,8 @@
+url::http://www.google.com/dictionary?langpair%3Den
+feature::android.hardware.touchscreen
+activity::Preferences
+intent::android.intent.action.MAIN
+url::www.google.com
+intent::android.intent.category.LAUNCHER
+activity::.Wodd
+activity::Wodd

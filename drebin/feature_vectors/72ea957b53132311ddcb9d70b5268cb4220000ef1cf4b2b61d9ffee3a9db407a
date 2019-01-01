@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::72.13.86.203
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+api_call::android/media/MediaPlayer;->start
+url::http://72.13.86.203:8000
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.HomeActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

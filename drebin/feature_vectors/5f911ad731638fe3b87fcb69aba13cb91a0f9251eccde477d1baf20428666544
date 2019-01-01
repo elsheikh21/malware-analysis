@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::xmlpull.org
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://xmlpull.org/v1/doc/
+call::getPackageInfo
+url::http://www.w3.org/2000/xmlns/
+activity::.b
+call::getSystemService
+url::http://www.w3.org/XML/1998/namespace
+url::http://xmlpull.org/v1/doc/properties.html
+real_permission::android.permission.READ_PHONE_STATE
+api_call::java/net/URL;->openConnection
+activity::b
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.w3.org
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://xmlpull.org/v1/doc/features.html
+call::getSubscriberId

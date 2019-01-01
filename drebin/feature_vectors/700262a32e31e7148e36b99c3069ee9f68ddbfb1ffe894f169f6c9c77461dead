@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://market.android.com/details?id%3Dcom.furyman.cocktailcommander
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.CocktailCommanderLite

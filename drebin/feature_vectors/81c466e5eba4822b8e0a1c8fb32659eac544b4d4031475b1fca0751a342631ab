@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::printStackTrace
+activity::javapadawan.android.ImageCapture
+url::http://market.android.com/details?id%3Dcom.gfactor.gpuzzlep
+api_call::android/content/ContentResolver;->openInputStream
+activity::.PuzzleGame
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+activity::GalleryActivity
+call::getSystemService

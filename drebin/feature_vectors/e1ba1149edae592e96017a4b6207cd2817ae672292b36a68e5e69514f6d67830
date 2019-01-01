@@ -1,0 +1,9 @@
+activity::.GetContent
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

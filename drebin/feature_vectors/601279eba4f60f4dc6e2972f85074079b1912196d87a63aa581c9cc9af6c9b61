@@ -1,0 +1,30 @@
+activity::.Shopping
+feature::android.hardware.touchscreen
+activity::.Help
+activity::.AtWork
+activity::.MyNotes
+activity::.MyTasks
+activity::.MyFavouriteTasks
+service_receiver::To Do List
+service_receiver::.AtWorkWidget$AtWorkUpdateService
+activity::.QuickAdd
+activity::.AddTask
+activity::.About
+service_receiver::To Do At Work
+activity::.AddNote
+activity::.MyFavouriteItems
+service_receiver::.ToDoListWidget$UpdateService
+url::www.myzu.co.uk
+activity::.ToDoList
+service_receiver::To Do List (Large)
+api_call::android/content/Context;->startService
+activity::.Grocery
+activity::.EditTask
+service_receiver::.ToDoListBigWidget$BigWidgetUpdateService
+activity::.EditNote
+url::http://www.myzu.co.uk
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.MyFavouriteGroceries
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

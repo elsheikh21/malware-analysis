@@ -1,0 +1,75 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+activity::ToggleActivity
+call::printStackTrace
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.CALL_PHONE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+intent::android.intent.category.DEFAULT
+url::https://www.google.com/voice/inbox/mark/
+activity::Advanced settings
+call::getPackageInfo
+url::https://www.google.com/voice/settings/editGeneralSettings
+service_receiver::.locale_plugin.FireReceiver
+real_permission::android.permission.READ_CONTACTS
+url::https://www.google.com/voice/inbox/recent?page%3Dp1000
+activity::Dial out settings
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_CONTACTS
+url::https://www.google.com/voice/call/cancel/
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+intent::android.intent.action.CREATE_SHORTCUT
+service_receiver::.callback.PhoneStateReceiver
+intent::android.intent.action.NEW_OUTGOING_CALL
+permission::android.permission.MANAGE_ACCOUNTS
+api_call::android/telephony/TelephonyManager;->getLine1Number
+url::https://www.google.com/voice/call/verifyForwarding
+url::https://www.google.com/voice/m/savednd
+activity::.HelpActivity
+url::https://www.google.com/voice/inbox/deleteMessages
+url::https://www.google.com
+real_permission::android.permission.INTERNET
+activity::Pick phone numbers
+url::https://www.google.com/voice/call/connect/
+permission::android.permission.USE_CREDENTIALS
+call::getSystemService
+service_receiver::.callback.OutgoingCallReceiver
+url::https://www.google.com/voice/inbox/block/
+url::https://www.google.com/voice/settings/tab/phones
+activity::Settings
+api_call::android/webkit/WebView
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::https://www.google.com/voice
+url::https://www.google.com/voice/m
+activity::GVoice Callback
+url::http://musingsfromtheunderground.blogspot.com/
+feature::android.hardware.telephony
+permission::android.permission.WRITE_CONTACTS
+real_permission::android.permission.READ_PHONE_STATE
+url::http://www.google.com/accounts/DisplayUnlockCaptcha
+activity::Callback Rules
+url::https://www.google.com/accounts/ClientLogin
+url::https://www.google.com/voice/settings/deleteForwarding
+permission::android.permission.PROCESS_OUTGOING_CALLS
+url::https://www.google.com/voice/m/i/voicemail?p%3D10000
+call::Execution of external commands
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+permission::android.permission.GET_ACCOUNTS
+permission::android.permission.MODIFY_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+activity::.CallActivity
+url::https://www.google.com/voice/m/sendsms
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+url::www.google.com
+activity::.SettingsActivity
+url::musingsfromtheunderground.blogspot.com
+call::system/bin/su
+api_call::android/content/Context;->startActivity
+call::HttpPost

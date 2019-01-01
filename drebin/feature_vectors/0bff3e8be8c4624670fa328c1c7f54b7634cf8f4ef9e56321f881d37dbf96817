@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.TNTMathQuizActivity
+intent::android.intent.action.MAIN
+activity::.EditPreferenceActivity
+intent::android.intent.category.LAUNCHER
+activity::.QuizHistoryDisplayActivity

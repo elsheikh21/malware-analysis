@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+activity::.PythonActivity
+activity::org.renpy.android.PythonActivity
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

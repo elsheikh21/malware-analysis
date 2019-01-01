@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+api_call::android/os/Vibrator;->cancel
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+activity::com.unity3d.player.VideoPlayer
+call::getSystemService
+activity::com.unity3d.player.UnityPlayerActivity
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.UnityPlayerActivity
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_PHONE_STATE
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start

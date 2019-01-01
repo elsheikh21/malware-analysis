@@ -1,0 +1,15 @@
+activity::.intro.MainMenu
+activity::.intro.WorldSelect
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::.intro.AboutPage
+activity::.MainMenu
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.intro.LevelSelect
+activity::.PlatformerGameActivity
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::.intro.PlatformerPrefs

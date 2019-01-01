@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+activity::SurfaceView_Activity
+activity::.Intro
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::Main
+real_permission::android.permission.WAKE_LOCK

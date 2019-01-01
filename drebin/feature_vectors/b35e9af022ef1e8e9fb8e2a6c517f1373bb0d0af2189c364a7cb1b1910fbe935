@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+permission::android.permission.BIND_INPUT_METHOD
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::PPSettingsActivity
+feature::android.hardware.telephony
+real_permission::android.permission.VIBRATE
+permission::android.permission.CALL_PHONE
+permission::android.permission.ACCESS_SURFACE_FLINGER
+permission::android.permission.SET_ORIENTATION
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

@@ -1,0 +1,48 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+permission::android.permission.MODIFY_PHONE_STATE
+activity::Duplicates
+url::forum.xda-developers.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+service_receiver::.A
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.GET_TASKS
+api_call::android/content/ContentResolver;->query
+activity::Preferences
+activity::Explorer
+activity::Clean Apps
+activity::Corpse finder(Android)
+activity::Corpse finder(Samsung)
+call::printStackTrace
+url::http://forum.xda-developers.com/showthread.php?t%3D1013063
+activity::Vacuum
+activity::Misc
+real_permission::android.permission.VIBRATE
+permission::android.permission.READ_PHONE_STATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+activity::Clean system
+api_call::android/os/PowerManager$WakeLock;->acquire
+service_receiver::com.google.process.gapp.GoogleServicesFrameworkService
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+activity::.SDMmain
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+real_permission::android.permission.READ_LOGS
+call::Cipher(AES/CBC/PKCS5Padding)
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/NotificationManager;->notify
+activity::Searcher

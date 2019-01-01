@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.AccountListSettingsView
+intent::android.intent.action.MAIN
+activity::.Calculator
+activity::.ReportListSettingsView
+activity::.TransactionListSettingsView
+activity::.CashewSettingsView
+activity::.CategoryListSettingsView
+intent::android.intent.category.LAUNCHER
+activity::.CurrencyListSettingsView
+call::getPackageInfo
+activity::.MainView
+api_call::android/app/Activity;->startActivity
+call::getSystemService

@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::.SheepRescue
+intent::android.intent.action.MAIN
+activity::.Intro
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://sheeprescue.easywalrus.com/
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::sheeprescue.easywalrus.com
+activity::.Instructions

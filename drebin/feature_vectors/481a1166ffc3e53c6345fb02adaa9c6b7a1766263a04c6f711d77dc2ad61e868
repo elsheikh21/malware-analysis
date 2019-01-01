@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::hcac.de
+url::http://hcac.de/zurimensa/index05.php?mensaid%3D
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+url::www.ifi.uzh.ch
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://www.ifi.uzh.ch/zpac/

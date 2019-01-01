@@ -1,0 +1,10 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.TitleScreen
+intent::android.intent.category.LAUNCHER
+activity::.StatViewer
+activity::.ProjectOne
+activity::.StdImageSelector
+real_permission::android.permission.WAKE_LOCK

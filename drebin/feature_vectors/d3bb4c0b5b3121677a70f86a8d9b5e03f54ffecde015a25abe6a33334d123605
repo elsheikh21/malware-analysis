@@ -1,0 +1,13 @@
+url::http://market.android.com/details?id%3Dfishnoodle.clouds
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+call::Read/Write External Storage
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+url::http://www.kittehface.com
+url::http://market.android.com/details?id%3D
+real_permission::android.permission.READ_CONTACTS
+url::www.kittehface.com
+intent::android.intent.category.INFO

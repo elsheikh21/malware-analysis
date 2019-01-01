@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.telephonyChecker
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_PHONE_STATE
+service_receiver::.telephonyCheckerBroadcastReceiver
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.telephonyCheckerService
+call::getSystemService
+api_call::android/content/Context;->startService

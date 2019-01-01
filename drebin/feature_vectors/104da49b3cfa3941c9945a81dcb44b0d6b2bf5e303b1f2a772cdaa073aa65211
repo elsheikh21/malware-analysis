@@ -1,0 +1,30 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+intent::com.alfray.intent.action.ACTION_USER_CLOCK
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->getBestProvider
+call::getPackageInfo
+call::HttpPost
+service_receiver::ClockService
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.GET_TASKS
+real_permission::android.permission.GET_TASKS
+api_call::android/app/ActivityManager;->getRunningTasks
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+intent::com.alfray.intent.action.ACTION_UPDATE_CLOCK
+activity::About 24 Clock
+url::https://data.flurry.com/aar.do
+url::data.flurry.com
+url::http://data.flurry.com/aar.do
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+activity::Configure 24 Clock Widget
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

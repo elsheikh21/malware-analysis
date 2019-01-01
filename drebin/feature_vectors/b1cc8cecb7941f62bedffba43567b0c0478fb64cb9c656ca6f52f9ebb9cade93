@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+activity::NODERA (.tv)
+call::getPackageInfo
+permission::android.permission.CAMERA
+permission::android.permission.DISABLE_KEYGUARD

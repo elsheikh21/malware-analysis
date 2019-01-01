@@ -1,0 +1,17 @@
+url::www.amazon.com
+feature::android.hardware.touchscreen
+url::http://monmonja.com/android/MyBatteryStatus.php
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.Main
+service_receiver::.BatteryService
+url::monmonja.com
+service_receiver::.BatteryReceiver
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://www.amazon.com/gp/search?ie%3DUTF8&keywords%3Dandroid%20
+intent::android.intent.action.BOOT_COMPLETED
+activity::.PrefsActivity
+call::getSystemService
+api_call::android/content/Context;->startService

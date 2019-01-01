@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.DateTimePicker
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::.CggReceiver
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+feature::android.hardware.screen.portrait
+provider::android.appwidget.provider
+call::getSystemService

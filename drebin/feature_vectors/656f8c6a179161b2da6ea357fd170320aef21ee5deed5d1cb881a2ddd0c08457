@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.audio.low_latency
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.INTERNET
+feature::android.hardware.touchscreen.multitouch
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::Read/Write External Storage
+activity::.SplashActivity
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

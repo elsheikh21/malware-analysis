@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.LogActivity
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+api_call::android/media/AudioRecord
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+call::getPackageInfo
+permission::android.permission.RECORD_AUDIO
+call::getSystemService
+activity::.ClubFX
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

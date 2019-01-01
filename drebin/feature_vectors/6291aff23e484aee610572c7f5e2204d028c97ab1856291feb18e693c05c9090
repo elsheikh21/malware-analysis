@@ -1,0 +1,7 @@
+activity::.alkotest
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.alkmet
+activity::.alkus
+activity::.jsplash
+intent::android.intent.category.LAUNCHER

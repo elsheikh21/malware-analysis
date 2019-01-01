@@ -1,0 +1,9 @@
+url::vusa2011.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.WebKitDemo
+url::http://vusa2011.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.beyondthewhiteboard.com
+api_call::android/content/Context;->startActivity
+url::http://croftoncrossfit.com/HTML/?category_name%3Dwod
+activity::.CroftonCrossFit
+permission::android.permission.INTERNET
+url::www.beyondthewhiteboard.com
+intent::android.intent.category.LAUNCHER
+url::croftoncrossfit.com
+real_permission::android.permission.INTERNET

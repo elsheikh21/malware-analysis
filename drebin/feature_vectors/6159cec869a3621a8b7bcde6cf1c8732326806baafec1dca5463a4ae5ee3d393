@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+permission::INTERNET
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+activity::MainActivity
+call::Read/Write External Storage
+call::getSystemService

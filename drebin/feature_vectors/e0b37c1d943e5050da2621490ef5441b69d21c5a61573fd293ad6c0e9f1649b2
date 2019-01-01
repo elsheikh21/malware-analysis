@@ -1,0 +1,12 @@
+url::http://habrahabr.ru/api/profile/
+feature::android.hardware.touchscreen
+url::http://<username>.habrahabr.ru/
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+url::habrahabr.ru
+feature::android.hardware.screen.portrait
+url::<username>.habrahabr.ru
+url::http://habrahabr.ru/i/avatars/stub-user-middle.gif
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+call::getSystemService

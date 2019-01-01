@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+url::http://market.android.com/details?id%3Dcom.gilinachum
+activity::.PreferencesFromXml
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+activity::.SettingsActivity
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.WAKE_LOCK
+url::http://market.android.com/details?id%3Dcom.gilinachum.paid
+activity::.MyActivity

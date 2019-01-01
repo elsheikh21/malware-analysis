@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::m.wchstv.com
+intent::android.intent.action.MAIN
+url::http://m.wchstv.com
+activity::.WCHS
+intent::android.intent.category.LAUNCHER

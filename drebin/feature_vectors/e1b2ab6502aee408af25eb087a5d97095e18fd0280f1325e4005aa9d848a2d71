@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::.PhotoFrameService
+activity::.MemoActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.ManualActivity
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+activity::.ListMain
+provider::android.appwidget.provider
+call::getSystemService
+activity::.PhotoFramePreferenceActivity

@@ -1,0 +1,110 @@
+call::Cipher(Cipher.BROKENPBEWITHSHA1ANDDES)
+url::http://schemas.android.com/apk/res/
+call::Cipher(BC)
+call::Cipher(Cipher.CAST6)
+call::Cipher(Cipher.1.3.14.3.2.7)
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::Cipher(Cipher.RSA/ISO9796-1)
+call::getPackageInfo
+call::Cipher(Cipher.RC2WRAP)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.AESWRAP)
+call::Cipher(cipher returned null)
+call::Cipher(Cipher.IDEA)
+call::Cipher(Cipher.ELGAMAL/PKCS1)
+url::www.bouncycastle.org)
+call::Cipher(Cipher.OLDPBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.OLDPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::getSystemService
+activity::com.admob.android.ads.AdMobActivity
+api_call::java/net/URL;->openStream
+call::Cipher(pad block corrupted)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC2-CBC)
+call::Cipher(Cipher.PBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND128BITAES-CBC-BC)
+call::Cipher(Cipher.RSA/OAEP)
+call::Cipher(Cipher.RSA/PKCS1)
+call::Cipher(Cipher.CAMELLIA)
+call::Cipher(Cipher.PBEWITHMD5ANDRC2)
+call::Cipher(Cipher.PBEWITHMD5ANDDES)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND3-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::http://www.bouncycastle.org)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC4)
+call::Cipher(Cipher.TWOFISH)
+call::Cipher(Cipher.BLOWFISH)
+permission::android.permission.INTERNET
+url::mm.admob.com
+call::Cipher(Cipher.PBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.RSA/2)
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+call::Cipher(block truncated)
+api_call::android/content/Context;->startActivity
+call::Cipher(Mac codes failed to equal.)
+call::Cipher(Cipher.1.2.840.113533.7.66.10)
+call::Cipher(Cipher.RSA)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.PBEWITHSHA1ANDDES)
+call::Cipher(Cipher.ECIES)
+call::Cipher(Cipher.1.3.6.1.4.1.188.7.1.1.2)
+call::Cipher(Cipher.RC5)
+call::Cipher(Cipher.SERPENT)
+url::api.admob.com
+url::a.admob.com
+url::http://www.mindistic.com/donation/
+call::Cipher(Cipher.RSA/1)
+call::Cipher(Cipher.IES)
+intent::android.intent.category.LAUNCHER
+call::Cipher(Cipher.RC5-64)
+call::Cipher(data too short)
+call::Cipher(mac check in CCM failed)
+call::Read/Write External Storage
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC4)
+url::http://mm.admob.com/static/android/canvas.html
+call::Cipher(Cipher.ARC4)
+call::Cipher(Cipher.BrokenIES)
+url::http://a.admob.com/f0?
+call::Cipher(Cipher.RC6)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC2-CBC)
+url::www.mindistic.com
+call::Cipher(Cipher.SKIPJACK)
+activity::.MindWalletActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC4)
+call::Cipher(BC_MW)
+url::http://mm.admob.com/static/android/i18n/20101109
+call::Cipher(Cipher.BROKENPBEWITHMD5ANDDES)
+call::Cipher(Cipher.DES)
+call::Cipher(algorithm)
+url::schemas.android.com
+feature::android.hardware.touchscreen
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC2-CBC)
+call::Cipher(invalid forcing byte in block)
+call::printStackTrace
+call::Cipher(Cipher.PBEWITHSHAANDIDEA-CBC)
+intent::android.intent.action.SEARCH
+call::Cipher(Cipher.AES)
+call::Cipher(Cipher.DESEDEWRAP)
+call::Cipher(Cipher.DESEDE)
+call::Cipher(Cipher.PBEWITHSHA1ANDRC2)
+call::Obfuscation(Base64)
+call::Cipher(Cipher.GOST28147)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC2-CBC)
+call::Cipher(Cipher.CAST5)
+url::r.admob.com
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC4)
+call::Cipher(Cipher.ELGAMAL)
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+call::Cipher(Cipher.1.2.840.113549.3.7)
+intent::android.intent.action.MAIN
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+call::Cipher(Cipher.RC2)
+call::Cipher(Cipher.RIJNDAEL)
+call::Cipher(Null pointer as ciphertext)
+call::Cipher(Cipher.1.2.840.113549.3.2)
+call::Cipher(Cipher.BrokenECIES)

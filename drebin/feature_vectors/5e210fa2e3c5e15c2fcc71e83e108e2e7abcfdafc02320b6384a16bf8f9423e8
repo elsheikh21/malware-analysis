@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+api_call::android/media/AudioManager;->setSpeakerphoneOn
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.READ_PHONE_STATE
+service_receiver::Speaker Mode Background Service
+activity::.SpeakerMode
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.PROCESS_OUTGOING_CALLS
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::com.flail.DotDestroy.library.DotDestroyMenu
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+activity::com.flail.DotDestroy.library.EditPrefs
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::com.flail.DotDestroy.library.LevelList
+intent::android.intent.category.LAUNCHER
+activity::com.flail.DotDestroy.library.DotDestroyInstructions
+activity::.DotDestroyMenu
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::com.flail.DotDestroy.library.DotDestroy

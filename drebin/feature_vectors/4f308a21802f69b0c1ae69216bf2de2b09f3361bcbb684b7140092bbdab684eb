@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::android/provider/Settings$Secure;->putString
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+permission::android.permission.WRITE_SECURE_SETTINGS
+intent::android.intent.category.LAUNCHER
+activity::.MyActivity
+permission::android.permission.WRITE_SETTINGS

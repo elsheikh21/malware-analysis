@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://www.e-bahut.com/index
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.e-bahut.com/index.php?app%3Dcore&module%3Dsearch
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.EBahut
+url::www.e-bahut.com

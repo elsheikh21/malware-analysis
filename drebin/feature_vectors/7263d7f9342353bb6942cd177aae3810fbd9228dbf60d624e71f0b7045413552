@@ -1,0 +1,46 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/opotech.virtualbuttonbartrial
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.GET_ACCOUNTS
+activity::Test Activity
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+call::HttpPost
+api_call::android/content/Context;->sendBroadcast
+url::http://schemas.android.com/apk/res/android
+permission::android.permission.GET_TASKS
+real_permission::android.permission.GET_TASKS
+url::market.android.com
+activity::.Prefs
+url::opotechlicense.appspot.com
+api_call::android/accounts/AccountManager;->getAccounts
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/app/ActivityManager;->getRecentTasks
+service_receiver::.BootReceiver
+api_call::java/lang/Runtime;->exec
+service_receiver::.CallReceiver
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+activity::Prefs
+activity::Test Activity 2
+permission::android.permission.SYSTEM_ALERT_WINDOW
+service_receiver::.VirtualService
+url::http://market.android.com/details?id%3Dopotech.virtualbuttonbar
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.action.PHONE_STATE
+url::https://opotechlicense.appspot.com/add
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+service_receiver::Virtual Button Bar
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.EXPAND_STATUS_BAR
+service_receiver::.TrialReceiver
+url::schemas.android.com

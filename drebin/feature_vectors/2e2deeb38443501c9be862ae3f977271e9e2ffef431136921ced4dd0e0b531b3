@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::https://market.android.com
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com
+activity::com.robotsrbetter.trial.businesstravellogger.Preferences
+activity::.BusinessTravelLogger
+feature::android.hardware.screen.portrait
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+activity::com.robotsrbetter.trial.businesstravellogger.ViewLog
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::com.robotsrbetter.trial.businesstravellogger.BusinessTravelLogger
+call::getSystemService

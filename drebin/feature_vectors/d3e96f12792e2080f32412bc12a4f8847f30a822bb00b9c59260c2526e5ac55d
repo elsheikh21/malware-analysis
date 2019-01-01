@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->cancel
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::www.deckeleven.com
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+url::http://www.deckeleven.com/android/windsofsteel
+activity::.PacificActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::BuyActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3Dpname:com.technicow.imagelock
+permission::android.permission.EXPAND_STATUS_BAR
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+url::http://www.technicow.com/ilockdemo/index.html
+url::www.technicow.com
+url::http://www.technicow.com/ilock/index.html
+activity::masslockdemo
+activity::.imagelockdemo
+permission::android.permission.SET_ORIENTATION
+call::Read/Write External Storage
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::printStackTrace
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::com.elgubbo.a2sdGUI.About
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+activity::A2sdgui
+api_call::java/lang/Runtime;->exec
+url::forum.xda-developers.com
+call::Execution of external commands
+activity::.DashBoard
+activity::DashBoard
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::http://forum.xda-developers.com/showthread.php?t%3D991684

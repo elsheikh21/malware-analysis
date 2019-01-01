@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_LOGS
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://daroon-player.googlecode.com/svn/trunk/stream_list_
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+url::http://daroon-player.googlecode.com/svn/trunk/update_daroonplayer.xml
+real_permission::android.permission.WAKE_LOCK
+api_call::android/app/Activity;->startActivity
+intent::com.daroonsoft.intent.action.SEND_LOG
+call::printStackTrace
+api_call::java/net/Socket
+real_permission::android.permission.VIBRATE
+call::getSystemService
+call::Read/Write External Storage
+activity::.VideoFoldersActivity
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.PlayerPreferences
+call::Execution of external commands
+feature::android.hardware.screen.landscape
+url::daroon-player.googlecode.com
+activity::.HomeActivity
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+url::http://daroon-player.googlecode.com/svn/trunk
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.READ_LOGS
+api_call::android/os/PowerManager$WakeLock;->release
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

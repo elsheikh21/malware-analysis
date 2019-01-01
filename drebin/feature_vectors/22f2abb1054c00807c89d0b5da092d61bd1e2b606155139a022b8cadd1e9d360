@@ -1,0 +1,28 @@
+feature::android.hardware.touchscreen
+permission::android.permission.RECEIVE_SMS
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+service_receiver::.SMSSenderService
+api_call::android/content/ContentResolver;->query
+permission::android.permission.WRITE_SMS
+service_receiver::%E7%AD%E4%BF%A1%E8%AA%E5%A8%E5%E5%A4 1x1 %E5%BC%E5%B3
+real_permission::android.permission.VIBRATE
+service_receiver::SMSNotificationReciever
+call::getSystemService
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+activity::.ReplyToSelectionActivity
+activity::.UIActivity
+api_call::android/content/Context;->sendBroadcast
+service_receiver::%E7%AD%E4%BF%A1%E8%AA%E5%A8%E5%E5%A4 4x1
+activity::.WidgetMsgSetupActivity
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::.SMSReceiver
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

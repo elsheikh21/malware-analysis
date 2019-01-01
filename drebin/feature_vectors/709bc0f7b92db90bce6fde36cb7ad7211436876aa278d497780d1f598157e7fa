@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+service_receiver::.TheService
+url::code.google.com
+call::getPackageInfo
+api_call::android/content/Context;->sendBroadcast
+service_receiver::.FireReceiver
+intent::android.intent.category.INFO
+url::http://code.google.com/p/locale-audio-update-notifier/

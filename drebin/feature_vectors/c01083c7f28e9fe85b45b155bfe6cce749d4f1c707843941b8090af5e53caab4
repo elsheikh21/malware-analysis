@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://localhost:9080
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WAKE_LOCK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::java/net/HttpURLConnection
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.MusicHub
+service_receiver::JADSMusicService
+real_permission::android.permission.INTERNET
+url::localhost
+call::Obfuscation(Base64)
+real_permission::android.permission.WAKE_LOCK

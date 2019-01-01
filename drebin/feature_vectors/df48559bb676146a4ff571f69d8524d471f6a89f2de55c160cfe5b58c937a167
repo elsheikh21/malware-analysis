@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::SPlacarWidgetConfigureAct
+api_call::java/net/HttpURLConnection
+api_call::android/os/Vibrator;->vibrate
+service_receiver::SPlacarService
+permission::android.permission.INTERNET
+activity::SPlacarPreferences
+call::getPackageInfo
+url::http://superplacar.asapcode.com/services/
+real_permission::android.permission.WAKE_LOCK
+activity::SPlacarAbout
+url::superplacar.asapcode.com
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::SPlacarConfigAct
+url::http://superplacar.asapcode.com/services/teamLogo/
+api_call::android/content/Context;->startService
+service_receiver::Super Placar
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+activity::SPlacarMainAct
+provider::android.appwidget.provider
+activity::.SPlacarMainAct

@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.chemspider.com
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.chemspider.com/SimpleSearch.aspx?q%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.DCEChemPad
+real_permission::android.permission.INTERNET
+call::getSystemService
+activity::.ChemSpiderLaunchpad

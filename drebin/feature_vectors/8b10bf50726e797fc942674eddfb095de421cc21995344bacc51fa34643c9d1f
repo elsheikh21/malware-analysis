@@ -1,0 +1,12 @@
+activity::.SettingActivity
+feature::android.hardware.touchscreen
+url::http://stream.twitter.com/1/statuses/filter.json
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+service_receiver::.app.MainService
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::stream.twitter.com
+intent::android.intent.category.LAUNCHER
+call::HttpPost

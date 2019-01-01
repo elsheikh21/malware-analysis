@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.google.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.OptionCalculator
+url::http://www.google.com/finance/historical?q%3D
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openConnection

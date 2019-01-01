@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::HttpPost
+activity::.PracticeMain
+permission::android.permission.INTERNET
+activity::com.dex.solutions.settings.AppPreferences
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.exaprod.com/request.php
+api_call::android/app/Activity;->startActivity
+url::www.exaprod.com
+call::getSystemService

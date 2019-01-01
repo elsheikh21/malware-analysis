@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+real_permission::android.permission.WRITE_SETTINGS
+url::www.yourcompany.com
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+url::http://www.yourcompany.com/yourhelp.html
+call::getPackageInfo
+service_receiver::.FireReceiver
+intent::android.intent.category.INFO
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

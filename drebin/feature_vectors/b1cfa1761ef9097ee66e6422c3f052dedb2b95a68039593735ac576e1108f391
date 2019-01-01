@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.discountlasers.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.discountlasers.com/
+intent::android.intent.category.LAUNCHER

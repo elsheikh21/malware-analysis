@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::app.fbomobile.com
+intent::android.intent.category.LAUNCHER
+url::http://app.fbomobile.com
+activity::.InstantSysActivity

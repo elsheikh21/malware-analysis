@@ -1,0 +1,17 @@
+service_receiver::.ConnectorSchoolnet
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+service_receiver::de.ub0r.android.websms.connector.common.ConnectorService
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+permission::android.permission.WAKE_LOCK
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/NotificationManager;->notify
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.INTERNET
+call::HttpPost
+intent::android.intent.category.INFO
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

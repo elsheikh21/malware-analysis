@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+service_receiver::.alarm.MyReceiver
+activity::.activity.LectureActivity
+call::printStackTrace
+intent::android.intent.category.HOME
+call::Cipher(Skc Cipher SEED)
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::Cipher(SEED)
+activity::.MainActivity
+url::http://m.e-campus.co.kr/mapp/[Command].jsp
+real_permission::android.permission.VIBRATE
+url::m.e-campus.co.kr
+call::getSystemService
+permission::android.permission.VIBRATE
+call::Cipher()
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.landscape
+api_call::android/app/Activity;->startActivity
+api_call::android/webkit/WebView
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(No cipher algorithm)
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://m.e-campus.co.kr/mweb/[Command].jsp
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::Cipher(Invalid block length)
+permission::android.permission.RECEIVE_BOOT_COMPLETED

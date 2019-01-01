@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.TopicActivity
+provider::com.ckwong.news.provider.OD
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www2.orientaldaily.com.my
+permission::android.permission.INTERNET
+url::www2.orientaldaily.com.my
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://www2.orientaldaily.com.my/date/
+api_call::android/content/ContentResolver;->query

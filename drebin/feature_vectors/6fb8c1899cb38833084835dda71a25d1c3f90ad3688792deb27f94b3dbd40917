@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+api_call::android/content/Context;->startActivity
+call::getPackageInfo
+activity::.spark
+intent::android.intent.category.LAUNCHER
+activity::.sparkhide
+activity::.SettingsActivity
+call::getSystemService
+api_call::android/os/Vibrator;->cancel

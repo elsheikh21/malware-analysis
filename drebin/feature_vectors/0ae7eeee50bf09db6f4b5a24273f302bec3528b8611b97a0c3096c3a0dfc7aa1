@@ -1,0 +1,17 @@
+feature::android.hardware.location.network
+api_call::android/location/LocationManager;->requestLocationUpdates
+url::http://m.daylighthotels.com/index.aspx
+url::m.daylighthotels.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://m.daylighthotels.com/index.aspx?locale%3D
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.DaylightActivity
+call::getSystemService

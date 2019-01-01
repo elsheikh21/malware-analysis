@@ -1,0 +1,16 @@
+url::api.wordnik.com
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::java/net/URL;->openConnection
+activity::.WordnikActivity
+intent::android.intent.action.MAIN
+url::http://api.wordnik.com/api/wordoftheday.json
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://api.wordnik.com/api/word.json/
+intent::android.intent.category.LAUNCHER
+url::http://api.wordnik.com/api/words.json/randomWord
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.RecentActivity
+call::getSystemService

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.diguayouxi.com/100175.apk
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+feature::android.hardware.screen.portrait
+url::www.diguayouxi.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.RESTART_PACKAGES
+call::getSystemService

@@ -1,0 +1,9 @@
+activity::.SoundMachine
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+url::onvideo1.com
+url::http://onvideo1.com/rotator/?g%3Dappsoundrd1
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+service_receiver::AudioService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://audio.radiomaria.es:8081/
+activity::.AudioActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::audio.radiomaria.es
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

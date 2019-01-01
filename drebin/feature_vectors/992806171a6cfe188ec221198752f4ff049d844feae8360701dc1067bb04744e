@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.BuyNoEvilProductView
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.activismos.com
+call::HttpPost
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.activismos.com/buynoevil/barcodes/
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openConnection
+activity::.BuyNoEvil
+call::getSystemService
+activity::.BuyNoEvilSearch
+intent::android.intent.action.VIEW

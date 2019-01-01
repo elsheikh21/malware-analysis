@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.OpenURL
+url::www.xeladico.com
+activity::com.xelasys.dictionnaires.OpenURL
+permission::android.permission.INTERNET
+url::http://www.xeladico.com/asp/android/free/index.jsp?dl%3Dfr
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

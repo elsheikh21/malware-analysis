@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.isadora.com/getfile.aspx?id%3D8639
+url::http://www.isadora.com/getfile.aspx?id%3D8618
+url::http://www.isadora.com/getfile.aspx?id%3D8619
+intent::android.intent.action.MAIN
+call::getSystemService
+url::http://www.isadora.com/getfile.aspx?id%3D8617
+url::www.isadora.com
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+activity::.IsaDoraProducts
+activity::.IsaDoraSplash

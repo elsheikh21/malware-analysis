@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::apps.androidgamer.org
+api_call::android/content/ContentResolver;->query
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://apps.androidgamer.org/albumart/demo/getversion.htm
+api_call::java/net/URL;->openConnection
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

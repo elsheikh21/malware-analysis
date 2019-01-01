@@ -1,0 +1,12 @@
+activity::hsmnr.application.Result
+feature::android.hardware.touchscreen
+activity::Settings
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::.Main
+api_call::android/app/ActivityManager;->restartPackage
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.RESTART_PACKAGES
+activity::Answer
+activity::Main

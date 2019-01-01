@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+activity::ShowPic
+activity::Preferences
+real_permission::android.permission.CAMERA
+activity::makePDF
+url::www.burrotech.com
+activity::help
+feature::android.hardware.camera.autofocus
+activity::viewPDF
+activity::PDFList
+url::http://www.burrotech.com/s2_mob.php?s%3D
+permission::android.permission.CAMERA
+activity::CameraApiTest
+api_call::android/hardware/Camera;->open
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+activity::.main
+feature::android.hardware.screen.portrait
+activity::Scan2PDF Mobile
+intent::android.intent.category.LAUNCHER

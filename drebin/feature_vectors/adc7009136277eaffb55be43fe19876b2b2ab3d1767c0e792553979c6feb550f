@@ -1,0 +1,4 @@
+service_receiver::Air Clock
+feature::android.hardware.touchscreen
+intent::android.intent.category.INFO
+call::getSystemService

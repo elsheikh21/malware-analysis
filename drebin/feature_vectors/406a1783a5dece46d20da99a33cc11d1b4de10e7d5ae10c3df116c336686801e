@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+permission::android.permission.SET_WALLPAPER_COMPONENT
+intent::android.intent.action.SET_WALLPAPER
+intent::android.intent.category.DEFAULT
+permission::android.permission.BIND_WALLPAPER
+api_call::android/app/Activity;->startActivity

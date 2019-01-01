@@ -1,0 +1,5 @@
+activity::.ChooseHealth
+activity::com.sanelsoft.choosehealth.ChooseHealth
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

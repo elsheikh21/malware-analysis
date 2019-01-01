@@ -1,0 +1,12 @@
+service_receiver::.DayQuote$UpdateService
+feature::android.hardware.touchscreen
+url::www.proverbia.net
+url::http://www.proverbia.net/webmaster/frase.asp?op%3D0&ref%3Ddrpablo%40eml.cc
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::es.m.wikipedia.org
+url::http://es.m.wikipedia.org/wiki/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startService
+call::getPackageInfo
+provider::android.appwidget.provider

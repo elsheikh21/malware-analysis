@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.SpeedClickNumpad
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

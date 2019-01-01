@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+activity::.LastPage
+permission::android.permission.SEND_SMS
+activity::.Rules
+feature::android.hardware.telephony
+api_call::android/telephony/SmsManager;->sendTextMessage
+activity::.Alarm
+real_permission::android.permission.SEND_SMS
+intent::android.intent.category.LAUNCHER

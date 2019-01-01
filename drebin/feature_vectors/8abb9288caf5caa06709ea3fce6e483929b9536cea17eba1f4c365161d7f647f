@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.HowToActivity
+intent::android.intent.category.INFO
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

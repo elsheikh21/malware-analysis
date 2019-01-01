@@ -1,0 +1,85 @@
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC4)
+feature::android.hardware.touchscreen
+call::Cipher(Cipher.BROKENPBEWITHSHA1ANDDES)
+url::rundquadrat.at
+call::printStackTrace
+call::Cipher(pad block corrupted)
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC2-CBC)
+call::Cipher(Cipher.PBEWITHMD5ANDRC2)
+call::Cipher(input too short)
+call::Cipher(cipher returned null)
+call::Cipher(Cipher.RSA/ISO9796-1)
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::Cipher(Cipher.RC2WRAP)
+permission::android.permission.READ_CONTACTS
+api_call::java/net/Socket
+call::Cipher(RSA/ECB/PKCS1Padding)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC4)
+call::Cipher(Cipher.PBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC2-CBC)
+call::Cipher(Cipher.RSA/2)
+call::Cipher(invalid forcing byte in block)
+call::Cipher(data too short)
+call::Cipher(AES)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC4)
+call::Cipher(Cipher.BrokenIES)
+call::Cipher(Cipher.ELGAMAL/PKCS1)
+url::www.bouncycastle.org)
+call::Cipher(Mac codes failed to equal.)
+call::Cipher(Camellia)
+call::Cipher(Cipher.PBEWITHSHAANDTWOFISH-CBC)
+api_call::android/content/ContentResolver;->openInputStream
+call::Cipher(Cipher.OLDPBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.RSA)
+permission::com.fsck.k9.permission.READ_ATTACHMENT
+call::Cipher(Cipher.OLDPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC4)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+call::Read/Write External Storage
+call::Cipher(Cipher.PBEWITHSHA1ANDDES)
+activity::.PasswordDialog
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC2-CBC)
+call::Cipher(Cipher.PBEWITHSHA1ANDRC2)
+call::Cipher(Cipher.ECIES)
+call::Obfuscation(Base64)
+call::Cipher(Cipher.GOST28147)
+call::Cipher(Cipher.PBEWITHSHAAND128BITAES-CBC-BC)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC2-CBC)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::Cipher(Null pointer as ciphertext)
+call::Cipher(Cipher.RSA/OAEP)
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+call::Cipher(Cipher.RSA/PKCS1)
+activity::.FileSelector
+call::Cipher(mac check in EAX failed)
+call::Cipher(mac check in CCM failed)
+activity::.X509Tools
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+intent::android.intent.category.BROWSABLE
+call::Cipher(Cipher.ELGAMAL)
+intent::android.intent.action.VIEW
+call::Cipher(Cipher.PBEWITHMD5ANDDES)
+call::Cipher(Cipher.RSA/1)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND3-KEYTRIPLEDES-CBC)
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(Cipher.DES)
+call::Cipher(Cipher.IES)
+url::http://rundquadrat.at/x509tools
+call::Cipher(context)
+call::Cipher(Cipher.PBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+real_permission::android.permission.INTERNET
+url::http://www.bouncycastle.org)
+call::Cipher(block truncated)
+call::Cipher(malformed signature)
+call::Cipher(Cipher.BROKENPBEWITHMD5ANDDES)
+intent::android.intent.category.LAUNCHER
+call::Cipher(Cipher.RC2)
+call::Cipher(DES/ECB/NoPadding)
+call::Cipher(algorithm)
+call::Cipher(Cipher.1.2.840.113549.3.2)
+call::Cipher(Cipher.BrokenECIES)

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::android.wuya.us
+activity::.Main
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://android.wuya.us/2011/04/55555.html

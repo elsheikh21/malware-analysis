@@ -1,0 +1,24 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+call::printStackTrace
+service_receiver::.PackageAddedReceiver
+call::Read/Write External Storage
+activity::.ArchiveView
+activity::.Preferences
+call::getPackageInfo
+url::market.android.com
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.AppMonsterPro
+permission::android.permission.VIBRATE
+activity::.SDScanner
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+activity::.SingleArchiveView
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER

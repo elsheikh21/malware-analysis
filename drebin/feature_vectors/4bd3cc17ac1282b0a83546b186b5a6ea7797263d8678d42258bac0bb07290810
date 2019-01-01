@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.ScoreCardActivity
+intent::android.intent.action.MAIN
+activity::.GameActivity
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+activity::.SplashScreenActivity
+intent::android.intent.category.LAUNCHER
+activity::.GamePreferenceActivity
+api_call::android/content/Context;->startActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

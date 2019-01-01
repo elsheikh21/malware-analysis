@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_USER_DICTIONARY
+service_receiver::SoftKeyboard

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.FileManagerActivity
+intent::com.mx.intent.action.PLUGIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::com.mx.app.filemanager.FileManagerActivity
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+intent::com.mx.intent.category.MAIN
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+api_call::android/content/Context;->startActivity

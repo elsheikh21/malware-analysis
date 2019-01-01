@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::www.facebook.com
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+activity::.HubActivity
+api_call::android/media/MediaPlayer;->start
+url::http://www.facebook.com/pages/AniWorld/154398174620301
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::com.aniworld.TouchPaint
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

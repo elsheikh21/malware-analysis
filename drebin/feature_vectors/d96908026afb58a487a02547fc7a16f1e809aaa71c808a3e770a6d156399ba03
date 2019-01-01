@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+call::getSystemService
+feature::android.hardware.screen.portrait

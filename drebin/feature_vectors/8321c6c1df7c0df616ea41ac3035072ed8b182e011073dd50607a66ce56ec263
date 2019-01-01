@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+url::http://xaffron.blogspot.com/search/label/omctheme
+permission::android.permission.READ_PHONE_STATE
+url::xaffron.blogspot.com
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::com.sunnykwong.omc.OMCCreditsActivity
+service_receiver::com.sunnykwong.omc.OMCConfigReceiver
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+api_call::java/net/Socket
+activity::com.sunnykwong.omc.OMCThemePickerActivity
+call::printStackTrace
+service_receiver::com.sunnykwong.omc.OMCAlarmReceiver
+real_permission::android.permission.VIBRATE
+activity::com.sunnykwong.omc.OMCPrefActivity
+call::getSystemService
+service_receiver::com.sunnykwong.omc.OMCService
+activity::.OMCPrefActivity
+activity::.OMCSkinnerActivity
+activity::com.sunnykwong.omc.OMCThemeImportActivity
+activity::OMC Theme Tester
+api_call::android/content/Context;->sendBroadcast
+call::Read/Write External Storage
+activity::com.sunnykwong.omc.OMCThemeUnzipActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::android.appwidget.provider
+real_permission::android.permission.INTERNET
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

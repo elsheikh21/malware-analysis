@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://cricinfo.com
+url::http://androidapp.s3.amazonaws.com/cricket-news.jpg
+url::androidapp.s3.amazonaws.com
+intent::android.intent.category.LAUNCHER
+url::http://www.espncricinfo.com/rss/content/story/feeds/0.rss
+real_permission::android.permission.INTERNET
+url::cricinfo.com
+url::www.espncricinfo.com
+activity::.Activity1

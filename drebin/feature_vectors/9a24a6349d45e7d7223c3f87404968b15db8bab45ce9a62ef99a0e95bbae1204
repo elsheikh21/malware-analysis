@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+activity::.GameMIDletTonyHawk
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.ALTERNATIVE
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

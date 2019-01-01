@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://m.ebn.co.kr
+intent::android.intent.category.LAUNCHER
+activity::.ebnMain
+real_permission::android.permission.INTERNET
+url::m.ebn.co.kr

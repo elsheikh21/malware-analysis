@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.xml
+activity::.start
+intent::android.intent.action.VIEW

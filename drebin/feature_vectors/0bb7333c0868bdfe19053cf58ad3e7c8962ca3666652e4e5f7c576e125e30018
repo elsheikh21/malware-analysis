@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::http://mm.admob.com/static/android/tiles/default.png
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::Game Options
+url::mm.admob.com
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+api_call::android/os/Vibrator;->cancel
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+permission::android.permission.VIBRATE
+activity::About Us
+activity::Game Help
+call::getDeviceId
+url::r.admob.com
+url::www.goodteamstudio.com
+real_permission::android.permission.READ_PHONE_STATE
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+activity::.SudoKu
+url::http://www.goodteamstudio.com/GT_GameList.jsp
+activity::Please input number
+url::schemas.android.com

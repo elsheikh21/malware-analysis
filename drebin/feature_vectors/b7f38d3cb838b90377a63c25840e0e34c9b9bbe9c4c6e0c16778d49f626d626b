@@ -1,0 +1,16 @@
+activity::.AddressBook
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+activity::.Editor
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.action.SEND
+feature::android.hardware.screen.portrait
+activity::.SmartMeishi
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->openInputStream
+activity::.InitCard
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+call::getSystemService

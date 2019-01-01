@@ -1,0 +1,5 @@
+permission::android.permission.INTERNET
+feature::android.hardware.touchscreen
+activity::.chatActivity
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

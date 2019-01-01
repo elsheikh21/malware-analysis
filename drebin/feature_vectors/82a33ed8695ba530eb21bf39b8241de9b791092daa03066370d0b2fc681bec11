@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.INTERNET
+activity::Buzz Sentence Generator
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

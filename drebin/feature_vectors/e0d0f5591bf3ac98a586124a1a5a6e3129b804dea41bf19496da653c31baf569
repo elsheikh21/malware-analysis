@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::wap.cellufun.com
+permission::android.permission.READ_PHONE_STATE
+activity::.HqActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/TelephonyManager;->getSubscriberId
+real_permission::android.permission.READ_PHONE_STATE
+call::getSubscriberId
+call::getSystemService
+url::http://wap.cellufun.com/ref/dlLand.asp?id%3D

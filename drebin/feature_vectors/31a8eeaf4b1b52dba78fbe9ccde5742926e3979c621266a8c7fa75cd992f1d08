@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.TIME_TICK
+provider::android.appwidget.provider
+service_receiver::ClockWidgetProvider

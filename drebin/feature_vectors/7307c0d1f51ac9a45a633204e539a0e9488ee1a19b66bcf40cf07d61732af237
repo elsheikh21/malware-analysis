@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::Robert Louis Stevenson Ebooks
+real_permission::android.permission.INTERNET
+activity::.MainNavigationActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+api_call::android/location/LocationManager;->getBestProvider
+permission::android.webkit.permission.PLUGIN
+call::getSystemService

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.gaygazoAC
+permission::android.permission.INTERNET
+url::http://lolonoa.zal.jp/album/
+intent::android.intent.category.LAUNCHER
+url::lolonoa.zal.jp
+real_permission::android.permission.INTERNET

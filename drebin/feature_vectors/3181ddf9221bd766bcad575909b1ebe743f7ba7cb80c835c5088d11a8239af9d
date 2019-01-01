@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+service_receiver::.view.appwidget.StechkarteAppwidget
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::.TabbedMainActivity
+provider::.provider.StechkarteProvider
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.INSERT
+url::http://clockcard.sourceforge.net/faq.html
+intent::android.intent.action.EDIT
+activity::.view.BuyFullVersion
+url::clockcard.sourceforge.net
+service_receiver::.view.appwidget.StechkarteAppwidget$UpdateAppWidgetService
+intent::android.intent.action.VIEW
+intent::android.intent.action.MAIN
+intent::android.intent.action.PICK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.BACKUP
+feature::android.hardware.screen.portrait
+activity::.view.CheckinActivity
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

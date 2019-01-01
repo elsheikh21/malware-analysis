@@ -1,0 +1,48 @@
+feature::android.hardware.touchscreen
+activity::Community Message Threads
+url::mail.google.com
+url::http://community.wgu.edu/clearspacex/community/feeds/blogs?numItems%3D
+url::http://community.wgu.edu/
+permission::android.permission.INTERNET
+service_receiver::PocketWGUService
+url::https://web5.wgu.edu/aap/ind_aap_mstr.asp?user_mode%3Dstudent
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::Community Options
+url::http://community.wgu.edu/clearspacex/index.jspa?filterEnabled%3Dtrue
+url::community.wgu.edu
+url::webapp3.wgu.edu
+url::https://osso.wgu.edu/opensso/identity/authenticate
+url::http://community.wgu.edu/clearspacex/community/feeds/documents?numItems%3D
+url::http://community.wgu.edu/clearspacex/community/feeds/allcontent?numItems%3D
+url::http://community.wgu.edu/clearspacex/
+url::http://community.wgu.edu/clearspacex/post.jspa
+call::getSystemService
+url::osso.wgu.edu
+activity::WGU Campus
+url::http://webapp3.wgu.edu/
+url::http://community.wgu.edu/clearspacex/community/feeds/announcements?numItems%3D
+activity::About PocketWGU
+url::https://webapp3.wgu.edu/
+url::http://community.wgu.edu/clearspacex/people/%s/avatar/\
+api_call::android/content/Context;->startService
+activity::Contacting WGU
+api_call::java/net/URL;->getContent
+activity::.NewPost
+url::https://webapp3.wgu.edu/wgu-announcements/detail.jsf
+activity::.ReplyEdit
+url::https://mail.google.com/a/wgu.edu/?account_id%3D
+intent::android.intent.action.MAIN
+url::http://community.wgu.edu/clearspacex/community/feeds/search?q%3D
+url::https://web5.wgu.edu/aap/index.asp
+activity::.PocketWGUMain
+activity::Messages
+activity::COS
+service_receiver::.PocketWidget
+intent::android.intent.category.LAUNCHER
+url::web5.wgu.edu
+activity::Quick Message View
+activity::My Courses
+provider::android.appwidget.provider
+activity::Community Listing

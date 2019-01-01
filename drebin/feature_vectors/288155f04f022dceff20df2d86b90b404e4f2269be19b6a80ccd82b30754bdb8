@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.DigitalFun
+activity::AdActivity
+permission::android.permission.INTERNET
+url::http://wap.allove.org/software/adsense.php
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.action.VIEW
+url::wap.allove.org

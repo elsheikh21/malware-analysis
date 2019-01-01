@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.READ_CONTACTS
+url::http://maps.google.com/maps?f%3Dd&daddr%3DendLat%20endLng&hl%3Dzh-cn
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+url::http://imoregames.com
+real_permission::android.permission.VIBRATE
+call::getSimCountryIso
+call::getSystemService
+call::Cipher(DES)
+activity::.Ad3122_31220001
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+activity::Google %E9%AE%E7
+activity::android.permission.INTERNETenabledmeta-datacpid3122ptid31220001salesid0005\
+api_call::android/content/Context;->startService
+activity::Drakula
+call::sendSMS
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+activity::iDracula - Undead Awakening
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+url::imoregames.com
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+api_call::android/app/WallpaperManager;->setBitmap
+call::getSubscriberId
+real_permission::android.permission.SET_WALLPAPER

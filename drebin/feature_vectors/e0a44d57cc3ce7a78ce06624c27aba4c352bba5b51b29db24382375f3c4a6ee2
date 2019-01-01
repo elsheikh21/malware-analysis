@@ -1,0 +1,4 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+service_receiver::.BeanShellREPL
+real_permission::android.permission.INTERNET

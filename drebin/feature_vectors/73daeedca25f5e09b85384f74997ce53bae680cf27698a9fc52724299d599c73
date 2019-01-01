@@ -1,0 +1,7 @@
+activity::.HouseEnergyMon
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Electricity
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER

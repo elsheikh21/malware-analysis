@@ -1,0 +1,13 @@
+url::seclists.org
+feature::android.hardware.touchscreen
+url::http://www.social-engineer.org/feed/
+activity::.RSSReader
+intent::android.intent.action.MAIN
+url::rss.packetstormsecurity.org
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+url::www.social-engineer.org
+url::http://rss.packetstormsecurity.org/
+url::http://seclists.org/rss/bugtraq.rss

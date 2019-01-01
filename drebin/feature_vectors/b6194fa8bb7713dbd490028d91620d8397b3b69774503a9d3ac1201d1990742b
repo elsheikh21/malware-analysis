@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/app/ActivityManager;->restartPackage
+service_receiver::TaskPanel 4x1
+activity::.TaskPanel
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.GET_TASKS
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.ACTION_SCREEN_OFF
+real_permission::android.permission.VIBRATE
+activity::.SettingPanel
+provider::android.appwidget.provider
+call::getSystemService
+permission::android.permission.VIBRATE
+real_permission::android.permission.RESTART_PACKAGES
+service_receiver::TaskPanel 1x1
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+intent::android.intent.action.ACTION_SCREEN_ON
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.RECEIVE_BOOT_COMPLETED

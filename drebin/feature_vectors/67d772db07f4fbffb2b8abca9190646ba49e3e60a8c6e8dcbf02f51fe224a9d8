@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/android
+activity::.PreferencesActivity
+url::schemas.android.com

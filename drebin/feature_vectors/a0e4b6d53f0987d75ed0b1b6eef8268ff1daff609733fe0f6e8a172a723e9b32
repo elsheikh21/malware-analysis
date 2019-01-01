@@ -1,0 +1,5 @@
+activity::.Results
+intent::android.intent.category.LAUNCHER
+activity::.Menu
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

@@ -1,0 +1,14 @@
+activity::.lxsearch
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::deals.tntechcon.com
+url::tntechcon.com
+url::http://www.deals.tntechcon.com/ver1.html
+url::http://deals.tntechcon.com/oneday.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://tntechcon.com/bf/index2.html
+url::http://deals.tntechcon.com/hot.html
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::www.deals.tntechcon.com

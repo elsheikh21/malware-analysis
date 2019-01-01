@@ -1,0 +1,53 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::getDeviceId
+url::http://data.mobclix.com/post/sendData
+url::vc.mobclix.com
+url::http://ads.mobclix.com/
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+activity::Please select speed
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::LinkWeb
+activity::Game Options
+call::getPackageInfo
+url::data.mobclix.com
+activity::.CrazySnake
+url::www.goodteamstudio.com
+url::http://schemas.android.com/apk/res/android
+url::http://data.mobclix.com/post/feedback
+api_call::android/os/Vibrator;->cancel
+url::http://vc.mobclix.com
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+url::http://www.goodteamstudio.com/mobile.aspx
+call::getSimCountryIso
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+permission::android.permission.VIBRATE
+url::game.goodteamstudio.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::About Us
+activity::Game Help
+activity::Pause
+url::http://game.goodteamstudio.com/class/snake.do?mid%3D
+activity::Input Name
+url::http://www.mobclix.com
+intent::android.intent.action.MAIN
+activity::Game Rank
+url::www.mobclix.com
+url::http://data.mobclix.com/post/config
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://game.goodteamstudio.com/class/snake/top.do?mid%3D
+url::ads.mobclix.com
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start
+url::schemas.android.com

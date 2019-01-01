@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::com.betterclix.wHow_to_Read_Palms_Simplified_7.PalmRead
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://onvideo1.com/rotator/?g%3Dapppalmbn
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::onvideo1.com
+intent::android.intent.category.LAUNCHER
+activity::.PalmRead
+url::http://onvideo1.com/andrd/palm/PalmReadingk.htm
+call::getSystemService

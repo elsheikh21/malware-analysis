@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::sites.jsoft.com
+intent::android.intent.category.LAUNCHER
+url::http://sites.jsoft.com/rm/\%27>resource
+activity::.calc

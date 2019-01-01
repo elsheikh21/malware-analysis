@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.TipsCalculator
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://www.saweet.com\%27>www.saweet.com</a>
+intent::android.intent.category.LAUNCHER
+url::www.saweet.com\%27>www.saweet.com<
+url::http://market.android.com/search?q%3Dpname:com.innersocial.tipscalculator

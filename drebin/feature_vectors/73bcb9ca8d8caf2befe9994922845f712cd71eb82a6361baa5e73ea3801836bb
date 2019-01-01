@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService

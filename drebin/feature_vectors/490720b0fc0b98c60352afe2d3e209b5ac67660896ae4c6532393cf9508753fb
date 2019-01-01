@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+call::getSystemService

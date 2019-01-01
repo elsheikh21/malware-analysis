@@ -1,0 +1,7 @@
+url::http://www.marksenterprise.com/mobi/b.htm
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.marksenterprise.com
+activity::.Activity1

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.adpwd
+intent::android.intent.action.MAIN
+activity::.Modify
+intent::android.intent.category.LAUNCHER
+activity::.lockpad_list
+activity::.Content
+intent::android.intent.category.BROWSABLE
+call::getSystemService
+activity::.LockPad

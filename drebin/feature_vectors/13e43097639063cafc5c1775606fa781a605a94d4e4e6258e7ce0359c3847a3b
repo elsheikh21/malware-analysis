@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/app/WallpaperManager;->setBitmap
+activity::com.hma.photofittrack.custom.CustomCropImage
+activity::.Launcher
+activity::com.hma.photofittrack.free.Launcher
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+api_call::android/app/Activity;->startActivity
+call::printStackTrace
+feature::android.hardware.screen.portrait
+real_permission::android.permission.SET_WALLPAPER
+api_call::android/content/ContentResolver;->openFileDescriptor
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.READ_CONTACTS
+activity::com.hma.photofittrack.Compare
+real_permission::android.permission.INTERNET
+activity::com.hma.photofittrack.TakePhoto

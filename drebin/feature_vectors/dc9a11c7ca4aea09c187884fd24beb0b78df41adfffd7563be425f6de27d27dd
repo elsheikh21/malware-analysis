@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.WapSystActivity
+call::sendSMS
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

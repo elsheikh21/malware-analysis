@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.Decrypting
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Login
+intent::android.intent.action.SEND
+activity::.Settings
+api_call::android/content/ContentResolver;->openInputStream
+activity::.SetPassword
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+activity::.ViewLocker
+call::getSystemService

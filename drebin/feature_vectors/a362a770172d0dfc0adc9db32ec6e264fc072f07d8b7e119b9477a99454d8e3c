@@ -1,0 +1,8 @@
+activity::.PoochVision
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::pamperedpoochplayground.com
+url::http://pamperedpoochplayground.com/m/webcams.html
+intent::android.intent.category.LAUNCHER
+url::http://pamperedpoochplayground.com/m/reservations.html
+url::http://pamperedpoochplayground.com/m/contact.html

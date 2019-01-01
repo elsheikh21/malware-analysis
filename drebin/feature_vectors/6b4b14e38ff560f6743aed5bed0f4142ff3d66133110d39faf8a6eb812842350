@@ -1,0 +1,14 @@
+activity::.ImportGalleryActivity
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.LoginActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/app/ActivityManager;->restartPackage
+real_permission::android.permission.RESTART_PACKAGES
+activity::.ShowImageActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RESTART_PACKAGES
+call::Read/Write External Storage
+activity::.ImageListActivity
+call::getSystemService

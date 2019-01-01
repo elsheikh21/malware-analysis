@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+service_receiver::com.sonyericsson.extras.liveview.plugins.pkviewfinder.ViewfinderService
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+service_receiver::Viewfinder service
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::com.sonyericsson.extras.liveview.plugins.PluginPreferences
+call::Read/Write External Storage
+api_call::android/content/Context;->startActivity
+call::getSystemService
+service_receiver::com.sonyericsson.extras.liveview.plugins.PluginReceiver

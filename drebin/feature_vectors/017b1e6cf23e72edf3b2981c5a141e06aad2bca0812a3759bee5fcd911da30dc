@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.AstroList
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+url::http://widgets.fabulously40.com/horoscope.json?sign%3D
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::widgets.fabulously40.com
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::getSystemService
+api_call::android/net/wifi/WifiManager;->isWifiEnabled

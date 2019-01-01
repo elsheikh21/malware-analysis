@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::Watch Live Wallpaper Lite
+intent::android.intent.action.MAIN
+activity::.WatchActivity
+activity::Watch LW introduce
+intent::android.intent.category.LAUNCHER
+activity::watch_setting
+activity::Watch Live Wallpaper Lite

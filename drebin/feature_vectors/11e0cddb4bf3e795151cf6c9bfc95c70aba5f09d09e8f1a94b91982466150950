@@ -1,0 +1,13 @@
+activity::.JieMeng
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://blog.allove.org/wap
+url::http://www.allove.org
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::blog.allove.org
+url::www.allove.org
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

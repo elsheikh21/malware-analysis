@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+service_receiver::.BootReceiver
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+activity::.kbLight
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.BkService

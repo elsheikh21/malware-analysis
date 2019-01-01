@@ -1,0 +1,11 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://theknightclubnb.com/knightclub.html
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::theknightclubnb.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

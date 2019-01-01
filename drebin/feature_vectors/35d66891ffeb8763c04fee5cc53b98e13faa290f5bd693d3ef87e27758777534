@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.duckdaily.com
+url::http://mobile.duckdaily.com/stats
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.duckdaily.com/about
+activity::Duck Daily
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::mobile.duckdaily.com
+url::http://mobile.duckdaily.com/schedule
+url::http://mobile.duckdaily.com/roster

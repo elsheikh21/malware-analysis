@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getWifiState
+real_permission::android.permission.ACCESS_WIFI_STATE
+api_call::java/net/Socket
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+call::getSystemService
+permission::android.permission.CHANGE_WIFI_STATE
+url::http://ardrone.firesplash.de
+feature::android.hardware.screen.landscape
+activity::.Androne
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+api_call::android/net/wifi/WifiManager$WifiLock;->release
+url::ardrone.firesplash.de
+activity::Androne
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CHANGE_NETWORK_STATE

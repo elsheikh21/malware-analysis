@@ -1,0 +1,14 @@
+url::http://www.atomicblaster.feuerware.com
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/os/Vibrator;->vibrate
+url::www.atomicblaster.feuerware.com
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::printStackTrace
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.Application
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.Main
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.netmite.com/android/srv/2.0/upload/Metal_Slug_4.jar
+url::www.netmite.com

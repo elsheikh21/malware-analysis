@@ -1,0 +1,10 @@
+url::http://www.pch.gc.ca/pgm/ceem-cced/symbl/anthem-eng.cfm
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+activity::.OCanada
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::www.pch.gc.ca
+real_permission::android.permission.WAKE_LOCK

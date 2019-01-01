@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::www.delicaterock.com
+intent::android.intent.action.MAIN
+url::http://www.delicaterock.com/transfer/wishlist.xml
+activity::.MainScreen
+permission::android.permission.INTERNET
+activity::.PreferencesFromXml
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

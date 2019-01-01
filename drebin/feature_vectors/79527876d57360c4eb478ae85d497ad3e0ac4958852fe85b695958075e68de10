@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::phonelosers.org
+intent::android.intent.action.MAIN
+url::weaknetlabs.com
+url::http://weaknetlabs.com
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+url::http://phonelosers.org
+activity::.bluebox
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

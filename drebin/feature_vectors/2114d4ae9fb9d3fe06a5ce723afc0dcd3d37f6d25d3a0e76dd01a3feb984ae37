@@ -1,0 +1,16 @@
+activity::.TUCMensa
+feature::android.hardware.touchscreen
+activity::Preferences
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::MensaService
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://www-user.tu-chemnitz.de/
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::ListView
+url::www-user.tu-chemnitz.de

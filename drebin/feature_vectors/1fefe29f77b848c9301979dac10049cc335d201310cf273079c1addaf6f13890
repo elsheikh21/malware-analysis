@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::dreamteamsoft.com
+permission::android.permission.INTERNET
+activity::.Activity1
+intent::android.intent.category.LAUNCHER
+url::http://dreamteamsoft.com/ef1
+url::http://dreamteamsoft.com/pd1

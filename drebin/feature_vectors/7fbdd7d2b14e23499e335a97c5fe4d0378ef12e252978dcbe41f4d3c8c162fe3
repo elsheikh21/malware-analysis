@@ -1,0 +1,30 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+activity::.GameKiller
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://maocai.taobao.com\
+call::getPackageInfo
+permission::android.permission.GET_TASKS
+service_receiver::GkService
+real_permission::android.permission.GET_TASKS
+api_call::android/content/Context;->startActivity
+url::http://zntx.cc/index.htm
+call::getSystemService
+api_call::android/app/ActivityManager;->getRecentTasks
+url::maocai.taobao.com\
+api_call::java/lang/Runtime;->exec
+url::zntx.cc
+call::Execution of external commands
+permission::android.permission.SYSTEM_ALERT_WINDOW
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+call::Cipher(RSA)
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+service_receiver::.UpdateCheck
+intent::android.intent.category.LAUNCHER

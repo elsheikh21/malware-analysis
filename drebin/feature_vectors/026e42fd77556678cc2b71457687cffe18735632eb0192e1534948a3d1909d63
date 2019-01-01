@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.LessonSetActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.MainActivity
+service_receiver::Bible Flashcard
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity
+service_receiver::.WordWidget$UpdateService
+provider::android.appwidget.provider
+activity::.LessonActivity
+api_call::android/content/Context;->startService

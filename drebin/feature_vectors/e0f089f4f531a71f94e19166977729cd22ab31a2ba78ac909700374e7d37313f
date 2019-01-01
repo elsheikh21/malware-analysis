@@ -1,0 +1,17 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Bombjor
+url::http://julyblackcolor.appspot.com/
+activity::Help
+api_call::android/media/MediaPlayer;->start
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+activity::Options
+activity::Help2
+intent::android.intent.category.LAUNCHER
+url::julyblackcolor.appspot.com
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::About
+real_permission::android.permission.WAKE_LOCK

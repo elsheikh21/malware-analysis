@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Lists
+activity::.Prefs
+url::http://calebfultz.com/scatterdroid/lists
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.ScatGen
+intent::android.intent.category.LAUNCHER
+activity::.Questions
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::calebfultz.com

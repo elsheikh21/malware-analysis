@@ -1,0 +1,19 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://www.mobilebitworks.com/
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+url::www.mobilebitworks.com
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://www.mobilebitworks.com\
+activity::.MFD3
+url::www.mobilebitworks.com\
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+api_call::android/content/Context;->sendBroadcast
+call::Read/Write External Storage
+call::getSystemService

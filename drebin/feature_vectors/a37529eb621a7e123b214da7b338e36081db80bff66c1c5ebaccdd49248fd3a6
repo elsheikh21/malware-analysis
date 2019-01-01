@@ -1,0 +1,15 @@
+activity::com.btgn.activity.MainActivity
+activity::com.btgn.activity.BrightnessActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::com.btgn.activity.BookViewerActivity
+call::Obfuscation(Base64)
+call::printStackTrace
+activity::.MainActivity
+real_permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+call::Read/Write External Storage
+api_call::android/content/Context;->startActivity

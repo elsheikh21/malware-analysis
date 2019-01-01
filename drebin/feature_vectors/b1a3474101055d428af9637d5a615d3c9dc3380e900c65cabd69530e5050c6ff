@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_USER_DICTIONARY
+call::getDeviceId
+call::printStackTrace
+activity::.ims.kb.InputLanguageSelection
+api_call::android/os/Vibrator;->vibrate
+call::Read/Write External Storage
+feature::android.hardware.microphone
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.RECORD_AUDIO
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::com.thickbuttons.LatinImeSettings
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+permission::android.permission.READ_USER_DICTIONARY
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.DEFAULT
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.LauncherActivity

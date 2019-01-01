@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::StorageReceiver
+service_receiver::SLWStorageWidget
+call::Read/Write External Storage
+api_call::android/content/Context;->startService
+service_receiver::StorageService
+provider::android.appwidget.provider
+call::getSystemService

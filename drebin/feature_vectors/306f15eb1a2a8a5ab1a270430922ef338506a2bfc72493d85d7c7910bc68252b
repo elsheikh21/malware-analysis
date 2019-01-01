@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.trentinobookfestival.it
+activity::.TrentinoBookFestival
+url::http://www.trentinobookfestival.it
+intent::android.intent.action.MAIN
+url::www.pensareit.it
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.pensareit.it
+call::getPackageInfo

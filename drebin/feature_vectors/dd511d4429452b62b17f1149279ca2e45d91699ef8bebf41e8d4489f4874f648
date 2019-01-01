@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://murphychurch.com/calendar_rss_feed.cfm?month%3D
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Events
+intent::android.intent.category.LAUNCHER
+url::murphychurch.com
+api_call::java/net/URL;->openConnection

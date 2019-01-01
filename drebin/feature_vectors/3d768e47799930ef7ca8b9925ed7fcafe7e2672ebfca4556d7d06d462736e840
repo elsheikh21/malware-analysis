@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::www.kaboodle.com
+intent::android.intent.action.SEND
+url::http://www.kaboodle.com/za/additem?get%3D1&url%3D
+intent::android.intent.category.DEFAULT
+activity::.KaboodleShare

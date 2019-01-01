@@ -1,0 +1,24 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://www.GlobalAutismCollaboration.com
+activity::.SARActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://www.autism.com
+url::www.autism.com
+activity::.WebViewActivity
+api_call::android/content/Context;->startActivity
+activity::.AboutUsActivity
+call::getSystemService
+url::www.sarnet.org
+url::www.GlobalAutismCollaboration.com
+url::http://www.sarnet.org/lib/todaySAR.htm
+intent::android.intent.category.GADGET
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.sarnet.org/events//
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.MediaActivity
+activity::.activity

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::.SingtelBBomWidget$UpdateService
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::HttpPost
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+service_receiver::.SingtelBBomWidgetTiny$UpdateService
+intent::android.intent.category.LAUNCHER
+url::home.singtel.com
+provider::android.appwidget.provider
+url::http://home.singtel.com/bbmobile/usage.asp

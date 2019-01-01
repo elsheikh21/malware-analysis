@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.CaveExplorer
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.InstructionsActivity
+activity::.Game
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.AddHighScoreActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

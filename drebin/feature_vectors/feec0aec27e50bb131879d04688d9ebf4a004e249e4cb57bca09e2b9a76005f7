@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::printStackTrace
+feature::android.hardware.screen.portrait
+real_permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+activity::.OceanDefenseLite
+url::http://market.android.com/details?id%3Dcom.crouchingcow.oceandefense
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

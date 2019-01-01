@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Updates
+activity::.ConvertDroid
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

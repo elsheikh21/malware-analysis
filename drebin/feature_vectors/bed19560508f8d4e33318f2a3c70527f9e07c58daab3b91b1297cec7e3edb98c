@@ -1,0 +1,79 @@
+feature::android.hardware.touchscreen
+activity::Advanced
+activity::CM7 Themes
+activity::Sim Settings
+activity::Device Info
+activity::com.atools.battery.ShowTips
+api_call::android/telephony/TelephonyManager;->getDeviceId
+url::cast.ra.imocha.com
+url::forum.xda-developers.com
+permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://cast.ra.imocha.com/p/?pid%3D
+real_permission::android.permission.ACCESS_WIFI_STATE
+activity::Logcat
+call::HttpPost
+url::http://r.domob.cn/a/
+permission::android.permission.ACCESS_WIFI_STATE
+url::lukemovement.wordpress.com
+real_permission::android.permission.READ_LOGS
+activity::Wipe
+url::http://r2.adwo.com/adweb
+url::http://lukemovement.wordpress.com/root-toolbox/
+activity::Mount
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::proxy.youdraw.cn
+activity::.splashscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.location
+api_call::android/provider/Browser;->getAllVisitedUrls
+activity::Set-APN
+url::2.3.6.1
+activity::Sdcard Read Speed
+permission::android.permission.READ_PHONE_STATE
+call::getSimCountryIso
+url::r2.adwo.com
+url::r.domob.cn
+url::http://ad.gongfu-android.com:7500/ad/nadp.php?v%3D1.3&id%3D
+call::getSystemService
+activity::Mount USB
+url::http://e.domob.cn/report
+url::e.domob.cn
+url::amob.acs86.com
+service_receiver::com.atools.battery.UpdateService
+api_call::java/net/NetworkInterface
+api_call::java/lang/Runtime;->exec
+activity::Mount System
+call::Cipher(AES)
+call::getDeviceId
+call::system/bin/su
+activity::Reboot
+url::http://ad.gongfu-android.com:7500/ad/nweb.php?v%3D1.3&u%3D
+activity::Contact Me
+activity::About Root
+real_permission::android.permission.READ_PHONE_STATE
+url::http://forum.xda-developers.com/showthread.php?t%3D1056292
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+url::http://ad.gongfu-android.com:7500/ad/nadp.php?v%3D1.3&id%3Dall
+activity::Other
+call::Execution of external commands
+activity::Restore System Apps
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+url::ad.gongfu-android.com
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+activity::Change Log
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::Remove System Apps
+activity::Restore APNs
+activity::Wireless ADB
+url::http://amob.acs86.com/a.htm?pv%3D1&sp%3D
+call::getSubscriberId
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+url::http://proxy.youdraw.cn/api/proxy

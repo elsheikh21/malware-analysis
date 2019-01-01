@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+url::www.forperfect.com
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+activity::.Splash
+call::getDeviceId
+url::http://www.forperfect.com/
+activity::.RestoreReminders
+service_receiver::.BillsAlarm
+activity::.ReminderAlarmKey
+activity::.BackupReminders
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::http://www.forperfect.com
+activity::.BillsReminder
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

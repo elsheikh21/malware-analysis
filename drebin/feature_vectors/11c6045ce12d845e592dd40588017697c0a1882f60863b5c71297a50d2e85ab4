@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+activity::restore
+call::getDeviceId
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+activity::rList
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+service_receiver::.UpdateCheck
+activity::FileList
+activity::.FontMgr
+intent::android.intent.category.LAUNCHER
+activity::install
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

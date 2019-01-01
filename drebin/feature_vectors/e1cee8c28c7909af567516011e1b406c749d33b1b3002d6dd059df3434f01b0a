@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::www.gosafeab.se
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.LoginActivity
+call::Obfuscation(Base64)
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.ControlActivity
+intent::android.intent.category.LAUNCHER
+url::http://www.gosafeab.se
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

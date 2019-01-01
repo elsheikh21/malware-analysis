@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://jewishfriendfinder.com/go/g902445
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.BrowserActivity
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::jewishfriendfinder.com

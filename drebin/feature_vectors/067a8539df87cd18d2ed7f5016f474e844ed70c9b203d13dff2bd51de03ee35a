@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+service_receiver::.MainWidgetView$UpdateService
+url::http://feeds.feedburner.com/Appsplus_Widget_Erste_Bundesliga
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::feeds.feedburner.com
+api_call::android/content/Context;->startService
+url::http://www.facebook.com
+provider::android.appwidget.provider
+api_call::java/net/URL;->openConnection

@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+feature::android.software.live_wallpaper
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

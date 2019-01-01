@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.ToDo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::gmail.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://gmail.com/tasks

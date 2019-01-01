@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.Legal
+activity::.EastCalendar
+intent::android.intent.action.MAIN
+activity::.Holiday
+activity::.Bioclock
+activity::.Happiness
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::nilsbeck.de\
+activity::.Info
+activity::.mensabs
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://nilsbeck.de\
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+activity::.Preferences
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+intent::android.intent.category.LAUNCHER

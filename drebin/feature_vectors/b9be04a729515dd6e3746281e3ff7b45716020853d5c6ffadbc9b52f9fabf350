@@ -1,0 +1,15 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+activity::.AddUpdateQuickTaskSettingActivity
+intent::android.intent.action.SEARCH_LONG_PRESS
+intent::android.intent.action.MAIN
+intent::android.intent.action.CREATE_SHORTCUT
+activity::.MainActivity
+real_permission::android.permission.GET_TASKS
+intent::android.intent.category.DEFAULT
+activity::.QuickTaskSettingsActivity
+api_call::android/app/ActivityManager;->getRecentTasks
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.ShowQuickTaskSettingActivity
+call::getSystemService

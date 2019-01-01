@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.NewPlayerMenu
+activity::.RootActivity
+url::users.metropolia.fi
+url::http://users.metropolia.fi/
+activity::.HighScoreMenu
+real_permission::android.permission.INTERNET
+activity::.MultiChoiceMenu
+intent::android.intent.category.LAUNCHER

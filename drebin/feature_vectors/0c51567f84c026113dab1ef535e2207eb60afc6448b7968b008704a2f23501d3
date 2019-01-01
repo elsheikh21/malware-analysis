@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://mail2test.dyndns.org:8880/srch.aspx?srch%3D
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::mail2test.dyndns.org
+intent::android.intent.category.LAUNCHER
+call::getSystemService

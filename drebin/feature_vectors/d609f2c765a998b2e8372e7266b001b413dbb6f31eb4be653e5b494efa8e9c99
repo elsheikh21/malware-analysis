@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+service_receiver::IncCallReceiver
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+intent::android.intent.action.BOOT_COMPLETED
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+service_receiver::NotificationAfterRebootReceiver
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::AddActivity
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.PHONE_STATE
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

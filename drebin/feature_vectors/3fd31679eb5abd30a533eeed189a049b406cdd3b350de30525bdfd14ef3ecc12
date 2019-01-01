@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.dha3eefar
+activity::.aboutar
+activity::.duaa
+url::www.smartsofts.com
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::duaa.intent.action.Launch
+url::http://www.smartsofts.com/ss/?p%3D12

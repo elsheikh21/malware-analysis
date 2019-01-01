@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+intent::com.cootek.smartinput.intent.category.LANGUAGE
+intent::com.cootek.smartinput.intent.action.PLUGIN

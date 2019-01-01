@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::market.android.com
+url::http://market.android.com/
+activity::.BiliRisk
+intent::android.intent.category.LAUNCHER

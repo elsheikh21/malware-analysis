@@ -1,0 +1,17 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+activity::.Types
+activity::.Help
+activity::.ScoresMenu
+call::printStackTrace
+activity::.Stats
+real_permission::android.permission.INTERNET
+activity::.SplashScreen
+activity::.MyListing
+activity::.MySheet
+intent::android.intent.category.LAUNCHER
+activity::.Millionaire
+activity::.Readings
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+call::getSystemService

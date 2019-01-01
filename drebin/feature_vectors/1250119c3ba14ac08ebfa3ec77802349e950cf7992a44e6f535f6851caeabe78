@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+api_call::android/net/wifi/WifiManager$WifiLock;->acquire
+real_permission::android.permission.WAKE_LOCK
+url::www.drakaz.com
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.drakaz.com/FILES/UPDATER/updater
+call::Execution of external commands
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://www.drakaz.com/forum/viewtopic.php?pid%3D3977

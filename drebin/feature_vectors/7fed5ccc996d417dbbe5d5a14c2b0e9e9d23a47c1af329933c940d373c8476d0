@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.FingerPaint
+activity::.Accel_five
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.AlarmAlert
+service_receiver::.CallAlarm
+real_permission::android.permission.INTERNET
+activity::.home
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+activity::.ManicAlarm
+api_call::android/app/Activity;->setContentView
+call::getSystemService
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::FortuneWidget
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::fortune.andreaolivato.net
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://fortune.andreaolivato.net/
+provider::android.appwidget.provider

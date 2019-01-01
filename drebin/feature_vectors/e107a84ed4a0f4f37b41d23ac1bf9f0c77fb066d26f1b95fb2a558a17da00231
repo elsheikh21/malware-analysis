@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://rimis.rijeka.hr/webcam/webcam3/trsat-vga.jpg
+url::http://rimis.rijeka.hr/webcam/Mobotix/transadria-vga.jpg
+url::http://rimis.rijeka.hr/webcam/Mobotix/kozala-vga.jpg
+url::http://rimis.rijeka.hr/webcam/webcam2/2.jpg
+url::http://rimis.rijeka.hr/webcam/Mobotix/lukobran-vga.jpg
+permission::android.permission.INTERNET
+activity::.TutMenu
+intent::android.intent.category.LAUNCHER
+activity::.ImageExampleXML
+real_permission::android.permission.INTERNET
+url::http://rimis.rijeka.hr/webcam/webcam4/korzo2-vga.jpg
+api_call::java/net/URL;->getContent
+url::http://rimis.rijeka.hr/webcam/Mobotix/trznica-vga.jpg
+url::rimis.rijeka.hr

@@ -1,0 +1,37 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://10.0.1.5/
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+feature::android.hardware.bluetooth
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+url::10.0.1.5
+call::getPackageInfo
+activity::.NoGravityActivity
+api_call::android/bluetooth/BluetoothAdapter;->isEnabled
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.BLUETOOTH
+permission::android.permission.BLUETOOTH
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::www.nogravitythegame.com
+call::Execution of external commands
+url::http://www.nogravitythegame.com/android/SKU12_134.zip
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.sensor.accelerometer
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::NoGravityActivity
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+permission::android.permission.BLUETOOTH_ADMIN

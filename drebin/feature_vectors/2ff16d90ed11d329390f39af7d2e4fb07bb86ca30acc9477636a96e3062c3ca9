@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+service_receiver::.widget.FeedAppWidgetProvider
+intent::android.intent.action.MAIN
+url::http://www.futureplatforms.com
+api_call::android/media/MediaPlayer;->start
+service_receiver::.widget.AudioService
+intent::android.intent.category.LAUNCHER
+url::www.futureplatforms.com
+activity::.OTAHoldingScreen
+provider::android.appwidget.provider
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.SplashActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::SplashActivity
+activity::com.attorneyproz.paulmarkoff.DashBoardActivity
+activity::WebActivity
+call::getSystemService

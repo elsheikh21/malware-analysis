@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+url::http://www.?.org
+permission::com.jonasl.afilebrowser2.MusicService
+url::www.
+service_receiver::MusicService
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.BLUETOOTH
+intent::android.intent.action.GET_CONTENT
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.OPENABLE
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.FilePickerActivity
+feature::android.hardware.bluetooth
+intent::android.intent.category.LAUNCHER

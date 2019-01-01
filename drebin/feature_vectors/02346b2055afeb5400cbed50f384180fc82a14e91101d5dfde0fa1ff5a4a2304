@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.net.vpn.SETTINGS
+call::Obfuscation(Base64)
+activity::.QuickVpn
+intent::android.intent.category.DEFAULT
+call::Cipher(DESede)
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+activity::QuickVpn

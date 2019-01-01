@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::http://www.netmite.com/android/srv/1.6/upload/charlies-angels-352x416.jad
+intent::android.intent.action.MAIN
+url::www.google.com
+url::http://www.google.com
+activity::.CGame
+url::http://advert.elomcp.de/campaign?aid%3D
+url::advert.elomcp.de
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+url::http://www.netmite.com/android/andme_signed.apk
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.ALTERNATIVE

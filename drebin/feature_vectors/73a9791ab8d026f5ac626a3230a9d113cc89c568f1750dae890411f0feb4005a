@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::com.flipo.gregory.ArenaNetBlogReader.intent.ACTION_DOWN
+service_receiver::ArenaNetBlogReader
+activity::Config
+call::printStackTrace
+intent::com.flipo.gregory.ArenaNetBlogReader.intent.ACTION_UP
+url::http://www.arena.net/blog/feed
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+service_receiver::.ConfigService
+provider::android.appwidget.provider
+url::www.arena.net

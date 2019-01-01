@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::com.signals23.clear.Theme
+intent::android.intent.action.MAIN

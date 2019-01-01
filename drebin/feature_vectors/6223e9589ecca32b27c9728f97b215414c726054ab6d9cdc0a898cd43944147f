@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Startup
+api_call::android/accounts/AccountManager;->getAccounts
+activity::.room_loc
+real_permission::android.permission.GET_ACCOUNTS
+permission::android.permission.GET_ACCOUNTS
+intent::android.intent.category.LAUNCHER
+activity::.Activity1
+call::getSystemService

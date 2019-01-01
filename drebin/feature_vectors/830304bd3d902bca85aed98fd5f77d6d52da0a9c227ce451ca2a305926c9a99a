@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::pagead2.googlesyndication.com
+api_call::android/webkit/WebView
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.INTERNET
+activity::.Vapp
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/show_mobile_ads.js
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.WAKE_LOCK

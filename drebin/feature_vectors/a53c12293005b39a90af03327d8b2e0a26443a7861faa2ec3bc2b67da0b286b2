@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::m.hledejceny.cz
+url::http://m.hledejceny.cz/?e%3D
+activity::.MainActivity
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+url::http://m.hledejceny.cz/?s%3D

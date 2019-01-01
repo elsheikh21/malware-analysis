@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.WordPopsLite
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://WordPopsChallenge/
+url::http://market.android.com/search?q%3Dpname:com.larvalabs.wordpops
+call::printStackTrace
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+url::WordPopsChallenge
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

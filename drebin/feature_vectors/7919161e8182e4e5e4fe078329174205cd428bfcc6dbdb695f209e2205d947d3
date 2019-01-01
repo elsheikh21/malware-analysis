@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.sisedi.widgets.brightness.EditBrightnessLevels
+real_permission::android.permission.WRITE_SETTINGS
+activity::.EditBrightnessLevels
+activity::com.sisedi.widgets.brightness.brightnessWidgetActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/provider/Settings$System;->putInt
+provider::android.appwidget.provider
+service_receiver::Brightness
+permission::android.permission.WRITE_SETTINGS

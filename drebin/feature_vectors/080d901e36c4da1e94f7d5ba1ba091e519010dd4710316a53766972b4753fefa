@@ -1,0 +1,14 @@
+url::http://www6.welt-trainer.de/paz/app/
+url::http://www6.welt-trainer.de/paz/app/preise.php
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://www6.welt-trainer.de/paz/app/punktestand.php
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www6.welt-trainer.de/paz/app/tabellen.php
+activity::.WMActivity
+intent::android.intent.category.LAUNCHER
+url::www6.welt-trainer.de
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://www6.welt-trainer.de/paz/app/tippen.php

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+intent::android.intent.action.ACTION_SEND
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.AforexSplash

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.AppHuActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.apphu.com
+activity::.ShowChapterDetails
+permission::android.permission.INTERNET
+url::http://www.apphu.com/do
+activity::.Wallpaper
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

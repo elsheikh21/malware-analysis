@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_LOGS
+activity::.StartupActivity
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+activity::ru.jabox.android.smsbox.activity.StartupActivity
+call::getPackageInfo
+permission::android.permission.READ_CONTACTS
+api_call::java/net/Socket
+activity::ru.jabox.android.smsbox.activity.SmsboxPreferencesActivity
+permission::android.permission.SEND_SMS
+call::getSystemService
+activity::ru.jabox.android.smsbox.activity.ChooseTemplateActivity
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+feature::android.hardware.telephony
+activity::ru.jabox.android.smsbox.activity.ChooseCategoryActivity
+activity::ru.jabox.android.smsbox.activity.HelpActivity
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::ru.jabox.android.smsbox.activity.SendMessageActivity

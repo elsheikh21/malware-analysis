@@ -1,0 +1,16 @@
+url::http://adfonic.net/ad/
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://adfonic.net
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+url::adfonic.net
+api_call::android/webkit/WebView
+api_call::android/location/LocationManager;->getLastKnownLocation
+activity::.defaultScreen
+real_permission::android.permission.INTERNET
+call::getSystemService

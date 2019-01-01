@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::www.pathology.or.kr
+url::http://www.pathology.or.kr/android/android_board_content.asp
+intent::android.intent.action.MAIN
+activity::.pathology
+url::http://www.pathology.or.kr/android/android_board_list.asp
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www.pathology.or.kr/android/android_login_chk.asp
+url::http://www.pathology.or.kr/android/android_logout.asp
+url::http://www.pathology.or.kr/android/android_sch_list.asp
+call::getSystemService

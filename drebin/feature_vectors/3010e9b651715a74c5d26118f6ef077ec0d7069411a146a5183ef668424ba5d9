@@ -1,0 +1,15 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.MAIN
+service_receiver::com.nullsoft.prostub.service.WinampLicenseCheckService
+call::Obfuscation(Base64)
+activity::.ProStubActivity
+feature::android.hardware.screen.portrait
+api_call::android/app/ActivityManager;->getRunningTasks
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+permission::com.android.vending.CHECK_LICENSE
+call::getPackageInfo
+api_call::android/content/Context;->sendBroadcast
+call::getSystemService

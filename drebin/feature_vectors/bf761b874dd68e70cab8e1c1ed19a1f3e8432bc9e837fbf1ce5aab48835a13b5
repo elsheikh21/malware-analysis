@@ -1,0 +1,26 @@
+url::http://github.com/droidfu/schema
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/content/ContextWrapper;->startService
+api_call::java/net/HttpURLConnection
+intent::android.intent.action.SEARCH
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+permission::android.permission.DELETE_CACHE_FILES
+service_receiver::ConnectionService
+api_call::android/media/MediaPlayer;->start
+service_receiver::EpisodesService
+url::github.com
+call::getSystemService
+service_receiver::MediaPlaybackService
+intent::android.intent.category.DEFAULT
+permission::android.permission.WAKE_LOCK
+service_receiver::DownloadService
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

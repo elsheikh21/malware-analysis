@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.Help
+activity::.About
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+activity::Search Results
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+intent::android.intent.action.MAIN
+activity::ccPreferences
+real_permission::android.permission.INTERNET
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService

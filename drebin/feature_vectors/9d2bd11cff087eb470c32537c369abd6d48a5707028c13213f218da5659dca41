@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.AwardScreen
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::java/net/Socket
+activity::.FeedScreen
+activity::.InfoScreen
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+activity::.SponsorScreen
+activity::StartFresh
+service_receiver::WebService
+url::www.reaction-apps.com
+url::http://www.reaction-apps.com/FIRST/FRC/kansasCity/settings.xml
+call::Execution of external commands
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.StartFresh
+activity::.AboutScreen
+activity::.ScheduleScreen

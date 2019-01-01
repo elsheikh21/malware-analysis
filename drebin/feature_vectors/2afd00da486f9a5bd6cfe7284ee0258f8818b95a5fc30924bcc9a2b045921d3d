@@ -1,0 +1,176 @@
+url::apps.facebook.com%
+url::www.colorizewidget.com
+activity::com.snowbee.colorize.Colorize
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::Colorize - Agenda
+real_permission::android.permission.GET_ACCOUNTS
+url::http://text.readitlaterlist.com/
+activity::.Twitter.ConfigurationActivity
+activity::.Calendar.AgendaView
+url::http://www.google.com/reader/api/0/
+activity::.TimeLine.TimeLinePost
+call::HttpPost
+activity::.Contact.ConfigurationActivity
+permission::android.permission.READ_EXTERNAL_STORAGE
+service_receiver::Colorize Facebook
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+service_receiver::Colorize - Calendar
+activity::.Twitter.TwitterPost
+api_call::android/accounts/AccountManager;->getAccounts
+activity::.Facebook.FacebookLogin
+activity::.Bm.ConfigurationActivity
+url::https://www.google.com/reader/
+activity::.Twitter.TwitterLogin
+url::http://text.readitlaterlist.com/v2/
+activity::.Calendar.ConfigurationActivity
+call::getSystemService
+url::http://twitpic.com/show/thumb/
+activity::.GReader.GReaderSubScription
+url::https://www.google.com/reader/api/0/
+url::http://mobile.twitter.com/
+activity::.Twitter.TwitterMessageView
+permission::android.permission.READ_PHONE_STATE
+intent::com.xtralogic.logcollector.intent.action.SEND_LOG
+activity::.Facebook.FacebookViewPopup
+url::https://www.google.com/reader/api/0/disable-tag
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+url::http://www.colorizewidget.com/proversion/buynow
+service_receiver::Colorize - Messages
+activity::.Colorize
+real_permission::android.permission.READ_LOGS
+activity::.GReader.GReaderView
+activity::.Facebook.FacebookMenu
+url::https://m.facebook.com/dialog/
+api_call::android/app/Activity;->startActivity
+api_call::java/net/HttpURLConnection
+permission::android.permission.READ_LOGS
+activity::.Twitter.TwitterView
+activity::.GReader.GReaderMenu
+real_permission::android.permission.USE_CREDENTIALS
+permission::android.permission.INTERNET
+call::getPackageInfo
+url::http://schemas.android.com/apk/res/android
+url::http://Unlock
+permission::android.permission.READ_SETTINGS
+url::https://www.google.com/reader/api/0/tag/edit
+url::api.twitter.com
+activity::.Message.MessageMenu
+service_receiver::Colorize - TimeLine
+service_receiver::Colorize - Twitter
+permission::android.permission.WRITE_SMS
+url::https://www.google.com/reader/api/0/subscription/list?output%3Djson
+real_permission::android.permission.INTERNET
+url::api.facebook.com
+url::http://www.colorizewidget.com/payment/verify.php?code%3D
+intent::android.intent.action.DATA_SMS_RECEIVED
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+provider::com.snowbee.colorize.TimeLine.provider
+real_permission::android.permission.READ_PHONE_STATE
+url::http://www.google.com/reader/api/0/token
+activity::.Facebook.ConfigurationActivity
+provider::com.snowbee.colorize.GReader.provider
+activity::.GReader.ConfigurationActivity
+url::http://touch.facebook.com/
+url::developers.facebook.com
+activity::DialogSeekBarPreference
+intent::android.intent.category.LAUNCHER
+url::https://www.google.com/reader/api/0/tag/list
+api_call::android/accounts/AccountManager;->getAuthToken
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.Calendar.CalendarMenu
+url::http://www.google.com/reader/api/0/user-info
+url::Unlock
+service_receiver::Colorize GReader
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.TimeLine.Menu
+permission::android.permission.RECEIVE_SMS
+url::https://www.google.com/accounts/ClientLogin
+activity::.Facebook.FacebookView
+real_permission::android.permission.READ_CONTACTS
+url::https://www.google.com/reader/api/0/subscription/edit
+activity::.Contact.ContactMenu
+url::twitpic.com
+activity::.Facebook.FacebookPost
+service_receiver::Colorize - Contacts
+url::http://www.colorizewidget.com/payment/trial.php?device%3D
+intent::android.intent.action.PACKAGE_REPLACED
+call::printStackTrace
+url::http://apps.facebook.com%
+api_call::java/lang/Runtime;->exec
+intent::android.intent.category.DEFAULT
+url::http://developers.facebook.com/docs/reference/rest/
+url::https://api.facebook.com/restserver.php
+url::https://api.twitter.com/oauth/access_token
+service_receiver::Colorize - Facebook
+url::text.readitlaterlist.com
+service_receiver::Colorize Twitter
+activity::.TimeLine.ConfigurationActivity
+provider::android.provider.Telephony.SMS_RECEIVED
+url::yfrog.com
+activity::.Twitter.TwitterViewPopup
+url::http://api.twitter.com/1/
+call::Execution of external commands
+activity::.GReader.GReaderLogin
+activity::ShareThemeActivity
+call::Obfuscation(Base64)
+intent::android.intent.category.BROWSABLE
+url::https://api.facebook.com/method/fql.query
+service_receiver::Colorize Message
+api_call::android/app/NotificationManager;->notify
+provider::com.snowbee.colorize.Contact.provider
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Message.ConfigurationActivity
+service_receiver::Colorize Bookmark
+url::http://yfrog.com/
+url::graph.facebook.com
+permission::android.permission.READ_CALENDAR
+url::http://touch.facebook.com/profile.php?id%3D
+url::https://www.google.com/reader/atom
+url::schemas.android.com
+url::m.facebook.com
+provider::com.snowbee.colorize.Facebook.provider
+service_receiver::Colorize - Google Reader
+activity::.Facebook.FacebookPhotoAlbumViewer
+activity::ActionInstalledApplications
+provider::com.snowbee.colorize.Message.provider
+activity::.Agenda.ConfigurationActivity
+activity::VerifyActivity
+service_receiver::Colorize Calendar
+service_receiver::Colorize TimeLine
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_CONTACTS
+url::https://www.google.com/reader/api/0/rename-tag
+url::www.google.com
+url::https://api.twitter.com/oauth/authorize
+url::https://www.google.com/reader/api/0/stream/contents/
+url::mobile.twitter.com
+provider::com.snowbee.colorize.Bookmark.provider
+real_permission::android.permission.VIBRATE
+provider::com.snowbee.colorize.Twitter.provider
+service_receiver::Colorize - Bookmarks
+permission::android.permission.VIBRATE
+activity::AdvancedThemeConfigurationActivity
+url::https://api.twitter.com/oauth/request_token
+url::http://www.youtube.com
+url::https://www.google.com/reader/api/0/unread-count?allcomments%3Dtrue&output%3Djson
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::getDeviceId
+url::https://www.google.com/reader/api/0/stream/contents
+feature::android.hardware.telephony
+permission::android.permission.USE_CREDENTIALS
+activity::.Facebook.FacebookPhotoViewer
+url::touch.facebook.com
+activity::.Twitter.TwitterMenu
+permission::android.permission.READ_SMS
+url::http://graph.facebook.com/
+intent::android.intent.action.MAIN
+permission::android.permission.GET_ACCOUNTS
+activity::.Bm.BookmarkMenu
+url::www.youtube.com
+provider::com.snowbee.colorize.Calendar.provider
+url::http://www.google.com/reader/
+url::https://graph.facebook.com/
+provider::android.appwidget.provider

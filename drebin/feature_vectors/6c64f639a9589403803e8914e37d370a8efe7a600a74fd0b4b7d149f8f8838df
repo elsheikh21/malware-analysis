@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.WRITE_OWNER_DATA
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+api_call::android/location/LocationManager;->addGpsStatusListener
+feature::android.hardware.location.gps
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+activity::.Runcat
+call::getSystemService
+call::Obfuscation(Base64)
+url::http://runcat.argosengine.com/xmlrpc/server.php
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+url::runcat.argosengine.com

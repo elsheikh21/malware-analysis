@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::api.libiri.com
+call::getPackageInfo
+call::HttpPost
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+url::https://data.flurry.com/aar.do
+url::http://api.libiri.com/get_native_url.php?platform%3Dandroid&comic%3D
+url::data.flurry.com
+activity::.ComicViewer
+url::http://data.flurry.com/aar.do
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

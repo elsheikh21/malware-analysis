@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+activity::.MainApp
+url::http://tva.canoe.ca/peutcontenirdesrachid/heap/json/media/search?parameters%3D
+call::printStackTrace
+url::tva.canoe.ca
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.Mixeur
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

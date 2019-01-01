@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+api_call::android/content/Context;->startActivity
+url::https://market.android.com/search?q%3Dpname:com.bork.dsp.datuner_donate
+activity::KnobActivity
+activity::org.acra.CrashReportDialog
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+call::getPackageInfo
+activity::.DaTunaTuner
+activity::ConfigView
+permission::android.permission.RECORD_AUDIO

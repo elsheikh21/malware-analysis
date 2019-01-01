@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://footyladder.lohse.com.au/footyladder/?code%3D
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+service_receiver::FootyLadderNRLAusProvider
+url::http://footyladder.lohse.com.au/footyladder/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+service_receiver::FootyLadderNRLAusService
+url::footyladder.lohse.com.au
+call::getPackageInfo
+provider::android.appwidget.provider
+call::getSystemService

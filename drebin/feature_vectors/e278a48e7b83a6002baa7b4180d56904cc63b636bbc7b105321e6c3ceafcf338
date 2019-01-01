@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://checkiday.com/api.php?day%3D
+intent::android.intent.action.MAIN
+activity::.main
+permission::android.permission.INTERNET
+url::checkiday.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

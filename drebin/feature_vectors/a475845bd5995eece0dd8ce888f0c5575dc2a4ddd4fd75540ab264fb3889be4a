@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.Viewer2
+activity::.About
+activity::.SizeCallBack
+activity::.AnimationCallBack
+activity::.Animation
+activity::.Viewer
+activity::.FrontPage
+activity::.MyListView
+activity::.AndroidBigImageView
+intent::android.intent.category.LAUNCHER
+activity::.Answer
+intent::android.intent.action.MAIN
+activity::.Data2
+activity::.Data
+activity::.Best5

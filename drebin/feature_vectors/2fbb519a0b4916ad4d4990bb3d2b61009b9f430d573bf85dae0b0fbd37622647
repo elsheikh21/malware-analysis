@@ -1,0 +1,16 @@
+url::twitter.com
+feature::android.hardware.touchscreen
+url::m.facebook.com
+intent::android.intent.action.MAIN
+url::www.youngpeopleoftheyear.org
+url::http://www.youngpeopleoftheyear.org/forum/
+url::www.youtube.com
+permission::android.permission.INTERNET
+activity::.yopey
+api_call::android/webkit/WebView
+url::http://www.youngpeopleoftheyear.org/index.php?android%3D1
+intent::android.intent.category.LAUNCHER
+url::http://m.facebook.com/YOPEY?refid%3D0
+url::http://twitter.com/yopey2011
+real_permission::android.permission.INTERNET
+url::http://www.youtube.com/yopeyyt

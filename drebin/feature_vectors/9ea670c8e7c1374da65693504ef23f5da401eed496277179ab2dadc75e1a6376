@@ -1,0 +1,21 @@
+service_receiver::.WalletWidgetProvider
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::pastebin.com
+call::getSystemService
+url::http://pastebin.com/raw.php?i%3D
+url::http://bitcoincharts.com/t/weighted_prices.json
+activity::.WalletActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::bitcoincharts.com
+activity::.TransactionsActivity
+intent::android.intent.category.LAUNCHER
+url::http://blockexplorer.com/q/mytransactions/
+url::http://code.google.com/p/bitcoinwallet/wiki/Using
+url::blockexplorer.com
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+url::code.google.com

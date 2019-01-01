@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::tunnybrowser.permission.Theme
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+intent::android.intent.category.INFO

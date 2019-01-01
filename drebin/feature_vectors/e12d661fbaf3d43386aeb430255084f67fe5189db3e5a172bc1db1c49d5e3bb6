@@ -1,0 +1,16 @@
+activity::Graylog : About
+activity::.view.CategoriesActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+activity::.LoginActivity
+activity::.view.InspectActivity
+activity::.view.MessagesActivity
+permission::android.permission.INTERNET
+activity::.view.DashboardActivity
+intent::android.intent.category.LAUNCHER
+activity::.view.SettingsActivity
+real_permission::android.permission.INTERNET
+activity::.view.LoginActivity
+activity::Graylog : Filter

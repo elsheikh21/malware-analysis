@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://app.monenow.com/a/sync.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::app.monenow.com
+real_permission::android.permission.INTERNET
+activity::.SAISKBrowser
+url::qasaisk.appspot.com
+url::http://qasaisk.appspot.com/sync_1.html
+url::http://app.monenow.com/a/
+call::getSystemService
+intent::android.intent.category.LAUNCHER

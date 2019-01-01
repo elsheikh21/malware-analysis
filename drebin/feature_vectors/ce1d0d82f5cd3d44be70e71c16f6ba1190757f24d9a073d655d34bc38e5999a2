@@ -1,0 +1,5 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+activity::.main
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT

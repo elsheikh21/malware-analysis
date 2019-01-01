@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CALENDAR
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.DISABLE_KEYGUARD
+intent::android.intent.category.LAUNCHER
+activity::.Clockoid
+real_permission::android.permission.READ_CONTACTS
+activity::.ClockoidPreference
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

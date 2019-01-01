@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.png
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.Wandroid

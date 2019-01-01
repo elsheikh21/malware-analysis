@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::preferences
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::help
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Sudoku
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

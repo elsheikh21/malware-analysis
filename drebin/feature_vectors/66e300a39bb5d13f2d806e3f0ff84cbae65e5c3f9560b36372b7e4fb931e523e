@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::OneShotAlarm
+activity::.MyDaysRemaining
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+call::getSystemService

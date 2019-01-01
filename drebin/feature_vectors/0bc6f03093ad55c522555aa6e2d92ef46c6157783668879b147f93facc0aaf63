@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.imediabank.com
+intent::android.intent.category.LAUNCHER
+activity::.ghostdetector
+call::getPackageInfo
+url::http://www.imediabank.com

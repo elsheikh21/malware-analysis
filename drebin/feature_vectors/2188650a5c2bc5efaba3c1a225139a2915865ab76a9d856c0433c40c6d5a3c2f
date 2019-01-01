@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+activity::.RTSHMain
+activity::com.chrisdavaz.rtsh.RTSHMain

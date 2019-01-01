@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::www.rumblex.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Startup
+call::HttpPost
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::java/net/HttpURLConnection
+url::http://www.rumblex.com/rxapi.php
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

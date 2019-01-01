@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::Read/Write External Storage
+call::getSystemService

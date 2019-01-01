@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.RadiologySpectra
+url::www.achartengine.org
+intent::android.intent.category.LAUNCHER
+url::http://www.achartengine.org/)
+call::getPackageInfo

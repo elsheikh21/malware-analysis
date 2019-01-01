@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.sensor.accelerometer
+activity::.TF2MeleeSounds
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

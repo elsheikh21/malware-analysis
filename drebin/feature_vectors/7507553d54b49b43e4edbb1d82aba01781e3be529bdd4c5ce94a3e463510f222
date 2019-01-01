@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.DownloadChooser
+call::getPackageInfo
+activity::.NYCSubwayMap
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.action.CREATE_SHORTCUT
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/webkit/WebView
+call::Obfuscation(Base64)
+activity::.NycTransitPrefs
+intent::android.intent.category.DEFAULT
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/os/PowerManager$WakeLock;->release
+real_permission::android.permission.INTERNET
+activity:::remote
+intent::android.intent.category.LAUNCHER
+service_receiver::.NytmDownloadService

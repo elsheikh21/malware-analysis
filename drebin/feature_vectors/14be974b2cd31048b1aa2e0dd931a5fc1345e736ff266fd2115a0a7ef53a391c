@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::despicable.me
+activity::.Trailers
+intent::android.intent.action.MAIN
+activity::.SplashPage
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+url::http://despicable.me/imoo/moodroid/trailer4.mp4
+url::http://despicable.me/imoo/moodroid/trailer3.mp4
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.IntroVideo
+url::http://despicable.me/imoo/moodroid/trailer2.mp4
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.Synopsis
+intent::android.intent.category.DEFAULT
+activity::.RingtoneDownload
+real_permission::android.permission.WAKE_LOCK

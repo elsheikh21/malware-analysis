@@ -1,0 +1,59 @@
+feature::android.hardware.touchscreen
+url::http://rest.tonlist.is/Auth/LoginIdent.svc/json/GetHash
+url::http://rest.tonlist.is/TouchFeed.ashx?type%3Dplaylists&hash%3D
+activity::Your playlists
+permission::android.permission.INTERNET
+intent::android.net.wifi.supplicant.CONNECTION_CHANGE
+activity::Popular songs
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.SEARCH
+real_permission::android.permission.WAKE_LOCK
+url::http://rest.tonlist.is/Auth/LoginIdent.svc/json/Login?userName%3D
+activity::Player
+activity::.Dispatcher
+real_permission::android.permission.INTERNET
+call::HttpPost
+api_call::android/net/wifi/WifiManager$WifiLock;->acquire
+url::http://rest.tonlist.is/
+activity::.LoginScreen
+url::sites.google.com
+permission::android.permission.ACCESS_WIFI_STATE
+call::printStackTrace
+intent::android.net.wifi.STATE_CHANGE
+permission::android.permission.READ_PHONE_STATE
+url::www.tonlist.is
+activity::Album songs
+url::http://rest.tonlist.is/Auth/LoginIdent.svc/json/AccountType?hash%3D
+intent::android.net.wifi.WIFI_STATE_CHANGED
+url::http://rest.tonlist.is/Auth/LoginIdent.svc/json/GetErrorsList?hash%3D
+api_call::android/telephony/TelephonyManager;->listen
+activity::Settings
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://sites.google.com/site/gson/gson-user-guide
+activity::Songs in playlist
+api_call::java/net/URL;->getContent
+activity::Search
+url::http://search.tonlist.is/V1/Search.svc/json/AuthorAdvanced?search%3D
+real_permission::android.permission.VIBRATE
+activity::Albums by artist
+url::search.tonlist.is
+real_permission::android.permission.READ_PHONE_STATE
+url::rest.tonlist.is
+url::http://www.tonlist.is/Registration.aspx\
+activity::New albums
+url::http://rest.tonlist.is/TouchFeed.ashx?type%3Dpopular&hash%3D
+permission::android.permission.WAKE_LOCK
+url::http://rest.tonlist.is/Auth/LoginIdent.svc/json/HasUpdate?hash%3D
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+service_receiver::com.d3.tonlist.Utils.ConnectivityListener
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://rest.tonlist.is/TouchFeed.ashx?type%3Dauthor_albums&authorid%3D
+feature::android.hardware.screen.portrait
+activity::.MenuScreen
+intent::android.intent.category.LAUNCHER
+url::http://rest.tonlist.is/Auth/LoginIdent.svc/json/IsLoggedIn?hash%3D
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+url::http://rest.tonlist.is/TouchFeed.ashx?type%3Dnew&hash%3D
+url::http://rest.tonlist.is/Auth/LoginIdent.svc/json/LogOut?hash%3D

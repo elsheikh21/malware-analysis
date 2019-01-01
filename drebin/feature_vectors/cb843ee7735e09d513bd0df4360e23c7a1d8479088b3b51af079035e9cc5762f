@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::m.mail.live.com
+url::http://m.mail.live.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.mobile.live.com
+url::http://www.mobile.live.com
+activity::.hotmail
+intent::android.intent.category.LAUNCHER

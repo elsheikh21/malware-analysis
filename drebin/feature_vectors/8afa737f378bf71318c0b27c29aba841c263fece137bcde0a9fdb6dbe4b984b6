@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+url::www.yahoo.com
+activity::.HelloTabWidget
+permission::android.permission.INTERNET
+url::http://www.questionmark.com/go/iphone/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::www.questionmark.com
+url::http://www.yahoo.com/

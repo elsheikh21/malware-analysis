@@ -1,0 +1,11 @@
+url::www.newtec.eu\%27>www.newtec.eu<
+feature::android.hardware.touchscreen
+activity::.FormsTabWidget
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.newtec.eu\%27>www.newtec.eu</a></h4>
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getSystemService

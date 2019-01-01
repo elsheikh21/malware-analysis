@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::Login
+call::Obfuscation(Base64)
+activity::Braindump
+permission::android.permission.INTERNET
+url::hiveminder.com
+intent::android.intent.category.DEFAULT
+url::http://hiveminder.com/
+intent::android.intent.category.LAUNCHER
+url::https://hiveminder.com/
+real_permission::android.permission.INTERNET
+activity::.Braindump
+call::HttpPost

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://www.droidgenerator.com
+url::http://www.blackpadberry.com/android/androidnews16/page3.php\
+intent::android.intent.action.MAIN
+url::http://www.blackpadberry.com/android/androidnews16/page2.php\
+url::www.blackpadberry.com
+permission::android.permission.INTERNET
+activity::.Activity1
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www.blackpadberry.com/android/androidnews16/page1.php\
+real_permission::android.permission.INTERNET
+url::www.droidgenerator.com

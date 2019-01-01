@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.WRITE_SETTINGS
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::getPackageInfo
+call::HttpPost
+api_call::android/location/LocationManager;->requestLocationUpdates
+permission::android.permission.ACCESS_WIFI_STATE
+activity::.ToolMainPage
+api_call::android/content/Context;->startActivity
+url::notamweb.aviation-civile.gouv.fr
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.CHANGE_WIFI_STATE
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://notamweb.aviation-civile.gouv.fr/Script/IHM/Bul_Aerodrome.php?Langue%3DEN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

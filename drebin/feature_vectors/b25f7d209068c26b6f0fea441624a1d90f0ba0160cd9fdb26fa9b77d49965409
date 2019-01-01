@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::FairyRanch
+intent::android.intent.action.MAIN
+activity::.MainApp
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

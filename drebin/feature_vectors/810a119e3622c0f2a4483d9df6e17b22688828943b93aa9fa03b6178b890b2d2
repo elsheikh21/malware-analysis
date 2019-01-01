@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://wap.sjxyx.com
+url::http://www.netmite.com/android/srv/2.0/upload/861962238918.jar
+url::http://www.netmite.com/android/andme_signed.apk
+url::wap.sjxyx.com
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.CMIDlet
+url::10.0.0.172

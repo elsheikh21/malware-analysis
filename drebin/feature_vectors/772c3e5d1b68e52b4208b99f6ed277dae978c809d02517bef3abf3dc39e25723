@@ -1,0 +1,34 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+call::printStackTrace
+activity::Breast Feeding Statistics
+activity::.Main
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+call::Read/Write External Storage
+activity::Breast Feeding Tabulator - Free Edition
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+url::www.ccwilcox.com
+url::http://mm.admob.com/static/android/canvas.html
+url::http://mm.admob.com/static/android/i18n/20100820
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+api_call::android/content/Context;->startActivity
+url::http://a.admob.com/f0?
+activity::New Feeding Group
+url::r.admob.com
+call::getSystemService
+activity::Settings
+url::mm.admob.com
+permission::android.permission.CAMERA
+url::api.admob.com
+url::a.admob.com
+url::http://www.ccwilcox.com/bft/instructions.html
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::schemas.android.com

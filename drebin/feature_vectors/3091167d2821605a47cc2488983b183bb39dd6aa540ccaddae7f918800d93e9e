@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+url::http://webservice.eurogamer.net/gi/content_list_articles/?auth%3D
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::HttpPost
+url::http://webservice.eurogamer.net/gi/content_article_comments/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://webservice.eurogamer.net/gi/user_signout/?auth%3D
+url::http://webservice.eurogamer.net//gi/content_post_comment/
+call::getSystemService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://webservice.eurogamer.net/gi/user_signin
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://webservice.eurogamer.net/gi/content_article_content/
+url::webservice.eurogamer.net
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

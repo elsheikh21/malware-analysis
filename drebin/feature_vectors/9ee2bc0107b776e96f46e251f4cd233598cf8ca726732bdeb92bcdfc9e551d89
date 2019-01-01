@@ -1,0 +1,16 @@
+url::http://images.ad-maker.info/apps/qwszxmrahkaj.html
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+activity::.TopActivity
+activity::.activity.ResultActivity
+intent::android.intent.category.LAUNCHER
+activity::.activity.TopActivity
+call::getSystemService

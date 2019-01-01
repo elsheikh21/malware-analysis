@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_PHONE_STATE
+service_receiver::.NetworkSwitchAppWidgetProvider
+service_receiver::NetworkStateListeningService
+api_call::android/content/Context;->startService
+activity::.SettingsActivity
+real_permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+call::getSystemService

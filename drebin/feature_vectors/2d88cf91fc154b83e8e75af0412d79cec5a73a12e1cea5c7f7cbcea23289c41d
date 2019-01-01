@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.ACTION_ADD_STOCK
+activity::.ViewStockActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.ACTION_VIEW_STOCK
+activity::.AddStockActivity
+activity::.VirtualStockMarketActivity

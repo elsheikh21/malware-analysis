@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::Stats
+intent::android.intent.action.MAIN
+activity::Wordlist
+feature::android.hardware.screen.portrait
+activity::Learning
+intent::android.intent.category.LAUNCHER
+activity::.I_Speak_GermanActivity

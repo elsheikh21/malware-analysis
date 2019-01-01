@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::mobile.thevictorsreport.com
+url::http://mobile.thevictorsreport.com/about
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.thevictorsreport.com/schedule
+url::http://mobile.thevictorsreport.com/stats
+intent::android.intent.category.LAUNCHER
+activity::The Victors Report
+api_call::android/webkit/WebView
+url::http://mobile.thevictorsreport.com
+url::http://mobile.thevictorsreport.com/roster

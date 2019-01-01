@@ -1,0 +1,12 @@
+activity::StageStartActivity
+intent::android.intent.action.MAIN
+activity::SettingActivity
+api_call::android/media/MediaPlayer;->start
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+activity::.MainActivity
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::TitleActivity
+call::getPackageInfo
+activity::GameOverActivity
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::.ActivityImageProperties
+permission::android.permission.CALL_PHONE
+api_call::android/os/Vibrator;->vibrate
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+activity::.ActivitySelectWidgetType
+api_call::android/content/ContentResolver;->query
+activity::.ActivityQuickStart
+real_permission::android.permission.VIBRATE
+activity::.ActivityApplicationSettings
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.launcher.ActivityLauncherSettings
+feature::android.hardware.telephony
+intent::android.intent.action.VIEW
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+intent::android.intent.action.PICK
+activity::.ActivityButtonSettings
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+provider::android.appwidget.provider
+api_call::android/content/Context;->startActivity

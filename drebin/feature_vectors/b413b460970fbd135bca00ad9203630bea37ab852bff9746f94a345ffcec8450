@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.AnonMailer
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://www.strazzere.com/android/mailer/mailer.php
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.strazzere.com
+api_call::java/net/URL;->openConnection

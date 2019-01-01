@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.HeroStarter
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+feature::android.hardware.telephony
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService

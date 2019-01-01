@@ -1,0 +1,13 @@
+url::mcjava-beta.esignal.com
+feature::android.hardware.touchscreen
+url::qt.esignal.com
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://qt.esignal.com/WPBrokerList.html
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://mcjava-beta.esignal.com/ota/323_test/j2me/jad/quotrek.jad
+url::http://qt.esignal.com/brokerlist.html
+activity::.QuoTrek
+url::www.netmite.com

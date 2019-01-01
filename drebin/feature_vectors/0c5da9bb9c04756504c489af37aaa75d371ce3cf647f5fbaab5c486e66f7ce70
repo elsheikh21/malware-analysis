@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.Main
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+api_call::android/os/Vibrator;->cancel
+call::getSystemService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.RECORD_AUDIO
+permission::com.android.vending.CHECK_LICENSE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.SET_ORIENTATION
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+api_call::android/media/AudioRecord
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+call::getSubscriberId

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://github.com/fujiwara/irubykaigi/raw/master/Project/timetable.json
+real_permission::android.permission.INTERNET
+activity::.CheckedSessionList
+intent::android.intent.category.LAUNCHER
+activity::.SessionList
+url::github.com
+activity::.SessionView
+call::getSystemService

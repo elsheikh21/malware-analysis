@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::http://kdpdev.blogspot.com
+activity::.GreenGameFreeActivity
+url::www.brickshooter.com
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/app/Activity;->setContentView
+url::kdpdev.blogspot.com
+real_permission::android.permission.INTERNET
+url::http://www.brickshooter.com/

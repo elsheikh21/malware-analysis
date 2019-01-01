@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.VideoList
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+intent::android.intent.category.LAUNCHER
+url::http://www.ttdsevaonline.com
+url::www.ttdsevaonline.com
+real_permission::android.permission.WAKE_LOCK

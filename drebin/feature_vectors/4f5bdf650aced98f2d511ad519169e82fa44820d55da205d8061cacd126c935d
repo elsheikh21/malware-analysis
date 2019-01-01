@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+url::www.w3.org
+activity::EfxSettings
+call::printStackTrace
+activity::.GstomperMain
+url::http://www.w3.org/2001/XMLSchema-instance
+call::Read/Write External Storage
+url::http://xml.org/sax/properties/declaration-handler
+url::http://www.w3.org/2000/xmlns/
+url::http://xml.org/sax/features/validation
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::xml.org
+activity::PatternSettings
+url::http://xml.org/sax/features/namespaces
+url::http://www.w3.org/2001/XMLSchema
+call::getSystemService
+url::http://xml.org/sax/features/use-locator2
+feature::android.hardware.screen.landscape
+intent::android.intent.action.MAIN
+url::http://www.w3.org/XML/1998/namespace
+url::http://xml.org/sax/handlers/LexicalHandler
+url::http://xml.org/sax/properties/lexical-handler
+url::http://xml.org/sax/features/string-interning
+intent::android.intent.category.LAUNCHER
+activity::GstomperMain
+activity::PatternSelector
+url::http://xml.org/sax/features/namespace-prefixes

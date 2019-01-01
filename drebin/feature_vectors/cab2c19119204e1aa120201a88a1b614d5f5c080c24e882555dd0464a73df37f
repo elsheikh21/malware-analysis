@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.Dillo
+intent::android.intent.action.MAIN
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.portrait
+call::getSystemService

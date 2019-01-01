@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.RootExplorer
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+call::Execution of external commands
+activity::.PermissionsActivity
+intent::android.intent.category.LAUNCHER

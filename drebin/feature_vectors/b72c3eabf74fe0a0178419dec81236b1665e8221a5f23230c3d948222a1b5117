@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://appslib.com/applications/app.html?ida%3D37410
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+url::appslib.com
+url::market.android.com
+intent::android.intent.action.CREATE_SHORTCUT
+call::getSystemService
+activity::.ui.clipboard.ClipBoardActivity
+url::http://market.android.com/details?id%3Dacc.file.explorer
+url::http://appslib.com/applications/app.html?ida%3D35561
+activity::.FileExplorer
+url::http://openiconlibrary.sourceforge.net/
+url::openiconlibrary.sourceforge.net
+call::Read/Write External Storage
+url::opensourceecm.fr
+url::http://appslib.com/applications/app.html?ida%3D38401
+url::http://market.android.com/details?id%3Datcc.file.explorer
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+url::http://opensourceecm.fr/android-app/File
+api_call::android/app/Activity;->sendBroadcast

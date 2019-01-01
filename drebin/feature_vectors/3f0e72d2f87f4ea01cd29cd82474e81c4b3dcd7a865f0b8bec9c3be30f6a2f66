@@ -1,0 +1,8 @@
+permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+activity::.GetLogsActivity
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER

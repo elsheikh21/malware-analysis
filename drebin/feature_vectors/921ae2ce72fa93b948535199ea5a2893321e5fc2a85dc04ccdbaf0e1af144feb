@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+activity::.SummaryListActivity
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.BOOT_COMPLETED
+call::getPackageInfo
+api_call::android/app/Activity;->setContentView
+activity::.SettingActivity
+service_receiver::.BatteryService
+real_permission::android.permission.VIBRATE
+activity::.InfoActivity
+call::getSystemService
+activity::.DevSettingActivity
+service_receiver::.BootReceiver
+activity::.BatteryListActivity
+call::Read/Write External Storage
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::android.appwidget.provider
+activity::.GraphActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

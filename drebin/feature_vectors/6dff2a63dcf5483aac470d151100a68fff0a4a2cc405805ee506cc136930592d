@@ -1,0 +1,56 @@
+feature::android.hardware.touchscreen
+activity::Map Search Result
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.CALL_PHONE
+activity::.ui.pages.SearchTrafficBusStationInfo
+activity::Traffic SubwayStation Info
+activity::.ui.pages.SearchTrafficBusNoInfo
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+activity::.MapBasicPage
+feature::android.hardware.location
+feature::android.hardware.location.gps
+permission::android.permission.WRITE_CONTACTS
+activity::.ui.pages.SearchTrafficExpressStationInfo
+permission::android.permission.ACCESS_WIFI_STATE
+activity::Option View Mode
+url::cdn.naver.com
+permission::android.permission.ACCESS_COARSE_LOCATION
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::Map Search Main
+activity::Map Bookmark List
+activity::Option Map Info
+activity::NearInfoResult
+api_call::android/location/LocationManager;->getLastKnownLocation
+call::getSystemService
+call::Read/Write External Storage
+activity::Traffic TrainStation Info
+activity::Option Bicycle Legend
+activity::Traffic Search Main
+url::http://unknown.domain/
+permission::android.permission.INTERNET
+real_permission::android.permission.VIBRATE
+feature::android.hardware.telephony
+activity::Map Route Car
+activity::Traffic Search Result
+activity::.ui.pages.NotificationPage
+activity::Map Route Edit
+feature::android.hardware.location.network
+activity::NearInfoList
+activity::.ui.pages.SaveProcessPage
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://cdn.naver.com/naver/android/map/upgrade/info_android.xml
+real_permission::android.permission.INTERNET
+activity::Saved List
+url::unknown.domain
+intent::android.intent.category.LAUNCHER
+activity::Option My Location
+api_call::android/app/NotificationManager;->notify
+api_call::android/content/Context;->startActivity
+activity::.ui.pages.SearchResultDetail

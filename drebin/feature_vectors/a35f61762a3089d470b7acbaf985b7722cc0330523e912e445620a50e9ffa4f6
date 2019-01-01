@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+call::Read/Write External Storage
+feature::android.hardware.microphone
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+activity::.settingsPanel
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.RECORD_AUDIO
+permission::android.permission.CAMERA
+api_call::android/media/MediaRecorder;->setAudioSource
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+activity::.aChalky
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

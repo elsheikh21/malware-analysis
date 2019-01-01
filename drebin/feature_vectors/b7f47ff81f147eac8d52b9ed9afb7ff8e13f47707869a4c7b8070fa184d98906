@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.androidcasestore.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.androidcasestore.com
+activity::.Activity1

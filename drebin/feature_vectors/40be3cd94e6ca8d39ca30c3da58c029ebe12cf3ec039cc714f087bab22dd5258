@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+call::getPackageInfo
+activity::.PhraseTLBigActivity
+real_permission::android.permission.WAKE_LOCK

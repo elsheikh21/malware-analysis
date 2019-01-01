@@ -1,0 +1,13 @@
+activity::.Dutchpay
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::zeropol2.hosting.paran.com
+intent::android.intent.action.inputdialog
+permission::android.permission.INTERNET
+url::http://zeropol2.hosting.paran.com/adsense/adsense.html
+intent::android.intent.category.LAUNCHER
+url::http://zeropol2.hosting.paran.com/adsense/adsense2.html
+real_permission::android.permission.INTERNET
+call::getSystemService
+activity::.inputdialog

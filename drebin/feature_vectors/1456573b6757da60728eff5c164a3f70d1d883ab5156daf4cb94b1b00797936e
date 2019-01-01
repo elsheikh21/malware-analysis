@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+url::http://p400.lan/collect/server.php
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+url::http://www.forumlines.com/help.html
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+url::p400.lan
+call::HttpPost
+url::www.forumlines.com
+activity::.SubforumsView
+call::getSystemService
+call::Obfuscation(Base64)
+url::http://www.forumlines.com/traces/server.php
+service_receiver::.service.ForumService
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.forumlines.com/support_help.html
+real_permission::android.permission.INTERNET
+url::server.forumlines.com
+url::http://server.forumlines.com:8080/forum/servlet/Main
+intent::android.intent.category.LAUNCHER

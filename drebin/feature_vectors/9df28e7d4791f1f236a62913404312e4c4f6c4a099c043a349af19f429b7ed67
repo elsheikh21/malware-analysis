@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::com.onymous.phlashicon.intent.action.GET_CONTENT
+activity::com.onymous.phlashicon.PhlashIconGalleryContentActivity
+api_call::android/content/Context;->startActivity
+url::www.thaicon.thasyndicate.com
+url::http://www.thaicon.thasyndicate.com/donate/
+intent::android.intent.category.DEFAULT
+url::http://thaphlash.com/
+activity::com.onymous.phlashicon.PhlashIconGalleryActivity
+url::thaphlash.com
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::http://www.thaicon.thasyndicate.com/
+activity::.PhlashIconGalleryActivity
+activity::com.onymous.phlashicon.DirectIconAccessActivity
+call::Read/Write External Storage
+call::getSystemService
+activity::.ReadmeActivity

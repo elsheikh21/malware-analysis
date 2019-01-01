@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+feature::android.hardware.microphone
+call::getPackageInfo
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.INTERNET
+call::HttpPost
+real_permission::android.permission.VIBRATE
+url::http://aexceptions.appspot.com/post
+call::getSystemService
+url::aexceptions.appspot.com
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.RECORD_AUDIO
+api_call::android/media/AudioRecord
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.GalaTestActivity
+feature::android.hardware.screen.portrait
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER

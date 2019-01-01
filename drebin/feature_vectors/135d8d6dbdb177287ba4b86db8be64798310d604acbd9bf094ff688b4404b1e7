@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.DEFAULT
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+permission::android.permission.READ_HISTORY_BOOKMARKS
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.CREATE_LIVE_FOLDER
+activity::.LiveBookmarks

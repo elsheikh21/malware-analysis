@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.meteoasciano.it
+activity::.meteoasciano
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.meteoasciano.it/uploads/clientraw.txt
+url::http://www.meteoasciano.it/m/and_pressure.php
+url::http://www.meteoasciano.it/uploads/clientrawextra.txt

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::com.zirak.lite.WarholCamera.Activities.WarholizerActivity
+activity::com.zirak.lite.WarholCamera.Activities.ImageFormatActivity
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+url::http://android.zirak.com
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+activity::com.zirak.lite.WarholCamera.Activities.InitialActivity
+activity::com.zirak.lite.WarholCamera.Activities.InfoActivity
+permission::android.permission.CAMERA
+activity::com.zirak.lite.WarholCamera.Activities.CameraActivity
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+url::android.zirak.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+intent::android.intent.category.LAUNCHER
+activity::.InitialActivity

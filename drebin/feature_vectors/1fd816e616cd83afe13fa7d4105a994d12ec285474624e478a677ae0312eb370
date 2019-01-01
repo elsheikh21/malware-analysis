@@ -1,0 +1,15 @@
+activity::.ui.UpdateActivity
+activity::.ui.ConfigActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.SplashActivity
+api_call::android/content/Context;->startActivity
+call::getSystemService

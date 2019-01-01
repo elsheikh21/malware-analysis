@@ -1,0 +1,64 @@
+feature::android.hardware.touchscreen
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.core.helper.Updater$UpdateService
+activity::.activities.AppListShortcut
+permission::android.permission.READ_PHONE_STATE
+activity::.widget.ConfigActivity
+activity::.Main
+service_receiver::.widget.WidgetProvider3x1$WidgetUpdateService3x1
+intent::android.intent.category.DEFAULT
+service_receiver::.core.traffic.Resetter
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.READ_CONTACTS
+url::http://nitroflash-apps.appspot.com
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::.core.helper.StatusBarWidgetUpdater$StatusBarWidgetUpdateService
+intent::android.intent.action.CREATE_SHORTCUT
+call::printStackTrace
+url::nitroflash-apps.appspot.com
+api_call::android/telephony/TelephonyManager;->getLine1Number
+intent::android.intent.category.HOME
+service_receiver::Main$FirstSyncService
+service_receiver::DroidStats 2x1
+service_receiver::DroidStats 3x1
+real_permission::android.permission.INTERNET
+activity::.activities.LogActivity
+url::bit.ly
+service_receiver::.core.helper.Restarter
+call::getSystemService
+url::http://bit.ly/droidstats-donate
+service_receiver::.widget.WidgetProvider2x1$WidgetUpdateService2x1
+real_permission::android.permission.VIBRATE
+service_receiver::.widget.WidgetProvider$WidgetUpdateService1x1
+intent::android.intent.category.PREFERENCE
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+real_permission::android.permission.BACKUP
+service_receiver::DroidStats 1x1
+service_receiver::.widget.WidgetProvider$WidgetUpdateService1x1_1Slot
+service_receiver::.core.helper.StatusBarWidgetUpdater
+service_receiver::DroidStats 4x1
+api_call::android/content/Context;->sendBroadcast
+url::http://on.fb.me/droidstats-group
+activity::.activities.LogActivityShortcut
+service_receiver::.core.helper.Updater
+api_call::android/app/backup/BackupManager;->dataChanged
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::.core.watcher.CallStateWatcher
+service_receiver::.core.watcher.SmsWatchService
+intent::android.intent.action.PHONE_STATE
+service_receiver::DroidStats BootDetector
+service_receiver::.widget.WidgetProvider4x1$WidgetUpdateService4x1
+activity::.activities.AppList
+feature::android.hardware.screen.portrait
+service_receiver::.core.helper.SmsWatchServiceRestarter
+api_call::java/net/NetworkInterface
+intent::android.intent.category.LAUNCHER
+url::on.fb.me
+service_receiver::.core.traffic.Updater
+provider::android.appwidget.provider
+service_receiver::.core.traffic.CronScheduler

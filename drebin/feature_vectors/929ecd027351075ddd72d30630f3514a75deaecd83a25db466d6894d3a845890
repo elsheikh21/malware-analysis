@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+intent::android.intent.action.MAIN
+activity::.ChatMidlet
+url::airwaychat.com
+url::http://airwaychat.com/wap/en/AirWayChat_MIDP2.jar
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.ALTERNATIVE
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER

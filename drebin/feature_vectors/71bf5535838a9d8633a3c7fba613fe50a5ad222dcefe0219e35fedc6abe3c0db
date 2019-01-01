@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.BacklightOffToggle
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+permission::com.neuron.BacklightOff.CHANGE_BACKLIGHT_STATE
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+activity::.BacklightOff
+service_receiver::.ChangeBacklightReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.BacklightOffBoot

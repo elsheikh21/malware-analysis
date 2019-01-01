@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::https://market.android.com/details?id%3Dcom.dokokano.shotchange
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://bit.ly/shotchange
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+activity::.ShotchanActivity
+intent::android.intent.category.LAUNCHER
+api_call::java/net/ServerSocket
+call::getPackageInfo
+activity::.game.setting.ShotchanPreferenceActivity
+real_permission::android.permission.INTERNET
+url::bit.ly
+real_permission::android.permission.WAKE_LOCK

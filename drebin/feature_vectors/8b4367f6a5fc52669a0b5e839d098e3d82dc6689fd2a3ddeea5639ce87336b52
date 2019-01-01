@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.GoogleTranslate
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+url::http://ajax.googleapis.com/ajax/services/language/translate?v%3D1.0&q%3D

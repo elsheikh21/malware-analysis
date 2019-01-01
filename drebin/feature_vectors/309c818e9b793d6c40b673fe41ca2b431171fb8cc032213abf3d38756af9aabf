@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.DrugListActivity
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::DrugListActivity
+intent::android.intent.category.LAUNCHER
+activity::PreferencesActivity
+real_permission::android.permission.WAKE_LOCK
+activity::.MyCreateAlarm
+call::getSystemService
+activity::.ShowDrugAtTime

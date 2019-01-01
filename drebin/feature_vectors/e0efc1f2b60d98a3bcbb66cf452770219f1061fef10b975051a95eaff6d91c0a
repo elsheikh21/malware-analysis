@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.ScientificCalcLite
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+activity::.Tab4Lite
+activity::.Tab1Lite
+feature::android.hardware.screen.portrait
+activity::.intro.IntroLite
+activity::.Tab3Lite
+activity::.Tab2Lite
+activity::.Tab5Lite
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

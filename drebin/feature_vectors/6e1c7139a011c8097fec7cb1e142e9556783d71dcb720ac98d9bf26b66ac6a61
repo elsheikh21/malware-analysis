@@ -1,0 +1,12 @@
+url::http://apis.daum.net/search/dic/jpdic?q%3D
+feature::android.hardware.touchscreen
+url::http://yomi.harmonicom.jp/yomi.php?ic%3DUTF-8&oc%3DUTF-8&k%3Dh&t%3D
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.KJDictionary
+url::apis.daum.net
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::yomi.harmonicom.jp
+real_permission::android.permission.INTERNET

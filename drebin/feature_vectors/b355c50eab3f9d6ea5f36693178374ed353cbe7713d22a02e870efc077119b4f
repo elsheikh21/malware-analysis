@@ -1,0 +1,14 @@
+feature::android.hardware.location.network
+intent::android.intent.category.EDIT
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.Phrasebooks
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+activity::.SearchScreen
+permission::android.permission.INTERNET
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+intent::android.intent.action.DEFAUT
+activity::.ChooseThemeScreen
+intent::android.intent.category.LAUNCHER
+activity::com.admob.android.ads.AdMobActivity

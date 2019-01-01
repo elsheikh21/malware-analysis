@@ -1,0 +1,14 @@
+url::http://mobileus.naccvp.com/android/cvp/how_to_use.html
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+url::http://mobileus.naccvp.com/api.iphone.php?apikey%3D$$naccvp_mobile_us$$&
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+url::mobileus.naccvp.com
+real_permission::android.permission.INTERNET
+call::getSystemService

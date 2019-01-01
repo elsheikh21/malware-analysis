@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.sbardyuk.com
+url::http://www.google.com
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.google.com
+url::http://www.sbardyuk.com/android/android_devices/main.html

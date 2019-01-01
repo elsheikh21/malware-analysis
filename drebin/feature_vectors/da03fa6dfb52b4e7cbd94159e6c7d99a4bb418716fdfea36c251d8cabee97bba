@@ -1,0 +1,41 @@
+api_call::java/net/HttpURLConnection
+url::twitter.com
+url::https://twitter.com/oauth/authorize
+url::schemas.xmlsoap.org
+url::https://yfrog.com/api/upload
+feature::android.hardware.touchscreen
+url::http://stream.twitter.com/1/
+url::https://twitter.com/oauth/authenticate
+url::search.twitter.com
+url::http://schemas.xmlsoap.org/soap/envelope/\
+url::http://twitter4j.org/
+url::https://twitpic.com/api/upload
+real_permission::android.permission.INTERNET
+url::betastream.twitter.com
+url::twitpic.com
+url::https://twitter.com/oauth/access_token
+url::https://api.twitter.com/1/account/verify_credentials.json
+activity::About Offline Tweet
+url::http://twitter4j.org/en/twitter4j-
+url::https://twitter.com/oauth/request_token
+url::www.cs.caltech.edu
+activity::OAuth Request
+call::getSystemService
+url::yfrog.com
+url::https://api.twitter.com/1/account/verify_credentials.xml?
+url::twitter4j.org
+url::http://api.twitter.com/1/
+permission::android.permission.INTERNET
+url::stream.twitter.com
+url::https://api.twitter.com/1/account/verify_credentials.xml
+url::https://twitpic.com/api/2/upload.json
+url::http://search.twitter.com/
+url::api.twitter.com
+url::http://www.cs.caltech.edu/
+intent::android.intent.action.MAIN
+url::http://schemas.xmlsoap.org/soap/encoding/\
+url::http://api.twitter.com/\
+activity::View/Edit Tweets
+intent::android.intent.category.LAUNCHER
+url::http://betastream.twitter.com/2b/
+activity::.OfflineTweet

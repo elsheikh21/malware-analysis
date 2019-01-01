@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.CinemaAbout
+intent::android.intent.action.MAIN
+intent::android.intent.category.ABOUT
+intent::android.intent.category.DEFAULT
+activity::.Cinema
+activity::.WatchMovie
+activity::.ChooseOrientation
+intent::android.intent.category.LAUNCHER

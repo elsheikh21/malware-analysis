@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.CalcHelp
+activity::.Calculator
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+url::www.calculator-grapher.com
+url::http://www.calculator-grapher.com
+activity::com.calculatorgrapher.a.CalcAbout
+real_permission::android.permission.VIBRATE
+call::getSystemService
+intent::android.intent.category.LAUNCHER

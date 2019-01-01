@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+call::getDeviceId
+intent::android.intent.action.MAIN
+activity::.Prefs
+call::getSystemService
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/hardware/Camera;->open
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.READ_PHONE_STATE
+activity::.FCSScanner
+call::getSubscriberId
+permission::android.permission.CAMERA

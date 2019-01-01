@@ -1,0 +1,16 @@
+url::http://www.netmite.com/android/srv/2.0/upload/hsl_N73.jad
+feature::android.hardware.touchscreen
+url::www.netmite.com
+intent::android.intent.action.MAIN
+url::http://gmp.i139.cn/bizcontrol/ControlVerify
+url::http://10.0.0.172:80
+activity::.MainMIDlet
+url::http://www.lakoo.cn:8081/portal/gameupdata?
+call::printStackTrace
+url::http://www.netmite.com/android/andme_signed.apk
+call::getPackageInfo
+url::gmp.i139.cn
+intent::android.intent.category.LAUNCHER
+url::www.lakoo.cn
+api_call::android/content/Context;->startActivity
+url::10.0.0.172

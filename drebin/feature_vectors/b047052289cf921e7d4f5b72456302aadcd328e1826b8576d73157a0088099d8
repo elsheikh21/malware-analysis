@@ -1,0 +1,5 @@
+activity::aosd.time.man.full.TimeManager
+feature::android.hardware.touchscreen
+activity::.TimeManager
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

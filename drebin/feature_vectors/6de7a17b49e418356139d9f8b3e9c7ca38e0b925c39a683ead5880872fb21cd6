@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+url::http://www.perlesdeprofs.com/apps/android_1.0.php?nbItem%3D3&page%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::www.perlesdeprofs.com
+activity::.PerlesDeProfs

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.hotshops.co.kr
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+activity::.CategoryList
+activity::.PlayView
+url::http://www.hotshops.co.kr/ad/ad_yokCHw.html
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www.hotshops.co.kr/ad/ad.html
+real_permission::android.permission.WAKE_LOCK

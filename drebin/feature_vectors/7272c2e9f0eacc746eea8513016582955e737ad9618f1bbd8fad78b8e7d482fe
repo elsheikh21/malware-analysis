@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+intent::android.intent.category.HOME
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::java/lang/Runtime;->exec
+activity::.PrefsScreen
+activity::org.lsartory.cachecleaner.ng.PrefsScreen
+call::Execution of external commands
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+intent::android.intent.action.BOOT_COMPLETED
+activity::org.lsartory.cachecleaner.ng.ShortcutHandler
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::org.lsartory.cachecleaner.ng.Receiver
+call::getSystemService

@@ -1,0 +1,11 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.alternacomics.com
+url::www.alternacomics.com
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.ComicViewer
+url::www.robotcomics.net
+url::http://www.robotcomics.net

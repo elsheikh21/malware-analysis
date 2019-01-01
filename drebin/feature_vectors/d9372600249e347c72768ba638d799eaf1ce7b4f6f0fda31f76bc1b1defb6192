@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::http://weather.yahooapis.com/forecastrss?p%3D
+service_receiver::.idojarasWidget$UpdateService
+api_call::android/app/NotificationManager;->notify
+url::weather.yahooapis.com
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::printStackTrace
+real_permission::android.permission.VIBRATE
+api_call::java/net/HttpURLConnection
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.ChangePassword
+activity::.About
+activity::.CompartmentList
+call::Obfuscation(Base64)
+call::Cipher(AES)
+activity::.NewSecretBox
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+activity::.CompartmentEditor

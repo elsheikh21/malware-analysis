@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+call::HttpPost
+url::app.lsureveille.com
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+url::http://app.lsureveille.com/articles.json
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+call::getSystemService

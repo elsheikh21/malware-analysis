@@ -1,0 +1,21 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://219.136.248.93:1080/j.p/qudao/go_launcher_ex_388.apk
+intent::android.intent.action.MAIN
+url::219.136.248.93
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+api_call::java/net/HttpURLConnection
+url::http://61.145.124.93/soft/3GHeart/com.gau.go.launcherex.apk
+url::61.145.124.93
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.INTERNET
+intent::android.intent.category.INFO
+call::getSystemService
+service_receiver::com.gau.go.launcherex.theme.island.GoDownloadService

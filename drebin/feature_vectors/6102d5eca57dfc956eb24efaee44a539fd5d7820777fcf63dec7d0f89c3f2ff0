@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::Demo
+intent::android.intent.action.MAIN
+activity::MainMenu
+activity::.MainMenu
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::TabMain
+call::getSystemService

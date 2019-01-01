@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+api_call::java/net/HttpURLConnection
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getDeviceId
+api_call::android/content/Context;->startActivity
+url::http://gw.youmi.net/reqad
+activity::.CrazyEnglishPage
+call::getSystemService
+intent::android.intent.category.myView
+activity::.CrazyEnglish900
+url::down2.uc.cn
+url::gw.youmi.net
+intent::android.intent.category.CrazyEnlish900
+real_permission::android.permission.READ_PHONE_STATE
+url::http://gw.youmi.net/clkad
+intent::android.intent.action.VIEW
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://down2.uc.cn/Down2/zhangxp/youmi.net/UCWEB-7.2.0.46-800-139-10051919.apk
+url::7.2.0.46
+url::schemas.android.com

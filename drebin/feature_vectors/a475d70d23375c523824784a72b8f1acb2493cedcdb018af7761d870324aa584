@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+activity::br.and.rhuan.AndEroticDiceFree.clMain
+activity::.clMain
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

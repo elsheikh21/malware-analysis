@@ -1,0 +1,50 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::.UpdateAction
+url::http://www.google.com/ig/api?weather%3D
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::lock2.wordpress.com
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.SkinDownloader
+api_call::android/content/ContentResolver;->query
+feature::android.hardware.location.gps
+url::market.android.com
+url::www.google.com
+url::http://market.android.com/search?q%3Dpname:org.openintents.filemanager
+call::printStackTrace
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::slideunlocker.googlecode.com
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+activity::.InfoActivity
+activity::.ConfigurationManager
+activity::.WeatherPreferences
+call::getSystemService
+url::http://slideunlocker.googlecode.com/svn/trunk/downloads/weather-default.zip
+permission::android.permission.VIBRATE
+service_receiver::Weather Tiny
+permission::android.permission.PERSISTENT_ACTIVITY
+activity::.ConfigureActivity
+api_call::android/content/Context;->startService
+url::http://slideunlocker.googlecode.com/svn/trunk/downloads/weather.txt
+api_call::java/net/URL;->openConnection
+service_receiver::.UpdateService
+url::http://www.google.com/ig
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::Weather & Flip Clock
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+service_receiver::Weather Large
+intent::android.intent.category.LAUNCHER
+url::http://slideunlocker.googlecode.com/svn/trunk/downloads/clock.txt
+url::http://lock2.wordpress.com
+api_call::android/app/NotificationManager;->notify
+service_receiver::Weather Small
+url::http://market.android.com/search?q%3Dpname:com.androidapps.weather.forecastaddon
+provider::android.appwidget.provider

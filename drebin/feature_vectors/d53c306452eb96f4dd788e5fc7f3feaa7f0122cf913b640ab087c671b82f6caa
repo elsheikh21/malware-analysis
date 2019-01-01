@@ -1,0 +1,64 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+url::schemas.xmlsoap.org
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.HOME
+url::https://www.
+url::http://www.w3.org/2001/XMLSchema-instance
+activity::Welcome to ClipBird
+intent::android.intent.category.DEFAULT
+url::http://www.wireless-village.org/CSP
+url::https://ssl.perfora.net/chefgon.com/clipbird/clipbirdwebservice.asmx
+url::http://www.w3.org/2000/xmlns/
+activity::Copy to ClipBird
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+url::www.
+url::http://www.wireless-village.org/PA
+url::http://www.wireless-village.org/TRC
+url::http://www.openmobilealliance.org/DTD/WV-PA
+url::http://schemas.xmlsoap.org/soap/encoding/
+url::http://chefgon.com/clipbird
+activity::Login to ClipBird
+activity::ClipBird Settings
+activity::.ClipBird
+url::http://www.w3.org/2001/XMLSchema
+service_receiver::PhoneShutdown
+url::http://chefgon.com/clipbird/GetLast10Strings
+url::chefgon.com
+url::http://chefgon.com/clipbird/Login
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html
+service_receiver::ClipboardMonitor
+url::http://xmlpull.org/v1/doc/
+url::http://xmlpull.org/v1/doc/properties.html
+url::www.wireless-village.org
+call::Obfuscation(Base64)
+url::http://chefgon.com/clipbird/AddString
+url::http://www.w3.org/1999/XMLSchema-instance
+url::http://schemas.xmlsoap.org/soap/envelope/
+url::www.openmobilealliance.org
+api_call::android/content/Context;->startService
+url::http://chefgon.com/clipbird/AddUser
+url::http://www.w3.org/2001/12/soap-encoding
+intent::android.intent.action.ACTION_SHUTDOWN
+url::http://chefgon.com/clipbird/GetLastString
+url::xmlpull.org
+url::http://www.
+service_receiver::BootSetup
+url::http://www.openmobilealliance.org/DTD/WV-TRC
+activity::Create ClipBird Account
+intent::android.intent.action.MAIN
+url::http://www.w3.org/XML/1998/namespace
+url::http://xml.apache.org/xml-soap
+url::www.w3.org
+url::http://www.openmobilealliance.org/DTD/WV-CSP
+url::http://www.w3.org/2001/12/soap-envelope
+permission::android.permission.INTERNET
+url::ssl.perfora.net
+intent::android.intent.category.LAUNCHER
+url::xml.apache.org
+url::http://chefgon.com/clipbird/GetUsername
+service_receiver::MonitorService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::http://www.w3.org/1999/XMLSchema

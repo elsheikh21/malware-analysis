@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://ebookhow.info/10Pound/Diet.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::ebookhow.info
+url::http://ebookhow.info/10Pound/Featured.html
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+url::http://ebookhow.info/10Pound/Basics.html
+call::getSystemService
+url::http://ebookhow.info/10Pound/More.html

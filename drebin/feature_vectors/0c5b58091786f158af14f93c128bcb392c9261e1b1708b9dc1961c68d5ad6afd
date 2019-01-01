@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+activity::.SMSActivity
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SEND_SMS
+permission::android.permission.RECEIVE_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+real_permission::android.permission.SEND_SMS
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+activity::.HomeActivity
+permission::android.permission.READ_CONTACTS
+activity::.TutorialActivity
+api_call::android/content/ContentResolver;->query

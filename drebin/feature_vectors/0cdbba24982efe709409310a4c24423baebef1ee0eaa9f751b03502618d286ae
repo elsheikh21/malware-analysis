@@ -1,0 +1,27 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::10.30.2.71
+api_call::android/content/pm/PackageManager;->addPreferredActivity
+url::http://mini5.opera-mini.net:80/
+permission::android.permission.CALL_PHONE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.SET_PREFERRED_APPLICATIONS
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+call::Read/Write External Storage
+url::http://10.30.2.71/cgi-bin/extension.rb
+permission::android.permission.SET_PREFERRED_APPLICATIONS
+feature::android.hardware.telephony
+url::mini5.opera-mini.net
+intent::android.intent.category.BROWSABLE
+url::localhost
+intent::android.intent.action.VIEW
+url::mini5resource.opera-mini.net
+activity::.Browser
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://localhost:3000
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mini5resource.opera-mini.net

@@ -1,0 +1,10 @@
+activity::com.diota.android.api.account.activity.AccountActivity
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

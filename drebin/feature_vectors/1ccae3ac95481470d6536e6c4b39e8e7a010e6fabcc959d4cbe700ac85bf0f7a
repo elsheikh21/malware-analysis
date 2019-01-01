@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://www.umeng.com/app_logs
+url::www.umeng.com
+call::getPackageInfo
+call::getDeviceId
+feature::android.hardware.screen.portrait
+call::HttpPost
+url::market.android.com
+activity::.QB
+api_call::android/content/Context;->startActivity
+url::http://maps.google.com/maps?q%3D
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.qiushibaike.com/
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+url::www.qiushibaike.com
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.umeng.com/api/check_app_update
+real_permission::android.permission.INTERNET
+url::http://market.android.com/search?q%3DappEnterm.Series
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+url::schemas.android.com

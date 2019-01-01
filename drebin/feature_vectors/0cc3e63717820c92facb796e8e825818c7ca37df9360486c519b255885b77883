@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::java/net/HttpURLConnection
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.READ_CONTACTS
+feature::android.hardware.location.gps
+activity::.App
+service_receiver::org.mozilla.gecko.GeckoConnectivityReceiver
+feature::android.hardware.location
+service_receiver::NotificationHandler
+real_permission::android.permission.VIBRATE
+activity::Firefox
+intent::android.intent.action.WEB_SEARCH
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+call::Read/Write External Storage
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.net.conn.CONNECTIVITY_CHANGE
+call::Execution of external commands
+activity::Restarter
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+api_call::android/content/Context;->startActivity

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.droidgenerator.com
+intent::android.intent.action.MAIN
+url::http://www.apptailer.com/apps/rock/widget.html
+call::printStackTrace
+url::http://www.apptailer.com/apps/rock/rock.jpg
+activity::.Activity1
+permission::android.permission.INTERNET
+url::www.apptailer.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::www.droidgenerator.com
+url::http://www.apptailer.com/apps/rock/widget.html\

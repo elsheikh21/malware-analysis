@@ -1,0 +1,21 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+url::ammg.notlong.com
+api_call::android/os/Vibrator;->vibrate
+activity::.MainActivity
+call::Read/Write External Storage
+feature::android.hardware.screen.portrait
+url::http://market.android.com/details?id%3Dcom.andoku.two.free
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+provider::com.googlecode.andoku.puzzlesprovider
+intent::android.intent.action.VIEW
+url::http://ammg.notlong.com

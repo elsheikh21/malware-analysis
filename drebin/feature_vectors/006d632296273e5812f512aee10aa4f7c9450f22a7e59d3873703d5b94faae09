@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+service_receiver::.AlarmReceiver
+intent::android.intent.action.MAIN
+service_receiver::.BootReceiver
+intent::android.intent.category.HOME
+activity::.Main
+intent::android.intent.category.LAUNCHER
+service_receiver::.WatchdogService
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

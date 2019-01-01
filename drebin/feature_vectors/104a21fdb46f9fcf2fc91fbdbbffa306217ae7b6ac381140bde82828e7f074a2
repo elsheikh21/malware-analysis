@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.WidgetConfiguration
+activity::com.alienroid.advancedBatteryStatusWidget.WidgetConfiguration
+intent::android.intent.category.LAUNCHER
+call::getSystemService

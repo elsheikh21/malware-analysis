@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.details.ConcertDetailsDialog
+activity::.details.VenueDetailsDialog
+activity::DashboardActivity
+activity::.DashboardActivity
+activity::BandListActivity
+activity::.details.BandDetailsDialog
+intent::android.intent.action.MAIN
+activity::VenueListActivity
+activity::GenreListActivity
+intent::android.intent.category.LAUNCHER
+activity::ConcertListActivity
+activity::FavoriteListActivity
+activity::.details.GenreDetailsDialog

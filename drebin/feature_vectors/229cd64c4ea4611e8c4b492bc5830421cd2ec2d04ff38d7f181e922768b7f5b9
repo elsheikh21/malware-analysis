@@ -1,0 +1,17 @@
+activity::.ExactCallLog
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+permission::android.permission.CALL_PHONE
+intent::android.intent.category.DEFAULT
+feature::android.hardware.telephony
+permission::android.permission.WRITE_CONTACTS
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.CALL_BUTTON
+api_call::android/telephony/TelephonyManager;->getVoiceMailNumber
+intent::android.intent.action.VIEW

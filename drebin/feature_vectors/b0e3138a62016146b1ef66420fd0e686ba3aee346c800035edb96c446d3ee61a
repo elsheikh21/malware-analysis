@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.LiteMainActivity
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+activity::com.mhillsystem.starxscape.LiteMainActivity
+call::getSystemService

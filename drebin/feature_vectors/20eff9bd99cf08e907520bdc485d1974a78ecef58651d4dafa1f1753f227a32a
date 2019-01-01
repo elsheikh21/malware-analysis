@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.kiranreddys.com
+activity::.WebPage
+activity::.JumbleNumbers
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://www.kiranreddys.com/phone/
+call::getSystemService

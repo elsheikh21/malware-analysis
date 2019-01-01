@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::https://microsoft-itcouncil.com/webservice/
+activity::com.alterian.itac.ITACLogin
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+url::www.w3.org
+permission::android.permission.INTERNET
+activity::.ITACLogin
+url::http://ws.microsoft-itcouncil.com/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::ws.microsoft-itcouncil.com
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://www.w3.org/2001/XMLSchema-instance\
+url::microsoft-itcouncil.com

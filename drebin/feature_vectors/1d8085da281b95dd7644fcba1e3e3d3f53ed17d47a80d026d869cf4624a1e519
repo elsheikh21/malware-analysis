@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+activity::.configactivities.DirectoryChooser
+service_receiver::WidgetUpdaterService
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+activity::.configactivities.BannedFileListActivity
+activity::.configactivities.SizesConfigurationActivity
+call::getSystemService
+provider::android.appwidget.provider
+activity::PhotoGalleryWidgetConfigure
+api_call::android/content/Context;->startService

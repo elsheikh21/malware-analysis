@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.LFSDashboardActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::java/net/NetworkInterface
+activity::LFSDashboardActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

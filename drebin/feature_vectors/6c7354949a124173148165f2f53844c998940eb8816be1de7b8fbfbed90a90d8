@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/app/ActivityManager;->restartPackage
+service_receiver::KillallAppsService
+service_receiver::MainReceiver
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.GET_TASKS
+real_permission::android.permission.GET_TASKS
+api_call::android/app/ActivityManager;->getRunningTasks
+real_permission::android.permission.VIBRATE
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+api_call::java/lang/Runtime;->exec
+activity::SystemProcesses
+real_permission::android.permission.RESTART_PACKAGES
+call::Execution of external commands
+api_call::android/content/Context;->startService
+activity::AppsProcesses
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.RESTART_PACKAGES
+activity::IgnoreList
+provider::android.appwidget.provider
+activity::.ProcessManager

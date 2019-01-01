@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+service_receiver::ConnectionService
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+api_call::java/net/Socket

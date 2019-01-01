@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.TabBarExample
+intent::android.intent.action.MAIN
+activity::.MitsosSplash
+activity::.FirstTab
+intent::android.intent.category.LAUNCHER
+activity::.SecondTab

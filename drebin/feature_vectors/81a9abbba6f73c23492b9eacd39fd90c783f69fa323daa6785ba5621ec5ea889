@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+url::http://www.songwol.kr
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::www.songwol.kr
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.SongWolTowel
+activity::com.ipandalab.songwoltowel.SongWolTowel
+permission::android.permission.CALL_PRIVILEGED

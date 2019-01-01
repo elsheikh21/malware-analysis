@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+service_receiver::com.robospark.billing.BillingService
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+activity::TestHelpActivity
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.PlayLogoActivity
+api_call::android/content/Context;->startService
+activity::ReadHelpActivity
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+permission::com.android.vending.BILLING
+service_receiver::com.robospark.billing.BillingReceiver

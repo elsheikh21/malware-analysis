@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+call::getPackageInfo
+call::HttpPost
+url::petpet.goo.ne.jp
+activity::.MainActivity
+url::http://aexceptions.appspot.com/post
+call::getSystemService
+url::http://images.ad-maker.info/apps/8h96dq0yqr5q.html
+url::aexceptions.appspot.com
+url::http://petpet.goo.ne.jp/pet/goo/zukan/catinfo.php?kind%3D
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Read/Write External Storage
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER

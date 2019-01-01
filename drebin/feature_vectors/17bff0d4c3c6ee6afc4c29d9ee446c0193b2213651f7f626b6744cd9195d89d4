@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+service_receiver::.CacheCleaner
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::jp.co.bii.android.app.dvrplugins.addonstrial.slicerprovider
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+api_call::android/content/ContentResolver;->openFileDescriptor
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+api_call::android/webkit/WebView
+real_permission::android.permission.READ_CONTACTS
+activity::.HelpCActivity
+real_permission::android.permission.INTERNET
+call::getSystemService

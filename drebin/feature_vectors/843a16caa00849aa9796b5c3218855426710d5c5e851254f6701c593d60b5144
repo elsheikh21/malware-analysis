@@ -1,0 +1,16 @@
+url::http://www.vialidad-cache.telmex.com/
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.principal
+intent::android.intent.action.MAIN
+url::hostingdedicado.com.mx
+activity::.verImagen
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://hostingdedicado.com.mx/android/trafico2.php
+url::www.vialidad-cache.telmex.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.listaCamaras
+activity::.alertaVial
+activity::.traficomexico

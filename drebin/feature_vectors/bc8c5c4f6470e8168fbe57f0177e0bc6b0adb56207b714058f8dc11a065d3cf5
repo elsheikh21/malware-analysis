@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::nettsamfunn1.no
+api_call::android/webkit/WebView
+activity::.app
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://nettsamfunn1.no/m/
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::https://issues.apache.org/jira/browse/MATH
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.NormStat
+url::issues.apache.org
+call::getSystemService

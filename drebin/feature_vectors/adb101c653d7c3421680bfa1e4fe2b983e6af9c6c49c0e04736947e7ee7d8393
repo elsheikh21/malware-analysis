@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+permission::android.permission.READ_PHONE_STATE
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/TelephonyManager;->listen
+service_receiver::.RadioPlaybackService
+activity::Main
+real_permission::android.permission.WAKE_LOCK

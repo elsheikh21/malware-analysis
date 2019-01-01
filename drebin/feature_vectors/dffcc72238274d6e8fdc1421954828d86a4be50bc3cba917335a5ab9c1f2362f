@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://twitter.com/AOI_Studio
+intent::android.intent.action.MAIN
+url::twitter.com
+url::www.aoidev.com
+url::http://www.aoidev.com
+feature::android.hardware.screen.portrait
+url::http://facebook.com/profile.php?id%3D100001688275681
+api_call::android/content/Context;->startActivity
+activity::.HowToActivity
+intent::android.intent.category.INFO
+url::facebook.com

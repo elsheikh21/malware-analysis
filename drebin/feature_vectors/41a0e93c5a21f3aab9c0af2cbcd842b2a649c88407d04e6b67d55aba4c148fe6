@@ -1,0 +1,30 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.PACKAGE_ADDED
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+permission::android.permission.GET_TASKS
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.CREATE_SHORTCUT
+intent::android.intent.action.PACKAGE_REPLACED
+activity::.MainActivity
+service_receiver::com.airpuh.ad.UpdateCheck
+intent::android.intent.action.PACKAGE_REMOVED
+call::getSystemService
+call::Read/Write External Storage
+api_call::android/app/ActivityManager;->getRecentTasks
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+service_receiver::.InstallReceiver
+url::bnb520.com
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+activity::.LauncherShortcuts
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+url::http://bnb520.com/forum.php
+api_call::android/content/Context;->startActivity

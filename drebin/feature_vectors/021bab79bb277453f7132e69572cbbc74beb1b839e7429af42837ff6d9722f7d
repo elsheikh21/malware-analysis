@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.StartGame
+activity::.SecondSplash
+api_call::android/media/MediaPlayer;->start
+activity::.Game
+activity::.settings
+real_permission::android.permission.WAKE_LOCK
+activity::.sudoku
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER

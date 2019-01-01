@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.qscaudio.com
+url::http://www.qscaudio.com/products/network/dcp300/
+call::printStackTrace
+activity::.DCPAmpStatusTable
+activity::.DCPVenueListActivity
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.DCPApp1
+intent::android.intent.category.LAUNCHER
+api_call::java/net/DatagramSocket
+real_permission::android.permission.INTERNET
+activity::.DCPDeviceListActivity
+call::getSystemService

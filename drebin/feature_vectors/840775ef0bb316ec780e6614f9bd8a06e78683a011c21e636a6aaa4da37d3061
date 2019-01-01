@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://feeds.feedburner.com/KillerTradingSystems
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://tradingninja.com/2011/04/forex-trader-pro-2-0-fxtp/
+activity::.Activity1
+url::tradingninja.com

@@ -1,0 +1,11 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+intent::android.intent.category.DEFAULT
+activity::.FileSelection
+intent::android.intent.category.LAUNCHER
+call::Cipher(AES/ECB/NoPadding)
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.landscape
+activity::.Soroban
+real_permission::android.permission.VIBRATE
+call::getSystemService
+intent::android.intent.category.LAUNCHER

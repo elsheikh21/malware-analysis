@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::com.dreamstep.wMOESaudiArabia.permission.C2D_MESSAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::com.google.android.c2dm.C2DMBroadcastReceiver
+activity::MOE Saudi Arabia
+real_permission::android.permission.WAKE_LOCK
+permission::android.webkit.permission.PLUGIN
+call::printStackTrace
+permission::com.google.android.c2dm.permission.RECEIVE
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/media/MediaPlayer;->stop
+intent::com.google.android.c2dm.intent.RECEIVE
+intent::com.google.android.c2dm.intent.REGISTRATION
+api_call::android/content/Context;->startService
+service_receiver::com.dreamstep.wMOESaudiArabia.Server.C2DMClientReceiver
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.MainNavigationActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

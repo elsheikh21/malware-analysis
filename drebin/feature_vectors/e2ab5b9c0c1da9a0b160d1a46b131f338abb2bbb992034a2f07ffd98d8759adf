@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::indicador.eof.cl
+api_call::android/content/Context;->startActivity
+url::www.bancochile.cl
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.sii.cl/pagina/valores/utm/utmANO.htm
+url::http://www.bancochile.cl/cgi-bin/cgi_uf/?year%3DANO&month%3DMES
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.Inicio
+url::http://indicador.eof.cl/cvs
+call::getSystemService
+url::www.sii.cl

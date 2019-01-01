@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+activity::.Main
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.QuestStatus
+activity::.Map
+activity::.QuestStatusDetail
+api_call::android/location/LocationManager;->requestLocationUpdates
+call::getSystemService

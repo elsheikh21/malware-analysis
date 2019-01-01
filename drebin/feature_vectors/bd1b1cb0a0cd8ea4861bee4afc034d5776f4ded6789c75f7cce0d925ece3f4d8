@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.MenuHelp
+api_call::android/os/Vibrator;->vibrate
+call::Read/Write External Storage
+activity::.MenuOptions
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.WAKE_LOCK
+activity::.MenuCredits
+api_call::android/media/MediaPlayer;->start
+activity::.MenuStart
+activity::.MenuGame
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/telephony/TelephonyManager;->listen
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_PHONE_STATE
+activity::.Menu
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.SplashActivity

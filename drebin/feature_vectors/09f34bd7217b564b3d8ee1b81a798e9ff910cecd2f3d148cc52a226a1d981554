@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.LaunchPage
+intent::android.intent.action.MAIN
+url::supraint.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://supraint.com/works/testiphone/send_msg_android.php
+intent::android.intent.category.LAUNCHER
+activity::.thornton
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::HttpPost
+call::getSystemService

@@ -1,0 +1,16 @@
+activity::.GameScreen
+feature::android.hardware.location.network
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

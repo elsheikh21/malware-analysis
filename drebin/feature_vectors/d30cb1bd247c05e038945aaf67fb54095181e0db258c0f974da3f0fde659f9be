@@ -1,0 +1,10 @@
+activity::.brettcecil
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::probaseballapps.com
+url::http://probaseballapps.com/apps/brett_cecil.php
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER

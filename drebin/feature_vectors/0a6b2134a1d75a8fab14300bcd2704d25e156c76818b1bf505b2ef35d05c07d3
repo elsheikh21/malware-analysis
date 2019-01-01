@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+api_call::android/telephony/SmsManager;->sendTextMessage
+feature::android.hardware.screen.portrait
+activity::.DEAndroidFrameworkActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

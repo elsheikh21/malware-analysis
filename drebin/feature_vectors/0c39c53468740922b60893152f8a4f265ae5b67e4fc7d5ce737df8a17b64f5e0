@@ -1,0 +1,12 @@
+provider::com.commandus.provider.HistorySQLiteStorage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::.ViewAbout
+real_permission::android.permission.READ_CONTACTS
+provider::com.commandus.provider.HistoryStorage
+call::getSystemService
+activity::.ViewConvertor

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.WebViewActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.mozfet.com
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www.mozfet.com
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

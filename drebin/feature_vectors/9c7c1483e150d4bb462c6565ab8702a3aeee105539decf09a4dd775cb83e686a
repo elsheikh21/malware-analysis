@@ -1,0 +1,19 @@
+activity::.LoginScreen
+feature::android.hardware.touchscreen
+url::www.w3.org
+url::schemas.xmlsoap.org
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::xmlpull.org
+url::http://www.w3.org/2001/XMLSchema\
+call::Read/Write External Storage
+permission::android.permission.INTERNET
+url::http://schemas.xmlsoap.org/soap/envelope/\
+url::sso.crmondemand.com
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+url::https://sso.crmondemand.com/router/authenticate
+url::http://www.w3.org/2001/XMLSchema-instance\
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://xmlpull.org/v1/doc/features.html

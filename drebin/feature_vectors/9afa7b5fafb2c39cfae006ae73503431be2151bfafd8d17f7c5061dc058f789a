@@ -1,0 +1,13 @@
+feature::android.hardware.location.network
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.AppEntry
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+activity::StrawberryShortcakeDressup

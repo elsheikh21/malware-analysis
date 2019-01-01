@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.morticella.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.morticella.com
+url::http://www.morticella.com/seo-tools/seo-meta-tags-generator.php
+activity::.inizio
+permission::android.permission.INTERNET
+url::http://www.morticella.com/seo-tools/seo-google-indexed-pages.php
+url::http://www.morticella.com/seo-tools/seo-ranking-position-google.php
+intent::android.intent.category.LAUNCHER
+url::http://www.morticella.com/seo-tools/seo-meta-tags-pagerank.php
+url::http://www.morticella.com/seo-tools/seo-google-inbound-links.php
+real_permission::android.permission.INTERNET
+url::http://www.morticella.com/seo-tools/seo-meta-tags-spider.php

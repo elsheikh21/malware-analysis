@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+url::search.twitter.com
+call::Read/Write External Storage
+url::206.217.213.16
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+url::http://yantheriault.com/blog/wp-content/themes/rediant/images/post-default.jpg
+real_permission::android.permission.VIBRATE
+url::http://206.217.213.16:8002/%3B
+provider::android.appwidget.provider
+call::getSystemService
+permission::android.permission.VIBRATE
+url::http://search.twitter.com/search.json?q%3D
+url::yantheriault.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::ExampleAppWidgetProvider
+url::http://lestream.i-mediahd.com/feeds_android.php
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://206.217.213.16:8002/7.html
+real_permission::android.permission.INTERNET
+service_receiver::Push Notifications Service
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::android.permission.INTERNET
+url::lestream.i-mediahd.com
+api_call::android/content/Context;->startService

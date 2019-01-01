@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::EditTemplate
+intent::android.intent.action.MAIN
+activity::.QuickSendTo
+activity::SelectEmailAddress
+activity::QuickSendTo
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

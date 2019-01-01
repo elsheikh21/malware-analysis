@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+service_receiver::.SilencerService
+intent::android.intent.category.LAUNCHER
+service_receiver::.SilencerReceiver
+intent::android.intent.action.BOOT_COMPLETED
+activity::.SilencerActivity
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

@@ -1,0 +1,7 @@
+activity::.Notepad
+activity::.NotesActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+intent::android.intent.category.LAUNCHER
+activity::.AppsActivity
+activity::.EditNoteActivity

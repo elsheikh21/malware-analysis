@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+url::https://chart.googleapis.com/chart?
+activity::.StartupActivity
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::Read/Write External Storage
+call::getSystemService
+url::chart.googleapis.com

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.GenericWebActivity
+activity::.GenericMain
+intent::android.intent.action.MAIN
+activity::.ParameterActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://m.sensagent.com/alexandria-mobile/xelasys/results.jsp?w%3D
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getSystemService
+url::m.sensagent.com

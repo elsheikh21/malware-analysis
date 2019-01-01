@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::CuteNoteActivity
+provider::android.appwidget.provider

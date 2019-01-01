@@ -1,0 +1,6 @@
+activity::xian.bubbles.Bubbles
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Bubbles

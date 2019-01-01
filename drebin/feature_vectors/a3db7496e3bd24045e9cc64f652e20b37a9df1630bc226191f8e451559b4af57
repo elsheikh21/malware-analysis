@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::es.telstra.com
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://es.telstra.com/MobileDataUsageMeter/active
+provider::android.appwidget.provider

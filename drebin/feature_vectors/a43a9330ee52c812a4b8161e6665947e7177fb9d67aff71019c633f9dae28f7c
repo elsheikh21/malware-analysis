@@ -1,0 +1,16 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+activity::.ListThreads
+activity::ListMessages
+intent::android.intent.action.MAIN
+url::http://happymtb.org/forum/read.php/1/
+permission::android.permission.INTERNET
+url::happymtb.org
+url::http://happymtb.org/forum/list.php/1/page%3D
+activity::Prefs
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+url::http://happymtb.org/forum/list.php/1/markread
+call::HttpPost
+url::http://happymtb.org/forum/login.php

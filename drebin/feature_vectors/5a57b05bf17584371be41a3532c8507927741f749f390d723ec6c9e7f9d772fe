@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+service_receiver::WidgetProvider$MyService
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startService

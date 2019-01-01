@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.WonBupmun
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::WonBupmunIndex1
+call::getSystemService
+activity::WonBupmunIndex2

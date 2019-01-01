@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::SilentOnChargeStarter
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+intent::android.intent.action.ACTION_POWER_CONNECTED
+intent::android.intent.action.ACTION_POWER_DISCONNECTED
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.SilentOnCharge
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

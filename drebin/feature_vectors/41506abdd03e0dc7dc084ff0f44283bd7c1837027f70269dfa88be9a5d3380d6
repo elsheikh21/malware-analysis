@@ -1,0 +1,26 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+activity::.ToolSettings
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.INTERNET
+url::http://www.talon-designs.net/android/crash_report.php
+intent::android.intent.category.DEFAULT
+url::www.talon-designs.net
+call::getPackageInfo
+call::HttpPost
+activity::.About
+real_permission::android.permission.VIBRATE
+activity::.LayerEditor
+call::getSystemService
+activity::.LayerSetDialog
+activity::.GameActivity
+call::Obfuscation(Base64)
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::.LayerManager
+call::Read/Write External Storage
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify

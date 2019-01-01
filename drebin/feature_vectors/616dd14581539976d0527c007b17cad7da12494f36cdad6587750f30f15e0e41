@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.AstroRaiderMainActivity
+intent::android.intent.action.MAIN
+activity::AstroRaiderHelpActivity
+intent::android.intent.category.LAUNCHER
+activity::AstroRaiderAboutActivity
+activity::AstroRaiderGameActivity
+activity::AstroRaiderPreferencesActivity
+activity::AstroRaiderMainActivity
+call::getSystemService
+activity::AstroRaiderGameSlotSelectActivity

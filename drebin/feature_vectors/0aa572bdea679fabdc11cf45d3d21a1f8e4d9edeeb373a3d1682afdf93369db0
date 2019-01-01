@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+activity::reports
+activity::settings
+api_call::android/app/Activity;->startActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::anTimeLog
+intent::android.intent.category.DEFAULT
+activity::reportDetail
+activity::editItem
+activity::.anTimeLog
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::getSystemService
+intent::android.intent.category.LAUNCHER

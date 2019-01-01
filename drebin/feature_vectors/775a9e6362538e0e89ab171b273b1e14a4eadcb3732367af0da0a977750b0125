@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+permission::jp.co.bii.android.app.dskvzr.CONFGURE
+provider::android.appwidget.provider

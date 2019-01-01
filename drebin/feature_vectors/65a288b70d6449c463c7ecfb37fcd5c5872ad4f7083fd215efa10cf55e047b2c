@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+activity::.MainActivity
+api_call::android/telephony/SmsManager;->sendTextMessage
+intent::android.intent.category.DEFAULT
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.SplashActivity

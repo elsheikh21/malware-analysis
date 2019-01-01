@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_USER_DICTIONARY
+call::getDeviceId
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+url::http://code.google.com/p/scandinavian-keyboard/
+real_permission::android.permission.READ_CONTACTS
+activity::com.android.inputmethod.norwegian.UserDictionarySettings
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.VOICE_LAUNCH
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+permission::android.permission.READ_USER_DICTIONARY
+url::https://www.paypal.com/cgi-bin/webscr?cmd%3D_s-xclick&hosted_button_id%3D6117255
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::NorwegianIMESettings
+url::www.paypal.com
+url::code.google.com
+intent::android.intent.category.INFO

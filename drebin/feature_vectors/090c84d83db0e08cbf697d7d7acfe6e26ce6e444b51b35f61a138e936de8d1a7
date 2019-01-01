@@ -1,0 +1,9 @@
+url::m.beaumont.edu
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://m.beaumont.edu
+permission::android.permission.INTERNET
+activity::.WBH
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

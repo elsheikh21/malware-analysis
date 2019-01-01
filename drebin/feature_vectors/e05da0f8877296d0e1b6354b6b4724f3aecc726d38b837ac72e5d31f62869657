@@ -1,0 +1,69 @@
+url::market.android.com
+intent::android.intent.category.DESK_DOCK
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+feature::android.hardware.touchscreen
+activity::com.betterandroid.deskclock.SetAlarm
+service_receiver::com.betterandroid.deskclock.AlarmKlaxon
+service_receiver::Big Analog Clock Droid 2
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+intent::android.intent.action.TIMEZONE_CHANGED
+url::http://schemas.android.com/apk/lib/com.google.ads
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+activity::.DeskClock
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.WRITE_SETTINGS
+api_call::android/content/ContentResolver;->query
+activity::com.betterandroid.deskclock.SettingsActivity
+api_call::android/os/Vibrator;->cancel
+service_receiver::Big Analog Clock Droid
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+url::www.google.com
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+url::http://a.admob.com/f0?
+activity::com.betterandroid.deskclock.AlarmAlert
+activity::Weather Forecasts
+real_permission::android.permission.VIBRATE
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.WAKE_LOCK
+service_receiver::Big Analog Clock
+call::getSystemService
+intent::android.intent.action.TIME_SET
+permission::android.permission.VIBRATE
+service_receiver::com.betterandroid.deskclock.AlarmInitReceiver
+url::http://market.android.com/search?q%3DFont
+url::http://www.google.com/ig/api?weather%3D,,,
+service_receiver::com.betterandroid.deskclock.AlarmReceiver
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.location.gps
+activity::com.betterandroid.deskclock.AlarmClock
+call::Cipher(AES/CBC/PKCS5Padding)
+permission::android.permission.DISABLE_KEYGUARD
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.READ_PHONE_STATE
+url::a.admob.com
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WAKE_LOCK
+url::http://www.google.com/ig
+intent::android.intent.action.MAIN
+activity::Battery Info
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+service_receiver::Big Analog Clock Classic
+service_receiver::Big Analog Clock Numbers
+provider::android.appwidget.provider
+api_call::android/content/Context;->startActivity
+url::schemas.android.com

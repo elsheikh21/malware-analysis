@@ -1,0 +1,21 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.SET_WALLPAPER
+intent::android.intent.action.SEND
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+call::getPackageInfo
+api_call::java/net/HttpURLConnection
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.SET_WALLPAPER
+api_call::android/app/Activity;->setWallpaper

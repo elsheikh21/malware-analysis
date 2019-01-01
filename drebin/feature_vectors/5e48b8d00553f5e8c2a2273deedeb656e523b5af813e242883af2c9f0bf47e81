@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+url::www.phantomefx.com
+activity::.Main
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+call::getSystemService
+activity::com.phantomefx.slot.AchievementGrid
+url::http://www.phantomefx.com/support/contact-us/
+real_permission::android.permission.READ_CONTACTS
+activity::com.phantomefx.slot.Payglass
+intent::android.intent.category.DEFAULT
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

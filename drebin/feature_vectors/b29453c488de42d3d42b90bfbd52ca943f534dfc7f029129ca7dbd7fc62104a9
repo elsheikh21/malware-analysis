@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.BIND_INPUT_METHOD
+service_receiver::morse
+real_permission::android.permission.VIBRATE
+activity::settingsDialog
+call::getSystemService
+api_call::android/os/Vibrator;->cancel

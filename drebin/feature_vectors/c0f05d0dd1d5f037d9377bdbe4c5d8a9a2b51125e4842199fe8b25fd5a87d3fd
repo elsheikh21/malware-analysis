@@ -1,0 +1,8 @@
+activity::.SettingActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+activity::.MonthActivity

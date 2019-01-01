@@ -1,0 +1,37 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+url::http://market.android.com/search?q%3Dbusybox
+call::Read/Write External Storage
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+activity::com.rafoid.core.LongToast
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+api_call::android/content/Context;->startActivity
+url::http://a.admob.com/f0?
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::android.permission.VIBRATE
+service_receiver::.MultiMountSDCardWidgetFree
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::com.rafoid.multimountsdcard.widget.MultiMountSDCardWidget$UpdateService
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+call::Execution of external commands
+call::Cipher(AES/CBC/PKCS5Padding)
+url::a.admob.com
+activity::.MultiMountSDCardConfigure
+api_call::android/webkit/WebView
+url::market.android.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/details?id%3Dcom.rafoid.multimountsdcard.widget
+provider::android.appwidget.provider
+url::schemas.android.com

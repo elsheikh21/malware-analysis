@@ -1,0 +1,11 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://www.androidretail.com/images/boutique.jpg
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.androidretail.com
+url::http://www.androidretail.com/category/android-womens-boutique/
+activity::.Activity1
+intent::android.intent.category.LAUNCHER

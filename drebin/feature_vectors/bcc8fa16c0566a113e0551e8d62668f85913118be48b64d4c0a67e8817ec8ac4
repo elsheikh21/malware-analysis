@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::supertumble.appspot.com
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://supertumble.appspot.com/camelscore/getscore?userid%3D
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+url::http://supertumble.appspot.com/camelscore/setscore?

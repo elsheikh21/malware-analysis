@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.FocusPreference
+intent::android.intent.action.MAIN
+api_call::android/hardware/Camera;->open
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.Main
+activity::com.doubleshot.readingglasses.Main
+permission::android.permission.INTERNET
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.CAMERA
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+intent::android.intent.category.PREFERENCE
+activity::com.doubleshot.readingglasses.FocusPreferenceActivity

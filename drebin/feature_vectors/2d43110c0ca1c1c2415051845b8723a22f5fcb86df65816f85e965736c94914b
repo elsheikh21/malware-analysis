@@ -1,0 +1,5 @@
+call::getPackageInfo
+feature::android.hardware.touchscreen
+activity::.DogAge
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

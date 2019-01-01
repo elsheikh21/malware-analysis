@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.UrlIntent
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+url::203.117.187.181
+intent::android.intent.category.LAUNCHER
+url::http://203.117.187.181/locator/

@@ -1,0 +1,19 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+real_permission::android.permission.WRITE_SETTINGS
+call::printStackTrace
+permission::android.permission.CHANGE_CONFIGURATION
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.Splash
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

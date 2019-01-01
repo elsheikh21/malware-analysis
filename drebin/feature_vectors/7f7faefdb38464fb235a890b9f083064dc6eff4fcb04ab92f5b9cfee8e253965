@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+activity::.LifeTracking
+call::getPackageInfo
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER

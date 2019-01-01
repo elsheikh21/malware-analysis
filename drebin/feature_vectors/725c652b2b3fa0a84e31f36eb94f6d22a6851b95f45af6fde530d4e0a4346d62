@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.ewureview.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.ewureview.com/about
+activity::.Main
+url::http://mobile.ewureview.com
+permission::android.permission.INTERNET
+activity::EWU Review
+intent::android.intent.category.LAUNCHER
+url::http://mobile.ewureview.com/schedule
+real_permission::android.permission.INTERNET
+url::http://mobile.ewureview.com/roster
+url::http://mobile.ewureview.com/stats

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Midlet
+url::http://www.netmite.com/android/srv/2.0/upload/HuanShiXiYou_N73.jad
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::www.netmite.com

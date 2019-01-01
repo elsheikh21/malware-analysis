@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/media/MediaRecorder;->setAudioSource
+real_permission::android.permission.RECORD_AUDIO
+activity::au.com.saltgroup.android.apps.activities.OtpDisplay
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::au.com.saltgroup.android.apps.activities.PinInput
+activity::.activities.StartActivation
+activity::au.com.saltgroup.android.apps.activities.ChangePin
+call::Cipher(CBC)
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+activity::.StartActivation
+activity::.activities.PinSetup_Randomness
+activity::.activities.About
+activity::.activities.ActivationComplete

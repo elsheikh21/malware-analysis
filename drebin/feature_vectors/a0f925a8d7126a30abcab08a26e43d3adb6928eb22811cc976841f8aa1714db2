@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.flickr.com
+url::http://www.flickr.com/groups/drlight/\nSupport\nhttp://dr.light.anzalichi.de/\n
+intent::android.intent.category.LAUNCHER
+activity::.Haupfenster

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.ViewSwitcher
+call::getSystemService
+activity::ViewSwitcher

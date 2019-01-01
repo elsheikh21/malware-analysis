@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+activity::.FxChange
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startService
+service_receiver::Update fxChange UI
+url::http://ifxchange.appspot.com/currency_feed
+url::ifxchange.appspot.com
+service_receiver::Exchange rates

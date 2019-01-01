@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.category.DEFAULT
+feature::android.software.live_wallpaper
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

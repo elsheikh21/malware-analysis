@@ -1,0 +1,27 @@
+activity::jp.lptqsnvvauu.owgfihf.Game
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::jp.lptqsnvvauu.owgfihf.Settings
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::getPackageInfo
+call::HttpPost
+permission::android.permission.ACCESS_WIFI_STATE
+call::printStackTrace
+activity::jp.lptqsnvvauu.owgfihf.Andjong
+call::getSystemService
+activity::.vEphGedQWhKRkQ
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSubscriberId

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_SYNC_SETTINGS
+api_call::android/content/ContentResolver;->setMasterSyncAutomatically
+permission::android.permission.WRITE_SYNC_SETTINGS
+api_call::android/content/ContentResolver;->getMasterSyncAutomatically
+real_permission::android.permission.WRITE_SYNC_SETTINGS
+permission::android.permission.READ_SYNC_SETTINGS
+activity::.ManualSync
+intent::android.intent.category.LAUNCHER

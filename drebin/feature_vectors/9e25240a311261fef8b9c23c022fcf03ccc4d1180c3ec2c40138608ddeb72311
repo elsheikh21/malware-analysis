@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEARCH_LONG_PRESS
+intent::android.intent.action.MAIN
+service_receiver::Invisible Lock (4)
+service_receiver::Invisible Lock Widget
+permission::android.permission.BIND_DEVICE_ADMIN
+intent::android.intent.category.DEFAULT
+activity::Lock device
+activity::.UninstallActivity
+service_receiver::Invisible Lock (1)
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.intent.category.LAUNCHER

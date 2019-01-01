@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+feature::android.hardware.screen.portrait
+activity::.Preferences
+call::Read/Write External Storage
+activity::.AstralEffects
+activity::Astral effects free trial
+intent::android.intent.category.LAUNCHER

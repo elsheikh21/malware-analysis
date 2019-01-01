@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::DialogActivity
+permission::android.permission.CALL_PHONE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+activity::.MainActivity
+activity::.SmartCallWidgetConfigureBig
+feature::android.hardware.telephony
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.SmartCallWidgetConfigure
+intent::android.intent.action.CONFIGURATION_CHANGED
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::bajnogel.fw.hu
+url::http://bajnogel.fw.hu/errortracer.php
+provider::android.appwidget.provider
+service_receiver::ConfigurationChangeReceiver

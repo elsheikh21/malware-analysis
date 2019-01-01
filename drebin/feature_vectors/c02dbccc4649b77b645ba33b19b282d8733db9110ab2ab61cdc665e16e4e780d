@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::yianni-software.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Yarraside
+intent::android.intent.category.LAUNCHER
+activity::.ChantView
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+url::http://yianni-software.com/yarraside.json

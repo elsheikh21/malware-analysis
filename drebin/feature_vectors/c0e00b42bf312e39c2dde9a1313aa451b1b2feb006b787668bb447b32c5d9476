@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+url::www.goodquotes.com
+url::http://www.goodquotes.com/rss/latestQuotes
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+activity::.QuotesApp
+api_call::java/net/URL;->openConnection

@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::www.warmux.org
+url::http://www.warmux.org
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::download.gna.org
+real_permission::android.permission.INTERNET
+url::http://download.gna.org/warmux/android/android-data-11.04.zip
+call::getSystemService

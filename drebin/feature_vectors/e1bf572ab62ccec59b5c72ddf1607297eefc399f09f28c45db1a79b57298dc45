@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://imf.cnzz.com:8099/mobile_client/v1/android_api.php?opt%3Dlogin
+activity::.LogIn
+url::http://imf.cnzz.com:8099/xu_mobile_client/v1/android_api_drawable.php
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::imf.cnzz.com
+url::http://imf.cnzz.com:8099/mobile_client/v1/android_api.php?opt%3Dsite_list&t%3D
+intent::android.intent.category.LAUNCHER
+activity::.SiteList
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.PageFrame
+intent::android.intent.action.VIEW
+service_receiver::com.cnzzstat.WebAppService

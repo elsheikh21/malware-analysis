@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::webmarkcom.net
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.oseroActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://webmarkcom.net/android/OSERO/

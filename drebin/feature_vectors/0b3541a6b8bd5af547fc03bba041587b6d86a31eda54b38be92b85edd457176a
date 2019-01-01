@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.landscape
+activity::.Trap
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

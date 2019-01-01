@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.HanWriting$Welcome
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::goomoji.appspot.com
+url::http://goomoji.appspot.com/market/
+service_receiver::HanWriting
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://goomoji.appspot.com/market/ml.html
+call::getSystemService
+activity::SettingsActivity

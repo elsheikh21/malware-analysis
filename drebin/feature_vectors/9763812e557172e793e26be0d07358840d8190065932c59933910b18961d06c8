@@ -1,0 +1,15 @@
+service_receiver::.Techtrends$UpdateService
+feature::android.hardware.touchscreen
+activity::.Popupnews
+url::http://android-france.fr
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::http://feeds.feedburner.com/bleebot
+url::feeds.feedburner.com
+url::android-france.fr
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.INSERT
+api_call::java/net/URL;->openStream
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

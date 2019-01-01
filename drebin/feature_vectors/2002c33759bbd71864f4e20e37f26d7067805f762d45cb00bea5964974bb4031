@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.active9.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.active9.com/AndroidApps/Launchers/NewYears2011.php
+intent::android.intent.category.LAUNCHER
+activity::.NewYears

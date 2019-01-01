@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.EyesCube
+intent::android.intent.action.MAIN
+intent::android.intent.action.INFO
+provider::com.google.android.providers.gmail.permission.WRITE_GMAIL
+permission::android.permission.INTERNET
+activity::.Settings
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+intent::android.intent.action.SETTINGS
+intent::android.intent.category.DEFAULT
+permission::com.google.android.providers.gmail.permission.WRITE_GMAIL

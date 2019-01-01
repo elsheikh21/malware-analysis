@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+activity::LogicalAndroid
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.LogicalAndroid
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::Obfuscation(Base64)
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+api_call::android/webkit/WebView
+call::getPackageInfo
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

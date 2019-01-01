@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://www.mygadgets.com.br
+url::www.mygadgets.com.br
+intent::android.intent.action.MAIN
+activity::.SplashScreen
+activity::.London2012
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.DISABLE_KEYGUARD
+service_receiver::.DisableKeyguardService
+permission::android.permission.DISABLE_KEYGUARD
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

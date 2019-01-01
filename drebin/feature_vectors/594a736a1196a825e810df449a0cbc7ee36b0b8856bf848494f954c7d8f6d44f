@@ -1,0 +1,12 @@
+activity::.OnAir
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.radiofavara101.it/app/programmi.html
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.radiofavara101.it/app/palinsesto.html
+api_call::android/webkit/WebView
+url::www.radiofavara101.it
+real_permission::android.permission.WAKE_LOCK

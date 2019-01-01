@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::com.lizanityfree.ShopScreen
+activity::com.lizanityfree.OptionsScreen
+permission::android.permission.WAKE_LOCK
+activity::com.lizanityfree.MainMenu
+intent::android.intent.category.DEFAULT
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+activity::com.lizanityfree.TowerDefense
+intent::android.intent.action.MAIN
+call::getSystemService
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,29 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::https://api.facebook.com/restserver.php
+permission::android.permission.INTERNET
+url::graph.facebook.com
+call::getPackageInfo
+feature::android.hardware.screen.portrait
+url::www.trustmyphone.com
+call::Cipher(block truncated)
+api_call::android/content/Context;->startActivity
+activity::.BenchMyPhone
+url::http://www.trustmyphone.com
+url::http://developers.facebook.com/docs/reference/rest/
+url::api.facebook.com
+api_call::java/lang/Runtime;->exec
+call::Cipher(context)
+call::Obfuscation(Base64)
+call::Execution of external commands
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::developers.facebook.com
+url::http://www.trustmyphone.com/apps/benchmyphone/img-facebook.png
+real_permission::android.permission.INTERNET
+call::Cipher(Mac codes failed to equal.)
+url::https://graph.facebook.com/
+intent::android.intent.category.LAUNCHER
+url::https://m.facebook.com/dialog/

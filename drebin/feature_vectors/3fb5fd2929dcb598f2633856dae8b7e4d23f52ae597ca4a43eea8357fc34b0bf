@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::net.kairosoft.android.onsen_jaL.Main
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+permission::android.permission.INTERNET
+url::kairopark.jp
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://kairopark.jp/j7hjT4ua//gm32/onsen_android.jar
+real_permission::android.permission.INTERNET
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::services.digg.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://m.digg.com)</a></div>
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::m.digg.com)<
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity
+call::getPackageInfo
+url::http://services.digg.com
+url::m.digg.com
+url::http://m.digg.com/

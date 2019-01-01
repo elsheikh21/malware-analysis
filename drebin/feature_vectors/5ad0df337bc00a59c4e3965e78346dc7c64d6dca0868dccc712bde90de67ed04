@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.LesbianDating
+intent::android.intent.action.MAIN
+url::www.myconsumeradvantage.org
+permission::android.permission.INTERNET
+url::http://www.myconsumeradvantage.org/lesbian_dating.php
+intent::android.intent.category.LAUNCHER

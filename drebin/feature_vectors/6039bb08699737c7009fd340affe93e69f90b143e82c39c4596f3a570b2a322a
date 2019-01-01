@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.SMSBomber
+call::sendSMS
+intent::android.intent.action.MAIN
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->startActivity

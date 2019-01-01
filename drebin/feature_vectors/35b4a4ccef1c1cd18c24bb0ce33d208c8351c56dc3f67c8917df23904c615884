@@ -1,0 +1,12 @@
+activity::.Activity_Main
+feature::android.hardware.touchscreen
+activity::.Activity_InBeeld
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Activity_ArticleDetail
+activity::.EditPreferences
+activity::.Activity_Info
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

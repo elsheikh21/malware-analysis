@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::comment.timedg.com
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::printStackTrace
+url::http://sj.timedg.com/data/
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://m.weather.com.cn/data/101281601.html
+url::http://comment.timedg.com/com_sub.php
+url::sj.timedg.com
+url::m.weather.com.cn
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.LoadingActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.activity

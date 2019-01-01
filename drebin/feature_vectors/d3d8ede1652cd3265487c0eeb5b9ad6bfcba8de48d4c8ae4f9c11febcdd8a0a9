@@ -1,0 +1,9 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::appwidgetex0050
+intent::android.intent.category.LAUNCHER
+service_receiver::HSWidgetProvider
+provider::android.appwidget.provider
+activity::.appwidgetex0050
+service_receiver::wallService

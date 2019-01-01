@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://www.sweepyto.net
+intent::android.intent.action.MAIN
+activity::.Sweepyto
+intent::android.intent.category.LAUNCHER
+url::www.sweepyto.net

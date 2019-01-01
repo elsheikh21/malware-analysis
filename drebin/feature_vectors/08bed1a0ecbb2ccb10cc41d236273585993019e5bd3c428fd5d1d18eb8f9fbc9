@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.Calculator
+intent::android.intent.action.MAIN
+url::http://schemas.android.com/apk/res/com.gueei.android.binding
+real_permission::android.permission.INTERNET
+url::www.gueei.com
+url::http://www.gueei.com/android-binding/
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->setContentView
+url::schemas.android.com

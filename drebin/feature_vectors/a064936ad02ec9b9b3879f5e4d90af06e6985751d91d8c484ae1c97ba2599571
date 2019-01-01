@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.dbc
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://spar0wtech.com/dbc91/decaf/
+url::http://spar0wtech.com/db91/like.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://spar0wtech.com/dbc91/
+url::http://spar0wtech.com/dbc91/french/
+url::spar0wtech.com
+url::http://spar0wtech.com/dbc91/full-city/

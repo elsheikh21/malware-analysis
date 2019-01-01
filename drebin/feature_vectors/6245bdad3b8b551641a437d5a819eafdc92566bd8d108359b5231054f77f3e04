@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::JanesHotel
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.JanesHotel
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

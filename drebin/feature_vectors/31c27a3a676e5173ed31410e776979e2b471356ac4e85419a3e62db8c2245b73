@@ -1,0 +1,46 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::NativeBrowser
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+activity::Achievement Status
+service_receiver::.BillingService
+permission::android.permission.GET_TASKS
+api_call::android/content/ContentResolver;->query
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+call::HttpPost
+api_call::android/content/Context;->startActivity
+url::http://a.admob.com/f0?
+activity::Dashboard
+call::Cipher(PBEWithSHA256And256BitAES-CBC-BC)
+activity::Explore High Scores
+api_call::java/lang/Runtime;->exec
+permission::com.android.vending.BILLING
+activity::IntroFlow
+activity::Settings
+service_receiver::.BillingReceiver
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::Explore Leaderboards
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::.VuvuSimon
+url::api.openfeint.com
+url::a.admob.com
+api_call::android/webkit/WebView
+activity::Explore Achievements
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::https://api.openfeint.com
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+activity::VuvuSimon
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService
+url::schemas.android.com

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.AboutView
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Constitution
+real_permission::android.permission.INTERNET
+activity::.SearchView
+call::getSystemService

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://inwoon.net:8000/Radio_Memphis
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+api_call::java/net/ServerSocket
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::inwoon.net
+real_permission::android.permission.INTERNET
+service_receiver::.AudioService
+call::getSystemService
+activity::.RadioMemphisActivity

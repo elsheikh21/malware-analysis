@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://ebookhow.info/AndroidMoney/Creator.html
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://ebookhow.info/AndroidMoney/MobileMob.html
+url::http://ebookhow.info/AndroidMoney/Theme.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.LAUNCHER
+url::http://ebookhow.info/AndroidMoney/Publisher.html
+activity::.SplashActivity
+url::ebookhow.info
+call::getSystemService

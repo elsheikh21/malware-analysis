@@ -1,0 +1,13 @@
+service_receiver::Android Donut-tan Widget
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+service_receiver::.androidservice
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+provider::.appwidgetprovider
+provider::android.appwidget.provider
+call::getSystemService
+activity::.appwidgetactivity

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::market.android.com
+api_call::android/content/ContentResolver;->query
+activity::.CRM_actisoftTab
+permission::android.permission.WRITE_CALENDAR
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+url::https://market.android.com/details?id%3Dcom.actisoft.app.crm

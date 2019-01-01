@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+call::Cipher(PBEWithMD5AndDES)
+url::http://www.cosmopolitan.com/celebrity/news/rss/
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://feeds.sciencedaily.com/sciencedaily
+url::feeds.sciencedaily.com
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::www.cosmopolitan.com
+call::HttpPost
+activity::.ScienceMain
+api_call::java/net/URL;->openConnection

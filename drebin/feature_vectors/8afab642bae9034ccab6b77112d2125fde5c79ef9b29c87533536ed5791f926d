@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Pocket Penguins
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getPackageInfo
+permission::android.permission.DISABLE_KEYGUARD

@@ -1,0 +1,9 @@
+service_receiver::arnodenhond.give.InstallReceiver
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.Give
+url::http://market.android.com/details?id%3Darnodenhond.give&referrer%3D
+intent::android.intent.category.LAUNCHER
+url::http://chart.googleapis.com/chart?cht%3Dqr&chs%3D250x250&chld%3DL
+url::chart.googleapis.com

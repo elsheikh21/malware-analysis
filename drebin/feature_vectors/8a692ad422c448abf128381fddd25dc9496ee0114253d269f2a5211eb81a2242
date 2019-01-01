@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Main
+permission::android.permission.WRITE_CALENDAR
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR

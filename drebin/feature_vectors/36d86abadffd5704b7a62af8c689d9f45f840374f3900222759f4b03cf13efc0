@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+intent::android.intent.action.MAIN
+url::http://www.facebook.com/otothel.apps
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.MainActivity
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+call::getSystemService

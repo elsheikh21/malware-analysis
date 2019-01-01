@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://www.ibuypower.com/IBPSurvey/Survey2.html
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::www.ibuypower.com
+url::http://www.ibuypower.com/iPhoneService.svc/CheckStatus
+url::http://www.ibuypower.com/iPhoneService.svc/getGallerys
+url::http://www.ibuypower.com/iPhoneService.svc/newsletter
+call::getSystemService
+api_call::java/net/URL;->openStream
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::welcomescreen
+url::http://www.ibuypower.com/iPhoneService.svc/getUnitView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.welcomescreen
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.CHANGE_NETWORK_STATE

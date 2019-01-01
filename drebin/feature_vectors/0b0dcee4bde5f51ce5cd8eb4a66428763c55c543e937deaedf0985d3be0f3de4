@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+service_receiver::.HcBatchSmsService
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/gsm/SmsManager;->sendMultipartTextMessage

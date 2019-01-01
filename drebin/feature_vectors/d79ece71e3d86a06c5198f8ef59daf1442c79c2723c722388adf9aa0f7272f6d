@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.zoovision.com
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Zootwo
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www.zoovision.com
+url::http://www.zoovision.com/android/android.xml

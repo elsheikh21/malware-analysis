@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::Katy Perry Photo Stream
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.MainNavigationActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.webkit.permission.PLUGIN
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

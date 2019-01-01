@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+activity::uk.co.fordartworks.SourcesLib.Sources
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+activity::uk.co.fordartworks.SourcesLib.Preferences
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::.Sources

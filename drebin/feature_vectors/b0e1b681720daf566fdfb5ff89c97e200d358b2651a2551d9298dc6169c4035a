@@ -1,0 +1,9 @@
+activity::.GloftSTFI
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.netmite.com
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

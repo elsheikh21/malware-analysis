@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.aena-aeropuertos.es/csee/Satellite/infovuelos/es/
+activity::.vaena
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Informacion
+url::http://www.aena.es/csee/ContentServer?pagename%3DHerramientas/PDA/VuelosTiempoReal
+permission::android.permission.INTERNET
+activity::.Funciona
+url::www.aena.es
+real_permission::android.permission.INTERNET
+url::www.aena-aeropuertos.es
+activity::.Instrucciones
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://www.tabloidpcplus.com/category/tutorial/
+url::http://www.tabloidpcplus.com/category/aktual/
+intent::android.intent.action.MAIN
+url::http://www.tabloidpcplus.com/category/review-produk/
+activity::.PCplusDroid
+permission::android.permission.INTERNET
+url::http://www.tabloidpcplus.com
+intent::android.intent.category.DEFAULT
+activity::.PCplusListActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www.tabloidpcplus.com/category/baru-terbit/
+activity::.AboutPCplusDroid
+real_permission::android.permission.INTERNET
+url::www.tabloidpcplus.com

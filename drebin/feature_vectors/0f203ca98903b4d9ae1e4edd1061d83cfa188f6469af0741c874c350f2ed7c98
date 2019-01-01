@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.webaplicacion.com
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+url::http://www.webaplicacion.com/pong/index.php?n%3D
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

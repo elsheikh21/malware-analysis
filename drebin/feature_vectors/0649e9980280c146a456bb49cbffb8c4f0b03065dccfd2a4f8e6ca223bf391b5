@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://ecoparcel.eu/?Webservice.GetParcelStatusInfo
+activity::searchresults
+activity::statusinfo
+intent::android.intent.action.MAIN
+activity::.ecoparcel
+url::ecoparcel.eu
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://ecoparcel.eu/?Webservice.GetParcelStatuses
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::HttpPost
+call::getSystemService

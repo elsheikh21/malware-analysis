@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+service_receiver::com.sds.android.ttpod.skin.nanian_45.SkinReleaseService
+call::Read/Write External Storage

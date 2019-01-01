@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::Phoenix Traffic

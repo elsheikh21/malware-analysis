@@ -1,0 +1,25 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+url::twitter.com
+permission::android.permission.CALL_PHONE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+permission::android.permission.INSTALL_PACKAGES
+url::http://twitter.com/intent/status%3D
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::printStackTrace
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+url::http://www.made-in-china.com
+url::www.made-in-china.com
+feature::android.hardware.telephony
+api_call::android/content/ContentResolver;->openFileDescriptor
+api_call::android/app/Activity;->startActivity
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+url::http://m.facebook.com/sharer.php?u%3D
+intent::android.intent.category.LAUNCHER
+activity::.activity
+activity::.SplashActivity

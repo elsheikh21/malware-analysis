@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::songsquid.com
+url::http://songsquid.com/
+real_permission::android.permission.WAKE_LOCK
+url::http://market.android.com/details?id%3Dcom.cyberactivities.guitarsquid
+url::market.android.com
+api_call::android/media/MediaPlayer;->start
+url::http://songsquid.com/mobileLogin.php5?
+call::getSystemService
+url::http://songsquid.com/altShopChoice.php5?t%3D
+url::http://cyberactivities.com/ads/guitarsquidmusicsearch.html
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+activity::.GuitarSquidFreeActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSubscriberId
+real_permission::android.permission.INTERNET
+url::http://songsquid.com/tabsearch.
+intent::android.intent.category.LAUNCHER
+url::cyberactivities.com
+activity::com.cyberactivities.guitarsquidfree.GuitarSquidFreeActivity

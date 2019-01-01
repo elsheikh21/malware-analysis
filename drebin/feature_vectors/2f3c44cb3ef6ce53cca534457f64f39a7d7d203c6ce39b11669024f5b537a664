@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+service_receiver::com.moo.android.inputmethod.latin.languagepack.DummyReceiver
+intent::android.intent.category.LANGUAGE_PACK
+intent::android.intent.action.MAIN

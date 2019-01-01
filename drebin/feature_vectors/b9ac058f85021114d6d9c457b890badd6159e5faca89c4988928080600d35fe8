@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.ChapterActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+activity::.CoverActivity
+activity::Home
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::.Home
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::getSystemService

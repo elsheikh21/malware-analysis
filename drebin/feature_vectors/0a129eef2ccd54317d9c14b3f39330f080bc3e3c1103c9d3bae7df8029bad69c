@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+intent::android.intent.action.MAIN
+url::7.2.0.46
+permission::android.permission.CALL_PHONE
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::down2.uc.cn
+feature::android.hardware.telephony
+api_call::java/net/HttpURLConnection
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::http://gw.youmi.net/reqad
+activity::.frameActive
+intent::android.intent.category.LAUNCHER
+url::gw.youmi.net
+url::http://down2.uc.cn/Down2/zhangxp/youmi.net/UCWEB-7.2.0.46-800-139-10051919.apk
+real_permission::android.permission.INTERNET
+url::http://gw.youmi.net/clkad
+url::schemas.android.com

@@ -1,0 +1,10 @@
+permission::android.permission.WAKE_LOCK
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.GameActivity
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::.TitleActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,9 @@
+url::http://www.neolinknet.com/service/dailyquote/index.php
+activity::.Quote
+intent::android.intent.action.MAIN
+url::www.neolinknet.com
+permission::android.permission.INTERNET
+feature::android.hardware.touchscreen
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

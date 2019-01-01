@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.ProceedActivity
+intent::android.intent.action.RUN
+activity::.Athg2SmsMainActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.ConvSetEditActivity
+activity::.help.HelpActivity
+activity::.status.Done
+feature::android.hardware.telephony
+activity::.status.Error
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_SMS
+activity::.ConvSetsListActivity
+activity::.ConversionFormActivity

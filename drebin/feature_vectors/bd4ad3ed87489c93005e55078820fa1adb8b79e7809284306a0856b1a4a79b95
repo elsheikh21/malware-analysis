@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+activity::MenuActivity
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+permission::android.permission.READ_LOGS
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.READ_PHONE_STATE
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/telephony/TelephonyManager;->getDeviceId
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+intent::com.xtralogic.logcollector.intent.action.SEND_LOG
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getPackageInfo
+call::getDeviceId
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

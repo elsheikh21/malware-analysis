@@ -1,0 +1,60 @@
+feature::android.hardware.touchscreen
+activity::.activity.SplashScreenActivity
+service_receiver::com.starpl.platform.c2dm.PushReceiver
+call::printStackTrace
+service_receiver::%EC%B1%EC%EC%BD%EC!(%EC%BD%EA%B3%A0%EC%EB %EC%B1 4x2)
+permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::getPackageInfo
+intent::com.google.android.c2dm.intent.RECEIVE
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::partner.starpl.com
+url::http://www.google.com/search?q%3D
+permission::android.permission.USE_CREDENTIALS
+service_receiver::%EC%B1%EC%EC%BD%EC!(%EC%BD%EC%A7%EC%EC %EC%B1 3x2)
+url::www.google.com
+api_call::android/content/Context;->startActivity
+service_receiver::.widget.WidgetService
+url::http://file.starpl.com
+url::http://m.book.naver.com/search/search.nhn?searchCond.keyword%3D
+permission::com.google.android.c2dm.permission.RECEIVE
+real_permission::android.permission.VIBRATE
+service_receiver::%EC%B1%EC%EC%BD%EC!(%EC%BD%EA%B3%A0%EC%EB %EC%B1 3x2)
+call::getSystemService
+service_receiver::%EC%B1%EC%EC%BD%EC!(%EC%BD%EC%A7%EC%EC %EC%B1 4x2)
+permission::android.permission.VIBRATE
+activity::.activity.PushAlertDialogActivity
+intent::com.google.android.c2dm.intent.REGISTRATION
+permission::android.permission.CAMERA
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES)
+activity::.SplashScreenActivity
+url::http://partner.starpl.com/partner/sinbiun/main/info/tos\
+permission::com.starpl.android.readbook.permission.C2D_MESSAGE
+permission::android.permission.GET_ACCOUNTS
+url::http://m.book.daum.net/mobile/search/book.do?query%3D
+url::m.book.naver.com
+url::file.starpl.com
+url::http://partner.starpl.com/partner/readbook/main/event/list
+call::Read/Write External Storage
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.activity.SettingProfileImageActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.camera
+url::http://starpl.com\
+call::Cipher(Blowfish)
+url::m.book.daum.net
+url::http://shared.starpl.com/images/home/common/img_profile.gif
+feature::android.hardware.screen.portrait
+url::starpl.com\
+intent::android.intent.category.LAUNCHER
+activity::.activity.SettingAlarmActivity
+url::shared.starpl.com
+provider::android.appwidget.provider

@@ -1,0 +1,14 @@
+provider::bz.ktk.bubble.orientationcalibrationprovider
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.SettingsPanel
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.Bubble
+activity::Bubble
+call::getSystemService

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Info
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+service_receiver::Star Trek Clock Widget 4X4

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::http://uzumaki.net/iromihon.html
+call::printStackTrace
+feature::android.hardware.screen.portrait
+activity::.IromihonActivity
+intent::android.intent.category.LAUNCHER
+url::uzumaki.net
+activity::.ColorListActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

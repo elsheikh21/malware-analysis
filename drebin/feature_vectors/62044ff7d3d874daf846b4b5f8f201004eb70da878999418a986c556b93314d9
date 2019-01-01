@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.runescape.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.runescape.com/title.ws
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.HelloSockets
+api_call::java/net/URL;->getContent

@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+activity::.Prefs
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.AppHomeActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::getSystemService
+call::Cipher(cbc)

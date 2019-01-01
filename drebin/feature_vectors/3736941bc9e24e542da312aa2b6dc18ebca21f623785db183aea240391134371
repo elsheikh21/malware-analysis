@@ -1,0 +1,17 @@
+url::https://data.flurry.com/aar.do
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::data.flurry.com
+call::HttpPost
+activity::.EventList
+activity::AboutActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::EventDetails
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+url::http://data.flurry.com/aar.do
+call::getSystemService

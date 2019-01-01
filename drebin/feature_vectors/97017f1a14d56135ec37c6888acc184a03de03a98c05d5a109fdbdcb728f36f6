@@ -1,0 +1,16 @@
+url::http://www.moby.ch/default.cfm/s_page/51370/s_name/beule
+feature::android.hardware.touchscreen
+url::forum.androcom.net
+url::http://forum.androcom.net/?theme%3D5
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.moby.ch
+activity::.Main
+activity::.ViewURL
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+api_call::android/webkit/WebView
+url::http://www.moby.ch/
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+real_permission::android.permission.INTERNET

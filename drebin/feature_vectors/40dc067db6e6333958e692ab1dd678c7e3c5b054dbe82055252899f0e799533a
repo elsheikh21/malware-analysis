@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.StartAnimation
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.openmovieproductions.com
+call::getSystemService
+call::HttpPost
+url::http://www.openmovieproductions.com/frictionMobile/db_interface/add_score.php

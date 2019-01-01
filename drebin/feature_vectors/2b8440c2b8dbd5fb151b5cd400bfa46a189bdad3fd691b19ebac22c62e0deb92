@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Main
+url::www.eldar.org
+url::http://www.eldar.org/how_to_get_fortune.html
+provider::com.kostmo.fortune.provider
+permission::android.permission.INTERNET
+activity::.activity.Main
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::http://www.eldar.org/cgi-bin/fortune.pl

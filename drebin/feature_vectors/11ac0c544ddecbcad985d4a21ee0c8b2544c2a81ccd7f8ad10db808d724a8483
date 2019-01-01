@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Intro
+activity::TestPages
+feature::android.hardware.screen.portrait
+url::onvideo1.com
+url::http://onvideo1.com/rotator/?g%3Dappsoundrd1
+intent::android.intent.category.LAUNCHER
+url::http://onvideo1.com/rotator/?g%3Dappperstest1

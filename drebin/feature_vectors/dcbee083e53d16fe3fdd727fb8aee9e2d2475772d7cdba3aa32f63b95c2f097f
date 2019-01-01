@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+feature::android.software.live_wallpaper
+activity::NightSeaSettings
+permission::android.permission.INTERNET

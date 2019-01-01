@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::schemas.xmlsoap.org
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+api_call::java/net/Socket
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://schemas.xmlsoap.org/soap/envelope/\
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_CONTACTS
+call::getSimCountryIso
+permission::android.permission.READ_CONTACTS
+call::HttpPost
+call::getSystemService
+activity::.p2p

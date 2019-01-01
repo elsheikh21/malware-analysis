@@ -1,0 +1,29 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+activity::com.soonrtelia.activities.WebPageActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://www.youtube.com/watch?v%3D
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/Context;->startActivity
+activity::.WebPageActivity
+real_permission::android.permission.VIBRATE
+api_call::android/content/ContentResolver;->openOutputStream
+url::http://www.youtube.com/watch?v%3Dw3iYHF2HdUA
+call::getSystemService
+service_receiver::com.soonrtelia.NewMediaReciever
+service_receiver::Send to (SoonR)
+intent::android.intent.action.MEDIA_SCANNER_SCAN_FILE
+call::Obfuscation(Base64)
+feature::android.hardware.screen.landscape
+service_receiver::com.soonrtelia.service.SoonrService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+url::www.youtube.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

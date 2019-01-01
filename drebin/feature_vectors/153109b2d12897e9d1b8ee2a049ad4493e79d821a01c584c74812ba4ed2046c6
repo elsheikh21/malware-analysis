@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+activity::.MonsterDetailsSpecialAttacks
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+url::http://www.amazon.com/gp/mas/dl/android?p%3D
+activity::.FirstStart
+activity::.MonsterListTabbed
+api_call::java/net/Socket
+url::www.amazon.com
+activity::.MainTabbed
+activity::Summoner - Monster Details
+call::getSystemService
+activity::.MonsterDetailsSpells
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MonsterDetailsFeats
+activity::.MonsterDetailsAttacks
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.MonsterDetailsSkills
+activity::.MonsterDetailsSpecialQuality

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://isitup.org/
+activity::.About
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+activity::.Results
+activity::.Isitup
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.category.LAUNCHER
+url::crazycaptain.com
+url::http://crazycaptain.com
+real_permission::android.permission.INTERNET
+url::isitup.org
+intent::android.intent.action.VIEW

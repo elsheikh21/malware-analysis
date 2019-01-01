@@ -1,0 +1,7 @@
+activity::.sheep
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+call::getSystemService

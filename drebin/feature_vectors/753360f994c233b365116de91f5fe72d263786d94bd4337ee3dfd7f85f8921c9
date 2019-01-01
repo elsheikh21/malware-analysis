@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.videozona.rs
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.VideoZona
+permission::android.permission.INTERNET
+url::http://www.videozona.rs/android/index.php
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::com.sbb.videozona.VideoZona

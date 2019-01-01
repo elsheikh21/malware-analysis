@@ -1,0 +1,11 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.FirstMenu
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::com.mm.app.ekow.main.UnitList
+intent::android.intent.category.LAUNCHER
+activity::com.mm.app.ekow.main.UnitDetails
+feature::android.hardware.screen.portrait
+activity::com.mm.app.ekow.main.ListTab
+activity::.main.Credits

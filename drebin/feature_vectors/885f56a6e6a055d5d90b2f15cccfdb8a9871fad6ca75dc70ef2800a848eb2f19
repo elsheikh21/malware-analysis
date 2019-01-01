@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.SplashScreen
+permission::android.permission.INTERNET
+url::m.keystonecolorado.com
+real_permission::android.permission.INTERNET
+url::http://m.keystonecolorado.com
+intent::android.intent.category.LAUNCHER

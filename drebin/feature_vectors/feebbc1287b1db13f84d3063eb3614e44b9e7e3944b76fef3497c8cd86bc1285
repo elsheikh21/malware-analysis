@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.TransparentActivity
+url::apal.3322.org
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+url::http://apal.3322.org/pal.zip

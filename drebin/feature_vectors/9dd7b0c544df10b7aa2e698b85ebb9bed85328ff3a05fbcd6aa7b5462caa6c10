@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+activity::.MahayaApplicationOne
+intent::android.intent.action.MAIN
+activity::MahayaApplicationOne
+intent::android.intent.category.LAUNCHER

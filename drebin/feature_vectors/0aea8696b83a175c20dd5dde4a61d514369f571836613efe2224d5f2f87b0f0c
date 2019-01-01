@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::BookmarkymarkActivity
+activity::.BookmarkymarkActivity
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+intent::android.intent.category.LAUNCHER
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query

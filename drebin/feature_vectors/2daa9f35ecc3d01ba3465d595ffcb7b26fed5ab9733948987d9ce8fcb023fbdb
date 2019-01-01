@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.themeninred.com/stats
+url::http://mobile.themeninred.com/roster
+intent::android.intent.action.MAIN
+url::http://mobile.themeninred.com/about
+url::http://mobile.themeninred.com/schedule
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::The Men in Red
+url::http://mobile.themeninred.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::mobile.themeninred.com

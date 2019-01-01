@@ -1,0 +1,15 @@
+activity::com.exgage.bean.home.PersonalPage
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::com.exgage.bean.menu.About
+api_call::android/content/Context;->startActivity
+activity::.Main
+permission::android.permission.INTERNET
+activity::com.exgage.bean.discussion.DiscussionList
+real_permission::android.permission.INTERNET
+activity::com.exgage.util.ExgageActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+call::HttpPost
+activity::com.exgage.bean.discussion.DiscussionDetail

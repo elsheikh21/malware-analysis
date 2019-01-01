@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://ebookhow.info/InsuHealth/Video_Cover.html
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::http://ebookhow.info/InsuHealth/What.html
+url::http://ebookhow.info/InsuHealth/How.html
+url::http://ebookhow.info/InsuHealth/More.html
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.SplashActivity
+url::ebookhow.info
+call::getSystemService

@@ -1,0 +1,16 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.location.network
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://slideme.org/application/phone-locator
+url::http://appserver3l.no-ip.biz:8090/ServerGPS/?username%3D
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+url::slideme.org
+url::appserver3l.no-ip.biz
+intent::android.intent.category.LAUNCHER
+activity::Mapa
+activity::.NooYawk
+real_permission::android.permission.INTERNET

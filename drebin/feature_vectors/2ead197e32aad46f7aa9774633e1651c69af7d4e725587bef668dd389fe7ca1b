@@ -1,0 +1,13 @@
+activity::AllGamesActivity
+feature::android.hardware.touchscreen
+activity::StatsActivity
+intent::android.intent.action.MAIN
+activity::ScorecardActivity
+activity::CurHandActivity
+feature::android.hardware.screen.portrait
+activity::StatsListActivity
+activity::.HGActivity
+activity::NewGameActivity
+activity::ScoreHandActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

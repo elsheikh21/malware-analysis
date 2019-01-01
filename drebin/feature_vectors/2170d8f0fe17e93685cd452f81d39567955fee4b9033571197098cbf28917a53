@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.SecertActivity
+intent::android.intent.action.MAIN
+activity::.delte
+intent::android.intent.category.LAUNCHER
+activity::.pass
+call::getSystemService

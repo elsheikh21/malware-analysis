@@ -1,0 +1,14 @@
+url::https://market.android.com/details?id%3Dcom.trandshow.game.yey
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::https://market.android.com/details?id%3Dcom.trandshow.game.bbang
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+url::www.youtube.com
+feature::android.hardware.screen.portrait
+url::https://market.android.com/details?id%3Dcom.trendshow.game.ddak
+url::http://www.youtube.com/watch?v%3DDrvbzXtmJ-w
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

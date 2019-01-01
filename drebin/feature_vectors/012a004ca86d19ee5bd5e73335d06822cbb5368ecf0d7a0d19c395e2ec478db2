@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.LocaleSetter
+service_receiver::LangPicker
+intent::android.intent.action.MAIN
+permission::android.permission.CHANGE_CONFIGURATION
+intent::android.intent.category.LAUNCHER
+service_receiver::LangPicker$LocaleChangerReceiver
+provider::android.appwidget.provider

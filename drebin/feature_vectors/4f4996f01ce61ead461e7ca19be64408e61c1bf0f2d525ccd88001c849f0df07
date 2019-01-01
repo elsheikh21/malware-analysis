@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.TaskListActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::.DailyTaskService
+activity::.activity
+call::getSystemService

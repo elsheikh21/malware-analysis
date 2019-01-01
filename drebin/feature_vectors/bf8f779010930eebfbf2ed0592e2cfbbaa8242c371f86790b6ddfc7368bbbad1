@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.DemoMain
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_PHONE_STATE
+call::printStackTrace
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+url::http://www.facebook.com/Tonee.org
+url::www.tonee.org
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.AcApplicationLunchers
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.AcSettings
+url::tonee.org
+activity::.AcEULA
+activity::.AcSquareLuncher03
+activity::.AcSquareLuncher02
+activity::.AcSquareLuncher01
+activity::.AcSquareLuncher06
+activity::.AcSquareLuncher05
+activity::.AcSquareLuncher04
+url::http://www.tonee.org
+api_call::android/app/Activity;->startActivity
+url::www.facebook.com
+url::http://tonee.org/em10gjb10tx.php
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::.AcNewspaper
+provider::android.appwidget.provider

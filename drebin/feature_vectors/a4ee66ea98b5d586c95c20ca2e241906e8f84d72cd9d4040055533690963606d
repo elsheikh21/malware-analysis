@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.google.com
+url::www.youtube.com
+url::http://www.google.com/search?q%3Dyoutube+
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.youtube.com/watch?v%3D
+real_permission::android.permission.INTERNET
+activity::.sayandplay
+api_call::java/net/URL;->openConnection

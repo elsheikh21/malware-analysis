@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+activity::.should_i_drive
+permission::android.permission.CALL_PRIVILEGED
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::Enter Weight:
+activity::Enter Elapsed Time:
+api_call::android/content/Context;->startActivity
+call::getSystemService

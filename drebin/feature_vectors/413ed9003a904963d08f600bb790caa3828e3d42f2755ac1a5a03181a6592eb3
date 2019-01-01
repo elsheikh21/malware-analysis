@@ -1,0 +1,67 @@
+feature::android.hardware.touchscreen
+activity::DownladList
+activity::com.access_company.android.nflifebrowser_zh.app.nfbrowser.BrowserActivity
+call::getPackageInfo
+call::printStackTrace
+permission::android.permission.ACCESS_COARSE_LOCATION
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::MultiSiteNavigation activity
+url::searchranking.yahoo.co.jp
+url::netad.access-company.com
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::HttpPost
+permission::android.permission.ACCESS_MOCK_LOCATION
+url::https://netad.access-company.com/ad/browser_bookmarks
+feature::android.hardware.location.gps
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::Preference activity
+url::https://netad.access-company.com/ad/
+api_call::android/content/Context;->startActivity
+url::market
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.location
+activity::com.access_company.android.nflifebrowser_zh.app.nfbrowser.NFLifeBrowserActivity
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.VIBRATE
+url::https://netad.access-company.com/ad/browser_failures
+call::getSystemService
+call::Read/Write External Storage
+activity::Preference activity for Website Settings
+url::http://searchranking.yahoo.co.jp/rss/burst_ranking-rss.xml
+real_permission::android.permission.BLUETOOTH
+activity::com.access_company.android.nflifebrowser_zh.app.nfbrowser.AboutViewerActivity
+permission::android.permission.BLUETOOTH
+call::Obfuscation(Base64)
+permission::android.permission.BLUETOOTH_ADMIN
+provider::com.access_company.android.nflifebrowser_zh.scrapprovider
+activity::.NFLifeBrowserActivity
+url::https://netad.access-company.com/ad/ad_account_session
+url::https://netad.access-company.com/ad/browser_diagnoses
+provider::com.access_company.android.nflifebrowser_zh.bookmarkprovider
+api_call::android/bluetooth/BluetoothAdapter;->cancelDiscovery
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+real_permission::android.permission.BLUETOOTH_ADMIN
+api_call::android/bluetooth/BluetoothAdapter;->getBondedDevices
+intent::android.intent.action.MAIN
+activity::Scrapbook
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::com.access_company.android.nflifebrowser_zh.downloadprovider
+feature::android.hardware.bluetooth
+activity::Preference activity for GeoLocation Settings
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+activity::Preference activity for WebDatabase Settings
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::com.access_company.android.nflifebrowser_zh.app.nfbrowser.HelpActivity
+url::http://market
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::ScrapbookEdit

@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::com.concreterose.android.unique_rabbit.UniqueRabbit
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+api_call::android/os/Vibrator;->vibrate
+activity::com.concreterose.android.unique_rabbit.PauseActivity
+call::getPackageInfo
+feature::android.hardware.screen.landscape
+activity::.UniqueRabbit
+real_permission::android.permission.VIBRATE
+activity::com.concreterose.android.unique_rabbit.SettingsActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

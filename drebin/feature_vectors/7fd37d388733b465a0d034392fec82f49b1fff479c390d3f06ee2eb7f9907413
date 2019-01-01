@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.google.co.jp
+url::http://www.google.co.jp/
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER

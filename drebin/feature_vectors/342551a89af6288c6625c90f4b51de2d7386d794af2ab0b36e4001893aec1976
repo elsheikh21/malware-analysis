@@ -1,0 +1,16 @@
+activity::com.nokor.proverbs.activity.MyLikeViewActivity
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+activity::com.nokor.proverbs.activity.MainActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::com.nokor.proverbs.activity.CategoryListActivity
+call::getPackageInfo
+activity::com.nokor.proverbs.activity.SuggestActivity
+activity::com.nokor.proverbs.activity.AboutActivity
+call::getSystemService
+activity::com.nokor.proverbs.activity.ProverbViewActivity
+activity::com.nokor.proverbs.activity.SuggestInfoActivity

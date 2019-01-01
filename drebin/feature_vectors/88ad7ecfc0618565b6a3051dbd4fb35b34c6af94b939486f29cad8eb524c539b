@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.S2_ImageActivity
+activity::.S2_IngridientsActivity
+api_call::java/net/URL;->openConnection
+activity::.PreferencesActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.AboutActivity
+activity::.S1_Favorites
+permission::android.permission.INTERNET
+activity::.S1_RecipesListActivity
+intent::android.intent.category.LAUNCHER
+activity::.S2_Activity
+activity::.S2_RecipeActivity
+real_permission::android.permission.INTERNET
+activity::.S2_NotesActivity
+call::getSystemService
+activity::.S1_Activity

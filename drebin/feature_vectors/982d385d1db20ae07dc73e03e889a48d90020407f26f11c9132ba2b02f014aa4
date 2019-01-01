@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::images.ad-maker.info
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+service_receiver::Receiver
+real_permission::android.permission.INTERNET
+activity::Setting
+intent::android.intent.category.LAUNCHER
+activity::.Setting
+url::http://images.ad-maker.info/apps/wjqi611a7h2t.html
+call::getSystemService

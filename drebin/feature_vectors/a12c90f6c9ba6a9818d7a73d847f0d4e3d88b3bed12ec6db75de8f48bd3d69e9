@@ -1,0 +1,5 @@
+api_call::android/content/ContentResolver;->openInputStream
+feature::android.hardware.touchscreen
+call::printStackTrace
+call::getSystemService
+real_permission::android.permission.READ_CONTACTS

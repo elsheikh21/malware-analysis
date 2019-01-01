@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ServerListActivity
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+api_call::java/net/Socket

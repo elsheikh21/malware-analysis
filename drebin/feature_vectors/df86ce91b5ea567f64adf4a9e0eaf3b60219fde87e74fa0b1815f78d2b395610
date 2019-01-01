@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::jkdapps.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.homeimprovement
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://jkdapps.com/home_improvement.php

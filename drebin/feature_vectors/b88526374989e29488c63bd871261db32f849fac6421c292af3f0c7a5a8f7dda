@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+service_receiver::DateWidget (Transparent)
+intent::android.intent.action.DATE_CHANGED
+provider::android.appwidget.provider
+service_receiver::DateWidget (Gloss)

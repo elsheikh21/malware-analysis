@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.HOME
+permission::android.permission.CALL_PHONE
+activity::.Dialify
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.READ_CONTACTS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+service_receiver::.StartupIntentReceiver

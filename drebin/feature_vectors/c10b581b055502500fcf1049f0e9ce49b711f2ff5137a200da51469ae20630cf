@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://bartbmore.com/brapp
+url::http://m.beatport.com/release/264310
+url::m.beatport.com
+activity::.infoScreen
+intent::android.intent.category.LAUNCHER
+activity::.brap
+url::bartbmore.com
+url::http://bartbmore.com
+call::getSystemService

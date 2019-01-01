@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::.MessageViewer
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::com.google.android.c2dm.C2DMBroadcastReceiver
+real_permission::android.permission.WAKE_LOCK
+service_receiver::com.dreamstep.wCouponCodeandDeals.Server.C2DMClientReceiver
+permission::com.google.android.c2dm.permission.RECEIVE
+activity::.MainNavigationActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/media/MediaPlayer;->stop
+intent::com.google.android.c2dm.intent.RECEIVE
+intent::com.google.android.c2dm.intent.REGISTRATION
+api_call::android/content/Context;->startService
+api_call::android/webkit/WebView
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+permission::android.webkit.permission.PLUGIN
+intent::android.intent.category.LAUNCHER
+activity::Coupon Code and Deals
+permission::com.dreamstep.wCouponCodeandDeals.permission.C2D_MESSAGE

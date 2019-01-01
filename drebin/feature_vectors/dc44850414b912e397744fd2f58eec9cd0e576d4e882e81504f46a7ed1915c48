@@ -1,0 +1,11 @@
+url::wap.infuns.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainMidlet
+api_call::android/content/Context;->startActivity
+url::http://wap.infuns.com
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::http://www.netmite.com/android/srv/2.0/upload/Diablo_(240x320).jar
+call::getPackageInfo
+url::www.netmite.com

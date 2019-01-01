@@ -1,0 +1,10 @@
+activity::.EncryptNote
+feature::android.hardware.touchscreen
+activity::.Note
+activity::.ChangePassword
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.NoteEdit
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

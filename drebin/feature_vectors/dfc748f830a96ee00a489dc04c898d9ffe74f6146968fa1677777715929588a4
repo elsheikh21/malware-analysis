@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Help
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+api_call::android/provider/Settings$System;->putInt
+activity::WidgetSettings
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

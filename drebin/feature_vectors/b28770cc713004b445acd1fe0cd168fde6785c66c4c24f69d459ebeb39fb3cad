@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.templefight.com/stats
+url::http://mobile.templefight.com/roster
+intent::android.intent.action.MAIN
+url::http://mobile.templefight.com/about
+activity::Temple Fight
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.templefight.com/schedule
+url::http://mobile.templefight.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::mobile.templefight.com

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::www.vbox7.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://vbox7.com/%s
+permission::android.permission.ACCESS_NETWORK_STATE
+call::HttpPost
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::vbox7.com
+real_permission::android.permission.INTERNET
+url::http://www.vbox7.com/play/magare.do
+intent::android.intent.category.BROWSABLE
+activity::.vbox7handler
+intent::android.intent.action.VIEW

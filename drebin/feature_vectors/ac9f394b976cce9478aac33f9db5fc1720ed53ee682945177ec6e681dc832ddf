@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Comic
+feature::android.hardware.screen.portrait
+url::www.the3dcgfxcompany.com
+activity::.ThanksHalleysComet
+url::http://www.the3dcgfxcompany.com
+intent::android.intent.category.LAUNCHER

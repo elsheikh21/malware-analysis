@@ -1,0 +1,15 @@
+url::http://nyireland.com/web
+feature::android.hardware.touchscreen
+url::http://nyireland.com/web/video/prodigalsvideo.mp4
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://nyireland.com/web/?page_id%3D5
+activity::.P4
+activity::.P2
+activity::.P3
+activity::.Prodigals
+activity::.P1
+url::nyireland.com
+intent::android.intent.category.LAUNCHER

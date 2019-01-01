@@ -1,0 +1,25 @@
+url::www.mti-llp.com
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+activity::.RePlayItNowApp
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+url::http://www.apple.com/DTDs/PropertyList-1.0.dtd\
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.DEFAULT
+call::getSystemService
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->listen
+call::Obfuscation(Base64)
+url::www.apple.com
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+url::http://www.mti-llp.com
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

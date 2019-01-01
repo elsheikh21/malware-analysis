@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.z020
+url::http://yoku-bo.com/
+intent::android.intent.action.MAIN
+url::yoku-bo.com
+intent::android.intent.category.LAUNCHER

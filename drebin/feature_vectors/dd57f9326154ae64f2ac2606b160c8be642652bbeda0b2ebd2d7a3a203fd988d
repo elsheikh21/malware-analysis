@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.firefighterscheule
+activity::com.netkruzer.fireshiftsZ3_48_96.firefighterscheule
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.READ_CONTACTS

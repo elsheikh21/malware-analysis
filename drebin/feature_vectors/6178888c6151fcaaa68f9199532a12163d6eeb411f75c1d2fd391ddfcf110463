@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.DisplayMemory
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+activity::com.mobware4u.memorywidget.DisplayMemory
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService

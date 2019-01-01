@@ -1,0 +1,16 @@
+service_receiver::.SMSSendService
+feature::android.hardware.touchscreen
+call::sendSMS
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+api_call::android/telephony/SmsManager;->sendTextMessage
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+activity::.StartActivity
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

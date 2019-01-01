@@ -1,0 +1,10 @@
+service_receiver::fr-MsVista Analogic Clock 2x2
+feature::android.hardware.touchscreen
+service_receiver::fr-Funny Analogic Clock 2x2
+intent::android.intent.action.MAIN
+activity::.InfoActivity
+service_receiver::fr-Classic2 Analogic Clock 2x2
+service_receiver::fr-Classic1 Analogic Clock 2x2
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+service_receiver::fr-Classic3 Analogic Clock 2x2

@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.ALTERNATIVE
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+api_call::android/app/Activity;->startActivity
+url::market.android.com
+url::http://a.admob.com/f0?
+activity::.TranslateActivity
+url::ajax.googleapis.com
+url::jdsolutions.byethost24.com
+call::getSystemService
+intent::android.intent.action.GET_CONTENT
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://jdsolutions.byethost24.com/offline_translator/
+url::http://ajax.googleapis.com/ajax/services/language/translate?v%3D1.0&langpair%3D
+activity::Online translator
+url::a.admob.com
+intent::android.intent.action.VIEW
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+intent::android.intent.action.PICK
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::History
+real_permission::android.permission.INTERNET
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+service_receiver::Online translator
+url::http://market.android.com/details?id%3Dcom.libertyapps.onlinetranslator
+url::schemas.android.com

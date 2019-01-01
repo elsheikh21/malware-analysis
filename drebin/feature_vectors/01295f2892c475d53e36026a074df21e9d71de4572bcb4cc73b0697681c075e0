@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+intent::android.intent.action.BOOT_COMPLETED
+url::http://schemas.android.com/apk/res/android
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+service_receiver::.MediaChangedReceiver
+intent::android.intent.action.MEDIA_REMOVED
+service_receiver::.BootReceiver
+activity::.VoltageActivity
+intent::android.intent.action.MEDIA_MOUNTED
+call::Execution of external commands
+intent::android.intent.action.MEDIA_UNMOUNTED
+activity::.PrefsActivity
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.READ_LOGS
+intent::android.intent.category.LAUNCHER
+call::system/bin/su
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::schemas.android.com

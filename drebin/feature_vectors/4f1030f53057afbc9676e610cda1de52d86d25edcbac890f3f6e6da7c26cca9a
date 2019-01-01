@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://wap.pccwmobile.com/downloads
+activity::downloadies
+intent::android.intent.category.LAUNCHER
+activity::.downloadies
+url::wap.pccwmobile.com

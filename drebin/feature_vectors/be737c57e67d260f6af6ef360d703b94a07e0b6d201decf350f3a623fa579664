@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_PHONE_STATE
+activity::PlaylistEditor
+activity::.MainActivity
+call::Read/Write External Storage
+feature::android.hardware.screen.landscape
+activity::SettingsActivity
+call::getPackageInfo
+service_receiver::.service.MixerService
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+service_receiver::WidgetService
+real_permission::android.permission.READ_CONTACTS
+service_receiver::ForeverAloneWidgetProvider
+provider::android.appwidget.provider
+api_call::android/content/ContentResolver;->query

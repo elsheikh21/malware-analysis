@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.boniel.co.kr/mobile/main/main.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.boniel.co.kr

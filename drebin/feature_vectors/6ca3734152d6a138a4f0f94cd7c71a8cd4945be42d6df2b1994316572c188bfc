@@ -1,0 +1,11 @@
+activity::.StudyReport
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Ctudy
+activity::.W_All
+activity::.W_New
+activity::.Study
+activity::.W_Known
+call::getSystemService
+activity::.W_Guess
+intent::android.intent.category.LAUNCHER

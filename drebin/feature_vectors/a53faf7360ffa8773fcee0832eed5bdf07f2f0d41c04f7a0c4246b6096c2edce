@@ -1,0 +1,45 @@
+feature::android.hardware.touchscreen
+url::www.chmi.cz
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+activity::.CHMI
+url::portal.chmi.cz
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://portal.chmi.cz/files/portal/docs/meteo/sat/und/msgcz.und.010.hranice.png
+real_permission::android.permission.ACCESS_WIFI_STATE
+real_permission::android.permission.WAKE_LOCK
+url::http://www.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgce-ir/
+feature::android.hardware.location.gps
+url::http://www.chmi.cz/files/portal/docs/meteo/rad/mobile/r_30min.gif
+activity::.WebViewActivity
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+url::radar.bourky.cz
+activity::.AppConfigurationActivity
+url::http://portal.chmi.cz/files/portal/docs/meteo/blesk/data/
+url::http://portal.chmi.cz/files/portal/docs/meteo/sat/msg_hrit/img-msgcz-BT/
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/webkit/WebView
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->requestLocationUpdates
+url::http://www.chmi.cz/files/portal/docs/meteo/sat/und/msgce.und.010.hranice.png
+url::http://www.kaldax.org/apps
+service_receiver::CHMI 3x3
+service_receiver::CHMI 2x2
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+url::www.kaldax.org
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+provider::android.appwidget.provider
+url::http://portal.chmi.cz/files/portal/docs/meteo/rad/data_tr_png_1km/
+url::http://radar.bourky.cz/data/

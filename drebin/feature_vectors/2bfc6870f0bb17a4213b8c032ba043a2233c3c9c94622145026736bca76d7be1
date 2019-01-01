@@ -1,0 +1,17 @@
+activity::.JobSearch
+activity::.view.Countries
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+activity::.view.JobDetail
+call::printStackTrace
+permission::android.permission.INTERNET
+url::search-api.careerjet.net
+activity::.view.Recents
+intent::android.intent.category.LAUNCHER
+activity::.view.JobSearch
+url::https://search-api.careerjet.net/ad/search/json
+activity::.view.JobResults
+real_permission::android.permission.INTERNET
+activity::.view.LocationResolve

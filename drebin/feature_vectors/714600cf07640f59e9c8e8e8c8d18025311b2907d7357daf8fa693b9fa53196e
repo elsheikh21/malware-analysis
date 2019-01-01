@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+permission::android.permission.WRITE_SETTINGS
+provider::android.appwidget.provider
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.views.NO2SplashScreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.views.NO2MainActivity
+feature::android.hardware.wifi
+url::www.sensorlab.org
+url::http://www.sensorlab.org/nodos\
+url::https://sourceforge.net/projects/jmdns/
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+url::sourceforge.net
+intent::android.intent.category.LAUNCHER
+activity::.NO2SplashScreen
+permission::android.permission.CHANGE_WIFI_MULTICAST_STATE
+api_call::java/net/DatagramSocket
+real_permission::android.permission.INTERNET

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.gosiwil
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://118.219.232.135:1500/
+url::http://118.219.232.135:1500/General/Consult
+feature::android.hardware.screen.portrait
+url::http://118.219.232.135:1500/General/Community
+url::118.219.232.135
+feature::android.hardware.telephony
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+real_permission::android.permission.INTERNET

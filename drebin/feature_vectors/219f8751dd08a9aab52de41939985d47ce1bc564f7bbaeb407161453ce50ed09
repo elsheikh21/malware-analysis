@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.webkit.permission.PLUGIN
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.MainNavigationActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::Papo Furado
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

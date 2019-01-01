@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+activity::.QuietTimeMain
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+feature::android.hardware.screen.portrait
+activity::startTimer
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::QtPrefs
+service_receiver::RingerModeChanged
+call::getSystemService
+service_receiver::RingerWakeup

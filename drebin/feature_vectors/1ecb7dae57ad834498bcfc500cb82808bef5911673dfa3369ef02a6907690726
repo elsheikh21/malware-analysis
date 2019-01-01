@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::Preferences
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::AboutUs
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.QuickAlarm
+service_receiver::AlarmBroadcastReceiver
+call::getSystemService

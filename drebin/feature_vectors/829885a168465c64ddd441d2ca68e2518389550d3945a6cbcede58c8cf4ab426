@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/media/MediaPlayer;->start
+activity::.AwakenActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/provider/Settings$System;->putInt
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

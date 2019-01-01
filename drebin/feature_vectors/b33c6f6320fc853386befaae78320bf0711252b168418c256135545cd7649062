@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.Timer
+feature::android.hardware.screen.portrait
+intent::android.intent.action.MAIN
+activity::.EnableSounds
+activity::.Game
+activity::.Sequence
+intent::android.intent.category.LAUNCHER
+activity::.ColorQuest
+call::getSystemService
+activity::.Graphics

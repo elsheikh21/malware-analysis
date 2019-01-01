@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::https://www.odesk.com/services/api/auth
+activity::.search
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+url::http://www.odesk.com/api/profiles/v1/search/jobs.json
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::https://www.odesk.com/api/auth/v1/keys/tokens.json
+url::https://www.odesk.com/api/auth/v1/keys/frobs.json
+url::www.odesk.com
+real_permission::android.permission.INTERNET
+url::http://www.odesk.com/jobs/

@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.Utils.Help
+api_call::android/app/Activity;->startActivity
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://rorist.github.com/android-network-discovery/
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+url::http://download.lamatricexiste.info/oui.db
+activity::.Utils.Prefs
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.ActivityDiscovery
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.PREFERENCE
+activity::.ActivityPortscan
+call::Execution of external commands
+call::Read/Write External Storage
+activity::.ActivityMain
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::download.lamatricexiste.info
+intent::android.intent.category.LAUNCHER
+url::rorist.github.com
+call::system/bin/su

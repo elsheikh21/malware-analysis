@@ -1,0 +1,16 @@
+activity::.Activity_Main
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+service_receiver::.Service_RealTime
+feature::android.hardware.screen.portrait
+activity::.Activity_About
+activity::.Activity_Settings
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.Service_Notifier
+service_receiver::.Receiver_OnReboot

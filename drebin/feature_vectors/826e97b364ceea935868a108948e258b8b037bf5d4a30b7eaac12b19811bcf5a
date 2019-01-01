@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.klmobil
+intent::android.intent.action.MAIN
+url::app.kapanlagi.com
+url::http://app.kapanlagi.com/android/mobil.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

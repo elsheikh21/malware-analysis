@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::anormal-tracker.de
+intent::android.intent.action.MAIN
+url::www.anormal-tracker.de
+permission::android.permission.INTERNET
+activity::.ATracker
+url::http://anormal-tracker.de/widgetproxy.php?userid%3D
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+url::http://www.anormal-tracker.de
+real_permission::android.permission.INTERNET

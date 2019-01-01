@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::rox.visk.crosswordcompDemo.Prefs
+feature::android.hardware.screen.portrait
+activity::rox.visk.crosswordcompDemo.Cruciverba
+activity::.Cruciverba
+activity::rox.visk.crosswordcompDemo.Game
+activity::rox.visk.crosswordcompDemo.Load
+intent::android.intent.category.LAUNCHER

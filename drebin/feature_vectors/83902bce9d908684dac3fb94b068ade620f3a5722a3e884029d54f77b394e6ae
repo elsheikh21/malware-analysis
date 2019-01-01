@@ -1,0 +1,19 @@
+url::www.google.com.au
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+activity::.Settings
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.youtube.com
+activity::.MySongInfo
+activity::.TitlesList
+call::Read/Write External Storage
+activity::.SongSearch
+activity::.MainMenu
+url::http://www.youtube.com/results?search_query%3D
+intent::android.intent.category.LAUNCHER
+activity::.SongInfo
+activity::.SongList
+url::http://www.google.com.au/search?q%3D
+call::getSystemService
+activity::.MySongs

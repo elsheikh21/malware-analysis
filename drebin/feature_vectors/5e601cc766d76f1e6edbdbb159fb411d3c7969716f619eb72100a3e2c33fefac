@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+url::api.libiri.com
+activity::.Settings
+url::http://api.libiri.com/get_native_url.php?platform%3Dandroid&comic%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.ComicViewer
+url::http://api.libiri.com/subscribe.php?platform%3Dandroid&email%3D

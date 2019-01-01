@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.activity.MainActivity
+intent::android.intent.action.MAIN
+activity::.MainActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.activity.LoginScreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+call::HttpPost

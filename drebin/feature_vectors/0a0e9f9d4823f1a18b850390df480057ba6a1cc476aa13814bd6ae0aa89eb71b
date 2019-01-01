@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+activity::com.appquiz.baby.ballons.exit
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+api_call::android/os/Vibrator;->vibrate
+activity::.SplashScreen
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.balloons
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::java/net/ServerSocket
+call::Read/Write External Storage
+call::HttpPost
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

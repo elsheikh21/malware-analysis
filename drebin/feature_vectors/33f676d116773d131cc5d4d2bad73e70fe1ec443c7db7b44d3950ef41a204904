@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+activity::PontoManualActivity
+intent::android.intent.category.DEFAULT
+service_receiver::.servicos.UpdateService
+real_permission::android.permission.VIBRATE
+service_receiver::.servicos.AlarmeFimExpediente
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/content/Context;->startService
+activity::.splah.TelaSplashScreenRunnable
+call::Read/Write External Storage
+service_receiver::servicos.Alarme
+activity::ConfiguracaoActivity
+activity::.TelaSplashScreenRunnable
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::GerarRelatorioActivity
+activity::PrincipalActivity
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+activity::PesquisarPontoActivity

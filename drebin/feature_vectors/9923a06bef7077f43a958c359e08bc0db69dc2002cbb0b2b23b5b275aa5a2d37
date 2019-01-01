@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+feature::android.hardware.screen.portrait
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+call::getPackageInfo
+activity::com.dvdict.Splash
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+activity::com.dvdict.AboutLesson

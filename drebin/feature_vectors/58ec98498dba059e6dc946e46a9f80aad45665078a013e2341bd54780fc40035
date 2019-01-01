@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3DgiaMamma
+url::market.android.com
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.splash
+call::getPackageInfo

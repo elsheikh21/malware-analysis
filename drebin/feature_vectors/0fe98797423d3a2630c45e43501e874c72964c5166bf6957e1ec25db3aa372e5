@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.ao-universe.com/mobile/calendar.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.ao-universe.com/mobile/index.php
+url::http://www.google.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.ao-universe.com
+url::https://www.google.com
+url::http://www.ao-universe.com/mobile/guides.php
+url::www.google.com
+activity::.AOUGuides

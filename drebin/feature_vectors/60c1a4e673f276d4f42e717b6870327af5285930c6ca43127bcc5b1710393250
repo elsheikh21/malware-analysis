@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::V2Bapp
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+call::getPackageInfo
+permission::android.permission.RECORD_AUDIO
+permission::android.permission.CAMERA

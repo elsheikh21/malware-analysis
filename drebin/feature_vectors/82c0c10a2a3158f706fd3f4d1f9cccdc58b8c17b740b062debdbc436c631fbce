@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.RESTART_PACKAGES
+call::Read/Write External Storage
+permission::com.android.launcher.permission.UNINSTALL_SHORTCUT
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+activity::.Splash
+call::getSystemService

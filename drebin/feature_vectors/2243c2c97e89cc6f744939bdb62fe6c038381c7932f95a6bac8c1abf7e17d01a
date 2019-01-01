@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://winkekatzen.r3l4x.de/api/status
+permission::android.permission.INTERNET
+url::winkekatzen.r3l4x.de
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::.UpdateService

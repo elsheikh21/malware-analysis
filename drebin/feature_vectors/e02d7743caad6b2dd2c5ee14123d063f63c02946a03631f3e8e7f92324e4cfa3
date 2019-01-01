@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+activity::.AppEntry
+activity::speaktionary
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+call::getPackageInfo
+permission::android.permission.RECORD_AUDIO

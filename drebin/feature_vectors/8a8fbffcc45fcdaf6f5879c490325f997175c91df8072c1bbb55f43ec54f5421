@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.bookyards_books_v1
+url::www.libraryofhongkong.com
+intent::android.intent.category.LAUNCHER
+url::http://www.libraryofhongkong.com/categories.html?type%3Dbooks&category_id%3D
+url::http://www.libraryofhongkong.com

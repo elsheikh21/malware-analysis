@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.dailyhokie.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.dailyhokie.com/stats
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.dailyhokie.com
+real_permission::android.permission.INTERNET
+url::http://mobile.dailyhokie.com/about
+activity::Daily Hokie
+intent::android.intent.category.LAUNCHER
+url::http://mobile.dailyhokie.com/schedule
+url::http://mobile.dailyhokie.com/roster

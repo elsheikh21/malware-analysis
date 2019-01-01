@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Browser
+intent::android.intent.action.MAIN
+url::www.murder-city.net
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://www.murder-city.net/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

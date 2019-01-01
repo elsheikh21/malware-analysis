@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::java/net/Socket
+call::Obfuscation(Base64)
+call::Cipher(DES/ECB/NoPadding)
+permission::android.permission.INTERNET
+activity::.settings
+activity::.call
+activity::.home
+activity::.company
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.list
+url::json-rpc.live.fonolo.com
+url::https://json-rpc.live.fonolo.com
+activity::.fonolo4android

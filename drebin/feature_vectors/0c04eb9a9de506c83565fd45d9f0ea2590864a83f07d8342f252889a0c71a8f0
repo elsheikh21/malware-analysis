@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Login
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+activity::Main

@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::.PrefeMain
+intent::android.intent.action.MAIN
+url::http://search.twitter.com/search.json?q%3D
+permission::android.permission.INTERNET
+url::search.twitter.com
+activity::.TraMainList
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.TwitterDetail
+call::getSystemService

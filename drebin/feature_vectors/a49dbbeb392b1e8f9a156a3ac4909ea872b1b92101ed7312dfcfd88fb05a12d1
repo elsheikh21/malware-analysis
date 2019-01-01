@@ -1,0 +1,5 @@
+activity::.EntranceActivity
+activity::.Dq9InfoActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

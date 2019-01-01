@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::StartQuitingMain
+feature::android.hardware.screen.portrait
+activity::.StartQuitingMain
+intent::android.intent.category.LAUNCHER
+activity::now.Preferences

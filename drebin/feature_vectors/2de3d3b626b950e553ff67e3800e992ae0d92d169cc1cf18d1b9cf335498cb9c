@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.clawedfan.com/roster
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.clawedfan.com/schedule
+real_permission::android.permission.INTERNET
+url::http://mobile.clawedfan.com/about
+url::mobile.clawedfan.com
+url::http://mobile.clawedfan.com
+activity::Clawed Fan
+url::http://mobile.clawedfan.com/stats
+intent::android.intent.category.LAUNCHER

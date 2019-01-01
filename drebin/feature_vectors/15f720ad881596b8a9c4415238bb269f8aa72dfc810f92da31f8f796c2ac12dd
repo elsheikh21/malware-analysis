@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+api_call::android/content/Context;->sendBroadcast
+permission::android.permission.RECORD_AUDIO
+provider::android.appwidget.provider
+provider::android.provider.Telephony.SECRET_CODE
+call::getSystemService

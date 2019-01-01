@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+service_receiver::name.boyle.chris.powersource.BackgroundService
+intent::android.intent.action.MAIN
+service_receiver::.QueryReceiver
+intent::com.twofortyfouram.locale.intent.action.QUERY_CONDITION
+api_call::android/content/Context;->startService
+call::getPackageInfo
+intent::com.twofortyfouram.locale.intent.action.EDIT_CONDITION
+intent::android.intent.category.INFO

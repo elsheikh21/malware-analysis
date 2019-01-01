@@ -1,0 +1,13 @@
+activity::.GameScreen
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+activity::.MainMenu
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.HighScores
+activity::.HowToPlay
+call::getSystemService

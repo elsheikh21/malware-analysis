@@ -1,0 +1,5 @@
+call::Read/Write External Storage
+activity::Install
+intent::android.intent.category.DEFAULT
+activity::.MainActivity
+feature::android.hardware.touchscreen

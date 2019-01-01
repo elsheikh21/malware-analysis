@@ -1,0 +1,21 @@
+activity::Sphere
+activity::Bouncing Balls
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::Asteroids
+activity::.BouncingBallsExample2
+activity::Landscape4
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Landscape2
+activity::Landscape3
+activity::Bouncing Ball
+feature::android.hardware.screen.portrait
+permission::android.permission.VIBRATE
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::Particles
+activity::.examples.ExamplesMenu
+activity::Landscape
+call::getSystemService

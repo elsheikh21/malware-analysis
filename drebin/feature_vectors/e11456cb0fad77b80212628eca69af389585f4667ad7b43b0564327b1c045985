@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+service_receiver::BackgroundService
+url::http://www.youtube.com/user/VodafoneFM
+intent::android.intent.action.MAIN
+url::www.youtube.com
+url::http://www.facebook.com/vodafonemusica
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::getSystemService

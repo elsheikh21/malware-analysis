@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.EclairTheme_NewDrawer
+intent::android.intent.category.DEFAULT

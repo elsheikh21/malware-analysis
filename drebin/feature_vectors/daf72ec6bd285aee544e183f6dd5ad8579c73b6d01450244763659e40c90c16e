@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.MainGame
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::trailerwap.com
+intent::android.intent.action.MAIN
+url::http://trailerwap.com/games/Javagames/1942_Air_Combat.jar
+api_call::android/content/Context;->startActivity
+activity::.GameMIDlet
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.netmite.com
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,5 @@
+activity::.PipelineActivity
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+activity::.CatScratcher
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

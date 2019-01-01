@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Speedway
+activity::.Players
+intent::android.intent.action.MAIN
+activity::.Options
+feature::android.hardware.screen.landscape
+activity::.engine.Game
+activity::.Records
+intent::android.intent.category.LAUNCHER

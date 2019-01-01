@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.chakuutafullninkiranking
+intent::android.intent.category.LAUNCHER
+url::apspr.tmc-11.com
+url::http://apspr.tmc-11.com/chakuutafullninkiranking/

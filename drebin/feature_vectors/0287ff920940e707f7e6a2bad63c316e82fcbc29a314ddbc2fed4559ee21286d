@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+url::wap.zifei.cn
+intent::android.intent.category.INFO
+intent::android.intent.action.MAIN
+url::http://wap.zifei.cn/common/prog/index.php?pid%3D56491&post%3Dsmstheme

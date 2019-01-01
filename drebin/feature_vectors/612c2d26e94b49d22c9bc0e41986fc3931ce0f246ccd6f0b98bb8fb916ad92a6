@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/media/MediaPlayer;->start
+url::www.plaincode.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.MagnetMeterActivity
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Obfuscation(Base64)
+call::getSystemService
+url::http://www.plaincode.com/magnetmeter/?id%3D

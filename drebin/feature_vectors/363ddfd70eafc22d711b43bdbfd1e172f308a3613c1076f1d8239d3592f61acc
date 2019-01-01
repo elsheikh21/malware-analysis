@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.imediabank.com
+feature::android.hardware.screen.portrait
+activity::.photo3dlite
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.imediabank.com

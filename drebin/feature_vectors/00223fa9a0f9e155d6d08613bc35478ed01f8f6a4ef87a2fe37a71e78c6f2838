@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::.InstallReferrerReceiver
+activity::MyActivity
+intent::android.intent.category.LAUNCHER
+activity::.MyActivity

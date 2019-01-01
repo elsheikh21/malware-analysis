@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.GameActivity
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::cat.game.main.GameActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::printStackTrace
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

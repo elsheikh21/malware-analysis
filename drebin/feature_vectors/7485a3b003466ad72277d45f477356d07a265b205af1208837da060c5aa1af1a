@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.mobileroots.biz
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+activity::.VTLCV
+intent::android.intent.category.LAUNCHER
+url::http://www.mobileroots.biz/vtlcv
+real_permission::android.permission.INTERNET

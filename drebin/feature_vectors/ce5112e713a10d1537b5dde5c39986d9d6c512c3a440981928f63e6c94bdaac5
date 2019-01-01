@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.main
+feature::android.hardware.screen.portrait
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS

@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.batterys
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+activity::.Time
+service_receiver::.BatteryIndicatorService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+service_receiver::BootCompletedReceiver
+activity::.SettingsActivity
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

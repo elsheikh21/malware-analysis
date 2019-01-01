@@ -1,0 +1,30 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://www.apache.org/licenses/LICENSE-2.0.html
+activity::.Preferences
+url::http://bit.ly/gr2Spl
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+url::www.apache.org
+url::http://simplemobdev.blogspot.com/
+url::simplemobdev.blogspot.com
+url::bit.ly
+call::getSystemService
+url::http://simplemobdev.blogspot.com/p/zmooth-support-faq.html
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+api_call::android/content/Context;->startService
+permission::android.permission.SYSTEM_ALERT_WINDOW
+call::Read/Write External Storage
+activity::com.chukkapalli.zMooth.free.config.Preferences
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Support
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::com.chukkapalli.zMooth.free.zMoothService

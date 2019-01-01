@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+url::http://s
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.READ_SMS
+activity::.Programm
+feature::android.hardware.telephony
+url::s
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+call::getSimCountryIso
+activity::com.software.Programm
+call::getSystemService

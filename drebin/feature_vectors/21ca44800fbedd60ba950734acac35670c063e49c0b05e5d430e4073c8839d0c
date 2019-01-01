@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.MININOTE_LIST
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.MiniNoteActivity
+call::getSystemService

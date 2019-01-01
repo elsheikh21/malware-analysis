@@ -1,0 +1,8 @@
+activity::.QRCode
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::https://www.
+url::http://www.
+activity::.QRTest
+intent::android.intent.category.LAUNCHER
+url::www.

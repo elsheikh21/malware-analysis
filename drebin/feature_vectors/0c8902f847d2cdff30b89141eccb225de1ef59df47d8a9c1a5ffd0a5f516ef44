@@ -1,0 +1,10 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://probaseballapps.com/apps/brandon_morrow.php
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::probaseballapps.com
+intent::android.intent.category.LAUNCHER
+activity::.brandonmorrow

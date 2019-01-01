@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::.LocationService
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+activity::.VideoContentView
+call::HttpPost
+feature::android.hardware.location.gps
+activity::.Consumer
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+api_call::android/location/LocationManager;->isProviderEnabled
+call::getSystemService
+activity::.AudioContentView
+url::anywhere2gae.appspot.com
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.CONTROL_LOCATION_UPDATES
+url::http://anywhere2gae.appspot.com/getcontent
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

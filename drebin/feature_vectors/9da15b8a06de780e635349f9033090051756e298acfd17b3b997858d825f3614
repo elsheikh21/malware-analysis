@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::Title
+activity::.piecharts.PieChartsTabs
+intent::android.intent.action.MAIN
+activity::.graphs.ShowGraph
+api_call::android/app/Activity;->startActivity
+activity::.piecharts.ShowPieChart
+intent::android.intent.category.LAUNCHER
+activity::.LoanCalculator

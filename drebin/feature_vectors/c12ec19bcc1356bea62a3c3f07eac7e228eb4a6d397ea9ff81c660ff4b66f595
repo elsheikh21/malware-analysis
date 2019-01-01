@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::GOScreenLockInstallDialog
+intent::android.intent.category.INFO

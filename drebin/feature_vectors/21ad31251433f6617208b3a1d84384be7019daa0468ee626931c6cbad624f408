@@ -1,0 +1,9 @@
+activity::.Dungeons
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+service_receiver::.BillingReceiver
+call::Obfuscation(Base64)
+intent::android.intent.category.LAUNCHER
+service_receiver::.BillingService
+permission::com.android.vending.BILLING
+api_call::android/content/Context;->startService

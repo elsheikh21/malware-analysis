@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->getLastKnownLocation
+activity::.HelpAboutInfo
+intent::android.intent.category.INFO
+call::getSystemService

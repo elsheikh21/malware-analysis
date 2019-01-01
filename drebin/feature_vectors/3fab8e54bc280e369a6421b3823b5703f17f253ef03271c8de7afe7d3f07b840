@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::www.mobizfun.com.\n\n
+intent::android.intent.action.MAIN
+url::http://www.mobizfun.com.\n\n
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.AsmaUlHusna

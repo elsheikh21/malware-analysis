@@ -1,0 +1,92 @@
+url::http://schemas.google.com/docs/2007/thumbnail
+call::getDeviceId
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.GET_ACCOUNTS
+activity::X-plore text editor
+call::getPackageInfo
+call::HttpPost
+url::http://localhost:
+activity::org.acra.CrashReportDialog
+call::getSystemService
+activity::X-plore text viewer
+permission::android.permission.GET_ACCOUNTS
+intent::android.intent.action.VIEW
+intent::android.intent.action.GET_CONTENT
+permission::android.permission.WAKE_LOCK
+url::java.sun.com
+url::https://m.box.net/api/1.0/auth/
+url::spreadsheets.google.com
+url::picasaweb.google.com
+url::https://api.sugarsync.com/authorization
+activity::.Configuration
+api_call::android/app/backup/BackupManager;->dataChanged
+activity::X-plore Hex viewer
+real_permission::android.permission.USE_CREDENTIALS
+url::https://docs.google.com/feeds/default/private/full/
+permission::android.permission.INTERNET
+url::http://www.w3.org/2005/Atom\
+url::http://picasaweb.google.com/data/
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::android/content/Context;->startActivity
+api_call::android/accounts/AccountManager;->getAccounts
+url::m.box.net
+url::http://www.lonelycatgames.com
+real_permission::android.permission.BACKUP
+api_call::java/lang/Runtime;->exec
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/accounts/AccountManager;->invalidateAuthToken
+url::https://docs.google.com/feeds/metadata/default
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.OPENABLE
+url::http://picasaweb.google.com/data/feed/api/user/default?kind%3Dalbum
+intent::android.intent.category.LAUNCHER
+url::http://picasaweb.google.com/data/entry/api/user/default/albumid/
+api_call::android/accounts/AccountManager;->getAuthToken
+url::http://www.w3.org/2005/Atom
+api_call::android/telephony/TelephonyManager;->getDeviceId
+url::http://schemas.google.com/g/2005
+url::http://picasaweb.google.com/data/feed/api/user/default
+call::Read/Write External Storage
+activity::X-plore video preview
+url::www.lonelycatgames.com
+url::https://docs.google.com/feeds/default/private/full/folder:root
+real_permission::android.permission.READ_CONTACTS
+url::http://schemas.google.com/photos/2007
+url::http://java.sun.com/dtd/properties.dtd
+url::https://docs.google.com/feeds/default/private/full/folder:root/contents
+url::https://docs.google.com/feeds/upload/create-session/default/private/full/
+url::docs.google.com
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.EDIT
+call::Execution of external commands
+activity::X-plore
+url::http://picasaweb.google.com/data/feed/api/user/default/albumid/
+intent::android.intent.category.BROWSABLE
+url::localhost
+activity::X-plore audio preview
+activity::.Browser
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/NotificationManager;->notify
+url::https://spreadsheets.google.com/formResponse?formkey%3D
+url::api.sugarsync.com
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::X-plore image viewer
+intent::android.intent.category.DEFAULT
+url::https://api.sugarsync.com/user
+url::schemas.google.com
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.USE_CREDENTIALS
+api_call::java/net/Socket
+real_permission::android.permission.VIBRATE
+permission::android.permission.VIBRATE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+url::www.w3.org
+real_permission::android.permission.INTERNET
+call::Cipher(PBEWithMD5AndDES)
+real_permission::android.permission.MANAGE_ACCOUNTS

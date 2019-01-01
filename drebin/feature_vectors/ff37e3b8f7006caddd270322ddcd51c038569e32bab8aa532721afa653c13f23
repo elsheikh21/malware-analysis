@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.MainNavigationActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::Spirit Air Lines
+permission::android.webkit.permission.PLUGIN
+call::getSystemService

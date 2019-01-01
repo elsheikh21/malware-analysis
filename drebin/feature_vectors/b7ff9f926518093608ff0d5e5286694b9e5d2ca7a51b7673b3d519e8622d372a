@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+activity::.AndCCVComp
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,12 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.RESTART_PACKAGES
+api_call::java/lang/Runtime;->exec
+activity::.TaskManager
+api_call::android/app/ActivityManager;->restartPackage
+real_permission::android.permission.RESTART_PACKAGES
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+call::getSystemService

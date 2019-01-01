@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.MensaActivity
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::de.hailigsblechle.android.mensa.library.MensaActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::de.hailigsblechle.android.mensa.library.Preferences
+call::getPackageInfo
+activity::de.hailigsblechle.android.mensa.library.DayMenu
+api_call::android/content/Context;->sendBroadcast
+call::getSystemService
+service_receiver::de.hailigsblechle.android.mensa.library.DatabaseUpdater

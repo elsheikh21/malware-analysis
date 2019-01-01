@@ -1,0 +1,14 @@
+activity::.CHESSBotE
+call::getDeviceId
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSimCountryIso
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

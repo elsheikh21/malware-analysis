@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.READ_PHONE_STATE
+activity::Robbing For Riches LITE
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

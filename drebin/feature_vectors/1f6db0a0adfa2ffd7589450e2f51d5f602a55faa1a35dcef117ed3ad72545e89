@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::en.wikipedia.org
+url::http://support.sas.com/rnd/base/topics/odsmarkup/.
+intent::android.intent.category.DEFAULT
+url::support.sas.com
+url::http://en.wikipedia.org/wiki/Analysis_of_clinical_trials)
+intent::android.intent.category.LAUNCHER
+activity::.mySplash
+activity::.myWUSS

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SCREEN_ON
+activity::sk.dynatech.android.iihf2011.activity.SynchronizationServiceReceiver
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.action.BOOT_COMPLETED
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::sk.dynatech.android.iihf2011.activity.MainActivity
+service_receiver::sk.dynatech.android.iihf2011.activity.StartServiceReceiver
+api_call::java/lang/Runtime;->exec
+service_receiver::sk.dynatech.android.iihf2011.activity.SynchronizationService
+call::Execution of external commands
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+service_receiver::sk.dynatech.android.iihf2011.activity.SynchronizationServiceReceiver
+intent::android.intent.category.LAUNCHER

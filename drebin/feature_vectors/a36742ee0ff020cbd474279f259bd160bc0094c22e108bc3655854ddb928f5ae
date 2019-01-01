@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Survive
+api_call::android/content/Context;->startActivity
+feature::android.hardware.screen.portrait
+service_receiver::service.CoreService
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start
+activity::Survive
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.zlicense
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::zlicense
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

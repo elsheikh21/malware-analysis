@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::FourTracks Lite
+url::nomadicwhales.com
+url::http://nomadicwhales.com/wordpress/fourtracks-lite-announcement/
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+api_call::java/net/Socket
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.RECORD_AUDIO
+call::Obfuscation(Base64)
+feature::android.hardware.screen.landscape
+permission::android.permission.WAKE_LOCK
+api_call::android/media/AudioRecord
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.FourTracks
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

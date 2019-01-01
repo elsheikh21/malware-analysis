@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+activity::.SendActivity
+intent::android.intent.action.SEND_MULTIPLE
+url::market.android.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.SEND
+activity::.SendDispatcherActivity
+activity::.SendMultipleActivity
+intent::android.intent.category.DEFAULT
+url::https://market.android.com/details?id%3Dru.gelin.android.sendtosd.donate
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.WRITE_EXTERNAL_STORAGE

@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+url::http://theideatechnology.appspot.com/manual/ITExplorer_manual.html
+activity::.ITExplorer
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+url::http://a.admob.com/f0?
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService
+call::Read/Write External Storage
+activity::.ui.ITExplorer
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.EDIT
+call::Cipher(AES/CBC/PKCS5Padding)
+url::theideatechnology.appspot.com
+url::a.admob.com
+intent::android.intent.action.VIEW
+api_call::android/webkit/WebView
+activity::ITExplorer Manual
+intent::android.intent.action.MAIN
+intent::android.intent.action.PICK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://theideatechnology.appspot.com/explorer_manual_service?
+real_permission::android.permission.INTERNET
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+url::schemas.android.com

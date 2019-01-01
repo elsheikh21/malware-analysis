@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SCREEN_ON
+intent::android.intent.action.MAIN
+intent::android.intent.action.SCREEN_OFF
+activity::.MainActivity
+intent::android.intent.action.USER_PRESENT
+intent::android.intent.action.TIMEZONE_CHANGED
+activity::.Setting
+intent::android.intent.action.TIME_SET
+provider::android.appwidget.provider
+intent::android.intent.category.LAUNCHER

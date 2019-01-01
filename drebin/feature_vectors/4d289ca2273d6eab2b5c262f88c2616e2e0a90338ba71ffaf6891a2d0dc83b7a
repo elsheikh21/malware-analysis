@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CALL_PHONE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.GET_ACCOUNTS
+permission::android.permission.GET_ACCOUNTS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.SugerletActivity
+real_permission::android.permission.READ_CONTACTS
+url::akr97.com
+url::http://akr97.com/capsule/
+permission::android.permission.READ_CONTACTS
+api_call::android/accounts/AccountManager;->getAccounts

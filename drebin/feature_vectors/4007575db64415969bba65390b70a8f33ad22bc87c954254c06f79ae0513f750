@@ -1,0 +1,16 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.MAIN
+api_call::android/accounts/AccountManager;->getAccounts
+real_permission::android.permission.GET_ACCOUNTS
+permission::android.permission.CALL_PHONE
+activity::.Main
+intent::android.intent.category.DEFAULT
+permission::android.permission.GET_ACCOUNTS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.VIEW

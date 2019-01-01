@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://www.rs2botting.com/bots/
+intent::android.intent.action.MAIN
+url::twitter.com
+activity::.Main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://twitter.com/
+url::www.rs2botting.com
+url::http://www.rs2botting.com/forum/
+url::http://www.facebook.com/pages/RS2Botting-Runescape-Bots/174446652586305
+url::http://www.rs2botting.com

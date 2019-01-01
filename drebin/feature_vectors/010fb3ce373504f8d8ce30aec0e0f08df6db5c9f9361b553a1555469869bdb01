@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Rock_Paper_Scissors
+activity::@style/Theme.NoBackground
+intent::android.intent.category.LAUNCHER

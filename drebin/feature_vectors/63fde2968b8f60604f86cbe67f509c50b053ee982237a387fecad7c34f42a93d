@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::AdicionaEncomendaActivity
+intent::android.intent.action.MAIN
+activity::DetalhesEncomendaActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ListaEncomendasActivity
+activity::ListaEncomendasActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::HttpPost
+intent::android.intent.category.LAUNCHER

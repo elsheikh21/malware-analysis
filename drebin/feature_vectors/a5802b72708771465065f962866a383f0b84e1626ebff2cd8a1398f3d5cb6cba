@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.GooglePlusSearchActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.google.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::http://www.google.com/search?q%3D

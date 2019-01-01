@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.App
+intent::android.intent.action.MAIN
+url::mapbook.info
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+url::http://mapbook.info/
+api_call::android/webkit/WebView

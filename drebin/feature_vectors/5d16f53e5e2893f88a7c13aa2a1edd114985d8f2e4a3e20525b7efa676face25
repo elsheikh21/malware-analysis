@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.ManualActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+service_receiver::.widget.ClockProvider
+call::getPackageInfo
+provider::android.appwidget.provider
+service_receiver::.widget.IntentFilterService
+call::getSystemService
+api_call::android/content/Context;->startService

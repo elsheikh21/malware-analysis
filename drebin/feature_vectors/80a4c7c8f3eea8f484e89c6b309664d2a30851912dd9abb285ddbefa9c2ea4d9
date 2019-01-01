@@ -1,0 +1,17 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+activity::.MainNavigationActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+permission::android.webkit.permission.PLUGIN
+activity::Reverse Lookup by Phone 2
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,10 @@
+activity::.Edit
+feature::android.hardware.touchscreen
+activity::.Landing
+intent::android.intent.action.MAIN
+activity::.EditContent
+activity::.Main
+activity::.TimerMethod
+intent::android.intent.category.LAUNCHER
+activity::.Config
+call::getSystemService

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::http://59.42.254.3:8081/pay/largecharge.do
+intent::android.intent.action.MAIN
+url::http://10.0.0.172:80
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://www.netmite.com/apks/lakoo/jar/N95.jad
+intent::android.intent.category.LAUNCHER
+activity::.MyMidlet
+call::getPackageInfo
+url::59.42.254.3
+url::http://59.42.254.3:8081/pay/largecheck.do
+url::10.0.0.172

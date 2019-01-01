@@ -1,0 +1,13 @@
+activity::.DonateActivity
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::Cipher(AES/CBC/PKCS5Padding)
+service_receiver::.DonateService
+call::getPackageInfo
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

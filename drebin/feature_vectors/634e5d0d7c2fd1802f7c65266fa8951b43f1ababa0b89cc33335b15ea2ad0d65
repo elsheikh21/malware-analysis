@@ -1,0 +1,25 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::.Zoom
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.WAKE_LOCK
+activity::.EditAeroActivity
+call::Obfuscation(Base64)
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.OptionsActivity
+activity::.LeofsActivity
+intent::android.intent.action.EDIT
+activity::.ExponentialsActivity
+feature::android.hardware.screen.landscape
+api_call::android/app/Activity;->startActivity
+activity::.OtherControlsActivity
+permission::android.permission.WAKE_LOCK
+activity::.TrimsActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.AddonsExplorer

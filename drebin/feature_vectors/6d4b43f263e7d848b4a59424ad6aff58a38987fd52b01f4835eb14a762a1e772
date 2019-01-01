@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.google.com/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::getSystemService
+url::www.google.com
+intent::android.intent.action.SEND
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::tinyurl.com
+intent::android.intent.category.LAUNCHER
+activity::.CreateTinyUrlActivity
+real_permission::android.permission.INTERNET
+url::http://tinyurl.com/api-create.php?url%3D%s

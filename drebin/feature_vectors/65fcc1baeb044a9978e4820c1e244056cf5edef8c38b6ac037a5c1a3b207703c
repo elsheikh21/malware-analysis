@@ -1,0 +1,20 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+intent::android.intent.category.HOME
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.Main
+feature::android.hardware.screen.portrait
+call::getSystemService
+activity::No Signal Alert
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+url::www.smartandroidapps.com
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::.system_reboot
+service_receiver::.service
+url::http://www.smartandroidapps.com/nosignalalert.php

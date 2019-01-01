@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.ColorIdentifyActivity

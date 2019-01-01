@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Soundboard
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::getSystemService

@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+activity::.XGalaga2World
+api_call::android/os/Vibrator;->vibrate
+activity::.XGalaga2
+activity::.XGalaga2Start
+activity::.XGalagaOptions
+activity::.XGalaga2Splash
+activity::.XGalagaGame
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+feature::android.hardware.screen.portrait
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

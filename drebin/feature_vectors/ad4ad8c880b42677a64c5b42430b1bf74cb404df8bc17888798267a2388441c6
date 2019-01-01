@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+activity::.LawStore
+intent::android.intent.action.MAIN
+url::http://www.byczeklaw.com/rss/android.rss
+url::http://www.byczeklaw.com/rss/will.rss
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.byczek-law.com
+intent::android.intent.category.LAUNCHER
+url::www.byczek-law.com
+url::www.byczeklaw.com
+call::Read/Write External Storage
+url::http://www.byczeklaw.com/rss/realty.rss
+call::getSystemService
+url::http://www.byczeklaw.com/rss/contract.rss

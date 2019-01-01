@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::engca.com
+url::http://engca.com
+activity::.EncaVocato
+intent::android.intent.category.LAUNCHER

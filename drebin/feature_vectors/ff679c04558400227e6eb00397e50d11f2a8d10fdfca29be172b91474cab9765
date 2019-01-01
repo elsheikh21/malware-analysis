@@ -1,0 +1,31 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+url::http://api.flickr.com/services/rest/
+url::sites.google.com
+url::http://farm
+provider::android.appwidget.provider
+call::getSystemService
+url::http://sites.google.com/site/gson/gson-user-guide
+url::http://m.flickr.com/
+url::www.flickr.com
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.flickr.com/services/auth/list.gne
+api_call::android/content/Context;->startService
+url::api.flickr.com
+activity::com.kamosoft.flickr.AuthenticateActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(Blowfish)
+url::farm
+real_permission::android.permission.INTERNET
+service_receiver::FlickrWidget 4X4
+url::http://m.flickr.com/activity/
+url::m.flickr.com
+service_receiver::WidgetUpdateService
+service_receiver::FlickrWidget 4X1
+service_receiver::FlickrWidget 4X2
+service_receiver::FlickrWidget 4X3

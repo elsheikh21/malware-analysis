@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.holland9.com
+activity::.Launcher
+url::http://www.miniclip.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+api_call::android/content/Context;->startActivity
+feature::android.hardware.screen.portrait
+url::www.miniclip.com
+intent::android.intent.category.LAUNCHER
+url::www.holland9.com
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

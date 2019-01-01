@@ -1,0 +1,7 @@
+activity::CountDownMain
+feature::android.hardware.touchscreen
+service_receiver::.CountDownService
+service_receiver::CountWidget
+provider::android.appwidget.provider
+api_call::android/content/Context;->startActivity
+call::getSystemService

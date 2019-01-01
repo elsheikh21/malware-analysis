@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.CthulhuSpores
+url::http://www.twitter.com/chemasalamanca
+intent::android.intent.action.MAIN
+url::www.chemasalamanca.com
+url::http://www.chemasalamanca.com/cthulhu_spores.htm
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+url::www.facebook.com
+url::http://www.facebook.com/pages/Cthulhu-Spores/146091205439615
+url::www.twitter.com
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

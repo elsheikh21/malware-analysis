@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+url::mob.adwhirl.com
+api_call::android/telephony/TelephonyManager;->getDeviceId
+url::http://ads.mdotm.com/ads/feed.php?
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::ads.mdotm.com
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::.TamagoActivity
+call::getSystemService
+real_permission::android.permission.RECORD_AUDIO
+api_call::java/net/URL;->getContent
+api_call::android/app/Activity;->startActivity
+permission::android.permission.WAKE_LOCK
+api_call::android/media/AudioRecord
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+url::http://mob.adwhirl.com/getInfo.php?appid%3D%s&appver%3D%d&client%3D2

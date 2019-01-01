@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.TeslaPlushiesAndroid
+api_call::android/media/MediaPlayer;->start
+call::Read/Write External Storage
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

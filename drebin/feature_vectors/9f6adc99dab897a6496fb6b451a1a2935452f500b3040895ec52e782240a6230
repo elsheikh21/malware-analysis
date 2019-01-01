@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+activity::.Intro
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::printStackTrace
+url::www.unijambiste.com
+feature::android.hardware.screen.portrait
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+api_call::android/media/MediaPlayer;->start
+url::http://www.unijambiste.com/unijambiste/spip.php?article179
+real_permission::android.permission.WAKE_LOCK

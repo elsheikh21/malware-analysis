@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.zealther.ebook.view.Chapter
+call::printStackTrace
+real_permission::android.permission.INTERNET
+activity::com.zealther.ebook.view.Bookmarks
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::com.zealther.ebook.view.TxtReader
+api_call::android/app/Activity;->startActivity
+activity::.Cover
+activity::com.zealther.ebook.view.Settings
+call::getSystemService

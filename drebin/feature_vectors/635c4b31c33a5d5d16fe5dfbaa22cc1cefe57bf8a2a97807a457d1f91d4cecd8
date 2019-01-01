@@ -1,0 +1,13 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::www.alphasoftware.org
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.alphasoftware.org/sonorox/
+url::http://www.alphasoftware.org/sonorox
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.SonoroxActivity
+real_permission::android.permission.INTERNET
+call::getSystemService

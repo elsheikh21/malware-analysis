@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://hippyapps.com/london.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.london
+url::hippyapps.com
+intent::android.intent.category.LAUNCHER

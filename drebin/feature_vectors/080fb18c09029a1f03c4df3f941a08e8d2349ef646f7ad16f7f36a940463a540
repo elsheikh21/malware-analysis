@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+activity::.ToggleBright
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/provider/Settings$System;->putInt
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

@@ -1,0 +1,13 @@
+activity::.AppSettings
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.Help
+activity::.About
+feature::android.hardware.touchscreen
+activity::.GPSTestPlus
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+api_call::android/location/LocationManager;->isProviderEnabled
+intent::android.intent.action.MAIN
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::Detail
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.howtogetvisitors.com/m.html
+activity::RecipeMenu
+feature::android.hardware.screen.portrait
+activity::.Recipe
+intent::android.intent.category.LAUNCHER
+url::www.howtogetvisitors.com

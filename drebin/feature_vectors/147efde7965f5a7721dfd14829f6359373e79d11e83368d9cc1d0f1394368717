@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+activity::.StaticIPToggle
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

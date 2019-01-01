@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+url::http://kr.net/krnet_app_test/app_delete_comment.php
+url::http://kr.net/krnet_app/krnet_event.php?mb_id%3D
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://kr.net/krnet_app_test/app_write_update.php?bo_table%3Dcafe_0_0
+real_permission::android.permission.INTERNET
+url::http://kr.net/krnet_app_test/app_write_update.php?bo_table%3Dcafe_1_6
+service_receiver::KRNET Push Notifications Service
+call::printStackTrace
+url::http://kr.net/krnet_app_test/app_write_update.php?bo_table%3Dphoto
+real_permission::android.permission.VIBRATE
+url::http://kr.net/krnet_app/krnet_photo.php?bo_table%3Dcafe_1_6&page%3D
+url::kr.net
+api_call::android/webkit/WebView
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://kr.net/krnet_app_test/krnet_view.php?code%3D
+provider::com.krnet.provider
+activity::.Krnet
+url::http://kr.net/krnet_app_test/app_write_update.php?bo_table%3Dandroid_user
+url::http://kr.net/krnet_app/krnet_photo.php?bo_table%3Dphoto&page%3D
+url::http://kr.net/krnet_app_test/login/app_login.php
+intent::android.intent.action.MAIN
+url::http://kr.net/krnet_app/krnet.php?write_table%3Dg4_write_cafe_0_0&page%3D
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.camera
+url::http://kr.net/krnet_app_test/app_write_comment_update.php
+feature::android.hardware.screen.portrait
+url::http://kr.net/krnet_app_test/krnet_board_view.php?wr_id%3D
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+url::http://kr.net/krnet_app/krnet.php?write_table%3Dg4_write_android_user&page%3D
+api_call::android/content/Context;->startService

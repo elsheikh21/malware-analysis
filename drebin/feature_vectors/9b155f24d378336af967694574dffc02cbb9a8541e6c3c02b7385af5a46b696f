@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::.WidgetReceiver$StartService
+service_receiver::.UpdateService
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

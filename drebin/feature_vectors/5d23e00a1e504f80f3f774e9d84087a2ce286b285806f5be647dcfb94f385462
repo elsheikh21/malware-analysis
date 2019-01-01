@@ -1,0 +1,69 @@
+activity::Install Gapps
+activity::.utilities.ShellCommand
+activity::Extras
+call::getPackageInfo
+feature::android.hardware.touchscreen
+activity::.Installed
+service_receiver::Boot Manager 1x1
+permission::android.permission.INTERNET
+service_receiver::.services.MoveService
+call::Read/Write External Storage
+url::init2winitapps.com
+activity::.NandPicker
+api_call::android/os/PowerManager$WakeLock;->acquire
+service_receiver::.utilities.AutoSdcard
+activity::.Install
+service_receiver::.Boot
+intent::android.intent.action.BOOT_COMPLETED
+feature::android.hardware.screen.portrait
+real_permission::android.permission.WAKE_LOCK
+activity::Set Rom Names
+service_receiver::.services.NandRestoreService
+url::market.android.com
+activity::.utilities.SdcardOff
+activity::.widget.WideWidgetDialog
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+activity::.MainActivity
+activity::Manage ROM Slots
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::.services.BootManagerService
+intent::android.intent.action.UMS_DISCONNECTED
+service_receiver::.utilities.USBOff
+activity::.widget.WidgetDialog
+real_permission::android.permission.VIBRATE
+permission::com.android.vending.CHECK_LICENSE
+call::Cipher(AES/CBC/PKCS5Padding)
+real_permission::android.permission.INTERNET
+call::Obfuscation(Base64)
+call::getSystemService
+service_receiver::Boot Manager 4x1
+api_call::java/net/URL;->openStream
+intent::android.intent.action.UMS_CONNECTED
+url::http://market.android.com/details?id%3D
+url::forum.init2winitapps.com
+real_permission::android.permission.READ_LOGS
+activity::.extras.Help
+call::Cipher(AES)
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::Execution of external commands
+url::http://forum.init2winitapps.com
+url::http://bootmanager.gflam.com/changelogs/bootmanager/changelog.txt
+activity::Nandroid Restore
+url::bootmanager.gflam.com
+permission::android.permission.WAKE_LOCK
+activity::.extras.About
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Manually Set Variables
+activity::.Restore
+activity::Boot Installed Roms
+activity::Rom Installer
+activity::.Loader
+activity::.extras.Tips
+intent::android.intent.category.LAUNCHER
+activity::.extras.Settings
+provider::android.appwidget.provider
+api_call::java/lang/Runtime;->exec
+url::http://init2winitapps.com

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+activity::.GameMidlet
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.netmite.com
+call::getPackageInfo
+url::http://www.netmite.com/android/srv/2.0/upload/863834402010.jar
+intent::android.intent.category.LAUNCHER

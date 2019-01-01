@@ -1,0 +1,15 @@
+url::http://app.firenzeviva.com/deu
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+url::http://app.firenzeviva.com/eng
+permission::android.permission.INTERNET
+url::app.firenzeviva.com
+feature::android.hardware.screen.portrait
+url::http://app.firenzeviva.com/
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

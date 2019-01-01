@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+activity::com.openfeint.internal.ui.IntroFlow
+api_call::android/content/Context;->startActivity
+api_call::java/lang/Runtime;->exec
+activity::com.openfeint.internal.ui.NativeBrowser
+call::Obfuscation(Base64)
+call::getSystemService
+activity::.SpaceTrack
+api_call::java/net/URL;->openStream
+permission::com.android.vending.CHECK_LICENSE
+activity::com.openfeint.api.ui.Dashboard
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.landscape
+url::api.openfeint.com
+call::Cipher(PBEWithSHA256And256BitAES-CBC-BC)
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::https://api.openfeint.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+activity::com.openfeint.internal.ui.Settings
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

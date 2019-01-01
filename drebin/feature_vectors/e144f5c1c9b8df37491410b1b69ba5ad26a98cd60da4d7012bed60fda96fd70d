@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::jkdapps.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.democrat
+url::http://jkdapps.com/democrat.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

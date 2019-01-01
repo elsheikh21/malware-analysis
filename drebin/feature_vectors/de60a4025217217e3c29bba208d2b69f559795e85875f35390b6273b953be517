@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+url::https://apps.ingridhome.com/myingridStruts/
+url::http://www.lifeshield.com/refer/index.php?a%3D
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::.Login
+url::https://apps.ingridhome.com/myingridStruts/mediaclip?thumbnail%3D1&img%3D
+real_permission::android.permission.INTERNET
+call::getSystemService
+permission::android.permission.SEND_SMS
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.telephony
+url::https://apps.ingridhome.com/myingridStruts/mediaclip?thumbnail%3D0&img%3D
+url::www.lifeshield.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+service_receiver::.service.HeartBeatService
+url::apps.ingridhome.com
+intent::android.intent.category.LAUNCHER

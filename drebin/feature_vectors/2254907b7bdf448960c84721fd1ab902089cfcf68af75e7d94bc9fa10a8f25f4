@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.SAMPLE_CODE
+activity::.Help
+intent::android.intent.action.MAIN
+activity::.SubMenu
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+intent::android.intent.category.DEFAULT

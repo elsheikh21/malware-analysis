@@ -1,0 +1,11 @@
+url::abdurrahman.org
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://market.android.com/details?id%3Dcom.FiqhUsSunnah
+permission::android.permission.INTERNET
+activity::.FiqhUsSunnah
+intent::android.intent.category.LAUNCHER
+url::http://abdurrahman.org/sunnah/fiqhussunnah/
+real_permission::android.permission.INTERNET

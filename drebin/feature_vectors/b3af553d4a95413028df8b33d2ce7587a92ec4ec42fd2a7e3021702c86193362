@@ -1,0 +1,7 @@
+url::http://app.kigyoka.com/android/
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.MagazineMobile
+feature::android.hardware.screen.portrait
+url::app.kigyoka.com
+intent::android.intent.category.LAUNCHER

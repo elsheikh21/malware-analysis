@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.caneyoufeelit.com/about
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.caneyoufeelit.com/schedule
+activity::Cane You Feel It?
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.caneyoufeelit.com
+url::mobile.caneyoufeelit.com
+intent::android.intent.category.LAUNCHER
+url::http://mobile.caneyoufeelit.com/stats
+real_permission::android.permission.INTERNET
+url::http://mobile.caneyoufeelit.com/roster

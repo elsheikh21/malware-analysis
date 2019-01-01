@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.OMLoginScreenVC
+call::Obfuscation(Base64)
+real_permission::android.permission.INTERNET
+api_call::android/telephony/TelephonyManager;->getSubscriberId
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::java/net/HttpURLConnection
+url::https://sitecatalyst.omniture.com/p/am/1.2/
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getPackageInfo
+url::sitecatalyst.omniture.com
+real_permission::android.permission.READ_PHONE_STATE
+call::getSubscriberId
+call::getSystemService
+intent::android.intent.category.LAUNCHER

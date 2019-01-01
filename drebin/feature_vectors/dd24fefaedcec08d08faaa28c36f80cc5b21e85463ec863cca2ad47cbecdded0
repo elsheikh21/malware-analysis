@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.advertisingindonesia.mobi
+url::http://www.advertisingindonesia.mobi
+intent::android.intent.category.LAUNCHER
+activity::.AdvertLaunch

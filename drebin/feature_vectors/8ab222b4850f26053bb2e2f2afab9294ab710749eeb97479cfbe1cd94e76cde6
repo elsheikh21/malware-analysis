@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+api_call::android/content/ContentResolver;->query
+url::http://xml.weather.yahoo.com/forecastrss/
+service_receiver::com.nemustech.regina.weatherserver.WeatherServer
+real_permission::android.permission.READ_CONTACTS
+url::xml.weather.yahoo.com
+call::getSystemService

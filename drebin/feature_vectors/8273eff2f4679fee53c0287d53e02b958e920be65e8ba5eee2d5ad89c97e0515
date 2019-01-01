@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.SystemMonitor
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::SystemMonitorGraph
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+api_call::java/lang/Runtime;->exec

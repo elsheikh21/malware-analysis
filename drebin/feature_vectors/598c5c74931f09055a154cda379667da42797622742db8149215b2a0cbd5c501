@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+url::http://www.adinf.se/advertisement
+feature::android.software.live_wallpaper
+url::www.adinf.se
+call::getSystemService

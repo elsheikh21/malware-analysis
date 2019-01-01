@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::St. Joe Daily
+activity::.Main
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.stjoedaily.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.stjoedaily.com/schedule
+intent::android.intent.category.LAUNCHER
+url::http://mobile.stjoedaily.com/about
+url::http://mobile.stjoedaily.com/roster
+url::mobile.stjoedaily.com
+url::http://mobile.stjoedaily.com/stats

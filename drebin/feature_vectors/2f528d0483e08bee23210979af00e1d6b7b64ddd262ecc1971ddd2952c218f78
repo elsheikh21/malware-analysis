@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+provider::com.hc.rv.list.db.rvlistprovider
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.RvListTabActivity

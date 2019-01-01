@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.info
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://sorapps.com/ads.htm
+url::sorapps.com
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

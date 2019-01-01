@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+activity::.Main
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET

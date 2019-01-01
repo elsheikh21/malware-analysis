@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_CALENDAR
+activity::.RunLogActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+api_call::android/app/NotificationManager;->notify
+call::getSystemService

@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/content/ContentResolver;->openFileDescriptor
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.WRITE_APN_SETTINGS
+permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.VIBRATE
+permission::android.permission.ACCESS_SURFACE_FLINGER
+activity::.PEVideoPlayerActivity
+call::getSystemService
+permission::android.permission.HARDWARE_TEST
+permission::android.permission.DEVICE_POWER
+feature::android.hardware.telephony
+api_call::android/content/Context;->sendBroadcast
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+service_receiver::.MyWidget
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

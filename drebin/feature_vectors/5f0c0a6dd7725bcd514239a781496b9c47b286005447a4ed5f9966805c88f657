@@ -1,0 +1,18 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::http://instead-launcher.googlecode.com/svn/pool/game_list.xml
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::http://instead-launcher.googlecode.com/svn/pool/game_list_alt.xml
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+url::instead-launcher.googlecode.com

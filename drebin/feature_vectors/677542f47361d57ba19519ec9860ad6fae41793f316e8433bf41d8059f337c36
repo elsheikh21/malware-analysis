@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+activity::.MeckaPil
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

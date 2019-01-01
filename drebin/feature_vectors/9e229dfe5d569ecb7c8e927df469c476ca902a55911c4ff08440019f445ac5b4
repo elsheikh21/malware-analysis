@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.SandActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+intent::android.intent.action.PICK
+call::Obfuscation(Base64)
+url::xmlpull.org
+url::http://sandblaster.googlecode.com/svn/trunk/
+intent::android.intent.category.DEFAULT
+url::sandblaster.googlecode.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.action.VIEW
+url::http://xmlpull.org/v1/doc/features.html

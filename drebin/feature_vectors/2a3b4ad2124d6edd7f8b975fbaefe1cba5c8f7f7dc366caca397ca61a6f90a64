@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ui.AdvancedConfigurationActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.ui.SplashActivity
+activity::.SplashActivity
+call::getSystemService

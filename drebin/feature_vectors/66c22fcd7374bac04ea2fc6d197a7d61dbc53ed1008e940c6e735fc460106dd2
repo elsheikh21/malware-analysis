@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.INTERNET
+permission::android.permission.DISABLE_KEYGUARD
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+activity::3 Card Monte

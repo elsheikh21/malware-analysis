@@ -1,0 +1,6 @@
+url::http://m.wlos.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+url::m.wlos.com
+activity::.WLOS

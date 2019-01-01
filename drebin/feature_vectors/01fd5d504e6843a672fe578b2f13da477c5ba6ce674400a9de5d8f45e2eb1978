@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://tradingninja.com/2010/10/the-forex-signals-2/
+intent::android.intent.action.MAIN
+url::http://feeds.feedburner.com/KillerTradingSystems
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.Activity1
+url::tradingninja.com

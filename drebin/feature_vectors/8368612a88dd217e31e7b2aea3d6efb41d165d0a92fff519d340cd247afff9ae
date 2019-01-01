@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+activity::%E6%B4%E5%E4%B8%E8%A6%A7
+activity::%E7%B5%A6%E6%B2%B9
+activity::%E7%E8%B2%BB%E3%B0%E3%A9%E3
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://images.ad-maker.info/apps/fj8f47reyt31.html
+activity::%E8%BB%E4%B8%A1%E3%AE%E6%E5%A0%B1
+real_permission::android.permission.INTERNET
+activity::.BootActivity
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+activity::%E3%E3%AE%E4%BB%E6%B4%E5
+call::getSystemService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::%E3%AA%E3%A4%E3%AB%EF%BC%E3%A8%E3%AC%E3%A1%E3%B3%E3%E4%BA%A4%E6
+api_call::android/webkit/WebView
+url::http://images.ad-maker.info/apps
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::xxxxx
+feature::android.hardware.screen.portrait
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER

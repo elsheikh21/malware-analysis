@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::com.binthef.comicviewer.activities.ComicViewerActivity
+intent::android.intent.action.MAIN
+activity::.SplashScreenActivity
+activity::com.binthef.comicviewer.activities.SplashScreenActivity
+intent::android.intent.category.LAUNCHER

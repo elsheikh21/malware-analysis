@@ -1,0 +1,16 @@
+activity::.ClockActivity
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+call::getSystemService
+permission::android.permission.READ_PHONE_STATE
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+api_call::android/app/Activity;->startActivity
+activity::.AlarmActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_PHONE_STATE
+service_receiver::.service.RelaxAndSleepService
+real_permission::android.permission.WAKE_LOCK

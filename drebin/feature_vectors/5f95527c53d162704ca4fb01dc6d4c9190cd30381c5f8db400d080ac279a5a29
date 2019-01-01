@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::androidsmash.com
+call::printStackTrace
+real_permission::android.permission.INTERNET
+activity::.ChangeEncoding
+api_call::android/webkit/WebView
+url::http://androidsmash.com/\%27>AndroidSmash</a><br/><br/><a
+intent::android.intent.category.LAUNCHER

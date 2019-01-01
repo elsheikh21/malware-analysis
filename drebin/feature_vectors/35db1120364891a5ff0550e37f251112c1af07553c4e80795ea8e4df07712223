@@ -1,0 +1,5 @@
+activity::CaffeineMarkEmbeddedApp
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+activity::.CaffeineMarkEmbeddedApp
+feature::android.hardware.touchscreen

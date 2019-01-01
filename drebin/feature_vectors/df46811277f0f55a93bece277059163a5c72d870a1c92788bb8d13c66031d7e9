@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::jkdapps.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::.trucking
+url::http://jkdapps.com/trucking.php
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

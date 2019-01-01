@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.CALL_PRIVILEGED
+url::www.unimedjaboticabal.com.br
+permission::android.permission.INTERNET
+url::http://www.unimedjaboticabal.com.br
+feature::android.hardware.telephony
+activity::.TT3
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+permission::android.permission.READ_CONTACTS
+permission::android.permission.CAMERA

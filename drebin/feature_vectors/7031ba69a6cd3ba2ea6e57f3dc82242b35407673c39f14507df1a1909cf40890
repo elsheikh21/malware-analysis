@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::com.google.android.c2dm.intent.RECEIVE
+service_receiver::.C2DMReceive
+intent::android.intent.action.MAIN
+intent::com.google.android.c2dm.intent.REGISTRATION
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+permission::com.google.android.c2dm.permission.RECEIVE
+intent::android.intent.category.LAUNCHER
+permission::com.expr.c2dmclient.permission.C2D_MESSAGE
+activity::.MobilEye_C2DMClient_10062011
+api_call::java/net/Socket

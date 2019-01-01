@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+url::http://www.toyou.fm/andinfo/
+activity::.MainActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::www.toyou.fm
+real_permission::android.permission.WAKE_LOCK

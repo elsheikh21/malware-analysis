@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.location
+activity::.HitClassTools
+intent::android.intent.category.LAUNCHER
+permission::android.permission.LOCATION
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

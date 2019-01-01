@@ -1,0 +1,10 @@
+url::cg.ifeng.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.MotoMIDlet
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::http://cg.ifeng.com/ifeng/jargroup/1010/6102/1152/cdc_S700_20100429_1006.jad
+call::getPackageInfo
+url::www.netmite.com

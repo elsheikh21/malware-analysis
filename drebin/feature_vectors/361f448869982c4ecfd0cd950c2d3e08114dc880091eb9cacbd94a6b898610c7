@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::cheapppy.idea-stack.com
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+activity::.Cheapppy
+real_permission::android.permission.INTERNET
+url::http://cheapppy.idea-stack.com/mobile_android.php
+intent::android.intent.category.LAUNCHER

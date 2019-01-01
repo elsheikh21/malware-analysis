@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::mobilelivestream.com
+intent::android.intent.action.MAIN
+url::http://mobilelivestream.com/
+activity::.MainScreen
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

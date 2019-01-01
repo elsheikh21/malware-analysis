@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.TarocchiActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.CartaActivity
+activity::.SplashActivity
+call::getSystemService

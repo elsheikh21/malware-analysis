@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+activity::.SoundboardMenu
+url::http://forum.xda-developers.com/showthread.php?p%3D7749079
+call::printStackTrace
+activity::.gui.SoundboardMenu
+url::forum.xda-developers.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::HttpPost
+permission::android.permission.WRITE_SETTINGS
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::java/net/Socket
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+call::getSystemService
+call::Obfuscation(Base64)
+intent::android.intent.category.DEFAULT
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(Blowfish)
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT

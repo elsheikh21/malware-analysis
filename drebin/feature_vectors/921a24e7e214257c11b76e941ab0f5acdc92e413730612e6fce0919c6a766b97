@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.TodayMenu
+intent::android.intent.action.MAIN
+activity::.KeepingList
+activity::.KeepingRegist
+activity::.HelpNotice
+activity::.KeepingGuide
+intent::android.intent.category.LAUNCHER
+activity::.KeepingHome
+call::getSystemService

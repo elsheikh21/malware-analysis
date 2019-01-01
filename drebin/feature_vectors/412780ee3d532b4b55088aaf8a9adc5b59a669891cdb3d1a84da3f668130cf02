@@ -1,0 +1,6 @@
+url::http://3gty.hevnet.net/e
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SjjmActivity
+intent::android.intent.category.LAUNCHER
+url::3gty.hevnet.net

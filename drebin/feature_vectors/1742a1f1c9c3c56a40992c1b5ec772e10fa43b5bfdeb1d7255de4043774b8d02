@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://talesofpocoro.appspot.com/send_stat
+intent::android.intent.action.MAIN
+url::talesofpocoro.appspot.com
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ToPActivity
+intent::android.intent.category.LAUNCHER
+activity::ToPActivity
+api_call::android/webkit/WebView
+call::HttpPost
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

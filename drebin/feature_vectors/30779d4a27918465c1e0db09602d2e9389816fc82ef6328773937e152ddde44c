@@ -1,0 +1,13 @@
+activity::.ForexActivity
+feature::android.hardware.touchscreen
+url::forexonthego.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+url::https://forexonthego.com/disp/webapp.aspx?platform%3DAndroid&debug%3Dfalse&lang%3D
+intent::android.intent.category.LAUNCHER
+activity::com.ingress.android.forex.itrader.ForexActivity
+real_permission::android.permission.INTERNET
+api_call::android/webkit/WebView

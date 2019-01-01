@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::HitChance
+activity::.HitChance
+intent::android.intent.category.LAUNCHER

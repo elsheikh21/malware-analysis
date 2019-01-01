@@ -1,0 +1,8 @@
+activity::.WordList
+activity::.ExpContent
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Main
+intent::android.intent.category.LAUNCHER
+activity::.DeleteWord
+call::getSystemService

@@ -1,0 +1,17 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+activity::ReddMag
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::saibotd.com
+url::http://i.reddit.com
+url::http://reddit.com
+url::reddit.com
+permission::android.permission.INTERNET
+url::i.reddit.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.ReddMag
+url::http://saibotd.com/redditmag/?r%3D
+call::getSystemService

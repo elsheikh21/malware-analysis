@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::http://174.122.37.35/svn/Android/bin/
+permission::android.permission.READ_LOGS
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://174.122.37.35/svn/Android/bin/DroidWatcherSettings_
+real_permission::android.permission.INTERNET
+call::printStackTrace
+activity::.settings.PreferencesEditor
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+api_call::java/net/URL;->openConnection
+url::174.122.37.35
+url::http://174.122.37.35/svn/Android/bin/DroidWatcher_
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

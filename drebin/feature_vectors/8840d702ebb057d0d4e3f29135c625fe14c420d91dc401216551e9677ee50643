@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.settings.ImagePicker
+activity::.settings.ColorPicker
+feature::android.hardware.screen.portrait
+activity::ClockSettings
+call::getSystemService

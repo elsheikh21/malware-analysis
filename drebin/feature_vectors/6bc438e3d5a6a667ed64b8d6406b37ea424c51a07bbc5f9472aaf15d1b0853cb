@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.keyStats
+activity::.GetLoanData
+activity::.LoanList
+url::http://www.pranasoftware.com/Quickstart.html
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.showTables
+intent::android.intent.category.LAUNCHER
+activity::.Details
+url::www.pranasoftware.com
+call::getSystemService

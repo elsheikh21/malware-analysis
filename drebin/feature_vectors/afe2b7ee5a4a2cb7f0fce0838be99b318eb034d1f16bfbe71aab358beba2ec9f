@@ -1,0 +1,13 @@
+url::twitter.com
+feature::android.hardware.touchscreen
+url::http://twitter.com/agvirtues
+url::pt-br.facebook.com
+intent::android.intent.action.MAIN
+url::http://blog.virtues.com.br
+url::http://www.orkut.com.br/Main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://pt-br.facebook.com/virtuesmultimidia
+activity::.virtues
+url::blog.virtues.com.br
+url::www.orkut.com.br

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.CompanyActivity
+intent::android.intent.action.MAIN
+activity::.ProductsActivity
+activity::.CrueltyFreeActivity
+activity::.AboutActivity
+activity::.CompaniesActivity
+intent::android.intent.action.SEARCH
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.portrait
+activity::.ProductActivity
+intent::android.intent.action.VIEW

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Entangled
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+intent::android.intent.category.DEFAULT
+activity::.EntangledReader
+real_permission::android.permission.INTERNET
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

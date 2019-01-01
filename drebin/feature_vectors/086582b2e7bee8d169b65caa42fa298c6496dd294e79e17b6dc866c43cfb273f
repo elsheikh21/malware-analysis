@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+activity::.FruitsParlorHiscore
+activity::.FruitsParlorHelp
+intent::android.intent.category.LAUNCHER
+activity::.FruitsParlorFree
+activity::.FruitsParlorSetting
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

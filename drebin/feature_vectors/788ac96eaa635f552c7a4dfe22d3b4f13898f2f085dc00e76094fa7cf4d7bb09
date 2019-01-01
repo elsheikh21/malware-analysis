@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.LogoActivity
+activity::com.pmpabc.VideoPlayerActivity
+call::printStackTrace
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.ExamActivity
+feature::android.hardware.screen.portrait
+activity::ContentActivity
+intent::android.intent.category.LAUNCHER
+url::www.pmi.org
+activity::MainActivity
+real_permission::android.permission.WAKE_LOCK
+feature::android.hardware.screen.landscape
+call::getSystemService
+url::http://www.pmi.org/AboutUs/Pages/2009_Professional_Awards.aspx

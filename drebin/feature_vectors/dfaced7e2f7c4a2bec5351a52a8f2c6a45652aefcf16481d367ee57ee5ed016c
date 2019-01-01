@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+api_call::android/content/Context;->startActivity
+api_call::android/os/Vibrator;->vibrate
+url::asteroids.asapcode.com
+permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.AsteroidsActivity
+url::http://asteroids.asapcode.com/services/
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

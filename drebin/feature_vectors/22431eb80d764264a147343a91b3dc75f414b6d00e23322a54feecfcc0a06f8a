@@ -1,0 +1,27 @@
+activity::.KanjiDicSearchPrefs
+feature::android.hardware.touchscreen
+activity::.EdictDisplay
+permission::android.permission.INTERNET
+activity::.KanjiTextQuery
+call::Read/Write External Storage
+activity::.EdictQuery
+activity::.Splash
+activity::.About
+activity::.KanjisSearch
+activity::.EdictSearchPrefs
+activity::.DictionarySelect
+api_call::java/net/URL;->openConnection
+call::getSystemService
+activity::.History
+activity::.KanjiDicDisplay
+activity::.Favorites
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.DictionaryInstall
+activity::.KanjiDraw
+real_permission::android.permission.INTERNET
+activity::.Kabuto
+intent::android.intent.category.LAUNCHER
+activity::.MultiRadSearch
+activity::.KanjiStrokesQuery
+activity::.Preferences

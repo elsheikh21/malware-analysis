@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Skin

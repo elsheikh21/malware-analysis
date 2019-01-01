@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+service_receiver::.WidgetInfo$SwitchLocaleService
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.CHANGE_CONFIGURATION
+intent::android.intent.category.LAUNCHER
+activity::.LocaleSwitchActivity
+provider::android.appwidget.provider
+permission::android.permission.WRITE_SETTINGS

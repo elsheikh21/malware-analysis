@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::caspa.site90.net
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::http://caspa.site90.net/?p%3D5
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://caspa.site90.net/?category_name%3Ddownload

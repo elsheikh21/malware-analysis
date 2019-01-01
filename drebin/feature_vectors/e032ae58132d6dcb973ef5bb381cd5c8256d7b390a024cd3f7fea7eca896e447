@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.sensor.compass
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+real_permission::android.permission.VIBRATE
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+permission::android.permission.VIBRATE
+activity::Load Game
+activity::.TitleScreen
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.sensor.accelerometer
+activity::Sensor Calibration
+feature::android.hardware.screen.portrait
+activity::Save Game
+api_call::android/content/Context;->startActivity

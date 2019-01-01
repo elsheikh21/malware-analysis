@@ -1,0 +1,16 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::http://images.ad-maker.info/apps/myrating.html
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+service_receiver::.WidgetService
+intent::android.intent.category.LAUNCHER
+api_call::android/app/ActivityManager;->getRecentTasks
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

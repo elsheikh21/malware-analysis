@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.stillsindia.com/
+api_call::android/media/MediaPlayer;->stop
+url::www.stillsindia.com
+activity::.InspireME
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER

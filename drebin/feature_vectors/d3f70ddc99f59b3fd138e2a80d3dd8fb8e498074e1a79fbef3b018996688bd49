@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::com.nd.android.pandatheme.PandaTheme
+intent::android.intent.action.MAIN
+url::market.android.com
+call::getPackageInfo
+url::http://market.pandaapp.com/theme/
+activity::.PandaTheme
+url::http://market.android.com/search?q%3Dpub:\
+url::http://market.android.com/search?q%3Dpname:com.nd.android.pandahome2
+url::market.pandaapp.com
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/search?q%3Dpname:com.nd.android.pandahome

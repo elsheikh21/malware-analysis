@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://rotter.net/rss/rotternews.xml
+service_receiver::MainWidget$UpdateService
+url::http://rotter.net/edit/text/rotterside1.html
+activity::.ScoopsScreen
+provider::android.appwidget.provider
+permission::android.permission.INTERNET
+activity::.WidgetConfigure
+url::rotter.net
+api_call::java/net/URL;->openConnection
+service_receiver::.MainWidget
+real_permission::android.permission.INTERNET
+activity::.Newsflash
+service_receiver::MainWidget$RefreshService
+call::getSystemService
+api_call::android/content/Context;->startService

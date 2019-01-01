@@ -1,0 +1,31 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::NativeBrowser
+activity::.TxtflMobile
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startActivity
+api_call::android/accounts/AccountManager;->getAccounts
+activity::Dashboard
+call::getSystemService
+activity::IntroFlow
+activity::Settings
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+url::api.openfeint.com
+real_permission::android.permission.GET_ACCOUNTS
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::https://api.openfeint.com
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

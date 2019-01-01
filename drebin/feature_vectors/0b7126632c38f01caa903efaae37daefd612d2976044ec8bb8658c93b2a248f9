@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+call::getSystemService
+intent::android.intent.action.MAIN

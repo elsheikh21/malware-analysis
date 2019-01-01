@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::.DateUpdater

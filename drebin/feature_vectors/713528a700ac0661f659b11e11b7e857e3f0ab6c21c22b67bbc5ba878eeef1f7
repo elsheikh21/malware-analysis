@@ -1,0 +1,28 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+url::degener.oliver.ass-nienburg-i.de
+api_call::android/app/Activity;->startActivity
+url::http://www.facebook.com/otothel.apps
+activity::.MainActivity
+activity::.Settings
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+url::http://degener.oliver.ass-nienburg-i.de/app/
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES)
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+api_call::java/net/URL;->openConnection
+url::www.facebook.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

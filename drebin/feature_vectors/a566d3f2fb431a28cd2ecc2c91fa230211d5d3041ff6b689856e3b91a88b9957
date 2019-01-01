@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://mobil.discounterapo.de/
+intent::android.intent.action.MAIN
+url::http://mobil.discounterapo.de//index.php?partnerstart%3D1&partnerid%3Dandroid
+url::mobil.discounterapo.de
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://mobil.discounterapo.de/suchen?partner%3Dandroid&q%3D
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+api_call::android/app/Activity;->startActivity
+call::getSystemService

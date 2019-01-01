@@ -1,0 +1,14 @@
+url::http://mobile.purplebearpride.com
+feature::android.hardware.touchscreen
+url::mobile.purplebearpride.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.purplebearpride.com/about
+url::http://mobile.purplebearpride.com/stats
+intent::android.intent.category.LAUNCHER
+activity::Purple Bear Pride
+url::http://mobile.purplebearpride.com/roster
+url::http://mobile.purplebearpride.com/schedule

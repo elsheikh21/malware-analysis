@@ -1,0 +1,16 @@
+activity::.DetalleNoticia
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://iphone.eleconomista.mobi/aplicacion/publicidad.php
+activity::.DetalleCotizaciones
+url::http://iphone.eleconomista.mobi/aplicacion/favoritos.php?lista%3D
+url::http://iphone.eleconomista.mobi/aplicacion/cotizacion.php?id_v%3D31&id%3D
+url::http://iphone.eleconomista.mobi/aplicacion/listadoCotizaciones.php
+permission::android.permission.INTERNET
+activity::.ElEconomistaMain
+intent::android.intent.category.LAUNCHER
+url::iphone.eleconomista.mobi
+real_permission::android.permission.INTERNET
+call::getSystemService
+url::http://iphone.eleconomista.mobi/categorias.xml

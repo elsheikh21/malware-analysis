@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::PTZImageView
+activity::DigitalZoomActivity
+activity::AddServer
+permission::android.permission.WAKE_LOCK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::PTZActivity
+permission::android.permission.INTERNET
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::.Catcheye
+intent::android.intent.category.LAUNCHER
+activity::SlideActivity
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::HelpViewer
+call::printStackTrace
+activity::EditServer
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.CAMERA
+url::www.google.com
+api_call::android/content/Context;->startActivity
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+url::docs.google.com
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::https://docs.google.com/feeds/default/private/full?ocr%3Dtrue
+api_call::android/hardware/Camera;->open
+url::https://www.google.com/accounts/ClientLogin
+api_call::java/net/URL;->openConnection
+activity::.SpeakIn
+permission::android.permission.WAKE_LOCK
+activity::.Browser
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

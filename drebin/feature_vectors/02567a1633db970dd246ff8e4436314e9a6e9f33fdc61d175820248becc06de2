@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::http://mobile.lnisoft.com/notiiopenapi/allservice.asmx
+permission::android.permission.CALL_PHONE
+url::www.w3.org
+url::http://mobile.lnisoft.com/
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+url::mobile.lnisoft.com
+real_permission::android.permission.INTERNET
+activity::.NotiiMobile
+url::http://www.w3.org/2001/XMLSchema-instance\
+call::getSystemService

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

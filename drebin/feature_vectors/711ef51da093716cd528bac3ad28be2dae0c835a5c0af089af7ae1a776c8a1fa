@@ -1,0 +1,15 @@
+url::http://twitter.com/davekover
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+intent::android.intent.action.MAIN
+url::twitter.com
+intent::android.intent.action.SET_WALLPAPER
+activity::.main
+intent::android.intent.category.DEFAULT
+permission::android.permission.SET_WALLPAPER
+url::http://www.koveleski.com/
+intent::android.intent.category.LAUNCHER
+url::www.koveleski.com
+call::getPackageInfo
+activity::.splashActivity
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::http://m.mrblue.com/Main/ListGenre.aspx?MD1%3D01&MD2%3D07
+feature::android.hardware.screen.portrait
+url::m.mrblue.com
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.IntroActivity

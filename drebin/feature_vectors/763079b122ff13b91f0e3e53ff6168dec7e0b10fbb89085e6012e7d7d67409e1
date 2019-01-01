@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+activity::com.mobilizeit.meetup.StartActivity
+permission::com.mobilizeit.meetup.pmi.permission.C2D_MESSAGE
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+service_receiver::com.google.android.c2dm.C2DMBroadcastReceiver
+call::HttpPost
+url::mobilizeit.cloudapp.net
+real_permission::android.permission.WAKE_LOCK
+service_receiver::com.mobilizeit.meetup.pmi.C2DMReceiver
+url::http://mobilizeit.cloudapp.net/
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::com.google.android.c2dm.permission.RECEIVE
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+service_receiver::MeetUp Push service
+intent::com.google.android.c2dm.intent.RECEIVE
+intent::com.google.android.c2dm.intent.REGISTRATION
+url::http://mobilizeit.cloudapp.net/Client/CreateAccount/
+service_receiver::MeetUp Poller Service
+activity::.StartActivity
+permission::android.permission.WRITE_CALENDAR
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startService

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.ActMain
+permission::android.permission.CALL_PHONE
+url::http://m.samsunglife.com/mobile/footer/company/introduce.html
+feature::android.hardware.screen.portrait
+activity::.ui.ActMain
+feature::android.hardware.telephony
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+url::http://m.samsunglife.com/mobile/footer/branch/list.jsp
+url::m.samsunglife.com
+real_permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity
+call::getSystemService

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::https://market.android.com/details?id%3Dcom.androidwax.livewallpaper.hurricane
+intent::android.intent.action.MAIN
+url::market.android.com
+call::Obfuscation(Base64)
+call::printStackTrace
+call::Read/Write External Storage
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.software.live_wallpaper
+api_call::android/content/Context;->startActivity
+call::getPackageInfo
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

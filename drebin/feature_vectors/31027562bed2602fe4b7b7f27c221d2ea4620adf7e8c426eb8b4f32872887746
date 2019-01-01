@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+call::getSystemService
+call::Obfuscation(Base64)
+activity::.DoodleFitActivity
+feature::android.hardware.screen.portrait
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+service_receiver::com.gamelion.DoodleFit.iab.BillingReceiver
+service_receiver::com.gamelion.DoodleFit.iab.BillingService
+api_call::android/media/MediaPlayer;->start
+permission::com.android.vending.BILLING
+real_permission::android.permission.WAKE_LOCK

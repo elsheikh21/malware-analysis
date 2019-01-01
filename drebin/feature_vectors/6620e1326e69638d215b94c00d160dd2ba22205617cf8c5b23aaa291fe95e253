@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.THP
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::teamhockeypool.com
+activity::Bracket
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::graph.facebook.com
+url::https://graph.facebook.com/
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+url::http://teamhockeypool.com/getbracket.php?id%3D
+url::http://teamhockeypool.com/getstats.php
+call::getSystemService

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::https://market.android.com/
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::market.android.com
+intent::android.intent.category.DEFAULT
+url::comm.mang.
+activity::MangBrowserActivity
+call::getSystemService
+activity::MangReaderActivity
+activity::MangSplashActivity
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.VIEW
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://comm.mang.
+activity::.MangSplashActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

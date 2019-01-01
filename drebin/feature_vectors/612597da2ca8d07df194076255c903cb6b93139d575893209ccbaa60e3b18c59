@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+api_call::java/net/HttpURLConnection
+url::r.admob.com
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::.WidgetKillService
+activity::.WhiteKiller
+call::getPackageInfo
+permission::android.permission.GET_TASKS
+url::http://mm.admob.com/static/android/canvas.html
+url::http://mm.admob.com/static/android/i18n/20100820
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+api_call::android/content/Context;->startActivity
+activity::.Settings
+service_receiver::.WidgetKillSmallService
+url::http://a.admob.com/f0?
+call::getSystemService
+url::mm.admob.com
+real_permission::android.permission.RESTART_PACKAGES
+url::api.admob.com
+url::a.admob.com
+service_receiver::Widget Kill (2x1)
+service_receiver::Widget Kill (1x1)
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.IgnoreList
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+url::schemas.android.com

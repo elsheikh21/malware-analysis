@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://boomstep.mobi/internal/json?node%3Dpasta_iphone&i11%3D1
+activity::.Result
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::boomstep.mobi
+url::http://boomstep.mobi/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.ExpertApp
+activity::.Start
+intent::android.intent.category.DEFAULT
+call::getSystemService

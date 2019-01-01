@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.InputActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+call::getSystemService

@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::java/net/ServerSocket
+real_permission::android.permission.READ_CONTACTS
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+activity::.App
+api_call::android/media/MediaPlayer;->start
+api_call::android/accounts/AccountManager;->getAccounts
+real_permission::android.permission.VIBRATE
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.RECORD_AUDIO
+call::Obfuscation(Base64)
+api_call::android/media/MediaRecorder;->setAudioSource
+call::Cipher(AES)
+real_permission::android.permission.GET_ACCOUNTS
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER

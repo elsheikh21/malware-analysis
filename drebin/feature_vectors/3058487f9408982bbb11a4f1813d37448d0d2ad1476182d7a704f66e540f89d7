@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::Spider Solitaire
+intent::android.intent.action.MAIN
+activity::.AppEntry
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

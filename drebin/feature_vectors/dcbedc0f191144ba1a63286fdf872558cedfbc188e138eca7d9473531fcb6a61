@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.vuclipLauncherLite
+url::m.vuclip.com
+intent::android.intent.category.LAUNCHER
+url::http://m.vuclip.com/?sn%3D1046

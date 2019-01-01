@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::gp114.com
+permission::android.permission.CALL_PHONE
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+url::http://pensionninfo.com/mobile/
+intent::android.intent.category.LAUNCHER
+url::pensionninfo.com
+url::http://gp114.com/mobile/
+real_permission::android.permission.INTERNET

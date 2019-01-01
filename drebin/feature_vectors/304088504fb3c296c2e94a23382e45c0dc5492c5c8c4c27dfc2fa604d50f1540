@@ -1,0 +1,19 @@
+activity::.BeanActivity
+url::http://i.oseschool.com/setMark.php?gametype%3D
+url::i.oseschool.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+api_call::java/net/URL;->openStream
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+call::printStackTrace
+url::http://i.oseschool.com/getMark.php?gametype%3D
+real_permission::android.permission.WAKE_LOCK

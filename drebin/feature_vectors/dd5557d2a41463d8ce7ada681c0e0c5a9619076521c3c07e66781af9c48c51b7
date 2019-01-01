@@ -1,0 +1,37 @@
+url::orangepixel.net
+feature::android.hardware.touchscreen
+url::http://www.twitter.com/orangepixel
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::NativeBrowser
+url::http://market.android.com/details?id%3D
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+url::market.android.com
+api_call::android/content/Context;->startActivity
+activity::Dashboard
+url::www.twitter.com
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+activity::IntroFlow
+activity::Settings
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://orangepixel.net/miniplane/
+call::Execution of external commands
+call::Cipher(AES/CBC/PKCS5Padding)
+url::api.openfeint.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.Startup
+url::https://api.openfeint.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/media/MediaPlayer;->start

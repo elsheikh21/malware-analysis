@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+real_permission::android.permission.CAMERA
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.CAMERA_BUTTON
+intent::android.intent.action.MAIN
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::com.proxectos.fastcamera.FastCameraActivity
+api_call::android/content/ContentResolver;->openOutputStream
+activity::.FastCameraActivity
+service_receiver::com.proxectos.fastcamera.CameraButtonReceiver
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET

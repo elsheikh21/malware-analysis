@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.Stats
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+api_call::android/location/LocationManager;->addGpsStatusListener
+feature::android.hardware.location.gps
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.location
+activity::.ViewLogs
+call::getSystemService
+api_call::java/net/URL;->openStream
+activity::.SaveLogs
+activity::.SetPreference
+activity::.AdvFilter
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.StartupScreen
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.UKBirdingChecklistdemo

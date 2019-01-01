@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+call::HttpPost
+service_receiver::.service.SyncDeviceInfosService
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+call::getSimCountryIso
+call::getSystemService
+url::www.imnet.us
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.imnet.us/api/
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+url::http://www.imnet.us/android/santa/index/
+intent::android.intent.action.MAIN
+url::http://www.imnet.us/api/wallpapers/log/device_info?ss%3Dss
+url::http://www.imnet.us/api/wallpapers/photos/feedback?id%3D
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSubscriberId

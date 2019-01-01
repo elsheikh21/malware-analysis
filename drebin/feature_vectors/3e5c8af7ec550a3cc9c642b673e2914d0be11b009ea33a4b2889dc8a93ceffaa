@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.WebKit
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://compsci02.snc.edu/cs460/2011/reutbp/arboretum/Map2.html
+intent::android.intent.category.LAUNCHER
+url::compsci02.snc.edu
+real_permission::android.permission.INTERNET

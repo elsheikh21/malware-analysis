@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.ltSms
+activity::.LexiTools
+call::sendSMS
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+activity::.ltMemory
+feature::android.hardware.telephony
+activity::.ltDetail
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+real_permission::android.permission.READ_CONTACTS
+activity::.ltBrowse
+permission::android.permission.READ_CONTACTS
+activity::.ltAbout

@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+activity::.Main
+intent::android.intent.category.DEFAULT
+activity::.Setting
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.READ_CONTACTS
+activity::.Edit
+api_call::android/content/ContentResolver;->query
+service_receiver::.BootUpReceiver
+api_call::android/content/Context;->startActivity
+url::www.matabii.com
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.Import
+url::http://www.matabii.com/copipe/
+url::http://www.matabii.com/copipe/index_en.html
+activity::.SettingPassword
+call::Cipher(AES)
+provider::com.matabii.copipe.provider
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER

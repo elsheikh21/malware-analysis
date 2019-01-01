@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+url::m.magmito.com
+intent::android.intent.action.MAIN
+url::http://magmito.com/eventserver/mu.do
+url::magmito.com
+url::http://m.magmito.com/inv/
+permission::android.permission.INTERNET
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.netmite.com/android/srv/2.0/upload/dragonicaAppmoment.jad
+activity::.EventMidlet
+url::www.netmite.com

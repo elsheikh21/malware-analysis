@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+activity::.PrefActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+api_call::android/content/ContentResolver;->openOutputStream
+activity::.MainActivity
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

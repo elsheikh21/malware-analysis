@@ -1,0 +1,17 @@
+activity::CalendarLaunch
+feature::android.hardware.touchscreen
+intent::android.intent.action.TIMEZONE_CHANGED
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.CalendarWidget
+intent::android.intent.action.PACKAGE_REPLACED
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.TIME_SET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.TabMenu
+provider::android.appwidget.provider
+call::getSystemService
+activity::.SkinPicker

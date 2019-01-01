@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.proWOL
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->startActivity
+service_receiver::.BootReceiver
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.BOOT_COMPLETED
+api_call::java/net/DatagramSocket
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.ActionScreen
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.MDIScreen
+activity::.Preferences
+api_call::java/net/NetworkInterface
+real_permission::android.permission.INTERNET
+activity::.WinCNCTouch
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/content/Context;->startActivity
+url::http://www.abc.net.au/news/feed/51892/rss.xml
+url::http://www.abc.net.au/news/feed/45910/rss.xml
+permission::android.permission.INTERNET
+url::http://www.abc.net.au/news/feed/46182/rss.xml
+real_permission::android.permission.INTERNET
+url::http://www.abc.net.au/news/feed/46800/rss.xml
+service_receiver::ABC News Widget
+url::www.abc.net.au
+service_receiver::bucayan.android.rssdroidwidget.RSSDroidWidget$UpdateService
+url::http://www.abc.net.au/news/feed/45924/rss.xml
+url::m.abc.net.au
+url::http://www.abc.net.au/news/feed/52278/rss.xml
+provider::android.appwidget.provider
+url::http://m.abc.net.au/browse?page%3D11144&articleid%3D
+url::http://www.abc.net.au/news/feed/51120/rss.xml

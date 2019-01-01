@@ -1,0 +1,23 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+service_receiver::.Ynet3$UpdateService3
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+service_receiver::.Ynet1$UpdateService1
+real_permission::android.permission.INTERNET
+url::www.brighttech.co.il
+url::http://www.brighttech.co.il
+call::printStackTrace
+call::getSystemService
+service_receiver::.Ynet2$UpdateService2
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::Ynet widget X 2
+service_receiver::Ynet widget X 3
+service_receiver::Ynet widget X 1
+api_call::android/content/Context;->startService
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::bbb3
+service_receiver::bbb2
+service_receiver::bbb1
+feature::android.hardware.screen.portrait
+provider::android.appwidget.provider

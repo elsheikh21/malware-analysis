@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+activity::.MainApp
+activity::com.kbank.kmobilebanking.MainApp
+permission::android.permission.READ_PHONE_STATE
+url::rt10.kasikornbank.com
+permission::android.permission.INTERNET
+api_call::android/telephony/TelephonyManager;->getDeviceId
+intent::android.intent.category.LAUNCHER
+url::https://rt10.kasikornbank.com/SusanooServer2/index%40Start.service?v%3D7&m%3D0&p%3D5&a%3D
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

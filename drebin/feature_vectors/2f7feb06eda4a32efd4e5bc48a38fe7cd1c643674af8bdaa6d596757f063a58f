@@ -1,0 +1,16 @@
+url::http://dev.fitsync.com/miniapps/mobile.cgi
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::dev.fitsync.com
+activity::.FitSync
+permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::app.fitsync.com
+url::http://app.fitsync.com/miniapps/mobile.cgi
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://dev.fitsync.com/miniapps/mobile.cgi?s%3Dexit
+call::getSystemService

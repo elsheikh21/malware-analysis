@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.XConnection
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://www.netmite.com/android/srv/2.0/upload/YiXianLuI_N73.jad
+url::www.netmite.com
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

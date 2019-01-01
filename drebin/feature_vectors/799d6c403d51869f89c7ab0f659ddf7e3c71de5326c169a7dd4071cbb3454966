@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::.findhim
+activity::.mapview
+call::getSystemService

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://twitpic.com/api/uploadAndPost
+url::twitpic.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://twitpic.com/api/upload
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::SplashActivity
+activity::.activity
+activity::.SplashActivity
+api_call::java/net/URL;->openConnection

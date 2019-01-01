@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::192.168.0.2
+real_permission::android.permission.INTERNET
+url::http://192.168.0.2:7144/stream/<id>.<exp>?tip%3D<ip>
+intent::android.intent.category.LAUNCHER
+api_call::java/net/ServerSocket

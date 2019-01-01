@@ -1,0 +1,10 @@
+activity::.jointpain
+url::jkdapps.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::http://jkdapps.com/joint_pain.php
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

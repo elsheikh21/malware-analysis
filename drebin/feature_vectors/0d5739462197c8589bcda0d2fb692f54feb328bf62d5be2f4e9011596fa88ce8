@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+call::HttpPost
+activity::.InstallActivity
+intent::android.intent.category.BROWSABLE
+url::http://aexceptions.appspot.com/post
+call::getSystemService
+url::aexceptions.appspot.com
+activity::.FontManagerActivity
+activity::.AboutActivity
+activity::.FileSelectorActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.FontSettingsActivity
+activity::.SettingsActivity
+activity::.aDiceActivity

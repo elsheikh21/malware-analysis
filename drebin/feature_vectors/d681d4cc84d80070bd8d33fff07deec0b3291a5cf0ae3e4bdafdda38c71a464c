@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.PluginActivity
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/media/MediaRecorder;->setAudioSource
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.CAMERA
+real_permission::android.permission.WAKE_LOCK

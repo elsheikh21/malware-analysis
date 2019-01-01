@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.restoreReceiver
+service_receiver::.quickNotes
+service_receiver::.quickNotesReciever
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::.RestoreService
+intent::android.intent.action.BOOT_COMPLETED
+activity::.StatusNote
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+call::getSystemService

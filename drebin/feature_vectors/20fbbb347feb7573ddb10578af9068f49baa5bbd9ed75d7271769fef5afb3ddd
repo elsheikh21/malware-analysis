@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::com.rapfox.player.FileBrowser
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+activity::com.rapfox.player.PlayerActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+activity::com.rapfox.playerarm7v.MainActivity
+call::Read/Write External Storage
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_SURFACE_FLINGER
+api_call::android/app/Activity;->startActivity
+call::printStackTrace
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

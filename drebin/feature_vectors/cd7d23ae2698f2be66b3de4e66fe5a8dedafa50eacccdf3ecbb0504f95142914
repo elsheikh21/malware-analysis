@@ -1,0 +1,7 @@
+feature::android.hardware.location.network
+activity::WidgetConfigActivity
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.location
+provider::android.appwidget.provider

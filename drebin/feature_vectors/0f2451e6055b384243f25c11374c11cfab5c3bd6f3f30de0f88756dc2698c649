@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::mwos.el-star.co.kr
+permission::android.permission.INTERNET
+url::http://mwos.el-star.co.kr
+real_permission::android.permission.INTERNET
+url::http://mwos.el-star.co.kr/Service/OrderMember/Order.asp
+url::http://mwos.el-star.co.kr/Login/Login/LogOut.asp
+activity::.elstar_mwos
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://mwos.el-star.co.kr/Common/Header/MainMenu.asp

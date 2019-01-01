@@ -1,0 +1,12 @@
+url::twitter.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+feature::android.hardware.touchscreen
+activity::InstapaperActivity
+url::www.instapaper.com
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+url::https://www.instapaper.com/api/add
+activity::ConfigActivity
+url::http://twitter.com/
+real_permission::android.permission.INTERNET
+call::HttpPost

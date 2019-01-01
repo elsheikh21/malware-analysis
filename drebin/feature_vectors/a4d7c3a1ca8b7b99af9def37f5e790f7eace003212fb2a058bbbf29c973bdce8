@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.PachincosActivity
+intent::android.intent.category.LAUNCHER
+url::smafon.wa909.com
+url::http://smafon.wa909.com/pachincos/

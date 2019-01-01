@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+activity::The H.G. Wells Collection
+activity::.MainNavigationActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+permission::android.webkit.permission.PLUGIN
+real_permission::android.permission.INTERNET
+call::getSystemService

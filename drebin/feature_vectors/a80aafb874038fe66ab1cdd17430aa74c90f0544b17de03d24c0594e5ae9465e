@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::.AlarmReceiver
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+call::getSystemService
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+activity::.RecoveryDeluxe
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+activity::.Recovery
+intent::android.intent.action.VIEW

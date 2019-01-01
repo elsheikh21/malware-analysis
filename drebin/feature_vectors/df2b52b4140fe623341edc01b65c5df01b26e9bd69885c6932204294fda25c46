@@ -1,0 +1,41 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.Category
+url::https://%s
+permission::android.permission.CALL_PHONE
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+url::http://schemas.android.com/apk/res/
+real_permission::android.permission.INTERNET
+activity::%EB%A0%EC%A7  %EC%A0%ED
+feature::android.hardware.location.gps
+activity::.StatisticsInfo
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/app/ActivityManager;->getRunningTasks
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+feature::android.hardware.location
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+activity::.Statistics
+activity::%EC%A0%ED%EB %EC%EC%B4%ED
+call::Cipher(AES)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.CategoryList
+real_permission::android.permission.GET_TASKS
+activity::%EC%AC%EC%A9%EC %EC%A0%EB%B3%B4%EB%A5%BC %EC%EB%A0%A5%ED%B4%EC%A3%BC%EC%B8%EC.
+feature::android.hardware.telephony
+activity::%EC%EC%A0 %EB%B0 %EC%AD%EC%A0
+api_call::java/net/URL;->openConnection
+url::http://%s
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+activity::%EB%A9%EC%BC%EC%A4%EC%A0 %EB%EC%B0%EB%AF%B8
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::schemas.android.com

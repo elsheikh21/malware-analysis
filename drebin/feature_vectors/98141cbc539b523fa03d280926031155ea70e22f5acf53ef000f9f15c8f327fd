@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.BLUETOOTH_ADMIN
+intent::android.intent.action.MAIN
+real_permission::android.permission.BLUETOOTH
+activity::Help
+permission::android.permission.BLUETOOTH
+feature::android.hardware.bluetooth
+api_call::android/bluetooth/BluetoothAdapter;->disable
+api_call::android/bluetooth/BluetoothAdapter;->getState
+permission::android.permission.BLUETOOTH_ADMIN
+activity::WidgetSettings
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+call::getSystemService
+intent::android.bluetooth.intent.action.BLUETOOTH_STATE_CHANGED

@@ -1,0 +1,17 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::CustomDialogActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+intent::android.net.conn.CONNECTIVITY_CHANGE
+feature::android.hardware.screen.portrait
+activity::.GeorgiaAquariumWebCtrl
+url::http://www.georgiaaquarium.org
+intent::android.intent.category.LAUNCHER
+service_receiver::ConnectivityReceiver
+url::http://www.georgiaaquarium.org/i
+real_permission::android.permission.INTERNET
+url::www.georgiaaquarium.org
+url::http://www.georgiaaquarium.org/i/

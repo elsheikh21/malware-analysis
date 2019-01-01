@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://vibes.phelan-4.com/video/tmp1.mp4
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+url::http://vibes.phelan-4.com/roku/getAndroidStatus.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::PlayerScreen
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::vibes.phelan-4.com
+url::http://vibes.phelan-4.com/roku/registerAndroid.php
+activity::.VibesWorkshop
+api_call::android/app/Activity;->startActivity

@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+url::wiki.processing.org
+call::printStackTrace
+activity::.FireworksGameDemo
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::market.android.com
+url::http://businessapps.brokerfortraders.com
+api_call::android/media/MediaPlayer;->start
+url::https://market.android.com/details?id%3Dprocessing.android.test.fireworksgame
+call::getSystemService
+url::http://businessapps.brokerfortraders.com/fireworksgame
+api_call::java/lang/Runtime;->exec
+permission::android.permission.PERSISTENT_ACTIVITY
+call::Execution of external commands
+url::http://wiki.processing.org/w/Android
+url::http://businessapps.brokerfortraders.com/fireworksgame/scores.php
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::businessapps.brokerfortraders.com
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

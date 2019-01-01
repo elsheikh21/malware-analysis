@@ -1,0 +1,7 @@
+feature::android.software.live_wallpaperx
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/hardware/Camera;->open
+api_call::android/location/LocationManager;->getLastKnownLocation
+call::getSystemService

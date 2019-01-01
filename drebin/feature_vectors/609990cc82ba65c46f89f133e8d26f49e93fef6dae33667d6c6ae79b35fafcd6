@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+service_receiver::.AnaDigClockWidgetProvider
+service_receiver::.AnaDigClockService
+api_call::android/content/Context;->startService
+real_permission::android.permission.VIBRATE
+provider::android.appwidget.provider
+call::getSystemService

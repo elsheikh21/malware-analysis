@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.LottoPersonalizzato
+activity::.Percentuale
+activity::.Combinazioni
+activity::.Anhoil
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.portrait
+activity::.Disposizioni

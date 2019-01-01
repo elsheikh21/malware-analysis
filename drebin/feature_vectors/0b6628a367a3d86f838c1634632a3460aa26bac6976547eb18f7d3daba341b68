@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+service_receiver::Service_ParseCurrentApplication
+intent::android.intent.action.PACKAGE_ADDED
+call::printStackTrace
+activity::LiveFolder_Configuration
+intent::android.intent.action.PACKAGE_REMOVED
+call::Read/Write External Storage
+activity::Activity_ManageData
+activity::Activity_Main
+service_receiver::Receiver_RemovePackage
+api_call::android/content/Context;->startActivity
+service_receiver::Receiver_AddPackage
+real_permission::android.permission.VIBRATE
+activity::Activity_Installed
+call::getSystemService
+activity::.Activity_Main
+intent::android.intent.action.CREATE_LIVE_FOLDER
+service_receiver::Receiver_UpdatePackage
+intent::android.intent.category.DEFAULT
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.PACKAGE_CHANGED

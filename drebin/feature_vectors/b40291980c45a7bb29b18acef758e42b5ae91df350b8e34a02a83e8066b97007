@@ -1,0 +1,8 @@
+activity::Radioactive EZCalc
+feature::android.hardware.touchscreen
+activity::1.0.1
+intent::android.intent.action.MAIN
+activity::.AppEntry
+intent::android.intent.category.LAUNCHER
+activity::.radioactivity
+call::getPackageInfo

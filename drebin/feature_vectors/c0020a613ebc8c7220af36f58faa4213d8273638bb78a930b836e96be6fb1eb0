@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+url::cyberstore.tpg.com.au
+intent::android.intent.action.MAIN
+url::https://cyberstore.tpg.com.au/your_account/index.php?function%3Dlogout
+url::https://cyberstore.tpg.com.au/your_account/index.php?function%3Dview_all_mobile
+api_call::java/net/Socket
+activity::.busagetpglite
+url::https://cyberstore.tpg.com.au/your_account/index.php?function%3Dcheckaccountusage
+permission::android.permission.INTERNET
+url::https://cyberstore.tpg.com.au/your_account/index.php?function%3Dcheckcallusage
+url::busage.bebetech.com
+url::http://busage.bebetech.com/utils/checkplans.php?action%3Dget&service%3Dmobile&plan%3D
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::HttpPost

@@ -1,0 +1,95 @@
+url::http://schemas.android.com/apk/res/
+activity::E*TRADE Mobile Pro CNBC Video
+activity::E*TRADE Mobile Pro News
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://googleads.g.doubleclick.net/aclk
+activity::E*TRADE Mobile Pro Contact Us Confirmation
+url::http://img.etrade.com/layouts
+url::http://whatismyipaddress.com/
+call::getDeviceId
+call::HttpPost
+url::11.0.6.23
+service_receiver::.C2DMReceiver
+url::optchart.etrade.com
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+activity::E*TRADE Mobile Pro Markets Overview
+call::getSystemService
+url::http://market.android.com/details
+intent::com.google.android.c2dm.intent.RECEIVE
+activity::E*TRADE
+activity::Preview Order
+url::sit49w86m7.etrade.com
+url::img.etrade.com
+api_call::android/webkit/WebView
+url::http://www.ipaddresslocation.org/my-ip-address.php
+activity::.WhatsNewScreen
+activity::E*TRADE Mobile Pro Preview Transfer
+url::http://www.gstatic.com/afma/sdk-core-v
+activity::E*TRADE Mobile Pro BRIEFING.COM
+permission::android.permission.VIBRATE
+activity::Trading
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+url::plus.cnbc.com
+url::clk
+activity::E*TRADE Mobile Pro Transfer
+url::http://googleads.g.doubleclick.net
+activity::com.google.ads.InstallReceiver
+url::googleads.g.doubleclick.net
+url::www.googleadservices.com
+url::https://sit49w86m7.etrade.com/e/t/mobile/GetQuote
+activity::E*TRADE Mobile Pro RSSFeed
+call::Cipher(AES/CBC/PKCS5Padding)
+url::a.admob.com
+activity::.WhatsNew
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+url::http://www.googleadservices.com/pagead/aclk
+activity::.activity
+url::http://c.admob.com
+url::http://www.find-ip-address.org/
+activity::.Transactions
+url::sites.google.com
+permission::com.etrade.mobilepro.activity.permission.C2D_MESSAGE
+url::http://a.admob.com/f0?
+url::mobiletrade.etrade.com
+url::http://sites.google.com/site/gson/gson-user-guide
+url::c.admob.com
+url::http://plus.cnbc.com/getstream.do?partnerId%3D1983&authkey%3D
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MobileProMain
+feature::android.hardware.wifi
+service_receiver::E*TRADE
+feature::android.hardware.screen.portrait
+url::http://11.0.6.23/
+activity::E*TRADE Mobile Pro Preferences
+call::Cipher(DES/ECB/NoPadding)
+url::http://clk
+url::schemas.android.com
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::www.ipaddresslocation.org
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.ACCESS_WIFI_STATE
+activity::.SmartAlertTerms
+url::market.android.com
+permission::android.permission.ACCESS_WIFI_STATE
+activity::E*TRADE Mobile Pro News Detail
+activity::E*TRADE Mobile Pro Contact Us
+url::www.find-ip-address.org
+permission::com.google.android.c2dm.permission.RECEIVE
+real_permission::android.permission.VIBRATE
+service_receiver::com.google.ads.InstallReceiver
+activity::com.google.android.c2dm.permission.RECEIVE
+intent::com.google.android.c2dm.intent.REGISTRATION
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::whatismyipaddress.com
+url::https://mobiletrade.etrade.com
+feature::android.hardware.screen.landscape
+intent::android.intent.action.MAIN
+activity::E*TRADE Mobile Pro Help
+real_permission::android.permission.INTERNET
+activity::.C2D_MESSAGE
+url::http://optchart.etrade.com/graphs/
+provider::android.appwidget.provider

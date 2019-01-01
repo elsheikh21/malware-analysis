@@ -1,0 +1,15 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.BrowserFullScreen
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+permission::android.webkit.permission.PLUGIN
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::CTIA Wireless
+real_permission::android.permission.INTERNET
+call::getSystemService

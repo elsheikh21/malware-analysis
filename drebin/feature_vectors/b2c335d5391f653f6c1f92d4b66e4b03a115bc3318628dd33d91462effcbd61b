@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+activity::.activity.TouchBenchmarkActivity
+activity::.activity.AccelerometerBenchmarkActivity
+intent::android.intent.category.LAUNCHER
+activity::.activity.MainMenuActivity
+call::getSystemService
+activity::.activity.MultitouchBenchmarkActivity

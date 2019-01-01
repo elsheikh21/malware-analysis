@@ -1,0 +1,12 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::b.lifeasierapp.mobi
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+activity::.Jbooks
+real_permission::android.permission.INTERNET
+url::http://b.lifeasierapp.mobi
+intent::android.intent.category.LAUNCHER
+call::Cipher(DES/ECB/NOPADDING)

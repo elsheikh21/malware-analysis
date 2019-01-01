@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.soundBoard
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.WRITE_SETTINGS
+activity::.ringtonePicker
+url::www.youtube.com
+intent::android.intent.category.DEFAULT
+url::http://www.youtube.com/results?search_query%3DBadger+Commercials
+intent::android.intent.category.LAUNCHER
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

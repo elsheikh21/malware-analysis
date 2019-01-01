@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+call::printStackTrace
+api_call::android/app/Activity;->setWallpaper
+url::http://pic.qukantu.com
+call::getSystemService
+activity::.AppIndex
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://pic.qukantu.com/tiny/
+url::pic.qukantu.com
+api_call::android/app/Activity;->startActivity
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.RESTART_PACKAGES
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.SET_WALLPAPER

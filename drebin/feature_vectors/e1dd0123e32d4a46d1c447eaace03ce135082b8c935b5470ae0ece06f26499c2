@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::questionablecontent.net
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.QCviewer
+url::http://questionablecontent.net/comics/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->getContent

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::jkdapps.com
+activity::.beer
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://jkdapps.com/beer.php
+intent::android.intent.category.LAUNCHER

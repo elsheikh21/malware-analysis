@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.wolframalpha.com/input/?i%3Dhow+many+calories+in+%s
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::www.wolframalpha.com
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::.Dietroid
+url::http://www.wolframalpha.com/input/?i%3Dhow+many+calorie+consumed+by+%s

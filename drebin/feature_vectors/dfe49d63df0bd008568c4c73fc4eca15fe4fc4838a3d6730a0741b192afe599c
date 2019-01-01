@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::HttpPost
+feature::android.hardware.location.gps
+feature::android.hardware.location
+url::http://dev.virtualearth.net/REST/
+call::getSystemService
+api_call::java/net/URL;->openStream
+call::Obfuscation(Base64)
+url::dev.virtualearth.net
+url::www.arcgis.com
+url::http://www.arcgis.com
+url::http://www.arcgis.com/sharing/content/items/
+activity::.SebesMobileSig
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER

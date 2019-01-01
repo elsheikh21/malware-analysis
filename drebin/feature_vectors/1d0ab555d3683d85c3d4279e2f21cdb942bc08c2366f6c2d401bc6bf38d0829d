@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startActivity
+activity::.CalPrefActivity
+intent::android.intent.category.PREFERENCE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.CalendarActivity
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+activity::.BoneWeightActivity

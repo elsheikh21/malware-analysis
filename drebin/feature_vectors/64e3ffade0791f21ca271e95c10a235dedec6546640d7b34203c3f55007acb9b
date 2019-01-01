@@ -1,0 +1,38 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_SELECT_TIME
+activity::pl.magot.vetch.ancal.activities.ActivityAppointment
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_TASK
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.action.AnCal.ACTION_MODE_VIEW_ALARMDIALOG
+activity::pl.magot.vetch.ancal.activities.ActivityTask
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.AnCal.ACTION_MODE_NEW_NOTE
+service_receiver::pl.magot.vetch.ancal.AnCalReceiver
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+permission::android.permission.VIBRATE
+api_call::android/content/Context;->startService
+intent::android.intent.action.AnCal.ACTION_MODE_NEW_APPOINTMENT
+activity::pl.magot.vetch.ancal.activities.ActivityAbout
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_SELECT_DATE
+activity::pl.magot.vetch.ancal.activities.ActivityNote
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_APPOINTMENTREPEAT
+activity::.OfflineCalendar
+activity::pl.magot.vetch.ancal.activities.ActivityOptions
+intent::android.intent.action.AnCal.ACTION_MODE_VIEW_ABOUT
+intent::android.intent.action.AnCal.ACTION_MODE_NEW_TASK
+intent::android.intent.action.MAIN
+activity::Edit text
+activity::Select date
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_OPTIONS
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_TEXT
+service_receiver::pl.magot.vetch.ancal.reminder.AlarmService
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_APPOINTMENT
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.AnCal.ACTION_MODE_EDIT_NOTE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::Select time

@@ -1,0 +1,10 @@
+activity::.SpanishVerbsSearch
+feature::android.hardware.touchscreen
+activity::.SpanishVerbsLaunch
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.SpanishVerbsLandscape
+intent::android.intent.category.LAUNCHER
+activity::.SpanishVerbsPortrait

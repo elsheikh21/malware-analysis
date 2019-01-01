@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.DetailViewActivity
+intent::android.intent.action.MAIN
+provider::com.google.provider.ToDoDefinitions
+intent::android.intent.category.LAUNCHER
+activity::.EditActivity
+activity::.MainList

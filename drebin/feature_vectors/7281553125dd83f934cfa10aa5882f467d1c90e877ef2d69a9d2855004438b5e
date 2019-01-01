@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+activity::.mBrowser
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+permission::android.permission.WRITE_APN_SETTINGS
+api_call::android/content/ContentResolver;->query

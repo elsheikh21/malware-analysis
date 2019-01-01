@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::.TimeRecorder
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+url::http://images.ad-maker.info/apps/okfa93insftl.html
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+api_call::android/app/Activity;->startActivity
+call::getSystemService

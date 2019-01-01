@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+provider::com.androidmocha.mypomodoro.providers.PomoTaskItemProvider
+activity::.About
+intent::android.intent.action.MAIN
+activity::.PomoRunningTask
+provider::com.androidmocha.mypomodoro.providers.pomotaskitemprovider
+activity::.PomoHome
+activity::.Eula
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+api_call::android/app/NotificationManager;->notify
+call::getSystemService

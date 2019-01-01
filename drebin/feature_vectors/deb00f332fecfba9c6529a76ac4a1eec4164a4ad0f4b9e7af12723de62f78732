@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+activity::.gui.CategoryActivity
+call::Read/Write External Storage
+call::getPackageInfo
+call::HttpPost
+service_receiver::.service.ForegroundService
+api_call::android/content/Context;->startActivity
+url::http://localhost/
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::localhost
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.CategoryActivity

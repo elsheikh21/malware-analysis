@@ -1,0 +1,15 @@
+activity::.PEPreferences
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+call::Cipher(AES)
+call::Read/Write External Storage
+call::Execution of external commands
+activity::.PapyrusEx
+intent::android.intent.category.LAUNCHER
+activity::.PEEditor
+call::getSystemService
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

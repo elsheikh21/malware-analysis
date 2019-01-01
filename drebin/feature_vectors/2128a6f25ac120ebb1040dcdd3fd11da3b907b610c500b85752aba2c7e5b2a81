@@ -1,0 +1,13 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+feature::android.hardware.screen.portrait
+activity::.CLELAnthems
+intent::android.intent.category.LAUNCHER
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.WRITE_SETTINGS

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+api_call::android/content/Context;->startActivity
+url::http://www.facebook.com/pages/TarotDroid/154223664646519?sk%3Dwall
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.DUNNO
+activity::.VoiceRecognition
+intent::android.intent.action.MAIN
+url::http://besteverapps.appspot.com/?owner%3D
+url::besteverapps.appspot.com
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.EnglishSpeaker

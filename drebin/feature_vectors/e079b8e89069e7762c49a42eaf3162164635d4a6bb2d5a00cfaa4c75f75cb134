@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.FalconBrowser
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

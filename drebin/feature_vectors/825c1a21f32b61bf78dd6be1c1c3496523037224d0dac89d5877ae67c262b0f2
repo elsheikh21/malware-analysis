@@ -1,0 +1,8 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::BietnamKeyboard
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.INTERNET
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+call::getSystemService

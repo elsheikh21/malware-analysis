@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_LOGS
+call::Read/Write External Storage
+call::getPackageInfo
+service_receiver::.CrazyLoggerService
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+activity::.LogcatActivity
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+activity::.AboutActivity
+call::Execution of external commands
+activity::.WidgetClickedActivity
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+service_receiver::.LogcatRecordingService
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider
+service_receiver::.RecordingWidgetProvider

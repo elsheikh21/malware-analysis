@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::s.kumapon.jp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::jp.gmomedia.android.kumaponBR.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.InitActivity
+url::http://s.kumapon.jp/
+intent::android.intent.category.LAUNCHER

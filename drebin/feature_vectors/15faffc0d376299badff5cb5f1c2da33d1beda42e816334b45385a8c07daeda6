@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+feature::android.software.live_wallpaper
+url::https://market.android.com/details?id%3D

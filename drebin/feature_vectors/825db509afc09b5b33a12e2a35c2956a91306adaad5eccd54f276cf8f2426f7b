@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/media/MediaRecorder;->setAudioSource
+real_permission::android.permission.RECORD_AUDIO
+activity::.Settingz
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::.vrec_service
+activity::.main
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+feature::android.hardware.microphone
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.RECORD_AUDIO
+call::getSystemService

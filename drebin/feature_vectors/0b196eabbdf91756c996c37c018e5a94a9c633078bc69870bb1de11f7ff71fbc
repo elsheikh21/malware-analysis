@@ -1,0 +1,10 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.wallie
+service_receiver::.SetWallpaperJob
+intent::android.intent.category.LAUNCHER
+api_call::android/app/WallpaperManager;->setBitmap
+call::getSystemService
+activity::.SelectFolder
+real_permission::android.permission.SET_WALLPAPER

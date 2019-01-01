@@ -1,0 +1,10 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+service_receiver::com.adobe.flashplayer.FlashPaintSurface
+real_permission::android.permission.INTERNET
+permission::android.webkit.permission.PLUGIN
+api_call::android/content/Context;->sendBroadcast
+intent::android.intent.category.DEFAULT
+call::getSystemService

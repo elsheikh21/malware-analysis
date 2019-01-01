@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+url::http://t.co/pz63rmc\n\nfor
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+activity::.EntryList
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+url::t.co

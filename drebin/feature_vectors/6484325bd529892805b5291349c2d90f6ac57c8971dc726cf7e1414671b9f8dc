@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.CallBlacklistActivity
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

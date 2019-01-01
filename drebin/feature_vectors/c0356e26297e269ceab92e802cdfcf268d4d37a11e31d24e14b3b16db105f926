@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/os/Vibrator;->vibrate
+url::m.slideme.org
+url::market.android.com
+url::http://market.android.com/details?id%3Dcom.lacas.barca.livewallpaper
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::getSystemService
+real_permission::android.permission.VIBRATE
+activity::BestBarcaSettings
+url::http://m.slideme.org/en/application/best-soccer-live-wallpaper

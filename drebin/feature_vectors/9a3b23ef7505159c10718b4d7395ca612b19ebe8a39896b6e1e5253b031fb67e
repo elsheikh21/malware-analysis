@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+provider::android.appwidget.provider
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+api_call::java/net/Socket
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startService
+service_receiver::StRService
+service_receiver::StRSwitcher
+real_permission::android.permission.INTERNET
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::rafbmx.phonesrch.hop.clickbank.net
+intent::android.intent.category.LAUNCHER
+url::http://rafbmx.phonesrch.hop.clickbank.net/?pd%3D1
+activity::.Imageweb

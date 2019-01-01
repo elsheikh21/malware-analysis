@@ -1,0 +1,9 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.niftyfl
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+activity::.OutlineList
+url::xmlpull.org
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://android-outliner.blogspot.com
+intent::android.intent.category.DEFAULT
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::.ActivityList$dummyService
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::android-outliner.blogspot.com
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+url::http://xmlpull.org/v1/doc/features.html

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.EconomiayBolsa
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+activity::.ShowDescription
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::getSystemService

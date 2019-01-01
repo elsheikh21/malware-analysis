@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::.NanjiService
+service_receiver::.NanjiWidgetProvider
+activity::.NanjiColorActivity
+intent::android.intent.category.LAUNCHER
+activity::.NanjiActivity
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

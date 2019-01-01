@@ -1,0 +1,31 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+url::http://www.radioshowlinks.com/fill.aspx?fuse%3D
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::.station.StationActivity
+activity::.show.PlayShowActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.WAKE_LOCK
+activity::.show.ShowActivity
+url::http://www.rsl.com\
+url::http://www.radioshowlinks.com/f/d/iPc105.xml
+url::https://market.android.com/details?id%3Dcom.rslclass
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openStream
+url::www.radioshowlinks.com
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+url::http://www.radioshowlinks.com/fill.aspx?fuse%3D10&StreamId%3Dstream
+real_permission::android.permission.READ_PHONE_STATE
+url::market.android.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::www.rsl.com\
+real_permission::android.permission.INTERNET
+activity::.ChannelActivity
+service_receiver::.background.RSLService
+api_call::android/media/MediaPlayer;->start

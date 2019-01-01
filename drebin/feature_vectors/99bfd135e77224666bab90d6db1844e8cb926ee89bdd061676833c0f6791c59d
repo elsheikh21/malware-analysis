@@ -1,0 +1,13 @@
+url::market.android.com
+feature::android.hardware.touchscreen
+intent::org.openintents.samples.BasicOpenARDemo
+api_call::android/app/Activity;->startActivity
+activity::.CallBackActivity
+intent::android.intent.action.MAIN
+activity::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://market.android.com/search?q%3Dwikitude
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+activity::.BasicOpenARDemoActivity

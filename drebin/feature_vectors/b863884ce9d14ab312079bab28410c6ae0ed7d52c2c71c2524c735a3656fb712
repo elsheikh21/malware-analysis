@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://en.wikipedia.org/wiki/Factorial
+url::en.wikipedia.org
+intent::android.intent.category.LAUNCHER
+activity::.FactorialCalculator

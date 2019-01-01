@@ -1,0 +1,14 @@
+activity::.GbusMain
+feature::android.hardware.touchscreen
+url::http://m.gbis.go.kr/jsp/main.jsp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::m.gbis.go.kr
+call::getSystemService

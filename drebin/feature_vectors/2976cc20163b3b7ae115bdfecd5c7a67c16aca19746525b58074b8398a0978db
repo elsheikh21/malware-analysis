@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.Skanetrafiken
+url::http://conv20.skanetrafiken.se/konverter.ashx
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.CALL_PHONE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+api_call::android/app/Activity;->setContentView
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+url::conv20.skanetrafiken.se
+call::sendSMS
+call::getSystemService

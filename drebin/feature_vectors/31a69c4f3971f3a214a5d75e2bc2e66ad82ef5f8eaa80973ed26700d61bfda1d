@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+url::http://code.google.com/p/exchangeit/wiki/exchangeItHelp
+service_receiver::com.byarger.exchangeit.NewMailService
+call::HttpPost
+url::cid
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+url::code.google.com
+api_call::java/net/URL;->openStream
+call::Obfuscation(Base64)
+call::Execution of external commands
+url::https://exg3.exghost.com/exchange/andriod%40appriver.com/Inbox
+url::exg3.exghost.com
+activity::com.byarger.exchangeit.InboxList
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+activity::.InboxList
+intent::android.intent.category.LAUNCHER
+url::http://cid/

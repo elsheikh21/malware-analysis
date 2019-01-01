@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.PREFERENCE
+activity::.StartActivity
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.CAMERA
+call::getPackageInfo
+activity::pl.zajjar.yetanothertorch.PreferencesActivity
+call::getSystemService

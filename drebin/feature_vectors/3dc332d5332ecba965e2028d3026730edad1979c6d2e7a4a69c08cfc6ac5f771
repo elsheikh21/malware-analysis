@@ -1,0 +1,18 @@
+activity::Paused
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getPackageInfo
+api_call::android/media/MediaPlayer;->start
+activity::.MyPreferenceActivity
+activity::.MyGameActivity
+activity::Game Over
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.MyTitleActivity
+url::www.sunflat.net
+intent::android.intent.category.LAUNCHER
+url::http://www.sunflat.net/android/
+activity::.MyMainActivity
+api_call::android/content/Context;->startActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

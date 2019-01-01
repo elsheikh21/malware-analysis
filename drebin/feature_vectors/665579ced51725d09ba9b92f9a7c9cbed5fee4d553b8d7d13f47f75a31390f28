@@ -1,0 +1,13 @@
+activity::PlayActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+activity::.StartActivity
+feature::android.hardware.screen.portrait
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.InfoActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

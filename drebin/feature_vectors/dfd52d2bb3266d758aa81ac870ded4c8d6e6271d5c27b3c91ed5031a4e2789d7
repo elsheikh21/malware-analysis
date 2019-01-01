@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://kuraberu.jp/a.asp?sid%3D5252&ktp%3D1302878313.25476600&tid%3D&act%3Dcompany&rk%3D
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+url::kuraberu.jp
+permission::android.permission.INTERNET
+url::http://kuraberu.jp/a.asp?sid%3D5252_%83L%83%83%83b%83V%83%93%83O
+url::https://kuraberu.jp/sp/already.php?sid%3D5252&ktp%3D1302872533.75859700&tid%3D&rk%3D
+url::http://kuraberu.jp/a.asp?sid%3D5252&ktp%3D1302872798.00354700&tid%3D&act%3Dhow&rk%3D
+intent::android.intent.category.LAUNCHER
+url::http://kuraberu.jp/a.asp?sid%3D5252&ktp%3D1302878038.37026400&tid%3D&act%3Dpp&rk%3D
+url::https://kuraberu.jp/sp/entry.php?sid%3D5252&ktp%3D1302872533.75859700&tid%3D&rk%3D
+real_permission::android.permission.INTERNET

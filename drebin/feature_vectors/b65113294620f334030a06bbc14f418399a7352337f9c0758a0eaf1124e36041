@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Popupnews
+intent::android.intent.action.MAIN
+url::http://news.google.com/news?pz%3D1&cf%3Dall&ned%3Dus&hl%3Dus&q%3DAutoCAD&cf%3Dall&output%3Drss
+url::news.google.com
+permission::android.permission.INTERNET
+url::www.blog-cao.com
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.INSERT
+url::http://www.blog-cao.com
+provider::android.appwidget.provider
+service_receiver::.HelpCAD$UpdateService
+api_call::android/content/Context;->startService

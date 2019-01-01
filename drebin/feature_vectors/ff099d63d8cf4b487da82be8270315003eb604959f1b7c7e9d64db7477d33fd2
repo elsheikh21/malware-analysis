@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://mobile.bluedevildaily.com/schedule
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.bluedevildaily.com/about
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.bluedevildaily.com
+real_permission::android.permission.INTERNET
+url::mobile.bluedevildaily.com
+intent::android.intent.category.LAUNCHER
+url::http://mobile.bluedevildaily.com/stats
+url::http://mobile.bluedevildaily.com/roster

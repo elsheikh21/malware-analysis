@@ -1,0 +1,11 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+activity::.VanGoghGallery
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.vangoghgallery.com/
+feature::android.hardware.screen.portrait
+api_call::android/app/WallpaperManager;->setResource
+intent::android.intent.category.LAUNCHER
+url::www.vangoghgallery.com
+real_permission::android.permission.SET_WALLPAPER

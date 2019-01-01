@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://androidretail.com/category/android-flowers/\
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.androidretail.com/images/flowerslash.jpg
+permission::android.permission.INTERNET
+url::androidretail.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://androidretail.com/category/android-flowers/
+activity::.Activity1
+url::www.androidretail.com

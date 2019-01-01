@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.sycamorebeat.com/stats
+url::http://mobile.sycamorebeat.com/about
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.sycamorebeat.com
+url::mobile.sycamorebeat.com
+url::http://mobile.sycamorebeat.com/roster
+activity::Sycamore Beat
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://mobile.sycamorebeat.com/schedule

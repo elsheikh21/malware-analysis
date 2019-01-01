@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+activity::.ReloopPakRekkerd
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER

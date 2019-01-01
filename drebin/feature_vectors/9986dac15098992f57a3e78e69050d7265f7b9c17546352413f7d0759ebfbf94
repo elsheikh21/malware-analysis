@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::http://ohvideo.net/ochat/index.php
+intent::android.intent.action.MAIN
+activity::.my_opus
+url::http://ohvideo.net/talkbox/index1.php
+url::http://ohvideo.net/m/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://ohvideo.net/m/tt_s.php
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+url::ohvideo.net
+url::http://ohvideo.net/m/s.php

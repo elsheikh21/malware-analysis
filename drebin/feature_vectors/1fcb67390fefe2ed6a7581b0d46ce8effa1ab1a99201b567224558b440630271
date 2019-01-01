@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+activity::.AFLNewsMain
+intent::android.intent.action.MAIN
+url::xml.afl.com.au
+permission::android.permission.INTERNET
+url::search.twitter.com
+real_permission::android.permission.INTERNET
+url::www.goldcoast.com.au
+intent::android.intent.category.LAUNCHER
+activity::com.aflnews.activity.AFLNewsMain
+url::http://www.goldcoast.com.au/rss/afl-news.xml
+url::http://xml.afl.com.au/rss.aspx?rssid%3D
+call::getSystemService
+url::http://search.twitter.com/search.rss?q%3D

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::Settings
+activity::.OpenActivity
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+feature::android.software.live_wallpaper
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.INFO
+call::getSystemService

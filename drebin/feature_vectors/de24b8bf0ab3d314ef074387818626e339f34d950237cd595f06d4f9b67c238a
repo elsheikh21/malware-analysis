@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+url::www.androidslide.net
+call::getPackageInfo
+feature::android.hardware.screen.portrait
+url::http://www.androidslide.net/PhotoGallery.aspx?ContestID%3D8
+intent::android.intent.category.INFO

@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+activity::.OldListMenu
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.new_teiten
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.main
+call::Read/Write External Storage
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CAMERA
+real_permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->sendBroadcast
+activity::.listitem_menu
+call::printStackTrace
+call::getSystemService

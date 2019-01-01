@@ -1,0 +1,10 @@
+activity::.edit
+activity::.OneTouchDialPad
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::xmlpull.org
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+url::http://xmlpull.org/v1/doc/features.html

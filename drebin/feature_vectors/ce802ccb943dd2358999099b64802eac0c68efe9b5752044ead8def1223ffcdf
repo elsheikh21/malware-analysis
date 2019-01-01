@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.DESAlgorithm
+intent::android.intent.action.MAIN
+activity::.SmsActivity
+activity::.KeyScreen
+call::Obfuscation(Base64)
+permission::android.permission.RECEIVE_SMS
+call::readSMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+service_receiver::.SmsReactor
+call::Cipher(cbc)
+api_call::android/content/Context;->startActivity
+provider::android.provider.Telephony.SMS_RECEIVED
+activity::.CrackmeDone

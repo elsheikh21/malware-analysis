@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.TitleActivity
+activity::.ui.StatisticsActivity
+intent::android.intent.category.LAUNCHER
+activity::.ui.LogActivity
+activity::.ui.HowToPlayActivity

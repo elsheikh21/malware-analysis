@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::Preferences
+url::http://www.partylistlive.com/events/List?AppID%3D
+url::http://www.partylistlive.com/country/listSupported
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.PalanceMobile
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.partylistlive.com/events/getdetail?EventID%3D
+url::www.partylistlive.com
+url::http://www.partylistlive.com/events/likeevent
+permission::android.permission.INTERNET
+url::http://www.partylistlive.com/images/event_images/mobile/
+activity::EventDisplay
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://www.partylistlive.com/user/saveuserpref
+activity::FlyerDisplay
+url::http://www.partylistlive.com/images/event_images/thumb/thumb_

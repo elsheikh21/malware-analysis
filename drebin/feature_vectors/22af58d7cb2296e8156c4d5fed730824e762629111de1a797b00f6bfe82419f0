@@ -1,0 +1,17 @@
+intent::android.intent.action.TIMEZONE_CHANGED
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+feature::android.hardware.screen.portrait
+activity::.ManageActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.ChooserActivity
+call::getPackageInfo
+intent::android.intent.action.LOCALE_CHANGED
+provider::android.appwidget.provider
+service_receiver::.WidgetProvider
+call::getSystemService
+intent::android.intent.action.TIME_SET

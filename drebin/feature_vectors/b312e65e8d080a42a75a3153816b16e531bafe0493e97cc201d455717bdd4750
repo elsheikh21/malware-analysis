@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::http://mobile.fgcureview.com/about
+intent::android.intent.action.MAIN
+url::mobile.fgcureview.com
+url::http://mobile.fgcureview.com
+activity::.Main
+permission::android.permission.INTERNET
+activity::FGCU Review
+url::http://mobile.fgcureview.com/stats
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://mobile.fgcureview.com/schedule
+url::http://mobile.fgcureview.com/roster

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://pda.gramota.ru/?action%3Ddic&word%3D
+intent::android.intent.action.MAIN
+call::getSystemService
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.Gramotey
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+url::pda.gramota.ru
+activity::.Read
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

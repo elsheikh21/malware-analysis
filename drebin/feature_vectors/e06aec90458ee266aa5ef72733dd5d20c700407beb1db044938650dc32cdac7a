@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.MoneyCal
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

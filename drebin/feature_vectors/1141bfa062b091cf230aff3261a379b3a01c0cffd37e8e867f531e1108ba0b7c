@@ -1,0 +1,16 @@
+url::tns.timeless.com.hk
+feature::android.hardware.touchscreen
+url::http://192.168.1.100:8080/tb/tb.jar
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::192.168.1.100
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.TepEncoreActivity
+url::http://tns.timeless.com.hk/tepencore/b5/tls/tepmobile/home
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://tns.timeless.com.hk/tepencore/b5/tls/tepmobile/header
+call::getSystemService
+url::http://tns.timeless.com.hk/tepencore/b5/tls/tepmobile/toolbar

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.startchat
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://www1.2t4u.com/deaf
+real_permission::android.permission.INTERNET
+url::www1.2t4u.com
+intent::android.intent.category.LAUNCHER

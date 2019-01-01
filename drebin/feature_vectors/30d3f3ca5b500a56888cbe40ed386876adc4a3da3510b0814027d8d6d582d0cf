@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/media/MediaPlayer;->start
+activity::.racingCar
+intent::android.intent.category.LAUNCHER
+api_call::android/media/RingtoneManager;->setActualDefaultRingtoneUri
+real_permission::android.permission.WAKE_LOCK

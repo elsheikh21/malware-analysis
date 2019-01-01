@@ -1,0 +1,9 @@
+api_call::android/webkit/WebView
+activity::.ComicuuActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://smafon.wa909.com/comicuu/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::smafon.wa909.com

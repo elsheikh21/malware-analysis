@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+service_receiver::StateReciever
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+call::getSystemService
+url::niku-app.info
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.landscape
+api_call::android/app/Activity;->startActivity
+url::http://niku-app.info/index3.html
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

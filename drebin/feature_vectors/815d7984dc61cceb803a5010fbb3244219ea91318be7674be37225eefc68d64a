@@ -1,0 +1,10 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://m.sorapps.com
+url::m.sorapps.com
+api_call::android/app/WallpaperManager;->setResource
+activity::.wallpaper
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.SET_WALLPAPER

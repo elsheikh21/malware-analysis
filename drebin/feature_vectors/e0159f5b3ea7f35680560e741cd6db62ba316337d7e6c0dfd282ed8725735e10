@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::www.netmite.com
+call::getPackageInfo
+activity::.CMIDlet
+url::http://www.netmite.com/android/srv/2.0/upload/shaolin3_N73.jar
+intent::android.intent.category.LAUNCHER

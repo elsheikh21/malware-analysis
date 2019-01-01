@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Controller
+activity::com.blogspot.androidinspain.LockScreen.Controller
+intent::android.intent.category.LAUNCHER
+intent::com.blogspot.androidinspain.intent.action.bloquear
+provider::android.appwidget.provider
+service_receiver::com.blogspot.androidinspain.LockScreen.LockScreenWidget
+call::getSystemService

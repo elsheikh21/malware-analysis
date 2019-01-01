@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::http://muth.org/Android/Update
+url::market.android.com
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::muth.org
+intent::android.intent.category.LAUNCHER
+url::https://market.android.com/details?id%3D
+api_call::android/webkit/WebView
+call::getPackageInfo
+call::Read/Write External Storage
+call::HttpPost
+call::getSystemService
+activity::.ActivityBrowse

@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.ChoosePattern
+permission::com.android.launcher.permission.READ_SETTINGS
+intent::android.intent.action.MAIN
+url::www.cerbroid.com
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+service_receiver::.VibrateReceiver
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://www.cerbroid.com
+call::getSystemService
+activity::.VibrateRinger

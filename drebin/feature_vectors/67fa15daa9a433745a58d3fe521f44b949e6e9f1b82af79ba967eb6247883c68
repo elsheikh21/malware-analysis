@@ -1,0 +1,13 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+url::http://market.android.com/details?id%3Dfishnoodle.bamboo
+intent::android.intent.action.MAIN
+url::market.android.com
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+url::http://www.kittehface.com
+intent::android.intent.category.LAUNCHER
+activity::.HowToActivity
+url::www.kittehface.com

@@ -1,0 +1,11 @@
+activity::.Androtris
+url::http://www.bitbar.org/blocks/score.php?u%3D
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::www.bitbar.org
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/DatagramSocket
+real_permission::android.permission.INTERNET
+url::http://www.bitbar.org/blocks/score.php?n%3D

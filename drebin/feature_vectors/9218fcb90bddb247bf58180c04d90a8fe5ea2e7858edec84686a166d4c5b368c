@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::androidnetwork.org
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://androidnetwork.org/forum
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.androidnetworkorg

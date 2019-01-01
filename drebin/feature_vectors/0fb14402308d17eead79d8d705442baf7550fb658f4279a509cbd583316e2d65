@@ -1,0 +1,99 @@
+call::getDeviceId
+service_receiver::com.gomycell.lib.reciever.BluetoothReceiver
+call::Cipher(pad block corrupted)
+service_receiver::com.gomycell.lib.reciever.WMReceiver
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+activity::com.gomycell.past160
+call::Cipher(cipher returned null)
+url::www.bouncycastle.org)
+call::getSystemService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.SEND_SMS
+permission::android.permission.READ_SMS
+permission::android.permission.CALL_PHONE
+api_call::android/webkit/WebView
+activity::.screens.MockRefreshTrigger
+url::http://www.bouncycastle.org)
+call::Cipher(failed reversal)
+permission::android.permission.INTERNET
+feature::android.hardware.location.gps
+provider::android.provider.Telephony.WAP_PUSH_RECEIVED
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+call::Cipher(block truncated)
+permission::android.permission.WRITE_SMS
+service_receiver::.widget.SCWidget
+url::http://www.gomycell.com/CellApp/Sms
+real_permission::android.permission.BLUETOOTH
+real_permission::android.permission.SEND_SMS
+permission::android.permission.RECEIVE_MMS
+service_receiver::com.gomycell.lib.billing.BillingService
+call::Cipher(AES/CBC/PKCS5Padding)
+call::Cipher(mac check in EAX failed)
+real_permission::android.permission.READ_PHONE_STATE
+url::a.admob.com
+service_receiver::com.gomycell.lib.billing.BillingReceiver
+call::Cipher(input too short)
+url::http://test
+api_call::android/telephony/gsm/SmsManager;->sendDataMessage
+url::https://gomycell.com/Account/EditPayment
+feature::android.hardware.location.network
+permission::android.permission.START_BACKGROUND_SERVICE
+activity::com.google.ads.AdActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_FINE_LOCATION
+call::Cipher(data too short)
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.RECEIVE_SMS
+call::Cipher(failed short input check)
+real_permission::android.permission.READ_CONTACTS
+call::printStackTrace
+url::http://a.admob.com/f0?
+permission::android.permission.READ_PHONE_STATE
+api_call::android/bluetooth/BluetoothAdapter;->getBondedDevices
+permission::com.android.vending.BILLING
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.BLUETOOTH
+service_receiver::com.gomycell.lib.handler.BluetoothServer
+permission::android.permission.STATUS_BAR
+real_permission::android.permission.BLUETOOTH_ADMIN
+service_receiver::.widget.UpdateService
+permission::android.permission.ACCESS_NETWORK_STATE
+call::readSMS
+call::Cipher(Mac codes failed to equal.)
+permission::android.permission.BLUETOOTH_ADMIN
+api_call::android/app/NotificationManager;->notify
+service_receiver::com.gomycell.lib.handler.WMHandlerService
+url::schemas.android.com
+feature::android.hardware.touchscreen
+call::Cipher(invalid forcing byte in block)
+url::gomycell.com
+activity::.screens.LandingScreen
+url::www.gomycell.com
+api_call::android/app/Activity;->startActivity
+url::http://gomycell.com
+activity::.screens.ActivityPopup
+permission::android.permission.GET_TASKS
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_CONTACTS
+api_call::android/bluetooth/BluetoothAdapter;->cancelDiscovery
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::www.gstatic.com
+feature::android.hardware.location
+permission::com.verizon.vcast.apps.VCAST_APPS_LICENSE_SERVICE
+real_permission::android.permission.VIBRATE
+url::test
+permission::android.permission.VIBRATE
+activity::.LandingScreen
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.telephony
+call::Cipher(mac check in CCM failed)
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+service_receiver::com.gomycell.past160.delegate.AppDelegate
+intent::android.intent.action.MAIN
+permission::android.permission.FLASHLIGHT
+real_permission::android.permission.INTERNET
+call::Cipher(Null pointer as ciphertext)
+provider::android.appwidget.provider

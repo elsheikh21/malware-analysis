@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::com.dontneedcoffee.geostar.library.activity.Settings
+intent::android.intent.action.MAIN
+activity::com.dontneedcoffee.geostar.library.activity.Run
+activity::.GeoStarMain
+intent::android.intent.category.LAUNCHER
+activity::com.dontneedcoffee.geostar.library.activity.Hof
+activity::com.dontneedcoffee.geostar.library.activity.Study

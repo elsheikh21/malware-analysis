@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://market.android.com/details?id%3Dcom.gabysoft.
+url::market.android.com
+service_receiver::Quick Quiz Widget Large
+service_receiver::Quick Quiz Widget
+call::getPackageInfo
+provider::android.appwidget.provider
+api_call::android/content/Context;->startActivity

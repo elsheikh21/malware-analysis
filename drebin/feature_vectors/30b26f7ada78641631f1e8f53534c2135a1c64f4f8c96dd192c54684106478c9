@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+activity::.liste_activity
+intent::android.intent.action.MAIN
+activity::.Minuteur_activity
+feature::android.hardware.screen.portrait
+activity::.preferences
+call::getSystemService
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

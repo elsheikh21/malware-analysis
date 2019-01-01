@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+url::http://www.merck-chemicals.com
+activity::com.mwaysolutions.pte.MainPSEActivity
+real_permission::android.permission.INTERNET
+url::www.merck-chemicals.com
+feature::android.hardware.screen.landscape
+activity::.MainPSEActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

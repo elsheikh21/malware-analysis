@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService
+api_call::android/provider/ContactsContract$Contacts;->openContactPhotoInputStream
+activity::.Activity105
+activity::.Activity104
+activity::.Activity103
+activity::.Activity102
+activity::.Activity101
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/Activity;->startActivity
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Activity001

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.info
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+url::twitter.com
+intent::android.intent.action.GET_CONTENT
+url::www.youtube.com
+intent::android.intent.category.DEFAULT
+url::http://www.youtube.com/watch?v%3DU9mFflBsVxQ
+intent::android.intent.category.LAUNCHER
+url::http://twitter.com/decomobile
+feature::android.hardware.screen.portrait
+intent::android.intent.category.OPENABLE

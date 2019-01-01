@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+url::http://zeen.gotoip4.com/update.php
+api_call::android/content/ContentResolver;->query
+api_call::android/app/Activity;->startActivity
+url::http://zeen.gotoip4.com/
+call::printStackTrace
+url::http://zeen.gotoip4.com/images/
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::http://zeen.gotoip4.com/update.php?
+url::zeen.gotoip4.com
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://zeen.gotoip4.com/f.php
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

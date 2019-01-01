@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+activity::ampers.activities.LandingActivity
+intent::android.intent.action.MAIN
+activity::ampers.activities.NoteListActivity
+activity::ampers.activities.ViewNoteActivity
+activity::ampers.activities.AddNoteActivity
+real_permission::android.permission.INTERNET
+activity::.LandingActivity
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER

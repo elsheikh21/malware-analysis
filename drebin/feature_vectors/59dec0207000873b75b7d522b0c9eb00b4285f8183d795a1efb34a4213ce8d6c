@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_PHONE_STATE
+activity::.Main
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+call::getSystemService

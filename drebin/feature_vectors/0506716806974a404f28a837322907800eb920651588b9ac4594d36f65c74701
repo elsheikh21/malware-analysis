@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::mobile.purpleforlife.com
+intent::android.intent.action.MAIN
+url::http://mobile.purpleforlife.com/stats
+activity::.Main
+url::http://mobile.purpleforlife.com
+permission::android.permission.INTERNET
+url::http://mobile.purpleforlife.com/about
+intent::android.intent.category.LAUNCHER
+url::http://mobile.purpleforlife.com/roster
+real_permission::android.permission.INTERNET
+url::http://mobile.purpleforlife.com/schedule
+activity::Purple For Life

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+api_call::java/net/Socket
+real_permission::android.permission.WAKE_LOCK
+call::HttpPost
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+url::voknow.com
+url::http://www.voknow.com
+activity::.LoginActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Read/Write External Storage
+url::http://voknow.com/web/forgot_password.html
+url::www.voknow.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.app.activity.LoginActivity

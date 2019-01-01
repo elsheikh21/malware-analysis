@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.SamsungLogConverterActivity
+intent::android.intent.action.MAIN
+service_receiver::com.samsung.log.persistence.StartOnBoot
+intent::android.intent.category.HOME
+service_receiver::com.samsung.log.persistence.FilterService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startService

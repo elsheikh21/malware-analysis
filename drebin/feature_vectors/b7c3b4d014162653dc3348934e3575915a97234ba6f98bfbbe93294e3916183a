@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.nordpoolspot.com/reports/areaprice/?
+intent::android.intent.category.LAUNCHER
+activity::.PriceActivity
+api_call::java/net/URL;->getContent
+call::HttpPost
+url::www.nordpoolspot.com

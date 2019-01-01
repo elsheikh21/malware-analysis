@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.CMainApp
+url::http://hi666.com
+url::http://mobidrive.ru/files/games/counter-strike-2009-3d-1249142102-240x320.jar
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::hi666.com
+url::mobidrive.ru
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+intent::android.intent.action.MAIN
+url::www.netmite.com

@@ -1,0 +1,11 @@
+activity::.RhinoAppsActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::com.rhinoapps.reader.StoryDetailView
+activity::About

@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/Context;->startActivity
+activity::PrefHelp
+activity::.ListTerm
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::getSystemService

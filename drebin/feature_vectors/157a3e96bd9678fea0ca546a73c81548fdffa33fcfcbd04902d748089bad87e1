@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::192.168.12.155
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::www.whenever.at
+api_call::android/app/Activity;->startActivity
+activity::.Main
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://192.168.12.155:8888
+url::https://www.whenever.at/mobile/register/kassa
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost

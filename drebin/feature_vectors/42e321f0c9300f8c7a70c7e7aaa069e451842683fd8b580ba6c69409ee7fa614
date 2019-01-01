@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::.GameScreenSound
+activity::.options
+activity::.converter
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+activity::.info
+api_call::android/media/MediaPlayer;->start
+activity::.GameScreenSoundPic
+activity::.GameScreen3
+activity::.GameScreen2
+activity::.lessonview
+call::getSystemService
+activity::.mypref
+call::Read/Write External Storage
+activity::.GLanguage
+activity::.GameScreen
+api_call::android/webkit/WebView
+activity::.SelectSubLesson
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.SelectFileDialog
+activity::.SlideGallery
+activity::.GameScreen4
+activity::.download
+intent::android.intent.category.LAUNCHER

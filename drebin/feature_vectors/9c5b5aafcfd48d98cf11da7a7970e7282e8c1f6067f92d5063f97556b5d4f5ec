@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://epiccoaster.power-heberg.com/?a%3Dlogin&android_id%3D
+api_call::android/media/MediaPlayer;->start
+url::http://epiccoaster.power-heberg.com/?a%3Dsend&android_id%3D
+intent::android.intent.category.LAUNCHER
+activity::.EpicCoaster
+url::epiccoaster.power-heberg.com
+real_permission::android.permission.WAKE_LOCK

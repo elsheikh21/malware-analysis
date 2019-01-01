@@ -1,0 +1,6 @@
+activity::.Detailed
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Agpeya
+activity::.Hour
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+service_receiver::AK47MediaServer
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::GoodDayWidget
+provider::android.appwidget.provider
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

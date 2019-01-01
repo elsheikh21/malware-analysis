@@ -1,0 +1,9 @@
+activity::.Big2
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.BLUETOOTH
+permission::android.permission.BLUETOOTH
+api_call::android/bluetooth/BluetoothAdapter;->getScanMode
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.BLUETOOTH_ADMIN

@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getSystemService
+real_permission::android.permission.INTERNET

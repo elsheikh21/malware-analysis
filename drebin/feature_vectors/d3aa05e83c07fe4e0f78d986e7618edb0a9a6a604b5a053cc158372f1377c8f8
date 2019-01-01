@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+url::sc18.sayclub.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::rush79.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://sc18.sayclub.com:8062/%3B
+url::http://rush79.com/a/?sc18_8062
+activity::.SC18_8062Activity
+real_permission::android.permission.WAKE_LOCK

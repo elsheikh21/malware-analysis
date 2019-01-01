@@ -1,0 +1,10 @@
+activity::.ScreenEntryPick
+feature::android.hardware.touchscreen
+activity::.ScreenMain
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.ScreenSettings
+feature::android.hardware.screen.portrait
+activity::.ScreenHelp
+intent::android.intent.category.LAUNCHER
+call::getSystemService

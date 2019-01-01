@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::m.conectium.com
+url::http://m.conectium.com/l.jsp?v%3DD01
+intent::android.intent.category.LAUNCHER
+activity::.Lanzador

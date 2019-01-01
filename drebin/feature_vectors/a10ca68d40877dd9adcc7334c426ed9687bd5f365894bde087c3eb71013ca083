@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.flashgames.apptailer.com/images/gangstersplash.jpg
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.Activity1
+url::http://www.flashgames.apptailer.com/game2.html\
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www.flashgames.apptailer.com
+real_permission::android.permission.INTERNET
+url::www.flashgames.apptailer.com

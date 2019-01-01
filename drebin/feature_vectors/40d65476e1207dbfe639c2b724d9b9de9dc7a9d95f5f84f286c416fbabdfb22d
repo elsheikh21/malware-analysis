@@ -1,0 +1,65 @@
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+feature::android.hardware.touchscreen
+service_receiver::Plays alarm sound and vibrates
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/os/Vibrator;->vibrate
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::Silent/Airplane mode switcher
+activity::.preferences.Preferences
+activity::DreamDatabaseBrowser
+permission::android.permission.INTERNET
+intent::android.intent.action.TIMEZONE_CHANGED
+feature::android.hardware.microphone
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_CONTACTS
+url::http://schemas.android.com/apk/res/android
+permission::android.permission.WRITE_SETTINGS
+activity::DreamDetails
+api_call::android/content/ContentResolver;->query
+service_receiver::com.google.android.apps.analytics.AnalyticsReceiver
+permission::android.permission.DISABLE_KEYGUARD
+service_receiver::Uploads your ratings to central server for analysis
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+permission::android.permission.CHANGE_CONFIGURATION
+api_call::java/net/Socket
+real_permission::android.permission.VIBRATE
+activity::.SmartAlarmClock
+activity::Alarm Alert
+activity::Good morning Feedback
+real_permission::android.permission.WAKE_LOCK
+service_receiver::.service.FeedbackController
+intent::android.intent.action.TIME_SET
+permission::android.permission.VIBRATE
+activity::Black screen to workaround sensor bug
+service_receiver::Records movements
+service_receiver::Automatic start for sleep tracking
+real_permission::android.permission.RECORD_AUDIO
+service_receiver::.service.WakeupController
+real_permission::android.permission.DISABLE_KEYGUARD
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::.service.ReminderController
+feature::android.hardware.telephony
+service_receiver::.service.RecorderController
+activity::SmartAlarmClock
+api_call::android/content/Context;->sendBroadcast
+service_receiver::Tries to wake you up
+api_call::android/provider/Settings$System;->putInt
+activity::Reports warnings and errors
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.MODIFY_PHONE_STATE
+call::Read/Write External Storage
+feature::android.hardware.screen.portrait
+service_receiver::Tests sensor compatibility
+activity::Copyright
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/media/MediaRecorder;->setAudioSource
+url::schemas.android.com

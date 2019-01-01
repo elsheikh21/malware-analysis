@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::com.sisedi.widgets.screentimeout.EditScreenTimeouts
+url::www.sisedimedia.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+url::http://www.sisedimedia.com
+intent::android.intent.category.LAUNCHER
+service_receiver::Screen Timeout
+url::http://www.sisedimedia.com/widgets/screen-timeout/change-log
+service_receiver::com.sisedi.widgets.screentimeout.widgetReceiver
+activity::.EditScreenTimeouts
+permission::android.permission.WRITE_SETTINGS
+provider::android.appwidget.provider
+api_call::android/provider/Settings$System;->putInt
+activity::com.sisedi.widgets.screentimeout.EditPreferences

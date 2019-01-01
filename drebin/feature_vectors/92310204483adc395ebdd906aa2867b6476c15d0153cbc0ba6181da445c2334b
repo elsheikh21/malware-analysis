@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::http://www.exideas.com/ME/android/videoIntros/androidVideoLinks.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/os/Vibrator;->vibrate
+url::www.exideas.com
+real_permission::android.permission.INTERNET
+activity::.StartListActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::MessagEase
+call::getSystemService

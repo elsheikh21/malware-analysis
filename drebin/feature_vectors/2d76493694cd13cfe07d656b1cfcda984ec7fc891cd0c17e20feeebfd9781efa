@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.WithoutPreview
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_FRAME_BUFFER
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::printStackTrace
+activity::OneShot Settings
+feature::android.hardware.screen.portrait
+service_receiver::OneShot Lite
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+intent::android.intent.action.DEFAULT
+provider::android.appwidget.provider
+activity::.OneShotStartPage

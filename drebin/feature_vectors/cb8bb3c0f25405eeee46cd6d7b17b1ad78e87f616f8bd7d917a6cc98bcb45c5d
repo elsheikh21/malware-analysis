@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.YakBak
+url::spreadsheets.google.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/net/URL;->openConnection
+permission::android.permission.INTERNET
+url::http://spreadsheets.google.com/formResponse?formkey%3D
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+feature::android.hardware.microphone
+call::getPackageInfo
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.INTERNET
+activity::org.acra.CrashReportDialog
+call::getSystemService

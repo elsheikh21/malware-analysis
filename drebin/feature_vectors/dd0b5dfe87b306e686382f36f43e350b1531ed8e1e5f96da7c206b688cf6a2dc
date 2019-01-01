@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Magic8Ball
+intent::android.intent.action.MAIN
+activity::.M8Preferances
+intent::android.intent.category.LAUNCHER
+call::getSystemService

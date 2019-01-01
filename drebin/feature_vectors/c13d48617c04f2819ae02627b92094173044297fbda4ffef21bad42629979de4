@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+service_receiver::BatehIconsService
+permission::com.larryvgs.battery.permission.ADDON
+real_permission::android.permission.VIBRATE
+service_receiver::EnumerateAddonsReceiver
+call::getSystemService

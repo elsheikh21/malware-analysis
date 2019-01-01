@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MotorFLCActivity
+api_call::android/content/Context;->startActivity
+activity::.MotorFrameSize
+activity::.ADialogActivity
+activity::.MotorKVARActivity
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.MotorLRCActivity

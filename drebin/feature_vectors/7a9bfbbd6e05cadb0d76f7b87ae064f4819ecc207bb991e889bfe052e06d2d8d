@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://30d.jugem.jp/
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::30d.jp
+url::http://30d.jp/apps/livewallpaper
+call::getPackageInfo
+url::http://30d.jp/
+call::HttpPost
+url::30d.jugem.jp
+call::getSystemService

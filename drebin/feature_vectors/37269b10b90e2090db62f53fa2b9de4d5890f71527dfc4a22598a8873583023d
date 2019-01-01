@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+activity::.FileBrowserTabHost
+real_permission::android.permission.READ_CONTACTS
+url::http://ns.adobe.com/xfdf/
+activity::.QPDFView
+url::ns.adobe.com
+call::getSystemService
+api_call::java/net/URL;->openStream
+url::www.qoppa.com
+call::Cipher(AES/CBC/PKCS5Padding)
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+url::http://ns.adobe.com/xdp/pdf/
+intent::android.intent.category.LAUNCHER
+url::http://www.qoppa.com
+url::http://ns.adobe.com/xdp/

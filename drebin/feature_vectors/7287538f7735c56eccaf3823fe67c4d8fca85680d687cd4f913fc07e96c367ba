@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+activity::.MainWindow
+intent::android.intent.action.MAIN
+service_receiver::.CRebootReceiver
+real_permission::android.permission.WRITE_SETTINGS
+intent::android.intent.category.LAUNCHER
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.SYSTEM_ALERT_WINDOW
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::DisplayBrightnessService
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

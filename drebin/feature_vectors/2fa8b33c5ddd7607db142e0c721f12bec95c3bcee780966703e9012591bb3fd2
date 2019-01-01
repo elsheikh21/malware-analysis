@@ -1,0 +1,9 @@
+activity::.DWHelp
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.DWDateListItemDelete
+intent::android.intent.category.LAUNCHER
+activity::Deductible Option
+activity::.DWDateListItem
+activity::.DWizard
+activity::.DWNoteEdit

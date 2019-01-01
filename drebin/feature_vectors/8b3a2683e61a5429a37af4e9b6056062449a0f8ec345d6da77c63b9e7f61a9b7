@@ -1,0 +1,21 @@
+activity::.WeatherActivity
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.SnowWeather
+url::i.yimg.jp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/Activity;->startActivity
+url::http://outdoor.yahoo.co.jp/snow/image/gelande_map/
+permission::android.permission.INTERNET
+url::http://i.yimg.jp/images/outdoor/css/common-b.css\
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+url::outdoor.yahoo.co.jp
+intent::android.intent.category.LAUNCHER
+activity::.Setting
+url::http://images.ad-maker.info/apps/2j95r2mp3ft2.html
+call::Read/Write External Storage
+call::getSystemService

@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.HeadCount
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.INFO
+api_call::android/app/Activity;->setContentView
+provider::android.appwidget.provider
+activity::com.schreinerDev.Resources.WidgetHelpAction

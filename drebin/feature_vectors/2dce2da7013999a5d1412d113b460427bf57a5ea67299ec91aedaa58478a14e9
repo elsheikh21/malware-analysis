@@ -1,0 +1,10 @@
+activity::.SettingActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.INFO
+permission::tunnybrowser.permission.Extension
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::about

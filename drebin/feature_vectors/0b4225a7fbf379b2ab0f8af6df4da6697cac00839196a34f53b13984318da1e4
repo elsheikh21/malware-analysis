@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+activity::net.wcjj.scharing.ScheduleWeek
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::ServiceBootStrapper
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::net.wcjj.scharing.Service
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.Scheduler
+activity::net.wcjj.scharing.Scheduler

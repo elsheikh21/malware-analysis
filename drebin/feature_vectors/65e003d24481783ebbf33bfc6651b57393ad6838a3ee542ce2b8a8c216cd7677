@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/location/LocationManager;->requestLocationUpdates
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+activity::.Main
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

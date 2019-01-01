@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+activity::.BrowserActivity
+intent::android.intent.category.LAUNCHER
+activity::.activities.BrowserActivity
+api_call::android/app/Activity;->setContentView

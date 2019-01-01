@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mobile.twitter.com/searches?q%3D
+url::http://topsy.com/trackback?url%3D
+intent::android.intent.action.SEND
+activity::.TweetCounter
+url::http://tweetbuzz.jp/redirect?url%3D
+intent::android.intent.category.DEFAULT
+url::mobile.twitter.com
+intent::android.intent.category.LAUNCHER
+url::http://www.backtype.com/page/
+url::http://backtweets.com/search?q%3D
+url::www.backtype.com
+url::backtweets.com
+url::tweetbuzz.jp
+url::topsy.com

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+service_receiver::.Main
+service_receiver::.Sensor_receiver
+api_call::android/content/Context;->startActivity
+intent::it.rbsoft.driverdroid.intent.action.SENSOR
+service_receiver::.Install
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.VIEW

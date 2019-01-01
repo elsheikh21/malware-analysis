@@ -1,0 +1,19 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://www.bazaarandroid.com/webservices
+intent::android.intent.action.MAIN
+url::http://www.bazaarandroid.com/account/new-user?forcemobilepage%3D0
+url::http://www.bazaarandroid.com/account/login
+real_permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+activity::.AptoideUploader
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::http://www.bazaarandroid.com/webservices/uploadAppToRepo
+real_permission::android.permission.INTERNET
+call::HttpPost
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+url::www.bazaarandroid.com

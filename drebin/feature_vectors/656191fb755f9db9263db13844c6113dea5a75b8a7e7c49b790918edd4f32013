@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::.SaveDataCalc
+url::www.w3.org
+url::http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+url::http://www.w3.org/1999/xhtml\
+call::getPackageInfo
+activity::.SplashActivity
+call::printStackTrace

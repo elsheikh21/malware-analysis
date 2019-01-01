@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::http://mobile.fresnofan.com
+intent::android.intent.action.MAIN
+url::mobile.fresnofan.com
+activity::.Main
+url::http://mobile.fresnofan.com/roster
+permission::android.permission.INTERNET
+url::http://mobile.fresnofan.com/about
+activity::Fresno Fan
+intent::android.intent.category.LAUNCHER
+url::http://mobile.fresnofan.com/schedule
+real_permission::android.permission.INTERNET
+url::http://mobile.fresnofan.com/stats

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+activity::Ufo Pew Pew
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

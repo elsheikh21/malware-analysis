@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.about
+intent::android.intent.action.MAIN
+activity::.main
+permission::android.permission.INTERNET
+url::http://vreme.zurnal24.si/slovenija/
+activity::.izbiraKraja
+intent::android.intent.category.LAUNCHER
+url::vreme.zurnal24.si
+real_permission::android.permission.INTERNET

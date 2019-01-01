@@ -1,0 +1,41 @@
+feature::android.hardware.touchscreen
+activity::.setwidgetuser
+activity::.about
+url::mydays.christian-albert-mueller.com
+call::Read/Write External Storage
+activity::.listlanguages
+call::getPackageInfo
+api_call::android/app/Activity;->setContentView
+activity::.showlist
+activity::.setalarmtime
+activity::.setovulationalarm
+activity::.getpassword
+service_receiver::My Days Mini
+activity::.listdatabases
+real_permission::android.permission.VIBRATE
+service_receiver::My Days Large
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+url::http://mydays.christian-albert-mueller.com/twitter/go.php
+activity::.donate
+activity::.setperiodalarm
+url::christian-albert-mueller.com
+activity::.prefdialogs
+service_receiver::.UpdateWidgets
+activity::.setpassword
+api_call::android/content/Context;->startService
+activity::.setcycle
+activity::.notepad
+service_receiver::.RepeatingAlarm
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.intro
+url::http://christian-albert-mueller.com/mydays/buy-my-days-pro/
+activity::.setcolor
+activity::.datepicker
+real_permission::android.permission.INTERNET
+activity::.setpostperiod
+activity::.preferences
+activity::.alarminfo
+activity::.basal
+provider::android.appwidget.provider

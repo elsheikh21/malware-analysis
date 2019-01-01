@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.yasssu.com
+url::http://www.yasssu.com/mobile/trophy/index.php?modul%3DFramework_viewInside
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::yasssu.com.s3.amazonaws.com
+real_permission::android.permission.INTERNET
+url::http://yasssu.com.s3.amazonaws.com/

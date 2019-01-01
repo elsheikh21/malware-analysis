@@ -1,0 +1,9 @@
+activity::ru.mobido.reader.ContentView
+activity::ru.mobido.reader.MainReader
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::ru.mobido.reader.SettingView
+intent::android.intent.category.LAUNCHER
+activity::ru.mobido.reader.AboutView
+activity::.MainReader

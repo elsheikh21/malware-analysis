@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.mainLaunch
+url::http://kotatua.indonesiainyourhand.com/
+url::kotatua.indonesiainyourhand.com
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,11 @@
+activity::.FileOpps
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Reports
+call::printStackTrace
+activity::.AllListsActivity
+activity::.GroceriesList
+activity::.ItemActivity
+intent::android.intent.category.LAUNCHER
+activity::.CurrentListActivity
+call::getSystemService

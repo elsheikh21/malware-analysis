@@ -1,0 +1,16 @@
+url::http://developer.motorola.com/eventstraining/summit/agenda-app/SummitAppList.xml
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::developer.motorola.com
+permission::android.permission.INTERNET
+activity::.PickEventActivity
+activity::.TalkViewActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.HomeActivity
+intent::android.intent.category.DEFAULT
+service_receiver::DataService
+intent::android.intent.action.VIEW
+url::http://developer.motorola.com/eventstraining/summit/agenda-app/

@@ -1,0 +1,61 @@
+activity::Sync Messages
+intent::android.intent.action.PACKAGE_ADDED
+api_call::org/apache/http/impl/client/DefaultHttpClient
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+service_receiver::CrossTxtService
+activity::CrossTxT
+real_permission::android.permission.READ_CONTACTS
+url::https://crosstxt.com/importtexts.php
+intent::android.intent.action.BOOT_COMPLETED
+activity::.MainLanding
+call::HttpPost
+intent::com.lozingo.crosstxt.intent.action.TIMER
+real_permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/ContentResolver;->query
+activity::Sync Contacts
+permission::android.permission.READ_CONTACTS
+activity::CrossTxT Status
+permission::android.permission.ACCESS_WIFI_STATE
+intent::android.intent.action.PACKAGE_REPLACED
+url::crosstxt.com
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WRITE_SMS
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.VIBRATE
+permission::com.google.android.c2dm.permission.RECEIVE
+url::www.crosstxt.com
+permission::com.lozingo.crosstxt.permission.C2D_MESSAGE
+url::http://crosstxt.com/phoneReportError.php
+permission::android.permission.SEND_SMS
+call::getSystemService
+url::https://crosstxt.com/importcontacts.php
+api_call::android/telephony/TelephonyManager;->listen
+url::http://www.crosstxt.com/C2DMAuth.php?email%3D
+intent::com.google.android.c2dm.intent.RECEIVE
+intent::com.google.android.c2dm.intent.REGISTRATION
+url::http://crosstxt.com/markallreadphone.php?email%3D
+url::http://crosstxt.com/phonecontroller.php?email%3D
+real_permission::android.permission.SEND_SMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+api_call::android/content/Context;->startService
+url::http://crosstxt.com/gettext.php%3B
+url::http://crosstxt.com/phonecontrollerack.php%3B
+permission::android.permission.WAKE_LOCK
+service_receiver::com.google.android.c2dm.permission.SEND
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+activity::Sign In
+activity::Notification Note
+url::https://www.crosstxt.com/phonelogin.php?email%3D
+real_permission::android.permission.INTERNET
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+service_receiver::.service.CrossTxtIntentReciever
+service_receiver::CrossTxtReciever
+permission::android.permission.RECEIVE_BOOT_COMPLETED

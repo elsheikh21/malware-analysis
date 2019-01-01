@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://sites.google.com/site/gson/gson-user-guide
+url::http://www.ohiostateugc.com/services/json-rpc
+intent::android.intent.action.MAIN
+url::www.ohiostateugc.com
+activity::.hvzmoderator
+call::printStackTrace
+call::Cipher(AES)
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::sites.google.com
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService

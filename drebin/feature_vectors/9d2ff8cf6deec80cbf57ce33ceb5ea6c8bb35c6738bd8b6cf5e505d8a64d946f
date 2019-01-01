@@ -1,0 +1,15 @@
+url::compumatic.dyndns.biz
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.google.com
+permission::android.permission.INTERNET
+activity::.GameLauncher
+url::http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif\%27)
+url::http://compumatic.dyndns.biz/ads.jsp
+intent::android.intent.category.LAUNCHER
+url::http://www.walmart.com
+url::www.walmart.com
+real_permission::android.permission.INTERNET
+url::http://compumatic.dyndns.biz/ads2.jsp
+feature::android.hardware.screen.portrait

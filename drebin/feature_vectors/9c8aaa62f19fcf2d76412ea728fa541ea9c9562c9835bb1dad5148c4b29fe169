@@ -1,0 +1,17 @@
+url::http://www.jdeslip.com/squirrel_gallery/index.php
+feature::android.hardware.touchscreen
+url::www.jdeslip.com
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.jdeslip.com/squirrel_gallery2/index.php
+feature::android.hardware.sensor.accelerometer
+url::http://civet.berkeley.edu:8889
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::SquirrelCam
+url::civet.berkeley.edu
+activity::.SquirrelCam
+call::Read/Write External Storage
+api_call::java/net/Socket
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.FlyBox
+feature::android.hardware.screen.portrait
+activity::.DspHockActivity
+activity::.EditHockActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage

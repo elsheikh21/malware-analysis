@@ -1,0 +1,14 @@
+url::http://quick-stats.appspot.com/Activation?hwClass%3Dandroid&r1%3D
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+url::quick-stats.appspot.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.PewPew
+url::http://quick-stats.appspot.com/Launch?hwClass%3Dandroid&r1%3D
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK

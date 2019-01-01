@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+api_call::android/os/Vibrator;->vibrate
+activity::.activities.Game
+real_permission::android.permission.INTERNET
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+activity::.activities.NewGamePrefs
+api_call::android/webkit/WebView
+activity::.activities.Instructions
+activity::.activities.MainMenu

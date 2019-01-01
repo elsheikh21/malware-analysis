@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::FoodListActivity
+intent::android.intent.action.MAIN
+activity::SearchResultsActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.FoodListActivity
+intent::android.intent.category.LAUNCHER
+provider::com.billnapier.pointslist.pointsprovider;com.billnapier.pointslist.wordlist
+intent::android.intent.action.SEARCH

@@ -1,0 +1,13 @@
+permission::android.permission.ACCESS_CACHE_FILESYSTEM
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.WRTIE_OWNER_DATA
+permission::android.permission.MANAGE_APP_TOKENS
+permission::android.permission.INSTALL_PACKAGES
+permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_OWNER_DATA
+activity::.FileExplorer_lite
+permission::android.permission.READ_EXTERNAL_STORAGE
+permission::android.permission.WRITE_SETTINGS

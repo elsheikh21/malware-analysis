@@ -1,0 +1,6 @@
+url::www.madamgeeky.mobi
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ItilActivity
+intent::android.intent.category.LAUNCHER
+url::http://www.madamgeeky.mobi/2011/07/itil_24.html

@@ -1,0 +1,9 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.FringeGlyphs

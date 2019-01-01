@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+activity::.CleanAndClear
+permission::android.permission.INTERNET
+url::m.cleanandclearbestfriends.com
+real_permission::android.permission.INTERNET
+url::http://m.cleanandclearbestfriends.com
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+intent::android.intent.category.VIEW
+intent::android.intent.action.DEFAULT
+url::http://m.cleanandclearbestfriends.com/

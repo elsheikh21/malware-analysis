@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+url::http://www.dexetra.com\%27>Dexetra.</a><br/>\n\n<p>Send
+intent::android.intent.action.MAIN
+url::www.dexetra.com\%27>Dexetra.<
+activity::Disclaimer
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+activity::.SecureKeys

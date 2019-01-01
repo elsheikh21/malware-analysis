@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.HelloAndroid
+activity::com.matsuyama.sample.HelloAndroid
+intent::android.intent.category.LAUNCHER

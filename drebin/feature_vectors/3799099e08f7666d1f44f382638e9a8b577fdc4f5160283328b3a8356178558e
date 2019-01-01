@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.SplashScreen
+activity::.activities.SearchActivity
+permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

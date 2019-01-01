@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::org.azasoft.intent.FIRE_ACTION
+intent::org.azasoft.intent.EDIT_ACTION
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->isProviderEnabled
+api_call::android/content/Context;->sendBroadcast
+service_receiver::CheckReceiver
+call::getSystemService

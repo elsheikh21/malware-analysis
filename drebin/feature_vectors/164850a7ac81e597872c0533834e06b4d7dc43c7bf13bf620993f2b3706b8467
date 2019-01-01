@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::TransportActivity
+intent::android.intent.action.MAIN
+activity::ShowRouteStopsActivity
+intent::android.intent.category.LAUNCHER
+activity::.TransportActivity

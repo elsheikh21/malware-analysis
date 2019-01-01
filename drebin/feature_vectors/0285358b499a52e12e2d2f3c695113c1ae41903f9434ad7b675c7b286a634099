@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::https://dl.dropbox.com/u/5724095/ChaosMagicVersion.txt
+intent::android.intent.action.MAIN
+activity::.ChaosMagic
+call::getSystemService
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.mtgfanatic.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::http://www.mtgfanatic.com/?AffiliateID%3D103425
+url::dl.dropbox.com

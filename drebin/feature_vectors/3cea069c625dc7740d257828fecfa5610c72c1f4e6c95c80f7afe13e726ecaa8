@@ -1,0 +1,14 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+provider::jp.co.bii.android.iconpack.bumpertrial001.provider
+call::Obfuscation(Base64)
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+activity::.BumperTrialIconPackActivity
+call::getPackageInfo
+api_call::android/app/Activity;->startActivity
+call::getSystemService

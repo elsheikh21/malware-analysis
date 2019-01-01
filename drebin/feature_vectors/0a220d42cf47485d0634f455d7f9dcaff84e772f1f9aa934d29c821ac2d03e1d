@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::SplashActivity
+intent::android.intent.category.DEFAULT
+activity::.SplashActivity
+call::getSystemService

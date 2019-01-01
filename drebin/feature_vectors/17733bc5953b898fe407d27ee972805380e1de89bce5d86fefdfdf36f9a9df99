@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::bu-nyan.bne.jp
+call::getDeviceId
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::.HelloActivity
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+call::getSubscriberId
+call::getSystemService
+url::http://bu-nyan.bne.jp/game/jm.php

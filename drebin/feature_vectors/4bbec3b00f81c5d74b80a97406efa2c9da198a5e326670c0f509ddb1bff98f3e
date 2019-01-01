@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::TaxUtil
+intent::android.intent.action.MAIN
+activity::.TaxUtil
+intent::android.intent.category.LAUNCHER
+call::getSystemService

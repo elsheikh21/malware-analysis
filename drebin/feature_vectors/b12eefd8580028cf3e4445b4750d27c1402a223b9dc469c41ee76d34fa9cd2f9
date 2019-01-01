@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/os/Vibrator;->vibrate
+url::http://goeswin.us/goeswin_adsense.php
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.ShakeLottery
+intent::android.intent.category.LAUNCHER
+url::goeswin.us
+real_permission::android.permission.INTERNET
+call::getSystemService

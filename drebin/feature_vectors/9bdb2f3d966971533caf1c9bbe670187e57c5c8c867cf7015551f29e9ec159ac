@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::analytics.localytics.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::getPackageInfo
+activity::.Start
+call::getSimCountryIso
+url::http://analytics.localytics.com/api/datapoints/bulk
+call::HttpPost
+call::getSystemService
+api_call::android/net/wifi/WifiManager;->isWifiEnabled

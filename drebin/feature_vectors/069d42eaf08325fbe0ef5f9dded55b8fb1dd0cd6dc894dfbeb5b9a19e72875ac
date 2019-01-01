@@ -1,0 +1,7 @@
+activity::.Output
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://bit.ly/bOVi2d\r\nSee
+url::bit.ly
+activity::.AudioSerialOutDemo
+intent::android.intent.category.LAUNCHER

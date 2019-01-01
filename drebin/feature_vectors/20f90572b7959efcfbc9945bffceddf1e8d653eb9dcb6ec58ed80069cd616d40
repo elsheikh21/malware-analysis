@@ -1,0 +1,5 @@
+call::getPackageInfo
+activity::ComputeNowSettings
+call::getSystemService
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

@@ -1,0 +1,32 @@
+activity::WeWeWeb.NET Game Room
+feature::android.hardware.touchscreen
+activity::net.weweweb.android.bridge.ScoreCalculatorActivity
+activity::net.weweweb.android.bridge.RecordBrowserActivity
+activity::net.weweweb.android.bridge.TableListActivity
+api_call::java/net/HttpURLConnection
+url::servlet.weweweb.net
+activity::net.weweweb.android.bridge.BidRuleActivity
+call::getPackageInfo
+url::http://servlet.weweweb.net/bridge-player-rank.jsp?detail%3DY
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+activity::net.weweweb.android.bridge.SoloGameSettingsActivity
+real_permission::android.permission.INTERNET
+activity::WeWeWeb Bridge (Solo Game)
+activity::net.weweweb.android.bridge.SettingsActivity
+call::getSystemService
+activity::Web Page
+permission::android.permission.INTERNET
+activity::Score Board
+activity::net.weweweb.android.bridge.PlayerListActivity
+activity::net.weweweb.android.bridge.NetGameMenuActivity
+activity::net.weweweb.android.bridge.LoginActivity
+activity::net.weweweb.android.bridge.GameViewerActivity
+activity::net.weweweb.android.bridge.MainActivity
+intent::android.intent.action.MAIN
+url::http://servlet.weweweb.net/get-ranking.jsp?game_type%3D1&query_mode%3Dtop
+activity::WeWeWeb.NET Bridge
+activity::Messages
+intent::android.intent.category.LAUNCHER
+activity::Bidding

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::www.amcommit.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.AmcommSupport
+url::https://www.amcommit.com/Support/Android/Client/

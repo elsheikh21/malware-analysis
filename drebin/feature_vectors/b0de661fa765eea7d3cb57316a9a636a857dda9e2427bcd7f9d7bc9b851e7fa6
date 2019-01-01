@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+call::Obfuscation(Base64)
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::AboutActivity
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+url::itar.iana.org
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+activity::.DelegationCheckActivity
+real_permission::android.permission.READ_CONTACTS
+url::https://itar.iana.org/anchors/anchors.xml
+activity::PreferencesActivity
+api_call::java/net/Socket
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+activity::ResultListActivity

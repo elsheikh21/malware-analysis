@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.hottrix.com
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::www.hottrix.com
+call::getSystemService
+activity::.fluid

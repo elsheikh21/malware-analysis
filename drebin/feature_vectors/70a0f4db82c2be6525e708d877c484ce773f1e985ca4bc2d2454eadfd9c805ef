@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_OWNER_DATA
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WAKE_LOCK
+permission::android.permission.DELETE_PACKAGES
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+permission::android.permission.INSTALL_PACKAGES
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_OWNER_DATA
+call::getPackageInfo
+call::Read/Write External Storage
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService
+activity::.NaviDownloader

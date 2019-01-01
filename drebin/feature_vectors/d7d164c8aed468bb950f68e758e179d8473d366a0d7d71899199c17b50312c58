@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.favefeeds.com
+permission::android.permission.INTERNET
+activity::.Musitory
+feature::android.hardware.screen.portrait
+url::http://www.favefeeds.com/rolecast/musitory
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

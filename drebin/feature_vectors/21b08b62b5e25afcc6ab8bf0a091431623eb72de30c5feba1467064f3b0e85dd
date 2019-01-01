@@ -1,0 +1,22 @@
+url::http://images.brucut.com/photos/480x390/
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.BrowseSex
+call::HttpPost
+url::http://brucut.com/?ref%3Dandroid_app
+url::brucut.com
+call::getSystemService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://sites.google.com/site/gson/gson-user-guide
+url::images.brucut.com
+url::http://images.brucut.com/photos/90x90/
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::sites.google.com
+api_call::java/net/URL;->openConnection
+url::http://images.brucut.com/photos/50x50/
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

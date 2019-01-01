@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.activity.PhoneHoroscope
+activity::.activity.HelpActivity
+intent::android.intent.category.LAUNCHER
+activity::.activity.MainActivity
+activity::.activity.AboutActivity
+call::getPackageInfo

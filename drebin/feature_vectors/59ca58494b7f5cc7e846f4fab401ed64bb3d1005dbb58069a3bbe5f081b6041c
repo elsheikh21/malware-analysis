@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://220.194.26.92/ota/yq/musicDJ_OL_1_3.jar
+activity::.Midlet
+url::http://www.netmite.com/android/srv/2.0/upload/musicDJa_N73.jad
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::220.194.26.92
+url::www.netmite.com

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::mos.game.sudoku.activities.SolverActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+api_call::android/hardware/Camera;->open
+activity::.GameActivity
+activity::mos.game.sudoku.activities.GameActivity
+call::printStackTrace
+permission::android.permission.INTERNET
+api_call::android/os/PowerManager$WakeLock;->acquire
+feature::android.hardware.screen.portrait
+real_permission::android.permission.CAMERA
+intent::android.intent.category.LAUNCHER
+activity::mos.game.sudoku.activities.PlayActivity
+activity::mos.game.sudoku.activities.StatisticsActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

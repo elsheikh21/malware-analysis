@@ -1,0 +1,10 @@
+activity::.BandiereBlu2011
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.bandierablu.org/common/index.asp
+url::www.pensareit.it
+permission::android.permission.INTERNET
+url::www.bandierablu.org
+intent::android.intent.category.LAUNCHER
+url::http://www.pensareit.it
+call::getPackageInfo

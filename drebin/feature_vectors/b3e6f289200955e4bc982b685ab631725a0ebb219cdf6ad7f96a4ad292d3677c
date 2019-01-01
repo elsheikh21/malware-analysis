@@ -1,0 +1,19 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+permission::android.permission.INTERNET
+url::api.libiri.com
+activity::.Settings
+call::Read/Write External Storage
+url::http://api.libiri.com/get_native_url.php?platform%3Dandroid&comic%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.ComicViewer
+url::http://api.libiri.com/subscribe.php?platform%3Dandroid&email%3D
+call::getSystemService

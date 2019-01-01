@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.arkivmusic.com
+activity::.Controller
+permission::android.permission.INTERNET
+service_receiver::.Player
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://www.arkivmusic.com/classical/Playlist?source%3DKUSC
+api_call::android/app/NotificationManager;->notify
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

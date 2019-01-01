@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.Intro
+url::http://sm1room.co.kr/service/sendmail.php
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Consult
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::sm1room.co.kr
+real_permission::android.permission.INTERNET
+call::HttpPost

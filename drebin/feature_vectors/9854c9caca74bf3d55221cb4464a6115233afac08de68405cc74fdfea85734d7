@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.CompositeActivity
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+feature::android.hardware.screen.portrait
+intent::android.intent.category.INFO

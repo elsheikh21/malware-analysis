@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/webkit/WebView
+activity::.InfoPage
+intent::android.intent.action.MAIN
+url::twitter.com
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::pagead2.googlesyndication.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.FunnyPics
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+call::getPackageInfo
+activity::.ImageViewer
+real_permission::android.permission.INTERNET
+url::https://twitter.com/statuses/update.xml
+api_call::android/content/Context;->startActivity
+call::getSystemService

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://sp.15151.jp/andmk02
+intent::android.intent.category.LAUNCHER
+activity::.z003
+url::sp.15151.jp

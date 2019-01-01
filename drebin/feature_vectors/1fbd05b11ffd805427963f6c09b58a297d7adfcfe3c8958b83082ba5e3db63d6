@@ -1,0 +1,27 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::static.stickam.jp
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://www.stickam.com/servlet/mobile/verifyLogin?email%3D%s&password%3D%s
+url::http://m.stickam.jp/android/StickamViewer.apk
+url::static.stickam.com
+url::http://static.stickam.com/mobile/plain2.3gp
+real_permission::android.permission.WAKE_LOCK
+url::http://m.stickam.jp/android/version.html
+api_call::android/media/MediaPlayer;->start
+url::http://www.stickam.jp/api/getMyFriendsList?email%3D
+url::m.stickam.jp
+url::www.stickam.jp
+activity::.SendActivity
+url::http://static.stickam.jp/media/image/converted/thumb/
+activity::.StickamJPViewer
+url::http://www.stickam.com/servlet/ajax/getPopularLive?category%3D
+url::http://m.stickam.jp/media/
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+url::http://static.stickam.com/mobile/sample.3gp
+url::www.stickam.com
+intent::android.intent.category.LAUNCHER
+url::http://static.stickam.jp/images/ja/default/80x60.jpg

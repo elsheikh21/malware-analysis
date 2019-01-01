@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.cyberiahosting.ca
+url::http://www.cyberiahosting.ca
+activity::.Akhbar
+intent::android.intent.category.LAUNCHER

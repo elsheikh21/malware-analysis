@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.MainView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://www.211me.com
+url::www.211me.com
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

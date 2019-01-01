@@ -1,0 +1,6 @@
+url::m.newscj.com\
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://m.newscj.com\
+intent::android.intent.category.LAUNCHER
+activity::.newscjActivity

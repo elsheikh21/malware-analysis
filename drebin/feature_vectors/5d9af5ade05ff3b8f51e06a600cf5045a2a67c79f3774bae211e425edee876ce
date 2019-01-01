@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.home
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.relationshipadvice

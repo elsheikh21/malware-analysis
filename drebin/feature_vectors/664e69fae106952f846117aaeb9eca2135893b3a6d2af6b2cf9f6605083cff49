@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://thebeekeeper.net/cb/getcb.php?user_id%3D
+url::http://thebeekeeper.net/cb
+activity::.AccountPreferences
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ClipboardClientActivity
+url::thebeekeeper.net
+intent::android.intent.category.LAUNCHER
+url::http://thebeekeeper.net/cb/setcb.php?user_id%3D
+call::getSystemService

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.info
+intent::android.intent.action.MAIN
+url::www.infoontheweb.com
+url::http://www.infoontheweb.com
+url::www.accountingontheweb.com
+url::http://www.accountingontheweb.com/5MinTour2/property2/property_1.htm
+intent::android.intent.category.LAUNCHER

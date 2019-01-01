@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+service_receiver::com.sriseshaa.remoteringer.SMSReceiver.SMSReceiver
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+api_call::android/content/Context;->startActivity
+permission::android.permission.RECEIVE_SMS
+activity::com.sriseshaa.remoteringer.ui.Showpopup
+feature::android.hardware.screen.portrait
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.Settings
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://com.soland.datetime/widget/
+api_call::android/content/Context;->startActivity
+url::http://com.soland.datetime/
+call::Read/Write External Storage
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_CALENDAR
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+url::com.soland.datetime
+provider::android.appwidget.provider
+call::getSystemService

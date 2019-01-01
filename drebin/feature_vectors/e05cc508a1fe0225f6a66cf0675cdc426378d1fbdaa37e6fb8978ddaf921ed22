@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+provider::.provider.LocationProvider
+intent::android.intent.action.MAIN
+provider::org.waag.peezy.locationprovider
+permission::android.permission.INTERNET
+feature::android.hardware.location
+activity::.LocateUrinoirs
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/location/LocationManager;->addProximityAlert
+call::getSystemService

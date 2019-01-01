@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.RealMadroid
+intent::android.intent.action.MAIN
+url::http://www.realmadroid.com/index2.php
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::www.realmadroid.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

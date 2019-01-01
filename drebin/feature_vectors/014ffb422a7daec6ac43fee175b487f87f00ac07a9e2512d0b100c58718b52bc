@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.MenuListView
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.BrutNetBE
+call::getSystemService

@@ -1,0 +1,68 @@
+activity::Kommentar bearbeiten
+feature::android.hardware.touchscreen
+url::www.w3.org
+url::http://www.w3.org/TR/html4/strict.dtd\
+activity::Willkommen
+activity::Projektauswahl
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::Zeitstempel bearbeiten
+url::http://%s:%d
+url::http://%s:%s
+url::http://market.android.com/details?id%3D
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+feature::android.hardware.location
+feature::android.hardware.location.gps
+url::market.android.com
+activity::Zeitstempel
+activity::Jahres%C3%BCbersicht
+activity::Zeitstempel anzeigen
+url::www.xperttimer.de
+call::printStackTrace
+permission::android.permission.ACCESS_COARSE_LOCATION
+api_call::java/net/Socket
+activity::Wochen%C3%BCbersicht
+activity::Report Viewer
+real_permission::android.permission.INTERNET
+activity::Projekte
+call::Obfuscation(Base64)
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::Einstellungen
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/os/Vibrator;->vibrate
+activity::Kunde anzeigen
+service_receiver::com.google.android.apps.analytics.AnalyticsReceiver
+permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::Projekt bearbeiten
+url::http://www.xperttimer.de/
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::Kunden
+activity::Exportieren
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.landscape
+activity::.FormMain
+activity::Kundenauswahl
+activity::Monats%C3%BCbersicht
+api_call::android/app/Activity;->startActivity
+api_call::android/content/ContentResolver;->query
+activity::Kommt/Geht
+activity::Datensicherung
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::Projekt anzeigen
+activity::Kunde bearbeiten
+feature::android.hardware.location.network
+real_permission::android.permission.VIBRATE
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/details?id%3Dde.xpertdesign.xtdroid
+activity::Synchronisieren

@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+activity::TabsActivity
+api_call::android/app/Activity;->startActivity
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(Completed decrypting - returning decrypted InputStream)
+call::Obfuscation(Base64)
+call::printStackTrace
+call::Cipher(AES)
+activity::TrayActivity
+activity::ItemDetailsActivity
+url::http://www.appshout.info/
+permission::android.permission.INTERNET
+url::www.appshout.info
+activity::BrowseMenuActivity
+intent::android.intent.category.LAUNCHER
+activity::MainMenuActivity
+call::Read/Write External Storage
+call::getSystemService

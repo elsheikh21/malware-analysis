@@ -1,0 +1,16 @@
+activity::.AddItemActivity
+feature::android.hardware.touchscreen
+activity::.EditListActivity
+activity::.HelpActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.EditShopActivity
+activity::.MainActivity
+activity::.EditProductActivity
+activity::.ShopsActivity
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity
+activity::.ProductsActivity
+activity::.NewListActivity
+real_permission::android.permission.INTERNET
+activity::.EditItemActivity

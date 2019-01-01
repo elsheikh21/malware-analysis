@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.towsonupdate.com/stats
+intent::android.intent.action.MAIN
+url::mobile.towsonupdate.com
+url::http://mobile.towsonupdate.com/roster
+activity::.Main
+url::http://mobile.towsonupdate.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::Towson Update
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://mobile.towsonupdate.com/about
+url::http://mobile.towsonupdate.com/schedule

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::http://59.42.254.3:8081/pay/largecharge.do
+intent::android.intent.action.MAIN
+url::http://10.0.0.172:80
+activity::.MainMIDlet
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://www.netmite.com/apks/lakoo/jar/wqj_N73.jad
+url::lakoo.cn
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::59.42.254.3
+url::http://59.42.254.3:8081/pay/largecheck.do
+url::http://lakoo.cn/portal/1030490/gil/
+url::10.0.0.172

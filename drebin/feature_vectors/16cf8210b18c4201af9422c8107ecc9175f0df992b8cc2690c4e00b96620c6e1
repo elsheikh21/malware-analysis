@@ -1,0 +1,40 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+activity::.activity.searchonline.SearchOnlineActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.SEARCH
+activity::.activity.preferences.EditPreferences
+real_permission::android.permission.WAKE_LOCK
+feature::android.hardware.location.gps
+api_call::android/app/Activity;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getLastKnownLocation
+activity::Edit Geocache
+call::getSystemService
+call::Read/Write External Storage
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/webkit/WebView
+activity::.CacheListActivity
+call::Obfuscation(Base64)
+activity::.activity.compass.CompassActivity
+intent::android.intent.category.BROWSABLE
+activity::.SuggestionProvider
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.bcaching.com/api
+activity::.activity.EditCacheActivity
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+activity::GeoBeagle map
+activity::.activity.cachelist.CacheListActivityHoneycomb
+activity::.activity.map.GeoMapActivity
+intent::android.intent.category.LAUNCHER
+activity::.activity.cachelist.CacheListActivity
+url::www.bcaching.com

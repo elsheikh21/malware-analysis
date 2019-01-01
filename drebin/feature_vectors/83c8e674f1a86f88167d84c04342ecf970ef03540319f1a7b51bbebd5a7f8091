@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+activity::.Locker
+activity::Settings
+activity::AnswerChooser

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_MOCK_LOCATION
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->clearTestProviderLocation
+permission::android.permission.INTERNET
+activity::.OldTracks
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+service_receiver::ReplayService
+api_call::android/location/LocationManager;->getProvider
+call::getSystemService
+real_permission::android.permission.ACCESS_MOCK_LOCATION

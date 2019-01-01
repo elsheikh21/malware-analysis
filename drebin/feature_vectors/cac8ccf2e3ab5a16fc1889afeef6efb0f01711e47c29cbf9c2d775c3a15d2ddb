@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.s-apps.com/Lab/MemoryGame/About.html
+intent::android.intent.category.LAUNCHER
+url::http://www.s-apps.com/Lab/MemoryGame/Play.html
+real_permission::android.permission.INTERNET
+url::www.s-apps.com
+activity::.MemoryGame

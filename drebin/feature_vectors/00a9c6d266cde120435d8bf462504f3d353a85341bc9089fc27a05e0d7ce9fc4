@@ -1,0 +1,17 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::dif.se
+url::http://difmobileapp.cust.linux5.globalinn.com/difads.php
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://dif.se/mobile-news/
+url::http://dif-video.cust.linux5.globalinn.com/movies.rss
+intent::android.intent.category.LAUNCHER
+url::dif-video.cust.linux5.globalinn.com
+call::Read/Write External Storage
+activity::.DifApp
+url::difmobileapp.cust.linux5.globalinn.com
+call::getSystemService
+url::http://difmobileapp.cust.linux5.globalinn.com/teamtable.xml

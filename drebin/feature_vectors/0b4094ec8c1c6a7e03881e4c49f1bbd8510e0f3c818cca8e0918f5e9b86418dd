@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.ScreenshotActivity
+permission::android.permission.ACCESS_SUPERUSER
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER

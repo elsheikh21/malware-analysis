@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::Read/Write External Storage
+activity::.MySalary
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.portrait

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://market.android.com/search?q%3Dpub:\
+intent::android.intent.category.DEFAULT
+activity::.Gallery
+intent::android.intent.category.LAUNCHER

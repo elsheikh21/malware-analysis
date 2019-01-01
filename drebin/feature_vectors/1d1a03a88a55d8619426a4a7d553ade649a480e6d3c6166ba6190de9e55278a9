@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+service_receiver::com.earth2me.android.sysroot.billing.BillingService
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::com.earth2me.android.sysroot.FolderActivity
+permission::com.android.vending.BILLING
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+activity::com.earth2me.android.sysroot.TextEditActivity
+call::Obfuscation(Base64)
+intent::android.intent.action.EDIT
+call::Execution of external commands
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+service_receiver::com.earth2me.android.sysroot.billing.BillingReceiver
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+intent::android.intent.category.LAUNCHER
+activity::com.earth2me.android.sysroot.LauncherActivity
+activity::.LauncherActivity

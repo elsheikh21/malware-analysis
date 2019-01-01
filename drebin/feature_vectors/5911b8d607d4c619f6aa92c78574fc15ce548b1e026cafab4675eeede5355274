@@ -1,0 +1,14 @@
+real_permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.wifi
+activity::.ColorPickerActivity
+permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.screen.portrait
+call::getWifiState
+feature::android.software.live_wallpaper
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->openInputStream
+activity::.ColorPickerActivityNoAlpha
+call::getSystemService

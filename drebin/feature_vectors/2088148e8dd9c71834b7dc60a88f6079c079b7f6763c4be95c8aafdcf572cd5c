@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::ManManKeyboard
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+activity::Prefs
+real_permission::android.permission.VIBRATE
+call::getSystemService

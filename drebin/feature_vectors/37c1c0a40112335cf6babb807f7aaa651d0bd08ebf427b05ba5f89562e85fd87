@@ -1,0 +1,15 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+activity::com.deckorea.DPAShared.logoActivity
+intent::android.intent.action.MAIN
+activity::com.deckorea.DPAShared.SingleMainActivity
+activity::com.deckorea.DPAShared.DPAActivity
+call::printStackTrace
+activity::.beginActivity
+feature::android.hardware.screen.portrait
+activity::com.deckorea.DPAShared.SlidePuzzleActivity
+activity::com.deckorea.DPAShared.GridViewActivity
+api_call::android/app/WallpaperManager;->setBitmap
+call::getSystemService
+real_permission::android.permission.SET_WALLPAPER
+intent::android.intent.category.LAUNCHER

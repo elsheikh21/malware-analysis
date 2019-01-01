@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.FormularioProspect
+activity::.Principal
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.FormularioPreferencias
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+call::HttpPost
+call::getSystemService

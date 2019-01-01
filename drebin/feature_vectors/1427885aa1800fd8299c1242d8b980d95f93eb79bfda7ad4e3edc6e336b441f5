@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+feature::android.hardware.screen.portrait
+call::getSystemService
+activity::.RiddlesActivity

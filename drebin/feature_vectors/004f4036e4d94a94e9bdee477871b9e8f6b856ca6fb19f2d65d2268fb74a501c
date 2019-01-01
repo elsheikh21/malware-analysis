@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.JniTestActivity
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.SEND_SMS
+service_receiver::.ReceiverTest
+permission::android.permission.RECEIVE_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER

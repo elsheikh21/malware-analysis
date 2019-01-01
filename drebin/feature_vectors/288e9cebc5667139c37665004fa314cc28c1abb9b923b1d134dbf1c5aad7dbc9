@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.MTGPrice
+intent::android.intent.action.MAIN
+activity::com.herbig.mtg.MTGPrice
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://magictraders.com/cgi-bin/query.cgi?list%3Dmagic-foils&target%3D
+url::magictraders.com
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://magictraders.com/cgi-bin/query.cgi?list%3Dmagic&target%3D
+real_permission::android.permission.INTERNET
+call::getSystemService

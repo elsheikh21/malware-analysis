@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.GroupList
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CONTACTS
+call::getSystemService

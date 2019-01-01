@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::com.blogspot.androidpanda.antennawidget
+call::getSystemService
+activity::.AntWidgetCredits
+provider::android.appwidget.provider
+service_receiver::.AntennaWidget$UpdateService
+api_call::android/content/Context;->startService

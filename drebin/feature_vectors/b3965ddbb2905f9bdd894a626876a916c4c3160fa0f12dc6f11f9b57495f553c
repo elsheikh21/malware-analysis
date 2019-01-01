@@ -1,0 +1,14 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+url::http://m.facebook.com/beat102103
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+url::http://184.154.145.114:8013/beatmp3
+url::184.154.145.114
+url::http://feeds.feedburner.com/Beat102-103News
+permission::android.permission.INTERNET
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

@@ -1,0 +1,12 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+call::getSystemService
+activity::.MyActivity

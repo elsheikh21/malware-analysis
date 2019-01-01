@@ -1,0 +1,13 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://e.blbl.me/lovelist.php?fcgid%3D2
+activity::.Main
+url::http://e.blbl.me/kitlist.php?fcgid%3D3
+url::http://e.blbl.me/index.php?from%3Dall_android&width%3D360
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://e.blbl.me/lot.php
+real_permission::android.permission.INTERNET
+url::e.blbl.me

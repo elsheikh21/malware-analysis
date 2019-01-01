@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::theme.ReginaDefaultTheme
+intent::android.intent.category.DEFAULT

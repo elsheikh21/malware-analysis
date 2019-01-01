@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+activity::DirectoryBrowser
+activity::MkDummyActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.SplashActivity
+call::getSystemService

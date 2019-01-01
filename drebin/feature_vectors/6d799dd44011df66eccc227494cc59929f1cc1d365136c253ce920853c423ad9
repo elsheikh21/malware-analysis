@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://deamoba.com/
+url::deamoba.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.htmlActivity

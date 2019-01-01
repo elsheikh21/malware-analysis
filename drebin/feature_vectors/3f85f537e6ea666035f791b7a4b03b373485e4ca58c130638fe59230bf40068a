@@ -1,0 +1,15 @@
+activity::.BuzzPack
+feature::android.hardware.touchscreen
+url::http://T.com
+url::http://3.com
+intent::android.intent.action.MAIN
+url::http://1.com
+url::1.com
+url::3.com
+feature::android.hardware.screen.portrait
+url::2.com
+intent::android.intent.category.LAUNCHER
+url::http://2.com
+url::T.com
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

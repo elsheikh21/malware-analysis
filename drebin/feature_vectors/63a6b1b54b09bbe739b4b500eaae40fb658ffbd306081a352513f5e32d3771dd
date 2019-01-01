@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+permission::android.permission.WAKE_LOCK
+url::www.bestmobilemanager.com
+intent::android.intent.category.DEFAULT
+activity::.Flashlight
+url::http://www.bestmobilemanager.com
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

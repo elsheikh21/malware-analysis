@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.MAIN
+service_receiver::.TimedWirelessService
+api_call::android/webkit/WebView
+real_permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.INTERNET
+service_receiver::.TurnOffReceiver
+intent::android.intent.category.LAUNCHER
+service_receiver::.TimedWirelessReceiver
+activity::.SettingsActivity
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.TurnOnReceiver
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

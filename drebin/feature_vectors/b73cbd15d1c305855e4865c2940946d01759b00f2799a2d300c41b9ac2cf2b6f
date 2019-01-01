@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::DeleteRooster
+call::Read/Write External Storage
+activity::FileDialog
+activity::FlexRKalender
+activity::FlexRHelp
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::FlexRWidget4x2Notitie$UpdateService
+activity::Instellingen
+api_call::android/content/Context;->sendBroadcast
+api_call::android/webkit/WebView
+activity::BackupRestore
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Diensten
+activity::FlexR
+service_receiver::FlexRWidget4x2$UpdateService
+activity::EditDienst
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::EditRooster
+activity::FlexRVersie
+activity::.FlexR

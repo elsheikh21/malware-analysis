@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+activity::.Vrijdag
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

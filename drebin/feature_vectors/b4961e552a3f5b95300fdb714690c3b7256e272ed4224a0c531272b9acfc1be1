@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+service_receiver::BillingReceiver
+feature::android.hardware.screen.portrait
+service_receiver::BillingService
+intent::android.intent.category.LAUNCHER
+permission::com.android.vending.BILLING
+activity::.ExamPDDActivity

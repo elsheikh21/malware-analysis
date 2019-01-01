@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+intent::poplawec.custom.intent.action.hourcolor
+service_receiver::.Receiver

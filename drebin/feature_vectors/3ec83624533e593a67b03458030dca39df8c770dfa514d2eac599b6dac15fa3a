@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::deaeru.tv
+url::http://deaeru.tv/amateur/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::com.milac.android.deaeru.hikaku012.HtmlView
+activity::com.milac.android.deaeru.hikaku012.MyWebView012
+intent::android.intent.category.LAUNCHER
+activity::.MyWebView012
+url::http://deaeru.tv/amateur/index.html
+real_permission::android.permission.INTERNET
+activity::.Contents

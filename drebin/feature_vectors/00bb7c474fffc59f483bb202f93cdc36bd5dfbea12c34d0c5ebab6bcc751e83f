@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.Birthdays2Calendar
+permission::android.permission.READ_CALENDAR
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+call::getSystemService
+service_receiver::.B2CWidget$UpdateService
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_CALENDAR
+intent::android.intent.category.LAUNCHER
+activity::.BPreferencesWindow
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+intent::android.intent.action.VIEW

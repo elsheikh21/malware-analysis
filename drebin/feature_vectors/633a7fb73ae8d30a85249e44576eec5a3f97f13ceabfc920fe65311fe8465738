@@ -1,0 +1,17 @@
+intent::android.intent.action.TIMEZONE_CHANGED
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/os/Vibrator;->vibrate
+service_receiver::.TimeSignalService$ReceiverIconChange
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+service_receiver::.AlartService
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.TimeSignal
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+service_receiver::.TimeSignalService
+call::getSystemService
+intent::android.intent.action.TIME_SET

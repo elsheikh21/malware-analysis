@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::m.layar.com
+activity::.Main
+intent::android.intent.category.LAUNCHER
+url::http://m.layar.com/open/maze/

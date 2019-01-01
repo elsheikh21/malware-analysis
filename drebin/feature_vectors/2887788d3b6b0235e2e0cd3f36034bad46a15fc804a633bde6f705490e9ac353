@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+url::http://eyes-free.googlecode.com/svn/trunk/thirdparty/espeak-data.zip
+call::printStackTrace
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.INTERNET
+url::eyes-free.googlecode.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+activity::.dohelp
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.madfuturist.com\%27>Billy
+url::www.madfuturist.com\%27>Billy
+activity::.SampleMoves
+intent::android.intent.category.LAUNCHER

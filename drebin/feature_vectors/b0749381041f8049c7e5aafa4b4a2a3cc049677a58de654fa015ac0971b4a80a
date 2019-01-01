@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.BLUETOOTH
+api_call::android/media/MediaPlayer;->start
+activity::.Bowling
+api_call::android/app/Activity;->startActivity
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/bluetooth/BluetoothAdapter;->getScanMode
+real_permission::android.permission.WAKE_LOCK

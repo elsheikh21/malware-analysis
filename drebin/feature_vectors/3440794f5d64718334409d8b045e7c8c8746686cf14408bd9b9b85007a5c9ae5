@@ -1,0 +1,9 @@
+activity::ModesActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::java/net/DatagramSocket
+activity::ModeActivity

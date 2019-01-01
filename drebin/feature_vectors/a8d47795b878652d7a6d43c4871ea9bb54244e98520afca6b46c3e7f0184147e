@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::trx.mydigitaledge.com
+activity::.PodcastDetail
+permission::android.permission.INTERNET
+activity::.WebHelpActivity
+url::http://trx.mydigitaledge.com/podcast.html
+call::getPackageInfo
+call::Cipher(AES/ECB/NoPadding)
+url::http://trx.mydigitaledge.com
+activity::com.googlecode.puddle.ListPodcasts
+activity::.MainStreamActivity
+activity::com.googlecode.puddle.ViewShow
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+api_call::android/content/Context;->startService
+activity::com.googlecode.puddle.AddPodcast
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::com.googlecode.puddle.ViewPodcast

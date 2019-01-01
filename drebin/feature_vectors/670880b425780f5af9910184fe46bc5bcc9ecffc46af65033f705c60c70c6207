@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::jp.tomorrowkey.android.dotpiccore.MenuActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Obfuscation(Base64)
+call::printStackTrace
+call::Read/Write External Storage
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->startActivity
+call::getSystemService

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Popupnews
+url::http://android-france.fr
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+service_receiver::.Twitteradar$UpdateService
+url::android-france.fr
+intent::android.intent.category.LAUNCHER
+url::feeds2.feedburner.com
+intent::android.intent.action.INSERT
+url::http://feeds2.feedburner.com/Twitteradar
+api_call::java/net/URL;->openStream
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

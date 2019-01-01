@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+activity::.Settings
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+call::getSystemService

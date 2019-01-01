@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+url::http://careers-gov-search.jobstreet.com.sg/Iphone/job-detail.php?gjid%3D
+url::http://careers-gov-search.jobstreet.com.sg/Iphone/search-xml.php?specialization%3D
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::www.careers.gov.sg
+url::www.careers.gov.sg\
+activity::.LatestJobs
+call::HttpPost
+url::careers-gov-search.jobstreet.com.sg
+url::http://careers-gov-search.jobstreet.com.sg/Iphone/info.txt
+url::http://careers-gov-search.jobstreet.com.sg/Iphone/search-xml.php?pg%3D
+url::siva-gov-jobs.jobstreet.com
+url::http://www.careers.gov.sg\
+intent::android.intent.action.MAIN
+url::http://www.careers.gov.sg
+url::http://careers-gov-search.jobstreet.com.sg/Iphone/search-xml.php?job-posted%3D
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::https://siva-gov-jobs.jobstreet.com/careers-login/_OA/VOG/mobile-apply.asp

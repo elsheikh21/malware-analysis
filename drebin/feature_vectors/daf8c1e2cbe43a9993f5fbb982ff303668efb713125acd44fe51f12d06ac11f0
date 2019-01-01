@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.VideoPlayer
+intent::android.intent.category.DEFAULT
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.VIEW

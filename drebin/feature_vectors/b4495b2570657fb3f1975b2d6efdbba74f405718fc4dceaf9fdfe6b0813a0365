@@ -1,0 +1,15 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::http://eyes-free.googlecode.com/svn/trunk/thirdparty/espeak-data.zip
+url::http://fipra.altervista.org/linux.xml
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::eyes-free.googlecode.com
+intent::android.intent.category.LAUNCHER
+url::fipra.altervista.org
+url::http://eyes-free.googlecode.com/svn/trunk/documentation/tts_apps.html
+url::http://eyes-free.googlecode.com/
+activity::.PinguinCommand

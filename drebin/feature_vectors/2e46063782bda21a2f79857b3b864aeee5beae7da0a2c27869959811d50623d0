@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::www.google.com
+url::http://www.google.com/ig/api?hl%3Dko&weather%3Dseoul
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Test87SeoulWeather01

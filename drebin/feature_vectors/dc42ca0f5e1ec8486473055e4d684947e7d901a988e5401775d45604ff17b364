@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+activity::Info
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Preview
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::Connect
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/content/ContentResolver;->openInputStream
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::java/net/ServerSocket
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET

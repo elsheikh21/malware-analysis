@@ -1,0 +1,12 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->setWallpaper
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::HttpPost
+activity::.BaxTapSplash
+real_permission::android.permission.SET_WALLPAPER

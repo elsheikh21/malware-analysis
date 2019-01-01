@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_USER_DICTIONARY
+permission::android.permission.BACKUP_DATA
+activity::com.android.inputmethod.latin.blackout.LatinIMESettings
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+api_call::android/provider/UserDictionary$Words;->addWord
+call::getDeviceId
+permission::android.permission.READ_USER_DICTIONARY
+real_permission::android.permission.WRITE_USER_DICTIONARY
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/os/Vibrator;->vibrate
+call::getSystemService

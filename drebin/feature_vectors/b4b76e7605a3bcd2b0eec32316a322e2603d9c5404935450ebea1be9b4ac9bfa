@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::market.android.com
+url::https://market.android.com/details?id%3Dcom.etencorp.ap.main&feature%3Dsearch_result
+call::getPackageInfo
+activity::.Keymaterials
+intent::android.intent.category.LAUNCHER

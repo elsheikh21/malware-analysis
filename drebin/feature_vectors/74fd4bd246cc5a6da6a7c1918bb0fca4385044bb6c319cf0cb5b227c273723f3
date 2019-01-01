@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+permission::tunnybrowser.permission.Extension
+call::getPackageInfo
+url::http://bit.ly/cZ9Ce3
+url::bit.ly
+intent::android.intent.category.INFO

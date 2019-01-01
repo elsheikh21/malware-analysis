@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::Xmas Quiz
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+intent::android.intent.action.MAIN
+url::http://hi666.com
+activity::.ExtendTorpedoMidlet
+url::http://www.netmite.com/android/srv/2.0/upload/156025_NBA2009hhb.jar
+url::d.cn
+url::http://www.netmite.com/android/andme_signed.apk
+url::hi666.com
+url::http://d.cn
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::printStackTrace
+url::www.netmite.com

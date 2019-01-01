@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.main
+url::dailymed.nlm.nih.gov
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://dailymed.nlm.nih.gov/dailymed/mobile/index.cfm
+real_permission::android.permission.INTERNET

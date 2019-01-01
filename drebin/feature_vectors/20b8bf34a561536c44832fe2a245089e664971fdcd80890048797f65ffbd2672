@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.ESI
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

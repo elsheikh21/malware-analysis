@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->setWallpaper
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::freeiphone4.kudhail.info
+call::Read/Write External Storage
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+activity::FreeiPhone
+api_call::android/app/Activity;->startActivity
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+url::http://a.admob.com/f0?
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::.FreeiPhone
+url::a.admob.com
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://freeiphone4.kudhail.info
+real_permission::android.permission.INTERNET
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.SET_WALLPAPER
+url::schemas.android.com

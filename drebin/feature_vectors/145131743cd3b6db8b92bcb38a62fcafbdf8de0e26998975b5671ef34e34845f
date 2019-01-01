@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::http://qq3.3g.qq.com/g/s?aid%3DgetQQ
+activity::.A
+url::r.3g.qq.com
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::qq3.3g.qq.com
+url::http://g.qq.com/g/s?aid%3Dg_index&cid%3Dkjavagame
+url::http://www.netmite.com/android/andme_signed.apk
+url::csg.3g.qq.com
+intent::android.intent.category.LAUNCHER
+url::g.qq.com
+url::http://csg.3g.qq.com/g/s?aid%3Dg_netSubject&cpId%3D906&gameId%3D666&cid%3Dwy_client_mxol
+call::getPackageInfo
+url::211.139.188.53
+url::http://r.3g.qq.com/g/s?aid%3Dgc_index&s_it%3D1

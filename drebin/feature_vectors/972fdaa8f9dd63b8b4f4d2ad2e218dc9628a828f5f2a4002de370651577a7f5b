@@ -1,0 +1,19 @@
+url::https://data.flurry.com/aar.do
+feature::android.hardware.touchscreen
+activity::.PhotoPuzzle
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::HttpPost
+permission::android.permission.INTERNET
+url::data.flurry.com
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.FolderList
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+url::http://data.flurry.com/aar.do
+call::getSystemService

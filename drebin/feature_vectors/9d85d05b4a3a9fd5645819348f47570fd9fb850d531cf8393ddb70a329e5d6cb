@@ -1,0 +1,11 @@
+url::clydesoft.morphexchange.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://clydesoft.morphexchange.com/
+activity::.ShowListAlphabetical
+activity::.ShowListShopping
+activity::.Home
+intent::android.intent.category.LAUNCHER
+activity::.ShowListHistorical
+intent::android.intent.category.DEFAULT
+call::getSystemService

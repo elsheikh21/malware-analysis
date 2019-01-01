@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.z013
+intent::android.intent.action.MAIN
+url::http://m.for-juptr.jp/mex.asp?page%3Dawa_top.html&media%3Dandmk11
+intent::android.intent.category.LAUNCHER
+url::m.for-juptr.jp

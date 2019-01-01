@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.dicionariolibras.com.br
+url::www.dicionariolibras.com.br
+activity::.DisplayViewsExample
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

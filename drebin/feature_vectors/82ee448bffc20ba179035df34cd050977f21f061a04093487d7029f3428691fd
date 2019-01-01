@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+call::HttpPost
+activity::.ImagePicker
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+url::http://util-api.appspot.com/mail
+url::https://data.flurry.com/aar.do
+call::Execution of external commands
+url::data.flurry.com
+url::util-api.appspot.com
+url::http://data.flurry.com/aar.do
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

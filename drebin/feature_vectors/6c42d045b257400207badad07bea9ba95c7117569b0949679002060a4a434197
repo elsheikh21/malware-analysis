@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::https://market.android.com/details?id%3Dfr.funssoft.apps.android
+url::tanzil.net
+intent::android.intent.action.MAIN
+url::market.android.com
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/net/HttpURLConnection
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+url::http://tanzil.net/res/audio/
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.INTERNET
+call::printStackTrace
+call::getSystemService
+permission::android.permission.READ_EXTERNAL_STORAGE

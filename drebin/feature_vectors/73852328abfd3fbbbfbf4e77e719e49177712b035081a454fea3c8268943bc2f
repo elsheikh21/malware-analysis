@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+permission::android.permission.INTERNET
+service_receiver::com.ximad..adhandler.AdServiceAlarm
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.StartScreen
+call::getSystemService
+service_receiver::com.ximad.adhandler.AdService

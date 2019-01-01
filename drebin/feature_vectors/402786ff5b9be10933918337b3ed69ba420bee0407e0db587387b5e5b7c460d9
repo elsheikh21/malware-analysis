@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.SpiroActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+call::getSystemService

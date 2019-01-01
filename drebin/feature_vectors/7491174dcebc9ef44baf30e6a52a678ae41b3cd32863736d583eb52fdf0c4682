@@ -1,0 +1,16 @@
+url::http://www.horoscoop.com/stream/daghoroscoop.php
+feature::android.hardware.touchscreen
+activity::.HoroscoopColofonActivity
+url::http://www.horoscoop.com/stream/daghoroscoop.php,
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.horoscoop.com/maandhoroscoop/
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.HoroscoopMainActivity
+intent::android.intent.category.LAUNCHER
+activity::.HoroscoopDialogActivity
+real_permission::android.permission.INTERNET
+url::http://www.horoscoop.com
+url::www.horoscoop.com
+url::http://www.horoscoop.com/stream/daghoroscoop.php?client%3Dandroid&locale%3D

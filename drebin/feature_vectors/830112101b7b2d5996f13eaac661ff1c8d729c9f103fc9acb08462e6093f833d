@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::com.accella.iorthoandroid_free.MainActivity
+real_permission::android.permission.INTERNET

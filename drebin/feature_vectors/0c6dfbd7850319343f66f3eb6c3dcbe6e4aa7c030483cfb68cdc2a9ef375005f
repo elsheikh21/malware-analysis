@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://waochi.sakura.ne.jp/waochi/android/access/access.html?apptype%3D
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::waochi.sakura.ne.jp
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::.onakameiro2dx

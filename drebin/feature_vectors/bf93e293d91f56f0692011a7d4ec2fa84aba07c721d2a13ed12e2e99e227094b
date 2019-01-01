@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::keys.tearn.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://r.tearn.com/2010/04/pack.html?k%3Dhistory
+activity::.Keys
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://blog.tearn.com/
+intent::android.intent.category.LAUNCHER
+url::blog.tearn.com
+url::http://keys.tearn.com/
+url::r.tearn.com

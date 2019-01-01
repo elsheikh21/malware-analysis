@@ -1,0 +1,15 @@
+activity::Task Switcher Settings
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.CAMERA_BUTTON
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_SETTINGS
+api_call::android/app/ActivityManager;->getRecentTasks
+intent::android.intent.category.DEFAULT
+activity::.TaskSwitcherActivity
+permission::android.permission.GET_TASKS
+activity::.TaskSwitcherSettings
+service_receiver::CameraButtonIntentReceiver
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.Verify
+intent::android.intent.category.LAUNCHER
+activity::.Install
+call::getPackageInfo

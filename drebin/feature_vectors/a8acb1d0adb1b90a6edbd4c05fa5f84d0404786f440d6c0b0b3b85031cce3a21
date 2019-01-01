@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::Maps
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::todoList
+activity::projectsList
+permission::android.permission.INTERNET
+activity::about
+intent::android.intent.category.LAUNCHER
+activity::.AndroidTools
+api_call::android/app/NotificationManager;->notify
+activity::projectEditor
+activity::todoEditor
+activity::projectDetail
+call::getSystemService

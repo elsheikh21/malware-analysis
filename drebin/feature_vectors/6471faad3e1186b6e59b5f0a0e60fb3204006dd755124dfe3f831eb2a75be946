@@ -1,0 +1,14 @@
+activity::LandingPage
+feature::android.hardware.touchscreen
+url::http://www.google.com/ig/api?weather%3D,,,
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+url::www.google.com
+intent::android.intent.category.DEFAULT
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.INTERNET
+activity::ScoreCard
+activity::.LandingPage

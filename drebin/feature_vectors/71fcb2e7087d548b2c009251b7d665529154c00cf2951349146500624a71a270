@@ -1,0 +1,17 @@
+activity::.MindBellMain
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+service_receiver::MindBellAudioOnly
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/media/MediaPlayer;->start
+api_call::android/app/NotificationManager;->notify
+service_receiver::MindBellSwitch
+activity::MindBellMain
+activity::MindBell
+activity::MindBellPreferences
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+service_receiver::MindBellScheduler
+call::getSystemService
+intent::android.intent.category.LAUNCHER

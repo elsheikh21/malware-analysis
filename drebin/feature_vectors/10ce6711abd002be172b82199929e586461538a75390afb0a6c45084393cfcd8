@@ -1,0 +1,10 @@
+activity::.parishilton
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://hippyapps.com/paris_hilton.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::hippyapps.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

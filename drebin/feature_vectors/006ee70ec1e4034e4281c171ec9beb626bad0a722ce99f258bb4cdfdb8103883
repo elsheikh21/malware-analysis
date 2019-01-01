@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/NotificationManager;->notify
+url::http://jasonle.com/android-auth.php?deviceid%3D
+permission::android.permission.INTERNET
+feature::android.software.live_wallpaper
+real_permission::android.permission.VIBRATE
+url::jasonle.com
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::getSystemService

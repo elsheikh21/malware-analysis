@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.gangster-game.com
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.READ_PHONE_STATE
+url::http://www.gangster-game.com/mobile.php?q%3D
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.BehaviourDemo
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::tumblers.aidemos.BehaviourDemo

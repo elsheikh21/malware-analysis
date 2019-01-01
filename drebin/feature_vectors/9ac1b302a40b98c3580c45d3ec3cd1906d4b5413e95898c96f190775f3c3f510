@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+api_call::java/net/Socket
+url::android.photomontager.com
+activity::.Go
+call::HttpPost
+activity::.addtext
+call::getSystemService
+activity::.Adjust
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.ready
+activity::.ChooseBackdrop
+url::http://android.photomontager.com/main/modifier
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::.Home
+intent::android.intent.category.LAUNCHER
+activity::.splash

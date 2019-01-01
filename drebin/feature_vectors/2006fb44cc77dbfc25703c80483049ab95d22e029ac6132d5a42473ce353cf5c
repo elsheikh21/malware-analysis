@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.TimesTableLight
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.ReadMe
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

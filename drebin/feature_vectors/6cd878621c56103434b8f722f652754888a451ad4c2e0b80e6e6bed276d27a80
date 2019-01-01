@@ -1,0 +1,15 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.MAIN
+api_call::android/app/ActivityManager;->getRunningTasks
+api_call::java/net/URL;->openStream
+activity::.NjTasksActivity
+real_permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->killBackgroundProcesses
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.NjTasksInfoActivity
+real_permission::android.permission.INTERNET
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+call::getSystemService

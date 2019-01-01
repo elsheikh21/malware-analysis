@@ -1,0 +1,17 @@
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.MyPreferences
+url::http://maps.google.com/maps?f%3Dd&hl%3Den
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.MainActivity
+url::http://maps.google.com/maps?q%3D
+permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.action.SEARCH
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+real_permission::android.permission.INTERNET

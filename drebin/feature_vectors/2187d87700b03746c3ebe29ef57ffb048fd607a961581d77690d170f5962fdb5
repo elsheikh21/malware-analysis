@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+url::app.webservereasy.com
+url::www.mk-cyberforce.co.uk
+url::market.android.com
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+url::https://market.android.com/details?id%3Dcom.Games4Droid.mk.Cyberforce
+call::getSystemService
+api_call::android/webkit/WebView
+url::http://www.mk-cyberforce.co.uk
+url::https://market.android.com/details?id%3DFilms4DroidV2.apk
+url::http://app.webservereasy.com
+call::Read/Write External Storage
+url::http://app.webservereasy.com/forum
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

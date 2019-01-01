@@ -1,0 +1,59 @@
+feature::android.hardware.touchscreen
+activity::Restore Verification
+url::http://schemas.android.com/apk/res/
+call::getPackageInfo
+call::Cipher(BC)
+activity::feipeng.browsers.VideoBrowser2EnableMulti
+url::r.admob.com
+activity::feipeng.ultimatesecret2.settings.AccountSettings
+url::http://r.admob.com/ad_source.php
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::feipeng.ultimatesecret2.help.SecretVideoHelpMain
+api_call::android/location/LocationManager;->getBestProvider
+activity::TSV - Select Folder
+activity::TSV - Select a Player
+activity::feipeng.ultimatesecret2.settings.PlayerSettings
+activity::feipeng.ultimatesecret2.settings.DataSettings
+activity::feipeng.browsers.FolderBrowser
+activity::TSV - Export Secret Video
+activity::feipeng.browsers.VideoBrowser
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+activity::feipeng.ultimatesecret2.help.SecretVideoHelpAddSecret
+activity::feipeng.authentication.Authentication
+activity::.Authentication
+activity::.video.SecretVideo
+url::http://a.admob.com/f0?
+api_call::android/content/Context;->startActivity
+activity::TSV - Export Video
+activity::TSV - Video Preview
+url::http://mm.admob.com/static/android/i18n/20101109
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+url::api.admob.com
+url::mm.admob.com
+activity::feipeng.ultimatesecret2.help.SecretVideoHelp
+activity::feipeng.browsers.VideoBrowserOr
+activity::feipeng.ultimatesecret2.MainMenu
+activity::feipeng.browsers.VideoBrowser2Help
+activity::.video.SecretVideoAddRecord
+url::http://mm.admob.com/static/android/canvas.html
+feature::android.hardware.screen.landscape
+activity::TSV - Secret Video Details
+activity::.video.SecretVideoExportVideos
+url::a.admob.com
+activity::feipeng.ultimatesecret2.SecretVideoFeedback
+activity::feipeng.authentication.UpdatePassword
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.video.SecretVideoOneCategory
+activity::feipeng.authentication.SetupSecondAccount
+real_permission::android.permission.INTERNET
+activity::feipeng.ultimatesecret2.help.SecretVideoHelpFAQ
+activity::TSV - Video Player
+api_call::android/webkit/WebView
+activity::feipeng.ultimatesecret2.settings.EmergencyDataSettings
+activity::.video.SecretVideoEditRecord
+activity::TSV - Authentication
+activity::TSV - Add Category
+url::schemas.android.com

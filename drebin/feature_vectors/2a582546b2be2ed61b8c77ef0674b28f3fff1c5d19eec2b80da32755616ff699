@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+url::http://www.patience-revisited.com
+url::http://www.patience-revisited.com/main/upload_problemreport.php
+url::www.patience-revisited.com
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+call::Obfuscation(Base64)
+url::http://www.patience-revisited.com/index.php/a-news
+api_call::android/content/ContentResolver;->openInputStream
+activity::.PatienceRevisited
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+url::www.ecb.europa.eu
+call::printStackTrace
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+call::getSystemService
+activity::.WpcFreeActivity

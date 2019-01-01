@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+api_call::android/media/MediaPlayer;->start
+activity::.Same
+api_call::android/os/Vibrator;->vibrate
+url::www.youtube.com
+feature::android.hardware.screen.portrait
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://www.youtube.com/watch?v%3DdU9mIpufjX4
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

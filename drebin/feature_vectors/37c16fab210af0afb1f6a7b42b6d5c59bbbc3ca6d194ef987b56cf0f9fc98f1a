@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::Chordbot Pro
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Main
+real_permission::android.permission.INTERNET
+url::http://192.168.1.75/patterns/
+intent::android.intent.category.LAUNCHER
+url::chordbot.com
+call::getSystemService
+url::192.168.1.75
+url::http://chordbot.com/android/manual/v1/

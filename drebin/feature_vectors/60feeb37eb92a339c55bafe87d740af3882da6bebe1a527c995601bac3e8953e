@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->setWallpaper
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+url::http://maps.google.com/maps?daddr%3D
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+call::getSystemService
+service_receiver::.OneShotAlarm
+api_call::android/location/LocationManager;->requestLocationUpdates
+permission::android.permission.SET_WALLPAPER
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+real_permission::android.permission.SET_WALLPAPER

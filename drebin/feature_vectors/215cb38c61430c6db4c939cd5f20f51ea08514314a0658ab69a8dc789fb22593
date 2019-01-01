@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+url::http://market.android.com/search?q%3Dpub:\
+activity::.CheckActivity
+real_permission::android.permission.READ_CONTACTS
+provider::com.roozen.SplitThatCheckFree.provider.CheckProvider
+call::getSystemService
+intent::android.intent.category.LAUNCHER

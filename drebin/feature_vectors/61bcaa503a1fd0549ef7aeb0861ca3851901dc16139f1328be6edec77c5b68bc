@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://www.google.cn/music/chartlisting?q%3D
+activity::.AppMain
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::AppMain
+url::http://zengliu.vicp.net/version.txt
+url::www.google.cn
+permission::android.permission.INTERNET
+url::zengliu.vicp.net
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+url::http://www.google.cn/music/search?cat%3Dsong&q%3D
+url::http://www.google.cn/music/songstreaming?id%3D

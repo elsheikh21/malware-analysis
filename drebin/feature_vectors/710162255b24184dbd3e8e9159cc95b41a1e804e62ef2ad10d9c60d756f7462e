@@ -1,0 +1,13 @@
+activity::.ExaaApp
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://exaa.mobi/android/index.php
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::exaa.mobi
+call::getSystemService

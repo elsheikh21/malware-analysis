@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.configact
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.net.conn.CONNECTIVITY_CHANGE
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.downact
+service_receiver::.downservice
+service_receiver::NetworkConnection
+call::getSystemService
+api_call::android/content/Context;->startService

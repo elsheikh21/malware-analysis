@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::Calculator
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+activity::.Main
+activity::History
+intent::android.intent.category.DEFAULT
+activity::Stats
+intent::android.intent.category.LAUNCHER
+activity::Mileage
+call::getSystemService
+activity::.GlobalPreferences
+intent::android.intent.action.VIEW

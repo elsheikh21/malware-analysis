@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.LoadChanSelectorActivity2
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.MainChanSelectorActivity
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+url::http://market.android.com/details?id%3Dcom.onymous.browser

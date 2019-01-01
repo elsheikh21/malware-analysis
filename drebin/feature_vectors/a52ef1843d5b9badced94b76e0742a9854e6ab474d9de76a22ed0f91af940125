@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Popupnews
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::www.blog-cao.com
+real_permission::android.permission.INTERNET
+url::feeds.feedburner.com
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.INSERT
+url::http://www.blog-cao.com
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+service_receiver::.HelpCAD$UpdateService
+url::http://feeds.feedburner.com/AutocadTeamBlogsAggregateRssFeed

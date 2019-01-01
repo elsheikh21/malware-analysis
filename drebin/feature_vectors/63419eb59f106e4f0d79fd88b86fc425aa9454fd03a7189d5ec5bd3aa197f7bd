@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+activity::.CoinSelectionActivity
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+activity::.CoinSizeActivity
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.portrait
+activity::.LetterSelectionActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.GeneralSettingsActivity
+call::getPackageInfo
+activity::.Starter
+call::getSystemService

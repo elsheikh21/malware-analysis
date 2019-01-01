@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+service_receiver::.egine.FitnessBillingReceiver
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.DEFAULT
+activity::.ui.SplashScreen
+service_receiver::.egine.FitnessBillingService
+real_permission::android.permission.READ_CONTACTS
+activity::run immediatelly
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+activity::.ui.toolbar.ProgramHomeActivity
+api_call::android/media/MediaPlayer;->start
+permission::com.android.vending.BILLING
+activity::.ui.toolbar.SettingsActivity
+call::Obfuscation(Base64)
+activity::.ui.toolbar.InfoActivity
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.GADGET
+intent::android.intent.action.MAIN
+service_receiver::.egine.mediacontroller.FitnessMediaServer
+intent::android.intent.category.LAUNCHER
+activity::.ProgramTitleTabhost
+call::getSystemService

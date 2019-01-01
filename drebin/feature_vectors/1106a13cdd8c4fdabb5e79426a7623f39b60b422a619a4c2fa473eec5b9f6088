@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/content/ContentResolver;->openInputStream
+url::http://...
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.ActMain
+activity::.ActText
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+call::getSystemService
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.ActBookmark
+real_permission::android.permission.INTERNET
+url::...
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.VIEW

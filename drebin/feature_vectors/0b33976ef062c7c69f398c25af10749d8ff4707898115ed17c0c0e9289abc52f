@@ -1,0 +1,98 @@
+call::getDeviceId
+url::http://twitter.com/YogaforLifeApp
+url::http://code.google.com/p/yogaforlife/issues/list
+activity::Yoga for Life
+activity::Bmi Calculator
+activity::Life Planner
+activity::Stop Watch
+url::eyes-free.googlecode.com
+activity::Diary Editor
+activity::Hidden alarm
+call::getSystemService
+url::http://www.reddit.com/r/yogaforlife
+activity::Match Picture
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.WAKE_LOCK
+activity::Act Tutor
+activity::Planner
+activity::Addition
+activity::Diet calories
+permission::android.permission.INTERNET
+activity::Alarm Manager
+call::getPackageInfo
+activity::Profiles
+url::slideme.org
+url::code.google.com
+url::http://www.facebook.com/yogaforlifehelp
+activity::Search
+activity::Match Name
+api_call::android/content/Context;->startService
+activity::Series
+real_permission::android.permission.READ_PHONE_STATE
+url::twitter.com
+url::https://www.paypal.com/cgi-bin/webscr
+activity::Manage Routines
+activity::Plan Log
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::Medication Planner
+activity::Select Routines
+activity::Help
+activity::Schedule Backup
+activity::Splash screen
+activity::Routine Tutor
+activity::Plan All
+activity::Plan Editor
+activity::Act List
+activity::Goal Planner
+activity::RPG
+permission::android.permission.READ_PHONE_STATE
+activity::Text Player
+url::http://eyes-free.googlecode.com/svn/trunk/thirdparty/espeak-data.zip
+activity::ToDo Planner
+activity::Diary Log
+url::https://slideme.org/slidelock2/
+activity::Health Log
+api_call::java/net/URL;->openConnection
+activity::All Log
+api_call::android/app/NotificationManager;->notify
+feature::android.hardware.screen.portrait
+url::www.paypal.com
+activity::Tutorials
+activity::Recommended
+activity::Addition Subtraction
+feature::android.hardware.touchscreen
+activity::CAct Editor
+call::printStackTrace
+activity::CAct List
+activity::.Main
+activity::Schedule
+intent::android.intent.action.BOOT_COMPLETED
+activity::Act info
+activity::Activity Log
+real_permission::android.permission.WAKE_LOCK
+activity::Routines
+activity::Log
+service_receiver::.alarm.OnBootReceiver
+activity::Option
+real_permission::android.permission.VIBRATE
+permission::android.permission.VIBRATE
+activity::Alarm Action
+activity::Games
+activity::Simple Alarm
+activity::Activity calories
+url::www.reddit.com
+activity::HighScores
+activity::Tools
+url::https://slideme.org/application/yoga-life
+activity::Diet Log
+url::www.facebook.com
+activity::Manage Tutorials
+intent::android.intent.action.MAIN
+activity::Act Text
+real_permission::android.permission.INTERNET
+activity::Blocks
+service_receiver::.alarm.AlarmReceiver
+activity::Contents
+api_call::android/media/MediaPlayer;->start
+activity::License fail

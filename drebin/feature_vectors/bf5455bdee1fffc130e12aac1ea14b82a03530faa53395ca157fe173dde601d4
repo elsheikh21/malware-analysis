@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://www.connect-utb.com/DYKFacts/count/count.xml
+intent::android.intent.action.MAIN
+url::http://www.connect-utb.com/DYKFacts/
+activity::.DidYouKnow
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+url::www.connect-utb.com
+intent::android.intent.category.LAUNCHER

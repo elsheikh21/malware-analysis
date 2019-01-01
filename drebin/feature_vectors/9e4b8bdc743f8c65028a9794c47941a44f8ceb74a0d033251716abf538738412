@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://market.android.com/details?id%3Dmariux.adw.pinkglow
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/details?id%3Dcom.betterandroid.betterkeyboard
+activity::.Main
+url::http://market.android.com/search?q%3Dpub:Mariux
+activity::mx.keyboard.pinkglow.Main
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/details?id%3Dmx.golauncherex.pinktheme
+url::http://market.android.com/details?id%3Dnet.cdeguet.smartkeyboardpro

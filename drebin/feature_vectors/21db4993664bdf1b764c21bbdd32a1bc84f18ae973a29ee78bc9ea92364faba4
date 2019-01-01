@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://www.318racing.com/wp-content/gallery/galerie.php?mode%3Dyear
+call::Read/Write External Storage
+call::HttpPost
+url::http://www.dailymotion.com/swf/
+url::http://www.318racing.com/xmlrpc.php
+url::http://www.318racing.com/category/live/feed/
+activity::.SplashScreen
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::http://www.318racing.com/wp-content/gallery/galerie.php?mode%3Dfolder&year%3D
+call::Obfuscation(Base64)
+url::http://www.318racing.com/wp-content/gallery/galerie.php?mode%3Dphoto&year%3D
+permission::android.permission.INTERNET
+activity::SplashScreen
+url::http://www.318racing.com/wp-content/gallery/galerie.php
+url::www.dailymotion.com
+url::www.318racing.com
+api_call::android/webkit/WebView
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+service_receiver::NotificationService

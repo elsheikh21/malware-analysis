@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://www.teamwiser.com/
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.LoginActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.INTERNET
+service_receiver::.SmsService
+intent::android.intent.category.default
+url::www.teamwiser.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+activity::.activity
+call::HttpPost
+call::getSystemService
+url::https://www.teamwiser.com/signup

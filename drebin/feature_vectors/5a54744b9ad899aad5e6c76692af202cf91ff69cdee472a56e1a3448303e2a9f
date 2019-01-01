@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+activity::com.dw.groupcontactlv.ContactsListActivity
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CALL_PHONE
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.INTERNET
+permission::android.permission.GET_ACCOUNTS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.READ_CONTACTS
+activity::.GroupListActivity
+activity::com.dw.groupcontactlv.GroupListActivity

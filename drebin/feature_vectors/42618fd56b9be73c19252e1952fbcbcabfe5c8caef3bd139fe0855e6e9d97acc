@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::https://market.android.com/details?id%3Dcom.eight.tone
+url::market.android.com
+api_call::android/media/MediaPlayer;->start
+activity::.main
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,20 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+api_call::java/net/HttpURLConnection
+url::http://61.145.124.93/soft/3GHeart/com.gau.go.launcherex.apk
+url::61.145.124.93
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.INFO
+service_receiver::com.gau.go.launcherex.theme.DinosaurZ.GoDownloadService

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://vatid.eu/check/SK/
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::.EskaCek
+intent::android.intent.category.LAUNCHER
+url::http://isbndb.com/search-all.html?kw%3D
+url::vatid.eu
+url::isbndb.com
+url::http://www.orsr.sk/hladaj_ico.asp?ICO%3D
+url::www.orsr.sk

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::com.lamerman.FileDialog
+activity::.NeooGlossar
+call::getSystemService

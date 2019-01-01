@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+call::getDeviceId
+intent::android.intent.action.MAIN
+url::https://customer.scorpionsoft.com/gettoken/gettokenkey.asmx/RequestKey?Serial%3D
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(AES)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+intent::android.intent.category.LAUNCHER
+activity::.SoftToken
+call::getPackageInfo
+url::customer.scorpionsoft.com
+call::getSubscriberId
+call::getSystemService

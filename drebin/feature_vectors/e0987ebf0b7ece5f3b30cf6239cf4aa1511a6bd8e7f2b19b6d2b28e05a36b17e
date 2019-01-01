@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+intent::android.intent.action.MAIN
+url::jackintheboxworldwide.com
+url::http://www.facebook.com/MeterDownApp
+url::http://jackintheboxworldwide.com
+real_permission::android.permission.INTERNET
+url::bangbang-films.com
+url::http://bangbang-films.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.Meter

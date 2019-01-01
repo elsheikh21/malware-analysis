@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://revision3.com/api/logAndroidException
+activity::.PlayerActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+url::trace.nullwire.com
+url::revision3.com
+url::http://videos.revision3.com/revision3/images/promos/879-geekbeat_06.jpg\
+api_call::android/media/MediaPlayer;->start
+url::videos.revision3.com
+activity::.MainActivity
+url::http://trace.nullwire.com/collect/
+call::getSystemService
+url::http://sites.google.com/site/gson/gson-user-guide
+permission::android.permission.DELETE_CACHE_FILES
+feature::android.hardware.screen.landscape
+url::sites.google.com
+api_call::android/app/Activity;->startActivity
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

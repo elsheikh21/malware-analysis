@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+activity::GPS Map
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+activity::MapLauncher
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::.Map
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

@@ -1,0 +1,23 @@
+permission::com.google.android.providers.gmail.permission.READ_GMAIL
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+provider::com.google.android.providers.gmail.permission.READ_GMAIL
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+api_call::android/accounts/AccountManager;->getAccounts
+service_receiver::Autostart
+call::getSystemService
+service_receiver::SMSWidget
+permission::android.permission.READ_SMS
+permission::android.permission.GET_ACCOUNTS
+feature::android.hardware.telephony
+permission::com.google.android.gm.permission.READ_GMAIL
+real_permission::android.permission.GET_ACCOUNTS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.CONFIGURATION_CHANGED
+permission::com.google.android.googleapps.permission.GOOGLE_AUTH
+provider::android.appwidget.provider
+service_receiver::UpdateService
+api_call::android/content/Context;->startService

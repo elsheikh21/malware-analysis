@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://bighits.net/kidsteens/index.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.kidteen
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::bighits.net

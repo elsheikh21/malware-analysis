@@ -1,0 +1,10 @@
+activity::EditExam
+activity::UserPreferences
+activity::.ListExam
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::ListExam
+activity::AnswerSheetActivity
+intent::android.intent.category.LAUNCHER
+activity::ExamDetail
+call::getSystemService

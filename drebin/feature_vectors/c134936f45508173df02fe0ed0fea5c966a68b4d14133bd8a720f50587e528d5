@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.explanation
+activity::.GREtests
+intent::android.intent.action.MAIN
+activity::.finishTest
+activity::.doTest
+intent::android.intent.category.LAUNCHER

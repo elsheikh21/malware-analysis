@@ -1,0 +1,16 @@
+intent::android.intent.category.LAUNCHER
+activity::.BeginnersGuide
+intent::android.intent.action.MAIN
+activity::.Bed
+feature::android.hardware.touchscreen
+activity::.ImageDetailListView
+activity::.ListBeds
+api_call::android/content/Context;->startActivity
+activity::.EditBed
+activity::.JournalPage
+feature::android.hardware.screen.landscape
+activity::Tabs card journal
+activity::.HomeScreen
+activity::.JournalEntry
+activity::.Plot
+activity::.NewBed

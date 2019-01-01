@@ -1,0 +1,13 @@
+activity::.trans.TransportTaxeCalculatorActivity
+intent::android.intent.action.MAIN
+activity::.ArticlesActivity
+feature::android.hardware.touchscreen
+activity::.HolidaysActivity
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+call::Read/Write External Storage
+activity::.ArticleCostActivity
+intent::android.intent.category.LAUNCHER
+activity::MainActivity
+call::getSystemService

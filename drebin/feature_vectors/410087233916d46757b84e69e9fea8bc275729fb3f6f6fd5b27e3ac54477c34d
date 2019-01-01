@@ -1,0 +1,5 @@
+activity::.Padi
+activity::in.elango.apps.Padi
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

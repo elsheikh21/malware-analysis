@@ -1,0 +1,13 @@
+activity::.ServerView
+feature::android.hardware.touchscreen
+activity::.ServerEdit
+intent::android.intent.action.MAIN
+service_receiver::.RequestService.Request
+permission::android.permission.INTERNET
+activity::.ServerHashDialog
+intent::android.intent.category.LAUNCHER
+activity::.Swinedroid
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+activity::.AlertSearch
+call::getSystemService

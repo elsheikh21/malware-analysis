@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ReaganQuoterActivity
+service_receiver::com.mrg.reaganquoter.ReaganQuoterWidget$UpdateService
+service_receiver::com.mrg.reaganquoter.ReaganQuoterWidget
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

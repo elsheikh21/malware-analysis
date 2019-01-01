@@ -1,0 +1,14 @@
+url::http://www.robertosystem.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::market.android.com
+url::www.robertosystem.com
+url::www.pianetaprodotti.com
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.pianetaprodotti.com/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::https://market.android.com/search?q%3DRoxR&c%3Dapps&safe%3D1&so%3D1&hl%3Dit

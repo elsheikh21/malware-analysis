@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://cgi2.nhk.or.jp/e-news/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://cgi2.nhk.or.jp/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::e-news Reader
+url::cgi2.nhk.or.jp
+url::http://cgi2.nhk.or.jp/e-news/index.cgi
+call::getSystemService

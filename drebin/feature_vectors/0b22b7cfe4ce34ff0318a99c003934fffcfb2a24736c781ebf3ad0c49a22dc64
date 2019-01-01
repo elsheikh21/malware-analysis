@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://stevepak.raonnet.com/xe/jabdam
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.youtube.com
+activity::.Main
+url::www.youtube.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::stevepak.raonnet.com
+activity::Main
+url::http://stevepak.raonnet.com/xe/youtube
+url::http://stevepak.raonnet.com/xe/main
+intent::android.intent.category.LAUNCHER

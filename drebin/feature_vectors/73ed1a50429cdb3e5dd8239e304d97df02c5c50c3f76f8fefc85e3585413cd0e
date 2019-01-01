@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::alarmreceiver
+service_receiver::alarmreceiver_manner
+intent::android.intent.category.LAUNCHER
+activity::.smartvol
+call::getSystemService

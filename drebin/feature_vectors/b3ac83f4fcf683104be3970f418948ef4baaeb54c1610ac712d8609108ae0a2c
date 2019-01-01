@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::AIR Calc
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.DISABLE_KEYGUARD
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

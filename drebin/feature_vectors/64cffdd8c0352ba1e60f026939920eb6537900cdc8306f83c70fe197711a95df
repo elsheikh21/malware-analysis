@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+activity::.RingGuardPreferences
+intent::android.intent.action.MAIN
+intent::android.intent.category.HOME
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+service_receiver::.RingGuardReceiver
+intent::org.openintents.audio.action_volume_update
+service_receiver::.RingGuardService
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->startActivity
+call::getSystemService
+activity::RingGuard Confirmation

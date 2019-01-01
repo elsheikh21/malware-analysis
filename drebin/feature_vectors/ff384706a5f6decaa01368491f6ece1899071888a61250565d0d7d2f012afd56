@@ -1,0 +1,20 @@
+permission::android.permission.READ_LOGS
+call::getDeviceId
+activity::com.rerware.android.MyToolbox.MyToolbox
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+real_permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MyToolbox
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+call::Execution of external commands
+real_permission::android.permission.READ_PHONE_STATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService

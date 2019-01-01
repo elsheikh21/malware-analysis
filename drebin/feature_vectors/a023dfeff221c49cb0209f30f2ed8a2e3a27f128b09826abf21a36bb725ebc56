@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+activity::AIR for Android Tech Demo
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+activity::.AppEntry
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.location
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getPackageInfo
+intent::android.intent.category.BROWSABLE
+permission::android.permission.CAMERA
+permission::android.permission.DISABLE_KEYGUARD

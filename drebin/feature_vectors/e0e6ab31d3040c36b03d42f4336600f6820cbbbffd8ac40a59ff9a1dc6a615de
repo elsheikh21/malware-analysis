@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+activity::.TextEditPlus
+activity::.EditPreferences
+intent::android.intent.action.EDIT
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->openFileDescriptor
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

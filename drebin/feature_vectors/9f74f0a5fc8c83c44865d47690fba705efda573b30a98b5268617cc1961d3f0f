@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::sug.search.daum.net
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.main
+url::http://www.sweetier.com/OSS/files/file_list.xml
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.sweetier.com
+api_call::android/webkit/WebView
+intent::android.intent.action.WEB_SEARCH
+url::http://sug.search.daum.net/search_nsuggest?mod%3Dfxjson&code%3Dutf_in_out&q%3D
+call::getSystemService

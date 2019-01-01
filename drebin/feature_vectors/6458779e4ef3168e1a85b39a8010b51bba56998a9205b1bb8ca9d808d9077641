@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::https://ds.phs.org/preslogin/mobilelogin
+url::ds.phs.org
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::SwitchActivity
+intent::android.intent.category.LAUNCHER
+url::https://ds.phs.org/mos/common/logout.jsp
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.SwitchActivity

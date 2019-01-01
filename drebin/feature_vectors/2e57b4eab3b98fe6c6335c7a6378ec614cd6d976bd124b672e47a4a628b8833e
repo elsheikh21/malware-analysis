@@ -1,0 +1,5 @@
+permission::android.permission.BATTERY_STATS
+feature::android.hardware.touchscreen
+activity::.test
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

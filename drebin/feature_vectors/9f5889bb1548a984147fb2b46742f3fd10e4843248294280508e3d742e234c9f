@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.Infomation
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+call::getSubscriberId
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::https://login.scotiabank.mobi/b/?nrg%3Dnlg
+url::https://login.scotiabank.mobi/b/?l%3Dfr-CA
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+url::login.scotiabank.mobi

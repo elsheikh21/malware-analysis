@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SNotesMain
+call::Cipher(AES)
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER

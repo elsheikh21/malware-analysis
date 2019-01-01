@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::WorldCup_EnjoyActivity
+activity::.LogoActivity
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.activity

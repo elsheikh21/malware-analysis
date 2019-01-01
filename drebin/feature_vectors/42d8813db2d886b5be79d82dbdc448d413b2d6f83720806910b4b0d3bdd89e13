@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::java/net/URL;->openConnection
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+call::Obfuscation(Base64)
+permission::android.permission.ACCESS_WIFI_STATE
+activity::.SplashScreen
+permission::android.permission.INTERNET
+call::getWifiState
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.ACCESS_WIFI_STATE
+real_permission::android.permission.INTERNET
+url::http://www.botanic06.com/Gilletta/verif_code.php?code%3D
+url::www.botanic06.com
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

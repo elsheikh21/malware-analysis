@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.adventuresofstickboy.com
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+url::http://www.adventuresofstickboy.com/
+activity::.SPPianoFree
+activity::.RunSB
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

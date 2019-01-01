@@ -1,0 +1,27 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+service_receiver::com.miruker.gcanobase.CheckerService
+call::Read/Write External Storage
+intent::android.intent.action.BOOT_COMPLETED
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+url::https://www.google.com/gp?source%3Dmobileproducts
+api_call::android/content/ContentResolver;->query
+url::market.android.com
+url::www.google.com
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+call::Obfuscation(Base64)
+activity::com.miruker.gcanobase.MainActivity
+call::Cipher(AES/CBC/PKCS5Padding)
+service_receiver::com.miruker.gcanobase.Reciever
+intent::android.intent.category.DEFAULT
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::https://www.google.com/calendar/event?eid%3D
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://astore.amazon.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::astore.amazon.com
+url::http://astore.amazon.com/microstakes_books-20?node%3D1&page%3D
+intent::android.intent.category.LAUNCHER
+activity::.BrowseBooks
+activity::BrowseBooks
+api_call::java/net/URL;->openConnection

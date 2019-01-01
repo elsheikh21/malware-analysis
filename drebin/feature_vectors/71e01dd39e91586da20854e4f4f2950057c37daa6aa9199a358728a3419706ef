@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+activity::.ProcessList
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.Management
+activity::.CommandPrompt
+permission::android.permission.INTERNET
+activity::.ViewImage
+activity::.SaveComputer
+activity::.ComputerList
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket

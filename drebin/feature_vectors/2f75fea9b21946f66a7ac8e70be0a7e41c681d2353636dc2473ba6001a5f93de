@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+url::http://61.145.124.93/soft/3GHeart/com.gau.go.launcherex.apk
+url::61.145.124.93
+intent::android.intent.category.INFO

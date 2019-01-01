@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.outdoorfeeling.tv
+url::http://www.outdoorfeeling.tv/cgi-bin/iphone_default.pl
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

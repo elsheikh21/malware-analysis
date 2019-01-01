@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.AlphaAscent
+intent::android.intent.category.LAUNCHER
+activity::com.kr.nld.lastalpha.AlphaAscent

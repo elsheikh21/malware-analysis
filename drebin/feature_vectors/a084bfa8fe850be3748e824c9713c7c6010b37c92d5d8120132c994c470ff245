@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.Contact
+activity::.Video
+real_permission::android.permission.INTERNET
+activity::.Manager
+real_permission::android.permission.WAKE_LOCK
+activity::.Audio

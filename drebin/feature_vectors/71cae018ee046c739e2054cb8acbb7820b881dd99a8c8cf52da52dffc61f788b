@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.morticella.com
+url::market.android.com
+intent::android.intent.action.MAIN
+url::www.morticella.com
+activity::.inizio
+url::https://market.android.com/details?id%3Dcom.morticella.manga.comics.h01
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER

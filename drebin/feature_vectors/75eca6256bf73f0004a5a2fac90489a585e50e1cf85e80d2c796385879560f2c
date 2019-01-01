@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Score
+activity::.Game
+intent::android.intent.category.LAUNCHER
+activity::.WordPower
+call::getSystemService
+activity::.Instructions

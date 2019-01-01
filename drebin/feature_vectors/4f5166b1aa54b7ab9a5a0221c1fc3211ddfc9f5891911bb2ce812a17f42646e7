@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://m.parscan.com/assess_skilled_en.php
+activity::.parscan
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://m.parscan.com
+intent::android.intent.category.LAUNCHER
+url::m.parscan.com
+url::http://www.ParScaN.com/
+url::www.ParScaN.com

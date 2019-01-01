@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://onvideo1.com/vdayf/Top25VdayGiftsForFemales.htm
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://onvideo1.com/rotator/?g%3Dappvday
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::onvideo1.com
+activity::.ValentinesDayWomen
+intent::android.intent.category.LAUNCHER
+call::getSystemService

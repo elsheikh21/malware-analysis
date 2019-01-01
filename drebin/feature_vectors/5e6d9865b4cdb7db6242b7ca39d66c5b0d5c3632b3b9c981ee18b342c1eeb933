@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.shabiba.com/android/AndSBHMore.asp
+activity::.SplashScreen
+intent::android.intent.category.DEFAULT
+url::http://www.shabiba.com/android/andSBHPrayerT.asp?
+url::www.shabiba.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.shabiba.com/android/AndSBHPicnewsV.asp?
+real_permission::android.permission.INTERNET
+url::http://www.shabiba.com/android/andSHBNewsList.asp?cid%3D1
+url::http://www.shabiba.com/android/andSBHMain.asp?

@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+activity::.Main
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.VIBRATE
+provider::android.appwidget.provider
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::.BootCompletedIntentReceiver
+api_call::android/content/Context;->startService
+call::Read/Write External Storage
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.DecathlonScoreCalculator
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::.main.DecathlonScoreCalculator
+activity::.main.HeptathlonScoreCalculator

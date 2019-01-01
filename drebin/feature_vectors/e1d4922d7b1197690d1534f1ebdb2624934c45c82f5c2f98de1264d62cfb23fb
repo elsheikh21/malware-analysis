@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.TimeTracker
+intent::android.intent.action.MAIN
+url::http://kelsonprime.com/timepunch
+url::kelsonprime.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::TimeTracker
+real_permission::android.permission.VIBRATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/NotificationManager;->notify
+url::http://kelsonprime.com/timepunch/api
+call::getSystemService
+intent::android.intent.category.LAUNCHER

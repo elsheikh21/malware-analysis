@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+url::market.android.com
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+activity::.PsymIntro
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+call::Obfuscation(Base64)
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+api_call::android/app/Activity;->startActivity
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3Dpub:\
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

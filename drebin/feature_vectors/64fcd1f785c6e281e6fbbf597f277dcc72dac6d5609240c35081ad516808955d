@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://milestone.bekaakut.de/schulden.php
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::milestone.bekaakut.de
+real_permission::android.permission.INTERNET
+service_receiver::.WidgetService
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService

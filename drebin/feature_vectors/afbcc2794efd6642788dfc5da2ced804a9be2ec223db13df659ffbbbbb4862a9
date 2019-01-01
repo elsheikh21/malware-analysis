@@ -1,0 +1,6 @@
+url::http://wap2.icbc.com.cn
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+url::wap2.icbc.com.cn
+activity::.mobileIcon

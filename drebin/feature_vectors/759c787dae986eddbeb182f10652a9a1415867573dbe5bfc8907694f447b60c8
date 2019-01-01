@@ -1,0 +1,59 @@
+url::www.bitcoin.org
+feature::android.hardware.touchscreen
+call::Cipher(data too short)
+call::Cipher(invalid forcing byte in block)
+url::https://profiles.google.com/andreas.schildbach
+url::https://www.
+activity::de.schildbach.wallet.RequestCoinsActivity
+url::http://code.google.com/p/bitcoinj/
+url::http://code.google.com/p/zxing/
+url::www.gnu.org
+intent::android.intent.category.DEFAULT
+url::http://code.google.com/p/bitcoin-wallet/
+url::twitter.com
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+url::www.
+api_call::android/content/ContentResolver;->query
+url::http://twitter.com/android_bitcoin
+url::www.bouncycastle.org)
+call::Cipher(block truncated)
+call::Cipher(cipher returned null)
+call::printStackTrace
+activity::.WalletActivity
+activity::de.schildbach.wallet.WalletActivity
+call::Cipher(Mac codes failed to equal.)
+activity::de.schildbach.wallet.AddressBookActivity
+real_permission::android.permission.VIBRATE
+url::www.slf4j.org
+url::code.google.com
+url::http://www.slf4j.org/codes.html
+service_receiver::de.schildbach.wallet.Service
+call::Obfuscation(Base64)
+url::http://bitcoincharts.com/t/weighted_prices.json
+permission::android.permission.INTERNET
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+call::Cipher(mac check in EAX failed)
+call::Cipher(mac check in CCM failed)
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+api_call::android/app/Activity;->startActivity
+url::http://www.gnu.org/licenses/gpl-3.0.txt
+intent::android.intent.action.VIEW
+url::http://www.
+activity::de.schildbach.wallet.SendCoinsActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::Cipher(input too short)
+call::Cipher(pad block corrupted)
+service_receiver::Bitcoin Wallet Balance
+feature::android.hardware.screen.portrait
+url::http://www.bouncycastle.org)
+url::profiles.google.com
+url::http://www.bitcoin.org/smf/index.php?action%3Dprofile%3Bu%3D2062
+url::bitcoincharts.com
+intent::android.intent.category.LAUNCHER
+call::Cipher(Null pointer as ciphertext)
+call::getSystemService
+provider::android.appwidget.provider

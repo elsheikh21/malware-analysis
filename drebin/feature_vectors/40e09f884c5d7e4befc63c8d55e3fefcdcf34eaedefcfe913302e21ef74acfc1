@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+permission::android.permission.READ_LOGS
+activity::.MainActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.action.BOOT_COMPLETED
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::java/net/Socket
+url::http://schemas.android.com/apk/res/android
+api_call::android/content/ContentResolver;->query
+service_receiver::fahrbot.apps.rootcallblocker.utils.DaemonBroadcastReceiver
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+intent::android.intent.action.NEW_OUTGOING_CALL
+service_receiver::fahrbot.apps.rootcallblocker.utils.CallBlockerService
+real_permission::android.permission.VIBRATE
+permission::android.permission.CALL_PHONE
+permission::android.permission.PROCESS_OUTGOING_CALLS
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+feature::android.hardware.telephony
+activity::fahrbot.lib.log.CrashReportActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+activity::fahrbot.apps.rootcallblocker.ui.MainActivity
+call::readSMS
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::schemas.android.com

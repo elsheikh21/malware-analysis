@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.digivueadvertising.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.digivueadvertising.com/app/dva
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::Splash

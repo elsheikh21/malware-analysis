@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+activity::.main
+intent::android.intent.category.DEFAULT
+activity::.Preferences
+call::getPackageInfo
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,7 @@
+activity::.NetHackApp
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+activity::.NetHackPreferences
+intent::android.intent.category.LAUNCHER
+call::getSystemService

@@ -1,0 +1,11 @@
+activity::NinjaTraining
+feature::android.hardware.touchscreen
+activity::Achievements
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.MainScreen
+api_call::android/app/Activity;->startActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

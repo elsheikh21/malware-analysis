@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.MessageDetail
+intent::android.intent.action.MAIN
+activity::.Prefs
+activity::.MessageList
+intent::android.intent.category.LAUNCHER
+activity::.Start
+activity::About

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+service_receiver::.AppWidget$ToggleService
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

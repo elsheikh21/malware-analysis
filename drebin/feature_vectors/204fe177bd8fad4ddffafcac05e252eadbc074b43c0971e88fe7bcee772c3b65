@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://bit.ly/dfSCv7
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+permission::tunnybrowser.permission.Extension
+call::getPackageInfo
+url::bit.ly
+intent::android.intent.category.INFO
+call::getSystemService

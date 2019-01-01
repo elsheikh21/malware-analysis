@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.AUDIOPLAYERACTIVITY
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+permission::android.permission.INTERNET
+activity::com.momac.dwk.AudioPlayerActivity
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT

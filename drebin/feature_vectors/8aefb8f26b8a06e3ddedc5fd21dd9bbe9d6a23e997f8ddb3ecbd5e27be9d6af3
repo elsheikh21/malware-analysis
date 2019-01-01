@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.activity.BrowseRootActivity
+activity::.activity.EditPrefrencesActivity
+real_permission::android.permission.INTERNET
+activity::.activity.BrowseGenresActivity
+activity::.activity.BrowseApplicationActivity
+activity::.activity.MainActivity
+api_call::java/net/URL;->openStream
+activity::.activity.BrowseArtistsActivity
+activity::.activity.BrowseSongsActivity
+api_call::java/lang/Runtime;->exec
+activity::.activity.BrowseFoldersActivity
+call::Execution of external commands
+activity::.activity.BrowseAlbumsActivity
+intent::android.intent.action.MAIN
+activity::.activity.PlayListActivity
+activity::.activity.ListApplicationsActivity
+real_permission::android.permission.READ_LOGS
+activity::.activity.ChoosePlayerActivity
+activity::.activity.SearchActivity
+intent::android.intent.category.LAUNCHER
+activity::.activity.ListPlaylistsActivity
+activity::.activity.ConnectToServerActivity

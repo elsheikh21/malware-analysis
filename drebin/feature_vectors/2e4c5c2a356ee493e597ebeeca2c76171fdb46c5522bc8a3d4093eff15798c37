@@ -1,0 +1,9 @@
+url::gentle-horse-training.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://gentle-horse-training.com/gnhv/Leading_1.mp4
+url::http://gentle-horse-training.com/horsecontrold.html
+url::http://gentle-horse-training.com/gnhv/Catching_1.mp4
+intent::android.intent.category.LAUNCHER
+activity::.NaturalHorsemanship
+url::http://gentle-horse-training.com/gnhv/Circle_1.mp4

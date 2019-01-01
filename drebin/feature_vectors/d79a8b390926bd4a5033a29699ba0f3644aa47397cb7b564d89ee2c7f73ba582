@@ -1,0 +1,11 @@
+url::http://code.google.com/p/ringtoggle/wiki/About
+feature::android.hardware.touchscreen
+intent::com.swwomm.intent.category.HELP
+intent::android.intent.action.MAIN
+activity::Help
+call::getSystemService
+activity::.RingToggle
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+intent::android.intent.action.DEFAULT
+url::code.google.com

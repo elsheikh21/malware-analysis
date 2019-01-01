@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://probaseballapps.com/apps/brandon_belt.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.brandonbelt
+url::probaseballapps.com
+intent::android.intent.category.LAUNCHER

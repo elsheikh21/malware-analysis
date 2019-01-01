@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.FeedMeOil
+call::getPackageInfo
+call::getSystemService
+permission::com.android.vending.BILLING
+real_permission::android.permission.WAKE_LOCK

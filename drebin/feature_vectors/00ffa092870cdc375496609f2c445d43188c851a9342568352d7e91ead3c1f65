@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+url::www.skydoor.net
+url::http://www.skydoor.net/smartphone/place/1

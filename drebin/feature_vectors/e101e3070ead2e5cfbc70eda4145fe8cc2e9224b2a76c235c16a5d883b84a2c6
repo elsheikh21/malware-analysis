@@ -1,0 +1,8 @@
+activity::Info
+activity::.speakjapanesefree
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

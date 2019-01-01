@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+url::http://market.android.com/details?id%3Dcom.gilinachum.pointspluslicker.paid
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+activity::.PreferencesFromXml
+activity::PrefrencesUtils
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+api_call::android/app/NotificationManager;->notify
+url::http://market.android.com/details?id%3Dcom.gilinachum.pointspluslicker
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

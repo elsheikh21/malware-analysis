@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.rconcs
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::org.rconcsremote.rconcs
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WRITE_OWNER_DATA
+call::Read/Write External Storage
+api_call::java/net/Socket

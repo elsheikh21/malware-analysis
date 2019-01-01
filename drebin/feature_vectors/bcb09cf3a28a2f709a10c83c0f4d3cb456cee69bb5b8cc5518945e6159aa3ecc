@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+url::http://www.MeetWomenWithMagic.com/androidpro
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+intent::android.intent.category.LAUNCHER
+url::www.MeetWomenWithMagic.com
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.MeetWomenWithMagic.com
+activity::.Instructions

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->query
+provider::com.apfull.contentprovider.f20110108.FrameFileProvider
+intent::android.intent.category.DEFAULT
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_CONTACTS

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Term
+permission::android.permission.INTERNET
+activity::.Term
+intent::android.intent.category.LAUNCHER
+call::getSystemService

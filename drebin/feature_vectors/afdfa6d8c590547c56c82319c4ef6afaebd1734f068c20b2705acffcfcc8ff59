@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.inadaydevelopment.com/android-oracle.php
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.inadaydevelopment.com/appcontent/AndroidOracle/oracle.php
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.inadaydevelopment.com
+call::HttpPost

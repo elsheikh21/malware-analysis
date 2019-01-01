@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.phonebookforever.com
+api_call::android/media/MediaPlayer;->start
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::www.phonebookforever.com
+real_permission::android.permission.WAKE_LOCK

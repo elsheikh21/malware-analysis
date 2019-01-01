@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+activity::.Redirect
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.Main
+url::http://market.android.com/search?q%3Dpub:\
+intent::android.intent.category.LAUNCHER
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+url::http://market.android.com/search?q%3Dpname:com.betterandroid.betterkeyboard

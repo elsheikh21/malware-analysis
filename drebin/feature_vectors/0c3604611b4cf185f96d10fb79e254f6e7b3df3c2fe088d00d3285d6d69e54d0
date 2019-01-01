@@ -1,0 +1,12 @@
+activity::.games.tennis.ConfigureTennisActivity
+feature::android.hardware.touchscreen
+activity::.games.soccer.ConfigureSoccerActivity
+intent::android.intent.action.MAIN
+activity::.games.tennis.TennisActivity
+activity::.Score
+activity::.games.soccer.SoccerActivity
+activity::.games.pingpong.ConfigurePingPongActivity
+activity::.games.pingpong.PingPongActivity
+activity::.games.volleyball.VolleyBallActivity
+activity::.games.volleyball.ConfigureVolleyBallActivity
+intent::android.intent.category.LAUNCHER

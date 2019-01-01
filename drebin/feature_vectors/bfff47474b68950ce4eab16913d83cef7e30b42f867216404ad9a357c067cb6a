@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.active9.com/AndroidApps/Launchers/SantaTracker.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.active9.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.SantaTracker

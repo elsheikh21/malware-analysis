@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.tourmovil.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.netmite.com
+url::http://www.tourmovil.com
+url::http://www.netmite.com/android/andme_signed.apk
+activity::.Puerto
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER

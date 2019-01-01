@@ -1,0 +1,4 @@
+activity::com.jbapps.contact.theme.green.GOContactsInstallDialog
+feature::android.hardware.touchscreen
+intent::android.intent.category.INFO
+intent::android.intent.action.MAIN

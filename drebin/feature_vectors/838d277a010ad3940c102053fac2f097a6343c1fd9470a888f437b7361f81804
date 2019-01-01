@@ -1,0 +1,7 @@
+url::store.gobrowser.cn
+activity::.WidgetSkin
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+url::http://store.gobrowser.cn/weather/download-weather.php
+intent::android.intent.category.INFO

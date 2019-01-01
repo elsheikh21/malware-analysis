@@ -1,0 +1,6 @@
+activity::.SchapelleActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://www.schapelle.net
+intent::android.intent.category.LAUNCHER
+url::www.schapelle.net

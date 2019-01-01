@@ -1,0 +1,32 @@
+feature::android.hardware.touchscreen
+url::xmlpull.org
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+api_call::android/app/Activity;->setContentView
+url::http://xmlpull.org/v1/doc/
+url::http://www.w3.org/2000/xmlns/
+api_call::android/net/wifi/WifiManager$WifiLock;->acquire
+real_permission::android.permission.WAKE_LOCK
+url::http://jakarta.apache.org/regexp/apidocs/org/apache/regexp/RE.html
+url::www.pader-sync.com
+activity::.PaderSyncDAVActivity
+url::https://dav.sample.com/path/
+activity::Mobile Webdav Trial
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::http://www.w3.org/XML/1998/namespace
+permission::android.permission.VIBRATE
+url::http://www.pader-sync.com/
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::jakarta.apache.org
+url::www.w3.org
+url::dav.sample.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://xmlpull.org/v1/doc/features.html

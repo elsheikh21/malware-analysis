@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::graviturn.androidig.de\n\nIf
+intent::android.intent.action.MAIN
+url::http://graviturn.androidig.de
+url::http://graviturn.androidig.de/system/update.v101.php?l%3D
+activity::.Graviturn
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::graviturn.androidig.de
+url::http://graviturn.androidig.de\n\nIf
+call::getSystemService

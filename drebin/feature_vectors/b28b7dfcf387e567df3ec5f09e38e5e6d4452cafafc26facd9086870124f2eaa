@@ -1,0 +1,14 @@
+url::wap.x6game.cn
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainMidlet
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+call::getPackageInfo
+url::http://wap.x6game.cn/content.asp?StapleId%3D1&PageNo%3D1&ContentId%3D478
+intent::android.intent.category.LAUNCHER
+url::http://wap.x6game.cn/content.asp?StapleId%3D1&PageNo%3D1&ContentId%3D482
+url::http://wap.x6game.cn/content.asp?StapleId%3D1&PageNo%3D1&ContentId%3D480
+url::http://wap.x6game.cn/content.asp?StapleId%3D1&PageNo%3D1&ContentId%3D481
+url::http://www.netmite.com/android/srv/2.0/upload/twins.jar
+url::www.netmite.com

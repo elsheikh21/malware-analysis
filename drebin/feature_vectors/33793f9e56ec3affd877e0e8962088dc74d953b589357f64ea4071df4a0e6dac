@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+feature::android.software.live_wallpaper
+real_permission::android.permission.INTERNET

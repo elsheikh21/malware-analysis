@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.Main
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+service_receiver::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.receivers.AlarmBootupReceiver
+service_receiver::.receivers.AlarmReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+activity::.activities.Main

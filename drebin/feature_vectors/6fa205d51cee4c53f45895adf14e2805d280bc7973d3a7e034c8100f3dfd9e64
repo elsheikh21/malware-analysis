@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::mippin.com
+activity::.mainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mippin.com/mip/plus/list.jsp?&id%3D108585
+intent::android.intent.category.LAUNCHER

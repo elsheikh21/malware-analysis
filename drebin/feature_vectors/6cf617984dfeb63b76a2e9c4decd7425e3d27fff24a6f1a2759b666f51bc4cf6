@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::7ba.ru
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+call::getPackageInfo
+url::www.netmite.com
+activity::.Dragon
+url::http://7ba.ru/jfiles/55/DragonFire2SpaceTimeTravel.jar
+intent::android.intent.category.LAUNCHER

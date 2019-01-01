@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+activity::.GameActivity
+activity::.OptionsActivity
+activity::.MainActivity
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.RulesActivity
+call::getSystemService
+activity::.StatsActivity

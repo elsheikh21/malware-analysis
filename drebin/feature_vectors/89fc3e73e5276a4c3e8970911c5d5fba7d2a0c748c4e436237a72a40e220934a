@@ -1,0 +1,7 @@
+url::http://www.lucardi.nl/
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::www.lucardi.nl

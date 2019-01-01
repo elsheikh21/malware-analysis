@@ -1,0 +1,9 @@
+activity::com.kaiusagi.android.introduction.ContentActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+real_permission::android.permission.WAKE_LOCK

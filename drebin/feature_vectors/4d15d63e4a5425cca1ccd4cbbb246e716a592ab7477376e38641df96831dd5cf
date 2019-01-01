@@ -1,0 +1,12 @@
+activity::.CIDRCalculator
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::us.lindanrandy.provider.CIDRHistory
+activity::.Converter
+intent::android.intent.category.LAUNCHER
+activity::.IPv6Calculator
+api_call::android/content/ContentResolver;->query
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+activity::.Preferences

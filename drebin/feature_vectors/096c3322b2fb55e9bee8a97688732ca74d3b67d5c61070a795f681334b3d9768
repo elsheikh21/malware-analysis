@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://mobicartel.com/private/billionaire/campaigns.xml
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::SignupActivity
+activity::SplashActivity
+url::mobicartel.com
+activity::.SplashActivity
+call::HttpPost

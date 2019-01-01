@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.RomaMobile
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::atacmobile.it
+api_call::android/webkit/WebView
+url::http://atacmobile.it/atacmobile.php?service%3Dlingua&action%3Dset&locale%3Dit
+intent::android.intent.category.LAUNCHER

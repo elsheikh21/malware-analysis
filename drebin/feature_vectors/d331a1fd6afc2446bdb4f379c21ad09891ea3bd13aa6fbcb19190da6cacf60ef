@@ -1,0 +1,5 @@
+permission::android.permission.VIBRATE
+activity::.BillyGrid
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://android.zerosystempr.com/wa/feedback
+intent::android.intent.action.MAIN
+url::android.zerosystempr.com
+feature::android.hardware.screen.portrait
+activity::.AnalyzerActivity
+intent::android.intent.category.LAUNCHER

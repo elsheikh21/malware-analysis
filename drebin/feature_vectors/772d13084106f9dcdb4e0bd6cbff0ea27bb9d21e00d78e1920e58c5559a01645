@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.Midlet
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://www.netmite.com/android/srv/2.0/upload/faithfulcentral.jad
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::www.netmite.com

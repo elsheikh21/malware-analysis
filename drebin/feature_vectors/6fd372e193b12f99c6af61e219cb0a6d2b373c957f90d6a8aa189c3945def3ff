@@ -1,0 +1,15 @@
+api_call::android/webkit/WebView
+activity::.SmartView
+url::www.androidside.com
+url::http://www.androidside.com/plugin/mobile/login_check.php?mid%3D
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://m.androidside.com
+url::m.androidside.com
+url::market
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://market
+call::getSystemService

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.ipcweb.co.jp/cgi-bin/android/apli.cgi?la%3D
+activity::.SorobanActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::www.ipcweb.co.jp
+url::http://www.ipcweb.co.jp/</a>
+call::getSystemService

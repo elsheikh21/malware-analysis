@@ -1,0 +1,16 @@
+activity::com.lighthouse1.mobilebenefits.Login
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_PHONE_STATE
+activity::.Login
+permission::android.permission.INTERNET
+api_call::java/net/Socket
+real_permission::android.permission.INTERNET
+activity::com.lighthouse1.mobilebenefits.activity.ActivityScreen
+activity::com.lighthouse1.mobilebenefits.activity.ActivityScreenHome
+call::Read/Write External Storage
+call::HttpPost
+call::getSystemService
+intent::android.intent.category.LAUNCHER

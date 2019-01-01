@@ -1,0 +1,30 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_LOGS
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+api_call::java/net/Socket
+url::http://schemas.android.com/apk/res/android
+service_receiver::fahrbot.apps.vibralert.DaemonServiceBase
+call::printStackTrace
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.PreferencesActivity
+api_call::java/lang/Runtime;->exec
+service_receiver::fahrbot.apps.vibralert.BootReceiver
+call::Execution of external commands
+api_call::android/content/Context;->startService
+activity::PreferencesActivity
+service_receiver::fahrbot.apps.vibralert.PhoneStateReceiver
+activity::fahrbot.lib.log.CrashReportActivity
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+service_receiver::fahrbot.lib.phone.BasePhoneDaemonService
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::schemas.android.com

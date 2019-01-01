@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://kwaknohyun.net
+url::kwaknohyun.net
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Kwak
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

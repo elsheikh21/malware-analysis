@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.RCActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::SettingsActivity
+activity::RCActivity
+intent::android.intent.category.LAUNCHER

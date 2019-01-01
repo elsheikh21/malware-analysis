@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.main
+permission::android.permission.INTERNET
+url::http://market.android.com/search?q%3Dpname:com.rsr
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.buyrsr
+activity::.metrorome
+intent::android.intent.action.VIEW

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://bighits.net/miamijobs/index.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.miamijobs
+intent::android.intent.category.LAUNCHER
+url::bighits.net

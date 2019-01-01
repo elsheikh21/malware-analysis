@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://api.chasen.org/ajaxime/action%3Dconv&to%3Dime&query%3D
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.JSandBox
+permission::android.permission.INTERNET
+url::api.chasen.org
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

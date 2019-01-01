@@ -1,0 +1,10 @@
+url::http://probaseballapps.com/apps/st_louis_pro_baseball.php
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::probaseballapps.com
+activity::.stlouisprobaseball
+intent::android.intent.category.LAUNCHER

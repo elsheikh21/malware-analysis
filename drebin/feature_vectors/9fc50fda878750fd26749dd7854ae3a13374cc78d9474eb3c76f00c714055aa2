@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://twilog.org/
+url::twilog.org
+activity::.MainActivity
+url::http://m.twilog.org/
+url::m.twilog.org
+intent::android.intent.category.DEFAULT
+activity::SettingsActivity

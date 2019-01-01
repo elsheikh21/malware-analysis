@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.bookyards_books_v1
+intent::android.intent.category.LAUNCHER
+url::http://www.libraryofindia.com
+url::http://www.libraryofindia.com/categories.html?type%3Dbooks&category_id%3D
+url::www.libraryofindia.com

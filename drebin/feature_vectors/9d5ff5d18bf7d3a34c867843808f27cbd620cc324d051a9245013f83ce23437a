@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://m.brightonsc.vic.edu.au
+activity::.webactivity
+permission::android.permission.INTERNET
+url::m.brightonsc.vic.edu.au
+intent::android.intent.category.LAUNCHER

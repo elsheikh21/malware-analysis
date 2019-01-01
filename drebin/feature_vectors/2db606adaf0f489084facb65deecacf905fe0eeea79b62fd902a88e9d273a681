@@ -1,0 +1,15 @@
+permission::com.google.android.providers.gmail.permission.READ_GMAIL
+feature::android.hardware.touchscreen
+service_receiver::com.gau.golauncherex.notification.service.NotificationService
+api_call::android/content/ContentResolver;->query
+api_call::android/accounts/AccountManager;->getAccounts
+real_permission::android.permission.GET_ACCOUNTS
+provider::com.google.android.providers.gmail.permission.READ_GMAIL
+permission::android.permission.GET_ACCOUNTS
+feature::android.hardware.telephony
+permission::com.google.android.gm.permission.READ_GMAIL
+permission::android.permission.READ_SMS
+real_permission::android.permission.READ_CONTACTS
+service_receiver::com.gau.golauncherex.notification.receive.NotificationReceiver
+permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->sendBroadcast

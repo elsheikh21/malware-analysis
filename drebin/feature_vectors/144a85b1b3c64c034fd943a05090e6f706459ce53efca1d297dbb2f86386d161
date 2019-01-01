@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CALL_PHONE
+permission::android.permission.GET_ACCOUNTS
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+service_receiver::.DialerService
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider

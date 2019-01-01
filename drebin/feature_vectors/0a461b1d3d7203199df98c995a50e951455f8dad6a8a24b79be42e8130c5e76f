@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.EditTip
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+feature::android.hardware.screen.portrait
+activity::.MyTabActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/content/Context;->sendBroadcast
+call::Read/Write External Storage
+call::getSystemService

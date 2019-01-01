@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::market.android.com
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.LAUNCHER
+activity::.HomeScreen
+call::getPackageInfo
+url::http://market.android.com/search?q%3Dpname:com.threebanana.notes

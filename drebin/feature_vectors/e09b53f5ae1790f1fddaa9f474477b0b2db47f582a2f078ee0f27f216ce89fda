@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+activity::.deciBel
+api_call::android/media/MediaRecorder;->setAudioSource
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+feature::android.hardware.microphone
+call::getPackageInfo
+permission::android.permission.RECORD_AUDIO
+call::Read/Write External Storage
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

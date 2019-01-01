@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::keys.tearn.com
+intent::android.intent.action.MAIN
+url::http://the.tearn.com/2010/06/pack.html?k%3D
+url::the.tearn.com
+activity::.Keys
+permission::android.permission.INTERNET
+url::http://r.tearn.com/2010/09/pack.html?k%3D
+url::http://blog.tearn.com/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::blog.tearn.com
+real_permission::android.permission.INTERNET
+url::http://keys.tearn.com/
+url::r.tearn.com

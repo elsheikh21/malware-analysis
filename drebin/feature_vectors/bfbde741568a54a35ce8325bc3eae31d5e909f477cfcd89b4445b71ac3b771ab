@@ -1,0 +1,38 @@
+feature::android.hardware.touchscreen
+url::http://jrummy16.com/jrummy/
+permission::android.permission.INTERNET
+activity::Pulldown Editor
+activity::.RootToolsHacks
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.INTERNET
+url::http://jrummy16.com/jrummy/goodies/bootanimations/
+activity::Root Tools Settings
+activity::.BootAnimations
+activity::.About
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+activity::.AppViewer
+activity::.SetProps
+activity::.AppManager
+call::getSystemService
+activity::.BackupRestore
+service_receiver::.service.BootReceiver
+service_receiver::Service
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+url::http://jrummy16.com/jrummy/goodies/fonts/
+activity::App Management Settings
+activity::.PropEditor
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+activity::.Fonts
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.RootToolsExtras
+url::jrummy16.com
+activity::.RootTools
+intent::android.intent.category.LAUNCHER
+activity::Sysctl Settings
+call::system/bin/su
+permission::android.permission.RECEIVE_BOOT_COMPLETED

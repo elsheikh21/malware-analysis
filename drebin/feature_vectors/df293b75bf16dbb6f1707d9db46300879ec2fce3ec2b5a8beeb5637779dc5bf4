@@ -1,0 +1,18 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+service_receiver::MyService
+intent::android.intent.action.MAIN
+url::http://api.miesque.net/tepco/data.xml
+service_receiver::.BootReceiver
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+call::Read/Write External Storage
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::api.miesque.net
+call::getSystemService

@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::com.google.android.c2dm.C2DMBroadcastReceiver
+real_permission::android.permission.WAKE_LOCK
+permission::android.webkit.permission.PLUGIN
+service_receiver::com.appsgeyser.wFoodsNCooking.Server.C2DMClientReceiver
+activity::Foods N Cooking
+permission::com.google.android.c2dm.permission.RECEIVE
+real_permission::android.permission.VIBRATE
+permission::com.appsgeyser.wFoodsNCooking.permission.C2D_MESSAGE
+call::getSystemService
+api_call::android/media/MediaPlayer;->stop
+intent::com.google.android.c2dm.intent.RECEIVE
+intent::com.google.android.c2dm.intent.REGISTRATION
+api_call::android/content/Context;->startService
+api_call::android/webkit/WebView
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.MainNavigationActivity
+intent::android.intent.category.LAUNCHER

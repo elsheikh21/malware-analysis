@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://www.google.com/search?hl%3Den&q%3D
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.google.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://help.adobe.com/en_US/AS3LCR/Flash_10.0/all-classes.html
+activity::.ASReference
+url::help.adobe.com

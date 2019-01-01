@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+service_receiver::talk like a Pirate Chest. Small
+service_receiver::talk like a pirate. Large
+service_receiver::talk like a Pirate 2. Medium

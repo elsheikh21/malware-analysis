@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://market.android.com/search?q%3Dpname:com.betterandroid.anywidget
+intent::android.intent.category.DEFAULT
+url::http://market.android.com/search?q%3Dpname:com.betterandroid.bettercut
+activity::.Gallery
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/search?q%3Dpname:com.betterandroid.openhome2
+call::getPackageInfo

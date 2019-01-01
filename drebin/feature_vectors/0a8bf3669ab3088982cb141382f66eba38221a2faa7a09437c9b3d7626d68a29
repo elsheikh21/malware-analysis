@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.SlingCityTitleScreen
+intent::android.intent.category.LAUNCHER
+activity::.SlingCityGameOver

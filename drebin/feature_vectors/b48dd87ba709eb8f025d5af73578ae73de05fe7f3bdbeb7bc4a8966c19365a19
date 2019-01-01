@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+permission::android.permission.CHANGE_CONFIGURATION
+intent::android.intent.category.DEFAULT
+activity::com.appmk.book.main.FlipBookActivity
+activity::.FlipBookActivity
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+intent::android.intent.action.VIEW
+real_permission::android.permission.WAKE_LOCK

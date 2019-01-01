@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.dweebsonduty.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.dweebsonduty.com/shanescode/shotdatabasefree/shot_info?random%3D1
+permission::android.permission.INTERNET
+url::http://www.dweebsonduty.com/shanescode/shotdatabasefree/shot_info?id%3D
+url::http://www.dweebsonduty.com/shanescode/shotdatabasefree/shotindex
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.ShotDatabaseFree

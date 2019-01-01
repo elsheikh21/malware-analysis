@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.bang
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::java/net/ServerSocket
+call::Read/Write External Storage
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.ACTION_SHUTDOWN
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.VIBRATE
+activity::.Bootlog
+call::getSystemService
+service_receiver::.BootReceiver
+api_call::java/lang/Runtime;->exec
+intent::android.intent.category.PREFERENCE
+call::Execution of external commands
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+permission::android.permission.RECEIVE_ACTION_SHUTDOWN
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

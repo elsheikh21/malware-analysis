@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::219.136.248.60
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://219.136.248.60:8080/adv/adv.do?proId%3D1&ver%3D1&funid%3D1&n%3D5&pid%3D26
+url::http://219.136.248.60:8080/adv/adv.do?proId%3D1&ver%3D1&funid%3D1&n%3D5&pid%3D26&vps%3D
+permission::android.permission.READ_PHONE_STATE
+call::getDeviceId
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

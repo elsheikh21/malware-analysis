@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+activity::ContactModify
+call::Read/Write External Storage
+feature::android.hardware.telephony
+activity::ContactAdder
+permission::android.permission.CALL_PHONE
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER

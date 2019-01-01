@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.beaverdaily.com
+url::http://mobile.beaverdaily.com/about
+url::http://mobile.beaverdaily.com/stats
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.beaverdaily.com/schedule
+activity::.Main
+url::http://mobile.beaverdaily.com/roster
+permission::android.permission.INTERNET
+url::http://mobile.beaverdaily.com
+intent::android.intent.category.LAUNCHER
+activity::Beaver Daily
+real_permission::android.permission.INTERNET

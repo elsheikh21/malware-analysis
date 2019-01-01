@@ -1,0 +1,14 @@
+activity::.ZodiacActivity
+call::sendSMS
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+api_call::android/telephony/SmsManager;->sendTextMessage
+feature::android.hardware.screen.portrait
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

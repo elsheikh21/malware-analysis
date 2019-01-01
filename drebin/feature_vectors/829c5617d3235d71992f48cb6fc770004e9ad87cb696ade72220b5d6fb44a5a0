@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.activity.AddItemActivity
+activity::.activity.SelectItemActivity
+activity::.activity.SelectTypeActivity
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+activity::.activity.MainActivity
+activity::.activity.EditItemActivity
+intent::android.intent.action.MAIN
+call::getSystemService

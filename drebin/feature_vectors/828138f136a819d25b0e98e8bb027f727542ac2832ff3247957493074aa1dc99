@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.barryzito
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::probaseballapps.com
+url::http://probaseballapps.com/apps/barry_zito.php
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

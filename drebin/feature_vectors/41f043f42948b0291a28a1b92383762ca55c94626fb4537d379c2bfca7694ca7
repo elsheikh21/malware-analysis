@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+service_receiver::.services.SilenceService
+service_receiver::.widgets.SilenceWidget
+real_permission::android.permission.VIBRATE
+provider::android.appwidget.provider
+call::getSystemService

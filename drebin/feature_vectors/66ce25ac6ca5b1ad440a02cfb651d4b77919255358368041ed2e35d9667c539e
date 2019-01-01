@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+service_receiver::MoonWidgetProvider
+feature::android.hardware.screen.portrait
+activity::.MonthActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity
+activity::.MoonActivity
+provider::android.appwidget.provider
+call::getSystemService

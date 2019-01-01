@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::PauseActivity
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::BoxMainMenu
+api_call::android/os/PowerManager$WakeLock;->acquire
+feature::android.hardware.screen.portrait
+activity::BoxEngine
+intent::android.intent.category.LAUNCHER
+activity::.BoxMainMenu
+call::getSystemService
+activity::com.alacrityapps.android.boxkiller.GameOverActivity
+real_permission::android.permission.WAKE_LOCK

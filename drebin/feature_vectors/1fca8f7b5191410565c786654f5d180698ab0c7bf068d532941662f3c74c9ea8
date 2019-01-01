@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::com.google.android.c2dm.C2DMBroadcastReceiver
+service_receiver::com.dreamstep.wDMCASummaries.Server.C2DMClientReceiver
+real_permission::android.permission.WAKE_LOCK
+permission::android.webkit.permission.PLUGIN
+permission::com.google.android.c2dm.permission.RECEIVE
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/media/MediaPlayer;->stop
+intent::com.google.android.c2dm.intent.RECEIVE
+intent::com.google.android.c2dm.intent.REGISTRATION
+activity::DMCA Summaries
+api_call::android/content/Context;->startService
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::com.dreamstep.wDMCASummaries.permission.C2D_MESSAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::.MainNavigationActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify

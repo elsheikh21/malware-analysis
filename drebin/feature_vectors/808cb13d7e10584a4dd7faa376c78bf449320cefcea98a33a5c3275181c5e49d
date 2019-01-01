@@ -1,0 +1,12 @@
+activity::.PWConfiguration
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+intent::android.intent.action.DATE_CHANGED
+intent::android.intent.action.MAIN
+activity::.Welcome
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+service_receiver::PregnancyWidget
+service_receiver::.DateBoradcastReceiver
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+intent::android.intent.action.TIME_SET

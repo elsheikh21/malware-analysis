@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+service_receiver::.LVLService
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::Cipher(AES/CBC/PKCS5Padding)
+call::getPackageInfo

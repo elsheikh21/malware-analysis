@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::com.SdSync.SdSyncWidget
+activity::.SdSync
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider

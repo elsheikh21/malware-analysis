@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://qdb.joelj.org/insert_api.php
+intent::android.intent.action.MAIN
+url::http://qdb.joelj.org/
+activity::.Main
+permission::android.permission.INTERNET
+url::http://qdb.joelj.org/get_quote_api.php
+real_permission::android.permission.INTERNET
+url::qdb.joelj.org
+url::http://qdb.joelj.org/latest.php
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://qdb.joelj.org/get_comment_api.php
+call::HttpPost
+activity::Main

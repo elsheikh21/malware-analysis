@@ -1,0 +1,12 @@
+feature::android.hardware.location.network
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::.tipCalcMain
+call::getSystemService

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+feature::android.software.live_wallpaper
+real_permission::android.permission.VIBRATE
+activity::.Start
+intent::android.intent.category.INFO
+call::getSystemService

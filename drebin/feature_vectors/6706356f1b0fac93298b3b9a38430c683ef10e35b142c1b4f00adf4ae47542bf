@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+activity::.infopage
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.img_page
+activity::.PDD_Rus
+real_permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+activity::.sos_page
+call::getPackageInfo
+activity::.SearchableActivity
+call::getSystemService
+activity::.help_page
+intent::android.intent.action.VIEW

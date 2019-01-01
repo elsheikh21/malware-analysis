@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Number1Fan_Main
+activity::Number1Fan_Main
+intent::android.intent.category.LAUNCHER

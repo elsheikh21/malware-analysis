@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::DragMeOutActivity
+activity::.DragMeOutActivity
+url::http://vhn.vn)
+feature::android.hardware.screen.portrait
+activity::LevelSelectActivity
+intent::android.intent.category.LAUNCHER
+url::vhn.vn)
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

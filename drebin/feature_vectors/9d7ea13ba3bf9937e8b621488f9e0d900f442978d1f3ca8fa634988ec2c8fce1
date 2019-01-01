@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+activity::.speaker
+service_receiver::.smsreceiver
+permission::android.permission.RECEIVE_SMS
+call::readSMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER

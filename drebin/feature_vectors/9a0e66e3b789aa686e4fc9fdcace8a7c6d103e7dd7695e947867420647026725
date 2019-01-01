@@ -1,0 +1,5 @@
+activity::.calCOOLator
+feature::android.hardware.touchscreen
+activity::.LicenseNotice
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

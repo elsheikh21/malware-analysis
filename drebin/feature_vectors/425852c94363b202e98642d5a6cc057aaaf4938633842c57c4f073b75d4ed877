@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.LoginActivity
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK

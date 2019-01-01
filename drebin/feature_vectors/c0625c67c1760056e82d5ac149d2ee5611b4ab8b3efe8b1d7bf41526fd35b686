@@ -1,0 +1,11 @@
+activity::.ServicesDemo
+service_receiver::MyService
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+activity::ServicesDemo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

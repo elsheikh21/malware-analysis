@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.boncopeaux_free
+activity::numpad
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+call::getSystemService

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.Imagin
+call::getSystemService

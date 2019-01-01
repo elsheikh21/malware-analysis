@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+service_receiver::Zazz Widget
+call::printStackTrace
+provider::android.appwidget.provider
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.zazz.com.au/
+url::http://www.zazz.com.au/Forum/viewtopic.php?t%3D
+url::http://www.zazz.com.au
+url::www.zazz.com.au
+url::http://www.zazz.com.au/images/products/

@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.Principal
+url::193.146.28.105
+intent::android.intent.action.MAIN
+url::http://193.146.28.105/portadas/
+url::http://193.146.28.105/
+call::Obfuscation(Base64)
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://193.146.28.105:8080/portadas/
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://193.146.28.105:8080/portadas/PostVisitas
+activity::.activities.Principal
+api_call::java/net/URL;->openConnection

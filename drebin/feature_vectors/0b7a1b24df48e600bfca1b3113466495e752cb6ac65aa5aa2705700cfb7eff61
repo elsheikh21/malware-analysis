@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+activity::.AppEntry
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::Aigle Mobile
+feature::android.hardware.location
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.CAMERA
+call::getPackageInfo
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+permission::android.permission.ACCESS_WIFI_STATE

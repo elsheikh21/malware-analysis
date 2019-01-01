@@ -1,0 +1,41 @@
+feature::android.hardware.touchscreen
+activity::.GDEStarter
+intent::android.intent.category.HOME
+permission::android.permission.CALL_PHONE
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/ActivityManager;->restartPackage
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::IconPicker
+permission::android.permission.READ_CONTACTS
+activity::Desktop settings
+permission::android.permission.WRITE_SETTINGS
+permission::android.permission.GET_TASKS
+activity::Setup animations
+activity::Select iconpack
+activity::Appearance settings
+url::www.google.com
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+permission::android.permission.BIND_APPWIDGET
+intent::android.intent.action.SET_WALLPAPER
+url::http://www.google.com
+real_permission::android.permission.RESTART_PACKAGES
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+api_call::android/content/ContentResolver;->query
+permission::android.permission.SET_WALLPAPER_HINTS
+permission::android.permission.SET_WALLPAPER
+activity::Sort items
+intent::android.intent.action.MAIN
+activity::Select theme
+permission::android.permission.RESTART_PACKAGES
+permission::android.permission.RAISED_THREAD_PRIORITY
+activity::Item properties
+intent::android.intent.category.LAUNCHER
+activity::Button settings
+permission::android.permission.EXPAND_STATUS_BAR
+activity::Item action

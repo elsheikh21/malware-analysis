@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Portfolio
+intent::android.intent.category.LAUNCHER
+url::api.smugmug.com
+call::getSystemService
+url::https://api.smugmug.com/services/api/json/1.2.2/

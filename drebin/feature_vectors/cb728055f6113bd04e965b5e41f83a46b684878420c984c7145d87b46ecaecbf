@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::AppointWidgetActivity
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+activity::.PontoActivity

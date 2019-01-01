@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getDeviceId
+service_receiver::de.wialonconsulting.wiatrack.wialon.service.WialonBackgroundService
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+activity::de.wialonconsulting.wiatrack.activity.HelpActivity
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::java/net/Socket
+feature::android.hardware.location.gps
+real_permission::android.permission.READ_PHONE_STATE
+call::printStackTrace
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+api_call::android/location/LocationManager;->isProviderEnabled
+call::getSystemService
+activity::de.wialonconsulting.wiatrack.activity.SplashActivity
+activity::de.wialonconsulting.wiatrack.activity.SettingsActivity
+activity::de.wialonconsulting.wiatrack.activity.AboutActivity
+activity::de.wialonconsulting.wiatrack.wialon.service.WialonBackgroundService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.SplashActivity

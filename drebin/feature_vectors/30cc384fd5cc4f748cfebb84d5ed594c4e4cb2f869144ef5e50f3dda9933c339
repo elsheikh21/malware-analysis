@@ -1,0 +1,19 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.SET_WALLPAPER_HINTS
+intent::android.intent.action.MAIN
+url::http://chocospeaker.web.fc2.com/picturoid/picturoidhelpjp.html
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+activity::.Main
+feature::android.hardware.screen.portrait
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::Preference
+url::chocospeaker.web.fc2.com
+call::Read/Write External Storage
+activity::ImageViewer
+call::getSystemService

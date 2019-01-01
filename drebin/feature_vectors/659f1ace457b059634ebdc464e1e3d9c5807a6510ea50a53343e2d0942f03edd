@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Drakula
+api_call::android/media/MediaPlayer;->start
+api_call::android/app/Activity;->startActivity
+url::imoregames.com
+url::http://imoregames.com
+activity::Drakula
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+intent::android.intent.category.LAUNCHER

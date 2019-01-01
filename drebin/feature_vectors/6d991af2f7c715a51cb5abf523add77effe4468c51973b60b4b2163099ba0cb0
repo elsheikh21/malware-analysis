@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+activity::.Donations
+api_call::java/net/Socket
+activity::.advancedRootCheck
+activity::.advancedBusyboxCheck
+service_receiver::BillingReceiver
+service_receiver::BillingService
+activity::.RootCheck
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+permission::com.android.vending.BILLING
+call::system/bin/su

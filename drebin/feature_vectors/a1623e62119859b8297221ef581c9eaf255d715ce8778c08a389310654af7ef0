@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.help
+intent::android.intent.action.MAIN
+activity::.ColorMazeS1Lite
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.WAKE_LOCK

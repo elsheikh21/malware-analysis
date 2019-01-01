@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+service_receiver::.StopwatchService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.Intro
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.category.DEFAULT
+call::getSystemService
+activity::.StopwatchActivity

@@ -1,0 +1,19 @@
+activity::RestoreActivity
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.MAIN
+activity::ViewContactActivity
+feature::android.hardware.touchscreen
+permission::android.permission.CALL_PHONE
+api_call::android/content/Context;->startActivity
+permission::android.permission.BROADCAST_STICKY
+activity::.MainActivity
+permission::android.permission.CALL_PRIVILEGED
+call::Read/Write External Storage
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+activity::BackupActivity
+permission::android.permission.READ_CONTACTS
+call::getSystemService

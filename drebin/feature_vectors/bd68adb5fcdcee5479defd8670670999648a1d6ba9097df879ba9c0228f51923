@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.SettingsManager
+url::https://settings.adobe.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::com.adobe.flashplayer.FlashPaintSurface
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.DEFAULT
+permission::android.webkit.permission.PLUGIN
+url::settings.adobe.com
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.INTERNET
+call::getSystemService

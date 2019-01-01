@@ -1,0 +1,27 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::www.infectentertainment.com
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+url::http://www.infectentertainment.com/deadend/music/RisingGame.mp3
+api_call::android/media/MediaPlayer;->start
+activity::.DeadEnd
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::http://www.infectentertainment.com/deadend/music/ZombieHoodoo.mp3
+permission::android.permission.VIBRATE
+api_call::android/telephony/TelephonyManager;->listen
+call::Cipher(AES)
+url::http://www.infectentertainment.com/deadend/music/AwkwardMeeting.mp3
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.infectentertainment.com/deadend/music/Redletter.mp3

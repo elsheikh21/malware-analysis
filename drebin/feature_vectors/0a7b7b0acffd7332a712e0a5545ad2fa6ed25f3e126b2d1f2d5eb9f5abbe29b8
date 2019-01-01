@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://www.myconsumeradvantage.org/background_check.php
+intent::android.intent.action.MAIN
+url::www.myconsumeradvantage.org
+permission::android.permission.INTERNET
+activity::.BackgroundCheck
+intent::android.intent.category.LAUNCHER

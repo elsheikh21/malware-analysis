@@ -1,0 +1,13 @@
+url::http://fxfeeds.mozilla.com/en-US/firefox/headlines.xml
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.ShowDetails
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.Settings
+url::fxfeeds.mozilla.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.HelloTabWidget
+activity::About

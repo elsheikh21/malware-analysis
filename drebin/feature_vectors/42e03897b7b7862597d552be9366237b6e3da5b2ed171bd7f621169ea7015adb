@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+service_receiver::Android Central Clock
+activity::.Info
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

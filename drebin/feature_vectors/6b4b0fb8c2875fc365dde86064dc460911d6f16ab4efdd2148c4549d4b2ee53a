@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen.multitouch.distinct
+activity::com.shinyeggstudios.dominoeslite.Dominoes
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::.Dominoes
+feature::android.hardware.touchscreen.multitouch
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WAKE_LOCK
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

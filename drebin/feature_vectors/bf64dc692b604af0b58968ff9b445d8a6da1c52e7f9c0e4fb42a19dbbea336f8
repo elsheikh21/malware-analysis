@@ -1,0 +1,10 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://fipra.altervista.org/pop.xml
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.CountriesPopulation
+url::fipra.altervista.org
+intent::android.intent.category.LAUNCHER

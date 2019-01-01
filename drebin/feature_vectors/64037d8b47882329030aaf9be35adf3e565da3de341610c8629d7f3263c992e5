@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.UserWordInput
+activity::.StoryListSelect
+activity::.TitleScreenDisplay
+api_call::android/app/Activity;->startActivity
+activity::.CreditsDisplay
+activity::.StoryDisplay
+intent::android.intent.category.LAUNCHER

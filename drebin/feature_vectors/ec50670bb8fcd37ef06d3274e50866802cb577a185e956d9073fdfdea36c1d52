@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.Launcher
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::apphu.com
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/Context;->startActivity
+call::getSystemService
+url::http://apphu.com

@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+activity::UcmSearchApp
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.UcmSearchApp
+activity::UcmSearch
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::Read/Write External Storage
+activity::UcmContentView
+call::Obfuscation(Base64)
+call::getSystemService

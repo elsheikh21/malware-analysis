@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SEND_SMS
+activity::.Main
+real_permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+api_call::android/telephony/SmsManager;->sendTextMessage
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+call::getSystemService

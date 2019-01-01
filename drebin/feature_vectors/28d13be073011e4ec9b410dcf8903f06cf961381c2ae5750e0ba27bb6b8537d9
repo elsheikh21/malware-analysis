@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.ColorCubesFreeActivity
+real_permission::android.permission.RECORD_AUDIO
+activity::com.edba.colorcubesfree.ColorCubesFreeActivity
+intent::android.intent.action.MAIN
+url::www.edbasoftware.com
+api_call::android/os/Vibrator;->cancel
+call::Obfuscation(Base64)
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/media/AudioRecord
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::java/net/URL;->openConnection
+url::http://www.edbasoftware.com/scores/colorcubes.php
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.WelcomeScreen
+intent::android.intent.category.LAUNCHER
+service_receiver::.aWidget$gpsModeToggleService
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

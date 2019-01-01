@@ -1,0 +1,14 @@
+url::spacewarpgames.com
+feature::android.hardware.touchscreen
+activity::com.paypal.android.MEP.PayPalActivity
+intent::android.intent.action.MAIN
+real_permission::android.permission.DISABLE_KEYGUARD
+url::http://spacewarpgames.com
+feature::android.hardware.screen.portrait
+activity::.Shooter
+intent::android.intent.category.LAUNCHER
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+permission::android.permission.DISABLE_KEYGUARD

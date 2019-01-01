@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/webkit/WebView
+service_receiver::.BobClockD3Service
+feature::android.hardware.screen.portrait
+service_receiver::.BobClockD3
+call::getSystemService
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

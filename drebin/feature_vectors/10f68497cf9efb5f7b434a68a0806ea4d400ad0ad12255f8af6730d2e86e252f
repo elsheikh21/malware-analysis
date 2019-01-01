@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+service_receiver::FLRService
+api_call::android/media/MediaPlayer;->stop
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+activity::.RadioMain
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

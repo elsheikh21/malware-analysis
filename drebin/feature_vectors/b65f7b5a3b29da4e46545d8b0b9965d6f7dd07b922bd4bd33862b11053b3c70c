@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.pantherreport.com/roster
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::Panther Report
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.pantherreport.com/about
+intent::android.intent.category.LAUNCHER
+url::http://mobile.pantherreport.com
+url::http://mobile.pantherreport.com/stats
+url::mobile.pantherreport.com
+url::http://mobile.pantherreport.com/schedule

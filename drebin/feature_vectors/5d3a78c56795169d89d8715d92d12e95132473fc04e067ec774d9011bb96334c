@@ -1,0 +1,12 @@
+url::http://www.grabdd.com/ws/services.asmx/GetDailyDealsByRegion?region%3D
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.EntryPointActivity
+url::http://www.grabdd.com/ws/services.asmx/GetDailyDealsByRegionSource?region%3D
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::GrabddMobileActivity
+url::www.grabdd.com
+real_permission::android.permission.INTERNET
+call::getSystemService

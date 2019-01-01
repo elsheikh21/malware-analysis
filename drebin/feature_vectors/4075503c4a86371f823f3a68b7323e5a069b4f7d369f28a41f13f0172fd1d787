@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.mainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::www.tepco.co.jp.cache.yimg.jp
+real_permission::android.permission.INTERNET
+url::http://www.tepco.co.jp.cache.yimg.jp/forecast/html/images/juyo-j.csv
+call::getSystemService

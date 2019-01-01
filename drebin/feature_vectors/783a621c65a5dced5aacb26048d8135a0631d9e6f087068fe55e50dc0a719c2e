@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_MOCK_LOCATION
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.location.gps
+real_permission::android.permission.CAMERA
+activity::.TravelLog
+feature::android.hardware.camera.autofocus
+feature::android.hardware.location
+url::www.opengis.net
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+url::http://www.opengis.net/kml/2.2\
+permission::android.permission.CAMERA
+api_call::android/hardware/Camera;->open
+activity::.TakePic
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+api_call::android/location/LocationManager;->getBestProvider
+activity::.EditLog
+intent::android.intent.category.LAUNCHER
+call::getSystemService

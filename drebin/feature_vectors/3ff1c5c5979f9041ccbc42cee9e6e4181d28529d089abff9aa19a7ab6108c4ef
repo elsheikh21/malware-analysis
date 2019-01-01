@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://www.1071klitefm.com
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+activity::.klitefm
+intent::android.intent.category.LAUNCHER
+url::www.1071klitefm.com

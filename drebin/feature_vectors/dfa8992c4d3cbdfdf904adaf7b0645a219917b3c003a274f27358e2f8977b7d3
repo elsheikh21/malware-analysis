@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://www.wooboo.com.cn
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+api_call::android/content/Context;->startActivity
+api_call::android/app/ActivityManager;->restartPackage
+activity::.Property
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.Task
+call::getPackageInfo
+url::www.wooboo.com.cn
+activity::About
+call::getSystemService

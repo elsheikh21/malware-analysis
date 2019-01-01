@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::converteasy.net
+url::http://converteasy.net/Wordlearning.html
+activity::.home
+intent::android.intent.category.LAUNCHER
+activity::com.app.wordlearning.activity_startup
+activity::com.app.wordlearning.listDir

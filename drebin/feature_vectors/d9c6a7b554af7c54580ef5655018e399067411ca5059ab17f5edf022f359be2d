@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Location
+activity::.Main
+activity::Home
+activity::Services
+activity::Contact
+intent::android.intent.category.LAUNCHER
+activity::ServiceList
+activity::.Service_list

@@ -1,0 +1,10 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+activity::.help
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.FractalWallpaperSample
+api_call::android/webkit/WebView

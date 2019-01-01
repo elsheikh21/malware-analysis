@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.Next
+intent::android.intent.action.MAIN
+activity::.Two
+url::www.terra.dti.ne.jp
+activity::.Word
+activity::.BookRemove
+intent::android.intent.category.LAUNCHER
+url::http://www.terra.dti.ne.jp/motosugi/android/
+activity::.MyMain
+call::getSystemService

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::com.tigermonster.notouchcardaccomplice.NoTouchCardAccomplice
+real_permission::android.permission.BLUETOOTH_ADMIN
+intent::android.intent.action.MAIN
+real_permission::android.permission.BLUETOOTH
+permission::android.permission.BLUETOOTH
+activity::.NoTouchCardAccomplice
+intent::android.intent.category.LAUNCHER
+permission::android.permission.BLUETOOTH_ADMIN
+api_call::android/bluetooth/BluetoothAdapter;->getBondedDevices
+api_call::android/bluetooth/BluetoothAdapter;->cancelDiscovery

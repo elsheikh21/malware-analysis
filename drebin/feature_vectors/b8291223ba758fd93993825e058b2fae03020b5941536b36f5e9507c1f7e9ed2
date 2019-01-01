@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.dicedroid.com/dicesyncmob.php5
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.dicedroid.com/dicelogmob.php5
+activity::.DiceDroid
+intent::android.intent.category.LAUNCHER
+url::www.dicedroid.com
+call::HttpPost
+intent::android.intent.action.VIEW

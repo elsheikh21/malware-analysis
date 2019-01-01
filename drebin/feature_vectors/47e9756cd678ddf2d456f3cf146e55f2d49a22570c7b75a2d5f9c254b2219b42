@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::bu-nyan.bne.jp
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.game
+api_call::android/app/Activity;->startActivity
+feature::android.hardware.screen.landscape
+url::http://bu-nyan.bne.jp/game/jm.php
+intent::android.intent.category.LAUNCHER

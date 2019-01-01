@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+service_receiver::.KTLOService
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+call::Execution of external commands
+service_receiver::.KeepTheLightsOn$UpdateService
+intent::android.intent.action.BOOT_COMPLETED
+call::system/bin/su
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

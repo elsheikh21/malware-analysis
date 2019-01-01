@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+service_receiver::.SyncService
+url::http://market.android.com/details?id%3Dcom.goliathonline.android.ohioliquor
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::Bottles
+url::http://android.goliathonline.com/app_resources/liquor_base/aboutfr-
+call::getPackageInfo
+activity::Liquor Search
+url::market.android.com
+url::http://www.gstatic.com/mobile/ads/safma_load_ads.js
+api_call::android/content/Context;->startActivity
+url::http://android.goliathonline.com/app_resources/liquor_base/liquor.db
+url::http://__NO_MATCHING_AD__
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+url::android.goliathonline.com
+call::Obfuscation(Base64)
+url::http://android.goliathonline.com/app_resources/liquor_base/liquor.db.md5.txt
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+url::http://android.goliathonline.com/app_resources/liquor_images/image.php?code%3D
+activity::.HomeActivity
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+permission::android.permission.INTERNET
+url::www.gstatic.com
+intent::android.intent.action.SEARCH
+api_call::android/location/LocationManager;->getLastKnownLocation
+activity::Liquor Details

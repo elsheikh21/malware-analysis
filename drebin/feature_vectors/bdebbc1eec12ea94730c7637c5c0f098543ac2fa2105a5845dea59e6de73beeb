@@ -1,0 +1,9 @@
+activity::theme.core.PandaTheme
+url::market.android.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.PandaTheme
+url::http://market.android.com/search?q%3Dpub:\
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/search?q%3Dpname:com.nd.android.pandahome

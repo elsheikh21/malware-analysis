@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+activity::.a_camera
+api_call::android/os/Vibrator;->vibrate
+call::Read/Write External Storage
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.CAMERA
+api_call::android/media/MediaRecorder;->setVideoSource
+feature::android.hardware.camera.autofocus
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+real_permission::android.permission.RECORD_AUDIO
+permission::android.permission.CAMERA
+api_call::android/media/MediaRecorder;->setAudioSource
+url::http://www.sivartech.com/spyphone/tutorial/
+feature::android.hardware.screen.landscape
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+intent::android.intent.category.LAUNCHER
+url::www.sivartech.com

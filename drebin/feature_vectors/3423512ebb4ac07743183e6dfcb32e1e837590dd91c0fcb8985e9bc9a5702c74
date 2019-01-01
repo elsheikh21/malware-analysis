@@ -1,0 +1,27 @@
+url::https://data.flurry.com/aap.do
+feature::android.hardware.touchscreen
+permission::android.permission.CALL_PHONE
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+call::HttpPost
+url::market.android.com
+api_call::java/net/Socket
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+url::http://data.flurry.com/aap.do
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+url::data.flurry.com
+call::Execution of external commands
+feature::android.hardware.telephony
+feature::android.hardware.screen.landscape
+url::http://ad.flurry.com/getAndroidApp.do
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::https://market.android.com/details?id%3D
+url::ad.flurry.com
+url::http://ad.flurry.com/getCanvas.do

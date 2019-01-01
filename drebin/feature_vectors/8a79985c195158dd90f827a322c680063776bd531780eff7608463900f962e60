@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CALL_PHONE
+feature::android.hardware.telephony
+activity::.EasyContacts
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+intent::android.intent.category.LAUNCHER

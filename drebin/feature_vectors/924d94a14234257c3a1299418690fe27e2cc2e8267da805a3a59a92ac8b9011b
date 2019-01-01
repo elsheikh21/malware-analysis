@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ActSearchActivity
+api_call::android/webkit/WebView
+call::getSystemService
+activity::.SearchActivity
+activity::.HomeListActivity
+activity::.Preferences
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+url::schemas.android.com
+activity::.SectionActivity
+url::http://schemas.android.com/apk/res/android
+intent::android.intent.category.LAUNCHER

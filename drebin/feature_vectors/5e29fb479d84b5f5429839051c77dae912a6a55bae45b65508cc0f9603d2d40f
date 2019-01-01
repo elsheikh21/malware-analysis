@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.homeControl
+intent::android.intent.category.LAUNCHER

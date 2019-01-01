@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::java/lang/Runtime;->exec
+url::systemwidget.appspot.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+service_receiver::.MonitorService
+url::smallfeng0426.appspot.com
+api_call::android/webkit/WebView
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+url::http://systemwidget.appspot.com/ad_info.txt
+activity::idv.nightgospel.information.utils.DialogActivity
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+api_call::android/content/Context;->sendBroadcast
+call::getSystemService
+url::http://smallfeng0426.appspot.com

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+intent::android.intent.action.GET_CONTENT
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+activity::.Gallery
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.OPENABLE
+intent::android.intent.action.VIEW

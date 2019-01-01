@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.VexedActivity
+activity::.PackChooserActivity
+api_call::android/os/Vibrator;->vibrate
+activity::.VexedSettings
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+call::getSystemService
+api_call::android/content/Context;->startActivity
+permission::android.content.Intent.ACTION_SEND
+real_permission::android.permission.WAKE_LOCK

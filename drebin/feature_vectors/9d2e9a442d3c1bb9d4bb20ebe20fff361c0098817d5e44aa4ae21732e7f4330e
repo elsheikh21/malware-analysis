@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+url::anypon.co.kr
+activity::.AnyPonActivity
+url::http://anypon.co.kr

@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+url::http://www.adobe.com/go/thirdparty
+intent::android.intent.category.DEFAULT
+url::www.adobe.com
+activity::.AdobeReader
+activity::.ARFileOpen
+activity::.ARAboutActivity
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->requestLocationUpdates
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::.GridReference
+call::getSystemService
+permission::android.content.Intent.ACTION_SEND

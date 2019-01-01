@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.TxtEditor
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/search?q%3Dpname:com.betterandroid.openhome2

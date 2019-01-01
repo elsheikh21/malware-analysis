@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+url::http://www.food-info.net/fr/e/
+url::www.ukfoodguide.net
+intent::android.intent.action.MAIN
+url::http://www.ukfoodguide.net/
+url::http://en.m.wikipedia.org/wiki/
+url::http://www.les-additifs-alimentaires.com/
+activity::.Additifs
+url::http://www.food-info.net/uk/e/
+url::www.les-additifs-alimentaires.com
+url::www.food-info.net
+url::fr.m.wikipedia.org
+intent::android.intent.category.LAUNCHER
+url::en.m.wikipedia.org
+intent::android.intent.action.ACTION_VIEW
+url::http://fr.m.wikipedia.org/wiki/

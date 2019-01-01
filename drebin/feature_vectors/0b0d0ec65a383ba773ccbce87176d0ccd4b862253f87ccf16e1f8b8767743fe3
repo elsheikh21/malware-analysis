@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://www.health.state.mn.us/news/rss/news.xml
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.health.state.mn.us
+activity::.MDHNews

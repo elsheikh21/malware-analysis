@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.SEOReview
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+url::http://www.getsearchified.com/?fetch%3Dmessage_body&output%3Dapi
+permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.wifi
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+url::www.getsearchified.com
+call::getSystemService
+permission::android.permission.CHANGE_NETWORK_STATE

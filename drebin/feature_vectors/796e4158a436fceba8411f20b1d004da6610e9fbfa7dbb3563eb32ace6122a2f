@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.wifi
+url::apps.tomanyz.com
+url::tomanyz.com
+permission::android.permission.ACCESS_WIFI_STATE
+url::http://apps.tomanyz.com/
+url::http://tomanyz.com
+feature::android.software.live_wallpaper
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::getSystemService

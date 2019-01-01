@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+activity::.BBClientAct
+activity::.FileEditAct
+activity::.FilterEditAct
+activity::.TextEditAct
+intent::android.intent.category.LAUNCHER
+call::Execution of external commands
+real_permission::android.permission.INTERNET
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

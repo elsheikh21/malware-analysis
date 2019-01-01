@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::MenuActivity
+activity::ResourcesTabActivity
+activity::ResourceActivity
+call::getSystemService
+activity::ClassProfileActivity
+activity::PrinciplesActivity
+api_call::android/app/Activity;->setContentView
+intent::android.intent.category.LAUNCHER
+activity::UDLinks
+real_permission::android.permission.INTERNET
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::TabControllerActivity
+activity::FavoritesActivity
+activity::.MainMenuActivity

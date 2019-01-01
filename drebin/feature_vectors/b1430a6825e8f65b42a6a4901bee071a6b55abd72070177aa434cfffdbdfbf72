@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.LockSettingsActivity
+intent::android.intent.category.LAUNCHER
+service_receiver::LockEnforcementReceiver
+call::getSystemService

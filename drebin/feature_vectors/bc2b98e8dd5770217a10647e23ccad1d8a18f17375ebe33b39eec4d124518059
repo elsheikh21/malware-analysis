@@ -1,0 +1,5 @@
+activity::.HelloGuieActivity
+feature::android.hardware.touchscreen
+activity::com.losguerosproductions.HelloGuieActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

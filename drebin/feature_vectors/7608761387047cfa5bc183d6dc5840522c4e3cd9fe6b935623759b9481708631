@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+url::http://appslib.com/applications/app.html?ida%3D37410
+call::Read/Write External Storage
+activity::.ui.images.touch.ImageViewerMultiTouch
+call::getPackageInfo
+url::appslib.com
+api_call::android/app/Activity;->startActivity
+url::market.android.com
+activity::.ImageViewerActivity
+activity::.ui.images.ImageZoomActivity
+call::getSystemService
+url::http://opensourceecm.fr/android-app
+url::http://market.android.com/details?id%3Dacc.file.explorer
+url::http://appslib.com/applications/app.html?ida%3D35561
+url::http://openiconlibrary.sourceforge.net/
+url::openiconlibrary.sourceforge.net
+intent::android.intent.category.DEFAULT
+url::opensourceecm.fr
+intent::android.intent.action.VIEW
+url::http://market.android.com/details?id%3Datcc.file.explorer
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/details?id%3Dacc.image.viewer

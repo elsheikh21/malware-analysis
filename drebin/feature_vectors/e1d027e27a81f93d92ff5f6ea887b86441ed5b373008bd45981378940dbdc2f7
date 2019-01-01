@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.google.com
+url::http://www.google.com
+activity::.MainActivity
+permission::android.permission.INTERNET
+activity::.BookmarkListActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

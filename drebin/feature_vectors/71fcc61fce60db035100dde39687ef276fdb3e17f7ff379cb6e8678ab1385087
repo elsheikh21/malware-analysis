@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://twitter.com/statuses/user_timeline/259379883.rss
+intent::android.intent.action.MAIN
+url::twitter.com
+call::printStackTrace
+url::www.affordableresellsoftware.com
+url::http://www.affordableresellsoftware.com/images/charliesheen.jpg
+permission::android.permission.INTERNET
+url::www.twitter.com
+url::http://www.twitter.com/charliesheen/
+intent::android.intent.category.LAUNCHER
+url::http://f0cfenwdu8841zfkx9y61brlkw.hop.clickbank.net/?tid%3DCHARLIE
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.Activity1
+url::f0cfenwdu8841zfkx9y61brlkw.hop.clickbank.net

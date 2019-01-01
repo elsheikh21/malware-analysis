@@ -1,0 +1,12 @@
+activity::.GCstarViewer
+feature::android.hardware.touchscreen
+activity::.GCstarFileChooser
+intent::android.intent.action.MAIN
+url::wiki.gcstar.org
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+url::http://wiki.gcstar.org/en/gcstar_viewer
+intent::android.intent.action.SEARCH
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getSystemService

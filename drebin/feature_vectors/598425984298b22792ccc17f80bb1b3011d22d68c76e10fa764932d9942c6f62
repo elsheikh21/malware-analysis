@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::SlideTypeKeyboard
+permission::android.permission.BIND_INPUT_METHOD
+activity::.MainActivity
+url::http://code.google.com/p/slidetypekeyboard/wiki/ChangeLog
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+call::getSystemService
+url::code.google.com

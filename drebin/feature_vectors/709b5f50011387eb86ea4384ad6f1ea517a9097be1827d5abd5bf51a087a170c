@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.InfoScreen
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+service_receiver::.XboxLiveStatsWidget$UpdateService
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

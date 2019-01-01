@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+url::www.mixest.com
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.mixest.com/music/
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://www.mixest.com/control/governor.php?
+service_receiver::MixestService
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.Mixest
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

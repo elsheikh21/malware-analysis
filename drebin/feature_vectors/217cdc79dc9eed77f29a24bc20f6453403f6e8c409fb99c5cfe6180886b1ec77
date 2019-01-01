@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://pip/home
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.biNuMainActivity
+activity::net.binu.platform.android.biNuMainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::pip
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::java/net/Socket
+call::getSystemService

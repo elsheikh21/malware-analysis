@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+url::http://global-android-dev.appspot.com/bugreport
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MenuGroupActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+url::global-android-dev.appspot.com
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.activity
+call::HttpPost
+call::getSystemService

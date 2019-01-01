@@ -1,0 +1,17 @@
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.CALL_PHONE
+activity::.Main
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+url::http://www.universityvet.com
+url::https://www.vetsecure.com/universityvet.com/login/
+url::www.universityvet.com
+url::www.vetsecure.com

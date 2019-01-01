@@ -1,0 +1,32 @@
+feature::android.hardware.touchscreen
+service_receiver::UninstallReceiver
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.PACKAGE_REMOVED
+service_receiver::InstallReceiver
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::dl.dropbox.com
+activity::.Su
+call::getPackageInfo
+url::http://dl.dropbox.com/u/6408470/Superuser/manifest.json
+api_call::android/content/Context;->startActivity
+permission::com.noshufou.android.su.RESPOND
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::SuRequestReceiver
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::SuNotificationReceiver
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::system/bin/su

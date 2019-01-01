@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://www.andrsoft.info/wordpress
+intent::android.intent.action.MAIN
+url::http://www.andrsoft.info/gallery.html
+activity::.mimamoripr
+intent::android.intent.category.LAUNCHER
+url::www.andrsoft.info

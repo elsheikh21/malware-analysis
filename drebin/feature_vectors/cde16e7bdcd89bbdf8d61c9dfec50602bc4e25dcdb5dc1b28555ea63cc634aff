@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://www.marspuppy.com/home/crazy-animal-sounds
+intent::android.intent.action.MAIN
+url::www.marspuppy.com
+url::http://www.freesound.org/samplesViewSingle.php?id%3D18272
+intent::android.intent.category.LAUNCHER
+activity::.CrazyAnimalSounds
+url::www.freesound.org
+call::getSystemService

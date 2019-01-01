@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+activity::.Main
+real_permission::android.permission.INTERNET
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+intent::android.intent.category.LAUNCHER
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+call::getPackageInfo
+api_call::android/app/Activity;->startActivity
+call::getSystemService

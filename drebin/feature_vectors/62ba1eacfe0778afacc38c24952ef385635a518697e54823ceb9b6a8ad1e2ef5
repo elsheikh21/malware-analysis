@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.hiphopdaily.mobi
+url::http://www.hiphopdaily.mobi/polls/who-is-the-hottest-mc-in-the-game-right-now
+activity::.Activity1

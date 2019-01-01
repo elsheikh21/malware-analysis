@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.Start
+call::HttpPost
+feature::android.hardware.location.gps
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+feature::android.hardware.location
+url::http://ext.epart.it/Feed.svc/channels
+call::getSystemService
+activity::com.posytron.epart.Start
+permission::android.permission.CAMERA
+call::Obfuscation(Base64)
+api_call::android/location/LocationManager;->isProviderEnabled
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.action.MAIN
+url::http://ext.epart.it
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+url::ext.epart.it
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://aTrackDog.a0soft.com/q.php
+call::getPackageInfo
+call::HttpPost
+url::aTrackDog.a0soft.com
+real_permission::android.permission.WAKE_LOCK
+url::market.android.com
+api_call::android/content/Context;->startActivity
+url::http://pagead2.googlesyndication.com/pagead/show_mobile_ads.js
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/webkit/WebView
+call::Obfuscation(Base64)
+url::http://market.android.com/search?q%3Dpname:
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.TrackDog
+real_permission::android.permission.INTERNET
+permission::android.permission.GET_PACKAGE_SIZE
+intent::android.intent.category.LAUNCHER
+activity::.SyncRemote

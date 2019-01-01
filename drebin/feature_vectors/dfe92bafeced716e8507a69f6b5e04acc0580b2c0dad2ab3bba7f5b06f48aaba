@@ -1,0 +1,5 @@
+activity::com.lazerpuzzle.android.installer.InstallerActivity
+activity::.InstallerActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

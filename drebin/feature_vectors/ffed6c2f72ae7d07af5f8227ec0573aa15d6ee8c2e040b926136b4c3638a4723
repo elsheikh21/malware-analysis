@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::www.androidsis.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.androidsis.com/?feed%3Drss2
+activity::.Androidsis
+url::http://www.androidsis.com/

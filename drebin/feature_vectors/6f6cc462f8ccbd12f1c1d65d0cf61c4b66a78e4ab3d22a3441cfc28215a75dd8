@@ -1,0 +1,4 @@
+service_receiver::KaKeyboard
+feature::android.hardware.touchscreen
+activity::KaKeyboardSettings
+intent::android.intent.action.MAIN

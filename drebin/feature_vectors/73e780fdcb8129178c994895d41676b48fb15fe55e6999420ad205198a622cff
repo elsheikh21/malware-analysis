@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.Help
+intent::android.intent.action.MAIN
+activity::.TwelveTile
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.Preferences

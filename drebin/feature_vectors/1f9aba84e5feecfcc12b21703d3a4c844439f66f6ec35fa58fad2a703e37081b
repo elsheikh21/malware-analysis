@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.babynames.co.uk
+intent::android.intent.action.MAIN
+url::http://www.babynames.co.uk
+api_call::android/content/Context;->startActivity
+activity::.GeneratorActivity
+activity::.DetailActivity
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.FavoritesActivity
+activity::.BabyNamesTabActivity

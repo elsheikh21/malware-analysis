@@ -1,0 +1,10 @@
+activity::.UltimateLevel
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+feature::android.hardware.sensor.accelerometer
+url::http://market.android.com/details?id%3Dcom.gavchap.ultimatelevelpaid
+url::http://market.android.com/search?q%3Dpub:\
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService

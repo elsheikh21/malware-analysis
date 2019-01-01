@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::EditClass
+activity::.ClassProfile
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+activity::.AddClassActivity
+feature::android.hardware.screen.portrait
+activity::.GradeCalculator
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

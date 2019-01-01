@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.CJDict
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getSystemService

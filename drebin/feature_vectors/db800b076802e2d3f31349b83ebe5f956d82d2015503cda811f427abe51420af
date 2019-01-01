@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::SampleService
+intent::android.intent.action.MAIN
+activity::.TGOffActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.CHANGE_NETWORK_STATE
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::AutoOffReceiver

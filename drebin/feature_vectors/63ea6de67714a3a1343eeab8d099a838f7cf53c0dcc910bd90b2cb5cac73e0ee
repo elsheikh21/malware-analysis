@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+activity::.ui.CircleBatteryWidgetPreferenceActivity
+intent::android.intent.action.POWER_DISCONNECTED
+service_receiver::Circle Battery Widget (1x2)
+intent::android.intent.action.MAIN
+service_receiver::Circle Battery Widget (1x1)
+intent::android.intent.action.BATTERY_CHANGED
+intent::android.intent.action.POWER_CONNECTED
+service_receiver::Circle Battery Widget (3x3)
+service_receiver::Circle Battery Widget (2x2)
+intent::android.intent.category.LAUNCHER
+activity::.CircleBatteryWidgetPreferenceActivity
+service_receiver::Circle Battery Widget (4x4)
+provider::android.appwidget.provider
+service_receiver::Circle Battery Widget (2x1)
+service_receiver::.services.CircleBatteryService

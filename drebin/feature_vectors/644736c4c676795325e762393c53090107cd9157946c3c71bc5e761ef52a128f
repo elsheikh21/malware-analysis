@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+activity::.ApiDemos
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS

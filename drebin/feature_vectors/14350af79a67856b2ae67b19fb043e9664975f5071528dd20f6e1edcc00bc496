@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::Calculator
+activity::.Calculator
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

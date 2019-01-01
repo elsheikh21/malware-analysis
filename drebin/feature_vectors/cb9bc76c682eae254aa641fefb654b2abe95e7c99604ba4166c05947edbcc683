@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://library.cau.ac.kr/search/ItemDetail.axa
+activity::.Search
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::library.cau.ac.kr
+url::http://library.cau.ac.kr/search/Search.Result.ax
+call::getSystemService

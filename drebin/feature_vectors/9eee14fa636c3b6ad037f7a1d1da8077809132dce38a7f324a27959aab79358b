@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://cloud.tfl.gov.uk/TrackerNet/StationStatus/IncidentsOnly
+url::http://cloud.tfl.gov.uk/TrackerNet/LineStatus/IncidentsOnly
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::cloud.tfl.gov.uk

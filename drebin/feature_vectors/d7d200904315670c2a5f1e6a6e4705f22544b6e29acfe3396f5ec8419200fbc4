@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Ultimate Hooker Punch Showdown
+permission::android.permission.READ_PHONE_STATE
+activity::.AppEntry
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

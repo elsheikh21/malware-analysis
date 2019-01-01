@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.toggle
+intent::android.intent.ACTION_TIME
+intent::android.intent.ACTION_TIMEZONE_CHANGED
+provider::android.appwidget.provider
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+service_receiver::.sdWProvider
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+call::Execution of external commands
+intent::android.intent.TOGGLE
+service_receiver::.sdBReceiver
+activity::.sdConfigure
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

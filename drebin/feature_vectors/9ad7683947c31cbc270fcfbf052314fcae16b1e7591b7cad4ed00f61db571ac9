@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+url::http://www.ebookhow.info/Kinect/Kinect_News.html
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.ebookhow.info/Kinect/Reviews_of_Kinect.html
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::www.ebookhow.info
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+url::http://www.ebookhow.info/Kinect/Kinect.html
+call::getSystemService

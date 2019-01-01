@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.RemixThemGrid
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.RemixThem
+feature::android.hardware.screen.portrait
+activity::.RemixThemEditor
+api_call::android/content/ContentResolver;->openOutputStream
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+activity::.RemixThemManual
+call::getSystemService
+intent::android.intent.category.LAUNCHER

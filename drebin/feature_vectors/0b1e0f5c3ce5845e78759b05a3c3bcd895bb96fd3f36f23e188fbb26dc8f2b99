@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+permission::android.permission.BIND_INPUT_METHO
+service_receiver::SwedishKeyboard

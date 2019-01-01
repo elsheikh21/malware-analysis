@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+url::akolacz.tarchomin.pl
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::KupidynSearch
+activity::.KupidynSearch
+intent::android.intent.category.LAUNCHER
+url::http://akolacz.tarchomin.pl
+call::Read/Write External Storage
+url::http://akolacz.tarchomin.pl/akupidyn_pl.html

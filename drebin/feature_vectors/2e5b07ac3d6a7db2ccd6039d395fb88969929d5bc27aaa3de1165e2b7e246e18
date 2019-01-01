@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::Read/Write External Storage
+call::getSystemService

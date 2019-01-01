@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://bf.memphis.edu/vms/umfightsong.mp3
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+url::bf.memphis.edu
+activity::.GoTigersGo
+real_permission::android.permission.WAKE_LOCK

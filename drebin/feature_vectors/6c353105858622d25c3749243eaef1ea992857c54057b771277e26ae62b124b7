@@ -1,0 +1,11 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+activity::.FastReboot
+call::getPackageInfo
+call::getSystemService

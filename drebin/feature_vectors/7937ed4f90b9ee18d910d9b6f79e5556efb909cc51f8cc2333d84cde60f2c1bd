@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::BYU Review
+url::http://mobile.byureview.com
+intent::android.intent.action.MAIN
+url::http://mobile.byureview.com/schedule
+activity::.Main
+url::http://mobile.byureview.com/roster
+permission::android.permission.INTERNET
+url::http://mobile.byureview.com/about
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::mobile.byureview.com
+real_permission::android.permission.INTERNET
+url::http://mobile.byureview.com/stats

@@ -1,0 +1,10 @@
+activity::.continuouspassivemotion
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://bawidgets.com/continuous_passive_motion.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::bawidgets.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

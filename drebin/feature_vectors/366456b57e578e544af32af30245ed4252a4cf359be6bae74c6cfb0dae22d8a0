@@ -1,0 +1,61 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+url::xmlpull.org
+service_receiver::.business.TaskerFireReceiver
+activity::LockWarning
+call::getSystemService
+permission::android.permission.CALL_PHONE
+permission::android.permission.INTERNET
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+call::Read/Write External Storage
+url::www.bitswidget.com
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::InternetFailure
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+url::http://www.youtube.com/watch?v%3D1Ddw0lsngFo
+permission::android.permission.WRITE_SETTINGS
+activity::BITS Beta
+feature::android.hardware.location.gps
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+service_receiver::BITS Android Market Receiver
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+api_call::android/app/NotificationManager;->notify
+activity::BITS
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.INTERNET
+call::Obfuscation(Base64)
+permission::com.android.vending.BILLING
+activity::BITS Expired Beta
+permission::android.permission.VIBRATE
+activity::BITS Configuration
+activity::ProOnly
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::Activate
+activity::Add A Bit
+service_receiver::BITS Service
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+service_receiver::BITS Android Market Service
+url::api.geonames.org
+api_call::android/content/ContentResolver;->query
+api_call::android/provider/Settings$System;->putString
+activity::Choose Bit
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+url::http://www.bitswidget.com
+url::www.youtube.com
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+api_call::android/location/LocationManager;->getLastKnownLocation
+activity::Layouts
+url::http://api.geonames.org/timezone?lat%3D%s&lng%3D%s&style%3Dfull&username%3D%s
+url::http://xmlpull.org/v1/doc/features.html
+provider::android.appwidget.provider
+activity::.widgetInstructions

@@ -1,0 +1,5 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+activity::.Math_Tricks_Activity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

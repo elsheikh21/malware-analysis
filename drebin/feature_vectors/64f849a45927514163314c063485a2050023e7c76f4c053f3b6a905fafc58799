@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::com.lynxdemo.ZonesView
+intent::android.intent.action.MAIN
+activity::.LaunchingVideo
+activity::com.lynxdemo.WelcomeScreen
+activity::com.lynxdemo.LynxTouchHome
+api_call::android/media/MediaPlayer;->start
+activity::com.lynxdemo.MessageData
+intent::android.intent.category.DEFAULT
+activity::com.lynxdemo.EnterArmCode
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::com.lynxdemo.LaunchingVideo
+real_permission::android.permission.WAKE_LOCK

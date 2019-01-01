@@ -1,0 +1,10 @@
+activity::VConvertItSelect
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::VConvertItCalc
+activity::VConvertItInfo
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::SelectUnit
+activity::.VConvertItSelect
+call::getSystemService

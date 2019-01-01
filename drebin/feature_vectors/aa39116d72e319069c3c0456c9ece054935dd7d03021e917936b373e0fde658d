@@ -1,0 +1,5 @@
+call::Execution of external commands
+feature::android.hardware.touchscreen
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+permission::android.permission.READ_LOGS

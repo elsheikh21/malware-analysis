@@ -1,0 +1,21 @@
+url::).*
+feature::android.hardware.touchscreen
+url::http://).*::([^&]*)&.*$
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.google.com/m/search?site%3Dimages&source%3Dmog&hl%3Dko&gl%3Dkr&q%3D
+api_call::android/media/MediaPlayer;->start
+url::http://www.gstatic.com/dictionary/static/sounds/de/0/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::WordInMindActivity
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+url::www.google.com
+real_permission::android.permission.WAKE_LOCK
+activity::.WordInMindActivity
+call::getSystemService
+activity::.WordListActivity

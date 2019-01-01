@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.Browser
+intent::android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+permission::android.permission.SET_PREFERRED_APPLICATIONS
+intent::android.intent.category.LAUNCHER
+service_receiver::com.opera.mini.android.DataSettingReceiver
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

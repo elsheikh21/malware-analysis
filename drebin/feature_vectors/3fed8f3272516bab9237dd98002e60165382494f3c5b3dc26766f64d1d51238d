@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+permission::android.permission.BATTERY_STATS
+intent::android.intent.action.GET_CONTENT
+activity::Coligma Settings
+intent::android.intent.category.DEFAULT
+feature::android.software.live_wallpaper
+intent::android.intent.category.OPENABLE
+call::getSystemService

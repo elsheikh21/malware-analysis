@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.surfguru.com/mobile/app-wave-model.aspx
+activity::.WebViewActivity
+intent::android.intent.action.MAIN
+url::www.surfguru.com
+url::http://www.surfguru.com/rss/Surf-News-Rss-App.aspx
+url::http://www.surfguru.com/mobile/app-surf-forecast.aspx
+url::http://www.surfguru.com/rss/Surf-Reports-Rss-App.aspx
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET

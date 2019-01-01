@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+url::http://www.beehivefm.com
+url::http://www.beehivefm.com/getshowbanner_android.aspx
+url::http://panel3.serverhostingcenter.com:8470/live
+feature::android.hardware.screen.portrait
+activity::.BeehiveFM
+url::panel3.serverhostingcenter.com
+intent::android.intent.category.LAUNCHER
+url::www.beehivefm.com
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

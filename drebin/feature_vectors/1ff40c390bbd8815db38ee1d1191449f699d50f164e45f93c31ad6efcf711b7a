@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.EZCart
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::android.EZCart.EZCart
+call::printStackTrace
+intent::android.intent.category.LAUNCHER

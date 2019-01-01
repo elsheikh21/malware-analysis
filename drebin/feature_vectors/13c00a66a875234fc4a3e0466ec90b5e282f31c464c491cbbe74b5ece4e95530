@@ -1,0 +1,12 @@
+activity::.GnuUnits
+activity::Preferences
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::Help
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::Read/Write External Storage
+activity::About

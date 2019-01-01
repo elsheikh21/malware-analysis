@@ -1,0 +1,12 @@
+feature::android.hardware.location
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/location/LocationManager;->requestLocationUpdates
+activity::.WelcomeActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.activitynew
+intent::android.intent.category.LAUNCHER
+call::Cipher(DESede/CBC/PKCS5Padding)
+call::getSystemService

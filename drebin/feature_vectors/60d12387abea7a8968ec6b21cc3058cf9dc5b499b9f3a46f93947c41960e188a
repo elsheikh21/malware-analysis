@@ -1,0 +1,16 @@
+api_call::java/net/ServerSocket
+feature::android.hardware.touchscreen
+activity::.MainMemoActivity
+url::www.apache.org
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::https://issues.apache.org/jira/browse/LUCENE-1566%3B
+url::issues.apache.org
+intent::android.intent.action.SEND
+feature::android.hardware.screen.portrait
+url::http://www.apache.org/licenses/LICENSE-2.0\n\n
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::android/content/Context;->startActivity
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://www.ericwarriner.com/ipresolver.php?ip%3D
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.ericwarriner.com
+activity::.MainView
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET

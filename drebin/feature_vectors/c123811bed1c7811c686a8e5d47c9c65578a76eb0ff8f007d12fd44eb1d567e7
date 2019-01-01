@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+service_receiver::ReceiverOff
+intent::android.intent.action.MAIN
+service_receiver::G_App
+service_receiver::ReceiverOn
+activity::preferenceActivity
+activity::.preferenceActivity
+service_receiver::OnBootReceiver
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainScreen
+feature::android.hardware.screen.portrait
+url::http://tv-for-mobile.com/
+intent::android.intent.category.LAUNCHER
+url::tv-for-mobile.com

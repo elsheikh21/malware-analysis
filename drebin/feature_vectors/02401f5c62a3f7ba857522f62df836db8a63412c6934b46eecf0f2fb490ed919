@@ -1,0 +1,31 @@
+feature::android.hardware.touchscreen
+service_receiver::SuperLight (Strobe)
+activity::.Main
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.CAMERA
+activity::.About
+feature::android.hardware.camera.autofocus
+activity::.SplashScreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.VIBRATE
+call::getSystemService
+service_receiver::SuperLight (Normal)
+permission::android.permission.HARDWARE_TEST
+permission::android.permission.CAMERA
+service_receiver::.LedFlashlightReceiver
+api_call::android/hardware/Camera;->open
+api_call::android/content/Context;->sendBroadcast
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+permission::android.permission.FLASHLIGHT
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

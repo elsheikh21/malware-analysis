@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::com.twofortyfouram.locale.intent.action.EDIT_CONDITION
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+service_receiver::.QueryReceiver
+service_receiver::BackgroundService
+url::http://www.andvari.net/
+intent::com.twofortyfouram.locale.intent.action.QUERY_CONDITION
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_PHONE_STATE
+call::getPackageInfo
+url::www.andvari.net
+activity::.EditActivity
+intent::android.intent.category.INFO
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+service_receiver::EVEGaugeAppWidgetProvider
+api_call::android/telephony/TelephonyManager;->getDeviceId
+service_receiver::EVEGaugeAppWidgetProvider$BatteryMonitorReceiver
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+call::getSystemService
+activity::.EVEGaugeTest

@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_LOGS
+permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::AutoStart
+url::market.android.com
+call::printStackTrace
+activity::.Settings
+real_permission::android.permission.VIBRATE
+service_receiver::mService
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/telephony/TelephonyManager;->listen
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+feature::android.hardware.screen.portrait
+url::http://market.android.com/search?q%3Dpub:TinyJames
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

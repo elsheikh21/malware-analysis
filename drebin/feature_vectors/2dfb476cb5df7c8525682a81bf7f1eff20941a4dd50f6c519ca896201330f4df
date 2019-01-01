@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::Options
+feature::android.hardware.screen.portrait
+url::http://market.android.com/search?q%3Dpname:com.kcToolbox.AnimalFarm\n\nPaid
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::About
+real_permission::android.permission.WAKE_LOCK

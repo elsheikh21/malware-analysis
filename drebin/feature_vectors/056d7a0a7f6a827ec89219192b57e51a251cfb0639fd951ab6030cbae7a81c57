@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+permission::android.permission.CAMERA
+api_call::android/content/ContentResolver;->openInputStream
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+call::getSystemService
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+feature::android.hardware.microphone
+api_call::android/media/AudioRecord
+activity::.Receiver
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+activity::.Manipulator
+activity::.Start
+permission::android.permission.RECORD_AUDIO
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->sendBroadcast
+activity::.Transmitter
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+activity::.ServiceMain
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+service_receiver::.SongPlayerService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

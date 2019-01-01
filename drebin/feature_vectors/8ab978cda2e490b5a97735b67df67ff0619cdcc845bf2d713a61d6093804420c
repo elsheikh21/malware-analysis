@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+feature::android.hardware.microphone
+activity::.ByYuByMe_Biz
+real_permission::android.permission.INTERNET
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+call::getSystemService
+real_permission::android.permission.RECORD_AUDIO
+permission::android.permission.CAMERA
+api_call::android/media/MediaRecorder;->setAudioSource
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+permission::android.permission.READ_CONTACTS
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::ByYuByMe Business

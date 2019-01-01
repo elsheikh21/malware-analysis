@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+url::http://jspeex.sourceforge.net/
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+feature::android.hardware.microphone
+call::getPackageInfo
+permission::android.permission.RECORD_AUDIO
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+api_call::java/net/URL;->openStream
+real_permission::android.permission.RECORD_AUDIO
+api_call::android/media/MediaRecorder;->setAudioSource
+activity::com.innovativelanguage.wordpower.Main
+url::www.speex.org
+url::jspeex.sourceforge.net
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.speex.org/
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.WRITE_SETTINGS
+api_call::java/lang/Runtime;->exec
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+activity::.Rebooter
+permission::android.permission.WRITE_SETTINGS
+api_call::android/provider/Settings$System;->putInt
+activity::.Preferences

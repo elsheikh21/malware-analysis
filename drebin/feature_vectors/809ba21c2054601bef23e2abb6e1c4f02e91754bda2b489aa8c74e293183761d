@@ -1,0 +1,8 @@
+activity::com.codepogo.scrumpoints.ScrumPoints
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.ScrumPoints
+intent::android.intent.category.LAUNCHER
+activity::com.codepogo.scrumpoints.ShowVote
+call::getSystemService

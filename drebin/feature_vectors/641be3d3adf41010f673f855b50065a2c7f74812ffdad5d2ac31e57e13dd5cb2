@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::IdeaEntryActivity
+intent::android.intent.action.MAIN
+activity::JotItDownLite
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->sendOrderedBroadcast
+activity::.JotItDownLite
+call::getSystemService

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.adown.biz/
+url::www.adown.biz
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.AdownWeb
+intent::android.intent.category.LAUNCHER

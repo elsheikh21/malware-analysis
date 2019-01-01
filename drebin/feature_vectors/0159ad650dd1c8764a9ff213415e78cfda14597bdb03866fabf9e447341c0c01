@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://datingadvice.apptailer.com/main_forum.php
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://datingadvice.apptailer.com/create_topic.php
+url::datingadvice.apptailer.com
+url::http://datingadvice.apptailer.com/main_forum.php\
+intent::android.intent.category.LAUNCHER
+url::http://datingadvice.apptailer.com/create_topic.php\
+real_permission::android.permission.INTERNET
+activity::.Activity1

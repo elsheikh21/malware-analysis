@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://tinyurl.com/fullmoviesource
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::tinyurl.com
+intent::android.intent.category.LAUNCHER
+activity::.Activity1

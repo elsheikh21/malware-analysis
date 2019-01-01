@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+activity::.Clockinfo
+service_receiver::UT Clock 2x2
+intent::android.intent.category.INFO
+service_receiver::UT Clock 2x1

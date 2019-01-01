@@ -1,0 +1,15 @@
+url::www.maicas.net
+feature::android.hardware.touchscreen
+service_receiver::APN on/off Widget
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startActivity
+activity::.Main
+url::http://www.maicas.net/donate
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+permission::android.permission.WRITE_APN_SETTINGS

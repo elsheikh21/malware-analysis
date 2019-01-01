@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.Panel
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::printStackTrace
+activity::.Accelogger
+feature::android.hardware.screen.portrait
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

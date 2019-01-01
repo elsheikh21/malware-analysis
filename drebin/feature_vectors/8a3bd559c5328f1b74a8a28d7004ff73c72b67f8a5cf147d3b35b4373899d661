@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.READ_LOGS
+service_receiver::SMSRelayEight SMS send module
+permission::android.permission.SEND_SMS
+real_permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.SEND_SMS
+api_call::android/app/Activity;->startActivity
+call::Execution of external commands
+feature::android.hardware.telephony
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+call::getPackageInfo
+api_call::java/lang/Runtime;->exec
+call::getSystemService

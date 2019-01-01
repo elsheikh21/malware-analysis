@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+url::www.myebooks.gr
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://ebooks.evripidis.gr/services/rs/login
+url::ebooks.evripidis.gr
+intent::android.intent.category.LAUNCHER
+url::http://www.myebooks.gr/services/rs/login
+api_call::java/net/HttpURLConnection
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService

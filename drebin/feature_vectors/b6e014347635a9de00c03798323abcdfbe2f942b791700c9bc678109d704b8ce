@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::Cipher(BC)
+activity::Backup Manager
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.READ_CONTACTS
+activity::Pick a sender
+api_call::android/content/ContentResolver;->query
+call::printStackTrace
+activity::.NoteEdit
+real_permission::android.permission.VIBRATE
+call::getSystemService
+service_receiver::.OnBootReceiver
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.Notepadv3
+activity::.SmsList
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.SENDER
+activity::.LabelManagerActivity
+intent::android.intent.category.LAUNCHER
+service_receiver::.Reminder
+permission::android.permission.RECEIVE_BOOT_COMPLETED

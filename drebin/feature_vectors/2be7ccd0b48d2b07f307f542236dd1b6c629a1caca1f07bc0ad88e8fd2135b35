@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+activity::.Welcome
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::http://www.kantiheim.com/
+real_permission::android.permission.INTERNET
+url::www.kantiheim.com
+call::getPackageInfo
+url::http://www.kantiheim.com/public/en/applications/dimulco?redirect%3Dyes
+api_call::java/net/Socket
+call::getSystemService
+intent::android.intent.category.LAUNCHER

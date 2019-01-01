@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+activity::.FileMyBookStore
+activity::.BooksInserted
+activity::.Help
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.NewBook
+activity::.Main
+activity::.Summary
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+activity::.DetailBook
+real_permission::android.permission.INTERNET
+intent::android.intent.action.VIEW

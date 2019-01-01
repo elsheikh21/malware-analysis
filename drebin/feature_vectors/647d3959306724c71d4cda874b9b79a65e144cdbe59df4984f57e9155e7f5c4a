@@ -1,0 +1,17 @@
+activity::XmlFileCreator
+feature::android.hardware.touchscreen
+url::xmlpull.org
+activity::DrugAdder
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.DrugsManager
+activity::DrugEdit
+activity::DrugNewStock
+call::Read/Write External Storage
+activity::SelectCalendarAccount
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+permission::android.permission.SEND_SMS
+activity::PreferencesFromXml
+url::http://xmlpull.org/v1/doc/features.html

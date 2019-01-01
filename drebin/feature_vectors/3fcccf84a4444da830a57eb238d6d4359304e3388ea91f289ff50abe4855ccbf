@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.UnwrapPack
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

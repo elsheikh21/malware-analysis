@@ -1,0 +1,6 @@
+activity::.CricketQuiz
+activity::Preferences
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

@@ -1,0 +1,17 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.MAIN
+url::somewhere.something.com
+activity::.ShowActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.category.DEFAULT
+call::getSystemService
+provider::com.h4486.android.provider.QuickBookmark
+intent::android.intent.category.LAUNCHER
+api_call::android/app/ActivityManager;->getRunningTasks
+activity::.SettingsActivity
+url::http://somewhere.something.com/index.html
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+intent::android.intent.action.VIEW

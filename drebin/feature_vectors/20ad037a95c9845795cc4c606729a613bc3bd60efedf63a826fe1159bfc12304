@@ -1,0 +1,9 @@
+activity::com.dreamingdigital.pocketguide2.WordActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+activity::.PocketGuide2
+call::getSystemService

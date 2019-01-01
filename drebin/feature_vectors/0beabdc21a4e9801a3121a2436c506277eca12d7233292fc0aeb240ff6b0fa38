@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mobile.pulsd.com
+url::mobile.pulsd.com
+permission::android.permission.INTERNET
+activity::.pulsdHome
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

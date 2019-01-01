@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.MicroEmulator
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/Activity;->setContentView
+url::www.apache.org
+url::http://www.apache.org/licenses/LICENSE-2.0\nUnless
+call::getSystemService

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+activity::.GuruDescription
+intent::android.intent.category.LAUNCHER
+url::http://www.gururaghavendra1.org/\%27>
+url::www.gururaghavendra1.org
+real_permission::android.permission.WAKE_LOCK

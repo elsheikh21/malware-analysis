@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+intent::android.intent.action.SEARCH_LONG_PRESS
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.LaunchGSActivity
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+api_call::android/content/Context;->startActivity
+activity::.GestureBarSetting
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::.GestureBarBroadcastReceiver
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService

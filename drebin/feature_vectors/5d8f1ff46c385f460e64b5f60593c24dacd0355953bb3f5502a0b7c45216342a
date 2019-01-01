@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.BrowseActivity
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::AboutActivity
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+activity::LocationPicker
+activity::AddActivity
+activity::InfoActivity
+call::HttpPost
+intent::android.intent.category.LAUNCHER

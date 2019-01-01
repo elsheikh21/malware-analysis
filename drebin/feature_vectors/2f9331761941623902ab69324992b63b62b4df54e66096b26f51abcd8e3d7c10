@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://quote.yahoo.com/d/quotes.csv?s%3DECPN.OB&f%3Dsl1d1t1c1ohgv&e%3D.csv
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::quote.yahoo.com
+provider::android.appwidget.provider
+api_call::java/net/URL;->openConnection

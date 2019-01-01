@@ -1,0 +1,32 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_USER_DICTIONARY
+call::getDeviceId
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+feature::android.hardware.microphone
+url::http://market.android.com/search?q%3Dbetter
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.RECORD_AUDIO
+permission::android.permission.READ_CONTACTS
+activity::Keyboard Transparency Setting
+url::http://jbthemes.com/Better_Keyboard_Skins/
+url::market.android.com
+activity::com.betterandroid.betterkeyboard8.LatinIMESettings
+real_permission::android.permission.VIBRATE
+activity::.Speech
+call::getSystemService
+permission::android.permission.VIBRATE
+permission::android.permission.READ_USER_DICTIONARY
+activity::com.betterandroid.betterkeyboard.InputLanguageSelection
+url::http://market.android.com/search?q%3Dopen
+activity::com.betterandroid.betterkeyboard.FAQ
+intent::android.intent.action.MAIN
+url::jbthemes.com
+activity::Set key vibration duration
+activity::.LatinIMESettings
+feature::android.hardware.screen.portrait
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+activity::Enable BK in 2 easy steps
+activity::com.betterandroid.betterkeyboard.ThemeList

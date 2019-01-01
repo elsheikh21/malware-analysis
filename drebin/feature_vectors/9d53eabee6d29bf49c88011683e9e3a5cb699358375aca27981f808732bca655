@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.SEARCH
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET

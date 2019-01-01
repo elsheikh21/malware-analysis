@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.SelectCity
+activity::.ShowMap
+feature::android.hardware.location.gps
+intent::android.intent.action.CREATE_SHORTCUT
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+activity::.Meteo
+activity::.CreateShortcuts
+intent::android.intent.category.DEFAULT
+feature::android.hardware.location.network
+intent::android.intent.action.VIEW
+intent::android.intent.action.MAIN
+activity::.WhatsNew
+activity::.LauncherShortcuts
+real_permission::android.permission.INTERNET
+activity::.RemoveFavorites
+intent::android.intent.category.LAUNCHER

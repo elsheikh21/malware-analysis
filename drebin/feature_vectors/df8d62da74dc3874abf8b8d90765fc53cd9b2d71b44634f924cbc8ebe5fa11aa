@@ -1,0 +1,6 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.Mofa
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.LAUNCHER

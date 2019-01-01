@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+service_receiver::.WidgetService
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+real_permission::android.permission.WAKE_LOCK

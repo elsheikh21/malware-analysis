@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::Town Lines
+call::getDeviceId
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::http://openbizkaibus.appspot.com/api/LineasLineaWEB?imei%3D
+activity::Line Stations
+url::http://openbizkaibus.appspot.com/api/Buscar_TextoHorarioLinea?imei%3D
+real_permission::android.permission.INTERNET
+url::http://openbizkaibus.appspot.com/api/Consultar_TBBB_Itinerario?imei%3D
+activity::.MainActivity
+activity::BizkaiBus
+call::getSystemService
+call::Read/Write External Storage
+url::openbizkaibus.appspot.com
+activity::Line Info
+permission::android.permission.INTERNET
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+activity::Station Info
+intent::android.intent.action.MAIN
+url::http://openbizkaibus.appspot.com/api/GetPasoParada?imei%3D
+url::http://openbizkaibus.appspot.com/api/ParadasLinea?imei%3D
+url::http://openbizkaibus.appspot.com/api/LineasMunicipio?imei%3D
+intent::android.intent.category.LAUNCHER
+url::http://openbizkaibus.appspot.com/api/Consultar_FamiliasCentros?imei%3D
+activity::Map Dialog

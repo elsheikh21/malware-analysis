@@ -1,0 +1,16 @@
+activity::.RssWebViewActivity
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://rss.metrodata.com/2.0/eventguide-southflorida-current.xml
+permission::android.permission.ACCESS_NETWORK_STATE
+url::rss.metrodata.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.LAUNCHER
+activity::.HomeActivity
+real_permission::android.permission.INTERNET
+call::getSystemService

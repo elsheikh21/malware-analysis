@@ -1,0 +1,97 @@
+call::getDeviceId
+url::http://www.mapding.com/mapding/files/search.xml
+url::http://schemas.xmlsoap.org/soap/envelope/\
+activity::Product View
+call::HttpPost
+url::http://www.mapding.com/mapding/dis-product.php
+url::http://www.mapding.com/mapding/get-message.php
+url::http://www.mapding.com/mapding/login.php
+url::https://www.facebook.com/connect/uiserver.php
+activity::Product Outbox
+url::http://stage2mobile03.paypal.com:443/mepAdapter.mobile08/
+call::getSystemService
+activity::Sign up
+permission::android.permission.CAMERA
+activity::Product Image
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.mapding.com/mapding/create_xml.php
+url::http://www.mapding.com/mapding/delete_product.php
+api_call::android/location/LocationManager;->getLastKnownLocation
+url::http://www.mapding.com/mapding/files/products.xml
+activity::Add Tags
+url::http://www.mapding.com/mapding/seller-push.php
+api_call::java/net/HttpURLConnection
+activity::Inbox Messages
+permission::android.permission.INTERNET
+url::http://www.mapding.com/mapding/get-seller.php
+url::http://www.mapding.com/mapding/register.php
+url::http://www.mapding.com/mapding/files/buyerpush.xml
+url::http://www.mapding.com/mapding/files/message.xml
+feature::android.hardware.location.gps
+url::www.mapding.com
+api_call::android/content/Context;->startActivity
+activity::Change Product location
+url::http://www.mapding.com/mapding/get-mail-message.php
+url::api.facebook.com
+url::http://www.mapding.com/mapding/delete_byers.php
+activity::Product On Map
+url::https://api.facebook.com/restserver.php
+real_permission::android.permission.READ_PHONE_STATE
+activity::My Product View
+url::mapding.com\
+activity::Pay to Register Product
+feature::android.hardware.camera
+feature::android.hardware.location.network
+url::http://www.mapding.com/mapding/keywords.php
+url::http://www.mapding.com/mapding/files/sellerpush.xml
+intent::android.intent.category.LAUNCHER
+url::stage2mobile03.paypal.com
+activity::Buyer's Push Tags
+url::http://www.mapding.com/mapding/get-buyerpush.php
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://mapding.com\
+url::schemas.xmlsoap.org
+url::http://www.mapding.com/mapding/delete_seller.php
+api_call::android/telephony/TelephonyManager;->getDeviceId
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+url::http://www.mapding.com/mapding/files/keywords.xml
+activity::Login
+url::mobileclient.sandbox.paypal.com
+activity::com.paypal.android.MEP.PayPalActivity
+url::http://www.mapding.com/mapding/buyer-push.php
+url::http://developers.facebook.com/docs/reference/rest/
+url::http://www.mapding.com/mapding/message.php
+url::http://www.mapding.com/mapding/product.php
+url::https://mobileclient.sandbox.paypal.com/mepadapter/
+activity::Registered Products
+url::http://www.mapding.com/mapding/
+url::developers.facebook.com
+url::mobileclient.paypal.com
+activity::Sent Messages
+feature::android.hardware.touchscreen
+url::http://www.mapding.com/mapding/files/productsDetails.xml
+url::http://www.mapding.com/mapding/login_update.php
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+url::graph.facebook.com
+api_call::android/content/ContentResolver;->query
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+activity::Product Registration
+url::http://www.mapding.com/mapding/search.php
+url::https://mobileclient.paypal.com/mepadapter/
+activity::.MapDing
+activity::Image Preview
+call::Obfuscation(Base64)
+activity::Search
+activity::Search Settings
+activity::Reply
+activity::Message
+url::www.facebook.com
+intent::android.intent.action.MAIN
+url::http://www.mapding.com/mapding/get-search.php
+real_permission::android.permission.INTERNET
+url::https://graph.facebook.com/oauth/authorize
+url::https://graph.facebook.com/

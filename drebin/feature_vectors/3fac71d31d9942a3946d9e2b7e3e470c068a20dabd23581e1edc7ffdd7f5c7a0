@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Zuixiaoshuo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://wap.baidu.com/ssid%3D0/from%3D0/xs?itj%3D46
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::wap.baidu.com

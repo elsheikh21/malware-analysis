@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.GameActivity
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.Records
+call::getSystemService
+activity::.Instruction

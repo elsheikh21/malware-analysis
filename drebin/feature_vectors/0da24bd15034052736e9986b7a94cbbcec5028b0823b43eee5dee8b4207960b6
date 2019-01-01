@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::helpmain
+service_receiver::bluetooth
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+service_receiver::bluetooth$bluetooth_BR
+real_permission::android.permission.READ_CONTACTS
+activity::opengl
+real_permission::android.permission.WAKE_LOCK
+activity::swings
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+call::getSystemService
+real_permission::android.permission.BLUETOOTH
+permission::android.permission.BLUETOOTH
+feature::android.hardware.screen.landscape
+call::Read/Write External Storage
+activity::fs_main
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.main
+real_permission::android.permission.INTERNET
+api_call::android/bluetooth/BluetoothAdapter;->getAddress
+intent::android.intent.category.LAUNCHER

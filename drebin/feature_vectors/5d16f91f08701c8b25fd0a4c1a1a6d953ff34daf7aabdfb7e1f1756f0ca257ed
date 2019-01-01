@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.Account.Wizard.AccountItemsActivity
+intent::android.intent.action.MAIN
+activity::PasswordChangeActivity
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+activity::.Account.Wizard.DateTimeActivity
+activity::.BalanceSheet.BalanceSheetActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+permission::android.permission.INTERNET
+activity::.Account.Wizard.RemarkActivity
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::HelpContentsActivity
+activity::.Account.AccountDayToDayActivity
+activity::.Account.Wizard.AmountActivity
+api_call::android/content/Context;->startActivity

@@ -1,0 +1,10 @@
+feature::android.hardware.location
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/location/LocationManager;->requestLocationUpdates
+activity::.lebaronspeedometer
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+call::getSystemService

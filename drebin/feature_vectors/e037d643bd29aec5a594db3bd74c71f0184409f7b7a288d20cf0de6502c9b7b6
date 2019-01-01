@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.LexClaimReport
+permission::android.permission.INTERNET
+url::http://iriskdev.aig.com:14680/web/publiccontroller?Action%3Dsubmitmobilelossinfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::iriskdev.aig.com

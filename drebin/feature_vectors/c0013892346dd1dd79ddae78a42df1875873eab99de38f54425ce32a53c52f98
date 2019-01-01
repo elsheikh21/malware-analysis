@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+activity::.EBPocketFree
+url::)
+intent::android.intent.category.DEFAULT
+permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::https://)
+activity::.FileList
+activity::.WordActivity

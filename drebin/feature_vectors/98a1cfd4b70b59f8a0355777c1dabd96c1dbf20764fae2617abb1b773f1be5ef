@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+activity::.Redirect
+intent::android.intent.action.MAIN
+activity::.Main
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

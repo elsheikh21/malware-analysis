@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.EnglishJapanese
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::translate.google.co.jp
+url::http://translate.google.co.jp/?hl%3Dja&tab%3DwT
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://ajax.googleapis.com/ajax/services/language/detect?v%3D1.0&q%3D
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+call::printStackTrace
+call::getSystemService

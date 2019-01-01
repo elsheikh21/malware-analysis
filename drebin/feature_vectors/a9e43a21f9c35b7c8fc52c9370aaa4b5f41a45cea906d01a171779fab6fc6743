@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+activity::.Last4AudioBooks
+real_permission::android.permission.WAKE_LOCK

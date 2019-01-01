@@ -1,0 +1,8 @@
+activity::simple.interest.computer.start_from
+activity::simple.interest.computer.main_tal
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::simple.interest.computer.SimpleInterestComputer
+activity::simple.interest.computer.introduction
+intent::android.intent.category.LAUNCHER
+activity::.start_from

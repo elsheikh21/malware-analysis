@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::ExpenseTracker
+intent::android.intent.category.PREFERENCE
+activity::.ExpenseTracker
+call::Read/Write External Storage
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/app/backup/BackupManager;->dataChanged
+real_permission::android.permission.BACKUP

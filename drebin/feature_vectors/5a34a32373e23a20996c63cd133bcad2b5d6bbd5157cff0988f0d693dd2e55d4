@@ -1,0 +1,11 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::blog.naver.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.AmaGuiter
+feature::android.hardware.screen.portrait
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::http://blog.naver.com/i_ehdfyd/50104203745

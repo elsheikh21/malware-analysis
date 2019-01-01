@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+intent::spring.intent.action.picktheme
+activity::Main
+intent::android.intent.category.DEFAULT

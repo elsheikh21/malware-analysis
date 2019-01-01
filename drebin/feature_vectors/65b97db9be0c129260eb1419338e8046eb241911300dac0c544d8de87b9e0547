@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/Activity;->startActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/media/MediaPlayer;->start
+activity::.main
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::app.halfpixelstudio.com
+intent::android.intent.category.LAUNCHER
+url::http://app.halfpixelstudio.com/android/pregcalc
+activity::.Calc

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+service_receiver::WiMinimalFi
+real_permission::android.permission.CHANGE_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->getWifiState
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+call::getWifiState
+call::getSystemService
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::setWifiEnabled
+permission::android.permission.CHANGE_WIFI_STATE
+provider::android.appwidget.provider
+intent::android.net.wifi.WIFI_STATE_CHANGED

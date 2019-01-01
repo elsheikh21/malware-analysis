@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+activity::.GWDPWM_Lecteur_RSS$WDLanceur
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.SEND_SMS
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.READ_CONTACTS
+call::getSimCountryIso
+api_call::android/location/LocationManager;->addProximityAlert
+call::getSystemService

@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+activity::.MainActivity
+activity::jp.co.haibis.android.simgunm4gl.MainActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

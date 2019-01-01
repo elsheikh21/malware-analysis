@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.BlackDating
+intent::android.intent.action.MAIN
+url::www.myconsumeradvantage.org
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.myconsumeradvantage.org/black_dating.php

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.BlueGolfHome
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.w3.org
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.w3.org/1999/xhtml\

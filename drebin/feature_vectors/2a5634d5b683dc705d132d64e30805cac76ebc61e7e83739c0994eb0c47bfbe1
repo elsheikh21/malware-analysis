@@ -1,0 +1,9 @@
+activity::.DSACalc
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.DSACal
+activity::.DSATable
+activity::.home
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.tracker

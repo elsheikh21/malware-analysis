@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+url::http://www.arcamobile.com/
+activity::.ShowLanguageID
+intent::android.intent.category.LAUNCHER
+url::www.arcamobile.com
+activity::com.arcasolutions.mylanguageid.ShowLanguageID

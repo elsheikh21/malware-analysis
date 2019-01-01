@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.convert
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.psupport.dk
+permission::android.permission.INTERNET
+url::www.psupport.dk
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

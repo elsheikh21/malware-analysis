@@ -1,0 +1,12 @@
+url::d1m.drexel.edu
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+activity::.MobilePortal
+intent::android.intent.category.LAUNCHER
+url::https://d1m.drexel.edu/

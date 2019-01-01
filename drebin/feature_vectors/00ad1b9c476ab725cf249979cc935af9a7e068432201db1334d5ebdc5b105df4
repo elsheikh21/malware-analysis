@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::www.banesto.mobi
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Banesto
+url::http://www.banesto.mobi

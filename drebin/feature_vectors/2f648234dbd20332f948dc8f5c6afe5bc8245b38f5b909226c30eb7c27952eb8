@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://myinstants.com/media/
+api_call::android/media/MediaPlayer;->start
+url::http://myinstants.com/ajax/?name%3D
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.view.Search
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Home
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+url::myinstants.com
+call::getSystemService
+activity::.view.Home

@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.MainActivity
+intent::android.intent.category.DEFAULT

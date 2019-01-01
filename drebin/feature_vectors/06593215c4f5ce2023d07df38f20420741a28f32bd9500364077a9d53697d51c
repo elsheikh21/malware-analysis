@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+service_receiver::.BasicService
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.default
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+activity::.PhoneNetWarnActivity
+intent::android.intent.action.BOOT_COMPLETED
+activity::.SetTotalActivity
+service_receiver::.BootListenBroadcastReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.android-apk.com
+intent::android.intent.category.LAUNCHER
+activity::.FaiChun
+call::getPackageInfo
+url::http://www.android-apk.com/cny-fai-chun/
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->getContent

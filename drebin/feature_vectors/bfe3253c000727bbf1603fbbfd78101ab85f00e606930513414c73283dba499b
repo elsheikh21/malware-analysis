@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.scOption
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.scEasyCallActivity
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+activity::.scAbout

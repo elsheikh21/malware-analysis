@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+api_call::android/content/ContentResolver;->query
+activity::.SkinList
+feature::android.software.live_wallpaper
+activity::.ShakeSettings
+feature::android.hardware.microphone
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.RECORD_AUDIO
+call::getSystemService

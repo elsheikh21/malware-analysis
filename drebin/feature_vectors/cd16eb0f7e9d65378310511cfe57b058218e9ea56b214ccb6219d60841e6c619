@@ -1,0 +1,35 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.SketchBook
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+url::www.amazon.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/app/Activity;->startActivity
+url::http://www.amazon.com/gp/mas/dl/android/com.sketchbook
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+feature::android.hardware.touchscreen.multitouch
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::com.adsk.sketchbook.SketchBook
+call::Cipher(Blowfish)
+call::Cipher(AES/CBC/PKCS5Padding)
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

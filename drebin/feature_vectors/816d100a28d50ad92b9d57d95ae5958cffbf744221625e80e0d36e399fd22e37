@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::ringtone.apkhub.com
+activity::.Main
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://ringtone.apkhub.com/?ref%3Dapp

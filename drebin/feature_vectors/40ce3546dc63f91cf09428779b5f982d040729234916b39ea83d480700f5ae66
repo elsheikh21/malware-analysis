@@ -1,0 +1,21 @@
+activity::.Bites
+feature::android.hardware.touchscreen
+activity::.BitesPreferences
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+call::getSystemService
+permission::android.permission.SEND_SMS
+service_receiver::.SmsReceiver
+permission::android.permission.RECEIVE_SMS
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+feature::android.hardware.telephony
+intent::android.intent.action.SEARCH
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+provider::caldwell.ben.provider.RecipeBook
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+api_call::android/content/ContentResolver;->query

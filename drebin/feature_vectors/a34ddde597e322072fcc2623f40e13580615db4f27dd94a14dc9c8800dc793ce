@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::printStackTrace
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+api_call::android/media/MediaPlayer;->start
+activity::.MainPage
+real_permission::android.permission.WAKE_LOCK

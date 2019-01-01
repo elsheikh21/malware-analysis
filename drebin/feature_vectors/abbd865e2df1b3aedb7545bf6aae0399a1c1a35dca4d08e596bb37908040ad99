@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://smedis.com)
+activity::NTouch
+intent::android.intent.action.MAIN
+activity::.NTouch
+intent::android.intent.category.LAUNCHER
+url::smedis.com)
+activity::.Preferences

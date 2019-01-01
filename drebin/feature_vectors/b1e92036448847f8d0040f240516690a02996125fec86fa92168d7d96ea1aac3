@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.MatchByNames
+intent::android.intent.action.MAIN
+activity::.About
+activity::.MatchByDateOfBirth
+activity::.MeaningOfTheName
+activity::.MainMenu
+activity::.LuckyNumber
+intent::android.intent.category.LAUNCHER

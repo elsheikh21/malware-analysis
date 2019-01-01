@@ -1,0 +1,10 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::probaseballapps.com
+activity::.lanceberkman
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://probaseballapps.com/apps/lance_berkman.php
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

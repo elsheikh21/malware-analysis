@@ -1,0 +1,10 @@
+url::http://hippyapps.com/amber_alert.php
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::hippyapps.com
+intent::android.intent.category.LAUNCHER
+activity::.amberalert

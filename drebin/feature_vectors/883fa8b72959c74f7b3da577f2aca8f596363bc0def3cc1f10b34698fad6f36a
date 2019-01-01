@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+activity::com.jbapps.contact.theme.iceblue.GOContactsInstallDialog
+intent::android.intent.category.INFO
+intent::android.intent.action.MAIN

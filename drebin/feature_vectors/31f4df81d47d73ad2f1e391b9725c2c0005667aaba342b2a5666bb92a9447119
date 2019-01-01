@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::en.wikipedia.org
+url::www.google.com
+url::http://www.upcdatabase.com/item/
+permission::android.permission.INTERNET
+activity::.AnythingFacts
+feature::android.hardware.screen.portrait
+url::www.upcdatabase.com
+url::http://www.google.com/images?q%3D
+real_permission::android.permission.INTERNET
+url::http://en.wikipedia.org/wiki/Euprenolepis_procera
+api_call::java/net/URL;->openConnection
+intent::android.intent.category.LAUNCHER

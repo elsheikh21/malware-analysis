@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.DEFAULT
+intent::com.saora.test.intent.action.GETDATA
+intent::com.saora.test.intent.action.QUERY

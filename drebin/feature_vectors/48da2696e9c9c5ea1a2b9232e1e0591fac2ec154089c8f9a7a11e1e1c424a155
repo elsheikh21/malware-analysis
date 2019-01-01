@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.ContactDetails
+activity::.LanguageSelection
+intent::android.intent.action.MAIN
+activity::.Twitter
+permission::android.permission.INTERNET
+url::http://www.revelmob.com
+activity::.Blog
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::www.revelmob.com
+activity::.AboutUs
+activity::.activity
+activity::.ApplicationDetails
+activity::.Applications

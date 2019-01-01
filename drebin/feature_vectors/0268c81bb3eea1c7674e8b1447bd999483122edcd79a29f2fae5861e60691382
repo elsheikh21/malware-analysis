@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::com.androidmobilegaming.bjb.Bejeweled
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.newflashgames.net/menu
+intent::android.intent.category.LAUNCHER
+url::www.newflashgames.net
+activity::.Bejeweled

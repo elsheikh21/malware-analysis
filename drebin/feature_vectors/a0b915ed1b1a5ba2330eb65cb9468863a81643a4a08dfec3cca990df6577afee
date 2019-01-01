@@ -1,0 +1,12 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://chromascores.appspot.com/instructions.html
+url::chromascores.appspot.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://chromascores.appspot.com/chromascoreserver
+activity::.ChromaActivity
+real_permission::android.permission.INTERNET
+activity::com.gamaray.chroma.ChromaActivity

@@ -1,0 +1,27 @@
+activity::.filter.actions.EventFilterActionsActivity
+feature::android.hardware.touchscreen
+activity::.filter.details.EventFilterDetailsActivity
+call::printStackTrace
+permission::android.permission.RECEIVE_SMS
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+service_receiver::.SmsInterceptor
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.WAKE_LOCK
+call::sendSMS
+intent::android.intent.action.MAIN
+permission::android.permission.BROADCAST_SMS
+call::readSMS
+intent::android.intent.category.LAUNCHER
+activity::.EventFilterListActivity
+api_call::android/content/Context;->startActivity

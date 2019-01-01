@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+service_receiver::EnumerateAddonsReceiver
+permission::com.larryvgs.battery.permission.ADDON
+real_permission::android.permission.VIBRATE
+service_receiver::WhiteBlackIconsService
+call::getSystemService

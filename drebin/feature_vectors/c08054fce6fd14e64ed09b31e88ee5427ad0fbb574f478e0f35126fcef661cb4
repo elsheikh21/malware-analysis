@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/os/Vibrator;->vibrate
+activity::com.requiem.RSL.QuestionAlert
+call::Read/Write External Storage
+call::getPackageInfo
+activity::An Error Has Occurred On A Previous Run.
+activity::.InitialsInputDialog
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+activity::Pick An Entity Type
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.BlobSelectionWindow
+activity::.SlimeballSpeedway
+real_permission::android.permission.READ_PHONE_STATE
+activity::.CourseSelectionWindow
+intent::android.intent.action.MAIN
+activity::com.requiem.RSL.OKAlert
+intent::android.intent.category.LAUNCHER

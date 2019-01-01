@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+url::http://curvefish.com/skins/onoff-pack-how-to-create-skins.htm
+intent::android.intent.category.INFO
+intent::android.intent.action.MAIN
+url::curvefish.com

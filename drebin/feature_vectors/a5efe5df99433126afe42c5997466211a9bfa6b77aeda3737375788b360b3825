@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::m.clubgps.com.ec
+activity::.ClubGPS
+url::http://m.clubgps.com.ec
+intent::android.intent.category.LAUNCHER

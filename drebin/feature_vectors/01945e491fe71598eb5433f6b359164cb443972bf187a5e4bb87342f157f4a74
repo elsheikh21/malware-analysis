@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SEND_SMS
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+api_call::android/telephony/SmsManager;->sendTextMessage
+activity::.John
+feature::android.hardware.telephony
+real_permission::android.permission.SEND_SMS
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CHANGE_CONFIGURATION
+call::getSystemService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.John2

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.manhattanjobs.com
+activity::.BrowserActivity
+intent::android.intent.category.LAUNCHER
+url::http://www.manhattanjobs.com/m/?mobile%3Dy

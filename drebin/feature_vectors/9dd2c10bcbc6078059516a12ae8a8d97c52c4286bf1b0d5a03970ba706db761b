@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::Running Panda
+intent::android.intent.action.MAIN
+activity::.MainApp
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

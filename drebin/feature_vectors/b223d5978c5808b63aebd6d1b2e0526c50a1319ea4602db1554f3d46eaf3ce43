@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.Finish
+activity::.Info
+activity::.Menu
+intent::android.intent.action.MAIN
+activity::.Level
+feature::android.hardware.screen.portrait
+activity::.Bike
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.DoodleBikeMain
+api_call::android/os/Vibrator;->vibrate
+call::getSystemService
+activity::.Instructions

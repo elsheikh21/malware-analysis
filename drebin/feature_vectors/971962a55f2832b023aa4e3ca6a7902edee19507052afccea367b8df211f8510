@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/media/MediaRecorder;->setAudioSource
+activity::com.dys.one.Slate
+activity::com.dys.one.HelpScreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+activity::.Slate
+feature::android.hardware.microphone
+real_permission::android.permission.RECORD_AUDIO
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.INTERNET
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

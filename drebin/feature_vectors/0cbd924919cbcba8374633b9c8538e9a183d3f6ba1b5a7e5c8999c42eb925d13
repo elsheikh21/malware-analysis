@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.DEFAULT
+feature::android.software.live_wallpaper
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.READ_CONTACTS
+activity::.Settings
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

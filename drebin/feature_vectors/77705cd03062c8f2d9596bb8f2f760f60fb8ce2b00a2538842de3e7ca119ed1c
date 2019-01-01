@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://fp.solutions.six.se/generalstockinfo/common/stock_list.page
+url::fp.solutions.six.se
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://fp.solutions.six.se/generalstockinfo/common/indicator.page
+call::HttpPost
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+service_receiver::UpdateService

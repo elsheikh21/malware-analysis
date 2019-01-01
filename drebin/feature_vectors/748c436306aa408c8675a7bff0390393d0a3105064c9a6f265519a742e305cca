@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+activity::SettingActivity
+api_call::android/app/ActivityManager;->restartPackage
+call::Read/Write External Storage
+activity::InputActivity
+intent::android.intent.action.BOOT_COMPLETED
+activity::EditActivity
+service_receiver::AutoStartupActivity
+call::printStackTrace
+activity::.MainActivity
+call::Cipher(AES/ECB/PKCS5Padding)
+real_permission::android.permission.VIBRATE
+call::getSystemService
+call::Obfuscation(Base64)
+activity::SortActivity
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.DEFAULT
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+service_receiver::RestartNotificationActivity
+permission::android.permission.RECEIVE_BOOT_COMPLETED

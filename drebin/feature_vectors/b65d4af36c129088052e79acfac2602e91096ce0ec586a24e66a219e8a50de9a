@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://en.m.wikipedia.org
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::en.wikipedia.org
+url::http://en.wikipedia.org/wiki/Special:Random
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.wikipedia
+url::en.m.wikipedia.org

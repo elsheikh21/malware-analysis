@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://services.sapo.pt/EPG/GetChannelByDateInterval?channelSigla%3D
+permission::android.permission.INTERNET
+activity::.GuiaTV
+real_permission::android.permission.INTERNET
+url::http://services.sapo.pt/EPG/GetChannelList?
+url::services.sapo.pt
+intent::android.intent.category.LAUNCHER
+activity::GuiaTV
+call::getSystemService

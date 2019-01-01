@@ -1,0 +1,29 @@
+feature::android.hardware.touchscreen
+url::http://www.koobear.com/pykankan/del_photo
+activity::.GridDisplayActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::HttpPost
+url::http://www.koobear.com/pykankan/photos_at_day
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+api_call::android/accounts/AccountManager;->getAccounts
+url::http://www.koobear.com/pykankan/best_photo_days
+call::getSystemService
+url::http://www.koobear.com/pykankan/best_photos
+api_call::java/lang/Runtime;->exec
+activity::.AlbumViewActivity
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+real_permission::android.permission.GET_ACCOUNTS
+api_call::java/net/URL;->openConnection
+url::http://www.koobear.com/pykankan/
+activity::.PhotoDisplayActivity
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::http://www.koobear.com/pykankan/range_photo
+url::http://www.koobear.com/pykankan/day_keyword
+real_permission::android.permission.INTERNET
+url::www.koobear.com
+intent::android.intent.category.LAUNCHER

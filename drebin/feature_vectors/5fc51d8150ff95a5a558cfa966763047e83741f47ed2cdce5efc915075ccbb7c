@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.M
+url::http://goomoji.appspot.com/market/1.html
+url::goomoji.appspot.com
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::ResultVisualization
+intent::android.intent.action.MAIN
+activity::.SchwarzschildCalcMain
+url::en.wikipedia.org
+intent::android.intent.category.LAUNCHER
+url::http://en.wikipedia.org/wiki/Black_hole
+activity::About

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+service_receiver::.widget.RtAppWidgetService
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::api.bing.net
+service_receiver::.widget.RtAppWidgetProvider
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://api.bing.net/json.aspx?JsonType%3DRaw&Sources%3DTranslation&Version%3D2.2&
+intent::android.intent.category.LAUNCHER
+activity::.ui.MainActivity
+call::getPackageInfo
+provider::android.appwidget.provider
+call::getSystemService

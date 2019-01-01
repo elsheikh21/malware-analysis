@@ -1,0 +1,11 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.MainActivity
+url::http://yuml.me/diagram/scruffy/class/
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::yuml.me
+real_permission::android.permission.INTERNET
+url::http://yuml.me/diagram/scruffy/class/samples

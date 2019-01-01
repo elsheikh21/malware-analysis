@@ -1,0 +1,20 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::stickycoding.com
+url::http://stickycoding.com/drop_block/
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::Read/Write External Storage
+call::HttpPost
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

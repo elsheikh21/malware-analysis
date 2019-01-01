@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+activity::.AdMobixJARTestActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+service_receiver::com.admobix.tracking.Tracker
+url::http://schemas.android.com/apk/res/com.adcommunal.admobix
+url::schemas.android.com

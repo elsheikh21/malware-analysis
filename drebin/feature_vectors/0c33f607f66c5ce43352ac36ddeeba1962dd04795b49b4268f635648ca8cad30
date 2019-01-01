@@ -1,0 +1,16 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_MOCK_LOCATION
+intent::android.intent.action.MAIN
+url::http://maps.google.com/maps?myl%3Dsaddr&daddr%3D
+call::printStackTrace
+activity::.MainActivity
+activity::.mapViewActivity
+permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+real_permission::android.permission.INTERNET
+call::getSystemService

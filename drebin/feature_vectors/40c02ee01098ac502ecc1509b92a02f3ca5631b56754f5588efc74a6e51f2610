@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.slf4j.org/codes.html
+activity::.BelleVue
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+provider::com.diaam.metare.thesauprovider
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+url::www.slf4j.org
+service_receiver::.ThesauService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::xmlpull.org
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::api.mohstats.com
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://api.mohstats.com/api/
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+provider::android.appwidget.provider
+call::printStackTrace
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html

@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+url::http://www.w3.org/2005/Atom
+call::printStackTrace
+url::http://hg.postspectacular.com/toxiclibs/issues/
+url::http://toxiclibs.org/
+permission::android.permission.INTERNET
+url::www.gnu.org
+intent::android.intent.category.DEFAULT
+url::http://www.gnu.org/licenses/lgpl.html
+url::groups.google.com
+url::http://hg.postspectacular.com/toxiclibs/src/
+url::apache.org
+real_permission::android.permission.READ_LOGS
+url::wiki.processing.org
+url::toxiclibs.org
+call::getSystemService
+call::Read/Write External Storage
+url::http://apache.org/xml/features/nonvalidating/load-external-dtd
+activity::.STLDroid
+url::http://groups.google.com/group/toxiclibs-users/
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+url::hg.postspectacular.com
+url::postspectacular.com
+api_call::java/net/DatagramSocket
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+url::http://wiki.processing.org/w/Android
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.w3.org
+url::http://postspectacular.com
+real_permission::android.permission.INTERNET
+url::http://toxiclibs.org
+url::http://hg.postspectacular.com/toxiclibs/
+intent::android.intent.category.LAUNCHER
+url::http://hg.postspectacular.com/toxiclibs/downloads/

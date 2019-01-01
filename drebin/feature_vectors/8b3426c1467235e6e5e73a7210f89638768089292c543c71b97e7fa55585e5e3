@@ -1,0 +1,4 @@
+service_receiver::MinecraftHeadWidgetProvider
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+call::getSystemService

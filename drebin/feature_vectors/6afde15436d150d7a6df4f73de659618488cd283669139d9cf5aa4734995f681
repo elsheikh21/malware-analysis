@@ -1,0 +1,13 @@
+url::c7.inlive.co.kr
+feature::android.hardware.touchscreen
+url::http://rush79.com/a/?c7_2442
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+activity::.C7_2442Activity
+permission::android.permission.INTERNET
+url::rush79.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://c7.inlive.co.kr:2442/%3B
+real_permission::android.permission.WAKE_LOCK

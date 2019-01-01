@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+permission::android.permission.RECEIVE_SMS
+feature::android.hardware.telephony
+activity::.eNameCardActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage

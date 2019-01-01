@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::printStackTrace
+service_receiver::.TurnTableService
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.READ_PHONE_STATE
+activity::.SplashActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

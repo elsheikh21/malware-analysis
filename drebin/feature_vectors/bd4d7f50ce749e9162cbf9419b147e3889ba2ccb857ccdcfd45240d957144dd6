@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://www.mojodroid.com
+activity::org.achartengine.GraphicalActivity
+intent::android.intent.action.MAIN
+activity::.Prefs
+activity::.Overview
+url::www.mojodroid.com
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

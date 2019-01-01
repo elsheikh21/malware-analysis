@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.weetmesoftware.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Televideo
+url::http://www.italianapps.it/androidapp/televideo
+url::www.italianapps.it
+url::http://www.weetmesoftware.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.ProductsListActivity
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startActivity
+url::http://help.dayup.org/war/apps.html
+call::getSystemService
+activity::.TipCalculatorActivity
+api_call::java/lang/Runtime;->exec
+url::https://data.flurry.com/aar.do
+call::Execution of external commands
+url::data.flurry.com
+url::http://data.flurry.com/aar.do
+api_call::android/webkit/WebView
+activity::.TipPreferences
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::help.dayup.org

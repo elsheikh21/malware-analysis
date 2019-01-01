@@ -1,0 +1,5 @@
+activity::.Beeocci
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+activity::Beeocci
+feature::android.hardware.touchscreen

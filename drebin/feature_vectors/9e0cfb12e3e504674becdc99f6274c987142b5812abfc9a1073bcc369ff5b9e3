@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://www.ataaw.com
+url::www.ataaw.com
+activity::.view.AFeed
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.AFeed
+url::http://www.ataaw.com/?feed%3Drss2

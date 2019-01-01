@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startService
+real_permission::android.permission.VIBRATE
+service_receiver::thelmas.tovennet.net.WidgetClass$UpdateService
+call::getPackageInfo
+service_receiver::thelmas.tovennet.net.WidgetClass
+provider::android.appwidget.provider
+call::getSystemService

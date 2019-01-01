@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+url::comm.toothr.com
+real_permission::android.permission.INTERNET
+url::http://fuckyouverymuch.dk/rss
+url::http://comm.toothr.com/www/delivery/afr.php?zoneid%3D71
+url::fuckyouverymuch.dk
+provider::android.appwidget.provider
+call::getSystemService

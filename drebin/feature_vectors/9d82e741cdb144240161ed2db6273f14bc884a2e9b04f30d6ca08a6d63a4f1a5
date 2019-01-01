@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.activity.TermsOfServices
+activity::.TermsOfServices
+feature::android.hardware.screen.portrait
+api_call::android/telephony/TelephonyManager;->getLine1Number
+intent::android.intent.category.LAUNCHER
+api_call::java/net/NetworkInterface
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

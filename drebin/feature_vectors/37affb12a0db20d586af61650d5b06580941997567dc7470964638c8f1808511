@@ -1,0 +1,33 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://sure-tarot.appspot.com/getPlayerChart
+call::getDeviceId
+url::http://sure-tarot.appspot.com/getVersion?app%3Dcom.sure.tarot
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.WAKE_LOCK
+api_call::android/location/LocationManager;->requestLocationUpdates
+api_call::android/app/Activity;->startActivity
+url::sure-tarot.appspot.com
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::android.permission.VIBRATE
+permission::android.permission.WAKE_LOCK
+call::Obfuscation(Base64)
+activity::.SexyGirl
+call::Execution of external commands
+url::http://sure-tarot.appspot.com/verifyGiftCode
+real_permission::android.permission.READ_PHONE_STATE
+url::http://sure-tarot.appspot.com/getCardPackagesList
+intent::android.intent.action.MAIN
+url::www.waspusa.com
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.waspusa.com/sendphotos-mobile/

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+service_receiver::.widget.WidgetReciever
+service_receiver::.widget.FreeMemoryWidgetProvider
+real_permission::android.permission.INTERNET
+activity::UninstallAppActivity
+url::go.adclick.mobi
+url::http://go.adclick.mobi/show/request.php?appid%3D
+api_call::java/net/URL;->openConnection
+call::Read/Write External Storage
+provider::android.appwidget.provider
+call::getSystemService

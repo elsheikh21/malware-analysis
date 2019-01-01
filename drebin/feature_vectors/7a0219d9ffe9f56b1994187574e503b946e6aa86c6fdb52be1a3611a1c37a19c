@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+activity::.GameSettingsActivity
+activity::.BullsAndCows
+intent::android.intent.category.LAUNCHER
+call::getSystemService

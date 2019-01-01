@@ -1,0 +1,21 @@
+activity::.SelectRomActivity
+feature::android.hardware.touchscreen
+activity::NDSMain
+call::getDeviceId
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::printStackTrace
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+permission::android.permission.RAISED_THREAD_PRIORITY
+activity::SettingsActivity
+call::getPackageInfo
+url::androidemu.com
+url::http://androidemu.com/apk/res/android
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+intent::android.intent.category.LAUNCHER

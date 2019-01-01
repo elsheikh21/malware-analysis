@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.WordGameAct
+activity::.WordGameStats
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.WordGameFront
+real_permission::android.permission.WAKE_LOCK

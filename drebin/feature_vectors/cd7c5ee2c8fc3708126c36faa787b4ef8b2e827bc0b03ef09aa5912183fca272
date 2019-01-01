@@ -1,0 +1,29 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+activity::FiksGataMi - Suksess
+permission::android.permission.INTERNET
+intent::android.intent.action.DETAILS
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+call::HttpPost
+intent::android.intent.action.SUCCESS
+feature::android.hardware.location.gps
+intent::android.intent.action.HELP
+feature::android.hardware.camera.autofocus
+activity::FiksGataMi - legg til detaljer
+feature::android.hardware.location
+intent::android.intent.action.ABOUT
+api_call::android/location/LocationManager;->isProviderEnabled
+call::getSystemService
+permission::android.permission.CAMERA
+call::Read/Write External Storage
+activity::FiksGataMi - Om
+intent::android.intent.action.MAIN
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+activity::.Home
+intent::android.intent.category.LAUNCHER
+activity::FiksGataMi - Hjelp

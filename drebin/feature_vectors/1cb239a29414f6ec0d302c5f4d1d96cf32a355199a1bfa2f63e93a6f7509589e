@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::OneShotAlarm
+intent::android.intent.category.LAUNCHER
+activity::.Mute
+call::getSystemService

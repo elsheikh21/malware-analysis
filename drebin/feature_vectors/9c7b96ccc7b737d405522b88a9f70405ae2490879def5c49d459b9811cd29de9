@@ -1,0 +1,15 @@
+activity::.Lunar
+activity::.About
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::www.javaworld.com.tw
+url::oio.com.tw
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://oio.com.tw/
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://www.javaworld.com.tw/
+real_permission::android.permission.INTERNET
+service_receiver::.DataPrepareingService

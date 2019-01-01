@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://kirkwood.wilcoxis.com/scripts/update.php
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Home
+url::kirkwood.wilcoxis.com
+intent::android.intent.category.LAUNCHER
+url::http://www.cityconcierge.com/lake-tahoe/winter/kirkwood-trail-map-large.jpg
+real_permission::android.permission.INTERNET
+url::www.cityconcierge.com
+call::HttpPost

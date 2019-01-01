@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.w3.org
+intent::android.intent.action.MAIN
+url::http://www.w3.org/XML/1998/namespace
+activity::.Meaning
+url::xmlpull.org
+intent::android.intent.category.LAUNCHER
+url::http://xmlpull.org/v1/doc/
+url::http://www.w3.org/2000/xmlns/
+url::http://xmlpull.org/v1/doc/features.html

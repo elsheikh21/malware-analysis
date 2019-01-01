@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::NativeBrowser
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+url::ads.openfeint.com
+api_call::android/media/MediaPlayer;->start
+api_call::java/lang/Runtime;->exec
+activity::Dashboard
+api_call::java/net/URL;->openStream
+call::Cipher(PBEWithSHA256And256BitAES-CBC-BC)
+url::http://ads.openfeint.com
+call::getSystemService
+activity::IntroFlow
+activity::Settings
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+feature::android.hardware.screen.landscape
+url::api.openfeint.com
+activity::.DGunsSP_IB
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::https://api.openfeint.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity

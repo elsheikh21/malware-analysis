@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+service_receiver::BillingReceiver
+real_permission::android.permission.INTERNET
+service_receiver::BillingService
+intent::android.intent.category.LAUNCHER
+activity::.Yourdiagnosis
+call::getSystemService
+api_call::android/content/Context;->startActivity
+permission::com.android.vending.BILLING

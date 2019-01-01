@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://obx.briefcaseit.com/json.php?w%3DUS&uid%3D1&limit%3D10&orderby%3Did&how%3DDESC
+url::http://sites.google.com/site/gson/gson-user-guide
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::myownverse.com
+activity::.Main
+url::obx.briefcaseit.com
+url::http://myownverse.com/json.php?w%3DUS&uid%3D5&limit%3D10&orderby%3Did&how%3DDESC
+permission::android.permission.INTERNET
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+url::http://myownverse.com/view2.php?id%3D5
+intent::android.intent.category.LAUNCHER
+url::sites.google.com
+real_permission::android.permission.INTERNET
+url::http://myownverse.com/view2.php?pid%3D

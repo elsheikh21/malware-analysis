@@ -1,0 +1,22 @@
+activity::.MyCarList
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+activity::.GasType
+activity::.FeeHistory
+activity::.SummaryReport
+activity::.MyCar
+activity::.GasTypeList
+activity::.ServiceTypeList
+activity::.Currency
+activity::.ServiceType
+activity::.MainActivity
+activity::.Gas
+activity::.GasHistory
+activity::.Fee
+activity::.Garage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.GarageHistory
+activity::.CurrencyList
+intent::android.intent.category.LAUNCHER
+activity::.SystemParameter

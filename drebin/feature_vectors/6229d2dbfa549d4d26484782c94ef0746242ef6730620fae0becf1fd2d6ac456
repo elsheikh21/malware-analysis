@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.Main
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+activity::.WebBrowser
+service_receiver::Servicio Battery Solo
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+call::Execution of external commands
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

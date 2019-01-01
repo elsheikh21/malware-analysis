@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.Tips
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::http://data.gfan.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::data.gfan.com
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_PHONE_STATE
+call::HttpPost
+call::getSystemService

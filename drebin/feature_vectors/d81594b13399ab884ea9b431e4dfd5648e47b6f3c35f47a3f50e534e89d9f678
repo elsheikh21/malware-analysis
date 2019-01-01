@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.aartbik.com
+url::http://www.aartbik.com/MISC/android.html
+intent::android.intent.category.LAUNCHER
+activity::.Checkers

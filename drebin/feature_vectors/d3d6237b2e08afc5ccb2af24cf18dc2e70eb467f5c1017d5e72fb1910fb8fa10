@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+service_receiver::.RedditWidget$UpdateService
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startService
+call::getPackageInfo
+provider::android.appwidget.provider

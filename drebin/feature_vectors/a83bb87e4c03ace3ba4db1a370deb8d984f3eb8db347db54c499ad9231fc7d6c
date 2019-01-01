@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.FrozenBubble
+url::http://code.google.com
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::code.google.com

@@ -1,0 +1,16 @@
+service_receiver::Loot Premium
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+intent::net.gumbercules.loot.intent.ACCOUNT_UPDATED
+service_receiver::Loot Premium (Small)
+real_permission::android.permission.INTERNET
+provider::net.gumbercules.loot.premium.settingsprovider
+feature::android.hardware.screen.landscape
+api_call::android/content/ContentResolver;->query
+api_call::android/webkit/WebView
+activity::net.gumbercules.loot.premium.widget.WidgetConfigure
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+provider::android.appwidget.provider
+call::getSystemService

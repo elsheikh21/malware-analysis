@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+permission::android.permission.RECEIVE_SMS
+call::readSMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+permission::android.permission.READ_SMS
+activity::.cgdmobile
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_WIFI_STATE
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->getScanResults
+api_call::android/net/wifi/WifiManager;->addNetwork
+intent::android.intent.category.LAUNCHER
+activity::.WlanDroid
+permission::android.permission.CHANGE_WIFI_MULTICAST_STATE
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::setWifiEnabled
+permission::android.permission.CHANGE_WIFI_STATE
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

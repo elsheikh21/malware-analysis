@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::wabbit.jsource.nl
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://api.nabaztag.com/vl/FR/api.jsp
+url::http://wabbit.jsource.nl/cgi-bin/check_version.cgi
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity
+activity::.SettingsActivity
+url::api.nabaztag.com
+call::HttpPost

@@ -1,0 +1,5 @@
+call::getPackageInfo
+feature::android.hardware.touchscreen
+service_receiver::Persian Analog Clock
+provider::android.appwidget.provider
+activity::.DialogActivity

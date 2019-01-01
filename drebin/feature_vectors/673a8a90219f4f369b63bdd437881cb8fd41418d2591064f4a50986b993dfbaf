@@ -1,0 +1,15 @@
+activity::.ActivityMain
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://news.now.mn/public/zurhaiXml
+url::http://news.now.mn/other/currencyXml
+activity::ActivityMain
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+url::news.now.mn
+url::http://news.now.mn/xml/latestTwenty
+real_permission::android.permission.INTERNET
+call::getSystemService

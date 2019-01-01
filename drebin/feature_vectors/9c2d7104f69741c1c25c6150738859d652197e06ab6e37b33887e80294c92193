@@ -1,0 +1,11 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+api_call::android/app/WallpaperManager;->setResource
+activity::.ZeldaWallpaperActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+real_permission::android.permission.SET_WALLPAPER

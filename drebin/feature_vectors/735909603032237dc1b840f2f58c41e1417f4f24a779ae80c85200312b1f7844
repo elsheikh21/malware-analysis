@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://arctic.atmos.uiuc.edu/cryosphere/NEWIMAGES/arctic.seaice.color.000.png
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::arctic.atmos.uiuc.edu
+activity::.cryosphere
+url::http://arctic.atmos.uiuc.edu/cryosphere/iphone/images/iphone.recent.arctic.png
+activity::.com.cryosphere
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://arctic.atmos.uiuc.edu/cryosphere/iphone/images/iphone.anomaly.global.png
+url::http://arctic.atmos.uiuc.edu/cryosphere/iphone/images/iphone.anomaly.arctic.png
+real_permission::android.permission.INTERNET
+url::http://arctic.atmos.uiuc.edu/cryosphere/NEWIMAGES/antarctic.seaice.color.000.png
+call::getSystemService
+url::http://arctic.atmos.uiuc.edu/cryosphere/iphone/images/iphone.recent.global.png

@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+url::www.mlsoft.org\
+url::http://www.mlsoft.org
+api_call::android/media/MediaPlayer;->start
+activity::.main
+real_permission::android.permission.INTERNET
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+url::www.mlsoft.org
+api_call::android/webkit/WebView
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+url::http://www.mlsoft.org\
+real_permission::android.permission.WAKE_LOCK

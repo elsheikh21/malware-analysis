@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::fr.migo.kit.intent.action.EDIT_ACTION
+real_permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.INTERNET
+api_call::android/provider/Settings$System;->putLong
+service_receiver::.ActionReceiver
+api_call::android/app/Activity;->setContentView
+intent::fr.migo.kit.intent.action.PLAY_ACTION
+activity::.EditActivity
+permission::android.permission.WRITE_SETTINGS

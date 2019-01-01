@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://dh.apkshare.com/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::http://www.androiddown.com/app/health.php?TYPE%3DDaoHang&CMD%3Dput&CONT%3D
+real_permission::android.permission.INTERNET
+url::dh.apkshare.com
+url::www.androiddown.com
+intent::android.intent.category.LAUNCHER
+url::http://www.androiddown.com/app/health.php?TYPE%3DDaoHang&CMD%3Dget&BEGIN%3D0&NUM%3D50

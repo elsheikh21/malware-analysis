@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::com.osd.mybrowser.MyBrowser
+url::http://maps.google.co.jp/maps/ms?hl%3Dja&ie%3DUTF8&brcurrent
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::weather.mobile.yahoo.co.jp
+url::maps.google.co.jp
+permission::android.permission.INTERNET
+url::http://japan.person-finder.appspot.com/?lang%3Dja
+real_permission::android.permission.INTERNET
+url::japan.person-finder.appspot.com
+activity::.MyBrowser
+intent::android.intent.category.LAUNCHER
+url::http://weather.mobile.yahoo.co.jp/p/weather/rescue/disaster/?code%3D0060

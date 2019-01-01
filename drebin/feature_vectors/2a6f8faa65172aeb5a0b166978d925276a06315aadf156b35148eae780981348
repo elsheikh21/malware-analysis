@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.AboutActivity
+activity::.DifficultyActivity
+activity::.ScoresActivity
+api_call::android/media/MediaPlayer;->stop
+feature::android.hardware.screen.landscape
+activity::.InitActivity
+activity::.MenuActivity
+activity::.ParkourActivity
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+intent::android.intent.category.LAUNCHER

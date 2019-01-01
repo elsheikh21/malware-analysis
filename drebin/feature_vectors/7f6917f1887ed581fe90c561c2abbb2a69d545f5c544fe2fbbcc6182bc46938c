@@ -1,0 +1,21 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::getDeviceId
+url::www.google.co.jp
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::http://search.yahoo.co.jp/search?ei%3DUTF-8&p%3D%s
+call::printStackTrace
+activity::.MainActivity
+activity::jp.co.morisawa.mcbook.MainActivity
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->getDeviceId
+intent::android.intent.category.LAUNCHER
+activity::jp.co.morisawa.mcbook.TapAreaActivity
+real_permission::android.permission.READ_PHONE_STATE
+activity::jp.co.morisawa.mcbook.ContentListActivity
+url::http://www.google.co.jp/m/search?q%3D%s&ie%3DUTF-8&oe%3DUTF-8&hl%3Dja
+url::search.yahoo.co.jp
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+provider::jp.co.c_lis.provider.apps_settings
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+intent::android.intent.category.INFO
+intent::android.intent.action.VIEW

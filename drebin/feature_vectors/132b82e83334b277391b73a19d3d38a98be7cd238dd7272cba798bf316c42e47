@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::itsmeh.com
+activity::.LaundryList
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://itsmeh.com/laundry?index%3D
+api_call::java/net/URL;->openConnection

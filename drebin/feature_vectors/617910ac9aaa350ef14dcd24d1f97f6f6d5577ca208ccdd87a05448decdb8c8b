@@ -1,0 +1,15 @@
+intent::android.intent.action.TIMEZONE_CHANGED
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+intent::android.intent.action.DATE_CHANGED
+service_receiver::.MinuteReceiver
+intent::android.intent.action.MAIN
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+activity::.DummyActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startService
+activity::.BCAppWidgetPick
+service_receiver::.TickService
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.intent.action.TIME_SET

@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+provider::com.ideasave.mobileshopper.searchsuggestionsprovider
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.action.SEARCH
+activity::.ItemsView
+call::getPackageInfo
+activity::.MobileShopper
+activity::.UnitsView
+activity::.CategoriesView
+activity::.Settings
+call::getSystemService
+activity::.WebLocal
+intent::android.intent.category.DEFAULT
+activity::.SearchActivity
+api_call::android/webkit/WebView
+activity::.WebHelp
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.NeededView
+activity::.AislesView

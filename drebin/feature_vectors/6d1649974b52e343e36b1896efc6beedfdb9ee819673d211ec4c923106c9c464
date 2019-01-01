@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.datingforandroid.com/dating.php
+activity::.MainScreen
+intent::android.intent.category.LAUNCHER
+url::www.datingforandroid.com
+feature::android.hardware.screen.portrait

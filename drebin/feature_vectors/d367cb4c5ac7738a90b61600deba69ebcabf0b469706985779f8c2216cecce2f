@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+call::Execution of external commands
+permission::rockchip.permission.FULL_SCREEN
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::android.permission.VIBRATE
+permission::android.permission.WAKE_LOCK
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::https://msp.alipay.com/x.htm
+activity::.AppActivity
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::msp.alipay.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE

@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.Theme
+intent::android.intent.action.MAIN

@@ -1,0 +1,11 @@
+activity::com.earthquake.rss.Win2
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::http://earthquake.usgs.gov/earthquakes/catalogs/eqs1day-M2.5.xml
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::earthquake.usgs.gov
+activity::com.earthquake.rss.Splash

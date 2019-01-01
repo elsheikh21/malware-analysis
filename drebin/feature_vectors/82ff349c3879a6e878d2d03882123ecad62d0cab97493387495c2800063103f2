@@ -1,0 +1,35 @@
+feature::android.hardware.touchscreen
+url::http://www.teedroid.com/teedroid-ws/
+call::getDeviceId
+activity::.PreferencesView
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+activity::Select Club
+activity::.CourseList
+permission::android.permission.ACCESS_FINE_LOCATION
+url::www.teedroid.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getPackageInfo
+call::HttpPost
+feature::android.hardware.location.gps
+activity::Select Result
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+call::getSystemService
+activity::Select Penalty
+activity::.InTheBag
+activity::Select Shot Type
+activity::.LandmarkAddEdit
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+activity::.TeeDroidCaddy
+intent::android.intent.action.MAIN
+real_permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+call::getSubscriberId
+activity::.CourseSearch

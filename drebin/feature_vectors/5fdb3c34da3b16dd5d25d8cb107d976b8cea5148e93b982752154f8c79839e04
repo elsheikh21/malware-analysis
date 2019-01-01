@@ -1,0 +1,15 @@
+url::http://www.
+feature::android.hardware.touchscreen
+url::http://m.androidcentral.com
+url::http://m.
+service_receiver::Android Central (Long)
+url::http://www.androidcentral.com/widget.xml
+url::www.androidcentral.com
+url::m.
+service_receiver::.AndroidCentralRSS$UpdateService
+permission::android.permission.INTERNET
+url::m.androidcentral.com
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+api_call::java/net/URL;->openConnection
+url::www.

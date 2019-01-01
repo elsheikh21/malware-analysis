@@ -1,0 +1,20 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::.Phs300Stat
+service_receiver::PHS-300 Status
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+activity::Phs300Stat
+call::Obfuscation(Base64)
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::getWifiState
+service_receiver::Phs300StatWidget$Phs300StatService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::getSystemService
+provider::android.appwidget.provider
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+activity::Phs300StatPreference
+api_call::android/content/Context;->startService

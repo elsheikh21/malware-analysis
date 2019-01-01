@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::UFO Map
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

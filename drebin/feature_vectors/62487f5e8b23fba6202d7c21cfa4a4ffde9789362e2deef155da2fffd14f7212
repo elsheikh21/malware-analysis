@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.Start
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+permission::android.permission.FULLSCREEN

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::BlazeSpace
+activity::.AppEntry
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+permission::android.permission.SET_ORIENTATION

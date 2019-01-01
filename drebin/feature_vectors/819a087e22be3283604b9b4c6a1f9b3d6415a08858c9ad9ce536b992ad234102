@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+intent::android.intent.action.MAIN
+activity::.FeFish
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+call::getPackageInfo
+intent::android.intent.category.ALTERNATIVE
+url::http://f.spaces.ru/ff/772348857452/0/4014645/Fishing%5FLegend.jar
+url::f.spaces.ru
+intent::android.intent.category.LAUNCHER

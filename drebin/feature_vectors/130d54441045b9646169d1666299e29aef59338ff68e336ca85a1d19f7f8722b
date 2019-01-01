@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+activity::.DCShuffle
+intent::android.intent.action.MAIN
+url::tegos.ru
+url::http://tegos.ru/java/new/party_solitaire_16_pack_240x320.jar
+url::http://www.netmite.com/android/andme_signed.apk
+url::fiesta-mobile.test01.digitalchocolate.com
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+url::http://fiesta-mobile.test01.digitalchocolate.com

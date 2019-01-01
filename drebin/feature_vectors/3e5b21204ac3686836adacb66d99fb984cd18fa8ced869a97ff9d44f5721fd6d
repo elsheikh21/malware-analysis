@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.compost
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://hippyapps.com/compost.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::hippyapps.com
+intent::android.intent.category.LAUNCHER

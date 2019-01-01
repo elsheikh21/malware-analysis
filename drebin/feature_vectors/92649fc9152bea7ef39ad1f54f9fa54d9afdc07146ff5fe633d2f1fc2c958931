@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.JLearnIt
+url::www.jlearnit.com
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+intent::android.intent.action.SEARCH
+activity::.TranslateActivity
+intent::android.intent.category.LAUNCHER
+url::http://www.jlearnit.com/
+call::printStackTrace

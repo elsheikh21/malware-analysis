@@ -1,0 +1,11 @@
+activity::PixelTestAbout
+feature::android.hardware.touchscreen
+activity::PixelTestPreferences
+activity::.PixelTestSelector
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

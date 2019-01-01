@@ -1,0 +1,10 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://badpixel.net/olympic/vancouver_medal.php
+activity::.Medalov
+intent::android.intent.category.LAUNCHER
+url::badpixel.net
+real_permission::android.permission.INTERNET

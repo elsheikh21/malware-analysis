@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+activity::.MainActivity
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/webkit/WebView
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WAKE_LOCK
+permission::archos.permission.FULLSCREEN
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+service_receiver::.AlarmReceiver
+intent::android.intent.action.MAIN
+activity::.TimerActivity
+api_call::android/content/Context;->startActivity
+service_receiver::.RingerModeReceiver
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.VIBRATE
+activity::.TimerActivityLocked
+intent::android.intent.category.INFO
+call::getSystemService

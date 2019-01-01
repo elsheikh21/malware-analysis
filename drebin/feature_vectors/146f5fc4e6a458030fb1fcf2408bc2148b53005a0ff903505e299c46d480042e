@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+service_receiver::.service.NotificationBroadcast
+call::printStackTrace
+call::Read/Write External Storage
+activity::.subActivites.EditDay
+activity::.subActivites.ULA
+activity::.subActivites.EditTime
+activity::.subActivites.AddBreak
+real_permission::android.permission.VIBRATE
+call::getSystemService
+service_receiver::.service.EnableWidget
+activity::EditPayPeriodOthers
+activity::.note.EditNote
+api_call::android/content/Context;->sendBroadcast
+activity::.note.ViewNote
+service_receiver::.service.MidnightBroadcast
+intent::android.intent.action.MAIN
+service_receiver::.service.BackgroundUpdate
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::.mainUI
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider

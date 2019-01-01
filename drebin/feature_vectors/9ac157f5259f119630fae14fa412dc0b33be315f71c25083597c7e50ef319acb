@@ -1,0 +1,16 @@
+url::www.alerta199.com.br
+feature::android.hardware.touchscreen
+url::http://www.alerta199.com.br/
+intent::android.intent.action.MAIN
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.TT5
+permission::android.permission.CALL_PRIVILEGED
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+url::http://www.defesacivil.gov.br/index.asp
+permission::android.permission.CALL_PHONE
+permission::android.permission.READ_CONTACTS
+url::www.defesacivil.gov.br
+permission::android.permission.CAMERA

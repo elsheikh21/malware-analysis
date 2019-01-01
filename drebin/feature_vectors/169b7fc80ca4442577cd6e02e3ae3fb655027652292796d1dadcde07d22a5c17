@@ -1,0 +1,6 @@
+activity::.Eurail_Metro
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getSystemService

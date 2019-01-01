@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::com.artfulbits.aicharts.Demo.ChartEditorActivity
+activity::com.artfulbits.aicharts.Demo.aiChartDemo
+activity::.aiChartDemo
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,17 @@
+service_receiver::.TimeoutService
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.LoginActivity
+activity::LoginActivity
+call::Cipher(AES)
+activity::.AboutActivity
+activity::.BackupActivity
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity
+activity::.DeleteRemotelyActivity
+activity::.PasswordsActivity
+activity::.EditActivity
+call::getSystemService
+activity::.ChangeLoginActivity

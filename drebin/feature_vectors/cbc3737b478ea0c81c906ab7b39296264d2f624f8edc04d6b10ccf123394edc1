@@ -1,0 +1,17 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+activity::.ActivityPreferences
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+service_receiver::.SmsReceiver
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+service_receiver::.RecurringReceiver
+call::getSystemService

@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.category.HOME
+url::http://market.nduoa.com/update/nDuoaMarket.apk
+service_receiver::paklena.batterydiviner.WidgetDark
+activity::paklena.batterydiviner.Settings
+url::market.nduoa.com
+call::Read/Write External Storage
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+intent::android.intent.action.PACKAGE_REPLACED
+activity::paklena.batterydiviner.Help
+service_receiver::paklena.batterydiviner.BootupManager
+activity::paklena.batterydiviner.GraphUsage
+activity::.MainScreen
+permission::android.permission.INTERNET
+activity::paklena.batterydiviner.GraphHistory
+service_receiver::paklena.batterydiviner.BackgroundListen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::android.appwidget.provider
+activity::paklena.batterydiviner.MainScreen
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->startActivity

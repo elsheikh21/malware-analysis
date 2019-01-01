@@ -1,0 +1,41 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::printStackTrace
+activity::.Setcpu
+permission::android.permission.READ_PHONE_STATE
+service_receiver::startup
+activity::Profile Edit
+intent::android.intent.category.DEFAULT
+activity::Profiles
+intent::android.intent.action.BOOT_COMPLETED
+intent::setcpu.intent.action.updatewidget
+real_permission::android.permission.WAKE_LOCK
+service_receiver::.StartupService
+activity::Perflock Disabler
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.WidgetLargeConfigActivity
+permission::android.permission.WAKE_LOCK
+activity::.VoltageActivity
+activity::.AboutActivity
+call::Execution of external commands
+service_receiver::SetCPU
+activity::.HomeActivity
+call::Read/Write External Storage
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+activity::.WidgetConfigActivity
+service_receiver::.ProfilesService
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.IntroActivity
+real_permission::android.permission.READ_LOGS
+api_call::android/os/PowerManager$WakeLock;->release
+intent::android.intent.category.LAUNCHER
+activity::.AdvancedActivity
+api_call::android/app/Activity;->startActivity
+provider::android.appwidget.provider
+activity::.StresstestActivity

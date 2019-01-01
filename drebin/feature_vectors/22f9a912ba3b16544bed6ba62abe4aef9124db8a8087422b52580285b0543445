@@ -1,0 +1,14 @@
+url::www.IamNateScott.com
+feature::android.hardware.touchscreen
+activity::nate.scott.app.MenuActivity
+activity::nate.scott.app.AboutActivity
+intent::android.intent.action.MAIN
+url::http://www.IamNateScott.com
+url::http://castimages.com/actor_profile.cfm?id%3D3672&CategoryName%3D30S
+url::castimages.com
+feature::android.hardware.screen.portrait
+activity::nate.scott.app.ImageGallery
+activity::.AppCoverActivity
+activity::nate.scott.app.BioActivity
+activity::nate.scott.app.BookingInfoActivity
+intent::android.intent.category.LAUNCHER

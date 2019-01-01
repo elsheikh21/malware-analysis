@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+activity::.RootBooter
+real_permission::android.permission.READ_LOGS
+intent::android.intent.ACTION_TIME
+intent::android.intent.ACTION_TIMEZONE_CHANGED
+provider::android.appwidget.provider
+api_call::java/lang/Runtime;->exec
+activity::.prefs
+service_receiver::.sdWProvider
+call::Execution of external commands
+intent::android.intent.TOGGLE
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+service_receiver::.sdBReceiver
+activity::.sdConfigure
+call::printStackTrace

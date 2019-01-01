@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.MACMEntryView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MSIAfterburner
+activity::.MAHMEntryView
+call::getPackageInfo
+call::HttpPost
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,11 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+activity::fishnoodle.maryjane_free
+intent::android.intent.action.MAIN
+url::market.android.com
+url::http://market.android.com/details?id%3Dfishnoodle.maryjane
+call::Read/Write External Storage
+url::http://www.kittehface.com
+activity::.maryjane_free
+url::www.kittehface.com
+intent::android.intent.category.INFO

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::spreadsheets.google.com
+permission::android.permission.INTERNET
+url::http://spreadsheets.google.com/formResponse?formkey%3D
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.GLSurfaceViewActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

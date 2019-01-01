@@ -1,0 +1,16 @@
+activity::.ImageViewTest
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://mixedphoto.com/
+intent::android.intent.category.LAUNCHER
+url::mixedphoto.com
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

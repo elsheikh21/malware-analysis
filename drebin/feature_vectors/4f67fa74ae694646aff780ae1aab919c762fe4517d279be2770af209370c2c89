@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Principal
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.pdasoftware.com.br
+url::http://www.pdasoftware.com.br/timaonews/index.html

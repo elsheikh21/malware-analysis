@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::com.droidparadise.batterywidget.BatteryWidgetConfigure
+service_receiver::com.droidparadise.batterywidget.BatteryWidgetProvider
+api_call::android/content/Context;->startService
+call::getPackageInfo
+service_receiver::com.droidparadise.batterywidget.BatteryMonitorReceiver
+provider::android.appwidget.provider

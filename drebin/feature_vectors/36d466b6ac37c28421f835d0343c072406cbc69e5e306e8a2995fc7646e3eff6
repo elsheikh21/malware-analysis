@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::com.spforum.DigitalImageClock.StoneEx.SFUpdateService_2x2
+activity::.ForumWidgetConfig
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+provider::android.appwidget.provider
+service_receiver::SFUpdateService_4x1
+api_call::android/content/Context;->startService

@@ -1,0 +1,13 @@
+permission::android.permission.READ_LOGS
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+api_call::java/lang/Runtime;->exec
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+activity::.LogViewerActivity
+call::getSystemService

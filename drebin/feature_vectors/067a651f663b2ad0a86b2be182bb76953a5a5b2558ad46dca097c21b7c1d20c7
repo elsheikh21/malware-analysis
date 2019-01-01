@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.CALL_PHONE
+url::http://www.wharftt.com/wtt2/pages/en/iphone_banner5.html
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://www.wharftt.com/wtt2/pages/en/iphone_banner1.html
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+url::http://www.wharftt.com/wtt2/pages/en/iphone_banner4.html
+api_call::android/content/ContentResolver;->query
+url::http://www.wharftt.com/wtt2/pages/en/iphone_banner3.html
+url::http://www.wharftt.com/wtt2/pages/zh/iphone_banner3.html
+url::www.wharftt.com
+real_permission::android.permission.INTERNET
+url::http://www.wharftt.com/wtt2/pages/en/iphone_banner2.html
+url::http://www.wharftt.com/wtt2/pages/zh/iphone_banner2.html
+url::http://www.wharftt.com/wtt2/pages/zh/iphone_banner4.html
+feature::android.hardware.telephony
+url::http://www.wharftt.com/wtt2/pages/zh/iphone_banner1.html
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::.WhartTT
+intent::android.intent.category.LAUNCHER
+url::http://www.wharftt.com/wtt2/pages/zh/iphone_banner5.html

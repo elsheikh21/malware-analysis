@@ -1,0 +1,18 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+url::http://mediascape.vip.hr/mediascape/more
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+service_receiver::Vip music club service
+service_receiver::.widget.WidgetUpdateService
+url::http://mediascape.vip.hr/mediascape/service?line%3Dline1
+permission::android.permission.INTERNET
+url::http://mediascape.vip.hr/mediascape/service?line%3Dline2
+intent::android.intent.category.LAUNCHER
+url::mediascape.vip.hr
+api_call::android/content/Context;->startService
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+url::http://mediascape.vip.hr/mediascape/link?nodeName%3DFtmd_media_asset&uid%3D
+activity::.FTMDImageView
+service_receiver::.service.MediaScapeService

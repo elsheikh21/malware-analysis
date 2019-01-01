@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://pub.paran.com/kso1322/kh
+intent::android.intent.category.LAUNCHER
+activity::.KoreanHolidays
+real_permission::android.permission.INTERNET
+url::pub.paran.com
+intent::android.intent.action.VIEW

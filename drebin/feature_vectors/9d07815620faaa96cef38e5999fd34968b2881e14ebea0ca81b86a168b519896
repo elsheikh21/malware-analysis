@@ -1,0 +1,9 @@
+url::http://gumbogarden.com/lsufb2010.html
+feature::android.hardware.touchscreen
+url::gumbogarden.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.LSUFB2010
+intent::android.intent.category.LAUNCHER

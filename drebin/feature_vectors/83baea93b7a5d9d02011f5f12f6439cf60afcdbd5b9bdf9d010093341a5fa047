@@ -1,0 +1,7 @@
+url::www.bluewmg.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+url::http://www.bluewmg.com
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity

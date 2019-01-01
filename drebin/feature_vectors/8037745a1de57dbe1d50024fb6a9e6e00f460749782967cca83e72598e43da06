@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://amepsoftware.com/steelshoot/game/scores.php?action%3Dtop
+intent::android.intent.action.MAIN
+url::http://amepsoftware.com/steelshoot/game/scores.php
+url::amepsoftware.com
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MainMenu
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.activity.MainMenu
+api_call::java/net/URL;->openConnection

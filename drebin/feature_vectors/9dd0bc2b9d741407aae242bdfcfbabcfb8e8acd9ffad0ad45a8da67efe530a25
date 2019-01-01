@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.MAIN
+activity::.DeleteAll
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CONTACTS

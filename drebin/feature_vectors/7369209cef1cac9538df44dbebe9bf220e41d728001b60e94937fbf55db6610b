@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/media/AudioRecord
+real_permission::android.permission.RECORD_AUDIO
+activity::.Help
+intent::android.intent.action.MAIN
+activity::.NetScramble
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.PREFERENCE
+real_permission::android.permission.INTERNET
+activity::NetScramble
+api_call::java/net/URL;->openConnection
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.ScoreList
+call::getSystemService

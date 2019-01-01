@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::com.pogoplug.android.login.Splash
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+permission::android.permission.READ_CONTACTS

@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+activity::.Title
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.screen.IntroGame
+api_call::java/net/ServerSocket
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+call::printStackTrace
+activity::Main
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Obfuscation(Base64)
+activity::.screen.GameOver
+call::Read/Write External Storage
+activity::.screen.Title
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+activity::MyShootingGame
+intent::android.intent.category.LAUNCHER

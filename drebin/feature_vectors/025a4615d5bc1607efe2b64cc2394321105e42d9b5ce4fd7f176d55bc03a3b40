@@ -1,0 +1,18 @@
+activity::.ExpandImage
+url::http://images.4chan.org/b/src/([0-9])*.(jpg
+api_call::java/net/URL;->openStream
+url::http://img.4chan.org/b/imgboard.html
+url::http://boards.4chan.org/b/res/
+url::images.4chan.org
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+activity::.Viewer
+url::img.4chan.org
+intent::android.intent.category.LAUNCHER
+url::boards.4chan.org
+call::printStackTrace
+url::http://images.4chan.org/b/src/

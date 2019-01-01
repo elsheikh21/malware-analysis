@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::germanfriendfinder.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://germanfriendfinder.com/go/g902445-pct
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://germanfriendfinder.com/go/g902445-ppc
+activity::.BrowserActivity
+intent::android.intent.category.LAUNCHER
+call::getSystemService

@@ -1,0 +1,5 @@
+activity::.Ricettario
+feature::android.hardware.touchscreen
+activity::Ricettario
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

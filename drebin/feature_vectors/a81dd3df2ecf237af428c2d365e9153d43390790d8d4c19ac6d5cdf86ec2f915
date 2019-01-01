@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.hbureview.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.hbureview.com/stats
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.hbureview.com
+url::http://mobile.hbureview.com/about
+intent::android.intent.category.LAUNCHER
+url::http://mobile.hbureview.com/schedule
+url::http://mobile.hbureview.com/roster
+activity::HBU Review
+real_permission::android.permission.INTERNET

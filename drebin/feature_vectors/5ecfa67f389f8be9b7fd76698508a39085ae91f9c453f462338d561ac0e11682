@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.TonePickerSplash
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+api_call::android/provider/Settings$System;->putString
+real_permission::android.permission.WRITE_SETTINGS
+intent::android.intent.action.GET_CONTENT
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_SETTINGS
+intent::android.intent.category.OPENABLE
+call::getSystemService
+intent::android.intent.action.RINGTONE_PICKER

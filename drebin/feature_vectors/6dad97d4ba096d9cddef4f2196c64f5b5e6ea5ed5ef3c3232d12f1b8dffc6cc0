@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.ShenZhenNewsActivity
+intent::android.intent.category.LAUNCHER
+url::http://www.chtf.com/\uff09\n\n
+url::www.chtf.com

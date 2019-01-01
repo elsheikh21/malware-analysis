@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.CardList
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+call::Obfuscation(Base64)
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+api_call::android/webkit/WebView
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+call::HttpPost
+intent::android.intent.action.VIEW

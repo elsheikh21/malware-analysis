@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.bundesliga-tippen.de/cgi-bin/ajax/android/register.cgi
+url::http://www.bundesliga-tippen.de/cgi-bin/ajax/android/login.cgi
+url::http://www.bundesliga-tippen.de/cgi-bin/ajax/android/allsvenskan/get_tipps.cgi
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.bundesliga-tippen.de/cgi-bin/ajax/android/get_tippkreise.cgi
+url::http://www.bundesliga-tippen.de/cgi-bin/ajax/android/allsvenskan/save_tipps.cgi
+activity::.login_swe
+intent::android.intent.category.LAUNCHER
+url::http://www.bundesliga-tippen.de/cgi-bin/ajax/android/allsvenskan/get_tabelle.cgi
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getPackageInfo
+call::HttpPost
+url::www.bundesliga-tippen.de

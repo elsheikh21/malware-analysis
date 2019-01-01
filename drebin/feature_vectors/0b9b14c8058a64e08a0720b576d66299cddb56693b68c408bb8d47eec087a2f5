@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::www.tva.gov
+activity::.DamReleaseReader
+url::http://www.tva.gov/river/lakeinfo/index.htm
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://lakeinfo.tva.gov/xml/
+intent::android.intent.category.LAUNCHER
+url::lakeinfo.tva.gov
+real_permission::android.permission.INTERNET
+url::http://www.tva.gov/lakes/
+call::getSystemService

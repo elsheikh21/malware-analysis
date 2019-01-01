@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.sbardyuk.com
+activity::.Main
+permission::android.permission.INTERNET
+url::http://www.sbardyuk.com/android/weight_loss_tips/menu.html
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService

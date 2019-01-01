@@ -1,0 +1,15 @@
+url::http://1852.live.streamtheworld.com:80/KFRQFMCMP3
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.sapocom.com
+api_call::android/media/MediaPlayer;->start
+activity::.mainactivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.sapocom.com/AndroidApps/info.php?APP%3DKFRQ&interface%3Dandroid
+url::http://www.sapocom.com/AndroidApps/contact.cfm?APP%3DKFRQ&interface%3Dandroid
+intent::android.intent.category.LAUNCHER
+url::http://www.sapocom.com/AndroidApps/banner300x100.cfm?APP%3DKFRQ&interface%3Dandroid
+url::1852.live.streamtheworld.com
+real_permission::android.permission.WAKE_LOCK

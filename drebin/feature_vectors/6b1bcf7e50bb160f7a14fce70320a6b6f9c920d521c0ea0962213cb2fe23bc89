@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::help
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.onStart
+activity::EditPreferences

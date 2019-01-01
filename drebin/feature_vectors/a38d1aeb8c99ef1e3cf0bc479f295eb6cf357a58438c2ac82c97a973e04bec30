@@ -1,0 +1,51 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+activity::QelloTV
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/app/Activity;->startActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.screen.portrait
+call::HttpPost
+permission::android.permission.READ_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+url::sites.google.com
+activity::com.qello.core.ViewConcert
+api_call::java/net/Socket
+activity::.Login
+call::printStackTrace
+activity::com.qello.core.Login
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.INTERNET
+activity::Rhythm Video Activity
+api_call::java/lang/Runtime;->exec
+permission::com.android.vending.BILLING
+call::Read/Write External Storage
+url::http://sites.google.com/site/gson/gson-user-guide
+activity::Browse
+activity::com.qello.core.About
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::Home
+call::Execution of external commands
+feature::android.hardware.screen.landscape
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Timeline
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/location/LocationManager;->getBestProvider
+activity::Rhythm Activity
+service_receiver::com.qello.billing.BillingService
+service_receiver::com.qello.billing.BillingReceiver
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+call::getSystemService

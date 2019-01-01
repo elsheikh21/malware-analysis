@@ -1,0 +1,11 @@
+call::Cipher(AES/CBC/NoPadding)
+feature::android.hardware.touchscreen
+url::java.sun.com
+intent::android.intent.action.MAIN
+url::http://java.sun.com/javase/downloads/index.jsp)
+call::printStackTrace
+activity::.Main
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo

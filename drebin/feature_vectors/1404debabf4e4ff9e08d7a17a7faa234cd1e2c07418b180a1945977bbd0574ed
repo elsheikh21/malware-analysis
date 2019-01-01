@@ -1,0 +1,13 @@
+activity::.Userhelp
+feature::android.hardware.touchscreen
+url::http://market.android.com/search?q%3Dpname:\
+url::market.android.com
+intent::android.intent.action.MAIN
+activity::.MainActivity
+activity::.SplashScreen
+activity::Options
+intent::android.intent.category.DEFAULT
+url::http://market.android.com/search?q%3Dpub:\
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.VIEW
+intent::android.intent.action.DEFAULT

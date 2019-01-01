@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.VirtualHorseRacing3DProAmazon
+api_call::android/os/Vibrator;->vibrate
+call::getDeviceId
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Obfuscation(Base64)
+call::printStackTrace
+call::Cipher(AES)
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+call::Read/Write External Storage
+api_call::android/app/Activity;->startActivity
+call::getSystemService

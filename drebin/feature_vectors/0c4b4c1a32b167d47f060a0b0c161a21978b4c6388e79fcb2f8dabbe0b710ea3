@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/media/MediaRecorder;->setAudioSource
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+activity::.GhostSpyRecorder

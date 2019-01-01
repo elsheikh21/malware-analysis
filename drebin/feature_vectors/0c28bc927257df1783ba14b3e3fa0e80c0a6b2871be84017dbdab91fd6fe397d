@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+service_receiver::.CountdownService
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::CountdownWidget

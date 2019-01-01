@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::Little Sweet Pea Dressup Lite
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo

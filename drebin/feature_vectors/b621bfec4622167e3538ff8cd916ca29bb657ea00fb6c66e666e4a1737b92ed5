@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::www.golf.de
+activity::.Overview
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.ui.Overview
+url::https://www.golf.de/ws/golfhcp.cfc?method%3D%s&username%3Dandroid&password%3Dc3po

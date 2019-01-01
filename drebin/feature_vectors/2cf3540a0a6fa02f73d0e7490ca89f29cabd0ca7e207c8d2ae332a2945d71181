@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://forum.xda-developers.com/showthread.php?t%3D966646
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::http://forum.xda-developers.com/showthread.php?t%3D829731
+api_call::java/lang/Runtime;->exec
+url::forum.xda-developers.com
+call::Execution of external commands
+activity::.InitActivity
+call::getPackageInfo
+call::system/bin/su
+call::getSystemService
+intent::android.intent.category.LAUNCHER

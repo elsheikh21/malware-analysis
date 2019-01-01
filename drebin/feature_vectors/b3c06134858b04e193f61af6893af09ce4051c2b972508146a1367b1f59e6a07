@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.lacucinabrighton.co.uk/pizza.htm
+permission::android.permission.CALL_PHONE
+activity::.LaCucinaActivity
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::www.lacucinabrighton.co.uk
+real_permission::android.permission.INTERNET

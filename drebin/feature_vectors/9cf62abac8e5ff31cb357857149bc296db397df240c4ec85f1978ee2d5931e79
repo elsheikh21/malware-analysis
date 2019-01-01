@@ -1,0 +1,26 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.A_Rams
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.INTERNET
+url::www.google.co.kr
+real_permission::android.permission.VIBRATE
+activity::.ScreenDisplay
+activity::.ModifyListScreen
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.TestScreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ACCESS_WIFI_STATE
+activity::.AddListScreen
+feature::android.hardware.screen.portrait
+url::http://www.google.co.kr/intl/en_com/images/srpr/logo1w.png
+intent::android.intent.category.LAUNCHER

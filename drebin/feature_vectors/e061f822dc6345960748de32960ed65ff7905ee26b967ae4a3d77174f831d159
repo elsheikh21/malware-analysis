@@ -1,0 +1,33 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.CHANGE_WIFI_MULTICAST_STATE
+call::Read/Write External Storage
+call::Execution of external commands
+activity::.WeScribble
+real_permission::android.permission.INTERNET
+url::www.ANTLR.org
+permission::android.permission.ACCESS_WIFI_STATE
+url::www.apache.org%21
+url::www.ANTLR.org\
+url::http://www.ANTLR.org\
+url::http://[\\.\\w\\-\\?/
+api_call::java/net/NetworkInterface
+call::getSystemService
+url::http://www.apache.org\
+api_call::android/net/wifi/WifiManager$MulticastLock;->acquire
+api_call::java/lang/Runtime;->exec
+url::http://www.ANTLR.org/\
+url::www.apache.org\
+url::www.magelang.com\
+api_call::android/app/Activity;->startActivity
+permission::android.permission.CHANGE_WIFI_STATE
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+url::http://www.magelang.com\
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CHANGE_WIFI_MULTICAST_STATE
+url::http://www.apache.org%21

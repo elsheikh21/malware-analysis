@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+activity::.views.InitView
+call::Cipher(pad block corrupted)
+permission::android.permission.INTERNET
+activity::.InitView
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+url::www.inteligo.pl
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+service_receiver::.brodcastreceivers.OnPinTimeout
+api_call::android/content/ContentResolver;->query
+call::printStackTrace
+call::getSystemService
+call::Obfuscation(Base64)
+url::https://token.inteligo.pl
+url::token.inteligo.pl
+api_call::android/content/Context;->sendBroadcast
+intent::android.intent.action.MAIN
+url::https://www.inteligo.pl/mini
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

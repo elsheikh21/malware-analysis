@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+feature::android.hardware.telephony
+permission::android.permission.INTERNET
+activity::.GDCLocApp
+intent::android.intent.category.LAUNCHER

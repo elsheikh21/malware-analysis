@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+service_receiver::com.dasur.theme.pack.ServiceThemePack
+url::http://www.mobiletextinput.com/Download/android/Download/
+activity::com.dasur.theme.pack.ActivityPopup
+service_receiver::com.dasur.theme.pack.CheckService
+call::getPackageInfo
+service_receiver::com.dasur.theme.pack.InstallReceiver
+url::www.mobiletextinput.com

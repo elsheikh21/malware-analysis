@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+activity::.CrayzeBalloon
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+url::a.d.cn
+permission::android.permission.DEVICE_POWER
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+url::http://a.d.cn

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mobile.govsfan.com/schedule
+activity::.Main
+url::http://mobile.govsfan.com
+url::http://mobile.govsfan.com/roster
+url::mobile.govsfan.com
+permission::android.permission.INTERNET
+activity::Govs Fan
+intent::android.intent.category.LAUNCHER
+url::http://mobile.govsfan.com/stats
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://mobile.govsfan.com/about

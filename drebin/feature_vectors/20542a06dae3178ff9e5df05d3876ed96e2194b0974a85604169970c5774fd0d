@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::yongfood.appspot.com
+activity::.yongfood
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://yongfood.appspot.com

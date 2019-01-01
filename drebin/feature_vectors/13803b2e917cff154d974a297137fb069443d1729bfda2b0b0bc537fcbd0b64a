@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.google.com/gwt/x?u%3D
+url::www.google.com
+url::http://ifdefined.com
+permission::android.permission.INTERNET
+url::http://hacknews.heroku.com/comments/
+url::hacknews.heroku.com
+url::http://news.ycombinator.com/
+intent::android.intent.category.LAUNCHER
+url::ifdefined.com
+url::news.ycombinator.com
+activity::.Hacker1
+url::http://hacknews.heroku.com
+real_permission::android.permission.INTERNET

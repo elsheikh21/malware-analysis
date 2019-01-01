@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.LoginActivity
+call::Obfuscation(Base64)
+call::printStackTrace
+call::Cipher(AES)
+activity::.DetailActivity
+feature::android.hardware.screen.portrait
+activity::.PasswordListActivity
+activity::.AppSettingActivity
+activity::.EntryActivity
+intent::android.intent.category.DEFAULT
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+url::http://tinup.ch/read/helpNla.html
+service_receiver::org.mpu.anla.service.NewsUpdateService
+permission::android.permission.INTERNET
+url::ch.sportalsports.com
+url::http://tinup.ch/read/liveNLA.csv
+real_permission::android.permission.VIBRATE
+permission::com.android.alarm.permission.SET_ALARM
+url::http://tinup.ch/read/liveNLB.csv
+url::http://ch.sportalsports.com/rss/ch/sportalch_nla.rss
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.Main
+url::tinup.ch
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+url::http://ch.sportalsports.com/rss/ch/sportalch_nlb.rss
+api_call::android/webkit/WebView
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://tinup.ch/read/nlaVersion

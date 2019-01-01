@@ -1,0 +1,18 @@
+api_call::android/webkit/WebView
+feature::android.hardware.location.network
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/show_mobile_ads.js
+call::getPackageInfo
+call::Read/Write External Storage
+api_call::android/content/Context;->startActivity
+activity::.OneHundredFamilyNamesActivity
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,10 @@
+url::www.workjoke.com
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://www.workjoke.com
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::http://www.workjoke.com/xml/jokeoftheday.xml
+intent::android.intent.category.LAUNCHER
+activity::.WorkJoke
+real_permission::android.permission.INTERNET

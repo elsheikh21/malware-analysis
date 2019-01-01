@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::office.techniconsulting.be
+call::getDeviceId
+activity::.Preference
+intent::android.intent.action.MAIN
+url::http://office.techniconsulting.be:81/filedownload/webrelayconfig
+permission::android.permission.READ_PHONE_STATE
+url::www.techniconsulting.be
+permission::android.permission.INTERNET
+url::http://www.techniconsulting.be
+api_call::android/telephony/TelephonyManager;->getDeviceId
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_PHONE_STATE
+activity::.WebRelay
+call::getSystemService

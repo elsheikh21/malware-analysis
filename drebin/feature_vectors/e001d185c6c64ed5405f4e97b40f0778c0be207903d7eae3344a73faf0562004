@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::org.ediblemicrochip.rulesfree.RulesHome
+activity::.RulesHome
+activity::org.ediblemicrochip.rulesfree.Prefs
+activity::org.ediblemicrochip.rulesfree.Integrals
+activity::org.ediblemicrochip.rulesfree.Derivatives
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN

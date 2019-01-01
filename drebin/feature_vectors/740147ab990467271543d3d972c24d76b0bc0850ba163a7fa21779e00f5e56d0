@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+activity::.GlossaryCPAfree
+call::getSystemService
+activity::.WordActivity

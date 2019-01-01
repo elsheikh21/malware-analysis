@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Popupnews
+url::http://android-france.fr
+intent::android.intent.action.MAIN
+service_receiver::.WidgetReadWriteWeb$UpdateService
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::android-france.fr
+intent::android.intent.category.LAUNCHER
+url::fr.readwriteweb.com
+intent::android.intent.action.INSERT
+url::http://fr.readwriteweb.com/feed/
+api_call::java/net/URL;->openStream
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

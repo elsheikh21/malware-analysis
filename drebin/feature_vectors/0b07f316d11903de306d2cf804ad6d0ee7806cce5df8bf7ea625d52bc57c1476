@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://atopicdermatitis.weblog.am/
+activity::com.atopicD.atopicDActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.atopicDActivity
+intent::android.intent.category.LAUNCHER
+url::atopicdermatitis.weblog.am

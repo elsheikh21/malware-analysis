@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+real_permission::android.permission.RESTART_PACKAGES
+activity::.ProcessList
+intent::android.intent.category.LAUNCHER
+call::getSystemService

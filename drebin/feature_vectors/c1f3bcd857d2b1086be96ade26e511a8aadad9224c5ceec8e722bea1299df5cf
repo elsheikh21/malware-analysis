@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.SelectTeam
+intent::android.intent.action.MAIN
+activity::SelectTeam
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

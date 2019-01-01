@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+call::getWifiState
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.DEFAULT
+intent::android.net.wifi.STATE_CHANGE
+call::setWifiEnabled
+call::getSystemService
+intent::android.net.wifi.supplicant.STATE_CHANGE
+permission::android.permission.CHANGE_WIFI_STATE
+activity::.WifiControlActivity
+api_call::android/net/wifi/WifiManager;->getWifiState
+intent::android.net.wifi.WIFI_STATE_CHANGED
+real_permission::android.permission.CHANGE_WIFI_STATE
+intent::android.net.wifi.RSSI_CHANGED
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

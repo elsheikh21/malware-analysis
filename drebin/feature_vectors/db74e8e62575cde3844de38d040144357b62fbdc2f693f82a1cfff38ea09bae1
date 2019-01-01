@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+activity::.activity.Home
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+activity::.Home
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+service_receiver::.receiver.ReminderReceiver

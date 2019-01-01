@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+service_receiver::.MainService

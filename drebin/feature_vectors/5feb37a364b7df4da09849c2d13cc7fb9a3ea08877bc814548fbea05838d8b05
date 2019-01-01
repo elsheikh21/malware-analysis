@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::wpcuonline.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+url::https://wpcuonline.com/mobi/statement/statement
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::dev.wpcuonline.wpcu.net
+permission::android.permission.INTERNET
+activity::.WpcuWebViewActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+url::https://wpcuonline.com/mobibeta/statement/statement
+url::http://dev.wpcuonline.wpcu.net/mobi/statement/statement
+real_permission::android.permission.INTERNET
+activity::com.WpcuWebView.view.WpcuWebViewActivity

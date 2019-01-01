@@ -1,0 +1,5 @@
+activity::.Azbuka
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

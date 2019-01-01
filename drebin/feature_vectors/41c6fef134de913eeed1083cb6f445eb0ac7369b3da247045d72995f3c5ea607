@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::firsttime
+api_call::android/app/Activity;->startActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+activity::.main
+activity::changepin
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+activity::note
+real_permission::android.permission.INTERNET
+activity::list
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

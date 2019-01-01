@@ -1,0 +1,29 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+service_receiver::Missed Call AutoReply Small
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+service_receiver::.MissedCallReceiver
+permission::android.permission.WRITE_SMS
+real_permission::android.permission.VIBRATE
+service_receiver::SMSNotificationReciever
+call::getSystemService
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+activity::.ReplyToSelectionActivity
+activity::.UIActivity
+api_call::android/content/Context;->sendBroadcast
+service_receiver::.ForegroundService
+activity::.WidgetMsgSetupActivity
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+intent::android.intent.action.MAIN
+service_receiver::Missed Call AutoReply Big
+intent::android.intent.action.PHONE_STATE
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+service_receiver::.MissedCallSenderService
+provider::android.appwidget.provider

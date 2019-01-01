@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://bawidgets.com/mma.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.mma
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::bawidgets.com
+intent::android.intent.category.LAUNCHER

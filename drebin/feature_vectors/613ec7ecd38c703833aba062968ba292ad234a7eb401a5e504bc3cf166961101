@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.arrl.org/band-plan-1
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+call::Read/Write External Storage
+url::www.arrl.org
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+permission::android.permission.READ_EXTERNAL_STORAGE

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.GameActivity
+activity::.MainActivity
+activity::.ScoresActivity
+intent::android.intent.category.LAUNCHER
+activity::.HelpActivity

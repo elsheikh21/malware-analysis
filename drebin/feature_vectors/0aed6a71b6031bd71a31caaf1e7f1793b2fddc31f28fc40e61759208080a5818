@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://bit.ly/freegolfingsecrets
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::bit.ly
+activity::.Activity1

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Instruction
+activity::.Oracle
+activity::.Consult
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::.Nap2

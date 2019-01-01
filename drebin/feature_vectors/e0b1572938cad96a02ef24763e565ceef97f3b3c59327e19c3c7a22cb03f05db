@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::http://www.rosseaux.net/
+intent::android.intent.action.MAIN
+activity::.main
+call::Read/Write External Storage
+url::http://www.rosseaux.net/donate/
+intent::android.intent.category.LAUNCHER
+url::www.rosseaux.net

@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+service_receiver::com.sds.android.ttpod.skin.chunyu_17.SkinReleaseService
+call::printStackTrace
+call::Read/Write External Storage

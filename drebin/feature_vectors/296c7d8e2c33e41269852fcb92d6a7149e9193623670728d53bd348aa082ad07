@@ -1,0 +1,17 @@
+service_receiver::com.fetch.tag.FetchAppTracker
+feature::android.hardware.touchscreen
+activity::.mathsracer
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::http://fetch.ad-x.co.uk/atrk/android?
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::fetch.ad-x.co.uk
+call::getPackageInfo
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

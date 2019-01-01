@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::.BootReceiver
+real_permission::android.permission.WRITE_SETTINGS
+intent::android.intent.action.ACTION_SHUTDOWN
+service_receiver::.ShutdownReceiver
+activity::.SilentBoot
+real_permission::android.permission.VIBRATE
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->sendBroadcast
+permission::android.permission.WRITE_SETTINGS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+intent::android.intent.category.LAUNCHER

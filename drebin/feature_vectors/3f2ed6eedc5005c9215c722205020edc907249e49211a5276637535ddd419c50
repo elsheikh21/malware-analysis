@@ -1,0 +1,8 @@
+service_receiver::Pol-Clock (small)
+feature::android.hardware.touchscreen
+activity::.PolarizerClockInfo
+intent::android.intent.action.MAIN
+service_receiver::Pol-Clock (big)
+intent::android.intent.category.LAUNCHER
+service_receiver::Pol-Clock (tiny)
+provider::android.appwidget.provider

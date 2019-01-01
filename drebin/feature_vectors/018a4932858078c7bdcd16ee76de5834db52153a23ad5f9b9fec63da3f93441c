@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.GoBikeTripMiles
+intent::android.intent.action.MAIN
+url::gobiketrip.com
+url::https://gobiketrip.com/gbt/ajax/miles-on-the-go
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.GoBikeTripSettings
+call::getSystemService
+call::HttpPost
+activity::.GoBikeTrip

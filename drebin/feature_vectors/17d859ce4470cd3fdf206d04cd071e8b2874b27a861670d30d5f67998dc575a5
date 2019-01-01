@@ -1,0 +1,8 @@
+activity::com.sic.eBook.BooksGridActivity
+activity::.BooksGridActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://samsung.satzweiss.com/
+url::samsung.satzweiss.com
+intent::android.intent.category.LAUNCHER
+call::getSystemService

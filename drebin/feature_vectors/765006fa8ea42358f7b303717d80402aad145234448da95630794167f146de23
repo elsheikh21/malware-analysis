@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Kreuzfahrtindex
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::Kreuzfahrtindex
+intent::android.intent.category.LAUNCHER

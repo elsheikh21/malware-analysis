@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+url::http://app.easybandstudio.com
+activity::.ChorderActivity
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::nomadicwhales.com
+call::getPackageInfo
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+url::http://www.nomadicwhales.com/wordpress/lipsync-studio/
+url::app.easybandstudio.com
+api_call::android/app/Activity;->startActivity
+api_call::java/net/Socket
+call::printStackTrace
+url::http://nomadicwhales.com/wordpress/lipsync-studio-announcement/
+call::getSystemService
+activity::com.nw.easyband.ChorderPreferencesActivity
+url::http://www.youtube.com/watch?v%3D92CS5k7jC-I
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::com.nw.easyband.ProjectListActivity
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+feature::android.hardware.screen.landscape
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.READ_LOGS
+url::www.youtube.com
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+url::www.nomadicwhales.com

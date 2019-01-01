@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.READ_PHONE_STATE
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+activity::com.sglibs.fixed_activities.VersionActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getPackageInfo
+activity::.WebBrowserActivity
+call::getSubscriberId
+api_call::android/telephony/TelephonyManager;->getSimSerialNumber
+call::getSystemService
+activity::com.seasgarden.spdigicon.WebBrowserActivity

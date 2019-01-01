@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.OpenSuseThemeActivity
+intent::android.intent.category.DEFAULT

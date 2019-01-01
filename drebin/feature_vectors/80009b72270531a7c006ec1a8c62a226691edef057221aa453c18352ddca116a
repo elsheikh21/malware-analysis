@@ -1,0 +1,38 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::forum.xda-developers.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.action.BOOT_COMPLETED
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+url::market.android.com
+activity::Execution Log
+activity::.MainActivity
+url::http://a.admob.com/f0?
+real_permission::android.permission.VIBRATE
+service_receiver::com.aes.cron4phonefree.activities.MyService
+url::simmonssoft.blogspot.com.
+call::getSystemService
+url::http://simmonssoft.blogspot.com.
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/content/Context;->startService
+url::a.admob.com
+api_call::android/webkit/WebView
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::www.gstatic.com
+url::http://forum.xda-developers.com/forum
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::com.aes.cron4phonefree.activities.MyReceiver
+url::schemas.android.com

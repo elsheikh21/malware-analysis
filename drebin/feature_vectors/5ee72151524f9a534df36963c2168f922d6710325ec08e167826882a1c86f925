@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.jotiz.com/celtic/index.php
+permission::android.permission.INTERNET
+url::www.jotiz.com
+intent::android.intent.category.LAUNCHER
+activity::.JotizCeltic

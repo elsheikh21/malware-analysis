@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.CurrencyPreferenceActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://finance.yahoo.com/quotes/
+api_call::android/content/Context;->startActivity
+url::http://chart.finance.yahoo.com/2y?[source][dest]%3Dx&lang%3Den-US&region%3DUS
+url::chart.finance.yahoo.com
+call::getSystemService
+url::http://chart.finance.yahoo.com/b?s%3D[source][dest]%3dX&lang%3Den-US&region%3DUS
+url::http://finance.yahoo.com/d/quotes.csv?e%3D.csv&f%3Dsl1d1t1
+url::finance.yahoo.com
+activity::.CurrencyActivity
+url::http://chart.finance.yahoo.com/3m?[source][dest]%3Dx&lang%3Den-US&region%3DUS
+url::http://chart.finance.yahoo.com/1y?[source][dest]%3Dx&lang%3Den-US&region%3DUS
+url::http://chart.finance.yahoo.com/5y?[source][dest]%3Dx&lang%3Den-US&region%3DUS
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://chart.finance.yahoo.com/w?s%3D[source][dest]%3dX&lang%3Den-US&region%3DUS
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+url::http://finance.yahoo.com/connection/currency-investing
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Katthemmet
+url::http://www.katthemmet.nu/katter/aktuella-katter/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.katthemmet.nu
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

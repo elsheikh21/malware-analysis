@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::onvideo1.com
+url::http://onvideo1.com/rotator/?g%3Dappwlf
+activity::.HealthyFood
+intent::android.intent.category.LAUNCHER
+call::getSystemService

@@ -1,0 +1,17 @@
+api_call::java/net/HttpURLConnection
+url::http://build.webkit.org
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::build.webkit.org
+activity::.WebKitWatcher
+intent::android.intent.category.LAUNCHER
+url::trac.webkit.org
+real_permission::android.permission.INTERNET
+permission::android.permission.CHANGE_NETWORK_STATE
+call::getSystemService
+url::http://trac.webkit.org/changeset/

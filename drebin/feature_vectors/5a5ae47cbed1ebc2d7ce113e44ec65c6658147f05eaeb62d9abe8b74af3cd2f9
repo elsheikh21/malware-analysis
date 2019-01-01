@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.elenagrandi.it
+intent::android.intent.category.LAUNCHER
+activity::.MilanoElactionDay
+api_call::android/webkit/WebView
+call::getSystemService
+url::http://www.elenagrandi.it

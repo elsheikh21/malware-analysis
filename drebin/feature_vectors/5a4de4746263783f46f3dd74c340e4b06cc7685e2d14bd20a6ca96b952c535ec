@@ -1,0 +1,4 @@
+activity::.GoSmsInstallDialog
+feature::android.hardware.touchscreen
+intent::android.intent.category.INFO
+intent::android.intent.action.MAIN

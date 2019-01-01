@@ -1,0 +1,18 @@
+url::http://www.faveset.com/klink/docs/mobile/demo
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::getSystemService
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+service_receiver::.DownloadService
+service_receiver::.KlinkService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::www.faveset.com
+activity::.Klink
+real_permission::android.permission.INTERNET
+url::http://www.faveset.com/klink/docs/pc/mobile/demo
+intent::android.intent.action.VIEW

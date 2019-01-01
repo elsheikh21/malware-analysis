@@ -1,0 +1,21 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_PHONE_STATE
+call::printStackTrace
+call::Read/Write External Storage
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.READ_SMS
+api_call::android/telephony/TelephonyManager;->getLine1Number
+feature::android.hardware.telephony
+api_call::android/content/ContentResolver;->openInputStream
+permission::android.permission.WRITE_SMS
+activity::.Texport
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService
+intent::android.intent.category.LAUNCHER

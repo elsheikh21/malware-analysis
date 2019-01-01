@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+api_call::android/media/AudioManager;->setMode
+activity::Adjust Volume Attenuation
+api_call::android/media/AudioRecord
+feature::android.hardware.screen.portrait
+activity::.Microphone
+activity::Adjust Microphone Sensitivity
+activity::.MicrophoneSettings
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.WRITE_SETTINGS
+service_receiver::.OnBootReceiver
+service_receiver::.AirplaneModeOnAlarmReceiver
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->sendBroadcast
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

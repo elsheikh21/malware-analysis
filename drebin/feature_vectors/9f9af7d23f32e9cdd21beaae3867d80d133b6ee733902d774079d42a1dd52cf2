@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::Settings
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.andbling.com
+call::Obfuscation(Base64)
+call::printStackTrace
+url::http://www.andbling.com
+real_permission::android.permission.INTERNET
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.VIBRATE
+api_call::java/net/ServerSocket
+call::Read/Write External Storage
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

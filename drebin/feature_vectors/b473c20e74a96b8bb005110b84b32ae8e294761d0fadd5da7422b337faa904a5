@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::developer.db4o.com
+api_call::android/os/Vibrator;->vibrate
+url::http://developer.db4o.com/forums
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+activity::.Counter
+call::getSystemService

@@ -1,0 +1,17 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.MAIN
+service_receiver::.ResidentServiceStarter
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+api_call::android/app/ActivityManager;->getRecentTasks
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+activity::.TaskTimeManager
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::.ResidentService
+call::getSystemService
+api_call::android/content/Context;->startService

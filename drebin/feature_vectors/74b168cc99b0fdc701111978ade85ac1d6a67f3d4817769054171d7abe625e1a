@@ -1,0 +1,21 @@
+url::www.accesslane.biz
+feature::android.hardware.touchscreen
+url::http://www.accesslane.biz/dxtop/get_dxtop_lite.php
+call::getDeviceId
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.StandardThemeActivity
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+api_call::android/telephony/TelephonyManager;->getDeviceId
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+url::www.accesslane.com
+api_call::java/net/HttpURLConnection
+permission::android.permission.GET_TASKS
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+url::http://www.accesslane.com/index.php/what-is-dxtop/dxtop-purchase

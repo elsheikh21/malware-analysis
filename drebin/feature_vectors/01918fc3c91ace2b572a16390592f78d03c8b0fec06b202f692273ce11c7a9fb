@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+service_receiver::Alarm_Receiver
+activity::.Home_Menu
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/content/Context;->sendBroadcast
+url::www.homebrewchatter.com
+call::getSystemService
+url::http://www.homebrewchatter.com/board

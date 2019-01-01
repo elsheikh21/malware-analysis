@@ -1,0 +1,11 @@
+activity::View_SiteList
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::View_Channel
+activity::View_SiteInfo
+activity::.View_SiteList
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+intent::android.intent.category.LAUNCHER

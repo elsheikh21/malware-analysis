@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::down.sjxyx.com
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://down.sjxyx.com/sjxyx9/7/854502501819.jar
+url::www.netmite.com
+call::getPackageInfo
+activity::.KNightServer2
+intent::android.intent.category.LAUNCHER

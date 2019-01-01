@@ -1,0 +1,7 @@
+activity::.UserSetting
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

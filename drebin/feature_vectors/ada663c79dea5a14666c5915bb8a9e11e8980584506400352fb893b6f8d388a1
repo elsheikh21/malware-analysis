@@ -1,0 +1,12 @@
+call::Cipher(AES/ECB/NoPadding)
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::Read/Write External Storage
+activity::.PasswordItemListActivity
+call::getSystemService

@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+service_receiver::CinftyLogo Live Wallpaper
+activity::Cinftylogo_settings

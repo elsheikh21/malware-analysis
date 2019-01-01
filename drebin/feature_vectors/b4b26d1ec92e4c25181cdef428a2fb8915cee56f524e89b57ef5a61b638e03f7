@@ -1,0 +1,16 @@
+url::biblearcer.uservoice.com\
+feature::android.hardware.touchscreen
+url::www.biblearc.com
+activity::.BibleArcerActivity
+intent::android.intent.action.MAIN
+url::labs.bible.org
+url::biblearcer.uservoice.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://labs.bible.org/api/?passage%3D
+url::http://biblearcer.uservoice.com\
+url::http://www.biblearc.com
+url::http://biblearcer.uservoice.com
+call::getSystemService

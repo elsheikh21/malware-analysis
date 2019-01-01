@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.sensor.accelerometer
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.BBRallyLiteActivity
+call::getSystemService

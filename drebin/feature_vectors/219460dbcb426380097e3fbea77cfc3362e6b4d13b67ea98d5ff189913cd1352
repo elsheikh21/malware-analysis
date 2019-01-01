@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://dl.dropbox.com/u/11735166/license_agreement%20-zoo_kids.txt
+intent::android.intent.action.MAIN
+activity::.zookids
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+url::dl.dropbox.com

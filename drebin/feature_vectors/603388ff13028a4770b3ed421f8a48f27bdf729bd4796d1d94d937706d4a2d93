@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+activity::.VoteUyenLinh
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage

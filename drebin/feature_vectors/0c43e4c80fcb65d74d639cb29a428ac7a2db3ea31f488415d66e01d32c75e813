@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://market.nduoa.com/update/nDuoaMarket.apk
+permission::android.permission.INTERNET
+url::market.nduoa.com
+feature::android.hardware.screen.portrait
+activity::.MoonActivity
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity
+call::getSystemService

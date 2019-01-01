@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+activity::.DealnewsActivity
+url::http://feeds.feedburner.com/dealsea-latest
+permission::android.permission.INTERNET
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_CONTACTS
+call::getSystemService

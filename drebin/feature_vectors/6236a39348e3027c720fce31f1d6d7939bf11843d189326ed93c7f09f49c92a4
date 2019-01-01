@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.resetPowerAmp
+activity::powerampreset.resetPowerAmp
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+call::getSystemService

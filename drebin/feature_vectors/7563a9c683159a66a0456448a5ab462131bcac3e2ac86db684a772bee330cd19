@@ -1,0 +1,46 @@
+url::mobil.thy.com
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+url::https://mobil.thy.com
+url::www.anadolujet.com.tr
+permission::android.permission.INTERNET
+url::www.sunexpress.com.tr
+url::http://mobworkz.com/chandroidapp/?name%3Ducakbileti
+activity::.AppPoint
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::Havaalan%C4%B1 Detay
+url::http://www.sunexpress.com.tr
+feature::android.hardware.location.gps
+url::http://www.onurair.com.tr
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::www.flypgs.com
+url::www.google.com
+url::http://www.atlasjet.com
+feature::android.hardware.location
+url::www.atlasjet.com
+url::http://www.ataturkairport.com
+url::http://www.bulucak.com/
+url::http://www.flypgs.com
+url::mobworkz.com
+call::getSystemService
+url::http://ucak-bileti.mobi/sponsor/buttonDetailNo1.php
+url::www.bulucak.com
+url::http://www.google.com
+api_call::android/location/LocationManager;->requestLocationUpdates
+url::http://ucak-bileti.mobi/sponsor/buttonMain.php
+url::http://ucak-bileti.mobi/sponsor/buttonDetailNo2.php
+url::http://www.anadolujet.com.tr
+url::http://ucak-bileti.mobi/sponsor/buttonQuery.php?destination%3D
+activity::Havayollar%C4%B1 Detay
+intent::android.intent.action.MAIN
+url::www.ataturkairport.com
+url::www.onurair.com.tr
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+url::ucak-bileti.mobi
+activity::U%C3%A7u%C5 Bilgileri
+intent::android.intent.category.LAUNCHER
+url::http://www.bulucak.com/bulucakwebservice/bulucakextservice.asmx/GetFlights?

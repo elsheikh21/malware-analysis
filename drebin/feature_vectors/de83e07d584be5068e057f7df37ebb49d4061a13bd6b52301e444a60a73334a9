@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.GET_TASKS
+api_call::android/content/ContentResolver;->query
+url::http://localhost:
+activity::.PandoraActivity
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+service_receiver::.BootReceiver
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+permission::android.permission.SYSTEM_ALERT_WINDOW
+url::localhost
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+provider::com.jdh.provider.pandora
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify

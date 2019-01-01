@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::notes.pbwiki.com
+url::http://notes.pbwiki.com/api_v2/op/PutPage/create_if_missing/true/page/
+url::http://notes.pbwiki.com/api_v2/op/GetPage/page/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.MagicNote
+call::HttpPost

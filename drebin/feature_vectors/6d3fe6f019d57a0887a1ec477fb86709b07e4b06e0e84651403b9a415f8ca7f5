@@ -1,0 +1,17 @@
+activity::.FakeActivity
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+service_receiver::.Widget$UpdateService
+intent::android.intent.action.CONFIGURATION_CHANGED
+service_receiver::SoundgetLite
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+activity::.Settings
+provider::android.appwidget.provider
+service_receiver::.ScreenReceiver
+real_permission::android.permission.WAKE_LOCK

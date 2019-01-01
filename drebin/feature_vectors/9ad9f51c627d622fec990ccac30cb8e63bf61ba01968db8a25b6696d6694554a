@@ -1,0 +1,44 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+intent::com.androidapps.intent.action.USER_PRESENT
+url::lock2.wordpress.com
+intent::android.intent.action.BOOT_COMPLETED
+call::getPackageInfo
+url::http://market.android.com/search?q%3Dpname:com.androidapps.widget.battery2
+url::market.android.com
+url::http://market.android.com/search?q%3Dpname:org.openintents.filemanager
+url::http://prettybattery.googlecode.com/svn/trunk/download/default.zip
+url::http://a.admob.com/f0?
+real_permission::android.permission.VIBRATE
+activity::.ConfigurationManager
+call::getSystemService
+url::prettybattery.googlecode.com
+service_receiver::Battery
+activity::com.androidapps.widget.battery.BatteryPreference
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.action.USER_PRESENT
+api_call::android/content/Context;->startService
+service_receiver::Battery Status boot start
+url::a.admob.com
+service_receiver::com.androidapps.widget.battery.BatteryWidget$UpdateService
+activity::com.androidapps.widget.battery.ConfigurationManager
+api_call::android/webkit/WebView
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+intent::android.intent.action.MAIN
+activity::Battery Settings
+activity::Battery Info
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::com.androidapps.widget.battery.BatteryStatus
+real_permission::android.permission.INTERNET
+service_receiver::com.androidapps.widget.battery.SsReceiver
+url::www.gstatic.com
+url::http://schemas.android.com/apk/lib/com.google.ads
+intent::android.intent.category.LAUNCHER
+url::http://lock2.wordpress.com
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider
+url::schemas.android.com

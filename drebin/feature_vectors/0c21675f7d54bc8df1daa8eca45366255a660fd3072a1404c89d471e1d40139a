@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::average.worldclockr.com
+intent::android.intent.category.LAUNCHER
+url::http://average.worldclockr.com/android.html
+real_permission::android.permission.INTERNET

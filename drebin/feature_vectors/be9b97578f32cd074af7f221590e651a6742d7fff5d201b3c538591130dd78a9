@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::trace.nullwire.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+activity::.Lunchbox
+url::http://trace.nullwire.com/collect/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+feature::android.hardware.screen.landscape
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

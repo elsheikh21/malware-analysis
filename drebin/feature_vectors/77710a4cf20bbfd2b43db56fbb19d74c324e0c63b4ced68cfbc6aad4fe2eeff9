@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.RambowRamuActivity

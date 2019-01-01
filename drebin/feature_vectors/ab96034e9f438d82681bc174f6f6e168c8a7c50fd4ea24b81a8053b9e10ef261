@@ -1,0 +1,16 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+url::http://market.android.com/search?q%3Dpname:com.facewolf.textureslite
+url::market.android.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Textures
+permission::android.permission.SEND_SMS
+permission::android.permission.WRITE_SETTINGS
+permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.VIEW
+intent::android.intent.action.DEFAULT
+activity::.spash
+permission::android.permission.PHONE

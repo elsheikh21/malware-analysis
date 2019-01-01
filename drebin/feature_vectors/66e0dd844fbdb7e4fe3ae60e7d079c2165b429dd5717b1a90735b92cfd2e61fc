@@ -1,0 +1,20 @@
+url::https://data.flurry.com/aap.do
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+url::http://ad.flurry.com/getAndroidApp.do
+url::market.android.com
+api_call::android/webkit/WebView
+call::HttpPost
+url::data.flurry.com
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::GaugeService
+url::https://market.android.com/details?id%3D
+url::http://data.flurry.com/aap.do
+call::getPackageInfo
+api_call::android/location/LocationManager;->getBestProvider
+call::Read/Write External Storage
+provider::android.appwidget.provider
+url::ad.flurry.com
+call::getSystemService
+url::http://ad.flurry.com/getCanvas.do

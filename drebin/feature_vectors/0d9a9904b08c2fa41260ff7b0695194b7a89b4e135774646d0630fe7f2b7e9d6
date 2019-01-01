@@ -1,0 +1,178 @@
+service_receiver::APW Bookmarks 5x4
+service_receiver::APW Bookmarks 5x5
+url::http://twitter4j.org/configuration.html
+provider::com.rdr.widgets.core.calendar.provider
+url::http://m.facebook.com
+intent::android.intent.action.PACKAGE_REMOVED
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::APW Timeline 5x5
+service_receiver::APW Timeline 5x4
+url::dev.twitter.com
+provider::com.rdr.widgets.core.mymessaging.provider
+call::getPackageInfo
+call::getDeviceId
+url::http://schemas.android.com/apk/res/android
+url::facebook.com
+url::apw.uservoice.com
+service_receiver::TwitterUpdateDataService
+activity::.MainActivity
+url::http://twitter4j.org/en/twitter4j-
+provider::com.rdr.widgets.core.facebook.provider
+provider::com.rdr.widgets.core.twitter.provider
+service_receiver::APW Bookmarks 2x4
+call::getSystemService
+activity::.base.pager.ScrollableActivity
+url::http://twitter.com/search?q%3D%23
+activity::.base.preferences.ThemePreferencesActivity
+permission::android.permission.RECEIVE_SMS
+url::http://facebook.com/home.php?sk%3Dlive
+service_receiver::MessagingUpdateService
+permission::android.permission.READ_SMS
+permission::android.permission.GET_ACCOUNTS
+url::stream.twitter.com
+service_receiver::APW Facebook 4x4
+service_receiver::APW Facebook 4x3
+service_receiver::APW Facebook 4x2
+real_permission::android.permission.GET_ACCOUNTS
+service_receiver::APW Calendar 3x3
+intent::android.intent.action.VIEW
+real_permission::android.permission.READ_LOGS
+service_receiver::PeopleUpdateDataService
+url::https://m.facebook.com/dialog/
+api_call::java/net/HttpURLConnection
+intent::android.intent.action.PACKAGE_ADDED
+service_receiver::CalendarUpdateService
+permission::android.permission.INTERNET
+activity::.quickadd.QuickAddPreferencesActivity
+service_receiver::APW People 2x4
+url::http://twitter4j.org/
+url::sitestream.twitter.com
+provider::com.rdr.widgets.core.timeline.provider
+activity::.QuickAdd
+provider::android.provider.Telephony.WAP_PUSH_RECEIVED
+url::http://www.google.co.jp/search?q%3D
+url::https://dev.twitter.com/docs/rate-limiting).\nReturned
+api_call::android/accounts/AccountManager;->getAccounts
+permission::android.permission.WRITE_SMS
+real_permission::android.permission.INTERNET
+url::api.facebook.com
+call::Obfuscation(Base64)
+url::http://api.twitter.com/oauth/authenticate
+activity::.say_what.SayWhatActivity
+service_receiver::FacebookUpdateDataService
+real_permission::android.permission.READ_PHONE_STATE
+url::http://facebook.com/permalink.php?story_fbid%3D%s&id%3D%s
+url::http://m.facebook.com/home.php?sk%3Dlive
+api_call::java/lang/Runtime;->exec
+url::developers.facebook.com
+url::https://sitestream.twitter.com/2b/
+service_receiver::APW Calendar 5x5
+service_receiver::APW Twitter 5x4
+intent::android.intent.category.LAUNCHER
+url::http://twitter.com
+service_receiver::APW Facebook 5x4
+service_receiver::APW Timeline 4x2
+service_receiver::APW Timeline 4x3
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+service_receiver::APW Timeline 4x4
+url::twitter.com
+api_call::android/telephony/TelephonyManager;->getDeviceId
+service_receiver::.base.pager.HoneycombWidgetService
+url::search.twitter.com
+call::Read/Write External Storage
+activity::.calendar.CalendarScrollActivity
+service_receiver::APW Bookmarks 3x3
+activity::.facebook.PostViewer
+url::http://api.twitter.com/oauth/access_token
+real_permission::android.permission.READ_CONTACTS
+url::https://dev.twitter.com/pages/rate-limiting).
+service_receiver::APW Bookmarks 4x4
+service_receiver::APW Bookmarks 4x3
+activity::.base.WidgetMenu
+activity::.calendar.SelectCalendarsActivity
+service_receiver::SayWhatService
+activity::.base.common.AppPicker
+activity::.twitter.PostViewer
+intent::android.intent.action.PACKAGE_REPLACED
+service_receiver::APW Facebook 5x5
+service_receiver::APW Messaging 3x3
+url::upload.twitter.com
+service_receiver::APW People 4x3
+service_receiver::APW People 4x4
+url::http://upload.twitter.com/1/
+provider::com.rdr.widgets.core.people.provider
+permission::android.permission.CALL_PHONE
+url::http://www.facebook.com
+service_receiver::BookmarksUpdateService
+url::api.twitter.com
+service_receiver::APW People 5x5
+url::https://stream.twitter.com/1/
+url::http://developers.facebook.com/docs/reference/rest/
+provider::android.provider.Telephony.SMS_RECEIVED
+url::https://dev.twitter.com/docs/support)
+url::twitter4j.org
+url::www.facebook.com
+url::http://api.twitter.com/1/
+service_receiver::APW Twitter 5x5
+call::Execution of external commands
+service_receiver::APW Calendar 4x3
+service_receiver::APW Calendar 4x2
+service_receiver::APW Calendar 4x4
+intent::android.intent.category.BROWSABLE
+service_receiver::APW Say What?! 4x1
+url::www.google.co.jp
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+permission::android.permission.READ_CALENDAR
+service_receiver::APW Calendar 5x4
+intent::android.intent.category.INFO
+url::schemas.android.com
+url::m.facebook.com
+feature::android.hardware.touchscreen
+url::https://userstream.twitter.com/2/
+call::printStackTrace
+url::https://api.facebook.com/restserver.php
+service_receiver::PeopleUpdateService
+intent::android.intent.category.DEFAULT
+service_receiver::APW Twitter 4x3
+service_receiver::APW Twitter 4x2
+url::graph.facebook.com
+url::http://api.twitter.com/oauth/request_token
+service_receiver::APW Twitter 4x4
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+service_receiver::FacebookUpdateService
+url::http://m.facebook.com/
+api_call::android/app/Activity;->startActivity
+url::www.google.com
+provider::com.rdr.widgets.core.bookmarks.provider
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+service_receiver::.messaging.receivers.IncomingMessageReceiver
+url::http://twitter.com/
+activity::.timeline.PostComposer
+service_receiver::.base.ProVersionChecker
+url::http://apw.uservoice.com/
+url::http://www.google.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::TimelineUpdateService
+permission::android.permission.WRITE_CALENDAR
+url::https://dev.twitter.com/docs/auth)
+feature::android.hardware.telephony
+url::userstream.twitter.com
+service_receiver::APW People 5x4
+url::http://search.twitter.com/
+url::http://api.twitter.com/oauth/authorize
+service_receiver::APW Messaging 5x5
+service_receiver::APW Messaging 5x4
+url::http://graph.facebook.com/
+intent::android.intent.action.MAIN
+service_receiver::APW Messaging 4x4
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+service_receiver::APW People 3x3
+service_receiver::APW Messaging 4x2
+service_receiver::APW Messaging 4x3
+url::https://graph.facebook.com/
+service_receiver::TwitterUpdateService
+provider::android.appwidget.provider

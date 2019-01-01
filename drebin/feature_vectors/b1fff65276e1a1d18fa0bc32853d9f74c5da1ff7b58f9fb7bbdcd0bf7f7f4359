@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::market.android.com
+api_call::java/net/HttpURLConnection
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::android.tampiss.com
+intent::android.intent.category.DEFAULT
+url::http://android.tampiss.com/category/android-plugins/twicca-url-shortener/
+real_permission::android.permission.INTERNET
+url::http://market.android.com/search?q%3Dpub:tampiss
+activity::.Settings
+call::getSystemService

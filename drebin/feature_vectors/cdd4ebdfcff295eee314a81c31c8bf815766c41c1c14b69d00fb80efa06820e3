@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.RicercaOrari
+url::http://www.sboom.it/oraritrenitalia/acquista.php?
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.sboom.it/oraritrenitalia/dettaglio.php?
+activity::eu.baroncelli.oraritrenitalialibrary.RicercaOrari
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.sboom.it
+activity::eu.baroncelli.oraritrenitalialibrary.Viaggio
+intent::android.intent.category.LAUNCHER
+url::http://www.sboom.it/oraritrenitalia/latest_version.php
+call::getPackageInfo
+url::http://www.sboom.it/oraritrenitalia/viaggio.php?
+call::getSystemService

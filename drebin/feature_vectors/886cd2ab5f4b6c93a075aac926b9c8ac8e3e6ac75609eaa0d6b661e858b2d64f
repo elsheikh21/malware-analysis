@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+activity::ActIntro
+activity::.ActIntro
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://121.140.158.41/qry.php?TYPE%3DSELECT&QUERY%3D
+activity::.act.dc.selectDc.SelectDcActivity
+intent::android.intent.category.LAUNCHER
+url::121.140.158.41
+call::getSystemService

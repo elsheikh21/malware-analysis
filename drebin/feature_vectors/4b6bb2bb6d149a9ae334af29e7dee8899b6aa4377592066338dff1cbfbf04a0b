@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.faketouch
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.NRFCurrentCalc1
+activity::MainActivity

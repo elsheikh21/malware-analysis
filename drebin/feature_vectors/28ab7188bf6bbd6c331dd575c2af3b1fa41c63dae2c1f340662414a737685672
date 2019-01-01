@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::android/location/LocationManager;->requestLocationUpdates
+intent::android.intent.action.MAIN
+call::printStackTrace
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+activity::.shoplist
+activity::shoplist
+call::getSystemService

@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.QspPlayerStart
+api_call::android/media/MediaPlayer;->start
+activity::QspImageBox
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://qsp.su/gamestock/gamestock.php
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+url::qsp.su
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

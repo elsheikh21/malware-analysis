@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+service_receiver::.AndoidService
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.SEND_SMS
+call::printStackTrace
+real_permission::android.permission.SEND_SMS
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+service_receiver::.MyBroadcastReceiver

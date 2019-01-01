@@ -1,0 +1,6 @@
+activity::.aprimi
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.com.andrea.testapk2.aprimi

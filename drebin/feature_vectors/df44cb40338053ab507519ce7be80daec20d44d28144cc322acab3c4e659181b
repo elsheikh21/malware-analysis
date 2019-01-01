@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppLauncher
+feature::android.software.live_wallpaper
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+call::getSystemService

@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+feature::android.software.live_wallpaper
+service_receiver::Giraffe Live Wallpaper Lite

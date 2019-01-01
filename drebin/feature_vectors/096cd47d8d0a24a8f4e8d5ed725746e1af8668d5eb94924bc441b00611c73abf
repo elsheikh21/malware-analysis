@@ -1,0 +1,29 @@
+feature::android.hardware.touchscreen
+activity::Available Domains
+call::printStackTrace
+activity::Taken Domains
+permission::android.permission.INTERNET
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+activity::Preferences
+url::https://www.fastdomain.com/cgi-bin/signup?domain%3D
+url::http://www.register.com/domain/searchresults.rcmx?domain%3D
+activity::.activity.DomainListActivity
+activity::Domain Availability
+call::getSystemService
+activity::.activity.ResultListActivity
+url::www.register.com
+activity::Favorite Domains
+url::http://www.enom.com/domainsearch/register.aspx?sld%3D
+activity::.MainTabWidget
+url::www.fastdomain.com
+intent::android.intent.action.MAIN
+activity::.activity.AvailableDomainListActivity
+activity::.activity.FavoriteDomainsListActivity
+url::www.enom.com
+activity::.activity.SearchActivity
+intent::android.intent.category.LAUNCHER
+activity::.activity.TakenDomainListActivity
+activity::.activity.PreferencesActivity
+activity::.activity.WhoisDataDisplayActivity

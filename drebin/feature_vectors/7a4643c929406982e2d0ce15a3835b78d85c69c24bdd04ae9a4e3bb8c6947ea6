@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::who.closed.MainActivity
+intent::android.intent.action.MAIN
+activity::.MainActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER

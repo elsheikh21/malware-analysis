@@ -1,0 +1,15 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+activity::com.pitayamedia.cooking.leftovers.CategoryActivity
+activity::com.pitayamedia.cooking.leftovers.HelpActivity
+activity::com.pitayamedia.cooking.leftovers.SearchActivity
+intent::android.intent.category.DEFAULT
+activity::com.pitayamedia.cooking.leftovers.RecipeListActivity
+intent::android.intent.category.LAUNCHER
+activity::com.pitayamedia.cooking.leftovers.TipActivity
+real_permission::android.permission.INTERNET
+activity::com.pitayamedia.cooking.leftovers.ChapterActivity
+activity::.SplashActivity
+activity::com.pitayamedia.cooking.leftovers.RecipeActivity

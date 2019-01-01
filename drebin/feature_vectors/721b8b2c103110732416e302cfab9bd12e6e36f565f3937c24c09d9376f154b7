@@ -1,0 +1,6 @@
+activity::.BalanceActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.TripListActivity
+intent::android.intent.category.LAUNCHER
+call::getSystemService

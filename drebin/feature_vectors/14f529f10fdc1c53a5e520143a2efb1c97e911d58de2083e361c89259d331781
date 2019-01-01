@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SCREEN_ON
+service_receiver::.BroadcastReceiverService
+api_call::android/app/NotificationManager;->notify
+call::printStackTrace
+permission::android.permission.BATTERY_STATS
+intent::android.intent.action.SCREEN_OFF
+intent::android.intent.action.BATTERY_CHANGED
+service_receiver::Perfect System Monitor 4x1
+call::Read/Write External Storage
+service_receiver::Perfect System Monitor 2x1
+api_call::android/content/Context;->startService
+real_permission::android.permission.VIBRATE
+provider::android.appwidget.provider
+call::getSystemService

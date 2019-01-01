@@ -1,0 +1,147 @@
+call::Cipher(Cipher.BROKENPBEWITHSHA1ANDDES)
+call::Cipher(BC)
+call::Cipher(Cipher.CAST6)
+call::Cipher(pad block corrupted)
+call::Cipher(Cipher.RSA/ISO9796-1)
+call::Cipher(Cipher.RC2WRAP)
+call::HttpPost
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND2-KEYTRIPLEDES-CBC)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND3-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.XTEA)
+call::Cipher(cipher returned null)
+call::Cipher(Cipher.VMPC)
+call::Cipher(Cipher.ELGAMAL/PKCS1)
+url::ns.adobe.com
+call::Cipher(Cipher.OLDPBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.OLDPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::http://ns.adobe.com/pdf/1.3/
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC2-CBC)
+url::http://www.aiim.org/pdfa/ns/id/\
+call::Cipher(Cipher.PBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND128BITAES-CBC-BC)
+call::Cipher(Cipher.RSA/OAEP)
+call::Cipher(Cipher.1.3.6.1.4.1.3029.1.2)
+call::Cipher(Cipher.RSA/PKCS1)
+call::Read/Write External Storage
+activity::.SignIn
+url::http://purl.org/dc/elements/1.1/\
+call::Cipher(Cipher.PBEWITHMD5ANDDES)
+url::http://ns.adobe.com/xap/1.0/mm/\
+url::http://www.iconfirmapp.com/iConfirmEmailSender.php
+call::Cipher(Cipher.PBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::http://www.aiim.org/pdfa/ns/id/
+call::Cipher(Cipher.BROKENPBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC4)
+activity::.AddSignature
+url::www.xfa.org
+call::Cipher(Cipher.TWOFISH)
+call::Cipher(Cipher.BLOWFISH)
+permission::android.permission.INTERNET
+call::Cipher(Cipher.SALSA20)
+activity::.GeneralConfirmation
+call::Cipher(Cipher.HC128)
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC2-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+url::http://www.iconfirmapp.com/getFiles.php
+url::http://www.color.org
+url::http://www.iconfirmapp.com/upload.php
+call::Cipher(block truncated)
+url::http://www.iconfirmapp.com/login-exec.php
+call::Cipher(Mac codes failed to equal.)
+url::http://www.iconfirmapp.com/getTrialDate.php
+call::Cipher(Cipher.RSA)
+call::Cipher(Cipher.VMPC-KSA3)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC4)
+call::Cipher(Cipher.PBEWITHSHA1ANDDES)
+activity::.PhotoDocumentation
+url::https://api.merchante-solutions.com/mes-api/tridentApi
+call::Cipher(Cipher.RC5)
+url::http://www.iconfirmapp.com/
+call::Cipher(Cipher.HC256)
+call::Cipher(Cipher.SERPENT)
+call::Cipher(Cipher.ARC4)
+call::Cipher(input too short)
+call::Cipher(Cipher.DES)
+call::Cipher(Cipher.IES)
+url::www.aiim.org
+activity::.Home
+activity::.Registration
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::Cipher(Cipher.RC5-64)
+url::http://ns.adobe.com/xap/1.0/mm/
+call::Cipher(data too short)
+call::Cipher(mac check in EAX failed)
+api_call::java/net/HttpURLConnection
+url::purl.org
+call::Cipher(Cipher.TEA)
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+real_permission::android.permission.READ_CONTACTS
+call::Cipher(RSA/ECB/PKCS1Padding)
+activity::.CriticalPath
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC4)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC4)
+url::http://purl.org/dc/elements/1.1/
+url::http://www.iconfirmapp.com
+call::Cipher(Cipher.PBEWITHMD5ANDRC2)
+activity::.LogoAdd
+url::http://www.iconfirmapp.com/addGuestEmail.php
+call::Cipher(Cipher.RC6)
+url::http://www.iconfirmapp.com/deleteFile.php
+call::Cipher(Cipher.BROKENPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::http://www.iconfirmapp.com/addSubscription.php
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC2-CBC)
+activity::.Confirmation
+call::Cipher(AES)
+activity::.ChangeOrder
+activity::.History
+call::Cipher(Cipher.SKIPJACK)
+url::www.color.org
+call::Cipher(Camellia)
+url::http://ns.adobe.com/xap/1.0/\
+url::http://ns.adobe.com/pdf/1.3/\
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::api.merchante-solutions.com
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(Blowfish)
+url::http://www.iconfirmapp.com/register-exec.php
+call::Cipher(Cipher.BROKENPBEWITHMD5ANDDES)
+call::getSystemService
+call::Cipher(Cipher.RSA/1)
+call::Cipher(algorithm)
+feature::android.hardware.touchscreen
+url::http://www.xfa.org/schema/xfa-data/1.0/
+call::Cipher(Cipher.ECIES)
+call::Cipher(Cipher.DESEDERFC3211WRAP)
+call::Cipher(invalid forcing byte in block)
+call::Cipher(Cipher.BrokenIES)
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::.Purchase
+activity::.MaterialsVerification
+call::Cipher(Cipher.DESEDEWRAP)
+url::http://www.iconfirmapp.com/getReferralcode.php
+call::Cipher(Cipher.DESEDE)
+call::Cipher(Cipher.PBEWITHSHA1ANDRC2)
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(Cipher.GOST28147)
+activity::.StartActivity
+url::http://ns.adobe.com/xap/1.0/
+call::Cipher(mac check in CCM failed)
+call::Cipher(Cipher.RSA/2)
+url::www.iconfirmapp.com
+call::Cipher(Cipher.ELGAMAL)
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+intent::android.intent.action.MAIN
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC2-CBC)
+url::www.w3.org
+url::http://www.w3.org/1999/02/22-rdf-syntax-ns
+real_permission::android.permission.INTERNET
+call::Cipher(Cipher.RC2)
+call::Cipher(Cipher.RIJNDAEL)
+call::Cipher(Null pointer as ciphertext)
+call::Cipher(Cipher.1.2.840.113549.3.2)
+call::Cipher(Cipher.BrokenECIES)
+activity::.Signature

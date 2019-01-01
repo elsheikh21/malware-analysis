@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Info
+service_receiver::Analog Clock Widget 1
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

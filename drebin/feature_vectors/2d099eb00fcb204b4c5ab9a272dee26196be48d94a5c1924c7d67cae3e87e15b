@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::sites.google.com
+url::flic.kr
+intent::android.intent.action.MAIN
+activity::.OMGKittens
+url::http://flic.kr/p/%s
+url::http://farm%s.static.flickr.com/%s/%s_%s%s.jpg
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://sites.google.com/site/gson/gson-user-guide
+url::farm%s.static.flickr.com

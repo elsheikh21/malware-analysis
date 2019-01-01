@@ -1,0 +1,11 @@
+activity::.AplicacionMundial
+feature::android.hardware.touchscreen
+url::http://widgets.elpais.com/mundial2010/widget_publi_android.html
+intent::android.intent.action.MAIN
+url::http://widgets.elpais.com/mundial2010/widget.html
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::widgets.elpais.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

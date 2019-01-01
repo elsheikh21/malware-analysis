@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::http://m.amaproracing.com/rr/lite/e.html
+activity::.webview
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+url::m.amaproracing.com
+url::http://m.amaproracing.com/rr/lite/b.html
+real_permission::android.permission.INTERNET
+call::getSystemService

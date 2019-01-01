@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::com.sonispherecountdown.CountdownConfiguration
+service_receiver::com.sonispherecountdown.SonisphereCountdown
+url::uk.sonispherefestivals.com
+url::http://uk.sonispherefestivals.com/
+service_receiver::com.sonispherecountdown.CountdownService
+provider::android.appwidget.provider
+call::getSystemService

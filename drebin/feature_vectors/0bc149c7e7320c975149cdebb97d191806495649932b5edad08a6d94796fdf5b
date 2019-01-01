@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://imesa.mesaaz.gov
+activity::.iMesa
+url::imesa.mesaaz.gov
+intent::android.intent.category.LAUNCHER

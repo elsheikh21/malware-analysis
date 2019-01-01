@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CONTACTS

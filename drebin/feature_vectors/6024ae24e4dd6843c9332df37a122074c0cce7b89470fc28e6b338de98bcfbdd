@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::trace.nullwire.com
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::www.cokeandcode.com
+call::getSystemService
+call::printStackTrace
+activity::.SoccerActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://trace.nullwire.com/collect/
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.cokeandcode.com/android/exception.php
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::org.newdawn.soccer.android.SoccerActivity

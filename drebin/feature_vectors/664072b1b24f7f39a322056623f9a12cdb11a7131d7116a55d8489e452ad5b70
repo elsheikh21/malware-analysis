@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+service_receiver::BootReceiver
+service_receiver::AlarmReceiver
+activity::.TimeRecorder
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->startActivity
+call::getSystemService
+activity::.TimeRecorderAlarm

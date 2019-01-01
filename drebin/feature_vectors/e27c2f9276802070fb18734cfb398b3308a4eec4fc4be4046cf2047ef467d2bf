@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.PREFERENCE
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+activity::.CategoriesGrid
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

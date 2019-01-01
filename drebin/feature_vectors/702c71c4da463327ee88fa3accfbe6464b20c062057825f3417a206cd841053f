@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::EngineCalculator
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.EngineCalculator
+call::getSystemService

@@ -1,0 +1,14 @@
+activity::.welcomeCanvas
+activity::.menu
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.done
+api_call::android/media/MediaPlayer;->start
+activity::.main
+activity::.article
+feature::android.hardware.screen.portrait
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::.help

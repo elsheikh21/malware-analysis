@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::LoginForm
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.DNARemote
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::tab_alerts_view
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+activity::Preferences
+api_call::android/app/Activity;->startActivity
+call::printStackTrace
+activity::.SplashScreen
+url::http://www.netsupportdna.com/mobile.asp
+call::getSystemService
+call::Obfuscation(Base64)
+call::Cipher(blowfish)
+activity::tab_changes_view
+activity::NetworkAdapterDetails
+call::Read/Write External Storage
+activity::tab_details_view
+url::www.netsupportdna.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

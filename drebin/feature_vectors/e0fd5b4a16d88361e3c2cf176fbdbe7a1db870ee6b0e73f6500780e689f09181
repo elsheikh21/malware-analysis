@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://www.sloveniaholidays.com/script/smucisca.xml
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+url::http://www.hal.si/demo/banner.php
+url::www.hal.si
+url::www.sloveniaholidays.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+activity::.List
+real_permission::android.permission.INTERNET
+intent::android.intent.category.VIEW
+intent::android.intent.action.DEFAULT
+url::http://www.hal.si/demo/bannerKlik.php?ID%3D
+call::getSystemService

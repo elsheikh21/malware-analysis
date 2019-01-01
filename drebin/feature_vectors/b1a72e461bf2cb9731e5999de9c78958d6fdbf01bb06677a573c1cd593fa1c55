@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+activity::.Main
+permission::android.permission.INTERNET
+url::kairopark.jp
+feature::android.hardware.screen.portrait
+activity::net.kairosoft.android.soccer_en.Main
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://kairopark.jp/j7hjT4ua//gm55/soccer_android.jar
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

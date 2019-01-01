@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.DailyHoroscope
+activity::.horoscope
+activity::.TodayInHistory
+intent::android.intent.action.MAIN
+activity::.today
+activity::.dilbert
+activity::.QuoteOfDay
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.WordOfDay
+api_call::java/net/HttpURLConnection
+call::getSystemService

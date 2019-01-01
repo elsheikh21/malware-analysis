@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::probaseballapps.com
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.cleavelandprobaseball
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://probaseballapps.com/apps/cleaveland_pro_baseball.php

@@ -1,0 +1,14 @@
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+url::yongSubway2.appspot.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://yongSubway2.appspot.com
+permission::android.permission.INTERNET
+feature::android.hardware.location
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.yongSubway2_NY
+real_permission::android.permission.INTERNET

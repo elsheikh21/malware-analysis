@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::xml.org
+activity::.main
+url::http://www.boston.ac.uk/coursesearch/apprenticeships/1
+url::http://s340911802.websitehome.co.uk/collegeapp/BostonB2B/programs.xml
+url::s340911802.websitehome.co.uk
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://xml.org/sax/features/namespaces
+url::www.boston.ac.uk
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.INTERNET
+url::http://xml.org/sax/features/namespace-prefixes

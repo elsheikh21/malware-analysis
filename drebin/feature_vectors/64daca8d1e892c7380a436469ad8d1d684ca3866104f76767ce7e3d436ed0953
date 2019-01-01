@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+service_receiver::.GproWidgetProvider
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::getSystemService
+provider::android.appwidget.provider
+intent::android.intent.action.VIEW

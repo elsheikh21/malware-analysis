@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::net.taobits.officecalculator.android.TapeViewActivity
+activity::.CalculatorActivity
+intent::android.intent.action.MAIN
+activity::net.taobits.officecalculator.android.CalculatorActivity
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+activity::net.taobits.officecalculator.android.ChangeTapeLineActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+activity::net.taobits.officecalculator.android.AnnotateTapeLineActivity

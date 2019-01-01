@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+service_receiver::.AutoClearAlarmReceiver
+call::printStackTrace
+intent::android.intent.category.HOME
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.BOOT_COMPLETED
+activity::.AutoClearService
+api_call::android/content/Context;->startActivity
+activity::.Settings
+real_permission::android.permission.VIBRATE
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+intent::android.intent.action.ACTION_BOOT_COMPLETED
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+service_receiver::.AutoClearService_Service
+activity::.CacheMate
+provider::android.appwidget.provider

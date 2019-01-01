@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.abscidetur.com
+intent::android.intent.action.MAIN
+url::http://www.abscidetur.com
+activity::.Main_Screen
+activity::.DictionaryViewer
+activity::.Quiz
+activity::.BookIgViewer
+intent::android.intent.category.LAUNCHER
+activity::.Flashcards

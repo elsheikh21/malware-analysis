@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.mismatch_calc
+activity::.returnloss_calc
+activity::.attenuator_calc
+intent::android.intent.category.LAUNCHER
+activity::.mcalculator
+call::getSystemService

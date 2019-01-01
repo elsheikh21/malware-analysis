@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->sendBroadcast
+url::mnesoft.tistory.com
+intent::android.intent.action.MAIN
+url::http://mnesoft.tistory.com
+feature::android.hardware.camera.autofocus
+activity::Filter set chooser
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MainActivity
+api_call::android/content/ContentResolver;->openOutputStream
+feature::android.hardware.screen.portrait
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+activity::Studio
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+feature::android.hardware.camera
+call::getSystemService

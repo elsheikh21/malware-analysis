@@ -1,0 +1,9 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.SplashView
+url::http://market.android.com/details?id%3Dcom.factum.wallpapers.nature.sizeM

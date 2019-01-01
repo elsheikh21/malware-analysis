@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+activity::.SetActivity
+intent::android.intent.action.VIEW
+activity::.MP3Directory

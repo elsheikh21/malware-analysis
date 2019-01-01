@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::com.benoved.calc.commission.chart_activity
+intent::android.intent.action.MAIN
+activity::com.benoved.calc.commission.help_activity
+activity::.main
+activity::com.benoved.calc.commission.info_activity
+activity::com.benoved.calc.commission.result_table_activity
+activity::com.benoved.calc.commission.about_activity
+url::http://meravs.com
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService
+url::meravs.com

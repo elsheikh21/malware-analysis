@@ -1,0 +1,21 @@
+url::beekeeperlabs.com
+feature::android.hardware.touchscreen
+activity::com.beekeeper.databee.base.DB
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.DB
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+url::http://beekeeperlabs.com/ContactUs.php
+intent::android.intent.action.SEARCH
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

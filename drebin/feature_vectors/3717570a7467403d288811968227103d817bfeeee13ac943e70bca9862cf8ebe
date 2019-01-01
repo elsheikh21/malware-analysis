@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Main
+url::https://www.mbnet.pt/sidebar.html
+intent::android.intent.category.LAUNCHER
+url::www.mbnet.pt

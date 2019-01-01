@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+intent::android.intent.category.HOME
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.BOOT_COMPLETED
+activity::Quit Application ?
+real_permission::android.permission.WAKE_LOCK
+url::www.google.com
+api_call::android/media/MediaPlayer;->start
+activity::Change Password
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+activity::Change Home Page
+activity::.loadUrl
+url::http://www.google.com
+real_permission::android.permission.DISABLE_KEYGUARD
+permission::android.permission.DISABLE_KEYGUARD
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+service_receiver::.bootCompleted
+real_permission::android.permission.INTERNET
+activity::.logo
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->startActivity

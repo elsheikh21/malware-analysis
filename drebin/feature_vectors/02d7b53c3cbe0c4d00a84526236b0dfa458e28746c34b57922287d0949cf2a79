@@ -1,0 +1,17 @@
+url::http://www.theftaware.com/provide.php?am%3D2&i%3D
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+call::getDeviceId
+activity::.StartSetupActivity
+intent::android.intent.action.MAIN
+url::http://www.theftaware.com/index.php
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::http://www.theftaware.com/getkey.php?i%3D
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+url::http://www.theftaware.com/generate.php
+url::www.theftaware.com
+call::getSystemService

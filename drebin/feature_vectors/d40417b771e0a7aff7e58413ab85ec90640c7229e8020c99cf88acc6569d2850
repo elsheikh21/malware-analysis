@@ -1,0 +1,7 @@
+activity::.ScanActivity1
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MyPreferenceActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage

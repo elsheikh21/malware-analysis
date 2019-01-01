@@ -1,0 +1,10 @@
+activity::.SimetActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+activity::.SimetPreferenceActivity
+call::getSystemService

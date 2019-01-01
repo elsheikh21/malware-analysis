@@ -1,0 +1,14 @@
+activity::EyeContactGalleryActivity
+feature::android.hardware.touchscreen
+activity::.EyeContactActivity
+intent::android.intent.action.MAIN
+api_call::android/provider/Contacts$People;->loadContactPhoto
+activity::EyeContactListActivity
+permission::android.permission.SEND_SMS
+activity::EyeContactActivity
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

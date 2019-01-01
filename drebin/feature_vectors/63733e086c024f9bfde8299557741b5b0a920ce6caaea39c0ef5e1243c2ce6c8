@@ -1,0 +1,13 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+call::printStackTrace
+intent::android.intent.category.DEFAULT
+activity::.aSQLiteManager
+intent::android.intent.category.SELECTED_ALTERNATIVE
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+intent::android.intent.category.ALTERNATIVE

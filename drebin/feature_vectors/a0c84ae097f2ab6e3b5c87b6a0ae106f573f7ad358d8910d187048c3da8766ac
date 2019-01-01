@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+url::https://www.nicado.net/api/updlocn/aaa/
+intent::android.intent.action.MAIN
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::www.nicado.net
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+activity::.NicLocate
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.ACCESS_GPS
+call::getSystemService

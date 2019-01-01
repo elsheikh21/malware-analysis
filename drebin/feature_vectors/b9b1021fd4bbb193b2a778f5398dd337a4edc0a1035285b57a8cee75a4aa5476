@@ -1,0 +1,60 @@
+url::www.hotely.cz
+feature::android.hardware.touchscreen
+url::http://xml.org/sax/properties/lexical-handler
+activity::Obl%C3%ADben%C3%A9
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+url::http://www.hotely.cz/mobile/searchCity/
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+url::http://java.sun.com/xml/jaxp/properties/schemaSource
+activity::.Hotely
+activity::Rerzervace
+url::http://xml.org/sax/properties/declaration-handler
+activity::N%C3%A1zev hotelu
+url::http://xml.org/sax/features/validation
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://xml.org/sax/features/external-general-entities
+feature::android.hardware.location.gps
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://www.hotely.cz/mobile/logmobile/
+url::http://java.sun.com/xml/jaxp/properties/schemaLanguage
+activity::Vyhledat
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+url::http://xml.org/sax/features/namespaces
+url::http://www.hotely.cz/mobile/order/
+activity::P%C5ehled rezervac%C3%AD
+call::getSystemService
+url::jdom.org
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::P%C5ehled rezervace ubytov%C3%A1n%C3%AD
+activity::Rezervace ubytov%C3%A1n%C3%AD
+permission::android.permission.ACCESS_NETWORK_STATE
+url::org.jdom.transform.JDOMSource
+activity::U%C5%BEivatelsk%C3%BD profil
+api_call::android/app/Activity;->startActivity
+url::http://www.hotely.cz/mobile/hotelList/
+url::http://www.hotely.cz/mobile/searchHotels/
+url::http://www.hotely.cz/mobile/hotelDetail/
+url::java.sun.com
+url::http://org.jdom.transform.JDOMResult/feature
+intent::android.intent.action.MAIN
+url::http://www.w3.org/XML/1998/namespace
+url::http://xml.org/sax/handlers/LexicalHandler
+url::http://www.hotely.cz/mobile/cityList/
+url::www.w3.org
+api_call::android/location/LocationManager;->getBestProvider
+url::http://xml.org/sax/features/namespace-prefixes
+feature::android.hardware.location.network
+activity::V%C3%BDsledky vyhled%C3%A1v%C3%A1n%C3%AD
+intent::android.intent.category.LAUNCHER
+url::http://xml.org/sax/handlers/DeclHandler
+url::http://jdom.org/jaxp/xpath/jdom
+url::org.jdom.transform.JDOMResult
+url::http://org.jdom.transform.JDOMSource/feature
+permission::android.permission.ACCESS_FINE_LOCATION
+url::xml.org
+url::temporary
+url::http://temporary

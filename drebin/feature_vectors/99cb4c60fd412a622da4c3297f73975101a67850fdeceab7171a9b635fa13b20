@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.Joymaster
+api_call::android/media/MediaPlayer;->start
+api_call::android/os/Vibrator;->vibrate
+url::http://irose.joymaster.com.tw/servlet/BB?g%3D
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+api_call::android/app/Activity;->setContentView
+url::android.somuch.tw
+url::http://android.somuch.tw
+url::irose.joymaster.com.tw
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.LiveStreamer
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+real_permission::android.permission.VIBRATE
+url::http://sc1.abacast.com:8065/
+call::getSystemService
+api_call::android/telephony/TelephonyManager;->listen
+url::http://sc1.abacast.com:8063/
+service_receiver::net.datamachine.surye.tbn.playerservice.PlayerService
+real_permission::android.permission.READ_PHONE_STATE
+url::sc1.abacast.com
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

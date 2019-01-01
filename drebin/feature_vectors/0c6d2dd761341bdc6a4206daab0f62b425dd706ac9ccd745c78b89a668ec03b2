@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::FlipStatisticsActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.CoinFlipperPreferenceActivity
+real_permission::android.permission.WAKE_LOCK
+activity::.EditBackgroundActivity
+api_call::android/media/MediaPlayer;->start
+activity::.SaveImageActivity
+call::getSystemService
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.CoinFlipper
+real_permission::android.permission.INTERNET
+activity::.InstructionsActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

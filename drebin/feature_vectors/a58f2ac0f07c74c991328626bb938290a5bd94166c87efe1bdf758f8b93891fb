@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://wiki.processing.org/w/Android
+url::wiki.processing.org
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.LetterBaby
+call::printStackTrace
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+api_call::java/lang/Runtime;->exec

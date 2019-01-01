@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://2933.live.streamtheworld.com:80/GATOFMCMP3
+url::www.sapocom.com
+api_call::android/media/MediaPlayer;->start
+activity::.mainactivity
+permission::android.permission.INTERNET
+url::http://www.sapocom.com/AndroidApps/contact.cfm?APP%3DEG-KDLD&interface%3Dandroid
+url::http://www.sapocom.com/AndroidApps/info.php?APP%3DEG-KDLD&interface%3Dandroid
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+url::2933.live.streamtheworld.com

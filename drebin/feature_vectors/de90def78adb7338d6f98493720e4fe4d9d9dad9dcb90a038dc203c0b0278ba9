@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+service_receiver::.InfoService
+permission::android.permission.WRITE_APN_SETTINGS
+api_call::android/content/ContentResolver;->query
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+service_receiver::.WidgetProvider
+call::getSystemService
+permission::android.permission.VIBRATE
+service_receiver::.AlarmReceiver
+service_receiver::.ConnectivityReceiver
+intent::android.net.conn.CONNECTIVITY_CHANGE
+feature::android.hardware.telephony
+api_call::android/content/Context;->sendBroadcast
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider

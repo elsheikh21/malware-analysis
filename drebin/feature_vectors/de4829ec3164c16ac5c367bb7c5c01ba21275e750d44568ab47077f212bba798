@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.category.BROWSABLE
+activity::FilesListActivity
+intent::android.intent.action.MAIN
+activity::EditPanelButton
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+activity::.MainActivity
+activity::TagGame
+feature::android.hardware.screen.portrait
+activity::NewPanelActivity
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.category.LAUNCHER
+activity::NewGameActivity
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+activity::ViewGameActivity

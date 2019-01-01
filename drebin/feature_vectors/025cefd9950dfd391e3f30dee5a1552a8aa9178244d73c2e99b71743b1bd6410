@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.prototypes.exanano1.com
+url::www.exa.com.au
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ExaQuote
+url::http://www.exa.com.au
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.prototypes.exanano1.com/fetchquotes.php
+call::getSystemService
+activity::.ExaQuoteSplash

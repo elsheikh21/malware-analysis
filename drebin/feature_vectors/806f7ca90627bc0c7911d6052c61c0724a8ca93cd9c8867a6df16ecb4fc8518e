@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.roadrunnerdaily.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::Road Runner Daily
+url::http://mobile.roadrunnerdaily.com/schedule
+activity::.Main
+url::http://mobile.roadrunnerdaily.com
+url::http://mobile.roadrunnerdaily.com/about
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mobile.roadrunnerdaily.com/roster
+real_permission::android.permission.INTERNET
+url::http://mobile.roadrunnerdaily.com/stats

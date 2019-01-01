@@ -1,0 +1,14 @@
+url::mobile.dailypaladin.com
+feature::android.hardware.touchscreen
+url::http://mobile.dailypaladin.com/schedule
+url::http://mobile.dailypaladin.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://mobile.dailypaladin.com/stats
+activity::Daily Paladin
+url::http://mobile.dailypaladin.com/roster
+url::http://mobile.dailypaladin.com/about

@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->startActivity
+call::Obfuscation(Base64)
+call::getSystemService
+url::www.lysesoft.com
+url::http://www.lysesoft.com
+activity::.OptionsActivity
+activity::.AboutActivity
+activity::.ArchiverActivity
+activity::.PickFileChooserActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+intent::android.intent.action.PICK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.SplashActivity

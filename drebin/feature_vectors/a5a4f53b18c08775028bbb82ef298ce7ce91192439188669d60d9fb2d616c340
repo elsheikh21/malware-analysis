@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::demo.appsgoo.com
+intent::android.intent.action.MAIN
+activity::.bluecrystal
+intent::android.intent.category.LAUNCHER
+url::http://demo.appsgoo.com/bluecrystal.com.tw/

@@ -1,0 +1,12 @@
+activity::com.zorastudios.pathfinderrpgmanager.Monsters
+activity::com.zorastudios.pathfinderrpgmanager.MonstersEdit
+activity::com.zorastudios.pathfinderrpgmanager.MainMenu
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::com.zorastudios.pathfinderrpgmanager.Encounter
+intent::android.intent.category.DEFAULT
+activity::.MainMenu
+activity::com.zorastudios.pathfinderrpgmanager.Encounter2
+intent::android.intent.category.LAUNCHER
+activity::com.zorastudios.pathfinderrpgmanager.CharactersEdit
+activity::com.zorastudios.pathfinderrpgmanager.Characters

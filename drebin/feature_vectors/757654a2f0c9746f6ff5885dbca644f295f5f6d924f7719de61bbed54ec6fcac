@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.SplashScreen
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::SimpleGroceryList
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.DEFAULT

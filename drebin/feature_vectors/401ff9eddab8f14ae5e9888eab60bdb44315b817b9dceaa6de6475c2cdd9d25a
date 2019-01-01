@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+api_call::android/content/Context;->startActivity
+activity::.Main
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+api_call::android/app/Activity;->setContentView
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS

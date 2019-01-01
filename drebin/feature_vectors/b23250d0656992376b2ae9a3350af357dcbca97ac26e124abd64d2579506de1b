@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+activity::.RePaintActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+feature::android.hardware.screen.portrait
+activity::com.baguette.repaint.RePaintActivity
+api_call::android/hardware/Camera;->open
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA

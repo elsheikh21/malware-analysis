@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::.MediaAppWidgetProvider
+service_receiver::.MediaPlaybackService
+activity::AddWidgetActivity
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider

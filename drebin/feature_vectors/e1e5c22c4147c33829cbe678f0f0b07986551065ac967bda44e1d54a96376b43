@@ -1,0 +1,20 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.ArticleView1
+url::this.is.a.fake.url
+intent::android.intent.action.MAIN
+intent::android.intent.action.Categories1
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.ArticlesList1
+permission::android.permission.INTERNET
+url::http://feeds.feedburner.com/GadgetHelplineUk
+feature::android.hardware.screen.portrait
+activity::Gadget Help
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.VideoPlayerActivity1
+real_permission::android.permission.INTERNET
+intent::android.intent.action.BlogFeedActivity1
+intent::android.intent.category.DEFAULT
+activity::.SplashActivity
+url::http://this.is.a.fake.url/

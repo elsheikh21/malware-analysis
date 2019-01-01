@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_OWNER_DATA
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+activity::.mainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::android/webkit/WebView
+real_permission::android.permission.WAKE_LOCK
+url::http://www.justwannabe.com/M/index.php
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+api_call::android/app/NotificationManager;->notify
+url::www.justwannabe.com
+call::getSystemService
+intent::android.intent.category.LAUNCHER

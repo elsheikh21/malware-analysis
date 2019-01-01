@@ -1,0 +1,5 @@
+activity::Mathmory
+feature::android.hardware.touchscreen
+activity::.Mathmory
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

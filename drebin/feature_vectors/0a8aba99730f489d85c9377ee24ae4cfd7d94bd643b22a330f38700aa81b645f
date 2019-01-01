@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.TopActivity
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+call::getSystemService

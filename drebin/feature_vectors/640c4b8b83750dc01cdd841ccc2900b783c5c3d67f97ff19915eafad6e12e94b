@@ -1,0 +1,16 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::https://sites.google.com/site/appinventorextender/documentation
+url::sites.google.com
+activity::.About
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+intent::android.intent.action.MAIN5
+intent::android.intent.action.MAIN4
+intent::android.intent.action.MAIN3
+intent::android.intent.action.MAIN2

@@ -1,0 +1,9 @@
+url::http://www.beginneraquarium.com/
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+url::www.beginneraquarium.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.Andjong
+intent::android.intent.action.MAIN
+activity::.Game
+activity::.Settings
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER

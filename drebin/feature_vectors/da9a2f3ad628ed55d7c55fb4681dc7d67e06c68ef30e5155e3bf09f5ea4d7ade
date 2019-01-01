@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+call::Read/Write External Storage
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::Obfuscation(Base64)
+call::getSystemService
+activity::.PhotoPreviewActivity

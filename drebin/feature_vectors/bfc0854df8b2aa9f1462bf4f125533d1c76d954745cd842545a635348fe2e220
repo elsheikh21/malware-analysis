@@ -1,0 +1,6 @@
+url::www.madamgeeky.mobi
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MilaKunisActivity
+intent::android.intent.category.LAUNCHER
+url::http://www.madamgeeky.mobi/2011/07/up-to-minute-mila-kunis-news-official.html

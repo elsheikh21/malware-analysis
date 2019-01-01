@@ -1,0 +1,14 @@
+activity::.controller.MainController
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.controller.AboutController
+activity::.MainController
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+api_call::android/webkit/WebView
+activity::.controller.ViewerController
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW

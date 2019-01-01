@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.wpandroid.com/apps/app668/page1.php\
+permission::android.permission.INTERNET
+url::http://www.wpandroid.com/apps/app668/page4.php\
+real_permission::android.permission.INTERNET
+url::www.wpandroid.com
+url::http://www.wpandroid.com/apps/app668/redirect.php
+api_call::android/webkit/WebView
+url::http://www.wpandroid.com/apps/app668/page3.php\
+url::http://www.wpandroid.com/apps/app668/page2.php\
+activity::.Activity1
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://feeds.feedburner.com/KillerTradingSystems
+url::http://tradingninja.com/2011/05/forex-hercules/
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.Activity1
+url::tradingninja.com

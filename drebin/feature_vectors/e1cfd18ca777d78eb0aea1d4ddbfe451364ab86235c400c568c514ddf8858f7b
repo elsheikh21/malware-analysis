@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+service_receiver::soapbox.sym3try.masqedcrusadertrial12.MyReceiver
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+call::Read/Write External Storage
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.WRITE_SETTINGS
+call::getSystemService
+api_call::android/telephony/TelephonyManager;->listen
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+api_call::android/app/Activity;->startActivity
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

@@ -1,0 +1,18 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen.multitouch.distinct
+activity::.mfts
+service_receiver::com.n3vgames.android.N3vDownloadService
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.touchscreen.multitouch
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_OWNER_DATA
+api_call::android/content/Context;->startService
+call::Read/Write External Storage
+call::printStackTrace
+call::getSystemService
+permission::android.permission.WRITE_OWNER_DATA

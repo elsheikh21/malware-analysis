@@ -1,0 +1,12 @@
+url::www.aartbik.com
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::java/lang/Runtime;->exec
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+call::Execution of external commands
+activity::.Chess
+url::http://www.aartbik.com/MISC/android.html
+intent::android.intent.category.LAUNCHER
+call::getSystemService

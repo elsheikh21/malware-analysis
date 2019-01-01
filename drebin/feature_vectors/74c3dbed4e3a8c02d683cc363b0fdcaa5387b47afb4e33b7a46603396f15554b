@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.welcome
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+url::http://114.32.32.194/phone/ad/CN002.xml
+url::http://114.32.32.194/phone/People_Count.jsp?Program_Name%3D8
+permission::android.permission.INTERNET
+url::114.32.32.194
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK

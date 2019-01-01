@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+provider::.widget.WIDGETprovider41
+service_receiver::android.permission.BIND_WALLPAPER
+intent::android.intent.action.MAIN
+activity::.widget.CONFIGactivity41
+activity::.wallpaper.SETTINGSactivity
+api_call::android/app/Activity;->startActivity
+feature::android.software.live_wallpaper
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService
+activity::.FlipClockActivity

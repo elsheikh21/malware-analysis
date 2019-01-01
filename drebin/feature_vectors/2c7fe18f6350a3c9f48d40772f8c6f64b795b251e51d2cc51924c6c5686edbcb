@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::senseis.xmp.net
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::za.co.lookhere.ozogo.About
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.EightyOneStones
+intent::android.intent.category.LAUNCHER
+activity::za.co.lookhere.ozogo.Score
+real_permission::android.permission.INTERNET
+url::http://senseis.xmp.net/?PagesForBeginners
+api_call::java/net/Socket
+call::getSystemService

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+service_receiver::LaunchService
+intent::android.intent.action.MAIN
+activity::.MainActivity
+activity::WebView
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+intent::android.intent.category.DEFAULT
+api_call::java/net/Socket

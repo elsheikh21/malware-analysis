@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+url::http://otonews.kimo.jp/cache/news_a.txt
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::otonews.kimo.jp
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://otonews.kimo.jp/cache/kai_a.txt
+url::http://otonews.kimo.jp/cache/edu_a.txt
+activity::.SplashActivity
+call::getSystemService

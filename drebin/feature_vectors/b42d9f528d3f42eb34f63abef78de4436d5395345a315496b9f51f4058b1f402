@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.AudioListActivity
+intent::android.intent.action.MAIN
+activity::.OtoKomachi
+activity::.AudioPlayerActivity
+api_call::android/media/MediaPlayer;->start
+api_call::android/media/MediaRecorder;->setAudioSource
+activity::.AudioRecorderActivity
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.microphone
+real_permission::android.permission.RECORD_AUDIO
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.WAKE_LOCK

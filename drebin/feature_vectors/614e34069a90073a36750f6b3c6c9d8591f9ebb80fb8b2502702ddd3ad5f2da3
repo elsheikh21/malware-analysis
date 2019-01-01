@@ -1,0 +1,7 @@
+activity::Wolfram Alpha Qucklaunch
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.walauncher
+url::www.wolframalpha.com
+intent::android.intent.category.LAUNCHER
+url::http://www.wolframalpha.com/input/?i%3D

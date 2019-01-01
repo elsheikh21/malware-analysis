@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::https://github.com/destil/Fix-Broken-Power-Button
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+api_call::android/content/Context;->startActivity
+service_receiver::.LockScreenService
+real_permission::android.permission.DISABLE_KEYGUARD
+url::github.com
+service_receiver::.UnlockService
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+provider::android.appwidget.provider
+call::getSystemService
+permission::android.permission.DISABLE_KEYGUARD

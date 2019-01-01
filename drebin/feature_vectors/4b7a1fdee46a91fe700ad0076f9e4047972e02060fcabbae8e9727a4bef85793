@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Help
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Options
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.DLcalc
+call::getSystemService

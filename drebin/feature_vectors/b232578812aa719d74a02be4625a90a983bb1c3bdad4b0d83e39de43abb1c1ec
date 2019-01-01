@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.DataViewer
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

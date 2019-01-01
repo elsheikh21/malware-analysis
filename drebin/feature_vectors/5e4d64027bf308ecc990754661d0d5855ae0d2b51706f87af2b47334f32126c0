@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.BackupListActivity
+intent::android.intent.category.LAUNCHER
+activity::.RestoreActivity

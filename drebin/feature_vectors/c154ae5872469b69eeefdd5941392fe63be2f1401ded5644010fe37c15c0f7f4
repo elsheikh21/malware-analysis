@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://greengreenergrow.com/place-order/
+activity::.SelectActivity
+url::http://greengreenergrow.com/menu/
+url::greengreenergrow.com
+url::http://greengreenergrow.com/delivery-map/
+intent::android.intent.category.LAUNCHER

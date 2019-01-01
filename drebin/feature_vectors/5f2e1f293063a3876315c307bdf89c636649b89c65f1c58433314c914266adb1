@@ -1,0 +1,32 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.CurrentData
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+url::sean.kndy.net
+activity::.BulletLibModelsList
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.Shooter
+real_permission::android.permission.INTERNET
+call::HttpPost
+feature::android.hardware.location.gps
+activity::.BulletLibMfgsList
+activity::.BulletLibDiamsList
+feature::android.hardware.location
+activity::.AmmoList
+real_permission::android.permission.VIBRATE
+api_call::android/location/LocationManager;->isProviderEnabled
+activity::.TrajectoryTable
+call::getSystemService
+activity::.Solution
+permission::android.permission.VIBRATE
+url::http://sean.kndy.net/shooter/sync.php
+activity::Shooter: Edit Preferences
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.ManageFirearmProfile
+activity::.ManageAmmoProfile

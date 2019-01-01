@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AboutActivity
+intent::android.intent.category.followerslivewallpaper.backgrounds
+activity::.Grid2
+call::getPackageInfo
+activity::.ImageSwitcher1
+intent::android.intent.category.followerslivewallpaper.balloons

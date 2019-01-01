@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::passwdmanager.berlios.de
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.PasswdManager
+url::http://passwdmanager.berlios.de/
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Obfuscation(Base64)
+permission::android.permission.BIND_INPUT_METHOD
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::com.willmobile.android.jihsun2.MtycoonActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/Activity;->setContentView
+api_call::android/app/Activity;->sendBroadcast
+activity::.MtycoonActivity
+call::getSystemService

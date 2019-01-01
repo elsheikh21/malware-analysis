@@ -1,0 +1,154 @@
+permission::android.permission.WRITE_USER_DICTIONARY
+call::getDeviceId
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://www.w3.org/2001/XMLSchema-instance
+activity::View Files / My Phone
+activity::View Files / My gMelters
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://xmlpull.org/v1/doc/
+permission::android.permission.CHANGE_WIFI_STATE
+url::http://s3.amazonaws.com/doc/2006-03-01/
+activity::Smart Backup
+url::www.
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+api_call::android/telephony/TelephonyManager;->getDeviceId
+url::https://cloudfront.amazonaws.com/2010-06-01
+call::getSystemService
+permission::android.permission.READ_USER_DICTIONARY
+permission::android.permission.CAMERA
+permission::android.permission.READ_SMS
+url::www.openmobilealliance.org
+permission::android.permission.WRITE_SECURE_SETTINGS
+url::http://www.wireless-village.org/CSP
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+url::services.gmelt.avantica.com
+url::http://aws.amazon.com/s3
+url::http://cloudfront.amazonaws.com/doc/2010-06-01/
+url::services.
+url::http://www.wireless-village.org/TRC
+url::http://www.openmobilealliance.org/DTD/WV-CSP
+api_call::android/net/wifi/WifiManager;->reconnect
+url::http://xml.apache.org/xml-soap
+permission::com.google.android.providers.gmail.permission.READ_GMAIL
+permission::android.permission.READ_LOGS
+activity::Notification
+permission::android.permission.INTERNET
+activity::Share your file
+feature::android.hardware.screen.portrait
+permission::android.permission.WRITE_SETTINGS
+feature::android.hardware.location.gps
+permission::android.permission.WRITE_CONTACTS
+activity::Inbox
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::Backup
+url::http://acs.amazonaws.com/groups/global/AuthenticatedUsers
+permission::com.google.android.gm.permission.READ_GMAIL
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+url::http://www.w3.org/2001/12/soap-encoding
+activity::Admin / Change password
+url::aws.amazon.com
+real_permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.ACCESS_WIFI_STATE
+url::http://www.
+url::http://s3.amazonaws.com/doc/2006-03-01/\
+url::http://www.openmobilealliance.org/DTD/WV-TRC
+permission::com.google.android.providers.talk.permission.READ_ONLY
+url::http://www.w3.org/XML/1998/namespace
+feature::android.hardware.camera
+service_receiver::SchedulerService
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+activity::.activity
+permission::android.permission.CHANGE_NETWORK_STATE
+service_receiver::SchedulerControl
+url::schemas.xmlsoap.org
+api_call::java/net/HttpURLConnection
+activity::Help
+permission::android.permission.READ_GMAIL
+intent::android.intent.action.DELETE
+call::Read/Write External Storage
+provider::Location provider
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->sendBroadcast
+url::http://www.wireless-village.org/PA
+activity::View Files
+service_receiver::VCardIO
+url::http://schemas.xmlsoap.org/soap/encoding/
+feature::android.hardware.camera.autofocus
+activity::Admin
+service_receiver::ServiceAutoStarter
+url::https://cloudfront.amazonaws.com/2010-06-01/origin-access-identity/cloudfront
+call::setWifiEnabled
+url::http://xmlpull.org/v1/doc/features.html
+url::http://xmlpull.org/v1/doc/properties.html
+url::acs.amazonaws.com
+permission::android.permission.WRITE_SYNC_SETTINGS
+url::http://schemas.xmlsoap.org/soap/envelope/
+call::Execution of external commands
+activity::Schedule
+url::http://www.w3.org/2001/XMLSchema-instance\
+real_permission::android.permission.CHANGE_WIFI_STATE
+activity::View Files / My gMelt
+activity::Restore
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.w3.org/2001/12/soap-envelope
+permission::android.permission.READ_CALENDAR
+call::Cipher(DES/ECB/NoPadding)
+api_call::android/app/NotificationManager;->notify
+url::https://cloudfront.amazonaws.com/2010-06-01/origin-access-identity/cloudfront/
+api_call::android/net/wifi/WifiManager;->isWifiEnabled
+permission::com.android.email.permission.ACCESS_PROVIDER
+feature::android.hardware.touchscreen
+url::www.w3.org
+activity::Upload Menu
+permission::android.permission.WRITE_OWNER_DATA
+call::printStackTrace
+real_permission::android.permission.WRITE_SETTINGS
+url::https://www.
+url::https://s3.amazonaws.com/soap
+url::cloudfront.amazonaws.com
+intent::android.intent.category.DEFAULT
+provider::com.google.android.providers.gmail.permission.READ_GMAIL
+activity::Create a new User
+intent::android.intent.action.BOOT_COMPLETED
+url::http://services.
+url::http://www.w3.org/2000/xmlns/
+permission::android.permission.READ_CONTACTS
+api_call::android/net/wifi/WifiManager$WifiLock;->acquire
+url::https://cloudfront.amazonaws.com/
+url::s3.amazonaws.com
+api_call::android/content/ContentResolver;->query
+url::http://www.openmobilealliance.org/DTD/WV-PA
+permission::android.permission.ACCESS_WIFI_STATE
+service_receiver::Location provider
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.SplashScreen
+provider::com.google.android.providers.talk.permission.READ_ONLY
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+url::http://www.w3.org/2001/XMLSchema
+activity::Download
+real_permission::android.permission.WAKE_LOCK
+url::http://acs.amazonaws.com/groups/global/AllUsers
+activity::Admin / Invite friends
+url::http://www.w3.org/1999/XMLSchema-instance
+call::Obfuscation(Base64)
+url::http://services.gmelt.avantica.com/
+url::www.wireless-village.org
+permission::android.permission.WRITE_CALENDAR
+feature::android.hardware.telephony
+api_call::android/provider/Settings$System;->putInt
+url::http://acs.amazonaws.com/groups/s3/LogDelivery
+intent::android.intent.action.MAIN
+url::xml.apache.org
+url::xmlpull.org
+api_call::android/location/LocationManager;->getBestProvider
+real_permission::android.permission.INTERNET
+url::http://aws.amazon.com/
+url::http://www.w3.org/1999/XMLSchema

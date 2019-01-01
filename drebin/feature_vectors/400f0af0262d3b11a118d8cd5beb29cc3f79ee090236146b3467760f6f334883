@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::www.hx-wg.com.cn
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService
+url::http://www.hx-wg.com.cn/wangdao/index.html

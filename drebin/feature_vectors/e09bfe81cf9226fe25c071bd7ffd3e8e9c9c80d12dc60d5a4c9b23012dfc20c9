@@ -1,0 +1,14 @@
+activity::.MobileDarts_connect
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MobileDarts_help
+activity::.DeviceListActivity
+activity::.MobileDarts_user_text_input
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+activity::.MobileDarts_play
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.MobileDarts_home
+call::getSystemService

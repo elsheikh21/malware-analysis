@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+service_receiver::.MDSAdvWidgetUpdateService
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/telephony/TelephonyManager;->listen
+service_receiver::.MDSWidgetUpdateService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.net.conn.CONNECTIVITY_CHANGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+permission::android.permission.MODIFY_PHONE_STATE
+real_permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+call::getSystemService

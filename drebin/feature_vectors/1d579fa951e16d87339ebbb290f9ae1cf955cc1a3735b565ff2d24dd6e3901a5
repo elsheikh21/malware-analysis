@@ -1,0 +1,17 @@
+activity::.WeatherActivity
+feature::android.hardware.touchscreen
+url::wap.gismeteo.ru
+intent::android.intent.action.MAIN
+url::http://wap.gismeteo.ru/gm/normal/node/prognoz_tomorrow/6/?field_wmo%3D
+url::http://wap.gismeteo.ru/gm/normal/node/prognoz_week/6/?field_wmo%3D
+service_receiver::.Widget$UpdateService
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ChooseCountryActivity
+activity::.ChooseCityActivity
+url::http://informer.gismeteo.ru/xml/
+intent::android.intent.category.LAUNCHER
+url::informer.gismeteo.ru
+api_call::java/net/HttpURLConnection
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

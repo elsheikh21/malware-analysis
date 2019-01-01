@@ -1,0 +1,119 @@
+url::http://droidin.net)
+real_permission::android.permission.GET_ACCOUNTS
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+activity::Droidin - Profile
+call::HttpPost
+activity::Droidin - Jobs
+url::http://www.gstatic.com/mobile/ads/safma_load_ads.js
+url::http://data.flurry.com/aap.do
+service_receiver::.sync.AuthenticationService
+activity::.activity.JobSearchResultsActivity
+call::getSystemService
+real_permission::android.permission.VIBRATE
+url::http://mobile.twitter.com/
+api_call::android/accounts/AccountManager;->blockingGetAuthToken
+url::api.linkedin.com
+service_receiver::.sync.SyncService
+permission::android.permission.GET_ACCOUNTS
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+activity::Quick Profile
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEND
+url::http://droidin.net
+url::spreadsheets.google.com
+url::droidin.net)
+permission::android.permission.AUTHENTICATE_ACCOUNTS
+api_call::java/net/HttpURLConnection
+real_permission::android.permission.USE_CREDENTIALS
+permission::android.permission.INTERNET
+activity::.activity.DroidinPreferenceActivity
+provider::bostone.android.droidin.provider.License
+service_receiver::.alarm.OnAlarmReceiver
+permission::android.permission.WRITE_SETTINGS
+feature::android.hardware.location.gps
+permission::android.permission.WRITE_CONTACTS
+api_call::android/content/Context;->startActivity
+url::https://api.linkedin.com/uas/oauth/invalidateToken
+api_call::android/accounts/AccountManager;->getAccounts
+url::http://__NO_MATCHING_AD__
+real_permission::android.permission.INTERNET
+service_receiver::.widget.WidgetUpdateService
+permission::android.permission.READ_SYNC_STATS
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::.activity.UpdateCommentsActivity
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+url::http://ad.flurry.com/getAndroidApp.do
+activity::.activity.InboxActivity
+activity::.activity.JobSearchActivity
+url::www.gstatic.com
+url::https://api.linkedin.com/uas/oauth/requestToken
+intent::android.intent.category.LAUNCHER
+activity::Droidin - Updates
+activity::bostone.android.droidin.activity.HomeActivity
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::ad.flurry.com
+permission::android.permission.ACCESS_FINE_LOCATION
+url::pagead2.googlesyndication.com
+url::twitter.com
+activity::.activity.InboxMessageActivity
+activity::Droidin status update
+activity::Phone - Contacts
+call::Read/Write External Storage
+url::http://api.linkedin.com/v1/people/
+api_call::android/accounts/AccountManager;->addAccountExplicitly
+real_permission::android.permission.READ_CONTACTS
+provider::bostone.android.droidin.jobs.searchitemsprovider
+activity::.activity.UpdatesActivity
+activity::Droidin - Inbox
+url::droidin.net
+permission::android.permission.WRITE_SYNC_SETTINGS
+real_permission::android.permission.AUTHENTICATE_ACCOUNTS
+provider::bostone.android.droidin.contacts.contactsprovider
+intent::android.intent.category.BROWSABLE
+permission::android.permission.MANAGE_ACCOUNTS
+activity::.AuthenticationActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::https://market.android.com/details?id%3D
+api_call::android/app/NotificationManager;->notify
+url::https://api.linkedin.com/uas/oauth/authorize
+url::https://spreadsheets.google.com/formResponse?formkey%3D
+url::http://ad.flurry.com/getCanvas.do
+url::https://data.flurry.com/aap.do
+feature::android.hardware.touchscreen
+real_permission::android.permission.WRITE_SYNC_SETTINGS
+activity::Droidin - Communicate
+intent::android.intent.action.SEARCH
+activity::.activity.BrowseContactsActivity
+activity::.activity.ProfileActivity
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+activity::.widget.DroidinWidgetConfigure
+permission::android.permission.USE_CREDENTIALS
+url::market.android.com
+api_call::android/content/ContentResolver;->setSyncAutomatically
+activity::Droidin - Jobs found
+service_receiver::.alarm.OnBootReceiver
+feature::android.hardware.location
+url::http://dev.bostone.us/android/trace/trace.php
+url::mobile.twitter.com
+url::http://twitter.com/
+api_call::android/accounts/AccountManager;->addAccount
+real_permission::android.permission.MANAGE_ACCOUNTS
+provider::android.provider.CONTACTS_STRUCTURE
+call::Obfuscation(Base64)
+url::data.flurry.com
+permission::android.permission.READ_SYNC_SETTINGS
+activity::.activity.ContactsActivity
+url::dev.bostone.us
+intent::android.intent.action.MAIN
+url::https://api.linkedin.com/uas/oauth/accessToken
+api_call::android/location/LocationManager;->getBestProvider
+activity::.activity.SearchActivity
+service_receiver::.service.DroidinService
+provider::android.appwidget.provider
+activity::Droidin - Reply

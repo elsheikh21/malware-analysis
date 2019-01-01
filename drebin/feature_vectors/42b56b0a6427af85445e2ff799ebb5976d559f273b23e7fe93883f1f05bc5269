@@ -1,0 +1,4 @@
+intent::android.intent.category.HOME
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT

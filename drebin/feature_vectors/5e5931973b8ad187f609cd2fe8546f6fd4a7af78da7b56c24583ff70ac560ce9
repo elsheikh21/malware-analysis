@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+url::ql.sqage.com\n\u7248\u672c
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.RPGMIDlet
+url::http://ql.sqage.com/gameinfo.jsp?gateway%3Dshwap
+url::http://ql.sqage.com/jump.jsp?ch%3D
+url::http://ql.sqage.com\n\u7248\u672c:1.33\n
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://www.netmite.com/android/srv/2.0/upload/QL_n73.jar
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+url::ql.sqage.com
+url::http://10.0.0.172:80/
+url::10.0.0.172

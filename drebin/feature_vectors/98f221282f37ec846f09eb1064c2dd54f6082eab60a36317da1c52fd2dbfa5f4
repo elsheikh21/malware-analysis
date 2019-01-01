@@ -1,0 +1,9 @@
+activity::.Liedentity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::www.liedentity.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.liedentity.com/amobile/index.php?id%3D0c49a3c902d141d49f09f22cec1e2a55
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

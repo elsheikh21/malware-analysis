@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+activity::.change_density
+activity::.Help
+activity::.About
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.WRITE_SETTINGS
+api_call::java/lang/Runtime;->exec
+activity::LCD Density Changer
+activity::.Settings
+service_receiver::Density Panel
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+call::Execution of external commands
+permission::android.permission.WRITE_SETTINGS
+provider::android.appwidget.provider
+api_call::android/content/Context;->startActivity
+api_call::android/provider/Settings$System;->putInt
+activity::current density

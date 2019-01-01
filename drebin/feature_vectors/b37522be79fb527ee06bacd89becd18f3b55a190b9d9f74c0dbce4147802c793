@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://bsinfo.dnsproject.de/mobile.php
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::bsinfo.dnsproject.de
+url::http://10.1.124.97/vertretungsplan/mobile.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::10.1.124.97
+intent::android.intent.category.LAUNCHER
+activity::.Vertretungsplan

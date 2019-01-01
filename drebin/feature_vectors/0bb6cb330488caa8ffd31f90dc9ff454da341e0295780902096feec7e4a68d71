@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.CALL_PHONE
+api_call::android/content/Context;->startActivity
+activity::.Main
+permission::android.permission.INTERNET
+url::www.aware.co.th
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+url::http://www.aware.co.th/rss/jobs.rss
+api_call::java/net/URL;->openConnection

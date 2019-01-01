@@ -1,0 +1,22 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+api_call::java/net/HttpURLConnection
+api_call::android/app/Activity;->startActivity
+call::getPackageInfo
+activity::.about.AboutActivity
+call::printStackTrace
+permission::android.permission.CHANGE_CONFIGURATION
+api_call::android/accounts/AccountManager;->getAccounts
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.AUTHENTICATE_ACCOUNTS
+call::Execution of external commands
+permission::android.permission.GET_ACCOUNTS
+real_permission::android.permission.GET_ACCOUNTS
+activity::.HKPropertyTaxCalculatorActivity
+url::market.android.com
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/accounts/AccountManager;->getUserData
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

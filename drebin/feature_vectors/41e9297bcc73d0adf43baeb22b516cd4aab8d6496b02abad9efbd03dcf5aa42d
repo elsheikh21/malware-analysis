@@ -1,0 +1,11 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+service_receiver::.FaybeeDecoderService
+real_permission::android.permission.VIBRATE
+activity::.SettingsActivity
+call::Read/Write External Storage
+call::getSystemService

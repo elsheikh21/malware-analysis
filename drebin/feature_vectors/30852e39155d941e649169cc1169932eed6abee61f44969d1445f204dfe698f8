@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://m.ql18.com.cn/hpf10/xlzx/iphone/content/
+intent::android.intent.action.MAIN
+activity::.MainTabHost
+activity::.LoginActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.AboutActivity
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::m.ql18.com.cn
+api_call::android/webkit/WebView
+activity::.RetrievePasswordActivity
+real_permission::android.permission.INTERNET
+call::printStackTrace
+call::getSystemService

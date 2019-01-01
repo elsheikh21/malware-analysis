@@ -1,0 +1,37 @@
+feature::android.hardware.touchscreen
+url::http://images.gelecekonline.com/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+url::http://www.gelecekonline.com/kucukresim?width%3D
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::https://www.googleapis.com/urlshortener/v1/url
+url::www.googleapis.com
+url::http://www.gelecekonline.com/mobile?metinId%3D
+call::HttpPost
+activity::.MainActivity
+url::http://www.gelecekonline.com/metin/
+activity::.Settings
+real_permission::android.permission.VIBRATE
+activity::.ShowDescription
+call::getSystemService
+permission::android.permission.VIBRATE
+service_receiver::Gelecekonline
+api_call::java/lang/Runtime;->exec
+url::www.gelecekonline.com
+call::Execution of external commands
+url::http://www.gelecekonline.com/
+url::http://video.gelecekonline.com/mobil/
+activity::.JsonReader
+service_receiver::G%C3%BCncel Haber Servisi
+url::video.gelecekonline.com
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::http://www.gelecekonline.com/jsonrss
+real_permission::android.permission.INTERNET
+activity::.KategoriJsonReader
+url::http://www.gelecekonline.com/rss
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+url::images.gelecekonline.com

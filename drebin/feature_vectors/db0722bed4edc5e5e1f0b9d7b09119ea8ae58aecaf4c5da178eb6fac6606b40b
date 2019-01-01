@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://whofollowswhom.com/u/
+url::twiangulate.com
+url::twtrfrnd.com
+url::http://twiangulate.com/search/
+intent::android.intent.category.DEFAULT
+activity::.twtrfrnd
+url::whofollowswhom.com
+url::http://twtrfrnd.com/

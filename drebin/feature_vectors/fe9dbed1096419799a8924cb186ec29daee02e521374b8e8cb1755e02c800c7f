@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.LocationEditor
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+api_call::java/net/Socket
+activity::.MythMote
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.MythMotePreferences
+call::getSystemService
+permission::android.permission.CHANGE_NETWORK_STATE

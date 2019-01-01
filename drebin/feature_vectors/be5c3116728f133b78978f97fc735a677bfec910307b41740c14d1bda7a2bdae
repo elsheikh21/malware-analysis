@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::getSystemService
+url::http://blog.falafel.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::blog.falafel.com
+intent::android.intent.category.LAUNCHER
+activity::MainPage
+activity::.MainPage

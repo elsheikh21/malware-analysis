@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://cratesim.appspot.com/
+activity::.TradingPost
+permission::android.permission.INTERNET
+url::cratesim.appspot.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

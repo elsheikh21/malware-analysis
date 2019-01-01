@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CALL_PHONE
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK

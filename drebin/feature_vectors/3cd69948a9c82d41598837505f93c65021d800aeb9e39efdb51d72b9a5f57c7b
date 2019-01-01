@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+permission::android.permission.CHANGE_WIFI_STATE
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+intent::android.intent.category.DEFAULT
+call::setWifiEnabled
+real_permission::android.permission.CHANGE_WIFI_STATE
+call::getSystemService

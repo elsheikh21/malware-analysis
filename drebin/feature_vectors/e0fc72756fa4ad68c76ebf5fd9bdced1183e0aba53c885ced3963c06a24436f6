@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::ws.ispeech.org
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+url::http://ajax.googleapis.com/ajax/services/language/translate
+activity::.voice
+url::http://ws.ispeech.org/api/rest/1.5
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+real_permission::android.permission.INTERNET
+url::http://ajax.googleapis.com/ajax/services/language/translate?v%3D1.0&q%3D
+real_permission::android.permission.WAKE_LOCK

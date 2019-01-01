@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+activity::.SysProp
+intent::android.intent.category.LAUNCHER
+call::getSimCountryIso
+real_permission::android.permission.READ_PHONE_STATE
+call::getSubscriberId
+call::getSystemService

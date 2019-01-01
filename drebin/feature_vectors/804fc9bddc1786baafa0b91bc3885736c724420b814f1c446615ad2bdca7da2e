@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::NotesList
+permission::android.permission.INTERNET
+permission::android.permission.WRITE_CALENDAR
+activity::.NotesList
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query

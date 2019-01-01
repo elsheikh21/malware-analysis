@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+feature::android.softwate.live_wallpaper
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+call::Execution of external commands
+api_call::java/lang/Runtime;->exec
+call::getSystemService

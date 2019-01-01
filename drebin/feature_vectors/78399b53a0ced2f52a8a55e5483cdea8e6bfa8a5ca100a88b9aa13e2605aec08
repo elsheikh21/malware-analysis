@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.HLAllimeActivity
+permission::android.permission.WRITE_OWNER_DATA
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_OWNER_DATA
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService

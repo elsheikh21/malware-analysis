@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::com.wolphi.morsetrainerlight.morse
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://schemas.android.com/apk/res/com.wolphi.morsetrainer
+call::Read/Write External Storage
+activity::.morse
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

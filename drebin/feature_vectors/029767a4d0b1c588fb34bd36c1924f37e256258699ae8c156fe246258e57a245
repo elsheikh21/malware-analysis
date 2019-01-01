@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::apps.kansys.com
+url::http://apps.kansys.com?ref%3Deasytip\
+activity::.ActEasyTip
+intent::android.intent.category.LAUNCHER

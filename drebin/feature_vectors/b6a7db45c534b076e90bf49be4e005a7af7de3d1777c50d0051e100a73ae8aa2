@@ -1,0 +1,7 @@
+activity::.brown
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+activity::.app.hunter.soundboard.james.brown
+real_permission::android.permission.WAKE_LOCK

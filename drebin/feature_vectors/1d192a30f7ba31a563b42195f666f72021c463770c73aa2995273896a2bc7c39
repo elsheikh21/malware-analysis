@@ -1,0 +1,14 @@
+activity::Alcorn Nation
+feature::android.hardware.touchscreen
+url::http://mobile.alcornnation.com/stats
+url::mobile.alcornnation.com
+intent::android.intent.action.MAIN
+url::http://mobile.alcornnation.com
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.alcornnation.com/roster
+intent::android.intent.category.LAUNCHER
+url::http://mobile.alcornnation.com/about
+url::http://mobile.alcornnation.com/schedule
+api_call::android/webkit/WebView

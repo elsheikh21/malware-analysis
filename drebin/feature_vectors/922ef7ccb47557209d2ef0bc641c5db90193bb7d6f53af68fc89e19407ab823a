@@ -1,0 +1,9 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.robotcomics.net
+url::www.robotcomics.net
+activity::.ComicViewer

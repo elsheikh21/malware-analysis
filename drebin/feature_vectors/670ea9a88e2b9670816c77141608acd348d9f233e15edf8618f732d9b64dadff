@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::http://data.gfan.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::data.gfan.com
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.SwimPattern
+real_permission::android.permission.READ_PHONE_STATE
+call::HttpPost
+call::getSystemService
+activity::org.henji.swim.SwimPattern

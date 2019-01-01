@@ -1,0 +1,70 @@
+feature::android.hardware.touchscreen
+url::www.elecont.com
+call::getDeviceId
+service_receiver::Elecont Weather 4x1
+service_receiver::Elecont Weather 4x2
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+service_receiver::Elecont Weather Clock 2x2
+permission::android.permission.INTERNET
+service_receiver::Elecont Weather 1x4
+url::http://4pda.ru/forum/index.php?showtopic%3D194110&view%3Dgetnewpost
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::Elecont Weather Clock 3x4
+service_receiver::Elecont Weather Clock 3x3
+service_receiver::.ElecontWeatherUpdateService
+call::getPackageInfo
+url::http://www.elecont.net/wsi/wsiservices.aspx?
+url::http://www.elecont.net/wsi/wsiservices.aspx?url%3Dlocfind&lat%3D
+url::http://elecont.17.forumer.com/viewforum.php?f%3D12
+service_receiver::Elecont Weather 2x2
+feature::android.hardware.location.gps
+service_receiver::Elecont Weather Clock 4x3
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://www.elecont.net/foreca/wsiservices.aspx?
+service_receiver::Elecont Weather Clock 4x4
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::4pda.ru
+feature::android.hardware.location
+service_receiver::Elecont Moon phase 1x1
+real_permission::android.permission.READ_PHONE_STATE
+url::http://elecont.com/ewfaq_an.aspx?lang%3D
+call::Obfuscation(Base64)
+call::getSystemService
+url::elecont.17.forumer.com
+permission::android.permission.VIBRATE
+url::http://www.elecont.org/foreca/wsiservices.aspx?
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.VIBRATE
+service_receiver::Elecont Weather Today 1x1
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::com.android.vending.CHECK_LICENSE
+service_receiver::Elecont Time 1x1
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::Elecont Weather Tomorrow 1x1
+api_call::android/location/LocationManager;->requestLocationUpdates
+service_receiver::Elecont Barometer 1x1
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://www.elecont.com/services.aspx?
+url::www.elecont.net
+url::www.elecont.org
+activity::.ElecontEarthQuakeMap
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::Elecont Current Conditions 1x1
+url::http://xoap.weather.com/weather/local/
+url::http://www.elecont.com/mobilebuy.aspx?sysid%3D
+service_receiver::Elecont Wind 1x1
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+url::http://www.elecont.org/wsi/wsiservices.aspx?
+url::xoap.weather.com
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+url::http://www.elecont.org/wsi/wsiservices.aspx?url%3Dlocfind&lat%3D
+activity::.ElecontWeatherClockActivity
+url::elecont.com
+url::http://www.elecont.org/foreca/wsiservices.aspx?url%3Dlocfind&lat%3D
+api_call::android/content/Context;->startService

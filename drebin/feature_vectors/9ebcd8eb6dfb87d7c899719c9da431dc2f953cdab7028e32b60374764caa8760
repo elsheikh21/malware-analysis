@@ -1,0 +1,47 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+url::http://schemas.android.com/apk/res/
+call::printStackTrace
+url::r.admob.com
+activity::.onlinecatalog.animCatalog
+url::http://r.admob.com/ad_source.php
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::.WT1broadcastReceiver
+url::http://www.voidapps.com/AW/androidinterface.xml
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+activity::.InfoAct
+url::http://mm.admob.com/static/android/canvas.html
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+service_receiver::Animated Widget 2x2
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+url::http://a.admob.com/f0?
+real_permission::android.permission.INTERNET
+url::http://mm.admob.com/static/android/i18n/20101109
+call::getSystemService
+activity::com.admob.android.ads.AdMobActivity
+url::mm.admob.com
+permission::android.permission.INTERNET
+service_receiver::Animated Widget 3x3
+url::api.admob.com
+service_receiver::.DataService
+activity::.onlinecatalog.InstallPackage
+url::a.admob.com
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+url::www.voidapps.com
+api_call::android/webkit/WebView
+activity::.TreeChangeAct
+intent::android.intent.action.MAIN
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+activity::.WT1configure
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+url::schemas.android.com

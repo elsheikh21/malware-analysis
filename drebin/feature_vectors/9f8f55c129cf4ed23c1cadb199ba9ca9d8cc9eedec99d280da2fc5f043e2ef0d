@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.network
+activity::.LocationInfoActivity
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+intent::android.intent.action.MAIN
+feature::android.hardware.location.gps
+activity::Ft. Gordon
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.AnimSplash
+activity::.AboutActivity
+activity::.LocationListActivity
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.LocationListSearchActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/location/LocationManager;->getLastKnownLocation
+activity::.PostMapActivity
+call::getSystemService

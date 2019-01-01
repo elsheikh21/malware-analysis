@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::www.dimigo.hs.kr
+url::http://www.dimigo.hs.kr/dimigo/kimson/home/dimigo/bbs.php?id%3Dfood_list
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+service_receiver::%EC%A4%EB%EC %EC%EB%A8(4x2)
+url::http://www.dimigo.hs.kr/dimigo/kimson/home/dimigo/school.php
+intent::android.intent.category.LAUNCHER
+service_receiver::%EC%A4%EB%EC %EC%EB%A8(4x4)
+call::getSystemService
+provider::android.appwidget.provider
+activity::main

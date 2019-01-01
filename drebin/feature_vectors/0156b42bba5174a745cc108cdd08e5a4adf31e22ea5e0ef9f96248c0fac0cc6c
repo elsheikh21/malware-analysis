@@ -1,0 +1,5 @@
+api_call::java/net/ServerSocket
+feature::android.hardware.touchscreen
+permission::android.permission.BIND_INPUT_METHOD
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET

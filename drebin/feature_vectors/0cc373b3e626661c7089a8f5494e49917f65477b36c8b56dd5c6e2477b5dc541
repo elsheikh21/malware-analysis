@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.ImgDialog
+activity::.DirBrowser
+intent::android.intent.action.MAIN
+call::printStackTrace
+feature::android.hardware.screen.portrait
+activity::.AppScreen
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+provider::android.appwidget.provider
+activity::.FramePicker

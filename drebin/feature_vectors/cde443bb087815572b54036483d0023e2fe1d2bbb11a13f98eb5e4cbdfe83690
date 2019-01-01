@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+url::m.camperstory.com
+permission::android.permission.INTERNET
+api_call::android/telephony/TelephonyManager;->getLine1Number
+url::http://m.camperstory.com/join/mem_chk.asp?ut%3D
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+activity::.CamperStory_web
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.INFO
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

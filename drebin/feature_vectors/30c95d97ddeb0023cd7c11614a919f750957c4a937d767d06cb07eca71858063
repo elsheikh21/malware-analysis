@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::https://www.pivotaltracker.com/services/v3/projects
+activity::.LoginActivity
+api_call::android/content/Context;->startActivity
+url::https://www.pivotaltracker.com/services/v3/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::https://www.pivotaltracker.com/services/v3/projects/
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::https://www.pivotaltracker.com/signup/new
+url::www.pivotaltracker.com
+url::https://www.pivotaltracker.com/services/v3/activities?occurred_since_date%3D
+call::getSystemService
+url::https://www.pivotaltracker.com/services/v3/tokens/active

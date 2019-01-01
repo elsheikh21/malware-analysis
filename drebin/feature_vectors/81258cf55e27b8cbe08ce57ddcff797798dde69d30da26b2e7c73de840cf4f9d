@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+call::Read/Write External Storage
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.CAMERA
+activity::SelfCameraSettingActivity
+feature::android.hardware.camera.autofocus
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.CAMERA
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+activity::CameraSettingActivity
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera
+permission::android.permission.FLASHLIGHT
+intent::android.intent.category.LAUNCHER
+activity::.SelfCameraActivity

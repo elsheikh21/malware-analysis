@@ -1,0 +1,16 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::http://comments.ua/export/rss/?id%3D
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://comments.ua/export/rss/?list
+activity::.main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::java/net/HttpURLConnection
+url::http://comments.ua/export/rss/?chapters
+intent::android.intent.category.LAUNCHER
+url::comments.ua
+real_permission::android.permission.INTERNET
+call::getSystemService
+url::http://comments.ua/export/rss/?chapters&lang%3D

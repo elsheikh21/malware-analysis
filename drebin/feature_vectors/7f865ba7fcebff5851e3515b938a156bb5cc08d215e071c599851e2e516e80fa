@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+service_receiver::ThreeModeAppWidget
+real_permission::android.permission.VIBRATE
+service_receiver::ActionConfigClickBroadcastReceiver
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider
+call::getSystemService

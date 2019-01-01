@@ -1,0 +1,53 @@
+activity::User Detail
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://schemas.android.com/apk/res/
+activity::com.droidBeacon.droidBeacon
+url::api.admob.com
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+url::http://r.admob.com/ad_source.php
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::java/net/HttpURLConnection
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+service_receiver::com.droidBeacon.SmsReceiver
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+feature::android.hardware.location.gps
+url::http://mm.admob.com/static/android/canvas.html
+url::http://api.admob.com/v1/pubcode/android_sdk_emulator_notice
+activity::User List
+feature::android.hardware.location
+url::http://a.admob.com/f0?
+real_permission::android.permission.VIBRATE
+url::http://mm.admob.com/static/android/i18n/20101109
+call::getSystemService
+activity::com.admob.android.ads.AdMobActivity
+provider::android.provider.Telephony.SMS_RECEIVED
+url::mm.admob.com
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+api_call::android/location/LocationManager;->requestLocationUpdates
+api_call::android/telephony/SmsManager;->sendTextMessage
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+url::r.admob.com
+call::sendSMS
+url::http://maps.google.com/maps/geo?q%3D
+url::a.admob.com
+activity::.droidBeacon
+activity::History Detail
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::com.admob.android.ads.analytics.InstallReceiver
+activity::Request History
+permission::android.permission.ACTION_SEND
+real_permission::android.permission.INTERNET
+service_receiver::com.droidBeacon.GPSService
+call::readSMS
+activity::GPS
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+url::schemas.android.com

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://ebookhow.info/Freebies2/3.html
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://ebookhow.info/Freebies2/1.html
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://ebookhow.info/Freebies2/2.html
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://ebookhow.info/Freebies2/4.html
+activity::.SplashActivity
+url::ebookhow.info
+call::getSystemService

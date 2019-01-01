@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->openInputStream
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+call::getSystemService

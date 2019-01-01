@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+activity::balltest
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo

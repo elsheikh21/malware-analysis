@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::getDeviceId
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::66ov.com
+url::http://66ov.com/android/onepieceeastblue/inner.html
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

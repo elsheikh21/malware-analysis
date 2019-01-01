@@ -1,0 +1,12 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::apps.facebook.com
+url::http://apps.facebook.com/mathstar/&
+intent::android.intent.action.MAIN
+call::printStackTrace
+real_permission::android.permission.INTERNET
+url::graph.facebook.com
+url::https://graph.facebook.com/oauth/access_token?client_id%3D
+activity::.HomeTabScreen
+url::https://graph.facebook.com/me?
+intent::android.intent.category.LAUNCHER

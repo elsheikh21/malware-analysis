@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.AppPreferenceActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.SortPreferenceActivity
+activity::.MainActivity
+permission::android.permission.GET_PACKAGE_SIZE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+api_call::android/content/Context;->sendBroadcast
+call::getSystemService

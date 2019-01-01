@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+activity::Mammi's Heel Designer Lite
+activity::.AppEntry
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo

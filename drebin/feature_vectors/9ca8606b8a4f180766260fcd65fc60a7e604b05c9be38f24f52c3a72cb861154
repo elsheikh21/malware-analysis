@@ -1,0 +1,17 @@
+call::getSystemService
+feature::android.hardware.touchscreen
+activity::.ChartActivity
+url::vpri.nl
+intent::android.intent.action.MAIN
+url::http://vpri.nl/domeincheck/domeinmail.php?mailto%3D
+activity::.MainActivity
+activity::.OverzichtActivity
+activity::.BestelActivity
+permission::android.permission.INTERNET
+url::http://vpri.nl/domeincheck/domeincheck.php?domein%3D
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.ResultActivity

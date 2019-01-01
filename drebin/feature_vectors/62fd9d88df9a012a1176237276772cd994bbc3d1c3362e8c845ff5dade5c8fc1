@@ -1,0 +1,14 @@
+url::qwerty.punyweakling.com
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://twitter.com/punyweakling
+url::http://qwerty.punyweakling.com
+intent::android.intent.action.MAIN
+url::twitter.com
+activity::.KeyboardMain
+url::http://www.facebook.com/pages/HD-Keyboard-Skins-for-Android/220851074598461
+activity::.Main
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+intent::android.intent.category.LAUNCHER
+url::http://qwerty.punyweakling.com/m/help
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+activity::.StartActivity
+feature::android.hardware.screen.portrait
+api_call::android/net/wifi/WifiManager;->isWifiEnabled
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+api_call::java/net/NetworkInterface
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.CHANGE_WIFI_STATE
+call::getSystemService
+activity::StartActivity

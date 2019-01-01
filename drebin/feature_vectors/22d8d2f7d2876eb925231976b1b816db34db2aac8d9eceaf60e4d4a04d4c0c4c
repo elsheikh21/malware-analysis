@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+provider::com.android.email.attachmentprovider
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+activity::.Preferences
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.READ_PHONE_STATE
+activity::.About
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.License
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+permission::android.permission.VIBRATE
+intent::android.intent.action.SENDTO
+call::Obfuscation(Base64)
+call::Execution of external commands
+activity::.WavPlayer
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.History
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER

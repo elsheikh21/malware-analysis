@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::Annex i
+activity::EU Treaties And Charter
+activity::.SearchAlgo
+intent::android.intent.action.SEARCH
+activity::table of content
+activity::.Splash
+intent::android.intent.action.MAIN
+activity::.Search
+activity::.SelectDisplay1
+activity::.SelectDisplay2
+activity::.TreatySel
+activity::.Proto
+intent::android.intent.category.LAUNCHER
+activity::.Finish
+activity::.Info
+activity::.Nation
+activity::.MultiColumnListView
+intent::android.intent.category.DEFAULT
+activity::.TreatyFun
+activity::table of equivalence
+activity::.Display
+feature::android.hardware.screen.portrait
+activity::Table of content
+activity::Search Not Found
+activity::.Declar
+activity::.Charter

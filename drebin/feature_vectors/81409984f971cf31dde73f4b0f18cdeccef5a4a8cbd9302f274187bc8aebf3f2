@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::LU Wolf Ball
+url::http://mobile.luwolfball.com/schedule
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::mobile.luwolfball.com
+activity::.Main
+url::http://mobile.luwolfball.com/about
+permission::android.permission.INTERNET
+url::http://mobile.luwolfball.com/stats
+intent::android.intent.category.LAUNCHER
+url::http://mobile.luwolfball.com
+real_permission::android.permission.INTERNET
+url::http://mobile.luwolfball.com/roster

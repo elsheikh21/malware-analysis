@@ -1,0 +1,13 @@
+url::http://us.battle.net/wow/en/character/lothar/
+feature::android.hardware.touchscreen
+url::http://www.ggoflothar.com/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.GoodGame
+url::us.battle.net
+intent::android.intent.category.LAUNCHER
+url::http://www.ggoflothar.com/eqdkp/ggdkp.php
+url::www.ggoflothar.com
+call::getPackageInfo

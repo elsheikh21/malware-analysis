@@ -1,0 +1,17 @@
+url::www.evilmushroomempire.com
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.TheSplatting
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::http://www.evilmushroomempire.com/splat/scores_mobile.php
+api_call::android/content/Context;->startActivity
+call::getSystemService
+url::http://www.evilmushroomempire.com/splat/ws.php?e%3D

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::P90XDiaryCalendarActivity
+activity::.P90XDiaryActivity
+intent::android.intent.action.MAIN
+activity::P90XDiaryActivity
+activity::P90XDiaryEval
+activity::P90XDiaryMeasurementsGraph
+intent::android.intent.category.LAUNCHER
+activity::P90XDiaryMeasurements
+call::getSystemService
+activity::P90XDiaryWorkoutGraph

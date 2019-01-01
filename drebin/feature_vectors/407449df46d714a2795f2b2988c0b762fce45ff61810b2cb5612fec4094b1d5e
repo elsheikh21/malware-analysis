@@ -1,0 +1,7 @@
+activity::.GuessPictureWelcomeActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK

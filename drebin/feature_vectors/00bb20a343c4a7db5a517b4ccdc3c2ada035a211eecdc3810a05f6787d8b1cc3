@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://m.eredivisie.nl/
+intent::android.intent.action.MAIN
+url::m.eredivisie.nl
+intent::android.intent.category.LAUNCHER
+activity::.eredivisie

@@ -1,0 +1,58 @@
+feature::android.hardware.touchscreen
+activity::PowerAMP Changelog
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+activity::.StartupActivity
+permission::android.permission.INTERNET
+url::http://google.com/search?q%3D
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::getPackageInfo
+api_call::android/os/PowerManager$WakeLock;->acquire
+activity::com.maxmpz.audioplayer.PlaylistNameEditActivity
+real_permission::android.permission.READ_CONTACTS
+service_receiver::PowerAMP DirectoryScanService
+activity::com.maxmpz.audioplayer.LockScreenActivity
+real_permission::android.permission.INTERNET
+permission::android.permission.WRITE_SETTINGS
+service_receiver::PlayerMediaButtonReceiver
+api_call::android/content/ContentResolver;->query
+service_receiver::StorageBroadcastReceiver
+url::images.google.com
+activity::PowerAMP Help
+activity::com.maxmpz.audioplayer.PlayerUIActivity
+activity::PowerAMP Expired
+intent::android.intent.action.VIEW
+real_permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+call::Read/Write External Storage
+api_call::android/telephony/TelephonyManager;->listen
+activity::PowerAMP Edit Tags
+activity::com.maxmpz.audioplayer.PlayListActivity
+activity::PowerAMP Welcome
+permission::android.permission.WAKE_LOCK
+activity::PowerAMP Song Info
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MEDIA_MOUNTED
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/content/Context;->startService
+activity::com.maxmpz.audioplayer.PlaylistSelectActivity
+real_permission::android.permission.READ_PHONE_STATE
+url::google.com
+intent::android.intent.action.MEDIA_BUTTON
+api_call::android/webkit/WebView
+url::http://images.google.com/images?imgsz%3Dlarge&safe%3Dactive&q%3D
+activity::PowerAMP
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::PowerAMP Lyrics
+activity::com.maxmpz.audioplayer.EqActivity
+feature::android.hardware.screen.portrait
+service_receiver::com.maxmpz.audioplayer.player.PlayerService
+activity::PowerAMP %E8%AE%BE%E7%BD%AE
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/provider/Settings$System;->putInt
+provider::android.appwidget.provider

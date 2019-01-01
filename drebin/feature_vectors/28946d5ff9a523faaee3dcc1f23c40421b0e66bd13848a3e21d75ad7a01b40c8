@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Info
+intent::android.intent.action.MAIN
+service_receiver::Big Ben Clock
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

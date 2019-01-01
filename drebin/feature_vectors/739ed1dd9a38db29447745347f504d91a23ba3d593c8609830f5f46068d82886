@@ -1,0 +1,14 @@
+url::zknives.com
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/os/Vibrator;->vibrate
+activity::.SteelBrowser
+intent::android.intent.action.SEARCH
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://zknives.com
+real_permission::android.permission.INTERNET
+call::getSystemService

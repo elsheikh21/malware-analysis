@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mobile.hoyasaxanation.com
+api_call::android/webkit/WebView
+activity::Hoya Saxa Nation
+activity::.Main
+url::http://mobile.hoyasaxanation.com/schedule
+permission::android.permission.INTERNET
+url::mobile.hoyasaxanation.com
+url::http://mobile.hoyasaxanation.com/stats
+url::http://mobile.hoyasaxanation.com/about
+url::http://mobile.hoyasaxanation.com/roster
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

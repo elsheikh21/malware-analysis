@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+url::sites.google.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getPackageInfo
+call::printStackTrace
+activity::.MainActivity
+call::Read/Write External Storage
+url::http://sites.google.com/site/pecomandroid/frameimage
+url::http://sites.google.com/site/pecomandroid/frameimage/en
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_EXTERNAL_STORAGE

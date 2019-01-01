@@ -1,0 +1,15 @@
+real_permission::android.permission.WAKE_LOCK
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::https://issues.apache.org/jira/browse/MATH
+activity::com.frosteam.amtalee.main.OptionsActivity
+api_call::android/media/MediaPlayer;->start
+activity::com.frosteam.amtalee.main.LevelChooser
+intent::android.intent.category.DEFAULT
+activity::com.frosteam.amtalee.main.Vortex
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::issues.apache.org
+activity::.SplashActivity
+call::getSystemService
+activity::com.frosteam.amtalee.main.PauseActivity

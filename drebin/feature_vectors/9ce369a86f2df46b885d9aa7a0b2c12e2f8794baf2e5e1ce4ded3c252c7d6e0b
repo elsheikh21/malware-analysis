@@ -1,0 +1,14 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+real_permission::android.permission.GET_TASKS
+intent::android.intent.action.MAIN
+service_receiver::.RunningTaskData
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+api_call::android/app/ActivityManager;->getRecentTasks
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.DataService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::TriggerOnBoot
+call::getSystemService

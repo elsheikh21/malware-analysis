@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::http://apspr.tmc-11.com/rssninki/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.ninkirssreaderapprank
+url::apspr.tmc-11.com

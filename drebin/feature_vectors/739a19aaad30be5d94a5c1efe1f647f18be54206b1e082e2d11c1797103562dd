@@ -1,0 +1,15 @@
+service_receiver::Play Computer Music in BG
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.Modo
+activity::Help
+url::http://schemas.android.com/apk/res/android
+call::Read/Write External Storage
+call::getSystemService
+activity::FileBrowser
+real_permission::android.permission.VIBRATE
+url::schemas.android.com
+service_receiver::ModoReceiver
+intent::android.intent.action.MEDIA_BUTTON
+intent::android.intent.category.LAUNCHER

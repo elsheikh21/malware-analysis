@@ -1,0 +1,35 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+url::https://api.twitter.com/1/statuses/user_timeline.xml?screen_name%3Ddeveloper_iPost
+url::https://api.facebook.com/restserver.php
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+service_receiver::com.iposter.service.Post_Service
+call::Read/Write External Storage
+url::http://www.google.co.th
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::www.google.co.th
+api_call::android/app/Activity;->startActivity
+url::http://developers.facebook.com/docs/reference/rest/
+url::api.facebook.com
+url::https://api.facebook.com/method/fql.query
+call::getSystemService
+service_receiver::.Post_Poster_Service
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::Edit Message
+permission::android.permission.ACCESS_NETWORK_STATE
+url::api.twitter.com
+activity::.SlashScreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.FacebookLoginDialog
+url::developers.facebook.com
+feature::android.hardware.screen.portrait
+url::graph.facebook.com
+url::https://graph.facebook.com/
+intent::android.intent.category.LAUNCHER
+url::https://m.facebook.com/dialog/

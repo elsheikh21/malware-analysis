@@ -1,0 +1,16 @@
+activity::LoginAct
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+activity::.MainAct
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::MainAct
+real_permission::android.permission.INTERNET
+url::tempuri.org
+url::http://tempuri.org/\
+call::HttpPost
+intent::android.intent.action.VIEW
+intent::android.intent.category.LAUNCHER

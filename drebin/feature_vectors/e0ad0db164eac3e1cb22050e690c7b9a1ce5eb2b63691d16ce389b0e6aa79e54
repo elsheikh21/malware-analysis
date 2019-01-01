@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.VolcanoReport
+intent::android.intent.category.LAUNCHER
+api_call::java/net/URL;->openConnection

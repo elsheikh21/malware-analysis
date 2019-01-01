@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+activity::.patchActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_PHONE_STATE
+api_call::java/lang/Runtime;->exec
+permission::android.permission.CLEAR_APP_USER_DATA
+permission::android.permission.DELETE_PACKAGES
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+permission::android.permission.INSTALL_PACKAGES
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CLEAR_APP_CACHE
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+intent::android.intent.category.DEFAULT
+service_receiver::.OnBootLuckyPatcher

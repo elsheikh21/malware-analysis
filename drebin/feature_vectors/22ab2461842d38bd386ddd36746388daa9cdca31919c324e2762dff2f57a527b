@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.HelpPage
+intent::android.intent.action.MAIN
+activity::.VisualTipCalc
+feature::android.hardware.screen.portrait
+activity::NumKeyPad
+intent::android.intent.category.LAUNCHER
+call::getSystemService

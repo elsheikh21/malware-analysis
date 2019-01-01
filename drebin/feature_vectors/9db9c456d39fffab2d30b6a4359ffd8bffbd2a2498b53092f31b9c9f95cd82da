@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+permission::android.permission.INTERNET
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+activity::.QtActivity
+activity::eu.licentia.necessitas.industrius.QtActivity
+call::getSystemService

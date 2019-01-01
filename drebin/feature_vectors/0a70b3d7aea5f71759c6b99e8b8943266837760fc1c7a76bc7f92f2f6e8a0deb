@@ -1,0 +1,15 @@
+permission::android.permission.GET_TASKS
+feature::android.hardware.touchscreen
+url::http://www.twitter.com/tjhei\%27>%40tjhei</a>)
+intent::android.intent.action.MAIN
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+activity::.main
+permission::android.permission.CHANGE_CONFIGURATION
+url::www.twitter.com
+api_call::android/app/ActivityManager;->getRecentTasks
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.GET_TASKS
+api_call::android/provider/Settings$System;->putInt
+call::getSystemService
+permission::android.permission.WRITE_SETTINGS

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+service_receiver::.BroadcastService
+intent::android.intent.action.MAIN
+url::www.delinorr.se
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+url::http://www.delinorr.se/filearea_15.html
+provider::android.appwidget.provider
+api_call::java/net/URL;->openConnection
+api_call::android/content/Context;->startService

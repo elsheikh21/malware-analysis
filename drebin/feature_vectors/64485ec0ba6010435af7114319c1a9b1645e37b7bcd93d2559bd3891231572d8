@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://data.woopieapi.com/search/video/5.x
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://ganbarounihon.appspot.com/
+permission::android.permission.INTERNET
+url::ganbarounihon.appspot.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.PrayForJapanVideo
+real_permission::android.permission.INTERNET
+url::data.woopieapi.com
+call::getSystemService

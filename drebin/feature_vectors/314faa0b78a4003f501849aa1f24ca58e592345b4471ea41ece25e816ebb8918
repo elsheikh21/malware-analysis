@@ -1,0 +1,8 @@
+api_call::java/net/HttpURLConnection
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::printStackTrace
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Read/Write External Storage
+api_call::android/content/Context;->startService
+real_permission::android.permission.INTERNET
+call::getSystemService

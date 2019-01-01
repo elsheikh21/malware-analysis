@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::m1.fank.ru
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+activity::.SDKMIDlet
+intent::android.intent.category.LAUNCHER
+url::http://m1.fank.ru/d/n0/2455630/Jewel_Quest_III_World_Adventure.jad
+call::getPackageInfo
+url::www.netmite.com

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::ugyfelszolgalat.vizmuvek.hu
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Vizmuvek
+url::https://ugyfelszolgalat.vizmuvek.hu/fvmuces/public/frameset_top_html.jsp
+intent::android.intent.category.LAUNCHER

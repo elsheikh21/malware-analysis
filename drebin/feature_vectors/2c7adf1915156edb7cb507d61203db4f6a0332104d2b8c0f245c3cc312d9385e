@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::https://sites.google.com/site/koutaro18/files/debug/list.xml
+url::sites.google.com
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::getSystemService
+api_call::java/net/URL;->openConnection
+service_receiver::DiaWidgetService
+feature::android.hardware.screen.portrait
+url::https://sites.google.com/site/koutaro18/files/tojo/tjikebukuro.zip
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::PopupMenuActivity
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+url::https://sites.google.com/site/koutaro18/files/tojo/list.xml
+api_call::android/content/Context;->startService

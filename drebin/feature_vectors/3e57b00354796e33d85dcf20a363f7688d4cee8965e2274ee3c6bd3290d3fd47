@@ -1,0 +1,23 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+url::http://twitpic.com/api/uploadAndPost
+url::twitpic.com
+feature::android.hardware.camera.autofocus
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.CAMERA
+api_call::android/hardware/Camera;->open
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera
+service_receiver::.HttpFilePosterService
+intent::android.intent.category.LAUNCHER
+activity::.IntroPicTweet

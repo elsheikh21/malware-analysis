@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+url::http://werecruit-saucelab.mimah35.cloudbees.net/rest/quizz
+activity::.LoadingActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.WeRecruitActivity
+intent::android.intent.category.LAUNCHER
+activity::.WinnerActivity
+real_permission::android.permission.INTERNET
+url::werecruit-saucelab.mimah35.cloudbees.net
+call::getSystemService

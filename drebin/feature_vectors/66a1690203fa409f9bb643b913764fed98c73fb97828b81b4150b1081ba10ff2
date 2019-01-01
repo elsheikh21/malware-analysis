@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.sapocom.com/AndroidApps/contact.cfm?APP%3DKHRO&interface%3Dandroid
+intent::android.intent.action.MAIN
+url::1862.live.streamtheworld.com
+url::www.sapocom.com
+url::http://www.sapocom.com/AndroidApps/banner300x100.cfm?APP%3DKHRO&interface%3Dandroid
+activity::.mainactivity
+url::http://www.sapocom.com/AndroidApps/info.php?APP%3DKHRO&interface%3Dandroid
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+url::http://1862.live.streamtheworld.com:80/KHROAMCMP3
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

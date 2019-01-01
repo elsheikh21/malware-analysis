@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.TarotCard
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+real_permission::android.permission.RESTART_PACKAGES
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService

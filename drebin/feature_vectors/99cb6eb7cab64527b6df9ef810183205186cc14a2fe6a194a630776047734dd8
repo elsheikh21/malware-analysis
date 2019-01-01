@@ -1,0 +1,13 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+activity::.BasicCalc
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+activity::.AnsHistory
+call::getSystemService
+activity::.OurEmail
+activity::.ThePreferences

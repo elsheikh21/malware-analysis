@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::MainScreen
+activity::.MainScreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.category.LAUNCHER

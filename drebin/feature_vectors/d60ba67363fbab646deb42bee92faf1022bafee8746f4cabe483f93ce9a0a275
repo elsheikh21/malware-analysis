@@ -1,0 +1,16 @@
+activity::.numberQuestion.NumberQuestion
+activity::.sortit.SortIT
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.droidBattle.DroidBattle
+api_call::android/content/Context;->startActivity
+activity::.Main
+activity::.tutorials.Tutorials
+activity::.remindSequence.RemindSequence
+activity::.Scores
+intent::android.intent.category.LAUNCHER
+activity::.connectNumbers.ConnectNumbers
+activity::.calculateNumber.CalculateNumber
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

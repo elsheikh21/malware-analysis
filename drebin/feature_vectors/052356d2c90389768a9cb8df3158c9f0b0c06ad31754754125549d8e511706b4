@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+activity::com.tabihato.information.SettingLiveWallpaper
+service_receiver::TouchRipplesWallpaperService
+call::printStackTrace
+activity::.settings.Trimming
+feature::android.software.live_wallpaper
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.INFO
+call::getSystemService

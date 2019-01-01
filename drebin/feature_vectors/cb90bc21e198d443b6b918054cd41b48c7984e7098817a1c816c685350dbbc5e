@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.ThaiAndroidPhone
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::http://www.thaiandroidphone.com/forum-rss-fid-3-auth-0.html
+url::www.thaiandroidphone.com
+real_permission::android.permission.INTERNET
+url::http://www.thaiandroidphone.com/forum-rss-fid-13-auth-0.html

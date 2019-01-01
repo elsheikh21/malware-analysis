@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::CategoryActivity
+intent::android.intent.action.MAIN
+activity::RecipeListActivity
+activity::SearchRecipeActivity
+activity::CategoryListActivity
+activity::MethodActivity
+activity::IngredientActivity
+activity::TipsActivity
+activity::RecipeActivity
+activity::.CookeryActivity
+intent::android.intent.category.LAUNCHER

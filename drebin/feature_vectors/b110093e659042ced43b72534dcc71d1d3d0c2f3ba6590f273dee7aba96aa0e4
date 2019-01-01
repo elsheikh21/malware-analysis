@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://f1.moliscgateway.com/f12010.live.server/mobileObjectFeed.action
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::f1.moliscgateway.com
+url::http://f1.moliscgateway.com/f12010.news.server/mobileObjectFeed.action
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.F1BootUp
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::HttpPost
+service_receiver::.service.MyService

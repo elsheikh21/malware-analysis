@@ -1,0 +1,18 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::com.gdc.android.yubisashi.jpkr.nc.MainActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.w3.org/1999/xhtml
+url::www.w3.org
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::m.iowastatedaily.com
+activity::StoryActivity
+url::http://m.iowastatedaily.com/mobile
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.ISD
+intent::android.intent.category.LAUNCHER
+activity::NewsActivity
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->getContent

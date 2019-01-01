@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.READ_PHONE_STATE
+call::Obfuscation(Base64)
+activity::.NetworkSoundActivity
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+service_receiver::.ScreenOnListener

@@ -1,0 +1,17 @@
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::org.jraf.android.nolock.NoLockService
+intent::android.intent.action.MAIN
+activity::.MainActivity
+real_permission::android.permission.DISABLE_KEYGUARD
+activity::NoLockBroadcastReceiver
+intent::android.intent.action.USER_PRESENT
+intent::android.intent.category.LAUNCHER
+service_receiver::NoLockBroadcastReceiver
+activity::org.jraf.android.nolock.activity.MainActivity
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+provider::android.appwidget.provider
+activity::org.jraf.android.nolock.activity.WidgetActivity
+permission::android.permission.DISABLE_KEYGUARD

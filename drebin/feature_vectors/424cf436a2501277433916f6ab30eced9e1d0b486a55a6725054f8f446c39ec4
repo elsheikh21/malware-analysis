@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::m.jeancyr.ca
+url::http://m.jeancyr.ca/
+intent::android.intent.category.LAUNCHER

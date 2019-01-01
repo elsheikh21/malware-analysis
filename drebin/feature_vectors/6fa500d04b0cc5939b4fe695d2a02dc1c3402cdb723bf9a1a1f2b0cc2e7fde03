@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.pacificsoftwaresolutions.net/videovault.html
+intent::android.intent.action.MAIN
+url::http://www.pacificsoftwaresolutions.net/support.html
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.pacificsoftwaresolutions.net
+call::Read/Write External Storage
+activity::.VideoVault
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

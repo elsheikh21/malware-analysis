@@ -1,0 +1,65 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+url::https://api.facebook.com/restserver.php
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::crews
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.SEARCH
+activity::events
+call::getPackageInfo
+url::http://schemas.android.com/apk/lib/com.google.ads
+real_permission::android.permission.INTERNET
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+feature::android.hardware.location.gps
+activity::Warning screen
+url::http://www.gstatic.com/afma/sdk-core-v40.js\
+activity::Event detail
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::.MainActivity
+url::www.gstatic.com
+feature::android.hardware.location
+url::http://a.admob.com/f0?
+url::http://developers.facebook.com/docs/reference/rest/
+api_call::android/location/LocationManager;->isProviderEnabled
+activity::Ride detail
+activity::rides
+call::getSystemService
+call::Read/Write External Storage
+activity::login
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/webkit/WebView
+activity::My ride
+permission::android.permission.CAMERA
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES)
+activity::Filters
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES/CBC/PKCS5Padding)
+url::api.facebook.com
+intent::android.intent.category.BROWSABLE
+url::a.admob.com
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+activity::Exotic car
+url::developers.facebook.com
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Crew detail
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+call::Cipher(DES/ECB/NoPadding)
+activity::com.google.ads.AdActivity
+url::graph.facebook.com
+url::https://graph.facebook.com/
+intent::android.intent.category.LAUNCHER
+url::https://m.facebook.com/dialog/
+api_call::android/content/Context;->startActivity
+activity::map
+url::schemas.android.com

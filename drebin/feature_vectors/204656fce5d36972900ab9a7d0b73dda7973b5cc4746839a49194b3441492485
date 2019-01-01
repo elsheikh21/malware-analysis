@@ -1,0 +1,16 @@
+url::http://www.theemaillaundry.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Obfuscation(Base64)
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.DNSLookup
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+url::www.theemaillaundry.com
+api_call::java/net/Socket
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+intent::android.intent.category.LAUNCHER

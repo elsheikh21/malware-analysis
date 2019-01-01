@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+provider::shiloff.com.provider.seNotesProvider
+service_receiver::.seNotesProvider
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+provider::android.appwidget.provider

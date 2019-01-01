@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+service_receiver::.ReverseClockXXLWidgetProvider$UpdateService
+intent::android.intent.action.MAIN
+service_receiver::ReverseClockXXLWidgetProvider
+activity::.Info
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+api_call::android/content/Context;->startService

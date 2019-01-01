@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::actabout1
+api_call::android/content/ContentResolver;->openInputStream
+activity::actconfig1
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.digitalmatik.com
+api_call::android/app/Activity;->startActivity
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::acthelp1
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+url::http://www.digitalmatik.com

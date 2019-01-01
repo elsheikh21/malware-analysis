@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.ChooseNormalReadings
+activity::.MyPreferenceActivity
+intent::android.intent.category.ALTERNATIVE
+call::Read/Write External Storage
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+activity::.Export
+activity::.Chart
+activity::.PreviousEntries
+activity::.Statistics
+activity::.ChooseFiltering
+api_call::android/content/Context;->startActivity
+activity::.AddEntry

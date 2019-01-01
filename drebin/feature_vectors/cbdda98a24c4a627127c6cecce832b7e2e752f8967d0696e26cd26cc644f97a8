@@ -1,0 +1,44 @@
+feature::android.hardware.touchscreen
+activity::logbookpro.FlightActivity
+permission::android.permission.READ_PHONE_STATE
+activity::logbookpro.LogStatsActivity
+permission::android.permission.INTERNET
+activity::Synchronization Settings
+activity::logbookpro.MySubscriptionActivity
+activity::Data Sort Settings
+activity::logbookpro.HistoriesActivity
+activity::logbookpro.RatingActivity
+permission::android.permission.ACCESS_WIFI_STATE
+activity::logbookpro.MainActivity
+activity::logbookpro.CurrencyActivity
+activity::Calendar Settings
+activity::logbookpro.ScheduleImporterActivity
+activity::Flight Log Layout Settings
+activity::logbookpro.LookbackActivity
+activity::logbookpro.CertificatesActivity
+permission::android.permission.VIBRATE
+real_permission::android.permission.RECORD_AUDIO
+activity::logbookpro.AboutActivity
+activity::General Settings
+activity::logbookpro.PasswordActivity
+activity::logbookpro.ApproachesActivity
+activity::logbookpro.SummaryBarActivity
+activity::logbookpro.MyAircraftActivity
+permission::android.permission.WRITE_CALENDAR
+activity::Flight Log Settings
+activity::logbookpro.TimeCalculatorActivity
+activity::Schedule Importer Settings
+activity::logbookpro.CertificateActivity
+api_call::android/webkit/WebView
+api_call::android/media/AudioRecord
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+activity::.SplashActivity
+real_permission::android.permission.INTERNET
+activity::logbookpro.HistoryActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+activity::logbookpro.RatingsActivity
+activity::logbookpro.DirectoryActivity
+activity::logbookpro.SettingsActivity
+activity::logbookpro.FlightsActivity

@@ -1,0 +1,16 @@
+activity::.SecondChannel
+feature::android.hardware.touchscreen
+activity::.HelloAndroid
+activity::.Store
+url::apprats.com
+activity::.Twitter
+permission::android.permission.INTERNET
+activity::.Secret
+real_permission::android.permission.INTERNET
+activity::.MainChannel
+url::http://apprats.com/iphone/getAppInfo.php?appID%3D315841408039
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+url::http://apprats.com
+activity::PeterCoffin

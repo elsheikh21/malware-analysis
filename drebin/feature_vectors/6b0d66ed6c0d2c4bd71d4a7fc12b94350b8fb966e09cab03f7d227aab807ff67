@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.boilerball.com/about
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://mobile.boilerball.com/schedule
+url::http://mobile.boilerball.com/stats
+activity::.Main
+url::http://mobile.boilerball.com/roster
+url::mobile.boilerball.com
+permission::android.permission.INTERNET
+activity::Boiler Ball
+intent::android.intent.category.LAUNCHER
+url::http://mobile.boilerball.com
+real_permission::android.permission.INTERNET

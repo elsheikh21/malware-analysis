@@ -1,0 +1,17 @@
+real_permission::android.permission.WAKE_LOCK
+feature::android.hardware.touchscreen
+url::http://www.gts8.com/nin1
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+url::www.gts8.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.ReaderActivity
+url::http://www.gts8.com:8080/webgame/ide/flash/
+call::getSystemService
+url::http://www.gts8.com:8080/webgame/ide/flash/i

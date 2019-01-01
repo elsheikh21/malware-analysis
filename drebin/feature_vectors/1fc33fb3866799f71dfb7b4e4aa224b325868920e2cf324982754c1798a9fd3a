@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.mobilewhack.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MainView
+intent::android.intent.category.LAUNCHER
+url::http://www.mobilewhack.com/feed/

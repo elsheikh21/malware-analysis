@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+service_receiver::.myService
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.BATTERY_STATS
+service_receiver::Receiver
+feature::android.hardware.screen.portrait
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.BatteryPict
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+api_call::android/content/Context;->startService

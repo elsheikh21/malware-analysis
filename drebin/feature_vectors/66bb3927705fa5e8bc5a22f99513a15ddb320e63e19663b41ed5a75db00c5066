@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+activity::Tweet Details
+activity::TweetsView
+activity::VenueDetailView
+activity::TweetDetailView
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.gps
+activity::CitySelectorListView
+call::printStackTrace
+feature::android.hardware.location
+activity::.SplashView
+call::getSystemService
+activity::SplashView
+api_call::java/net/URL;->openStream
+url::http://google.com
+url::google.com
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER

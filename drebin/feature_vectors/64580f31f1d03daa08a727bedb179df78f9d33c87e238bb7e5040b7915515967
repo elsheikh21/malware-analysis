@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.SEND_SMS
+permission::android.permission.SEND_SMS
+api_call::android/os/Vibrator;->vibrate
+activity::.GroupSMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

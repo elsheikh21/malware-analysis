@@ -1,0 +1,20 @@
+activity::.ShopSmartMain
+activity::ShopSmartMain
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+intent::android.intent.category.HOME
+url::http://www.fairtrading.nsw.gov.au/
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.fairtrading.nsw.gov.au/About_us/Publications/ShoppingMate/index.html
+api_call::android/app/NotificationManager;->notify
+service_receiver::com.slatterymedia.shopsmart.BootReceiver
+intent::android.intent.category.LAUNCHER
+url::www.fairtrading.nsw.gov.au
+api_call::android/webkit/WebView
+intent::android.intent.action.BOOT_COMPLETED
+call::Read/Write External Storage
+service_receiver::My Shop Rights
+call::getSystemService

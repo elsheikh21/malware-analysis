@@ -1,0 +1,5 @@
+activity::.directory
+feature::android.hardware.touchscreen
+activity::directory
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

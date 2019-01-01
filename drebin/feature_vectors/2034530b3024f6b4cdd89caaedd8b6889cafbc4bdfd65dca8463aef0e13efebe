@@ -1,0 +1,15 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://sites.google.com/site/gson/gson-user-guide
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.google.com
+call::Obfuscation(Base64)
+activity::.PackLauncherActivity
+permission::android.permission.INTERNET
+url::https://www.google.com/accounts/ClientLogin
+intent::android.intent.category.LAUNCHER
+url::http://android.clients.google.com/market/api/ApiRequest
+url::sites.google.com
+real_permission::android.permission.INTERNET
+url::android.clients.google.com

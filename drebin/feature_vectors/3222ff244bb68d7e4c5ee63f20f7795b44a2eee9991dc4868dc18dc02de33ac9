@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Frontiers
+activity::.Game
+intent::android.intent.category.DEFAULT
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.landscape
+activity::.GametypeSelector
+activity::.HighScores
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+activity::.Instructions

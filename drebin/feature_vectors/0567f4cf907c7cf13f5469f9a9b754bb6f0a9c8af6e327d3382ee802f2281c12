@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+activity::.BeachActivity
+url::http://www.facebook.com/pages/DualBoot-Games/105773202838736
+intent::android.intent.action.MAIN
+url::http://mobile.twitter.com/dualbootgames
+intent::android.intent.category.PREFERENCE
+intent::android.intent.category.DEFAULT
+feature::android.software.live_wallpaper
+url::mobile.twitter.com
+intent::android.intent.category.LAUNCHER

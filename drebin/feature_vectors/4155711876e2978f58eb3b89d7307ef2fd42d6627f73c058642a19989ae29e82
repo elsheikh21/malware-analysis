@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+url::www.hcii-lab.net
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+url::http://www.hcii-lab.net/gpen/gpenversion/gpenversiondata.txt
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.VIBRATE
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+permission::android.permission.VIBRATE
+real_permission::android.permission.READ_PHONE_STATE
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.INTERNET
+activity::SettingsActivity
+api_call::android/app/NotificationManager;->notify

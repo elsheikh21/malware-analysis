@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.crm
+call::getSystemService
+call::HttpPost
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+activity::.splash
+real_permission::android.permission.INTERNET
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.VIEW
+activity::.ListCRM

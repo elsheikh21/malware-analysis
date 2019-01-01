@@ -1,0 +1,43 @@
+feature::android.hardware.touchscreen
+call::Cipher(data too short)
+call::Cipher(invalid forcing byte in block)
+url::97.107.139.194
+call::Cipher(BlockLength too large for simple addition.\n)
+url::https://www.
+call::Cipher(pad block corrupted)
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::www.
+service_receiver::Bitcoin Outpoint Service
+call::Cipher(block truncated)
+call::Cipher(cipher returned null)
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::http://97.107.139.194:8000/api/publish-tx.js
+api_call::java/net/Socket
+url::www.bouncycastle.org)
+real_permission::android.permission.VIBRATE
+url::www.slf4j.org
+call::getSystemService
+url::http://www.slf4j.org/codes.html
+call::Obfuscation(Base64)
+url::http://97.107.139.194:8000/api/unspent-outpoints.js
+call::Cipher(mac check in EAX failed)
+call::Cipher(mac check in CCM failed)
+call::Cipher(BlockLength does not match modulus for Naccache-Stern cipher.\n)
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+url::http://www.
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+intent::android.intent.action.MAIN
+url::http://97.107.139.194:8000/api/unspent-outpoints.js?addresses%3D
+call::Cipher(input too short)
+activity::.Bitcoin
+feature::android.hardware.screen.portrait
+url::http://www.bouncycastle.org)
+call::Cipher(Mac codes failed to equal.)
+intent::android.intent.category.LAUNCHER
+call::Cipher(Null pointer as ciphertext)
+api_call::android/app/NotificationManager;->notify

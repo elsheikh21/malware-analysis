@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+activity::.MainActivity
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::eu.chainfire.livebootani.MainActivity

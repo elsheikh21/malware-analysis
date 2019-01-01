@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://a1.com.mk/vesti/rss-zanimlivosti.asp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://a1.com.mk/vesti/rss-svet.asp
+url::http://a1.com.mk/vesti/rss-mak.asp
+url::http://a1.com.mk/vesti/rss-balkan.asp
+permission::android.permission.INTERNET
+url::http://a1.com.mk/vesti/rss-eko.asp
+url::http://a1.com.mk/vesti/rss-nauka.asp
+url::http://a1.com.mk/vesti/rss-top.asp
+intent::android.intent.category.LAUNCHER
+url::a1.com.mk
+activity::.HomeActivity
+real_permission::android.permission.INTERNET
+url::http://a1.com.mk/vesti/rss-sport.asp
+url::http://a1.com.mk/vesti/rss-agro.asp

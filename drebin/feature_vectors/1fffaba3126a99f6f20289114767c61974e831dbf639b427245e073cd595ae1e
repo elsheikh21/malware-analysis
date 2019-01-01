@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::Manage Maps
+activity::Transport Maps
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::http://transportmaps.free.fr/
+url::http://transportmaps.free.fr/maps/request.php
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.MapViewer
+url::http://transportmaps.free.fr/maps/request.php?request%3DCity&country%3D
+url::transportmaps.free.fr
+intent::android.intent.category.LAUNCHER
+url::http://transportmaps.free.fr/maps/request.php?request%3DMap&country%3D
+url::http://transportmaps.free.fr/maps/
+activity::Remove Maps
+activity::Download Dialog

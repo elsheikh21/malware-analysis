@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+activity::com.runnerjogi.positivephraseeng.PositivePhraseEng
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+activity::.PositivePhraseEng

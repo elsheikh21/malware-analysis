@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::.Info
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::m.cignis.no
+activity::.Splash
+activity::.MainScreen
+url::https://m.cignis.no/MasterControlPanel/Appfolders/byporten/
+permission::android.permission.INTERNET
+activity::.Mapping
+url::http://m.cignis.no/MasterControlPanel/Server/ByPortenGetOfferItems.aspx?oid%3D
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.SectionedDemo
+activity::.OfferGUI
+activity::.Map
+url::http://m.cignis.no/MasterControlPanel/Server/ByPortenGetCategories.aspx?appId%3D6
+real_permission::android.permission.INTERNET
+url::http://m.cignis.no/MasterControlPanel/Server/ByPortenGetOfferLists.aspx?appId%3D6
+api_call::android/webkit/WebView

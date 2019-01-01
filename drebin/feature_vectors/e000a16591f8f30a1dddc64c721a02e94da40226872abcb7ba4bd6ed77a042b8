@@ -1,0 +1,6 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.main
+intent::android.intent.category.LAUNCHER
+service_receiver::MathKeyboard

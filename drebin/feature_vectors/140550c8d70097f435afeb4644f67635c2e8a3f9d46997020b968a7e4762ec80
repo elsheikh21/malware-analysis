@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+permission::android.permission.READ_USER_DICTIONARY
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::com.locnet.flitkeyboard.lib.FlitKeyboardLauncher
+service_receiver::.FlitKeyboard
+intent::android.intent.category.PREFERENCE
+activity::.FlitKeyboardSettings
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+activity::.FlitKeyboardLauncher
+api_call::android/content/Context;->startService

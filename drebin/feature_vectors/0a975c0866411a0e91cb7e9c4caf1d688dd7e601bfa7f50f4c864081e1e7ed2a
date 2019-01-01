@@ -1,0 +1,15 @@
+api_call::android/webkit/WebView
+activity::.WebViewAct
+intent::android.intent.action.MAIN
+activity::.About
+feature::android.hardware.touchscreen
+activity::.BookListActivity
+activity::.ActsViews
+url::http://api.readdle.com/shake/playshakespeare.php
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.ColorMenu
+real_permission::android.permission.INTERNET
+activity::.SettingsActivity
+url::api.readdle.com
+intent::android.intent.category.LAUNCHER

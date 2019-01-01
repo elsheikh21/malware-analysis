@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::DeviceListActivity
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+real_permission::android.permission.ACCESS_WIFI_STATE
+activity::PreferenceActivity
+activity::.SplashActivity
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.TakuitusikiLaw
+activity::.Takuitusiki
+intent::android.intent.action.MAIN
+activity::.HowToUse
+feature::android.hardware.screen.portrait
+activity::.Horeishu
+activity::.SentakusikiAnswer
+intent::android.intent.category.LAUNCHER
+activity::.SharosiTool
+call::getPackageInfo
+activity::.Sentakusiki

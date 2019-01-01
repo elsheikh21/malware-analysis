@@ -1,0 +1,9 @@
+activity::.Countdown
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.GameTime
+activity::.Preferences
+call::getPackageInfo
+activity::About Game Time
+call::getSystemService
+intent::android.intent.category.LAUNCHER

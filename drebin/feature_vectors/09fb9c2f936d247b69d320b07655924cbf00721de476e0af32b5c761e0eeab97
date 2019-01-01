@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::www.chicagogolfguide.com
+real_permission::android.permission.INTERNET
+url::http://www.chicagogolfguide.com/
+intent::android.intent.category.LAUNCHER

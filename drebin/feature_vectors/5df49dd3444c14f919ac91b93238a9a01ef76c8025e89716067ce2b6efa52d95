@@ -1,0 +1,5 @@
+activity::.dungeons
+service_receiver::fast_input_label
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen

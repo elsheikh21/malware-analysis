@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->listen
+service_receiver::NegiAntenna
+service_receiver::NegiAntennaService
+api_call::android/content/Context;->startService
+real_permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+call::getSystemService

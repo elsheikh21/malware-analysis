@@ -1,0 +1,12 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+permission::android.permission.SET_WALLPAPER_HINTS
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.action.SET_WALLPAPER
+activity::.Main
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->openOutputStream
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage

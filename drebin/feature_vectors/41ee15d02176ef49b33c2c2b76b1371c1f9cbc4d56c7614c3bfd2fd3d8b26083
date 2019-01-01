@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://192.168.100.151/webservices_v3/api.svc/Caller_ValidateLogin
+call::Obfuscation(Base64)
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.VehicleListActivity
+url::http://192.168.100.151/webservices_v3/api.svc/Location_GetByVehicleIdDateRange
+intent::android.intent.category.LAUNCHER
+url::http://192.168.100.151/webservices_v3/api.svc/Vehicle_GetAll
+url::192.168.100.151
+real_permission::android.permission.INTERNET
+activity::.VehicleDetailActivity
+call::Cipher(smsfwd)
+activity::.mobiletracer

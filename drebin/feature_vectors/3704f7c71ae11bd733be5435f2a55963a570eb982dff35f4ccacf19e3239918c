@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+activity::com.bornfreesoftware.busybee.MainMenuActivity
+feature::android.hardware.screen.portrait
+activity::com.bornfreesoftware.busybee.GameActivity
+activity::com.bornfreesoftware.busybee.HighScoreActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+activity::com.bornfreesoftware.busybee.Preferences

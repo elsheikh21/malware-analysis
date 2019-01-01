@@ -1,0 +1,5 @@
+activity::SendToFramebuffer
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEND
+call::printStackTrace
+intent::android.intent.category.DEFAULT

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Info
+activity::.Welcome
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.BatteryCalculator
+activity::.AirGun
+intent::android.intent.category.LAUNCHER
+activity::.AirSoft
+url::www.pyramydair.com
+url::http://www.pyramydair.com/
+call::getSystemService

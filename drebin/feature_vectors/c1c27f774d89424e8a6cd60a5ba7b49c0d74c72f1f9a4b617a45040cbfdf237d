@@ -1,0 +1,24 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+activity::.GigaTestApp
+call::printStackTrace
+activity::GigaTest Labs Training
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+activity::GigaTest Labs Services
+feature::android.hardware.screen.portrait
+activity::GigaTest Labs Videos
+url::http://206.63.68.98:8001/assets/
+call::getSystemService
+activity::GigaTest Labs About
+activity::GigaTest Labs
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+activity::GigaTest Labs Products
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::206.63.68.98
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::GigaTest Labs Contact
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

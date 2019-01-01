@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://ftpcontent.worldnow.com/wtvf/NC5wx/radar/images/metro/rad_metro_an
+url::http://ftpcontent.worldnow.com/wtvf/NC5wx/forecasts/7day.jpg
+url::http://ftpcontent.worldnow.com/wtvf/NC5wx/radar/images/regional/rad_reg_an
+url::ftpcontent.worldnow.com
+url::http://ftpcontent.worldnow.com/wtvf/NC5wx/radar/images/regional/rad_reg_sm.jpg
+permission::android.permission.INTERNET
+url::http://ftpcontent.worldnow.com/wtvf/NC5wx/radar/images/midtn/rad_midtn_sm.jpg
+real_permission::android.permission.INTERNET
+service_receiver::.WRWidget
+url::http://ftpcontent.worldnow.com/wtvf/NC5wx/radar/images/metro/rad_metro_sm.jpg
+api_call::android/content/Context;->sendBroadcast
+url::http://ftpcontent.worldnow.com/wtvf/NC5wx/radar/images/midtn/rad_midtn_an
+provider::android.appwidget.provider
+url::http://ftpcontent.worldnow.com/wtvf/NC5wx/radar/images/tnarea/rad_tnarea_an
+api_call::java/net/URL;->openConnection
+url::http://ftpcontent.worldnow.com/wtvf/NC5wx/radar/images/tnarea/rad_tnarea_sm.jpg

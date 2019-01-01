@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+service_receiver::RepeatingAlarm
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+activity::.PaBGong
+intent::android.intent.category.LAUNCHER
+activity::PaB_prefs
+activity::.AboutPaB_Screen
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

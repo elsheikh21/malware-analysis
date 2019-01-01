@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://bawidgets.com/brittany_spaniel.php
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.brittanyspaniel
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::bawidgets.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

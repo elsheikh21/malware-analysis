@@ -1,0 +1,9 @@
+activity::.Website
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+url::android.localentity.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://android.localentity.com/localentity/androidsite.xml

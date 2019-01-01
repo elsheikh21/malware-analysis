@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.CREATE_SHORTCUT
+activity::.ShortcutCreatorActivity
+intent::android.intent.category.DEFAULT
+intent::net.cwfk.ig88.intents
+intent::android.intent.action.VIEW

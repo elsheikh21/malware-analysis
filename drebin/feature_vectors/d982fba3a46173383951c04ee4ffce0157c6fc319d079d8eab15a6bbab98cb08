@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CLEAR_APP_CACHE
+service_receiver::SLWCacheCleanerWidget
+service_receiver::CacheCleanerService
+api_call::android/content/pm/PackageManager;->freeStorage
+service_receiver::CacheCleanerReceiver
+permission::android.permission.GET_PACKAGE_SIZE
+real_permission::android.permission.GET_PACKAGE_SIZE
+api_call::android/content/Context;->startService
+api_call::android/content/pm/PackageManager;->getPackageSizeInfo
+permission::android.permission.CLEAR_APP_CACHE
+provider::android.appwidget.provider
+call::getSystemService

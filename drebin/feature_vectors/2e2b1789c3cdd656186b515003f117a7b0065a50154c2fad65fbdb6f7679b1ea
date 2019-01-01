@@ -1,0 +1,51 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::xmlpull.org
+url::schemas.xmlsoap.org
+url::http://www.openmobilealliance.org/DTD/WV-TRC
+url::https://www.
+activity::Application Statistics
+url::http://www.w3.org/2001/XMLSchema-instance
+url::http://www.wireless-village.org/CSP
+activity::.Splash
+url::http://xmlpull.org/v1/doc/
+url::http://www.w3.org/2000/xmlns/
+url::http://rsugarcrm.rolustech.com/soap.php
+real_permission::android.permission.INTERNET
+url::www.
+url::http://www.wireless-village.org/PA
+url::http://www.wireless-village.org/TRC
+url::http://www.openmobilealliance.org/DTD/WV-PA
+url::http://schemas.xmlsoap.org/soap/encoding/
+url::http://www.sugarcrm.com/sugarcrm/
+permission::android.permission.PERSISTENT_ACTIVITY
+url::www.sugarcrm.com
+url::http://www.w3.org/2001/XMLSchema
+url::http://xmlpull.org/v1/doc/features.html
+activity::Settings
+activity::About Us
+url::http://www.sugarcrm.com/sugarcrm
+activity::RSugarCRM
+url::http://xmlpull.org/v1/doc/properties.html
+url::www.wireless-village.org
+call::Obfuscation(Base64)
+url::http://www.w3.org/1999/XMLSchema-instance
+url::http://schemas.xmlsoap.org/soap/envelope/
+url::www.openmobilealliance.org
+activity::Module Selection
+url::http://www.w3.org/2001/12/soap-encoding
+url::rsugarcrm.rolustech.com
+url::http://www.
+activity::SOAP Connection
+intent::android.intent.action.MAIN
+url::http://www.w3.org/XML/1998/namespace
+url::http://xml.apache.org/xml-soap
+url::www.w3.org
+url::http://www.openmobilealliance.org/DTD/WV-CSP
+activity::Sync Database
+url::http://www.w3.org/2001/12/soap-envelope
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::Register with Rolustech
+url::xml.apache.org
+url::http://www.w3.org/1999/XMLSchema

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::http://eyes-free.googlecode.com/svn/trunk/thirdparty/espeak-data.zip
+call::printStackTrace
+real_permission::android.permission.INTERNET
+url::eyes-free.googlecode.com
+intent::android.intent.category.LAUNCHER
+activity::.VoiceDic
+url::http://eyes-free.googlecode.com/svn/trunk/documentation/tts_apps.html
+url::http://eyes-free.googlecode.com/
+api_call::java/net/URL;->openConnection

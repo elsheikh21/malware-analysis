@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://dkit.no/android/ledscrollerfull.html
+url::dkit.no
+intent::android.intent.category.LAUNCHER
+activity::.LEDScroller
+activity::LEDScroller

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.BecquerelConversion
+feature::android.hardware.screen.portrait
+activity::BecquerelConversion
+intent::android.intent.category.LAUNCHER
+call::getSystemService

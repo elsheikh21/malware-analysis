@@ -1,0 +1,32 @@
+feature::android.hardware.touchscreen
+url::http://www.itascan.info/test/index.php
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+url::http://www.itascan.info/test/index.php?main%3Dultimate&IDMANGA%3D
+activity::Preferences
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+activity::.SplashScreen
+url::http://www.itascan.info/test/index.php?main%3Dmanga&IDMANGA%3D
+activity::.MangaBrowser
+real_permission::android.permission.VIBRATE
+url::http://www.itascan.info/test/index.php?main%3Ddettaglio&IDMANGA%3D
+activity::org.acra.CrashReportDialog
+call::getSystemService
+activity::ChapterList
+url::www.itascan.info
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::SplashScreen
+activity::Manga viewer
+url::http://www.itascan.info/test/index.php?main%3Dimage&IDMANGA%3D
+call::Read/Write External Storage
+activity::MangaList
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::spreadsheets.google.com
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::https://spreadsheets.google.com/formResponse?formkey%3D

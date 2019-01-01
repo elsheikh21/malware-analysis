@@ -1,0 +1,13 @@
+service_receiver::AbisBoot
+feature::android.hardware.touchscreen
+activity::.Mulai
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+service_receiver::Killer
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+call::system/bin/su
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::java/lang/Runtime;->exec
+api_call::android/content/Context;->startService

@@ -1,0 +1,32 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+activity::.HsArticleListActivity
+activity::.HsArticleViewActivity
+api_call::android/content/ContentResolver;->query
+activity::.HsAbout
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/Context;->startActivity
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+api_call::java/net/URL;->openStream
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Execution of external commands
+activity::.HsSplash
+service_receiver::.HsServiceDownload
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify

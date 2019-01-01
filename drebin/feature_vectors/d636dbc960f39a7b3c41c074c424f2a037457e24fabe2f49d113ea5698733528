@@ -1,0 +1,10 @@
+activity::NewGame
+feature::android.hardware.touchscreen
+activity::Stats
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.SoYouThinkYouCanType
+activity::Results
+real_permission::android.permission.WAKE_LOCK

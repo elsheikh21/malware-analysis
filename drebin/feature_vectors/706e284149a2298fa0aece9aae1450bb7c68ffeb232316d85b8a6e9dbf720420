@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::.Widget4x1$UpdateService
+api_call::android/provider/Browser;->clearSearches
+real_permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+api_call::android/provider/Browser;->clearHistory
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+permission::android.permission.GET_PACKAGE_SIZE
+intent::android.intent.category.LAUNCHER
+permission::com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+activity::.CleanerActivityFree
+call::getSystemService
+provider::android.appwidget.provider
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+api_call::android/content/Context;->startService

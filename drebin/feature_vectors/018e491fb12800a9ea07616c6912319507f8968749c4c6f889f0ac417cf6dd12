@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.MasterMindEndGame
+activity::.MasterMind
+api_call::android/app/Activity;->startActivity
+activity::eu.reply.sytelgmbh.android.welcome.WelcomeScreen

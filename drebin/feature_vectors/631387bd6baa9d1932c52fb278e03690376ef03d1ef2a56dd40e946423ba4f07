@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.SubwayStatus
+permission::android.permission.INTERNET
+activity::.Settings
+service_receiver::WidgetProvider
+service_receiver::.URLService
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+call::getSystemService

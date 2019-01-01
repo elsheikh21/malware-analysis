@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::http://msg.nomadicsoft.com
+intent::android.intent.action.MAIN
+activity::.MainActivity
+url::msg.nomadicsoft.com
+intent::android.intent.category.LAUNCHER

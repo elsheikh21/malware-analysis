@@ -1,0 +1,9 @@
+url::http://localfreeapps.com/api/mobileapp.php?appid%3D36
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::localfreeapps.com
+activity::.CoffeeNews

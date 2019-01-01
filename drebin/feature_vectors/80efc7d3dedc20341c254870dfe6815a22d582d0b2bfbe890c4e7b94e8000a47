@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::com.SomeSuchStudios.TipCalc.TipCalculator
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.TipCalculator
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,12 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://m.facebook.com/wlrfmwaterford
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::184.154.145.114
+url::http://184.154.145.114:8013/wlrmp3
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

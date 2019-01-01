@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::api.appseleration.net
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+activity::.InterestCalcActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::https://api.appseleration.net/api
+real_permission::android.permission.INTERNET
+activity::eu.reply.sytelgmbh.android.welcome.WelcomeScreen
+call::getSystemService

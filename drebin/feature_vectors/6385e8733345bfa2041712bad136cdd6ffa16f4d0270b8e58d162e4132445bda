@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+api_call::android/media/MediaRecorder;->setAudioSource
+activity::.AutoRecNotes
+intent::android.intent.action.MAIN
+activity::.ManageRecordedNotes
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+service_receiver::.ServiceRecorder
+activity::.Preferences
+feature::android.hardware.microphone
+call::getPackageInfo
+real_permission::android.permission.RECORD_AUDIO
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.WAKE_LOCK
+call::printStackTrace
+call::getSystemService
+intent::android.intent.category.LAUNCHER

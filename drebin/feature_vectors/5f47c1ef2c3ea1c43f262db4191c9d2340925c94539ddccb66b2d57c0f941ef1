@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+provider::stage_widget_provider_label
+intent::dell.intent.category.STAGEWIDGET
+intent::android.intent.action.MAIN
+activity::.ContactsStageWidgetActivity
+permission::android.permission.CALL_PHONE
+intent::android.intent.category.DEFAULT
+provider::stage_widget_provider_id
+feature::android.hardware.telephony
+api_call::android/content/Context;->startService
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.androidster.com
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.MortgageCalculator
+intent::android.intent.category.LAUNCHER
+url::http://www.androidster.com/android_news.rss
+real_permission::android.permission.INTERNET
+call::getSystemService

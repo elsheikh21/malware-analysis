@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+activity::SettingActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/location/LocationManager;->addGpsStatusListener
+call::Read/Write External Storage
+feature::android.hardware.location
+activity::.Simple_Dashboard_Free
+url::www.opengis.net
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+url::http://www.opengis.net/kml/2.2\

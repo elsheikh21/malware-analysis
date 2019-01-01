@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_CONTACTS
+activity::.HelpAboutInfo
+intent::android.intent.category.INFO
+call::getSystemService

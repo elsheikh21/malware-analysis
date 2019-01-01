@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.activities.OptionsActivity
+api_call::android/os/Vibrator;->vibrate
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::.activities.OpenGLDropActivity
+feature::android.hardware.screen.portrait
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

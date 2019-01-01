@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+real_permission::android.permission.READ_CONTACTS
+url::www.neko.ne.jp
+url::http://www.neko.ne.jp/

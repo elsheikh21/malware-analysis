@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.RECORD_AUDIO
+activity::.RD3MainApp
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::com.android.vending.CHECK_LICENSE
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::www.mikrosonic.com
+url::http://www.mikrosonic.com/soundcloud
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+url::http://www.mikrosonic.com
+api_call::android/media/AudioRecord
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

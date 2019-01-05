@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.freeandroidtv.com/index.php
-intent::android.intent.action.MAIN
-url::www.freeandroidtv.com
-activity::.MainScreen
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER

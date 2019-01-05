@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.RadioAlphabet
-url::http://www.practicalandroidapps.com/AndroidAdverts/ras.html
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::www.practicalandroidapps.com

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-service_receiver::.ProfilerService
-call::Read/Write External Storage
-call::printStackTrace
-intent::android.intent.category.LAUNCHER
-activity::.Profiler

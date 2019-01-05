@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.WAKE_LOCK
-activity::.WChessGame
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

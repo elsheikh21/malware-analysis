@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.libraryofcanada.com/categories.html?type%3Dbooks&category_id%3D
-intent::android.intent.action.MAIN
-activity::.bookyards_books_v1
-url::http://www.libraryofcanada.com
-intent::android.intent.category.LAUNCHER
-url::www.libraryofcanada.com

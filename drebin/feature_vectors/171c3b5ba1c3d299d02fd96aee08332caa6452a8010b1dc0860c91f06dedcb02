@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.google.com&path%3D/reader/link
-url::www.google.com&path%3D
-url::www.google.com
-intent::android.intent.action.SEND
-intent::android.intent.category.DEFAULT
-activity::.neosentials.GoogleReaderShare
-url::http://www.google.com/reader/link?url%3D

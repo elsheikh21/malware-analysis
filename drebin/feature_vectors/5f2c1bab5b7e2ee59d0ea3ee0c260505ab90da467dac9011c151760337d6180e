@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::imasnews.happy888.net
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://imasnews.happy888.net/water.php?area%3D
-activity::.GaigerCounter
-intent::android.intent.category.LAUNCHER
-api_call::java/net/URL;->openConnection

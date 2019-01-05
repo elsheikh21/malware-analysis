@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.LiveWallpaperSettings
-service_receiver::Demo Waterfall LWP for Honeycomb Tablets

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.farecalculator
-intent::android.intent.action.MAIN
-permission::android.permission.CALL_PHONE
-activity::viewroute
-activity::calculate
-feature::android.hardware.telephony
-intent::android.intent.category.LAUNCHER
-call::getSystemService

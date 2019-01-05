@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.floatec.de
-activity::.KFZKennzeichen
-intent::android.intent.category.LAUNCHER
-url::http://www.floatec.de

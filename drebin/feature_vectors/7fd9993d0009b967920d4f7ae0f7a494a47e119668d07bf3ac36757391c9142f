@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.WomanPage
-intent::android.intent.action.MAIN
-activity::.Result
-activity::.Couple
-activity::.ManPage
-intent::android.intent.category.LAUNCHER

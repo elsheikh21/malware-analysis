@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.in.html.android.AndroidHtml
-intent::android.intent.action.MAIN
-url::ardour.biz
-url::http://ardour.biz/ad.php?pr%3Dkd0348
-intent::android.intent.category.LAUNCHER
-activity::.AndroidHtml
-call::getSystemService

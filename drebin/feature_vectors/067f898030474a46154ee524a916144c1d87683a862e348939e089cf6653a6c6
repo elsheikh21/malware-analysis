@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.grid
-activity::.settings
-activity::.products
-activity::.home
-intent::android.intent.category.LAUNCHER
-activity::.growguide

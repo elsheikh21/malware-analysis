@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.BreakfastRecipe
-intent::android.intent.action.MAIN
-activity::BreakfastRecipe
-intent::android.intent.category.LAUNCHER
-permission::android.permission.WRITE_SETTINGS

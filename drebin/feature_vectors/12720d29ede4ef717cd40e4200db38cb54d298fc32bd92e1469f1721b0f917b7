@@ -1,9 +1,0 @@
-call::Read/Write External Storage
-feature::android.hardware.touchscreen
-api_call::java/net/HttpURLConnection
-permission::android.permission.INTERNET
-intent::android.intent.category.DEFAULT
-activity::.Cam
-real_permission::android.permission.INTERNET
-intent::android.intent.category.BROWSABLE
-intent::android.intent.action.VIEW

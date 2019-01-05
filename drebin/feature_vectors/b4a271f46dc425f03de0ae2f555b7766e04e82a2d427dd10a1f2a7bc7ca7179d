@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.dbilliter.nakedsimplicity.main
-intent::android.intent.action.PICK
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT

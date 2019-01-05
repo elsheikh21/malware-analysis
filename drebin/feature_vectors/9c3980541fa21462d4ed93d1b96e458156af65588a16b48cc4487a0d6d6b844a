@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::mobile.fpjn.jp
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://mobile.fpjn.jp/tadadeco/php/hC7f4G/
-permission::android.permission.INTERNET
-activity::.TadaDecomeVol5
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openConnection
-service_receiver::BitMarket.eu Widget
-permission::android.permission.INTERNET
-url::bitmarket.eu
-url::https://bitmarket.eu/api/ticker
-real_permission::android.permission.INTERNET
-provider::android.appwidget.provider
-call::getSystemService

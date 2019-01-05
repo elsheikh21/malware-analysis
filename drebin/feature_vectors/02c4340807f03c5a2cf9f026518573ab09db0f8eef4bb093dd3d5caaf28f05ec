@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainActivity
-intent::android.intent.category.LAUNCHER
-activity::com.josephmrose.android.silemtmodetoggle.MainActivity
-service_receiver::com.josephmrose.android.silemtmodetoggle.AppWidget$ToggleService
-provider::android.appwidget.provider
-call::getSystemService
-api_call::android/content/Context;->startService

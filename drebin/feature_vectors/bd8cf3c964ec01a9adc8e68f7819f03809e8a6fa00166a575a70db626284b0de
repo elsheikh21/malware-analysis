@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.WRITE_CONTACTS
-intent::android.intent.action.MAIN
-api_call::android/provider/Contacts$People;->setPhotoData
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.READ_CONTACTS
-permission::android.permission.READ_CONTACTS
-activity::.Text611

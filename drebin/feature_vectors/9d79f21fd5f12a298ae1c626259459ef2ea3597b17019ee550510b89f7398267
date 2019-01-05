@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.SudokuActivity
-intent::android.intent.action.MAIN
-activity::.About
-activity::.GameActivity
-activity::.Sudoku
-activity::.ResultActivity
-intent::android.intent.category.LAUNCHER

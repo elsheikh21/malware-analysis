@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.IntentToolsActivity
-intent::org.lcamel.intenttools
-intent::android.intent.category.LAUNCHER
-activity::.FlagsActivity
-call::getPackageInfo

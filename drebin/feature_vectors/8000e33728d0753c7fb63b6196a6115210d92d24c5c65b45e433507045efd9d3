@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.kontandroid
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::mobile.kontan.co.id
-intent::android.intent.category.LAUNCHER
-url::http://mobile.kontan.co.id

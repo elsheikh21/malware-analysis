@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-activity::.viewsource
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

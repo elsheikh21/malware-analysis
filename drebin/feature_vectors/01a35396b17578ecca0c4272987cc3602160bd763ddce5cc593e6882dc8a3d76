@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainActivity
-permission::android.permission.INTERNET
-url::http://www.lgamerica.com/mobilequote.htm
-url::http://www.lgamerica.com/iquotefid01.htm
-intent::android.intent.category.LAUNCHER
-url::www.lgamerica.com

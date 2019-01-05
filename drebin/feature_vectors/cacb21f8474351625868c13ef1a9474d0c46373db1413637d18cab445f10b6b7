@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-activity::.MobileView

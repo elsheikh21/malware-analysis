@@ -1,5 +1,0 @@
-activity::.ConfigureWallpaper
-feature::android.hardware.touchscreen
-feature::android.software.live_wallpaper
-service_receiver::.LiveWallpaper
-call::getSystemService

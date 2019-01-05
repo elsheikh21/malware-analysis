@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AndroidRageAgainstActivity
-intent::android.intent.category.LAUNCHER

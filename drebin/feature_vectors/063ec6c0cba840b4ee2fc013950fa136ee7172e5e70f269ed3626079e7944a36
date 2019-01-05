@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::RestaurantChequeCalculator
-intent::android.intent.action.MAIN
-activity::.RestaurantChequeCalculator
-intent::android.intent.category.LAUNCHER

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::trash-area.com
-intent::android.intent.action.MAIN
-url::http://trash-area.com/util/venue2kml.php?url%3Dvenue/
-activity::.main
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-intent::android.intent.category.BROWSABLE
-intent::android.intent.action.VIEW

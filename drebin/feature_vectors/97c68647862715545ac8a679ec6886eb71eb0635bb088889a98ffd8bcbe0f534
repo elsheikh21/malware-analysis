@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.cocktailrecipes
-activity::.whiskeybase
-activity::.base
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-activity::.jinbase

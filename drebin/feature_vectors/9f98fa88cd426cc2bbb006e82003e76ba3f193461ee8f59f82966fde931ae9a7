@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::MenuActivity
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.MenuActivity
-call::getSystemService

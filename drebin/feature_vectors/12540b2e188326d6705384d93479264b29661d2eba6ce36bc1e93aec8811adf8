@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.BrokenScreens
-intent::android.intent.category.LAUNCHER
-url::www.bbthemeworld.com
-url::http://www.bbthemeworld.com/tp/broken-screens

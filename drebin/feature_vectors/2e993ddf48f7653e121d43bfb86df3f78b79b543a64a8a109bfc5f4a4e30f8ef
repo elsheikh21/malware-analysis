@@ -1,9 +1,0 @@
-url::http://ipack.dinglisch.net/download.html
-feature::android.hardware.touchscreen
-api_call::android/app/NotificationManager;->notify
-activity::.IpackIconSelect
-service_receiver::.IpackReceiver
-intent::android.intent.category.DEFAULT
-url::ipack.dinglisch.net
-real_permission::android.permission.VIBRATE
-call::getSystemService

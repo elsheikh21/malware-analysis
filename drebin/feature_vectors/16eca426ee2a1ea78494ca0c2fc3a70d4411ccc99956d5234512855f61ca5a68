@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://linkpush.appspot.com/go
-activity::.LinkPush
-intent::android.intent.category.LAUNCHER
-url::linkpush.appspot.com

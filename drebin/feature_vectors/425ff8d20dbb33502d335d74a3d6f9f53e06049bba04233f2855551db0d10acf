@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Emp7Activity
-intent::android.intent.action.MAIN
-call::printStackTrace
-url::http://www.xenialab.it/meo/web/white/oracle/emp7.htm
-url::www.xenialab.it
-intent::android.intent.category.LAUNCHER

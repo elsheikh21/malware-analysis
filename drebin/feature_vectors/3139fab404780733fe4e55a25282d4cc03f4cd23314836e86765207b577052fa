@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.g6pd.org
-intent::android.intent.action.MAIN
-activity::.G6PD
-url::www.favismo.it
-url::http://www.favismo.it
-url::http://www.g6pd.org
-intent::android.intent.category.LAUNCHER

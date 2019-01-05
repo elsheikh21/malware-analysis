@@ -1,2 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.ATTACH_DATA

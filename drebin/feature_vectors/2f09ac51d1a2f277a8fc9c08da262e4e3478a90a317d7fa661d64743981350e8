@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::balafoon NL Demo
-intent::android.intent.action.MAIN
-activity::.AppEntry
-permission::android.permission.READ_PHONE_STATE
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

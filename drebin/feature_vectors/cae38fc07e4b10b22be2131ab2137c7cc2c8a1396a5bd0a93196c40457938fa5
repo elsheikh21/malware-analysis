@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.SakuraCal$UpdateService
-intent::android.intent.action.ACTION_SCREEN_ON
-intent::android.intent.category.DEFAULT
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider

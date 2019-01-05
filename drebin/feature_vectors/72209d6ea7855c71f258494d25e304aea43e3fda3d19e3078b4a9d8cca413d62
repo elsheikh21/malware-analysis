@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/ContentResolver;->query
-permission::android.permission.READ_SMS
-feature::android.hardware.telephony
-intent::android.intent.category.LAUNCHER
-activity::.RootActivity
-real_permission::android.permission.READ_CONTACTS
-permission::android.permission.READ_CONTACTS

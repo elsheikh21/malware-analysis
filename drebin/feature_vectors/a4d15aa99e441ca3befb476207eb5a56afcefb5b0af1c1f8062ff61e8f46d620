@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.Hawaiinow
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::i-hawaiinow.com
-intent::android.intent.category.LAUNCHER
-url::http://i-hawaiinow.com/wp/

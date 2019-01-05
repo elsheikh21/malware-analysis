@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Disclaimer
-url::www.jackboydogbakery.com
-url::http://www.jackboydogbakery.com
-call::printStackTrace
-intent::android.intent.category.LAUNCHER
-activity::MainView

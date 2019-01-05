@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Bukhari
-url::market.android.com
-intent::android.intent.action.MAIN
-activity::.Books
-intent::android.intent.category.LAUNCHER
-url::http://market.android.com/details?id%3Dcom.bukhari
-call::getSystemService

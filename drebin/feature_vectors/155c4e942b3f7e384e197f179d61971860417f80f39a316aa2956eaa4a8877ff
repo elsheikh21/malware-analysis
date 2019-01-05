@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://daily.worldclockr.com/android.html
-api_call::android/webkit/WebView
-activity::.Main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::daily.worldclockr.com

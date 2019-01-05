@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://www.bestmoviestodownload.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::www.bestmoviestodownload.com
-activity::.Activity1

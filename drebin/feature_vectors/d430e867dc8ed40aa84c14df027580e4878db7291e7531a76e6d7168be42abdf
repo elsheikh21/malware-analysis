@@ -1,9 +1,0 @@
-feature::android.hardware.location.network
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.ACCESS_COARSE_LOCATION
-feature::android.hardware.location
-activity::.Preferences
-activity::.EstimateGoat
-call::getSystemService
-intent::android.intent.category.LAUNCHER

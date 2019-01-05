@@ -1,9 +1,0 @@
-service_receiver::.Wam_BatteryWidgetProvider$MyService
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::wamwamkun.com
-intent::android.intent.category.DEFAULT
-intent::android.intent.action.USER_PRESENT
-url::http://wamwamkun.com/
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

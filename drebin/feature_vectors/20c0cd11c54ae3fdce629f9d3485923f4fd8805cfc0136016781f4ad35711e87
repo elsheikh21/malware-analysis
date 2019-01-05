@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::wikidocs.net
-intent::android.intent.action.MAIN
-api_call::java/net/HttpURLConnection
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.JumpToPython
-url::http://wikidocs.net

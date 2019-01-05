@@ -1,9 +1,0 @@
-activity::.dailybread
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-url::http://bighits.net/dailybread/index.php
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::bighits.net
-api_call::android/webkit/WebView

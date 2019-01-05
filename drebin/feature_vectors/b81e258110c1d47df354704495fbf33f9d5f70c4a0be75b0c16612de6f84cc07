@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://219.234.85.214/appfile/c6ee4422c61842695c495b686255ba09/HuanGeZhiSi.apk
-activity::.MainActivity
-intent::android.intent.category.LAUNCHER
-url::219.234.85.214

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.google.com
-url::http://www.google.com//search?source%3Dig&q%3D
-permission::android.permission.INTERNET
-intent::android.intent.category.DEFAULT
-activity::.globalsearchactivity
-intent::android.intent.category.LAUNCHER

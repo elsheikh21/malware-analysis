@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-intent::android.intent.action.MAIN
-intent::android.intent.action.SEND
-intent::android.intent.category.DEFAULT
-activity::.RedirectMarket4Install
-intent::android.intent.category.LAUNCHER
-url::https://market.android.com/details

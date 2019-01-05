@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.SEARCH_LONG_PRESS
-intent::android.intent.action.MAIN
-real_permission::android.permission.WRITE_SETTINGS
-activity::.Main
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-api_call::android/provider/Settings$System;->putInt
-permission::android.permission.WRITE_SETTINGS

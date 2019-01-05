@@ -1,9 +1,0 @@
-call::Cipher(AES/CBC/NoPadding)
-api_call::android/webkit/WebView
-call::sendSMS
-call::printStackTrace
-api_call::android/content/Context;->startActivity
-real_permission::android.permission.SEND_SMS
-api_call::android/telephony/SmsManager;->sendTextMessage
-real_permission::android.permission.INTERNET
-call::getSystemService

@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::com.sds.android.ttpod.skin.bianxing_37.SkinReleaseService
-call::printStackTrace
-call::Read/Write External Storage

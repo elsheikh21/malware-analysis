@@ -1,9 +1,0 @@
-permission::android.permission.VIBRATE
-activity::ImePreferenceActivity
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-api_call::android/os/Vibrator;->vibrate
-real_permission::android.permission.INTERNET
-real_permission::android.permission.VIBRATE
-api_call::android/webkit/WebView
-call::getSystemService

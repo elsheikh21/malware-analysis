@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.BSSMobipass
-permission::android.permission.CHANGE_CONFIGURATION
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-api_call::android/app/Activity;->startActivity

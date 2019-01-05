@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.NAQTScoresheet
-activity::PlayerStatsScreen
-activity::NAQTScoresheet
-activity::TeamStatsScreen
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-activity::StatsScreen

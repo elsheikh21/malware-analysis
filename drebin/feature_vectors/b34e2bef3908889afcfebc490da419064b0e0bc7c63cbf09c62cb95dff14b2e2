@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::WidgetProvider
-activity::Application Details
-api_call::android/content/Context;->startService
-activity::Application Preferences
-provider::android.appwidget.provider

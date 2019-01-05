@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.BunnyBlockade
-intent::android.intent.action.MAIN
-activity::games.BunnyBlockade.BunnyBlockade
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER

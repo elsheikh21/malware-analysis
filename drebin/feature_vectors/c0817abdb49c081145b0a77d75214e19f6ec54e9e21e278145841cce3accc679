@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.dmxdipcalc
-url::http://nathrondevblog.blogspot.com/
-intent::android.intent.category.LAUNCHER
-url::nathrondevblog.blogspot.com

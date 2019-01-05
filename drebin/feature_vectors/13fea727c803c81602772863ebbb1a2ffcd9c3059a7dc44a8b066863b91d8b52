@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::OptionsActivity
-intent::android.intent.action.MAIN
-activity::.TicTacToeActivity
-intent::android.intent.category.LAUNCHER
-activity::TicTacToeActivity

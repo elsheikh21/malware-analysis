@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.licence
-intent::android.intent.action.MAIN
-activity::.results
-activity::.main
-intent::android.intent.category.LAUNCHER
-activity::.roughness
-intent::android.intent.action.DEFAULT
-activity::.theory

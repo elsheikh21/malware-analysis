@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->query
-intent::android.intent.category.PREFERENCE
-real_permission::android.permission.READ_CONTACTS
-url::http://www.spicywigwam.com
-url::www.spicywigwam.com

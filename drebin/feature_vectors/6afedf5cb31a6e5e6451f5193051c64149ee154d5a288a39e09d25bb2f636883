@@ -1,9 +1,0 @@
-activity::.PasswordEditActivity
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainActivity
-activity::.SelectedPasswordActivity
-activity::.PasswordListActivity
-intent::android.intent.category.LAUNCHER
-activity::.PasswordElementSelectActivity
-call::getSystemService

@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.ShoppingAssistant
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

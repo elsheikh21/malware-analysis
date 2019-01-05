@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.football
-url::http://www.aviationwap.com/wgt/football_and/Get.php?up_Tip%3D
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-url::www.aviationwap.com

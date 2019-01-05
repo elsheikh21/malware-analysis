@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.OpenKlingelton
-intent::android.intent.action.MAIN
-url::http://mobi.klingelton.com/
-url::mobi.klingelton.com
-intent::android.intent.category.LAUNCHER

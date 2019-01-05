@@ -1,9 +1,0 @@
-activity::.ActivityMain
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::ActivityMain
-feature::android.hardware.screen.portrait
-activity::bsp.eclair.collectapples.ActivityGame
-call::Read/Write External Storage
-intent::android.intent.category.LAUNCHER

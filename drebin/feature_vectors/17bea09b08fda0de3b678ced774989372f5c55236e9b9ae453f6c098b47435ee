@@ -1,8 +1,0 @@
-activity::.Nonsense
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-call::getSystemService
-intent::android.intent.action.VIEW

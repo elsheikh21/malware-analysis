@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-feature::android.hardware.screen.portrait
-activity::.vsReversi
-intent::android.intent.category.LAUNCHER
-api_call::android/app/Activity;->startActivity
-call::getSystemService

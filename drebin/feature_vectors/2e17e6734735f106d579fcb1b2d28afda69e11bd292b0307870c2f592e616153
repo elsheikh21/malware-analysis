@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.TextSizeActivity
-intent::android.intent.action.MAIN
-url::apps4android.org
-url::http://apps4android.org/textenlarger/unsupported_device.html
-permission::android.permission.CHANGE_CONFIGURATION
-intent::android.intent.category.LAUNCHER
-service_receiver::.TextEnlargerService

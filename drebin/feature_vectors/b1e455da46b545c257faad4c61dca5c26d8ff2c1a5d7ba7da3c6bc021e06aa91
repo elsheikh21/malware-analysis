@@ -1,4 +1,0 @@
-intent::com.mysms.android.sms.intent.action.THEME
-feature::android.hardware.touchscreen
-intent::android.intent.category.INFO
-intent::android.intent.action.MAIN

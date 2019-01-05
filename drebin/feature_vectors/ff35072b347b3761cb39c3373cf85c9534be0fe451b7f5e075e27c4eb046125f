@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Ruler
-intent::android.intent.category.LAUNCHER
-url::http://chima-hk.blogspot.com/\n
-url::chima-hk.blogspot.com

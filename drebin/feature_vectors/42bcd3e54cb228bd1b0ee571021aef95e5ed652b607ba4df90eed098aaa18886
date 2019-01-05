@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.spreadsheetapplications.co.uk/Android/Converter/EasyConverter.html
-intent::android.intent.action.MAIN
-activity::.Main
-url::www.spreadsheetapplications.co.uk
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-activity::About Easy Convertor

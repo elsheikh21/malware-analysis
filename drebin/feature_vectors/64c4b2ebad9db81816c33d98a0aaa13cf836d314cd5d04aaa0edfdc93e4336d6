@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Menu
-intent::android.intent.action.MAIN
-activity::.Gameplay
-intent::android.intent.category.LAUNCHER
-activity::.Story
-call::getSystemService

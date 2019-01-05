@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-provider::android.provider.Telephony.SMS_RECEIVED
-service_receiver::SMSBraodCastReceiver
-permission::android.permission.RECEIVE_SMS
-call::readSMS
-activity::.SMSReceiver
-feature::android.hardware.telephony
-intent::android.intent.category.LAUNCHER

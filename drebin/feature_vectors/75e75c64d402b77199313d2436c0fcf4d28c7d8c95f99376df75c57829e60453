@@ -1,5 +1,0 @@
-activity::.HPTracker
-intent::android.intent.category.LAUNCHER
-activity::.EditPreferences
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

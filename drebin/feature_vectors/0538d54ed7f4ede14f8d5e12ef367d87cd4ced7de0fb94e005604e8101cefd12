@@ -1,8 +1,0 @@
-api_call::java/net/HttpURLConnection
-feature::android.hardware.touchscreen
-url::http://xn--vt3a.jp/api?url%3D
-url::xn--vt3a.jp
-permission::android.permission.INTERNET
-intent::android.intent.category.DEFAULT
-real_permission::android.permission.INTERNET
-activity::Main

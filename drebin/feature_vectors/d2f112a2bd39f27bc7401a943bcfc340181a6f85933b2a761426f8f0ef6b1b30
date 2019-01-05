@@ -1,5 +1,0 @@
-call::getPackageInfo
-feature::android.hardware.touchscreen
-permission::tunnybrowser.permission.Extension
-intent::android.intent.category.INFO
-intent::android.intent.action.MAIN

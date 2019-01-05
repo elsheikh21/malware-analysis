@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.PulseKeeper
-call::getSystemService
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

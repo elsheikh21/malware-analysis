@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.pmTextEdit
-activity::.EditPreferences
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.PlayGame
-activity::.Menu
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-activity::.MysteryCircleActivity
-intent::android.intent.category.LAUNCHER

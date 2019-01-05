@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.PACKAGE_ADDED
-intent::android.intent.action.PACKAGE_REMOVED
-intent::android.intent.action.PACKAGE_REPLACED
-api_call::android/content/Context;->sendBroadcast
-provider::android.appwidget.provider

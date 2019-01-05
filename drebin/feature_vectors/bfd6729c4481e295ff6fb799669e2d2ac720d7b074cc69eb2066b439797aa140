@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-call::getSystemService
-activity::.Ohm
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

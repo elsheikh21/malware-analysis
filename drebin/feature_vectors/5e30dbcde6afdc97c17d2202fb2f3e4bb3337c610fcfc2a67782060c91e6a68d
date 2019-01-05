@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-activity::.WrestleLog
-activity::WrestleLog
-intent::android.intent.category.LAUNCHER

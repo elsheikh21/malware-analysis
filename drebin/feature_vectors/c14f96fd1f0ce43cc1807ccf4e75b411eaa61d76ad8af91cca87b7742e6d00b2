@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-api_call::android/content/Context;->startActivity
-activity::.NoteToSelf
-service_receiver::NoteWidgetProvider
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-provider::android.appwidget.provider

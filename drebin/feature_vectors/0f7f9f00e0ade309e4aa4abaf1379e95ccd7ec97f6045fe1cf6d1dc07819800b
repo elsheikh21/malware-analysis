@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Vectron
-intent::android.intent.action.MAIN
-call::printStackTrace
-url::http://benudigital.blogspot.com/
-api_call::android/media/MediaPlayer;->start
-url::benudigital.blogspot.com
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.WAKE_LOCK

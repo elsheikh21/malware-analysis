@@ -1,7 +1,0 @@
-activity::.BondActivity
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Main
-activity::.DetailActivity
-intent::android.intent.category.LAUNCHER
-activity::.PriceActivity

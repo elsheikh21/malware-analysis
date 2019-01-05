@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.BenzNKActivity
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-url::http://www.benznk.com/car-all.htm
-url::www.benznk.com

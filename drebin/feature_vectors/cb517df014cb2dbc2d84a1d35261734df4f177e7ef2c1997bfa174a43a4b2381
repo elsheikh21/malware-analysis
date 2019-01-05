@@ -1,4 +1,0 @@
-activity::.DesktopLabelWidgetClick
-provider::android.appwidget.provider
-activity::.DesktopLabelWidgetConfigure
-feature::android.hardware.touchscreen

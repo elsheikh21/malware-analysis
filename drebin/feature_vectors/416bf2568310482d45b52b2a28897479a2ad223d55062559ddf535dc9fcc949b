@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::findyourfate.com
-intent::android.intent.action.MAIN
-url::http://findyourfate.com/
-intent::android.intent.category.LAUNCHER
-activity::.lovecalculator
-call::getSystemService

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/app/Activity;->startActivity
-activity::.Encode
-activity::.Decode
-activity::.Scan
-intent::android.intent.category.LAUNCHER
-activity::.Services

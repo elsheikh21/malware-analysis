@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::de.dnsproject.clock_widget_main.Clock1AlarmReceiver
-provider::android.appwidget.provider
-call::getSystemService

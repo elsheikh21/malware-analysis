@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-url::http://vzw.audiobooks.com/marketplace.php?v%3D1.0
-activity::.audiobooks_com
-url::vzw.audiobooks.com
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET

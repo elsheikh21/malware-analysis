@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.SavingsCalcActivity
-intent::android.intent.action.MAIN
-url::market.android.com
-activity::AmountCalcActivity
-url::http://market.android.com/search?q%3Dpub:\
-intent::android.intent.category.LAUNCHER
-call::getSystemService

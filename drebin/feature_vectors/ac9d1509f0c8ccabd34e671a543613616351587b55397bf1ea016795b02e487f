@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-call::printStackTrace
-activity::.SecureNote
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

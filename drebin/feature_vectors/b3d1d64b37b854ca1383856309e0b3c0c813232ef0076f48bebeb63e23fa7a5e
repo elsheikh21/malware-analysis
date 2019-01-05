@@ -1,8 +1,0 @@
-permission::android.permission.SET_WALLPAPER
-feature::android.hardware.touchscreen
-activity::.CreativeWallpaper
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.SET_WALLPAPER_HINTS
-api_call::android/app/WallpaperManager;->suggestDesiredDimensions
-call::getSystemService

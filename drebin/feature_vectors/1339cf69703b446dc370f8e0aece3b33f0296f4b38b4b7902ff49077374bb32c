@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::app.gymdeck.com
-activity::.GymDeckActivity
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://app.gymdeck.com/
-real_permission::android.permission.INTERNET

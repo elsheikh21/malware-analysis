@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::isotropic.org
-intent::android.intent.action.MAIN
-activity::.Main
-activity::Hello
-intent::android.intent.category.LAUNCHER
-url::http://isotropic.org/randominion/
-call::getSystemService

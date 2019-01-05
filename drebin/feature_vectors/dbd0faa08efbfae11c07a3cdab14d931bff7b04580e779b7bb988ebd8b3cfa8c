@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/os/PowerManager$WakeLock;->acquire
-intent::android.intent.action.MAIN
-permission::android.permission.WAKE_LOCK
-activity::.FlashLight
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.WAKE_LOCK
-call::getSystemService
-permission::android.permission.WRITE_SETTINGS

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::com.jeroenvanlogten.magiccardtrick.PlayActivity
-activity::com.jeroenvanlogten.magiccardtrick.HelpActivity
-feature::android.hardware.screen.portrait
-activity::.StartActivity
-intent::android.intent.category.LAUNCHER

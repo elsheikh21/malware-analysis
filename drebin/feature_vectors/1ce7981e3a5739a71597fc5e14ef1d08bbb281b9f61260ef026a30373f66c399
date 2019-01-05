@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://unfetteredmind.org\
-activity::.main
-activity::com.craftyguy.bodhisattva.main
-url::unfetteredmind.org\
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER

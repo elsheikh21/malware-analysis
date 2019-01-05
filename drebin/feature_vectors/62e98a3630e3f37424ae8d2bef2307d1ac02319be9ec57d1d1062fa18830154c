@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://hiperweb.ecoga.org/hwmobile/mylogin.asp
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.HiperWebECGActivity
-url::hiperweb.ecoga.org

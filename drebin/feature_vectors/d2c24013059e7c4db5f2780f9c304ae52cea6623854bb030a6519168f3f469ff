@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.QYSG
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::push.dog3g.com
-url::http://push.dog3g.com/client/index.jsp?c_type%3Dandroid&m_key%3D

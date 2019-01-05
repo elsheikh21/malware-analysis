@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-activity::HandNote
-feature::android.hardware.screen.portrait
-activity::.HandNote
-intent::android.intent.category.LAUNCHER
-call::Read/Write External Storage
-call::getSystemService

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.StackOverflow
-activity::.MayneAktiviti
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.SuperNotCalled

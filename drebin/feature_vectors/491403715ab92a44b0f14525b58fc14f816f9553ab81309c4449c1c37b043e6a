@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.IniciarAppActivity
-intent::android.intent.action.MAIN
-api_call::android/media/MediaPlayer;->start
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-activity::com.benitez.SmallPhoneDiegoSays.DiegoDiceMainActivity
-real_permission::android.permission.WAKE_LOCK

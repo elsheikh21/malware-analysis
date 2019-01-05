@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Main
-activity::.CalcBaseStatActivity
-intent::android.intent.category.LAUNCHER
-activity::.InfoActivity
-activity::.SettingsActivity
-call::getSystemService
-activity::.ChoosePokemonFormActivity

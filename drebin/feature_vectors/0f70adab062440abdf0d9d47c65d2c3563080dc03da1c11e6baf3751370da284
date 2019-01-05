@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.OkinawaSeaWorld
-intent::android.intent.action.MAIN
-url::http://www.okinawastory.jp/en/
-intent::android.intent.category.LAUNCHER
-url::www.okinawastory.jp

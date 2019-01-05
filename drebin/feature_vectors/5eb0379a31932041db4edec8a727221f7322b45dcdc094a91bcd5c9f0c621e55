@@ -1,8 +1,0 @@
-activity::.dictionarycustomizer
-permission::android.permission.WRITE_USER_DICTIONARY
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-call::printStackTrace
-api_call::android/provider/UserDictionary$Words;->addWord
-real_permission::android.permission.WRITE_USER_DICTIONARY
-intent::android.intent.category.LAUNCHER

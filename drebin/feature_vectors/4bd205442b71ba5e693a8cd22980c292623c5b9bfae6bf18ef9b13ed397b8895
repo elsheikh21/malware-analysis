@@ -1,8 +1,0 @@
-activity::.SheepCount
-activity::.GameScreen
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-activity::.Score
-activity::.Guess
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER

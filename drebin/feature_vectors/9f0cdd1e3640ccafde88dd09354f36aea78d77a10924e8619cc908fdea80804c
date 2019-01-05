@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::Info
-api_call::android/content/Context;->startActivity
-activity::.SpeakArabicFree
-intent::android.intent.category.LAUNCHER
-api_call::android/media/MediaPlayer;->start
-real_permission::android.permission.WAKE_LOCK

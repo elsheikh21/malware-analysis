@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
-service_receiver::ToggleWidgetProvider
-api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
-service_receiver::MediaButtonBlocker
-provider::android.appwidget.provider
-intent::android.intent.action.MEDIA_BUTTON

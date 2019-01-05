@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-activity::.MyFirstPuzzles
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-activity::com.arent.myfirstpuzzleslite.MyFirstPuzzles
-call::getSystemService

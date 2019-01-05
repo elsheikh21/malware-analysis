@@ -1,9 +1,0 @@
-url::www.davewhite.com
-feature::android.hardware.touchscreen
-activity::.bedtimeStories
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://www.davewhite.com/android/BedtimeStories.html

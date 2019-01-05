@@ -1,9 +1,0 @@
-permission::android.permission.GET_TASKS
-feature::android.hardware.touchscreen
-permission::android.permission.RESTART_PACKAGES
-api_call::android/app/ActivityManager;->restartPackage
-url::www.bestmobilemanager.com
-intent::android.intent.category.DEFAULT
-url::http://www.bestmobilemanager.com
-real_permission::android.permission.RESTART_PACKAGES
-call::getSystemService

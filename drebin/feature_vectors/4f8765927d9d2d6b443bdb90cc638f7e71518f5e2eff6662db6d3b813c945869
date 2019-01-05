@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.PdfBrowserActivity
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-intent::android.intent.category.BROWSABLE
-intent::android.intent.action.VIEW

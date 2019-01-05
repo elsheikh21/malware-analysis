@@ -1,8 +1,0 @@
-activity::FormAbilityList
-activity::FormFreeUnit
-activity::.FormPocketArmyList
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-activity::FormPocketArmyList
-intent::android.intent.category.LAUNCHER
-activity::FormUnitList

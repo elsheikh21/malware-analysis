@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.ToMarket
-intent::android.intent.action.MAIN
-call::printStackTrace
-feature::android.hardware.telephony
-permission::android.permission.WRITE_SMS
-intent::android.intent.category.LAUNCHER

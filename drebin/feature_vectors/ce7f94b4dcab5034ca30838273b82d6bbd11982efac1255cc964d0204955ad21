@@ -1,7 +1,0 @@
-activity::GlobalTime
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-call::printStackTrace
-intent::android.intent.category.DEFAULT
-activity::.GlobalTime
-intent::android.intent.category.LAUNCHER

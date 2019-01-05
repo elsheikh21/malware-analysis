@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::com.bckrealestate.BarcodeRealtyActivity
-url::m.bckrealestate.com
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://m.bckrealestate.com?utm_source%3DMobileApp&utm_medium%3DAndroid
-activity::.BarcodeRealtyActivity

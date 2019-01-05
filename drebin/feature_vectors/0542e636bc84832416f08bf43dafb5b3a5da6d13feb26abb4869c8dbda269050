@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Mirror
-intent::android.intent.action.MAIN
-permission::android.permission.WAKE_LOCK
-api_call::android/os/PowerManager$WakeLock;->acquire
-intent::android.intent.category.LAUNCHER
-activity::.sos.SOS
-call::getSystemService
-real_permission::android.permission.WAKE_LOCK

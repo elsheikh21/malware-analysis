@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.PandaWebView
-intent::android.intent.action.MAIN
-url::http://m.pandats.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-url::m.pandats.com

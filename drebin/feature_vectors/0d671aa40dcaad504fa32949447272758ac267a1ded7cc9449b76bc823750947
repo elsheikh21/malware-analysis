@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Info
-service_receiver::Mario Clock 3x3
-intent::android.intent.action.MAIN
-service_receiver::Mario Clock 2x2
-provider::android.appwidget.provider
-intent::android.intent.category.INFO
-service_receiver::Mario Clock 4x4

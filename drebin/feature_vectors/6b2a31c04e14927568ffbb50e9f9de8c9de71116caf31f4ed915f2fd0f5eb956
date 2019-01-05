@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.LiveWallpaperSettings
-service_receiver::AuntieDot

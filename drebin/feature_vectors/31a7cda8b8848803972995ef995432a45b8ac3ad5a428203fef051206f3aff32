@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-intent::android.intent.action.MAIN
-url::http://market.android.com/search?q%3Dpname:com.appspot.swisscodemonkeys.steampro
-activity::.Main
-intent::android.intent.category.DEFAULT
-call::getPackageInfo
-intent::android.intent.category.INFO

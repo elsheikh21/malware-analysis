@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Prefs
-activity::.MSolitaire
-activity::.Game
-intent::android.intent.category.LAUNCHER

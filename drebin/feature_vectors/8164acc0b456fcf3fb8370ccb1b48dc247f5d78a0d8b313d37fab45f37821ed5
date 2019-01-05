@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://robotinvader.com
-intent::android.intent.action.MAIN
-url::http://windupknight.com
-url::robotinvader.com
-feature::android.hardware.screen.landscape
-activity::.WindUpKnightDownloaderActivity
-url::windupknight.com
-intent::android.intent.category.LAUNCHER

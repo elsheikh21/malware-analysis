@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.AssignmentView
-intent::android.intent.action.MAIN
-activity::.AssignmentEditExisting
-permission::android.permission.WRITE_CALENDAR
-activity::.DailyView
-permission::android.permission.READ_CALENDAR
-activity::.AssignmentEdit
-intent::android.intent.category.LAUNCHER

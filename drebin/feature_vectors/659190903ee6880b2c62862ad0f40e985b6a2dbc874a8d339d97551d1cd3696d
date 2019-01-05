@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Mind_Game
-url::http://mss.api.getjar.com/launch/?webappID%3D3456
-intent::android.intent.category.LAUNCHER
-url::mss.api.getjar.com

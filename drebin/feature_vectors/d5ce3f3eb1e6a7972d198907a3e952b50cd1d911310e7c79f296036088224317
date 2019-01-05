@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.FoodView
-intent::android.intent.category.LAUNCHER
-api_call::java/net/URL;->openConnection

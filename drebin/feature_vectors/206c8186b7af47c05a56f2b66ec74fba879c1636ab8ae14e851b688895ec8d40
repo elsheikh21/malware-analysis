@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::it.gamoon.crosspuzzlefull.CrossPuzzlePreferenceActivity
-intent::android.intent.action.MAIN
-activity::.CrossPuzzleActivity
-api_call::android/app/Activity;->startActivity
-api_call::android/content/ContentResolver;->openFileDescriptor
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.READ_CONTACTS

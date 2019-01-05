@@ -1,9 +1,0 @@
-activity::.GameScreen
-feature::android.hardware.touchscreen
-intent::android.intent.category.SAMPLE_CODE
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-activity::.SettingsScreen
-activity::.StartScreen
-call::getSystemService

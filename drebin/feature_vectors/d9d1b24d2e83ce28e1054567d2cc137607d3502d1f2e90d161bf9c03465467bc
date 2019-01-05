@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-api_call::android/content/Context;->startActivity
-intent::android.intent.category.DEFAULT
-service_receiver::CarUI Liveview Plugin Service
-intent::android.intent.category.LAUNCHER
-service_receiver::com.sonyericsson.extras.liveview.plugins.PluginReceiver
-activity::com.beemer.carui.liveview.PluginPreferences
-call::getPackageInfo

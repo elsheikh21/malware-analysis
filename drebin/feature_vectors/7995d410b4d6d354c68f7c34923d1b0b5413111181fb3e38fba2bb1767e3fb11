@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://www.medicalize.com/mobile/apps/seouldc/index.php
-activity::.Main
-url::www.medicalize.com
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET

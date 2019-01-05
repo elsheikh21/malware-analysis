@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.category.BROWSABLE
-intent::android.intent.action.VIEW
-intent::android.intent.category.DEFAULT

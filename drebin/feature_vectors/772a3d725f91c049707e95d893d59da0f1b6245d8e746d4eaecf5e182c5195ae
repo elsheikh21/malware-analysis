@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.SNBMidlet
-api_call::android/content/Context;->startActivity
-url::http://www.netmite.com/android/andme_signed.apk
-url::www.netmite.com
-call::getPackageInfo
-url::http://www.netmite.com/android/srv/1.6/upload/Legend_of_Spyro_Eternal_Night.jar
-intent::android.intent.category.LAUNCHER

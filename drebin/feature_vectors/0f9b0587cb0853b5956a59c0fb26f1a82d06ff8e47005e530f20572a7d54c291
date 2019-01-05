@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/ContentResolver;->query
-feature::android.software.live_wallpaper
-call::getPackageInfo
-real_permission::android.permission.READ_CONTACTS
-intent::android.intent.category.INFO
-call::getSystemService

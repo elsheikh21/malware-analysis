@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::Term
-permission::android.permission.INTERNET
-activity::.Term
-intent::android.intent.category.LAUNCHER
-call::Execution of native code

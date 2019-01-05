@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.SanMar
-intent::android.intent.action.MAIN
-url::m.sanmar.com
-intent::android.intent.category.LAUNCHER
-url::http://m.sanmar.com/

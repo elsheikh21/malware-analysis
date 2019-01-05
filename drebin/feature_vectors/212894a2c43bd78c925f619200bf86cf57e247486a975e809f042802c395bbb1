@@ -1,8 +1,0 @@
-permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-activity::.Home
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-permission::android.permission.SET_ORIENTATION

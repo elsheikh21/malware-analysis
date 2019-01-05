@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.widgetop.com/mobile.html
-api_call::android/webkit/WebView
-activity::.Main
-permission::android.permission.INTERNET
-url::www.widgetop.com
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET

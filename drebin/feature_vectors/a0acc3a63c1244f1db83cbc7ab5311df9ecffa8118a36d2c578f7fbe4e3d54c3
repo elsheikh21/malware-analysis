@@ -1,8 +1,0 @@
-permission::android.permission.VIBRATE
-feature::android.hardware.touchscreen
-api_call::android/os/Vibrator;->vibrate
-service_receiver::.CatService
-api_call::android/content/Context;->startService
-real_permission::android.permission.VIBRATE
-provider::android.appwidget.provider
-call::getSystemService

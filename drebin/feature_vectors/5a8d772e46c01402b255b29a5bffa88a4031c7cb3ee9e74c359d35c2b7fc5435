@@ -1,6 +1,0 @@
-url::wtm-365.ascendeventmedia.com
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://wtm-365.ascendeventmedia.com/
-intent::android.intent.category.LAUNCHER
-activity::.Start

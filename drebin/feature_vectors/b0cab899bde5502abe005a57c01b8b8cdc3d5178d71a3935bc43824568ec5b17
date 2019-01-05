@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::BirthList
-intent::android.intent.action.MAIN
-activity::.BioRhythms
-feature::android.hardware.screen.portrait
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-activity::BioHelp
-activity::BirthDateView

@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.BinaryCodeTranslator
-activity::de.android.BinaryCodeTranslator.BinaryCodeTranslator
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

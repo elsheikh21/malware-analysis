@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Launcher
-url::i.vkontakte.ru
-intent::android.intent.action.MAIN
-url::http://i.vkontakte.ru
-intent::android.intent.category.LAUNCHER

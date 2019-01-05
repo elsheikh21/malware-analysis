@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.DMV
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-activity::@string/app_name
-activity::@string/spl_app_name

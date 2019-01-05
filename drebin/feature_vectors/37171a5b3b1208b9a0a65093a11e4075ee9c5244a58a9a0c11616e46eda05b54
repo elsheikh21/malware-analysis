@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.A4InputMethod
-url::www.evan129.com
-intent::android.intent.category.LAUNCHER
-url::http://www.evan129.com/\n\u8ba8\u8bba\u533a:
-call::getSystemService

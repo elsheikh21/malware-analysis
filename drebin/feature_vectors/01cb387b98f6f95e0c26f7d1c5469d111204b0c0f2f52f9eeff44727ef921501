@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ScrawlList
-activity::.LabelNames
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-call::getSystemService

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MEDIA_SCANNER_STARTED
-call::Read/Write External Storage
-api_call::android/content/Context;->sendBroadcast
-intent::android.intent.action.MEDIA_SCANNER_FINISHED
-provider::android.appwidget.provider

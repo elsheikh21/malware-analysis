@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.CAMERA
-intent::android.intent.action.MAIN
-feature::android.hardware.camera.autofocus
-feature::android.hardware.camera
-api_call::android/hardware/Camera;->open
-activity::.TorchActivity
-intent::android.intent.category.LAUNCHER
-permission::android.permission.CAMERA

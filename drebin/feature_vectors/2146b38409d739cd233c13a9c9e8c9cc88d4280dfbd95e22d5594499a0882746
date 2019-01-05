@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.KryptoidAppWidgetProvider$KryptoidService
-service_receiver::.KryptoidAppWidgetProvider
-provider::android.appwidget.provider
-api_call::android/content/Context;->startService

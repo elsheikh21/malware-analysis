@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->query
-api_call::android/content/Context;->startActivity
-service_receiver::.Main
-permission::android.permission.INTERNET
-service_receiver::.Install
-real_permission::android.permission.READ_CONTACTS

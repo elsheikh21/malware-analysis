@@ -1,8 +1,0 @@
-permission::android.permission.VIBRATE
-activity::KeyboardSettings
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-api_call::android/os/Vibrator;->vibrate
-service_receiver::SoftKeyboard
-real_permission::android.permission.VIBRATE
-call::getSystemService

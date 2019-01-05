@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::com.teragon.skyatdawnlw.lite.NEW_SMS
-feature::android.software.live_wallpaper
-api_call::android/content/Context;->sendBroadcast
-intent::android.intent.category.INFO

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.HealingTimerActivity
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::66ov.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://66ov.com/android/index.html
-intent::android.intent.category.LAUNCHER

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.SpeedDialHorizontalService
-permission::android.permission.CALL_PHONE
-service_receiver::SpeedDialWidgetHorizontal
-feature::android.hardware.telephony
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider

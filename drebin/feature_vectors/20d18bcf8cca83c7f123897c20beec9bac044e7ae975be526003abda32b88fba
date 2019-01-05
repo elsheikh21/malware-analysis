@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-feature::android.hardware.screen.landscape
-activity::.AutoRollerActivity
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

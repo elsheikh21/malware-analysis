@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::dream-think.info
-intent::android.intent.action.MAIN
-api_call::java/net/HttpURLConnection
-url::http://dream-think.info/android/mybook/
-permission::android.permission.INTERNET
-activity::.MyBook
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET

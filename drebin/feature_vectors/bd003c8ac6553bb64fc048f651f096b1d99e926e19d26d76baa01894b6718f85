@@ -1,5 +1,0 @@
-activity::.HelpAboutInfo
-call::getSystemService
-intent::android.intent.category.INFO
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

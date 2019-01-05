@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.READ_PHONE_STATE
-intent::android.intent.action.MAIN
-permission::android.permission.READ_PHONE_STATE
-activity::.MyQRActivity
-api_call::android/telephony/TelephonyManager;->getLine1Number
-intent::android.intent.category.LAUNCHER
-activity::.EditActivity
-call::getSystemService

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::webmarkcom.net
-permission::android.permission.INTERNET
-url::http://webmarkcom.net/android/poker/
-real_permission::android.permission.INTERNET
-activity::.spoker2011Activity
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

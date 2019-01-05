@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-url::www.aoidev.com
-url::http://www.aoidev.com
-intent::android.intent.category.INFO
-url::http://schemas.android.com/apk/res/android
-url::schemas.android.com

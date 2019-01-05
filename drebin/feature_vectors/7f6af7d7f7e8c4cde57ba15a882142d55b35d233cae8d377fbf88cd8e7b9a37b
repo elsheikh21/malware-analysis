@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Main
-intent::android.intent.action.MAIN
-activity::.TerminalActivity

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ESActivity
-service_receiver::com.synchack.android.elephantstress.ESService
-intent::android.intent.category.LAUNCHER
-activity::.PreferActivity
-call::getPackageInfo
-activity::com.synchack.android.elephantstress.ESActivity

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.REPL
-api_call::android/content/Context;->startActivity
-intent::android.intent.category.LAUNCHER
-activity::.History
-call::getSystemService
-activity::.Preferences

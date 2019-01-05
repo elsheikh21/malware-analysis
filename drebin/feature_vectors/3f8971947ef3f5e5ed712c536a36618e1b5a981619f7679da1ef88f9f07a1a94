@@ -1,5 +1,0 @@
-service_receiver::VolumeWidgetProvider
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-call::getSystemService
-permission::android.permission.MODIFY_AUDIO_SETTINGS

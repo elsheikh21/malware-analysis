@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.BreakSilenceActivity
-intent::android.intent.action.MAIN
-url::m.cexams.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://m.cexams.com/bs/
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

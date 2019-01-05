@@ -1,5 +1,0 @@
-activity::NewTab
-feature::android.hardware.touchscreen
-activity::.NewTab
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

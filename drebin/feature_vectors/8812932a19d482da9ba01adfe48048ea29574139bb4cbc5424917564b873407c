@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.geek-blog.it/
-activity::.Main
-url::www.geek-blog.it
-intent::android.intent.category.LAUNCHER

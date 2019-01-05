@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.unicode.org
-intent::android.intent.action.MAIN
-url::http://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint%3D%04X
-url::http://www.madore.org/
-activity::.UnicodeMapActivity
-intent::android.intent.category.LAUNCHER
-url::www.madore.org
-call::getSystemService

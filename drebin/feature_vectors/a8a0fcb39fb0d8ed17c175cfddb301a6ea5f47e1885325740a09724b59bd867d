@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-feature::android.software.live_wallpaper
-activity::.HelpAboutActivity
-intent::android.intent.category.INFO
-call::getSystemService

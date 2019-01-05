@@ -1,4 +1,0 @@
-activity::com.clevertexting.eng.InputFormActivity
-feature::android.hardware.touchscreen
-service_receiver::CleverTexting
-call::printStackTrace

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-service_receiver::Ferrari LWP
-activity::idtech.Widgets.ferrarilwp.Info
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

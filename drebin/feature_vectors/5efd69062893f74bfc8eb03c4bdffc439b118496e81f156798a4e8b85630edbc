@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-activity::.Berichtsheft
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

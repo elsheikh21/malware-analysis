@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.paypal.com
-url::https://www.paypal.com/cgi-bin/webscr?cmd%3D_s-xclick&hosted_button_id%3D2749488
-activity::.Sudoku
-intent::android.intent.category.LAUNCHER

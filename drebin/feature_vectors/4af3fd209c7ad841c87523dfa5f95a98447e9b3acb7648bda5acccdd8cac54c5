@@ -1,9 +1,0 @@
-url::misinst.cob.fsu.edu
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-intent::android.intent.action.MAIN
-url::http://misinst.cob.fsu.edu/specials/xmlfeed
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.TallySpecials

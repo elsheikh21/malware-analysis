@@ -1,9 +1,0 @@
-activity::.DietGirl
-feature::android.hardware.touchscreen
-url::http://godap.info/dlf/index.html
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::godap.info
-intent::android.intent.category.LAUNCHER

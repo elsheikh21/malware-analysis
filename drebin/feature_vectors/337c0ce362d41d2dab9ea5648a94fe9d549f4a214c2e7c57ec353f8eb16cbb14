@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://topsicomedia.com/bodybuilding/bodybuilding.html
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::topsicomedia.com
-api_call::android/webkit/WebView
-activity::.Activity1

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-intent::android.intent.action.SEARCH
-activity::BCR
-activity::.BCR
-call::getSystemService
-intent::android.intent.category.LAUNCHER

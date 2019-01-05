@@ -1,9 +1,0 @@
-url::m.dt.co.kr
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://m.dt.co.kr
-activity::.DigitalTimesApp
-intent::android.intent.category.LAUNCHER

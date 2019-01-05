@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-call::getDeviceId
-api_call::android/telephony/TelephonyManager;->getDeviceId
-permission::android.permission.READ_PHONE_STATE
-real_permission::android.permission.READ_PHONE_STATE
-call::getSubscriberId
-call::getSystemService

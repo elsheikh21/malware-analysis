@@ -1,6 +1,0 @@
-url::www.propagation-systems.com
-feature::android.hardware.touchscreen
-activity::.LEDClock
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-url::http://www.propagation-systems.com/apps.htm

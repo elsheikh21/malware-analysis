@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.main
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-feature::android.hardware.screen.portrait
-api_call::java/net/Socket

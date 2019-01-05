@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-url::xgouchet.fr
-activity::.Dao
-intent::android.intent.category.LAUNCHER
-url::http://xgouchet.fr/android.php

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://secure.ttpurchase.com/mobileorderform/
-url::secure.ttpurchase.com
-intent::android.intent.category.LAUNCHER
-activity::.TTMobileActivity

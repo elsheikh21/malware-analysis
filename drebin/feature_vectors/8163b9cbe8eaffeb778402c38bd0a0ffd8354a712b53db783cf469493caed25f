@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AppEntry
-feature::android.hardware.camera.autofocus
-feature::android.hardware.camera
-activity::moe-photoB
-intent::android.intent.category.LAUNCHER
-permission::android.permission.CAMERA
-call::getPackageInfo

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.rsk.android.silenttoggle.SilentToggle
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.SilentToggle
-call::getSystemService
-permission::android.permission.WRITE_SETTINGS

@@ -1,6 +1,0 @@
-activity::.AkScreenOff
-feature::android.hardware.touchscreen
-intent::android.intent.category.SAMPLE_CODE
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-call::getSystemService

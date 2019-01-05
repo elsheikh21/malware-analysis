@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::SD%E3%AB%E3%BC%E3%E3%AA%E3%E3%AC%E3%E3%B7%E3%A5
-call::Read/Write External Storage
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider
-service_receiver::com.yasu.SDrefresh.SDrefresh$MyService

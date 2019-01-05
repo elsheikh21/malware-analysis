@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::ebook.10086apk.com
-activity::.main
-url::http://ebook.10086apk.com
-intent::android.intent.category.LAUNCHER

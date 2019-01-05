@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.medtrademobile
-url::http://www.medtrademobile.com
-url::www.medtrademobile.com
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

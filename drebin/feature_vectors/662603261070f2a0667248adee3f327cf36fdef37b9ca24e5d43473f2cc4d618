@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.aoidev.com
-intent::android.intent.category.INFO
-intent::android.intent.action.MAIN
-url::http://www.aoidev.com

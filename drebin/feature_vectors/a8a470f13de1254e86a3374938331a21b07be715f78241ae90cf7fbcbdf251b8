@@ -1,4 +1,0 @@
-service_receiver::LSWProvider$LocaleChangerReceiver
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-permission::android.permission.CHANGE_CONFIGURATION

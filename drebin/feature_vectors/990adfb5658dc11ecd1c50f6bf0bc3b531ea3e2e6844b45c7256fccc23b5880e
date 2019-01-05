@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AboutActivity
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-provider::android.appwidget.provider

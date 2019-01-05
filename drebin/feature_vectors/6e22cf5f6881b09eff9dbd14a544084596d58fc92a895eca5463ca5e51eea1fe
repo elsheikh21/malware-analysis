@@ -1,7 +1,0 @@
-activity::.CFapp
-activity::CFapp
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-call::printStackTrace
-intent::android.intent.category.LAUNCHER
-activity::HistoryActivity

@@ -1,5 +1,0 @@
-activity::.Notepad
-feature::android.hardware.touchscreen
-activity::.NoteEdit
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

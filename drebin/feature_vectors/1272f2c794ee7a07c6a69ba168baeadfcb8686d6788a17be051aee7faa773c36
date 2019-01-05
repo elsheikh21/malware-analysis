@@ -1,4 +1,0 @@
-service_receiver::com.sds.android.ttpod.skin.guoqing_65.SkinReleaseService
-feature::android.hardware.touchscreen
-call::printStackTrace
-call::Read/Write External Storage

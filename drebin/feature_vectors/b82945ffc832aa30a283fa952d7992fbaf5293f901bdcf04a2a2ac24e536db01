@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.TransferActivity
-intent::android.intent.action.MAIN
-activity::.CircularActivity
-activity::.KSPOrbitActivity
-activity::.EllipseActivity
-intent::android.intent.category.LAUNCHER
-call::getSystemService

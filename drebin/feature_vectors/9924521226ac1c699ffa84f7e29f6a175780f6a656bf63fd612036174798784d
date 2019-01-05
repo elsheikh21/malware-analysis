@@ -1,5 +1,0 @@
-permission::android.permission.VIBRATE
-feature::android.hardware.touchscreen
-activity::.RoboTown
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

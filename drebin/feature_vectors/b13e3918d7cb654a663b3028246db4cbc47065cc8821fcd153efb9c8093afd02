@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-call::getSystemService
-intent::android.intent.action.MAIN
-activity::.FezSezNumbers
-intent::android.intent.category.LAUNCHER

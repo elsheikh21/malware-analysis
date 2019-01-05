@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.google.com
-activity::.DisplayActivity
-url::http://www.google.com/gwt/x?
-permission::tunnybrowser.permission.Extension
-call::getPackageInfo
-intent::android.intent.category.INFO

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Elmu
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::wd2.elmu.hu
-url::https://wd2.elmu.hu/elmu

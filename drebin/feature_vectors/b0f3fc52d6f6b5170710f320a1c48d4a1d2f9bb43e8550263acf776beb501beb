@@ -1,9 +1,0 @@
-activity::.chakuvoiceteteihikaku
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-url::http://apspr.tmc-11.com/chakuvoiceteteihikaku/
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-url::apspr.tmc-11.com

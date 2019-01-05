@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.doconnet.se
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-url::www.doconnet.se
-intent::android.intent.category.LAUNCHER
-activity::.historia

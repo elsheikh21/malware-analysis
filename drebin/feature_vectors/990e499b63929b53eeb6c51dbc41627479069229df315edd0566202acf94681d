@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.App0104
-permission::android.permission.INTERNET
-url::http://ws.or.kr/Contents/cp_raonis_20101203/01/1ch_body_1.html
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-real_permission::android.permission.INTERNET
-url::ws.or.kr

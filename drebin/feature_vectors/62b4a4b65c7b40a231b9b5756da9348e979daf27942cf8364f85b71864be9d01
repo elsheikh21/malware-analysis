@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->openInputStream
-permission::android.permission.WRITE_CALENDAR
-intent::android.intent.category.DEFAULT
-activity::IcsBotViewActivity
-permission::android.permission.READ_CALENDAR
-real_permission::android.permission.READ_CONTACTS
-intent::android.intent.action.VIEW

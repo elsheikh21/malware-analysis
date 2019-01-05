@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.Nate.Schloss.RiskDice.RiskDice
-activity::.RiskDice
-intent::android.intent.action.MAIN
-url::http://naterocks.com/apps
-intent::android.intent.category.LAUNCHER
-url::naterocks.com

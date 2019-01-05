@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Main
-url::statequiz.worldclockr.com
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://statequiz.worldclockr.com/android.html
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

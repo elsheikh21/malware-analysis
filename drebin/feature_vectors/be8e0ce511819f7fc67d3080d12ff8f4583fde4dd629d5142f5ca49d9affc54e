@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.USBReplace
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::java/net/NetworkInterface
-call::Read/Write External Storage
-activity::.ui.USBReplace

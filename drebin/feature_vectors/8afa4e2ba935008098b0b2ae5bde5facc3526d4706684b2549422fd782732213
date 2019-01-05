@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::org.jtb.nextvta.RoutesActivity
-intent::android.intent.action.CREATE_SHORTCUT
-intent::android.intent.category.DEFAULT
-activity::org.jtb.nextvta.RouteShortcutActivity
-intent::android.intent.category.LAUNCHER
-activity::.RoutesActivity

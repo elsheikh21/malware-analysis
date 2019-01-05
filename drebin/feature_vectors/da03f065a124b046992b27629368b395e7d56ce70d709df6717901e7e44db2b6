@@ -1,9 +1,0 @@
-activity::.ui.activities.ServerListActivity
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.ServerListActivity
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-call::getSystemService

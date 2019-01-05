@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.bhagavad-gita.org/index-english.html
-url::www.bhagavad-gita.org
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.gita

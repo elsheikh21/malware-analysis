@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::java/net/HttpURLConnection
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::ajax.googleapis.com
-activity::.Translate
-url::http://ajax.googleapis.com/ajax/services/language/translate?v%3D1.0&q%3D

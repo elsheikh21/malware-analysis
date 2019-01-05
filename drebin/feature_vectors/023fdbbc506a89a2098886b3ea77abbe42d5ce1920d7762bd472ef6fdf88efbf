@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::en.wikipedia.org
-activity::.Options
-activity::.mildotEntry
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-url::http://en.wikipedia.org/wiki/Angular_mil

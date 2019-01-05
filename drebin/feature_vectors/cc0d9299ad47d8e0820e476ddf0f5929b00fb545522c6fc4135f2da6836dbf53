@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Settings
-call::getSystemService
-feature::android.software.live_wallpaper
-service_receiver::Mystic Halo Live Wallpaper
-activity::Free
-url::http://schemas.android.com/apk/res/com.dc.bcgl3
-url::http://schemas.android.com/apk/res/android
-url::schemas.android.com

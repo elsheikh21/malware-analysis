@@ -1,7 +1,0 @@
-url::store.gobrowser.cn
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/app/Activity;->startActivity
-activity::.InstallVideoResources
-url::http://store.gobrowser.cn/weather/download-weather.php
-intent::android.intent.category.INFO

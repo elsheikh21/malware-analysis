@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Dictionary
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.WordActivity
-call::getSystemService
-activity::.Preferences

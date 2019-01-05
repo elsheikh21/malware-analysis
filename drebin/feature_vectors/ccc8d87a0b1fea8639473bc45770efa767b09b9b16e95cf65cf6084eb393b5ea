@@ -1,5 +1,0 @@
-activity::OneUP
-feature::android.hardware.faketouch
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-feature::android.hardware.touchscreen

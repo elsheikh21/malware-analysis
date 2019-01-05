@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.GenChar
-activity::.CharLimitPicker
-activity::.GenInt
-activity::.CTGenR8
-activity::.IntBoundPicker
-intent::android.intent.category.LAUNCHER

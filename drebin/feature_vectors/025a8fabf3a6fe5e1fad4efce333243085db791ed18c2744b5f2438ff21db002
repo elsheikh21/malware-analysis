@@ -1,8 +1,0 @@
-activity::SetBrightnessActivity
-feature::android.hardware.touchscreen
-service_receiver::BrightProvider
-real_permission::android.permission.WRITE_SETTINGS
-activity::BrightSettings
-provider::android.appwidget.provider
-api_call::android/provider/Settings$System;->putInt
-permission::android.permission.WRITE_SETTINGS

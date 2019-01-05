@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.islamicpodcast.com
-api_call::android/webkit/WebView
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.WhatIsIslam
-url::http://www.islamicpodcast.com/wp-content/uploads/audio/lectures/peace-joy.mp3

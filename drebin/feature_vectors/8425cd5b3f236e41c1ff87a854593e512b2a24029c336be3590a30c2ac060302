@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://www.haglobal.com/software.html
-permission::android.permission.INTERNET
-url::www.haglobal.com
-intent::android.intent.category.LAUNCHER
-activity::.HAGlobalWebActivity
-real_permission::android.permission.INTERNET

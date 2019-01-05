@@ -1,8 +1,0 @@
-permission::android.permission.VIBRATE
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.VIBRATE
-call::getSystemService
-activity::.androidLove
-api_call::android/os/Vibrator;->cancel

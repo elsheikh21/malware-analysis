@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Launcher
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-url::m.MARKmost.com
-url::http://m.MARKmost.com/

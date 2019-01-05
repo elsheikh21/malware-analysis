@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.FLASHLIGHT
-intent::android.intent.category.LAUNCHER
-activity::.Akari
-call::getSystemService

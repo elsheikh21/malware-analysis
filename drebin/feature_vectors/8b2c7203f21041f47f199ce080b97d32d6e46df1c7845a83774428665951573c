@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Convert
-intent::android.intent.action.MAIN
-activity::janne.parviainen.UnitConverter.Convert
-activity::janne.parviainen.UnitConverter.Math
-intent::android.intent.category.LAUNCHER

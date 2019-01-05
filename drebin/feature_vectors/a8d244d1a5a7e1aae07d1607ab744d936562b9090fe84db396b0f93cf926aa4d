@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.LoveDaysConfigActivity
-intent::android.intent.action.SCREEN_OFF
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider
-service_receiver::.LoveDaysWidget$UpdateService

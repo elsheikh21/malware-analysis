@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Scary Mary
-intent::android.intent.action.MAIN
-activity::.AppEntry
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

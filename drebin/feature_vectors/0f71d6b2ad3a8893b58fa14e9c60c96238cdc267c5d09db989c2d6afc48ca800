@@ -1,4 +1,0 @@
-service_receiver::WidgetProvider
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-call::getSystemService

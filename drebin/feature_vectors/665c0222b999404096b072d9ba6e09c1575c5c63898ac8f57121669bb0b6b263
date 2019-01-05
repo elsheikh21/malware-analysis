@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-feature::android.hardware.screen.portrait
-activity::.Temas
-intent::android.intent.category.LAUNCHER
-activity::.TurnusABC
-real_permission::android.permission.INTERNET

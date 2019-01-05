@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://exmmedia.com
-intent::android.intent.action.MAIN
-url::exmmedia.com
-activity::.EXMMedia
-url::m.exmmedia.com
-intent::android.intent.category.LAUNCHER
-url::http://exmmedia.com/pm
-url::http://m.exmmedia.com

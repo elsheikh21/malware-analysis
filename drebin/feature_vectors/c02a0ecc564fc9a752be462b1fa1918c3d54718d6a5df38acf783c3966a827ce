@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.WebViewExample
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::www.cyprusresaleproperties.ru
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.cyprusresaleproperties.ru/?androidapp%3D1
-intent::android.intent.category.LAUNCHER

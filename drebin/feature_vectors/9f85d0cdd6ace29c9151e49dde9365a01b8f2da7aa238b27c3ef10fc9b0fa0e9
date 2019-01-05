@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::Obfuscation(Base64)
-intent::android.intent.action.SEND
-activity::.PasswordGenerator
-activity::PasswordGenerator
-intent::android.intent.category.LAUNCHER
-intent::android.intent.category.DEFAULT
-call::getSystemService

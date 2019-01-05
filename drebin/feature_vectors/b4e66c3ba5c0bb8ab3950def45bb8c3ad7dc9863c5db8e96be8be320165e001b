@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.ShowAnimals
-call::getSystemService
-intent::android.intent.category.LAUNCHER

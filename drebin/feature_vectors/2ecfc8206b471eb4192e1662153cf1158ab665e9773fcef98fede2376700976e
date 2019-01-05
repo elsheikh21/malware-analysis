@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.iBroadway
-intent::android.intent.action.MAIN
-url::www.broadway.com.hk
-url::http://www.broadway.com.hk/
-intent::android.intent.category.LAUNCHER

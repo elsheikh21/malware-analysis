@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-url::http://www.netmite.com/android/andme_signed.apk
-activity::.HarryMidlet
-intent::android.intent.category.LAUNCHER
-url::http://www.netmite.com/android/srv/2.0/upload/Harry
-call::getPackageInfo
-url::www.netmite.com

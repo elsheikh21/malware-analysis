@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::YanivSplashActivity
-call::getPackageInfo
-intent::android.intent.category.LAUNCHER
-activity::.YanivSplashActivity
-call::getSystemService

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Clock
-intent::android.intent.action.MAIN
-activity::.EditPreferences
-intent::android.intent.category.LAUNCHER
-permission::android.permission.STORAGE
-provider::android.appwidget.provider
-call::getSystemService

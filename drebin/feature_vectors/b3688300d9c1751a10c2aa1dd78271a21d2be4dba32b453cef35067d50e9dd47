@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.ItemListActivity
-activity::.ui.ItemListActivity
-call::getSystemService

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.collegejobbank.com/m/?mobile%3Dy
-intent::android.intent.action.MAIN
-url::www.collegejobbank.com
-activity::.BrowserActivity
-intent::android.intent.category.LAUNCHER

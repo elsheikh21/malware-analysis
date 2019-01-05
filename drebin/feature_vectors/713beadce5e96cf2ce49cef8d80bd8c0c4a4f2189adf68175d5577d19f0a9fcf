@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.KanasOpen
-call::Cipher(AES)
-activity::.FinJuego
-intent::android.intent.category.LAUNCHER
-activity::.Preferencias

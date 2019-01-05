@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.houstonjobs
-url::http://bighits.net/houstonjobs/index.php
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::bighits.net
-real_permission::android.permission.INTERNET

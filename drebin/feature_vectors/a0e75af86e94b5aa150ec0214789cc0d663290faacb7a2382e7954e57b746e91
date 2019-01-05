@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.MafiaLife
-permission::android.permission.INTERNET
-url::http://www.mafia-life.com/login537t83jf85j9dhd42949565f65f6f081244.php
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET
-url::www.mafia-life.com

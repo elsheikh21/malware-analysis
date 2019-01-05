@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.SolitaireNG
-feature::android.hardware.screen.landscape
-activity::.Preferences
-call::getSystemService
-intent::android.intent.category.LAUNCHER

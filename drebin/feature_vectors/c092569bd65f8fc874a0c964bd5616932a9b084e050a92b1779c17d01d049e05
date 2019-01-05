@@ -1,7 +1,0 @@
-activity::.OMA2000
-feature::android.hardware.touchscreen
-activity::Settings
-intent::android.intent.action.MAIN
-activity::OMA
-activity::.OMA
-intent::android.intent.category.LAUNCHER

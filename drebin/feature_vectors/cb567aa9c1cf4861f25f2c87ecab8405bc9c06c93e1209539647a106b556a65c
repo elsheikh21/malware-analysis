@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.About
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT
-activity::.Inst
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-intent::android.intent.action.VIEW

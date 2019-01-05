@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://m.detik.com/kanal/755/?tnav
-url::m.detik.com
-intent::android.intent.category.LAUNCHER
-activity::.detikHealth

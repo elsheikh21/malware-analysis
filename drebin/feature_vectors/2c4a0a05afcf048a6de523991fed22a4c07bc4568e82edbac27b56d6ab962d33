@@ -1,8 +1,0 @@
-activity::.TsumeShogi
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-feature::android.hardware.screen.portrait
-activity::jp.co.eiconcept.tsumeshogi_standard.TsumeShogi
-intent::android.intent.category.LAUNCHER
-call::getSystemService

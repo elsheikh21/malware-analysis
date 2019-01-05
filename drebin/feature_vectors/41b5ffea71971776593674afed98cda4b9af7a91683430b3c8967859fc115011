@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.ShowClockActivity
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

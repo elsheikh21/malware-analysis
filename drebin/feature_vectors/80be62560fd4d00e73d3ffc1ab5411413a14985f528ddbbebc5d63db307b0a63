@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.mozfet.android.nativeapp.NativeAppActivity
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-activity::.NativeAppActivity
-intent::android.intent.category.BROWSABLE
-intent::android.intent.action.VIEW

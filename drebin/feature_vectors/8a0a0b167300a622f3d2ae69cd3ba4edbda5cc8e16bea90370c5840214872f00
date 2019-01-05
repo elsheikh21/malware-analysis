@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://mahaweb.com/i2.php?version%3D10.0&android%3D1
-activity::.MainView
-intent::android.intent.category.LAUNCHER
-url::mahaweb.com

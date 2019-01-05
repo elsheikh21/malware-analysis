@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.Zeltlager
-url::zeltlager.messdiener-lastrup.de
-url::http://zeltlager.messdiener-lastrup.de/
-intent::android.intent.category.LAUNCHER

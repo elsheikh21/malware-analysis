@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://64.147.172.7/restaurant/portland?search%3D
-activity::.Main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::64.147.172.7
-intent::android.intent.category.LAUNCHER
-api_call::java/net/URL;->openConnection

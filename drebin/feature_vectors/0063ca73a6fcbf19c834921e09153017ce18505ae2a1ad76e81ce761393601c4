@@ -1,9 +1,0 @@
-activity::com.happy123.steps.Steps
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.Steps
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER

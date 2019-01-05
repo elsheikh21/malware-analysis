@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-feature::android.hardware.screen.portrait
-activity::com.bootant.beecellslite.BeeCellsLite
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-activity::.BeeCellsLite
-call::getSystemService

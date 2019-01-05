@@ -1,5 +1,0 @@
-permission::android.permission.INTERNET
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.sunsign
-intent::android.intent.category.LAUNCHER

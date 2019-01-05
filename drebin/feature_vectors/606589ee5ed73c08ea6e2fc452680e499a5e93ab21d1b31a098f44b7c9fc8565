@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/Context;->startActivity
-service_receiver::SoftKeyboard

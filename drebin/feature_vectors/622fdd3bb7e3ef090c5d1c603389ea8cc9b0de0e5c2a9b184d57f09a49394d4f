@@ -1,6 +1,0 @@
-url::www.madamgeeky.mobi
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.NCISActivity
-url::http://www.madamgeeky.mobi/2011/07/ncis.html
-intent::android.intent.category.LAUNCHER

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainActivity
-api_call::android/app/Activity;->startActivity
-permission::android.permission.GET_PACKAGE_SIZE
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::twitter.com
-url::http://twitter.com/demidroid
-activity::.demidroid
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.ZeroWatchUpdateService
-provider::android.appwidget.provider
-api_call::android/content/Context;->startService
-call::getSystemService

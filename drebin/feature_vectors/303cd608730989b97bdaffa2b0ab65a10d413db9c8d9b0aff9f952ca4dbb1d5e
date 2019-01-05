@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-activity::EditPreferences
-activity::.Hiragana

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::m.manta.com
-permission::android.permission.INTERNET
-url::http://m.manta.com/
-intent::android.intent.category.LAUNCHER
-activity::Manta
-activity::.Manta

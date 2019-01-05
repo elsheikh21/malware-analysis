@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::.MainMenu
-url::http://market.android.com/details?id%3Dcom.drivebook.theorytest
-intent::android.intent.category.LAUNCHER

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/app/NotificationManager;->notify
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.SELECTED_ALTERNATIVE
-intent::android.intent.category.ALTERNATIVE
-real_permission::android.permission.VIBRATE
-call::getSystemService

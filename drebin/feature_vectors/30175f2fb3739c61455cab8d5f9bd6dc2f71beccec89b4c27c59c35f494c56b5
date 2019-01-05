@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.PulleyGraphActivity
-intent::android.intent.category.LAUNCHER
-activity::.PulleyEditActivity
-activity::.PulleyListActivity

@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-call::getSystemService
-url::http://schemas.android.com/apk/res/android
-url::schemas.android.com

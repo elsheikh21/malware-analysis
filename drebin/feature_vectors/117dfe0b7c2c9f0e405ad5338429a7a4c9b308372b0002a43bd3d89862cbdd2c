@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::AppListActivity
-activity::ColockSetting
-provider::android.appwidget.provider
-call::getSystemService

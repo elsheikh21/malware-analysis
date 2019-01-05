@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://33buttons.com/freesms/
-intent::android.intent.action.MAIN
-url::33buttons.com
-activity::.Main
-intent::android.intent.category.LAUNCHER

@@ -1,9 +1,0 @@
-permission::android.permission.VIBRATE
-feature::android.hardware.touchscreen
-api_call::android/app/NotificationManager;->notify
-service_receiver::.CellConMonReceiver
-permission::android.permission.READ_PHONE_STATE
-intent::android.intent.category.DEFAULT
-real_permission::android.permission.VIBRATE
-intent::android.intent.action.SERVICE_STATE
-call::getSystemService

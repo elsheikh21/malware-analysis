@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.PFSkin
-intent::android.intent.action.MAIN
-activity::PFSkin
-intent::android.intent.category.LAUNCHER

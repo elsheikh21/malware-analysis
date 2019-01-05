@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-permission::android.permission.ACCESS_NETWORK_STATE
-permission::android.permission.INTERNET
-activity::.IRealFishing
-intent::android.intent.category.LAUNCHER
-call::getSystemService

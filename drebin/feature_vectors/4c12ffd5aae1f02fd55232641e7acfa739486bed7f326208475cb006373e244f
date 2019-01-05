@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Settings
-intent::android.intent.category.INFO
-service_receiver::Sunset

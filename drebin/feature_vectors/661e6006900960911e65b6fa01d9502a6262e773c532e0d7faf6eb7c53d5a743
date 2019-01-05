@@ -1,5 +1,0 @@
-intent::com.locnet.flitkeyboard.plugin.intent.category.SKIN_AERO
-feature::android.hardware.touchscreen
-intent::com.locnet.flitkeyboard.plugin.intent.action.PICK_PLUGIN
-service_receiver::.FlitSkinService
-intent::com.locnet.flitkeyboard.plugin.intent.action.PICK_SKIN

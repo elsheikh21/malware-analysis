@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.service.CWUpdateService
-intent::android.intent.category.DEFAULT
-service_receiver::ClockWeatherWidget
-activity::.settings.ClockWeatherSettings
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider

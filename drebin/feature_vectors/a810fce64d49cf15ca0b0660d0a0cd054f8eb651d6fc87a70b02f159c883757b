@@ -1,6 +1,0 @@
-permission::android.permission.SET_WALLPAPER
-activity::.CasinoLive
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-activity::CasinoLive
-intent::android.intent.category.LAUNCHER

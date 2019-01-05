@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.TimeTable
-api_call::android/app/Activity;->startActivity
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-activity::WelcomeScreen
-call::getSystemService

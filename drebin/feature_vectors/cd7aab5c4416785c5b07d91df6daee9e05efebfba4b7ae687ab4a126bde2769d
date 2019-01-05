@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.EXPAND_STATUS_BAR
-provider::android.appwidget.provider
-service_receiver::.WidgetProvider
-call::getSystemService

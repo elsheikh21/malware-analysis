@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.healthcarejobsite.com
-activity::.BrowserActivity
-intent::android.intent.category.LAUNCHER
-url::http://www.healthcarejobsite.com/m/?mobile%3Dy

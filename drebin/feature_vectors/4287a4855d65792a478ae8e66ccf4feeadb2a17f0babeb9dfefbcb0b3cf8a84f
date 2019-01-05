@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/media/MediaPlayer;->start
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.MoonChinaShopping
-real_permission::android.permission.WAKE_LOCK

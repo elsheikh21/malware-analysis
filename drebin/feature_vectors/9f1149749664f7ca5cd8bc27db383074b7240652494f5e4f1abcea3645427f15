@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Launcher
-intent::android.intent.action.MAIN
-activity::com.ogangi.tesoro.Launcher
-permission::android.permission.INTERNET
-url::https://m.bt.gob.ve/
-intent::android.intent.category.LAUNCHER
-url::m.bt.gob.ve

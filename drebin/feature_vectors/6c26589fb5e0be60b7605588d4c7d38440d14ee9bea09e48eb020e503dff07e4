@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.listideas
-permission::android.permission.INTERNET
-url::www.openideas.eu
-intent::android.intent.category.LAUNCHER
-url::http://www.openideas.eu/ideas.rss
-real_permission::android.permission.INTERNET
-api_call::java/net/URL;->openConnection

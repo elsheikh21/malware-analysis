@@ -1,5 +1,0 @@
-activity::.LifeCycleT2
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-activity::.SubActivity
-feature::android.hardware.touchscreen

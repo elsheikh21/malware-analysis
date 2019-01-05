@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-feature::android.software.live_wallpaper
-activity::.WallpaperSettings
-url::market.android.com
-url::https://market.android.com/details?id%3Dcom.sp.fishbowl

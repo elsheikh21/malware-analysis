@@ -1,5 +1,0 @@
-activity::.FlexCarCalc
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-activity::FlexCarCalc
-feature::android.hardware.touchscreen

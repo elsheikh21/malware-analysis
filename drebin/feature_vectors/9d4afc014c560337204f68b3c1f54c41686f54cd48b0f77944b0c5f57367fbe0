@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.rubyrubenstahl.DMXCalc.preferences
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::com.rubyrubenstahl.DMXCalc.DMXCalc
-activity::.DMXCalc

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::SheepSim
-intent::android.intent.action.MAIN
-api_call::android/media/MediaPlayer;->start
-intent::android.intent.category.LAUNCHER
-activity::.SheepSim
-real_permission::android.permission.WAKE_LOCK

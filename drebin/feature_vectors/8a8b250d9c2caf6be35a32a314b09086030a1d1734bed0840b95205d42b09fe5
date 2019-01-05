@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-call::Read/Write External Storage
-call::printStackTrace
-service_receiver::com.sds.android.ttpod.skin.music_50.SkinReleaseService

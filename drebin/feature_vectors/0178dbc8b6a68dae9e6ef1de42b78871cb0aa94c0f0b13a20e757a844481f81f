@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::m.gheminga.it
-activity::.GhemingaMain
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://m.gheminga.it

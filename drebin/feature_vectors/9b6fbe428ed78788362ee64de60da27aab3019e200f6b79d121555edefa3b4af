@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::org/apache/http/impl/client/DefaultHttpClient
-intent::android.intent.action.MAIN
-url::www.google.com
-activity::.Woordenboek
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://www.google.com/dictionary/json?callback%3Ddict_api.callbacks.id100&q%3D

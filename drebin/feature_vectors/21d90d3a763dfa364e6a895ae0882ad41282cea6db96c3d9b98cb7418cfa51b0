@@ -1,7 +1,0 @@
-activity::.NCGame
-intent::android.intent.action.MAIN
-url::http://flickmobile.com
-feature::android.hardware.touchscreen
-api_call::android/content/Context;->startActivity
-url::flickmobile.com
-intent::android.intent.category.LAUNCHER

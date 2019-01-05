@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AppEntry
-activity::%E5%A4%A7%E4%B8%E5%A4%AB%E3%A0%E3%E5%E9%A1%E3%AA%E3
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.CalculatorActivity
-intent::android.intent.action.MAIN
-activity::.CurrentEventActivity
-intent::android.intent.category.DEFAULT
-intent::android.intent.category.LAUNCHER
-activity::.EventActivity
-activity::.EventListActivity
-call::getSystemService

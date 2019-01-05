@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.harveynash.com
-url::http://www.harveynash.com/widget/iphonepodcasts/oam_podcasts/index.html
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-activity::.WebViewDemo

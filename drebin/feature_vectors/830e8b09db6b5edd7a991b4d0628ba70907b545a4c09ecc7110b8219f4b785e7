@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.TimeDown
-activity::.ActivityTest
-activity::.Wait
-intent::android.intent.category.LAUNCHER
-activity::.PoundDown
-activity::.activitytest

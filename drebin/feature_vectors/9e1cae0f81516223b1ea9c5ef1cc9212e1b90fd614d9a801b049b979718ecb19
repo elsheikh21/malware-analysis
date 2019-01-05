@@ -1,7 +1,0 @@
-activity::.GF
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-permission::android.permission.INTERNET
-url::http://gamefight.net
-url::gamefight.net
-intent::android.intent.category.LAUNCHER

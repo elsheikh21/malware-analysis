@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.pizza-rat.com
-activity::.Main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.pizza-rat.com/restaurant/chicago?search%3D
-intent::android.intent.category.LAUNCHER
-api_call::java/net/URL;->openConnection

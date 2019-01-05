@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.creocode.com
-activity::.Prayerbook_allActivity
-intent::android.intent.action.MAIN
-activity::com.creocode.catalog.android.prayerbook_all.Prayerbook_allActivity
-url::http://www.creocode.com
-intent::android.intent.category.LAUNCHER
-url::http://creocode.com/donation\n\nEnglish
-url::creocode.com

@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-feature::android.software.live_wallpaper
-service_receiver::Plasma Colour
-activity::.PlasmaColourSettings

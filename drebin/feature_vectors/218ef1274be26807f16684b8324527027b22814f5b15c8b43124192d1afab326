@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.category.LAUNCHER
-activity::.redhat_centos_5_cheatsheetActivity
-intent::android.intent.action.MAIN
-activity::ngc.android.redhat_centos_5_cheatsheetActivity

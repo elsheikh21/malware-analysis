@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Info
-intent::android.intent.action.MAIN
-provider::android.appwidget.provider
-service_receiver::Analog Design 2
-intent::android.intent.category.INFO

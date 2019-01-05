@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::java/net/URL;->getContent
-url::http://www.wrc-pirat.at/webcam/current.jpg
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::www.wrc-pirat.at
-intent::android.intent.category.LAUNCHER
-activity::.PiratenCam

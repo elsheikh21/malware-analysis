@@ -1,4 +1,0 @@
-activity::com.paninikeypad.beng.InputFormActivity
-call::printStackTrace
-service_receiver::CleverTexting
-feature::android.hardware.touchscreen

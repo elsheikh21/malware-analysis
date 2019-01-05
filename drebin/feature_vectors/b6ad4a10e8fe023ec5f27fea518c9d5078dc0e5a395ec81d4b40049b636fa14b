@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.akb48itanotokushu
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-url::http://apspr.tmc-11.com/akb48itanotokushu/
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::apspr.tmc-11.com

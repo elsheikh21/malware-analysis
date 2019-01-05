@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.facedb.net
-activity::.FamousCelebritiesDB
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.facedb.net
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

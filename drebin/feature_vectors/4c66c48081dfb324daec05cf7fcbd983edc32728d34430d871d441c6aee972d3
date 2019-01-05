@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/HttpURLConnection
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-service_receiver::IsraelSeaWidget
-service_receiver::.UpdateService
-provider::android.appwidget.provider
-api_call::android/content/Context;->startService

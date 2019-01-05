@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.Embassies
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::Embassies.My999App.com
-url::http://Embassies.My999App.com
-intent::android.intent.category.LAUNCHER

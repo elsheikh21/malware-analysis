@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::br.com.letsbora.clocklitelibrary.ClockConfig
-intent::android.intent.action.MAIN
-call::getPackageInfo
-activity::br.com.letsbora.clocklitelibrary.ClockAfterInstall
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

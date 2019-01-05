@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.makayama.com/androidplayer.html
-feature::android.hardware.screen.portrait
-url::www.makayama.com
-intent::android.intent.category.LAUNCHER
-activity::.DVDToAndroid

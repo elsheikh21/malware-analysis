@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-real_permission::android.permission.INTERNET
-activity::.EasyExcel
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView
-feature::android.hardware.screen.portrait

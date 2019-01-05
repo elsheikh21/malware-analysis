@@ -1,7 +1,0 @@
-activity::.FileBrowser
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-activity::.States
-activity::.Settings
-activity::.KiddGBC
-intent::android.intent.category.LAUNCHER

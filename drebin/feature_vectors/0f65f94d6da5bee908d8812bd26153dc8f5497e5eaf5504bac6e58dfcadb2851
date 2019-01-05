@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.SET_ACTIVITY_WATCHER
-intent::android.intent.action.MAIN
-permission::android.permission.KILL_BACKGROUND_PROCESSES
-intent::android.intent.category.LAUNCHER
-permission::android.permission.CLEAR_APP_CACHE
-activity::.start
-provider::android.appwidget.provider

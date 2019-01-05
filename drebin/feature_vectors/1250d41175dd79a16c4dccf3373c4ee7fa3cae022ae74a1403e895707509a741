@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::www.datastax.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.CassandraSFActivity
-url::http://www.datastax.com/CassandraSFapps/csf.html
-intent::android.intent.category.LAUNCHER

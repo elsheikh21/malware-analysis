@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.category.DUNNO
-intent::android.intent.action.MAIN
-call::Cipher(KUJYTDYRDT764T5H8FHGD3G6)
-url::http://besteverapps.appspot.com/?owner%3D
-url::besteverapps.appspot.com
-intent::android.intent.category.LAUNCHER
-activity::.EnglishSpeaker

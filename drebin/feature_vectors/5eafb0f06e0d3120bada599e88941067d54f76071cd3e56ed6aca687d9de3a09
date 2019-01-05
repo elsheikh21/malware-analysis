@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/content/ContentResolver;->query
-service_receiver::NoteWidgetProvider
-activity::.ViewNote
-real_permission::android.permission.READ_CONTACTS
-permission::android.permission.READ_CONTACTS
-provider::android.appwidget.provider

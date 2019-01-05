@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.pawworks.net
-intent::android.intent.action.MAIN
-activity::.Startup
-url::http://www.pawworks.net/ouraps.php
-intent::android.intent.category.LAUNCHER

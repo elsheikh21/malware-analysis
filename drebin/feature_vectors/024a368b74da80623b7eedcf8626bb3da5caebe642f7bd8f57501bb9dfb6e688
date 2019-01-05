@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::Cipher(block truncated)
-call::Cipher(pad block corrupted)
-intent::android.intent.category.LAUNCHER
-activity::.SeciossOTP

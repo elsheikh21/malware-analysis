@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
-api_call::android/content/Context;->startActivity
-intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
-url::http://meinside.pe.kr/apps.php
-url::meinside.pe.kr
-service_receiver::.FireReceiver

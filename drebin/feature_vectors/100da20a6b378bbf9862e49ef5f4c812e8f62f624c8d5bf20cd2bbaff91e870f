@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::TinyClockWidgetService
-provider::android.appwidget.provider
-api_call::android/content/Context;->startService

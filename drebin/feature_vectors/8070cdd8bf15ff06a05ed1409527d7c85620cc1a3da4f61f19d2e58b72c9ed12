@@ -1,5 +1,0 @@
-activity::.Home
-api_call::android/content/Context;->sendBroadcast
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen

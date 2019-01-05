@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::com.signals23.blurpsred.Theme

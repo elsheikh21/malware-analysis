@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.ReverseClockWidgetProvider$UpdateService
-activity::.Info
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startService
-service_receiver::ReverseClockWidgetProvider
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

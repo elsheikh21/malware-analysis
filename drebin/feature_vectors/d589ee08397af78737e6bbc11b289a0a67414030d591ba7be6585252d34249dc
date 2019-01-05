@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/app/NotificationManager;->notify
-service_receiver::.bmw_notification
-call::getSystemService
-real_permission::android.permission.VIBRATE

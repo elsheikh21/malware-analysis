@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::PlasmaballWallpaper
-intent::android.intent.category.DEFAULT

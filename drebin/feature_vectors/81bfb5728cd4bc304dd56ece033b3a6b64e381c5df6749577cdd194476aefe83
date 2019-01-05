@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Prefs
-activity::.Main
-intent::android.intent.action.SEARCH
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-call::getSystemService

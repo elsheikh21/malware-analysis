@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.WRITE_SETTINGS
-activity::.MainPreference
-provider::android.appwidget.provider
-api_call::android/provider/Settings$System;->putInt
-permission::android.permission.WRITE_SETTINGS

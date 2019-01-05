@@ -1,5 +1,0 @@
-activity::com.HelloAndroid.MainAct
-feature::android.hardware.touchscreen
-activity::.MainAct
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

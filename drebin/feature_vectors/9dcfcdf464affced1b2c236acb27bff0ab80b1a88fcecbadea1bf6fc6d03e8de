@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-url::http://mta.info/developers/data/nyct/nyct_ene.xml
-url::mta.info
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://mta.info/status/serviceStatus.txt

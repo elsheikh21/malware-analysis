@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.AnythingDictionaryTitle
-intent::android.intent.action.MAIN
-activity::.AnythingDictionaryTop
-call::getSystemService
-intent::android.intent.category.LAUNCHER

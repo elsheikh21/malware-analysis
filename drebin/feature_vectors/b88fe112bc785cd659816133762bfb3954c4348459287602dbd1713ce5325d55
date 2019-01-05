@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.splMeter
-real_permission::android.permission.RECORD_AUDIO
-intent::android.intent.action.MAIN
-api_call::android/media/AudioRecord
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-feature::android.hardware.microphone
-permission::android.permission.RECORD_AUDIO

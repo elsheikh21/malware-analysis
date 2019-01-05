@@ -1,9 +1,0 @@
-api_call::android/webkit/WebView
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://175.125.20.172:8080/SmartHealthExam/index.html
-activity::.main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::175.125.20.172

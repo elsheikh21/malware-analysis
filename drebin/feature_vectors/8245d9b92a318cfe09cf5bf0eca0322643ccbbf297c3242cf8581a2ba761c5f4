@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::getSystemService
-intent::android.intent.category.LAUNCHER
-activity::.Speedcard
-url::http://www.flydroid.cn
-url::www.flydroid.cn

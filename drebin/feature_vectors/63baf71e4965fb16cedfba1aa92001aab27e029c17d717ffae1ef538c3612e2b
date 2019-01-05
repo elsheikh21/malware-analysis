@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::https://www.credex.us/mobile/
-intent::android.intent.category.LAUNCHER
-activity::.CredexBrowser
-url::www.credex.us

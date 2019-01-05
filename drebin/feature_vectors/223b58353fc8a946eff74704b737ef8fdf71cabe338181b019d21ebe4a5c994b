@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::125.7.242.244
-api_call::android/webkit/WebView
-activity::.WebPage
-url::http://125.7.242.244:8080/DigitalTV/mobile/main.html
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

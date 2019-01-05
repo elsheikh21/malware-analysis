@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-url::http://market.android.com/details?id%3Dfishnoodle.aquarium
-url::http://www.kittehface.com
-url::www.kittehface.com

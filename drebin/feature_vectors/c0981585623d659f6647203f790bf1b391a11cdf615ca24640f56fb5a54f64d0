@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.r-int.com
-url::market.android.com
-intent::android.intent.action.MAIN
-activity::.main
-url::https://market.android.com/details?id%3Dfpsankyufull.fpuezi&feature%3Dsearch_result\
-intent::android.intent.category.LAUNCHER
-url::http://www.r-int.com/contents07-app1.html\
-feature::android.hardware.screen.portrait

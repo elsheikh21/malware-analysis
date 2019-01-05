@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.ChoiceHashTag
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN
-intent::android.intent.category.DEFAULT

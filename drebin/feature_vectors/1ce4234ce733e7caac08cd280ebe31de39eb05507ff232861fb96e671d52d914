@@ -1,6 +1,0 @@
-url::www.madamgeeky.mobi
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.madamgeeky.mobi/2011/08/william-kate.html
-intent::android.intent.category.LAUNCHER
-activity::.WilliamAndKateActivity

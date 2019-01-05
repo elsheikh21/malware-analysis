@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.info
-intent::android.intent.action.MAIN
-service_receiver::Custom Analog Clock
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

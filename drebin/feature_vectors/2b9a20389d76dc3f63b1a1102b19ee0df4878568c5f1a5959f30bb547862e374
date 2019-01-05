@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.ContestActivity
-intent::android.intent.category.LAUNCHER
-url::http://www.androidslide.net/PhotoGallery.aspx?ContestID%3D2
-call::getPackageInfo
-url::www.androidslide.net

@@ -1,6 +1,0 @@
-activity::.ELcalcV
-activity::.Help
-intent::android.intent.action.MAIN
-feature::android.hardware.touchscreen
-intent::android.intent.category.LAUNCHER
-activity::.CalcV

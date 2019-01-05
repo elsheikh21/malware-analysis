@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.category.HOME
-service_receiver::StartupApp
-api_call::android/content/Context;->startService
-intent::android.intent.action.BOOT_COMPLETED
-permission::android.permission.RECEIVE_BOOT_COMPLETED
-service_receiver::TheService
-service_receiver::StartupService

@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://smafon.wa909.com/camerante/
-activity::.CameranteActivity
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::smafon.wa909.com

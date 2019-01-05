@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.NDKTest
-intent::android.intent.action.MAIN
-call::printStackTrace
-permission::android.permission.CHANGE_CONFIGURATION
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-call::getSystemService

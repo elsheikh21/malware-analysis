@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::sites.google.com
-intent::android.intent.action.MAIN
-activity::.EggsMain
-url::http://sites.google.com/site/androsoftsite/product1/
-intent::android.intent.category.LAUNCHER
-feature::android.hardware.screen.landscape

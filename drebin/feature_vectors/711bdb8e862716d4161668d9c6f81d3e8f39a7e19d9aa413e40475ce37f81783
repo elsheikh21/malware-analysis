@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::java/net/HttpURLConnection
-api_call::android/media/MediaPlayer;->start
-activity::.StartDice
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.WAKE_LOCK

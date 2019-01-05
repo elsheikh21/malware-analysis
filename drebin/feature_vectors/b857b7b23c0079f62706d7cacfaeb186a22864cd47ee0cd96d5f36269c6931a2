@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.freeandroidsoft.com
-activity::.aPlayer
-feature::android.hardware.screen.landscape
-intent::android.intent.category.LAUNCHER
-url::www.freeandroidsoft.com

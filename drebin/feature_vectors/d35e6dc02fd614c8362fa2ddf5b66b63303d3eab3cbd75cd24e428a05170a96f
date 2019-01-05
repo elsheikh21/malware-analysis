@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.StartGameActivity
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-activity::com.tvcoders.games.gp.AboutActivity
-api_call::android/app/Activity;->startActivity
-activity::com.tvcoders.games.gp.StartGameActivity
-call::getSystemService
-intent::android.intent.category.LAUNCHER

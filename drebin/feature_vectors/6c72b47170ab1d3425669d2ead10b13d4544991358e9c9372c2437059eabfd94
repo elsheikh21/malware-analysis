@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-call::getSystemService
-call::Read/Write External Storage

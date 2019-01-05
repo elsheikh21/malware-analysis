@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AppEntry
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo
-activity::iVaders

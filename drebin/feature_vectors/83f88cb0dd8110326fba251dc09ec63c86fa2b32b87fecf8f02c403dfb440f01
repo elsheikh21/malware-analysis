@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-api_call::android/content/Context;->startService
-call::getSystemService
-service_receiver::.HelloWidget$UpdateService

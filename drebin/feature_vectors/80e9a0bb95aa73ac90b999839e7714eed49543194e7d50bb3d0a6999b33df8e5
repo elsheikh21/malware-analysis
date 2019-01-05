@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://tasker.dinglisch.net/download.html
-intent::android.intent.action.MAIN
-permission::net.dinglisch.android.tasker.PERMISSION_RUN_TASKS
-call::getPackageInfo
-service_receiver::TaskerPlugin$TaskerTask
-url::tasker.dinglisch.net
-api_call::android/content/Context;->sendBroadcast
-activity::TaskerConfigureActivity

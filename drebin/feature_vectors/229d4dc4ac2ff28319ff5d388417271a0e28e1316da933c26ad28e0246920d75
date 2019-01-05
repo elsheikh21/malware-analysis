@@ -1,5 +1,0 @@
-activity::.SettingActivity
-feature::android.hardware.touchscreen
-api_call::android/content/Context;->startActivity
-provider::android.appwidget.provider
-intent::android.intent.action.MAIN

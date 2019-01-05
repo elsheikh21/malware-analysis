@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.RECEIVE_BOOT_COMPLETED
-provider::android.appwidget.provider
-service_receiver::Royal Clock (3x2)
-service_receiver::Royal Clock (2x2)
-intent::android.intent.action.BOOT_COMPLETED
-service_receiver::Royal Clock (3x3)
-service_receiver::Royal Clock (4x3)

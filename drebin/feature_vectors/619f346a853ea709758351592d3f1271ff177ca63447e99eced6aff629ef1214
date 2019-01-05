@@ -1,8 +1,0 @@
-permission::android.permission.SET_WALLPAPER
-feature::android.hardware.touchscreen
-activity::.Vodka
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-api_call::android/app/WallpaperManager;->setResource
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.SET_WALLPAPER

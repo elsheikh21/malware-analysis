@@ -1,6 +1,0 @@
-activity::.Info
-activity::.Help
-intent::android.intent.action.MAIN
-activity::.DateFirstScreen
-activity::.DateTest
-intent::android.intent.category.LAUNCHER

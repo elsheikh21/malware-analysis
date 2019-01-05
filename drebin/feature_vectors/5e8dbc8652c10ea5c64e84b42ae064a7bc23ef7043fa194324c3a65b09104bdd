@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-service_receiver::.UpdateService
-call::getSystemService
-service_receiver::BatteryStatusWidget

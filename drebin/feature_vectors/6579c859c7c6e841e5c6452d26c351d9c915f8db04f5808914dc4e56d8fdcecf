@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Poker
-activity::.Preferences
-call::getSystemService
-intent::android.intent.category.LAUNCHER

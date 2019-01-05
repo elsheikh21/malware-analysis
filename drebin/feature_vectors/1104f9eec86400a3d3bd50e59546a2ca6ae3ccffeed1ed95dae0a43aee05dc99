@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::cotacao.republicavirtual.com.br
-intent::android.intent.action.MAIN
-api_call::java/net/HttpURLConnection
-activity::.MainActivity
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://cotacao.republicavirtual.com.br/web_cotacao.php?formato%3Dxml
-intent::android.intent.category.LAUNCHER

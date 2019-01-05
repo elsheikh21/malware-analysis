@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::com.samir.luheshi.digitaldeskclock.DigitalAppWidgetProvider$UpdateService
-permission::android.permission.INTERNET
-api_call::android/content/Context;->startService
-service_receiver::com.samir.luheshi.digitaldeskclock.clockservice.timeservice
-provider::android.appwidget.provider

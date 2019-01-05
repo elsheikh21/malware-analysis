@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::com.crook.centurion.Rules
-intent::android.intent.action.MAIN
-activity::.Main
-feature::android.hardware.screen.portrait
-activity::com.crook.centurion.Start
-intent::android.intent.category.LAUNCHER

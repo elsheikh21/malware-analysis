@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MainActivity
-call::Read/Write External Storage
-intent::android.intent.category.LAUNCHER
-permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-call::getSystemService

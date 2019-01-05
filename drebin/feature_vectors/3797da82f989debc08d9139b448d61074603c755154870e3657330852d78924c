@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.blognone.com
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::www.blognone.com
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.Blognone
-intent::android.intent.category.LAUNCHER

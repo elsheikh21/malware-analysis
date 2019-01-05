@@ -1,6 +1,0 @@
-service_receiver::blueclock
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::com.idtech.widgets.blueclock.Info
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

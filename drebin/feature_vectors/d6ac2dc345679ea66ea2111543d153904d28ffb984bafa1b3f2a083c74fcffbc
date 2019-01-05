@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-real_permission::android.permission.INTERNET
-service_receiver::CMT Analog Synth
-intent::android.intent.category.LAUNCHER
-activity::.Analogue
-api_call::android/webkit/WebView

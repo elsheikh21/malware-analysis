@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.About
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-activity::.ObliqueStrategies
-activity::.Editions

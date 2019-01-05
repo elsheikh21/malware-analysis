@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::m.gymtechnik.com
-activity::.Main
-intent::android.intent.category.LAUNCHER
-url::http://m.gymtechnik.com

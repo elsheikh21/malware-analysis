@@ -1,6 +1,0 @@
-activity::E6B Randomizer HD
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AppEntry
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

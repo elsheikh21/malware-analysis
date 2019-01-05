@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-call::printStackTrace
-call::Read/Write External Storage
-service_receiver::WidgetProvider
-provider::android.appwidget.provider
-call::getSystemService

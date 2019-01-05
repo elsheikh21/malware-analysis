@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::https://www.qtoffice.com/mobile/
-activity::.Main
-intent::android.intent.category.LAUNCHER
-url::www.qtoffice.com

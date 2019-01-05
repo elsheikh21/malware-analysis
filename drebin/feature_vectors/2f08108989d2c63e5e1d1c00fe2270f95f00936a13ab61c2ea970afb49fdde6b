@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Info
-intent::android.intent.action.MAIN
-service_receiver::Arc Clock (2x2)
-service_receiver::Arc Clock Big (4x3)
-service_receiver::Arc Clock Big (3x3)
-provider::android.appwidget.provider
-intent::android.intent.category.INFO

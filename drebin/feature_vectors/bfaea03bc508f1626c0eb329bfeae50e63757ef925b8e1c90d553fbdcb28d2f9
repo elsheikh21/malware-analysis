@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::Nixie Clock Large (1x4)
-service_receiver::Nixie Clock Small (1x2)
-api_call::android/content/Context;->startActivity
-feature::android.hardware.screen.portrait
-service_receiver::NixieClkService
-provider::android.appwidget.provider
-call::getSystemService

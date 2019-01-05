@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Chooser
-activity::.Painter
-feature::android.hardware.screen.portrait
-activity::.Loader
-intent::android.intent.category.LAUNCHER
-intent::android.intent.category.DEFAULT

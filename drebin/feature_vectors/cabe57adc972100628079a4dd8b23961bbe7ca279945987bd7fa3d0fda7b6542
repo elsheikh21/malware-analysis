@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/media/MediaPlayer;->start
-activity::.CloudySkiesDemo
-feature::android.hardware.screen.portrait
-service_receiver::.receiver.SMSReceiver
-intent::android.intent.category.LAUNCHER
-activity::CloudySkiesDemo
-real_permission::android.permission.WAKE_LOCK

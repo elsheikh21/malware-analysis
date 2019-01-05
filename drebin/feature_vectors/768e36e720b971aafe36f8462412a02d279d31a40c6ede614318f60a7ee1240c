@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://bighits.net/cmbaby/index.php
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.baby
-intent::android.intent.category.LAUNCHER
-url::bighits.net

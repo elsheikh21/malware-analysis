@@ -1,7 +1,0 @@
-service_receiver::.BatStatWidget$UpdateService
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-intent::android.intent.action.ACTION_BATTERY_CHANGED
-api_call::android/content/Context;->startService
-activity::.BatStat
-provider::android.appwidget.provider

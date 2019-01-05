@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.Main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://www.aztux.com/cascadia
-intent::android.intent.category.LAUNCHER
-url::www.aztux.com

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.READ_LOGS
-api_call::java/lang/Runtime;->exec
-service_receiver::PwrService
-call::Execution of external commands
-api_call::android/content/Context;->startService
-service_receiver::.PowerButtonWidgetProvider
-provider::android.appwidget.provider

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::www.adamkomar.com
-url::http://www.adamkomar.com
-activity::.MtgEkgFree
-intent::android.intent.category.LAUNCHER

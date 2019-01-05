@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.AboutTimeActivity
-intent::android.intent.action.MAIN
-service_receiver::AboutTimeService
-intent::android.intent.category.LAUNCHER
-provider::android.appwidget.provider
-call::getSystemService

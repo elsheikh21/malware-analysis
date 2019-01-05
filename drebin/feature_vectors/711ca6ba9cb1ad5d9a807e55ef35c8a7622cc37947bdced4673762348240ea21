@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.fallen.se
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-permission::android.permission.INTERNET
-feature::android.hardware.screen.portrait
-url::http://www.fallen.se
-activity::.FallenReichScenGen
-intent::android.intent.category.LAUNCHER

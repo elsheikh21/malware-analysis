@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.bbthemeworld.com/tp/cherries
-intent::android.intent.action.MAIN
-activity::.Cherries
-intent::android.intent.category.LAUNCHER
-url::www.bbthemeworld.com

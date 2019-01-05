@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://androidbyedgard.com
-api_call::android/content/Context;->startActivity
-activity::.princ
-feature::android.hardware.screen.portrait
-intent::android.intent.category.LAUNCHER
-url::androidbyedgard.com

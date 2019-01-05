@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.PACKAGE_REMOVED
-activity::.MainActivity
-service_receiver::.MainUninstallReceiver
-intent::android.intent.category.DEFAULT
-provider::com.kugoweb.caltheme.eightcolorskorea.icon_provider
-call::getPackageInfo
-call::getSystemService

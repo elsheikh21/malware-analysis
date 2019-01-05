@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://spencerandbrown.com/mbb/android/
-activity::.PatientList
-intent::android.intent.category.LAUNCHER
-call::getSystemService
-url::spencerandbrown.com

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::AppWidgetService
-service_receiver::%E9%E8%E5%B0%E3%E3%B9%E6%E5%BB%E8%A1%A8%E3%A6%E3%A3%E3%B8%E3%A7%E3%E3
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider
-call::getSystemService

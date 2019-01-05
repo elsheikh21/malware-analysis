@@ -1,6 +1,0 @@
-url::www.madamgeeky.mobi
-feature::android.hardware.touchscreen
-activity::.Formula1Activity
-intent::android.intent.action.MAIN
-url::http://www.madamgeeky.mobi/2011/07/formula-1.html
-intent::android.intent.category.LAUNCHER

@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-activity::ChinesePaintingSettings
-api_call::android/content/Context;->startActivity
-call::printStackTrace

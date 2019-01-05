@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-intent::android.intent.action.MAIN
-url::http://www.hyper.gen.tr/
-url::https://market.android.com/developer?pub%3DHyper+Mobile
-url::www.hyper.gen.tr
-activity::.Hadisler
-intent::android.intent.category.LAUNCHER

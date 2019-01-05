@@ -1,9 +1,0 @@
-url::http://www.yahoo.com
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::www.yahoo.com
-permission::android.permission.INTERNET
-activity::.HelloWebView
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET

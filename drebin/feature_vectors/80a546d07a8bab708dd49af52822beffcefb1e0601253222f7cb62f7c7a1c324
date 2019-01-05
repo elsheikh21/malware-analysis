@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/media/MediaPlayer;->start
-real_permission::android.permission.WAKE_LOCK
-provider::android.appwidget.provider
-service_receiver::com.kostmo.widget.sfx.ServiceSfxPlayer

@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Preferences
-activity::.FluidsElytes
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

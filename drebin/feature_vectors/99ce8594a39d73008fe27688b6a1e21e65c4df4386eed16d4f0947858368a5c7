@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::java/net/HttpURLConnection
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-activity::.Bracket
-url::androidmadness.appspot.com
-url::http://androidmadness.appspot.com/

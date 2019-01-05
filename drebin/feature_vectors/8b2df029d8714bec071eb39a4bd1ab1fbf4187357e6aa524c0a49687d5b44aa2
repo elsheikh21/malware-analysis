@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-intent::android.intent.action.MAIN
-permission::android.permission.WAKE_LOCK
-activity::.AppEntry
-activity::MrMixit
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.KeyringEntryEdit
-intent::android.intent.action.MAIN
-call::printStackTrace
-call::Cipher(DESede/ECB/NoPadding)
-intent::android.intent.category.LAUNCHER
-activity::.Keyring

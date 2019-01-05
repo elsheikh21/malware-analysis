@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Info
-intent::android.intent.action.MAIN
-permission::android.permission.INTERNET
-service_receiver::SG Clock
-provider::android.appwidget.provider
-intent::android.intent.category.INFO
-service_receiver::SG Clock Big

@@ -1,3 +1,0 @@
-service_receiver::Failclock
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider

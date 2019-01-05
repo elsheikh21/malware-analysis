@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-intent::android.intent.action.MAIN
-url::http://market.android.com/search?q%3Dpub:FireZenk
-activity::.MainActivity
-intent::android.intent.category.LAUNCHER

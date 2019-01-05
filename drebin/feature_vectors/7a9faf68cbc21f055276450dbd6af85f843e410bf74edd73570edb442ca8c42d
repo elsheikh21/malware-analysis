@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.BLUETOOTH_ADMIN
-intent::android.intent.action.MAIN
-real_permission::android.permission.BLUETOOTH
-api_call::android/bluetooth/BluetoothAdapter;->listenUsingRfcommWithServiceRecord
-intent::android.intent.category.LAUNCHER
-activity::.SuperPetTrackEntry
-api_call::android/bluetooth/BluetoothAdapter;->cancelDiscovery

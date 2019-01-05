@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.engineer-jobs.com
-intent::android.intent.action.MAIN
-url::http://www.engineer-jobs.com/m/?mobile%3Dy
-activity::.BrowserActivity
-intent::android.intent.category.LAUNCHER

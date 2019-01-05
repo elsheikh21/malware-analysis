@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::69.64.75.72
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-url::http://69.64.75.72:8080/WebKitMobile/estorehome.html
-activity::.EstoreActivity

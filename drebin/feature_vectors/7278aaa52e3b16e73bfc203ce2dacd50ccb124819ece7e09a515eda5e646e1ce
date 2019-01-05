@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::www.madfuturist.com\%27>Billy
-intent::android.intent.action.MAIN
-activity::heian.sandan.HeianSandan
-url::http://www.madfuturist.com\%27>Billy
-intent::android.intent.category.LAUNCHER
-activity::.HeianSandan

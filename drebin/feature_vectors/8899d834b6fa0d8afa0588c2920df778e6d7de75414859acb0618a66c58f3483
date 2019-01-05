@@ -1,8 +1,0 @@
-permission::android.permission.VIBRATE
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::Gravity Lander
-activity::.AppEntry
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-call::getPackageInfo

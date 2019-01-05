@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.Pythagoras
-intent::android.intent.category.LAUNCHER
-activity::pythagoras.activity.Pythagoras
-activity::pythagoras.activity.EditorConfig

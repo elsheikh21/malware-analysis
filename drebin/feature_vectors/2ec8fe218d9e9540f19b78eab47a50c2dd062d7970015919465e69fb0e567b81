@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::com.znevsoft.heartmessage.WordWidget$UpdateService
-provider::android.appwidget.provider
-api_call::android/content/Context;->startService

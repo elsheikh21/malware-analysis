@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-call::printStackTrace
-permission::android.permission.INTERNET
-feature::android.hardware.screen.portrait
-activity::org.libsdl.app.SDLActivity
-intent::android.intent.category.LAUNCHER
-activity::.SDLActivity
-call::getSystemService

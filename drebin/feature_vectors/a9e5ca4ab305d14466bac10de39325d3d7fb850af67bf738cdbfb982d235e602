@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.BigBeautiful
-url::http://www.myconsumeradvantage.org/bb_dating.php
-intent::android.intent.action.MAIN
-url::www.myconsumeradvantage.org
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

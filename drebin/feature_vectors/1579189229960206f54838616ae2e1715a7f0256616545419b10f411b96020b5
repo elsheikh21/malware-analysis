@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.MinesweeperGame
-activity::com.VertexVerveInc.Games.MinesweeperGame
-intent::android.intent.action.MAIN
-intent::android.intent.category.LAUNCHER

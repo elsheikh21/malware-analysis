@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::market.android.com
-url::https://market.android.com/details?id%3Dlive.wall&feature%3Dsearch_result
-api_call::android/media/MediaPlayer;->start
-feature::android.hardware.screen.portrait
-call::getSystemService
-real_permission::android.permission.WAKE_LOCK

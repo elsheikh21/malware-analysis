@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-call::getSystemService
-activity::.TipMe
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

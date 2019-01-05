@@ -1,5 +1,0 @@
-activity::jp.chofu.ishihama.planets.PlanetActivity
-feature::android.hardware.touchscreen
-activity::.PlanetActivity
-intent::android.intent.category.LAUNCHER
-intent::android.intent.action.MAIN

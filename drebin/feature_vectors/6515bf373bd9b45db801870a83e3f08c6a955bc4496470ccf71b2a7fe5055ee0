@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.TubePlacer
-intent::android.intent.action.MAIN
-activity::Minibot Race
-intent::android.intent.category.LAUNCHER
-activity::.SettingsActivity

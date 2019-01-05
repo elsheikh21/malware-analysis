@@ -1,7 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.accountingontheweb.com/m/5mintour
-intent::android.intent.action.MAIN
-url::www.accountingontheweb.com
-url::http://www.accountingontheweb.com/m/
-activity::.IOTW
-intent::android.intent.category.LAUNCHER

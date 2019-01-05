@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.CW
-intent::android.intent.action.MAIN
-url::www.elguide.cc
-url::http://www.elguide.cc/cw.html
-intent::android.intent.category.LAUNCHER

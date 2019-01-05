@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::TarifGoster
-intent::android.intent.action.MAIN
-call::printStackTrace
-activity::Hakkinda
-activity::.MainScreen
-intent::android.intent.category.LAUNCHER
-activity::TarifListe

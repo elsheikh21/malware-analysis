@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::android/app/NotificationManager;->notify
-intent::android.intent.action.MAIN
-feature::android.hardware.screen.portrait
-activity::.Pedometer
-service_receiver::.PedometerService
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.VIBRATE
-call::getSystemService

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-call::Read/Write External Storage
-intent::android.intent.category.LAUNCHER
-activity::.FoodieCentralLite
-real_permission::android.permission.READ_CONTACTS
-api_call::android/content/ContentResolver;->query

@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.MonoActivity
-intent::android.intent.action.MAIN
-real_permission::android.permission.READ_LOGS
-api_call::java/lang/Runtime;->exec
-permission::android.permission.INTERNET
-call::Execution of external commands
-intent::android.intent.category.LAUNCHER

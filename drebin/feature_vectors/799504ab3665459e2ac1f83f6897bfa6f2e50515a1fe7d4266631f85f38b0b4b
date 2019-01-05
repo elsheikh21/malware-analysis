@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-service_receiver::Witness Analog Clock

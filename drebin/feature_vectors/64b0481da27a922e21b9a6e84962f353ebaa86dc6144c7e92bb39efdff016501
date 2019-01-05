@@ -1,6 +1,0 @@
-url::api.wmata.com
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::http://api.wmata.com/Incidents.svc/Incidents?api_key%3D5qtaymv2kg65cw8bukqz7wph

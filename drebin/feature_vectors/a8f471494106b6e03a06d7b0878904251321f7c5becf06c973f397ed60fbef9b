@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.Main
-url::sbardyuk.com
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::http://sbardyuk.com/android/flickrtop/index.php
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER

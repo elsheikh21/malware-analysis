@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::market.android.com
-call::printStackTrace
-activity::.MainActivity
-call::Read/Write External Storage
-intent::android.intent.category.LAUNCHER
-url::http://market.android.com/search?q%3Dpname:com.tat.mobile.moondict
-permission::android.permission.READ_EXTERNAL_STORAGE

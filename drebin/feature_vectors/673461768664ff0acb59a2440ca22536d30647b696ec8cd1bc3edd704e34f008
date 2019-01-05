@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/content/Context;->startActivity
-url::http://www.netmite.com/android/andme_signed.apk
-url::www.netmite.com
-url::http://www.netmite.com/android/srv/1.6/upload/IMMORTAL_OF_TIME_E62.jad
-call::getPackageInfo
-activity::.CMidlet
-intent::android.intent.category.LAUNCHER

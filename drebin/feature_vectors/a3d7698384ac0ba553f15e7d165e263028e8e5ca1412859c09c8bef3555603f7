@@ -1,3 +1,0 @@
-feature::android.hardware.touchscreen
-feature::android.hardware.sensor.accelerometer
-call::getSystemService

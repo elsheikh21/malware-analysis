@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-url::dmai-tel.jp
-intent::android.intent.action.MAIN
-url::http://dmai-tel.jp/?and01
-intent::android.intent.category.LAUNCHER
-activity::.LauncherMain

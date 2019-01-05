@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.z021
-intent::android.intent.action.MAIN
-url::http://hart-navi.com/smprh/index.html
-intent::android.intent.category.LAUNCHER
-url::hart-navi.com

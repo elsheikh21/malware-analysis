@@ -1,5 +1,0 @@
-call::getPackageInfo
-feature::android.hardware.touchscreen
-call::Obfuscation(Base64)
-call::Cipher(AES/CBC/PKCS5Padding)
-permission::com.android.vending.CHECK_LICENSE

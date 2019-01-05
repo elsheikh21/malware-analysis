@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::Shortcut
-intent::android.intent.action.MAIN
-activity::.Shortcut
-intent::android.intent.category.LAUNCHER

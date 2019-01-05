@@ -1,5 +1,0 @@
-feature::android.hardware.touchscreen
-activity::.OpenActivity
-intent::android.intent.action.MAIN
-feature::android.software.live_wallpaper
-intent::android.intent.category.INFO

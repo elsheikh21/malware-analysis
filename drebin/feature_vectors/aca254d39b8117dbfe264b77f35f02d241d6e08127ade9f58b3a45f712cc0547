@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.AnimSplash
-activity::com.fa53.apftBFCalc.AboutActivity
-intent::android.intent.category.LAUNCHER
-activity::EditTextActivity
-activity::com.fa53.apftBFCalc.Splash
-activity::com.fa53.apftBFCalc.MainActivity

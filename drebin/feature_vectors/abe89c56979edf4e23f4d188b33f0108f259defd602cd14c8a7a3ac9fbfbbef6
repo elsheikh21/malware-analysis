@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.hnb.hr/tecajn/f
-api_call::android/webkit/WebView
-activity::.HNBTecaj
-permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.INTERNET
-url::www.hnb.hr

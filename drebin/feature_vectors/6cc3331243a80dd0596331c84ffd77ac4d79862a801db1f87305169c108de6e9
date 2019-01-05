@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-url::m.quiltersclubofamerica.com
-permission::android.permission.INTERNET
-activity::.QuiltShopsActivity
-intent::android.intent.category.LAUNCHER
-url::http://m.quiltersclubofamerica.com/
-real_permission::android.permission.INTERNET

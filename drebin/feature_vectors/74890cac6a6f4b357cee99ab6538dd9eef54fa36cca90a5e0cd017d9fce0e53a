@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.z019
-url::http://pc.g-birthday.net/?adv%3Dandmk13
-url::pc.g-birthday.net
-intent::android.intent.category.LAUNCHER

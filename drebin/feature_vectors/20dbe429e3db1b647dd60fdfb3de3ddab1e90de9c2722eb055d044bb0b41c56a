@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://www.rambo.se/sites/www.rambo.se/fragakall-iphone.php
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-activity::.RamboKall
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::www.rambo.se
-intent::android.intent.category.LAUNCHER

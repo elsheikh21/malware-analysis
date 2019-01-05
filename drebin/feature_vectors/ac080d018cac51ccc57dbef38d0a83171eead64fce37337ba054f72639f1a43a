@@ -1,9 +1,0 @@
-url::http://mukho.org
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-activity::.MukHo
-url::mukho.org
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-intent::android.intent.category.LAUNCHER
-api_call::android/webkit/WebView

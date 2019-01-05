@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.MAIN
-url::http://www.tchoukballworld.net/app/articles.json
-activity::.main
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-url::www.tchoukballworld.net
-intent::android.intent.category.LAUNCHER
-api_call::java/net/URL;->openConnection

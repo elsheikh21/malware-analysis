@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-intent::android.intent.action.SEND
-call::getSystemService
-intent::android.intent.category.DEFAULT

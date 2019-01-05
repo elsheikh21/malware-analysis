@@ -1,9 +1,0 @@
-feature::android.hardware.touchscreen
-url::http://mobile.dassylter.de/v2and/
-intent::android.intent.action.MAIN
-api_call::android/webkit/WebView
-permission::android.permission.INTERNET
-real_permission::android.permission.INTERNET
-activity::.HelloWebView
-intent::android.intent.category.LAUNCHER
-url::mobile.dassylter.de

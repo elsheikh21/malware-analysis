@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.CAMERA
-permission::android.permission.WRITE_EXTERNAL_STORAGE
-feature::android.hardware.camera.autofocus
-feature::android.hardware.camera
-call::Read/Write External Storage
-api_call::android/hardware/Camera;->open
-permission::android.permission.CAMERA

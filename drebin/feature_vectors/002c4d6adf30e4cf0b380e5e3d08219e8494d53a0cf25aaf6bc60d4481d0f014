@@ -1,6 +1,0 @@
-feature::android.hardware.touchscreen
-service_receiver::.DukeNukemWidgetService
-api_call::android/content/Context;->startService
-provider::android.appwidget.provider
-api_call::android/media/MediaPlayer;->start
-real_permission::android.permission.WAKE_LOCK

@@ -1,9 +1,0 @@
-permission::android.permission.VIBRATE
-feature::android.hardware.touchscreen
-url::android.rabold.org
-api_call::android/content/Context;->startActivity
-api_call::android/os/Vibrator;->vibrate
-activity::.SearchMarketActivity
-real_permission::android.permission.VIBRATE
-url::http://android.rabold.org/my-projects/puzzle-blox/download
-call::getSystemService

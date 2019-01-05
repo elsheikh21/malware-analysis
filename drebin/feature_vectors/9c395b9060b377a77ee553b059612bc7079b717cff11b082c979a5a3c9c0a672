@@ -1,8 +1,0 @@
-activity::.RedSeaDance
-feature::android.hardware.touchscreen
-url::wwsnradio.com
-intent::android.intent.action.MAIN
-api_call::android/media/MediaPlayer;->start
-url::http://wwsnradio.com:8100
-intent::android.intent.category.LAUNCHER
-real_permission::android.permission.WAKE_LOCK

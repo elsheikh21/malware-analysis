@@ -1,6 +1,0 @@
-url::www.madamgeeky.mobi
-feature::android.hardware.touchscreen
-url::http://www.madamgeeky.mobi/2011/07/nicki-minaj.html
-intent::android.intent.action.MAIN
-activity::.NickiMinajActivity
-intent::android.intent.category.LAUNCHER

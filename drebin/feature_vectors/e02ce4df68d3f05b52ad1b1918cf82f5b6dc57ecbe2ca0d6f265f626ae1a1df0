@@ -1,4 +1,0 @@
-feature::android.hardware.touchscreen
-provider::android.appwidget.provider
-call::getSystemService
-permission::android.permission.WRITE_SETTINGS

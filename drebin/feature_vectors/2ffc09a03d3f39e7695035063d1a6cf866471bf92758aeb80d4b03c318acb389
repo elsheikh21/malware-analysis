@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
-intent::android.intent.action.MAIN
-activity::disable
-activity::.pissy
-activity::pissy
-intent::android.intent.category.LAUNCHER
-api_call::android/content/pm/PackageManager;->setComponentEnabledSetting

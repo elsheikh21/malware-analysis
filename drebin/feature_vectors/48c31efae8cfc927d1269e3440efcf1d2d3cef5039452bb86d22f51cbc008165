@@ -1,8 +1,0 @@
-feature::android.hardware.touchscreen
-api_call::java/net/URL;->openStream
-service_receiver::.SchemeREPL
-call::printStackTrace
-url::jscheme.sourceforge.net
-real_permission::android.permission.INTERNET
-url::http://jscheme.sourceforge.net/jscheme/lib/jscheme.jar
-url::http://jscheme.sourceforge.net
